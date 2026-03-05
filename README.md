@@ -10,6 +10,12 @@ Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/anthropic_
 ### DeepLearning.AI The Batch
 Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/deeplearning_the_batch_rss.xml
 
+### HuggingFace Blog
+Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/huggingface_blog_rss.xml
+
+### HuggingFace Trending Papers
+Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/huggingface_papers_rss.xml
+
 ## Features
 
 - **HTTP-based scraping**: Uses aiohttp for fast, lightweight HTTP requests
@@ -36,6 +42,9 @@ python anthropic_rss.py
 
 # Generate DeepLearning.AI The Batch RSS
 python deeplearning_rss.py
+
+# Generate HuggingFace Blog RSS
+python huggingface_rss.py
 ```
 
 ### GitHub Action Setup
@@ -74,6 +83,8 @@ Once set up, your RSS feeds will be available at:
 ```
 https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/anthropic_engineering_rss.xml
 https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/deeplearning_the_batch_rss.xml
+https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/huggingface_blog_rss.xml
+https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/huggingface_papers_rss.xml
 ```
 
 You can subscribe to these URLs in any RSS reader.

@@ -19,6 +19,9 @@ Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/huggin
 ### GitHub Trending Changes
 Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/github_trending_rss.xml
 
+### GitHub AI Ranking Changes
+Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/github_ranking_ai_rss.xml
+
 ## Features
 
 - **HTTP-based scraping**: Uses aiohttp for fast, lightweight HTTP requests
@@ -51,6 +54,9 @@ python huggingface_rss.py
 
 # Generate GitHub Trending RSS
 python github_trending_rss.py
+
+# Generate GitHub AI Ranking RSS
+python github_ranking_ai_rss.py
 ```
 
 ### GitHub Action Setup
@@ -92,6 +98,7 @@ https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/rss/deeplearning_
 https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/rss/huggingface_blog_rss.xml
 https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/rss/huggingface_papers_rss.xml
 https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/rss/github_trending_rss.xml
+https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/rss/github_ranking_ai_rss.xml
 ```
 
 You can subscribe to these URLs in any RSS reader.

@@ -77,7 +77,7 @@ class DeepLearningRSSGenerator:
         feed.link(href=self.base_url, rel='alternate')
         feed.description('Weekly AI News and Insights from DeepLearning.AI')
         feed.language('en')
-        feed.link(href='https://raw.githubusercontent.com/cnzhujie/anthropic-engineering-rss-feed/main/deeplearning_the_batch_rss.xml', rel='self')
+        feed.link(href='https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/deeplearning_the_batch_rss.xml', rel='self')
         
         return feed
 

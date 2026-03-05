@@ -1,12 +1,19 @@
-# Anthropic Engineering RSS Feed Generator
+# RSS Feed Generator
 
-This script generates an RSS feed for Anthropic's engineering blog posts using Playwright to scrape the client-side rendered content.
+This project generates RSS feeds for multiple AI-related blogs using HTTP requests and JSON parsing.
 
-Feed URL: https://raw.githubusercontent.com/conoro/anthropic-engineering-rss-feed/main/anthropic_engineering_rss.xml
+## Available Feeds
+
+### Anthropic Engineering Blog
+Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/anthropic_engineering_rss.xml
+
+### DeepLearning.AI The Batch
+Feed URL: https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/deeplearning_the_batch_rss.xml
 
 ## Features
 
-- **Client-side rendering support**: Uses Playwright to handle JavaScript-rendered content
+- **HTTP-based scraping**: Uses aiohttp for fast, lightweight HTTP requests
+- **JSON data extraction**: Parses `__NEXT_DATA__` for client-side rendered content
 - **Proper date parsing**: Extracts and formats publication dates with timezone support
 - **RSS compliance**: Includes GUID elements and atom:link for better interoperability
 - **Reverse chronological order**: Articles sorted newest first
@@ -22,14 +29,13 @@ Feed URL: https://raw.githubusercontent.com/conoro/anthropic-engineering-rss-fee
 pip install -r requirements.txt
 ```
 
-2. Install Playwright browsers:
+2. Run the scripts:
 ```bash
-playwright install
-```
-
-3. Run the main script:
-```bash
+# Generate Anthropic Engineering RSS
 python anthropic_rss.py
+
+# Generate DeepLearning.AI The Batch RSS
+python deeplearning_rss.py
 ```
 
 ### GitHub Action Setup
@@ -52,24 +58,25 @@ python anthropic_rss.py
    - Value: Paste the token you copied
    - Click "Add secret"
 
-4. Update the RSS feed URL in `anthropic_rss.py`:
-   - Replace `YOUR_USERNAME/YOUR_REPO` with your GitHub username and repository name
-   - The URL should be: `https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/anthropic_engineering_rss.xml`
+4. Update the RSS feed URLs in the scripts:
+   - Replace the URLs with your GitHub username and repository name
+   - Format: `https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/FILENAME.xml`
 
 5. The GitHub Action will automatically:
    - Run every hour (and on push to main)
-   - Generate a fresh RSS feed
+   - Generate fresh RSS feeds
    - Commit and push updates to the repository
-   - Make the RSS feed available at the raw GitHub URL
+   - Make the RSS feeds available at the raw GitHub URLs
 
-### Accessing the RSS Feed
+### Accessing the RSS Feeds
 
-Once set up, your RSS feed will be available at:
+Once set up, your RSS feeds will be available at:
 ```
 https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/anthropic_engineering_rss.xml
+https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/deeplearning_the_batch_rss.xml
 ```
 
-You can subscribe to this URL in any RSS reader.
+You can subscribe to these URLs in any RSS reader.
 
 ## Manual Triggering
 
@@ -78,21 +85,19 @@ You can manually trigger the RSS generation by:
 - Selecting "Generate Anthropic Engineering RSS Feed"
 - Clicking "Run workflow"
 
-## Usage
-
-Run the main script:
-```bash
-python anthropic_rss.py
-```
-
-The script will generate an `anthropic_engineering_rss.xml` file containing the RSS feed of all engineering blog posts from Anthropic.
-
 ## Output
 
-The generated RSS feed includes:
+The generated RSS feeds include:
 - Post titles
 - Post URLs  
 - Publication dates (properly formatted)
 - GUID elements for unique identification
-- Descriptions (same as titles)
+- Descriptions (custom excerpts when available)
 - Proper RSS metadata and atom:link elements
+
+## Dependencies
+
+- `aiohttp` - Async HTTP client
+- `beautifulsoup4` - HTML parsing
+- `feedgen` - RSS feed generation
+- `python-dateutil` - Date parsing

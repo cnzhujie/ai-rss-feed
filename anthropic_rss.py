@@ -89,7 +89,7 @@ class AnthropicRSSGenerator:
         
         # Add atom:link with rel="self" for better interoperability
         # This should be updated to match your actual GitHub Pages URL
-        feed.link(href='https://raw.githubusercontent.com/cnzhujie/anthropic-engineering-rss-feed/main/anthropic_engineering_rss.xml', rel='self')
+        feed.link(href='https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/anthropic_engineering_rss.xml', rel='self')
         
         return feed
 

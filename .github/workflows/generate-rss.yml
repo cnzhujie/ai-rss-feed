@@ -34,11 +34,13 @@ jobs:
         pip install -r requirements.txt
         
     - name: Generate RSS feed
-      run: python anthropic_rss.py
+      run: |
+        python anthropic_rss.py
+        python deeplearning_rss.py
       
     - name: Commit and push RSS feed
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add anthropic_engineering_rss.xml
+        git add *.xml
         git diff --staged --quiet || (git commit -m "Update RSS feed - $(date -u)" && git push "https://${{ secrets.ANTHROPIC_RSS_GH_TOKEN || github.token }}@github.com/${{ github.repository }}.git" HEAD:main)

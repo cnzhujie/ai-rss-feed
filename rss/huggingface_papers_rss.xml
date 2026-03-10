@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 04:48:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 05:53:28 +0000</lastBuildDate>
     <item>
       <title>Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey</title>
       <link>https://huggingface.co/papers/2603.04445</link>
@@ -136,15 +136,6 @@ Conversational agents are increasingly deployed in knowledge-intensive settings,
       <pubDate>Wed, 04 Mar 2026 18:34:47 +0000</pubDate>
     </item>
     <item>
-      <title>RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies</title>
-      <link>https://huggingface.co/papers/2603.04639</link>
-      <description>By Yinpei Dai, Hongze Fu, Jayjun Lee, Yuejiang Liu, Haoran Zhang, et al.
-
-Memory is critical for long-horizon and history-dependent robotic manipulation. Such tasks often involve counting repeated actions or manipulating objects that become temporarily occluded. Recent vision-language-action (VLA) models have begun to incorporate memory mechanisms; however, their evaluati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.04639</guid>
-      <pubDate>Wed, 04 Mar 2026 21:59:32 +0000</pubDate>
-    </item>
-    <item>
       <title>IF-RewardBench: Benchmarking Judge Models for Instruction-Following Evaluation</title>
       <link>https://huggingface.co/papers/2603.04738</link>
       <description>By Bosi Wen, Yilin Niu, Cunxiang Wang, Xiaoying Ling, Ying Zhang, et al.
@@ -179,6 +170,15 @@ Proximal constraints are fundamental to the stability of the Large Language Mode
 Scaling inference-time compute for Large Language Models (LLMs) has unlocked unprecedented reasoning capabilities. However, existing inference-time scaling methods typically rely on inefficient and suboptimal discrete search algorithms or trial-and-error prompting to improve the online policy. In th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.04948</guid>
       <pubDate>Thu, 05 Mar 2026 08:42:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>SeedPolicy: Horizon Scaling via Self-Evolving Diffusion Policy for Robot Manipulation</title>
+      <link>https://huggingface.co/papers/2603.05117</link>
+      <description>By Youqiang Gui, Yuxuan Zhou, Shen Cheng, Xinyang Yuan, Haoqiang Fan, et al.
+
+Imitation Learning (IL) enables robots to acquire manipulation skills from expert demonstrations. Diffusion Policy (DP) models multi-modal expert behaviors but suffers performance degradation as observation horizons increase, limiting long-horizon manipulation. We propose Self-Evolving Gated Attenti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.05117</guid>
+      <pubDate>Thu, 05 Mar 2026 12:42:53 +0000</pubDate>
     </item>
     <item>
       <title>Mario: Multimodal Graph Reasoning with Large Language Models</title>
@@ -271,15 +271,6 @@ Chain-of-thought (CoT) monitoring is a promising tool for detecting misbehaviors
       <pubDate>Thu, 05 Mar 2026 22:03:48 +0000</pubDate>
     </item>
     <item>
-      <title>PixARMesh: Autoregressive Mesh-Native Single-View Scene Reconstruction</title>
-      <link>https://huggingface.co/papers/2603.05888</link>
-      <description>By Xiang Zhang, Sohyun Yoo, Hongrui Wu, Chuan Li, Jianwen Xie, et al.
-
-We introduce PixARMesh, a method to autoregressively reconstruct complete 3D indoor scene meshes directly from a single RGB image. Unlike prior methods that rely on implicit signed distance fields and post-hoc layout optimization, PixARMesh jointly predicts object layout and geometry within a unifie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.05888</guid>
-      <pubDate>Fri, 06 Mar 2026 04:14:53 +0000</pubDate>
-    </item>
-    <item>
       <title>SLER-IR: Spherical Layer-wise Expert Routing for All-in-One Image Restoration</title>
       <link>https://huggingface.co/papers/2603.05940</link>
       <description>By Peng Shurui, Xin Lin, Shi Luo, Jincen Ou, Dizhe Zhang, et al.
@@ -307,15 +298,6 @@ Group Relative Policy Optimization (GRPO) is highly effective for post-training 
       <pubDate>Fri, 06 Mar 2026 08:55:37 +0000</pubDate>
     </item>
     <item>
-      <title>FlashPrefill: Instantaneous Pattern Discovery and Thresholding for Ultra-Fast Long-Context Prefilling</title>
-      <link>https://huggingface.co/papers/2603.06199</link>
-      <description>By Qihang Fan, Huaibo Huang, Zhiying Wu, Juqiu Wang, Bingning Wang, et al.
-
-Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. While various sparse attention mechanisms have been explored, they typically suffer from eithe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.06199</guid>
-      <pubDate>Fri, 06 Mar 2026 12:12:46 +0000</pubDate>
-    </item>
-    <item>
       <title>WorldCache: Accelerating World Models for Free via Heterogeneous Token Caching</title>
       <link>https://huggingface.co/papers/2603.06331</link>
       <description>By Weilun Feng, Guoxin Fan, Haotong Qin, Chuanguang Yang, Mingqiang Wu, et al.
@@ -325,15 +307,6 @@ Diffusion-based world models have shown strong potential for unified world simul
       <pubDate>Fri, 06 Mar 2026 14:43:47 +0000</pubDate>
     </item>
     <item>
-      <title>Dynamic Chunking Diffusion Transformer</title>
-      <link>https://huggingface.co/papers/2603.06351</link>
-      <description>By Akash Haridas, Utkarsh Saxena, Parsa Ashrafi Fashi, Mehdi Rezagholizadeh, Vikram Appia, et al.
-
-Diffusion Transformers process images as fixed-length sequences of tokens produced by a static patchify operation. While effective, this design spends uniform compute on low- and high-information regions alike, ignoring that images contain regions of varying detail and that the denoising process pro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.06351</guid>
-      <pubDate>Fri, 06 Mar 2026 14:59:11 +0000</pubDate>
-    </item>
-    <item>
       <title>Physical Simulator In-the-Loop Video Generation</title>
       <link>https://huggingface.co/papers/2603.06408</link>
       <description>By Lin Geng Foo, Mark He Huang, Alexandros Lattas, Stylianos Moschoglou, Thabo Beeler, et al.
@@ -341,6 +314,15 @@ Diffusion Transformers process images as fixed-length sequences of tokens produc
 Recent advances in diffusion-based video generation have achieved remarkable visual realism but still struggle to obey basic physical laws such as gravity, inertia, and collision. Generated objects often move inconsistently across frames, exhibit implausible dynamics, or violate physical constraints...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.06408</guid>
       <pubDate>Fri, 06 Mar 2026 15:48:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>CaTok: Taming Mean Flows for One-Dimensional Causal Image Tokenization</title>
+      <link>https://huggingface.co/papers/2603.06449</link>
+      <description>By Yitong Chen, Zuxuan Wu, Xipeng Qiu, Yu-Gang Jiang
+
+Autoregressive (AR) language models rely on causal tokenization, but extending this paradigm to vision remains non-trivial. Current visual tokenizers either flatten 2D patches into non-causal sequences or enforce heuristic orderings that misalign with the "next-token prediction" pattern. Recent diff...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.06449</guid>
+      <pubDate>Fri, 06 Mar 2026 16:39:17 +0000</pubDate>
     </item>
     <item>
       <title>Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders</title>
@@ -415,6 +397,15 @@ Current Graphical User Interface (GUI) agents operate primarily under a reactive
       <pubDate>Mon, 09 Mar 2026 06:41:32 +0000</pubDate>
     </item>
     <item>
+      <title>CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing</title>
+      <link>https://huggingface.co/papers/2603.08589</link>
+      <description>By Yucheng Wang, Zedong Wang, Yuetong Wu, Yue Ma, Dan Xu
+
+Unified diffusion editors often rely on a fixed, shared backbone for diverse tasks, suffering from task interference and poor adaptation to heterogeneous demands (e.g., local vs global, semantic vs photometric). In particular, prevalent ControlNet and OmniControl variants combine multiple conditioni...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.08589</guid>
+      <pubDate>Mon, 09 Mar 2026 16:40:47 +0000</pubDate>
+    </item>
+    <item>
       <title>OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning</title>
       <link>https://huggingface.co/papers/2603.08655</link>
       <description>By Krista Opsahl-Ong, Arnav Singhvi, Jasmine Collins, Ivan Zhou, Cindy Wang, et al.
@@ -422,6 +413,15 @@ Current Graphical User Interface (GUI) agents operate primarily under a reactive
 We introduce OfficeQA Pro, a benchmark for evaluating AI agents on grounded, multi-document reasoning over a large and heterogeneous document corpus. The corpus consists of U.S. Treasury Bulletins spanning nearly 100 years, comprising 89,000 pages and over 26 million numerical values. OfficeQA Pro c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.08655</guid>
       <pubDate>Mon, 09 Mar 2026 17:34:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Far Can Unsupervised RLVR Scale LLM Training?</title>
+      <link>https://huggingface.co/papers/2603.08660</link>
+      <description>By Bingxiang He, Yuxin Zuo, Zeyuan Liu, Shangziqi Zhao, Zixuan Fu, et al.
+
+Unsupervised reinforcement learning with verifiable rewards (URLVR) offers a pathway to scale LLM training beyond the supervision bottleneck by deriving rewards without ground truth labels. Recent works leverage model intrinsic signals, showing promising early gains, yet their potential and limitati...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.08660</guid>
+      <pubDate>Mon, 09 Mar 2026 17:38:11 +0000</pubDate>
     </item>
     <item>
       <title>HiAR: Efficient Autoregressive Long Video Generation via Hierarchical Denoising</title>

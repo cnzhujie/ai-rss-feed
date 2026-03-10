@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 09:54:46 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 10:51:56 +0000</lastBuildDate>
     <item>
       <title>Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey</title>
       <link>https://huggingface.co/papers/2603.04445</link>
@@ -46,15 +46,6 @@ In this paper, we address the problem of tactile sim-to-real policy transfer for
       <pubDate>Sat, 28 Feb 2026 03:59:33 +0000</pubDate>
     </item>
     <item>
-      <title>WildActor: Unconstrained Identity-Preserving Video Generation</title>
-      <link>https://huggingface.co/papers/2603.00586</link>
-      <description>By Qin Guo, Tianyu Yang, Xuanhua He, Fei Shen, Yong Zhang, et al.
-
-Production-ready human video generation requires digital actors to maintain strictly consistent full-body identities across dynamic shots, viewpoints and motions, a setting that remains challenging for existing methods. Prior methods often suffer from face-centric behavior that neglects body-level c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.00586</guid>
-      <pubDate>Sat, 28 Feb 2026 10:34:39 +0000</pubDate>
-    </item>
-    <item>
       <title>Autophoresis of a Janus particle near a planar wall: a lubrication limit</title>
       <link>https://huggingface.co/papers/2603.00791</link>
       <description>By Tachin Ruangkriengsin, Günther Turk, Howard A. Stone
@@ -71,15 +62,6 @@ We study the self-diffusiophoresis of a spherical chemically active particle nea
 Training neural PDE solvers is often bottlenecked by expensive data generation or unstable physics-informed neural network (PINN) involving challenging optimization landscapes due to higher-order derivatives. To tackle this issue, we propose an alternative approach using Monte Carlo approaches to es...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.01193</guid>
       <pubDate>Sun, 01 Mar 2026 17:23:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond the Grid: Layout-Informed Multi-Vector Retrieval with Parsed Visual Document Representations</title>
-      <link>https://huggingface.co/papers/2603.01666</link>
-      <description>By Yibo Yan, Mingdong Ou, Yi Cao, Xin Zou, Shuliang Liu, et al.
-
-Harnessing the full potential of visually-rich documents requires retrieval systems that understand not just text, but intricate layouts, a core challenge in Visual Document Retrieval (VDR). The prevailing multi-vector architectures, while powerful, face a crucial storage bottleneck that current opt...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.01666</guid>
-      <pubDate>Mon, 02 Mar 2026 09:55:00 +0000</pubDate>
     </item>
     <item>
       <title>Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation</title>
@@ -163,15 +145,6 @@ Imitation Learning (IL) enables robots to acquire manipulation skills from exper
       <pubDate>Thu, 05 Mar 2026 12:42:53 +0000</pubDate>
     </item>
     <item>
-      <title>Mario: Multimodal Graph Reasoning with Large Language Models</title>
-      <link>https://huggingface.co/papers/2603.05181</link>
-      <description>By Yuanfu Sun, Kang Li, Pengkang Guo, Jiajin Liu, Qiaoyu Tan
-
-Recent advances in large language models (LLMs) have opened new avenues for multimodal reasoning. Yet, most existing methods still rely on pretrained vision-language models (VLMs) to encode image-text pairs in isolation, ignoring the relational structure that real-world multimodal data naturally for...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.05181</guid>
-      <pubDate>Thu, 05 Mar 2026 13:49:41 +0000</pubDate>
-    </item>
-    <item>
       <title>Layer by layer, module by module: Choose both for optimal OOD probing of ViT</title>
       <link>https://huggingface.co/papers/2603.05280</link>
       <description>By Ambroise Odonnat, Vasilii Feofanov, Laetitia Chapel, Romain Tavenard, Ievgen Redko
@@ -188,15 +161,6 @@ Recent studies have observed that intermediate layers of foundation models often
 The landscape of AI coding assistance is undergoing a fundamental shift from complex IDE plugins to versatile, terminal-native agents. Operating directly where developers manage source control, execute builds, and deploy environments, CLI-based agents offer unprecedented autonomy for long-horizon de...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.05344</guid>
       <pubDate>Thu, 05 Mar 2026 16:21:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model</title>
-      <link>https://huggingface.co/papers/2603.05438</link>
-      <description>By Dongwon Kim, Gawon Seo, Jinsung Lee, Minsu Cho, Suha Kwak
-
-World models provide a powerful framework for simulating environment dynamics conditioned on actions or instructions, enabling downstream tasks such as action planning or policy learning. Recent approaches leverage world models as learned simulators, but its application to decision-time planning rem...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.05438</guid>
-      <pubDate>Thu, 05 Mar 2026 18:00:02 +0000</pubDate>
     </item>
     <item>
       <title>Spatiotemporal Heterogeneity of AI-Driven Traffic Flow Patterns and Land Use Interaction: A GeoAI-Based Analysis of Multimodal Urban Mobility</title>
@@ -280,6 +244,24 @@ Autoregressive (AR) language models rely on causal tokenization, but extending t
       <pubDate>Fri, 06 Mar 2026 16:39:17 +0000</pubDate>
     </item>
     <item>
+      <title>Making LLMs Optimize Multi-Scenario CUDA Kernels Like Experts</title>
+      <link>https://huggingface.co/papers/2603.07169</link>
+      <description>By Yuxuan Han, Meng-Hao Guo, Zhengning Liu, Wenguang Chen, Shi-Min Hu
+
+Optimizing GPU kernels manually is a challenging and time-consuming task. With the rapid development of LLMs, automated GPU kernel optimization is gradually becoming a tangible reality. However, current LLM-driven automated optimization methods narrowly focus on machine learning applications, such a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.07169</guid>
+      <pubDate>Sat, 07 Mar 2026 12:22:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlocking Data Value in Finance: A Study on Distillation and Difficulty-Aware Training</title>
+      <link>https://huggingface.co/papers/2603.07223</link>
+      <description>By Chuxue Cao, Honglin Lin, Zhanping Zhong, Xin Gao, Mengzhang Cai, et al.
+
+Large Language Models (LLMs) have demonstrated strong general capabilities, yet their deployment in finance remains challenging due to dense domain-specific terminology, stringent numerical reasoning requirements, and low tolerance for factual errors. We conduct a controlled empirical study showing ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.07223</guid>
+      <pubDate>Sat, 07 Mar 2026 14:07:37 +0000</pubDate>
+    </item>
+    <item>
       <title>HY-WU (Part I): An Extensible Functional Neural Memory Framework and An Instantiation in Text-Guided Image Editing</title>
       <link>https://huggingface.co/papers/2603.07236</link>
       <description>By Tencent HY Team
@@ -287,6 +269,15 @@ Autoregressive (AR) language models rely on causal tokenization, but extending t
 Foundation models are transitioning from offline predictors to deployed systems expected to operate over long time horizons. In real deployments, objectives are not fixed: domains drift, user preferences evolve, and new tasks appear after the model has shipped. This elevates continual learning and i...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.07236</guid>
       <pubDate>Sat, 07 Mar 2026 14:40:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>PresentBench: A Fine-Grained Rubric-Based Benchmark for Slide Generation</title>
+      <link>https://huggingface.co/papers/2603.07244</link>
+      <description>By Xin-Sheng Chen, Jiayu Zhu, Pei-lin Li, Hanzheng Wang, Shuojin Yang, et al.
+
+Slides serve as a critical medium for conveying information in presentation-oriented scenarios such as academia, education, and business. Despite their importance, creating high-quality slide decks remains time-consuming and cognitively demanding. Recent advances in generative models, such as Nano B...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.07244</guid>
+      <pubDate>Sat, 07 Mar 2026 14:54:50 +0000</pubDate>
     </item>
     <item>
       <title>AutoResearch-RL: Perpetual Self-Evaluating Reinforcement Learning Agents for Autonomous Neural Architecture Discovery</title>
@@ -386,6 +377,15 @@ Vision Transformers (ViTs) often degrade under distribution shifts because they 
 Modern vision-language-model (VLM) based graphical user interface (GUI) agents are expected not only to execute actions accurately but also to respond to user instructions with low latency. While existing research on GUI-agent security mainly focuses on manipulating action correctness, the security ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.08316</guid>
       <pubDate>Mon, 09 Mar 2026 12:38:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>NLE: Non-autoregressive LLM-based ASR by Transcript Editing</title>
+      <link>https://huggingface.co/papers/2603.08397</link>
+      <description>By Avihu Dekel, Samuel Thomas, Takashi Fukada, George Saon
+
+While autoregressive (AR) LLM-based ASR systems achieve strong accuracy, their sequential decoding limits parallelism and incurs high latency. We propose NLE, a non-autoregressive (NAR) approach that formulates speech recognition as conditional transcript editing, enabling fully parallel prediction....</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.08397</guid>
+      <pubDate>Mon, 09 Mar 2026 13:56:52 +0000</pubDate>
     </item>
     <item>
       <title>CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing</title>

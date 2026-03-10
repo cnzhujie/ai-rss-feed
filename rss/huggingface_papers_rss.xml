@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 07:01:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 08:55:06 +0000</lastBuildDate>
     <item>
       <title>Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey</title>
       <link>https://huggingface.co/papers/2603.04445</link>
@@ -46,6 +46,15 @@ Offline goal-conditioned reinforcement learning (GCRL) learns goal-conditioned p
       <pubDate>Thu, 26 Feb 2026 17:53:46 +0000</pubDate>
     </item>
     <item>
+      <title>HydroShear: Hydroelastic Shear Simulation for Tactile Sim-to-Real Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2603.00446</link>
+      <description>By An Dang, Jayjun Lee, Mustafa Mukadam, X. Alice Wu, Bernadette Bucher, et al.
+
+In this paper, we address the problem of tactile sim-to-real policy transfer for contact-rich tasks. Existing methods primarily focus on vision-based sensors and emphasize image rendering quality while providing overly simplistic models of force and shear. Consequently, these models exhibit a large ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.00446</guid>
+      <pubDate>Sat, 28 Feb 2026 03:59:33 +0000</pubDate>
+    </item>
+    <item>
       <title>WildActor: Unconstrained Identity-Preserving Video Generation</title>
       <link>https://huggingface.co/papers/2603.00586</link>
       <description>By Qin Guo, Tianyu Yang, Xuanhua He, Fei Shen, Yong Zhang, et al.
@@ -80,15 +89,6 @@ Training neural PDE solvers is often bottlenecked by expensive data generation o
 Harnessing the full potential of visually-rich documents requires retrieval systems that understand not just text, but intricate layouts, a core challenge in Visual Document Retrieval (VDR). The prevailing multi-vector architectures, while powerful, face a crucial storage bottleneck that current opt...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.01666</guid>
       <pubDate>Mon, 02 Mar 2026 09:55:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>π-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs</title>
-      <link>https://huggingface.co/papers/2603.02083</link>
-      <description>By Siting Wang, Xiaofeng Wang, Zheng Zhu, Minnan Pei, Xinyu Cui, et al.
-
-Flow-based vision-language-action (VLA) models excel in embodied control but suffer from intractable likelihoods during multi-step sampling, hindering online reinforcement learning. We propose \textit{boldsymbolπ-StepNFT} (Step-wise Negative-aware Fine-Tuning), a critic-and-likelihood-free framework...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.02083</guid>
-      <pubDate>Mon, 02 Mar 2026 17:04:49 +0000</pubDate>
     </item>
     <item>
       <title>Generalizable Knowledge Distillation from Vision Foundation Models for Semantic Segmentation</title>
@@ -154,15 +154,6 @@ Sequential LLM agents fail on long-horizon planning with hard constraints like b
       <pubDate>Thu, 05 Mar 2026 02:55:53 +0000</pubDate>
     </item>
     <item>
-      <title>BandPO: Bridging Trust Regions and Ratio Clipping via Probability-Aware Bounds for LLM Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2603.04918</link>
-      <description>By Yuan Li, Bo Wang, Yufei Gao, Yuqian Yao, Xinyuan Wang, et al.
-
-Proximal constraints are fundamental to the stability of the Large Language Model reinforcement learning. While the canonical clipping mechanism in PPO serves as an efficient surrogate for trust regions, we identify a critical bottleneck: fixed bounds strictly constrain the upward update margin of l...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.04918</guid>
-      <pubDate>Thu, 05 Mar 2026 08:03:05 +0000</pubDate>
-    </item>
-    <item>
       <title>nabla-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space</title>
       <link>https://huggingface.co/papers/2603.04948</link>
       <description>By Peihao Wang, Ruisi Cai, Zhen Wang, Hongyuan Mei, Qiang Liu, et al.
@@ -199,13 +190,13 @@ Recent studies have observed that intermediate layers of foundation models often
       <pubDate>Thu, 05 Mar 2026 15:23:41 +0000</pubDate>
     </item>
     <item>
-      <title>Progressive Residual Warmup for Language Model Pretraining</title>
-      <link>https://huggingface.co/papers/2603.05369</link>
-      <description>By Tianhao Chen, Xin Xu, Lu Yin, Hao Chen, Yang Wang, et al.
+      <title>Building AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned</title>
+      <link>https://huggingface.co/papers/2603.05344</link>
+      <description>By Nghi D. Q. Bui
 
-Transformer architectures serve as the backbone for most modern Large Language Models, therefore their pretraining stability and convergence speed are of central concern. Motivated by the logical dependency of sequentially stacked layers, we propose Progressive Residual Warmup (ProRes) for language ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.05369</guid>
-      <pubDate>Thu, 05 Mar 2026 16:52:15 +0000</pubDate>
+The landscape of AI coding assistance is undergoing a fundamental shift from complex IDE plugins to versatile, terminal-native agents. Operating directly where developers manage source control, execute builds, and deploy environments, CLI-based agents offer unprecedented autonomy for long-horizon de...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.05344</guid>
+      <pubDate>Thu, 05 Mar 2026 16:21:08 +0000</pubDate>
     </item>
     <item>
       <title>Planning in 8 Tokens: A Compact Discrete Tokenizer for Latent World Model</title>
@@ -269,15 +260,6 @@ Agentic systems operating over large tool ecosystems must plan and execute long-
 What happens when a storyteller forgets its own story? Large Language Models (LLMs) can now generate narratives spanning tens of thousands of words, but they often fail to maintain consistency throughout. When generating long-form narratives, these models can contradict their own established facts, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.05890</guid>
       <pubDate>Fri, 06 Mar 2026 04:16:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>SLER-IR: Spherical Layer-wise Expert Routing for All-in-One Image Restoration</title>
-      <link>https://huggingface.co/papers/2603.05940</link>
-      <description>By Peng Shurui, Xin Lin, Shi Luo, Jincen Ou, Dizhe Zhang, et al.
-
-Image restoration under diverse degradations remains challenging for unified all-in-one frameworks due to feature interference and insufficient expert specialization. We propose SLER-IR, a spherical layer-wise expert routing framework that dynamically activates specialized experts across network lay...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.05940</guid>
-      <pubDate>Fri, 06 Mar 2026 06:16:57 +0000</pubDate>
     </item>
     <item>
       <title>EffectMaker: Unifying Reasoning and Generation for Customized Visual Effect Creation</title>
@@ -352,6 +334,15 @@ The pursuit of spatial intelligence fundamentally relies on access to large-scal
       <pubDate>Sun, 08 Mar 2026 14:49:20 +0000</pubDate>
     </item>
     <item>
+      <title>TDM-R1: Reinforcing Few-Step Diffusion Models with Non-Differentiable Reward</title>
+      <link>https://huggingface.co/papers/2603.07700</link>
+      <description>By Yihong Luo, Tianyang Hu, Weijian Luo, Jing Tang
+
+While few-step generative models have enabled powerful image and video generation at significantly lower cost, generic reinforcement learning (RL) paradigms for few-step models remain an unsolved problem. Existing RL approaches for few-step diffusion models strongly rely on back-propagating through ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.07700</guid>
+      <pubDate>Sun, 08 Mar 2026 15:57:10 +0000</pubDate>
+    </item>
+    <item>
       <title>NaviDriveVLM: Decoupling High-Level Reasoning and Motion Planning for Autonomous Driving</title>
       <link>https://huggingface.co/papers/2603.07901</link>
       <description>By Ximeng Tao, Pardis Taghavi, Dimitar Filev, Reza Langari, Gaurav Pandey
@@ -386,6 +377,15 @@ Current Graphical User Interface (GUI) agents operate primarily under a reactive
 Vision Transformers (ViTs) often degrade under distribution shifts because they rely on spurious correlations, such as background cues, rather than semantically meaningful features. Existing regularization methods, typically relying on simple foreground-background masks, which fail to capture the fi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.08309</guid>
       <pubDate>Mon, 09 Mar 2026 12:31:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>SlowBA: An efficiency backdoor attack towards VLM-based GUI agents</title>
+      <link>https://huggingface.co/papers/2603.08316</link>
+      <description>By Junxian Li, Tu Lan, Haozhen Tan, Yan Meng, Haojin Zhu
+
+Modern vision-language-model (VLM) based graphical user interface (GUI) agents are expected not only to execute actions accurately but also to respond to user instructions with low latency. While existing research on GUI-agent security mainly focuses on manipulating action correctness, the security ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.08316</guid>
+      <pubDate>Mon, 09 Mar 2026 12:38:28 +0000</pubDate>
     </item>
     <item>
       <title>CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing</title>

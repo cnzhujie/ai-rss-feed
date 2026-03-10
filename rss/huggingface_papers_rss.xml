@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 08:55:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 09:54:46 +0000</lastBuildDate>
     <item>
       <title>Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey</title>
       <link>https://huggingface.co/papers/2603.04445</link>
@@ -26,15 +26,6 @@ The rapid growth of large language models (LLMs) with diverse capabilities, cost
 Presentation generation requires deep content research, coherent visual design, and iterative refinement based on observation. However, existing presentation agents often rely on predefined workflows and fixed templates. To address this, we present DeepPresenter, an agentic framework that adapts to ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2602.22839</guid>
       <pubDate>Thu, 26 Feb 2026 10:26:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Demystifying Action Space Design for Robotic Manipulation Policies</title>
-      <link>https://huggingface.co/papers/2602.23408</link>
-      <description>By Yuchun Feng, Jinliang Zheng, Zhihao Wang, Dongxiu Liu, Jianxiong Li, et al.
-
-The specification of the action space plays a pivotal role in imitation-based robotic manipulation policy learning, fundamentally shaping the optimization landscape of policy learning. While recent advances have focused heavily on scaling training data and model capacity, the choice of action space ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2602.23408</guid>
-      <pubDate>Thu, 26 Feb 2026 13:32:41 +0000</pubDate>
     </item>
     <item>
       <title>Physics Informed Viscous Value Representations</title>
@@ -145,15 +136,6 @@ Instruction-following is a foundational capability of large language models (LLM
       <pubDate>Thu, 05 Mar 2026 02:21:17 +0000</pubDate>
     </item>
     <item>
-      <title>HiMAP-Travel: Hierarchical Multi-Agent Planning for Long-Horizon Constrained Travel</title>
-      <link>https://huggingface.co/papers/2603.04750</link>
-      <description>By The Viet Bui, Wenjun Li, Yong Liu
-
-Sequential LLM agents fail on long-horizon planning with hard constraints like budgets and diversity requirements. As planning progresses and context grows, these agents drift from global constraints. We propose HiMAP-Travel, a hierarchical multi-agent framework that splits planning into strategic c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.04750</guid>
-      <pubDate>Thu, 05 Mar 2026 02:55:53 +0000</pubDate>
-    </item>
-    <item>
       <title>nabla-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space</title>
       <link>https://huggingface.co/papers/2603.04948</link>
       <description>By Peihao Wang, Ruisi Cai, Zhen Wang, Hongyuan Mei, Qiang Liu, et al.
@@ -161,6 +143,15 @@ Sequential LLM agents fail on long-horizon planning with hard constraints like b
 Scaling inference-time compute for Large Language Models (LLMs) has unlocked unprecedented reasoning capabilities. However, existing inference-time scaling methods typically rely on inefficient and suboptimal discrete search algorithms or trial-and-error prompting to improve the online policy. In th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.04948</guid>
       <pubDate>Thu, 05 Mar 2026 08:42:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>TAPFormer: Robust Arbitrary Point Tracking via Transient Asynchronous Fusion of Frames and Events</title>
+      <link>https://huggingface.co/papers/2603.04989</link>
+      <description>By Jiaxiong Liu, Zhen Tan, Jinpu Zhang, Yi Zhou, Hui Shen, et al.
+
+Tracking any point (TAP) is a fundamental yet challenging task in computer vision, requiring high precision and long-term motion reasoning. Recent attempts to combine RGB frames and event streams have shown promise, yet they typically rely on synchronous or non-adaptive fusion, leading to temporal m...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.04989</guid>
+      <pubDate>Thu, 05 Mar 2026 09:32:24 +0000</pubDate>
     </item>
     <item>
       <title>SeedPolicy: Horizon Scaling via Self-Evolving Diffusion Policy for Robot Manipulation</title>
@@ -235,15 +226,6 @@ Computer-Aided Design (CAD) relies on structured and editable geometric represen
       <pubDate>Thu, 05 Mar 2026 19:04:07 +0000</pubDate>
     </item>
     <item>
-      <title>Making Reconstruction FID Predictive of Diffusion Generation FID</title>
-      <link>https://huggingface.co/papers/2603.05630</link>
-      <description>By Tongda Xu, Mingwei He, Shady Abu-Hussein, Jose Miguel Hernandez-Lobato, Haotian Zhang, et al.
-
-It is well known that the reconstruction FID (rFID) of a VAE is poorly correlated with the generation FID (gFID) of a latent diffusion model. We propose interpolated FID (iFID), a simple variant of rFID that exhibits a strong correlation with gFID. Specifically, for each element in the dataset, we r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.05630</guid>
-      <pubDate>Thu, 05 Mar 2026 19:39:01 +0000</pubDate>
-    </item>
-    <item>
       <title>Scaling Agentic Capabilities, Not Context: Efficient Reinforcement Finetuning for Large Toolspaces</title>
       <link>https://huggingface.co/papers/2603.06713</link>
       <description>By Karan Gupta, Pranav Vajreshwari, Yash Pandya, Raghav Magazine, Akshay Nambi, et al.
@@ -298,6 +280,15 @@ Autoregressive (AR) language models rely on causal tokenization, but extending t
       <pubDate>Fri, 06 Mar 2026 16:39:17 +0000</pubDate>
     </item>
     <item>
+      <title>HY-WU (Part I): An Extensible Functional Neural Memory Framework and An Instantiation in Text-Guided Image Editing</title>
+      <link>https://huggingface.co/papers/2603.07236</link>
+      <description>By Tencent HY Team
+
+Foundation models are transitioning from offline predictors to deployed systems expected to operate over long time horizons. In real deployments, objectives are not fixed: domains drift, user preferences evolve, and new tasks appear after the model has shipped. This elevates continual learning and i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.07236</guid>
+      <pubDate>Sat, 07 Mar 2026 14:40:05 +0000</pubDate>
+    </item>
+    <item>
       <title>AutoResearch-RL: Perpetual Self-Evaluating Reinforcement Learning Agents for Autonomous Neural Architecture Discovery</title>
       <link>https://huggingface.co/papers/2603.07300</link>
       <description>By Nilesh Jain, Rohit Yadav, Sagar Kotian, Claude AI
@@ -341,6 +332,15 @@ The pursuit of spatial intelligence fundamentally relies on access to large-scal
 While few-step generative models have enabled powerful image and video generation at significantly lower cost, generic reinforcement learning (RL) paradigms for few-step models remain an unsolved problem. Existing RL approaches for few-step diffusion models strongly rely on back-propagating through ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.07700</guid>
       <pubDate>Sun, 08 Mar 2026 15:57:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>MWM: Mobile World Models for Action-Conditioned Consistent Prediction</title>
+      <link>https://huggingface.co/papers/2603.07799</link>
+      <description>By Han Yan, Zishang Xiang, Zeyu Zhang, Hao Tang
+
+World models enable planning in imagined future predicted space, offering a promising framework for embodied navigation. However, existing navigation world models often lack action-conditioned consistency, so visually plausible predictions can still drift under multi-step rollout and degrade plannin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.07799</guid>
+      <pubDate>Sun, 08 Mar 2026 20:54:50 +0000</pubDate>
     </item>
     <item>
       <title>NaviDriveVLM: Decoupling High-Level Reasoning and Motion Planning for Autonomous Driving</title>

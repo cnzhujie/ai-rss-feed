@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Mar 2026 11:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 13:18:43 +0000</lastBuildDate>
     <item>
       <title>Multi-Head Low-Rank Attention</title>
       <link>https://huggingface.co/papers/2603.02188</link>
@@ -71,15 +71,6 @@ Video generative models (VGMs) pretrained on large-scale internet data can produ
 While Large Language Models (LLMs) have revolutionized code generation, standard "System 1" approaches, generating solutions in a single forward pass, often hit a performance ceiling when faced with complex algorithmic tasks. Existing iterative refinement strategies attempt to bridge this gap at inf...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.05863</guid>
       <pubDate>Fri, 06 Mar 2026 03:38:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement</title>
-      <link>https://huggingface.co/papers/2603.06333</link>
-      <description>By Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary
-
-Recursive self-improvement is moving from theory to practice: modern systems can critique, revise, and evaluate their own outputs, yet iterative self-modification risks subtle alignment drift. We introduce SAHOO, a practical framework to monitor and control drift through three safeguards: (i) the Go...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.06333</guid>
-      <pubDate>Fri, 06 Mar 2026 14:44:51 +0000</pubDate>
     </item>
     <item>
       <title>Omni-Diffusion: Unified Multimodal Understanding and Generation with Masked Discrete Diffusion</title>
@@ -226,15 +217,6 @@ Reinforcement Learning from Verifiable Rewards (RLVR) significantly enhances lar
       <pubDate>Tue, 10 Mar 2026 02:47:59 +0000</pubDate>
     </item>
     <item>
-      <title>The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness</title>
-      <link>https://huggingface.co/papers/2603.09200</link>
-      <description>By Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary
-
-Situational awareness, the capacity of an AI system to recognize its own nature, understand its training and deployment context, and reason strategically about its circumstances, is widely considered among the most dangerous emergent capabilities in advanced AI systems. Separately, a growing researc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.09200</guid>
-      <pubDate>Tue, 10 Mar 2026 05:18:48 +0000</pubDate>
-    </item>
-    <item>
       <title>MM-Zero: Self-Evolving Multi-Model Vision Language Models From Zero Data</title>
       <link>https://huggingface.co/papers/2603.09206</link>
       <description>By Zongxia Li, Hongyang Du, Chengsong Huang, Xiyang Wu, Lantao Yu, et al.
@@ -269,6 +251,15 @@ k-means has historically been positioned primarily as an offline processing prim
 Agents must infer action outcomes and select actions that maximize a reward signal indicating how close the goal is to being reached. Supervised learning of reward models could introduce biases inherent to training data, limiting generalization to novel goals and environments. In this paper, we inve...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.09400</guid>
       <pubDate>Tue, 10 Mar 2026 09:12:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>StyleVLA: Driving Style-Aware Vision Language Action Model for Autonomous Driving</title>
+      <link>https://huggingface.co/papers/2603.09482</link>
+      <description>By Yuan Gao, Dengyuan Hua, Mattia Piccinini, Finn Rasmus Schäfer, Korbinian Moller, et al.
+
+Vision Language Models (VLMs) bridge visual perception and linguistic reasoning. In Autonomous Driving (AD), this synergy has enabled Vision Language Action (VLA) models, which translate high-level multimodal understanding into driving behaviors, typically represented as future trajectories. However...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.09482</guid>
+      <pubDate>Tue, 10 Mar 2026 10:33:58 +0000</pubDate>
     </item>
     <item>
       <title>Streaming Autoregressive Video Generation via Diagonal Distillation</title>
@@ -377,6 +368,15 @@ Training large language models (LLMs) on Python execution traces grounds them in
 Reinforcement Learning with Verifiable Rewards (RLVR) has significantly advanced the reasoning capacity of Large Language Models (LLMs). However, RLVR solely relies on final answers as outcome rewards, neglecting the correctness of intermediate reasoning steps. Training on these process-wrong but ou...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.10101</guid>
       <pubDate>Tue, 10 Mar 2026 17:59:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lost in Backpropagation: The LM Head is a Gradient Bottleneck</title>
+      <link>https://huggingface.co/papers/2603.10145</link>
+      <description>By Nathan Godey, Yoav Artzi
+
+The last layer of neural language models (LMs) projects output features of dimension D to logits in dimension V, the size of the vocabulary, where usually D ll V. This mismatch is known to raise risks of limited expressivity in neural LMs, creating a so-called softmax bottleneck. We show the softmax...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.10145</guid>
+      <pubDate>Tue, 10 Mar 2026 18:27:01 +0000</pubDate>
     </item>
     <item>
       <title>ReMix: Reinforcement routing for mixtures of LoRAs in LLM finetuning</title>

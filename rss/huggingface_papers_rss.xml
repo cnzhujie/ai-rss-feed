@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2026 11:02:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 13:43:56 +0000</lastBuildDate>
     <item>
       <title>A Mixed Diet Makes DINO An Omnivorous Vision Encoder</title>
       <link>https://huggingface.co/papers/2602.24181</link>
@@ -62,6 +62,15 @@ Accent is an integral part of society, reflecting multiculturalism and shaping h
 Diffusion models have demonstrated a remarkable ability in Text-to-Image (T2I) generation applications. Despite the advanced generation output, they suffer from heavy computation overhead, especially for large models that contain tens of billions of parameters. Prior work has illustrated that replac...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.07815</guid>
       <pubDate>Sun, 08 Mar 2026 21:34:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery</title>
+      <link>https://huggingface.co/papers/2603.08127</link>
+      <description>By Yougang Lyu, Xi Zhang, Xinhao Yi, Yuyue Zhao, Shuyu Guo, et al.
+
+The increasing adoption of Large Language Models (LLMs) has enabled AI scientists to perform complex end-to-end scientific discovery tasks requiring coordination of specialized roles, including idea generation and experimental execution. However, most state-of-the-art AI scientist systems rely on st...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.08127</guid>
+      <pubDate>Mon, 09 Mar 2026 09:07:19 +0000</pubDate>
     </item>
     <item>
       <title>WaDi: Weight Direction-aware Distillation for One-step Image Synthesis</title>
@@ -172,6 +181,15 @@ Transformer-based large language models (LLMs) rely on key-value (KV) caching to
       <pubDate>Wed, 11 Mar 2026 15:44:32 +0000</pubDate>
     </item>
     <item>
+      <title>ECoLAD: Deployment-Oriented Evaluation for Automotive Time-Series Anomaly Detection</title>
+      <link>https://huggingface.co/papers/2603.10926</link>
+      <description>By Kadir-Kaan Özer, René Ebeling, Markus Enzweiler
+
+Time-series anomaly detectors are commonly compared on workstation-class hardware under unconstrained execution. In-vehicle monitoring, however, requires predictable latency and stable behavior under limited CPU parallelism. Accuracy-only leaderboards can therefore misrepresent which methods remain ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.10926</guid>
+      <pubDate>Wed, 11 Mar 2026 16:08:56 +0000</pubDate>
+    </item>
+    <item>
       <title>Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation</title>
       <link>https://huggingface.co/papers/2603.11045</link>
       <description>By Tao Zhong, Yixun Hu, Dongzhe Zheng, Aditya Sood, Christine Allen-Blanchette
@@ -206,15 +224,6 @@ This paper introduces MR-Search, an in-context meta reinforcement learning (RL) 
 Autonomous agents, especially delegated systems with memory, persistent context, and multi-step planning, pose a measurement problem not present in stateless models: an agent that preserves continued operation as a terminal objective and one that does so merely instrumentally can produce observation...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.11382</guid>
       <pubDate>Wed, 11 Mar 2026 23:52:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mobile-GS: Real-time Gaussian Splatting for Mobile Devices</title>
-      <link>https://huggingface.co/papers/2603.11531</link>
-      <description>By Xiaobiao Du, Yida Wang, Kun Zhan, Xin Yu
-
-3D Gaussian Splatting (3DGS) has emerged as a powerful representation for high-quality rendering across a wide range of applications.However, its high computational demands and large storage costs pose significant challenges for deployment on mobile devices. In this work, we propose a mobile-tailore...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.11531</guid>
-      <pubDate>Thu, 12 Mar 2026 04:33:04 +0000</pubDate>
     </item>
     <item>
       <title>OmniForcing: Unleashing Real-time Joint Audio-Visual Generation</title>
@@ -280,15 +289,6 @@ Multimodal agents can now tackle complex reasoning tasks with diverse tools, yet
       <pubDate>Thu, 12 Mar 2026 15:25:57 +0000</pubDate>
     </item>
     <item>
-      <title>EmbTracker: Traceable Black-box Watermarking for Federated Language Models</title>
-      <link>https://huggingface.co/papers/2603.12089</link>
-      <description>By Haodong Zhao, Jinming Hu, Yijie Bai, Tian Dong, Wei Du, et al.
-
-Federated Language Model (FedLM) allows a collaborative learning without sharing raw data, yet it introduces a critical vulnerability, as every untrustworthy client may leak the received functional model instance. Current watermarking schemes for FedLM often require white-box access and client-side ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.12089</guid>
-      <pubDate>Thu, 12 Mar 2026 15:57:32 +0000</pubDate>
-    </item>
-    <item>
       <title>Automatic Generation of High-Performance RL Environments</title>
       <link>https://huggingface.co/papers/2603.12145</link>
       <description>By Seth Karten, Rahul Dev Appapogu, Chi Jin
@@ -296,15 +296,6 @@ Federated Language Model (FedLM) allows a collaborative learning without sharing
 Translating complex reinforcement learning (RL) environments into high-performance implementations has traditionally required months of specialized engineering. We present a reusable recipe - a generic prompt template, hierarchical verification, and iterative agent-assisted repair - that produces se...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.12145</guid>
       <pubDate>Thu, 12 Mar 2026 16:45:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse</title>
-      <link>https://huggingface.co/papers/2603.12201</link>
-      <description>By Yushi Bai, Qian Dong, Ting Jiang, Xin Lv, Zhengxiao Du, et al.
-
-Long-context agentic workflows have emerged as a defining use case for large language models, making attention efficiency critical for both inference speed and serving cost. Sparse attention addresses this challenge effectively, and DeepSeek Sparse Attention (DSA) is a representative production-grad...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.12201</guid>
-      <pubDate>Thu, 12 Mar 2026 17:27:21 +0000</pubDate>
     </item>
     <item>
       <title>Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights</title>
@@ -325,15 +316,6 @@ Existing video depth estimation faces a fundamental trade-off: generative models
       <pubDate>Thu, 12 Mar 2026 17:58:06 +0000</pubDate>
     </item>
     <item>
-      <title>Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training</title>
-      <link>https://huggingface.co/papers/2603.12255</link>
-      <description>By Fangfu Liu, Diankun Wu, Jiawei Chi, Yimo Cai, Yi-Hsin Hung, et al.
-
-Humans perceive and understand real-world spaces through a stream of visual observations. Therefore, the ability to streamingly maintain and update spatial evidence from potentially unbounded video streams is essential for spatial intelligence. The core challenge is not simply longer context windows...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.12255</guid>
-      <pubDate>Thu, 12 Mar 2026 17:58:58 +0000</pubDate>
-    </item>
-    <item>
       <title>Video Streaming Thinking: VideoLLMs Can Watch and Think Simultaneously</title>
       <link>https://huggingface.co/papers/2603.12262</link>
       <description>By Yiran Guan, Liang Yin, Dingkang Liang, Jianzhong Ju, Zhenbo Luo, et al.
@@ -352,15 +334,6 @@ Multimodal Large Language Models (MLLMs) are increasingly used to carry out visu
       <pubDate>Thu, 12 Mar 2026 17:59:56 +0000</pubDate>
     </item>
     <item>
-      <title>EVATok: Adaptive Length Video Tokenization for Efficient Visual Autoregressive Generation</title>
-      <link>https://huggingface.co/papers/2603.12267</link>
-      <description>By Tianwei Xiong, Jun Hao Liew, Zilong Huang, Zhijie Lin, Jiashi Feng, et al.
-
-Autoregressive (AR) video generative models rely on video tokenizers that compress pixels into discrete token sequences. The length of these token sequences is crucial for balancing reconstruction quality against downstream generation computational cost. Traditional video tokenizers apply a uniform ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.12267</guid>
-      <pubDate>Thu, 12 Mar 2026 17:59:59 +0000</pubDate>
-    </item>
-    <item>
       <title>VQQA: An Agentic Approach for Video Evaluation and Quality Improvement</title>
       <link>https://huggingface.co/papers/2603.12310</link>
       <description>By Yiwen Song, Tomas Pfister, Yale Song
@@ -377,6 +350,15 @@ Despite rapid advancements in video generation models, aligning their outputs wi
 Memory embeddings are crucial for memory-augmented systems, such as OpenClaw, but their evaluation is underexplored in current text embedding benchmarks, which narrowly focus on traditional passage retrieval and fail to assess models' ability to handle long-horizon memory retrieval tasks involving f...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.12572</guid>
       <pubDate>Fri, 13 Mar 2026 02:09:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>SDF-Net: Structure-Aware Disentangled Feature Learning for Opticall-SAR Ship Re-identification</title>
+      <link>https://huggingface.co/papers/2603.12588</link>
+      <description>By Furui Chen, Han Wang, Yuhan Sun, Jianing You, Yixuan Lv, et al.
+
+Cross-modal ship re-identification (ReID) between optical and synthetic aperture radar (SAR) imagery is fundamentally challenged by the severe radiometric discrepancy between passive optical imaging and coherent active radar sensing. While existing approaches primarily rely on statistical distributi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.12588</guid>
+      <pubDate>Fri, 13 Mar 2026 02:41:43 +0000</pubDate>
     </item>
     <item>
       <title>Spend Less, Reason Better: Budget-Aware Value Tree Search for LLM Agents</title>
@@ -413,6 +395,24 @@ A recent cutting-edge topic in multimodal modeling is to unify visual comprehens
 Vision-Language Model (VLM) based retrievers have advanced visual document retrieval (VDR) to impressive quality. They require the same multi-billion parameter encoder for both document indexing and query encoding, incurring high latency and GPU dependence even for plain-text queries. We observe tha...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.12824</guid>
       <pubDate>Fri, 13 Mar 2026 09:24:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Surprised by Attention: Predictable Query Dynamics for Time Series Anomaly Detection</title>
+      <link>https://huggingface.co/papers/2603.12916</link>
+      <description>By Kadir-Kaan Özer, René Ebeling, Markus Enzweiler
+
+Multivariate time series anomalies often manifest as shifts in cross-channel dependencies rather than simple amplitude excursions. In autonomous driving, for instance, a steering command might be internally consistent but decouple from the resulting lateral acceleration. Residual-based detectors can...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.12916</guid>
+      <pubDate>Fri, 13 Mar 2026 11:40:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations</title>
+      <link>https://huggingface.co/papers/2603.12935</link>
+      <description>By Mihaela Rotar, Theresia Veronika Rampisela, Maria Maistro
+
+Large Language Models (LLMs) can infer sensitive attributes such as gender or age from indirect cues like names and pronouns, potentially biasing recommendations. While several debiasing methods exist, they require access to the LLMs' weights, are computationally costly, and cannot be used by lay us...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.12935</guid>
+      <pubDate>Fri, 13 Mar 2026 12:30:42 +0000</pubDate>
     </item>
     <item>
       <title>daVinci-Env: Open SWE Environment Synthesis at Scale</title>

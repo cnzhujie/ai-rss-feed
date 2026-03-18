@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Mar 2026 09:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 10:07:40 +0000</lastBuildDate>
     <item>
       <title>Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context</title>
       <link>https://huggingface.co/papers/2603.15653</link>
@@ -62,6 +62,24 @@ We present Qianfan-OCR, a 4B-parameter end-to-end vision-language model that uni
 Retrieval-Augmented Generation (RAG) systems face challenges with complex, multihop questions, and agentic frameworks such as Search-R1 (Jin et al., 2025), which operates iteratively, have been proposed to address these complexities. However, such approaches can introduce inefficiencies, including r...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.12396</guid>
       <pubDate>Thu, 12 Mar 2026 19:18:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>I Know What I Don't Know: Latent Posterior Factor Models for Multi-Evidence Probabilistic Reasoning</title>
+      <link>https://huggingface.co/papers/2603.15670</link>
+      <description>By Aliyu Agboola Alege
+
+Real-world decision-making, from tax compliance assessment to medical diagnosis, requires aggregating multiple noisy and potentially contradictory evidence sources. Existing approaches either lack explicit uncertainty quantification (neural aggregation methods) or rely on manually engineered discret...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.15670</guid>
+      <pubDate>Fri, 13 Mar 2026 10:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Theoretical Foundations of Latent Posterior Factors: Formal Guarantees for Multi-Evidence Reasoning</title>
+      <link>https://huggingface.co/papers/2603.15674</link>
+      <description>By Aliyu Agboola Alege
+
+We present a complete theoretical characterization of Latent Posterior Factors (LPF), a principled framework for aggregating multiple heterogeneous evidence items in probabilistic prediction tasks. Multi-evidence reasoning arises pervasively in high-stakes domains including healthcare diagnosis, fin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.15674</guid>
+      <pubDate>Fri, 13 Mar 2026 17:44:14 +0000</pubDate>
     </item>
     <item>
       <title>VoXtream2: Full-stream TTS with dynamic speaking rate control</title>
@@ -136,13 +154,13 @@ While Large Language Models (LLMs) have evolved into tool-using agents, they rem
       <pubDate>Sun, 15 Mar 2026 16:13:58 +0000</pubDate>
     </item>
     <item>
-      <title>Make it SING: Analyzing Semantic Invariants in Classifiers</title>
-      <link>https://huggingface.co/papers/2603.14610</link>
-      <description>By Harel Yadid, Meir Yossef Levi, Roy Betser, Guy Gilboa
+      <title>SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory</title>
+      <link>https://huggingface.co/papers/2603.14588</link>
+      <description>By Varun Pratap Bhardwaj
 
-All classifiers, including state-of-the-art vision models, possess invariants, partially rooted in the geometry of their linear mappings. These invariants, which reside in the null-space of the classifier, induce equivalent sets of inputs that map to identical outputs. The semantic content of these ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.14610</guid>
-      <pubDate>Sun, 15 Mar 2026 21:13:14 +0000</pubDate>
+Persistent memory is a central capability for AI agents, yet the mathematical foundations of memory retrieval, lifecycle management, and consistency remain unexplored. Current systems employ cosine similarity for retrieval, heuristic decay for salience, and provide no formal contradiction detection....</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.14588</guid>
+      <pubDate>Sun, 15 Mar 2026 20:20:54 +0000</pubDate>
     </item>
     <item>
       <title>Spectrum Matching: a Unified Perspective for Superior Diffusability in Latent Diffusion</title>
@@ -163,6 +181,15 @@ Video reasoning requires models to locate and track question-relevant evidence a
       <pubDate>Sun, 15 Mar 2026 23:32:02 +0000</pubDate>
     </item>
     <item>
+      <title>Chain-of-Trajectories: Unlocking the Intrinsic Generative Optimality of Diffusion Models via Graph-Theoretic Planning</title>
+      <link>https://huggingface.co/papers/2603.14704</link>
+      <description>By Ping Chen, Xiang Liu, Xingpeng Zhang, Fei Shen, Xun Gong, et al.
+
+Diffusion models operate in a reflexive System 1 mode, constrained by a fixed, content-agnostic sampling schedule. This rigidity arises from the curse of state dimensionality, where the combinatorial explosion of possible states in the high-dimensional noise manifold renders explicit trajectory plan...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.14704</guid>
+      <pubDate>Mon, 16 Mar 2026 01:28:51 +0000</pubDate>
+    </item>
+    <item>
       <title>POLCA: Stochastic Generative Optimization with LLM</title>
       <link>https://huggingface.co/papers/2603.14769</link>
       <description>By Xuanfei Ren, Allen Nie, Tengyang Xie, Ching-An Cheng
@@ -170,15 +197,6 @@ Video reasoning requires models to locate and track question-relevant evidence a
 Optimizing complex systems, ranging from LLM prompts to multi-turn agents, traditionally requires labor-intensive manual iteration. We formalize this challenge as a stochastic generative optimization problem where a generative language model acts as the optimizer, guided by numerical rewards and tex...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.14769</guid>
       <pubDate>Mon, 16 Mar 2026 03:07:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>RS-WorldModel: a Unified Model for Remote Sensing Understanding and Future Sense Forecasting</title>
-      <link>https://huggingface.co/papers/2603.14941</link>
-      <description>By Linrui Xu, Zhongan Wang, Fei Shen, Gang Xu, Huiping Zhuang, et al.
-
-Remote sensing world models aim to both explain observed changes and forecast plausible futures, two tasks that share spatiotemporal priors. Existing methods, however, typically address them separately, limiting cross-task transfer. We present RS-WorldModel, a unified world model for remote sensing ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.14941</guid>
-      <pubDate>Mon, 16 Mar 2026 07:45:15 +0000</pubDate>
     </item>
     <item>
       <title>VAREX: A Benchmark for Multi-Modal Structured Extraction from Documents</title>
@@ -215,15 +233,6 @@ Solving problems through tool use under explicit constraints constitutes a highl
 Agent skills, structured procedural knowledge packages injected at inference time, are increasingly used to augment LLM agents on software engineering tasks. However, their real utility in end-to-end development settings remains unclear. We present SWE-Skills-Bench, the first requirement-driven benc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.15401</guid>
       <pubDate>Mon, 16 Mar 2026 15:16:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anatomy of a Lie: A Multi-Stage Diagnostic Framework for Tracing Hallucinations in Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2603.15557</link>
-      <description>By Lexiang Xiong, Qi Li, Jingwen Ye, Xinchao Wang
-
-Vision-Language Models (VLMs) frequently "hallucinate" - generate plausible yet factually incorrect statements - posing a critical barrier to their trustworthy deployment. In this work, we propose a new paradigm for diagnosing hallucinations, recasting them from static output errors into dynamic pat...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.15557</guid>
-      <pubDate>Mon, 16 Mar 2026 17:20:38 +0000</pubDate>
     </item>
     <item>
       <title>The PokeAgent Challenge: Competitive and Long-Context Learning at Scale</title>
@@ -269,15 +278,6 @@ Recent video diffusion models have made remarkable strides in visual quality, ye
 Can AI make progress on important, unsolved mathematical problems? Large language models are now capable of sophisticated mathematical and scientific reasoning, but whether they can perform novel research is still widely debated and underexplored. We introduce HorizonMath, a benchmark of over 100 pr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.15617</guid>
       <pubDate>Mon, 16 Mar 2026 17:59:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Towards Generalizable Robotic Manipulation in Dynamic Environments</title>
-      <link>https://huggingface.co/papers/2603.15620</link>
-      <description>By Heng Fang, Shangru Li, Shuhan Wang, Xuanyang Xi, Dingkang Liang, et al.
-
-Vision-Language-Action (VLA) models excel in static manipulation but struggle in dynamic environments with moving targets. This performance gap primarily stems from a scarcity of dynamic manipulation datasets and the reliance of mainstream VLAs on single-frame observations, restricting their spatiot...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.15620</guid>
-      <pubDate>Mon, 16 Mar 2026 17:59:57 +0000</pubDate>
     </item>
     <item>
       <title>FlashSampling: Fast and Memory-Efficient Exact Sampling</title>

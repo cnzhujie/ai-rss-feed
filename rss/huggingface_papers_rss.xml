@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Mar 2026 07:12:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 09:00:14 +0000</lastBuildDate>
     <item>
       <title>Recursive Language Models Meet Uncertainty: The Surprising Effectiveness of Self-Reflective Program Search for Long Context</title>
       <link>https://huggingface.co/papers/2603.15653</link>
@@ -46,6 +46,15 @@ Reliable evaluation is essential for developing and deploying large language mod
       <pubDate>Tue, 10 Mar 2026 15:45:51 +0000</pubDate>
     </item>
     <item>
+      <title>Qianfan-OCR: A Unified End-to-End Model for Document Intelligence</title>
+      <link>https://huggingface.co/papers/2603.13398</link>
+      <description>By Daxiang Dong, Mingming Zheng, Dong Xu, Chunhua Luo, Bairong Zhuang, et al.
+
+We present Qianfan-OCR, a 4B-parameter end-to-end vision-language model that unifies document parsing, layout analysis, and document understanding within a single architecture. It performs direct image-to-Markdown conversion and supports diverse prompt-driven tasks including table extraction, chart ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.13398</guid>
+      <pubDate>Wed, 11 Mar 2026 16:08:22 +0000</pubDate>
+    </item>
+    <item>
       <title>Test-Time Strategies for More Efficient and Accurate Agentic RAG</title>
       <link>https://huggingface.co/papers/2603.12396</link>
       <description>By Brian Zhang, Deepti Guntur, Zhiyang Zuo, Abhinav Sharma, Shreyas Chaudhari, et al.
@@ -64,15 +73,6 @@ Full-stream text-to-speech (TTS) for interactive systems must start speaking wit
       <pubDate>Fri, 13 Mar 2026 18:49:25 +0000</pubDate>
     </item>
     <item>
-      <title>EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings</title>
-      <link>https://huggingface.co/papers/2603.13594</link>
-      <description>By Shiva Krishna Reddy Malay, Shravan Nayak, Jishnu Sethumadhavan Nair, Sagar Davasam, Aman Tiwari, et al.
-
-Large language models are shifting from passive information providers to active agents intended for complex workflows. However, their deployment as reliable AI workers in enterprise is stalled by benchmarks that fail to capture the intricacies of professional environments, specifically, the need for...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.13594</guid>
-      <pubDate>Fri, 13 Mar 2026 21:09:39 +0000</pubDate>
-    </item>
-    <item>
       <title>Measuring Primitive Accumulation: An Information-Theoretic Approach to Capitalist Enclosure in PIK2, Indonesia</title>
       <link>https://huggingface.co/papers/2603.13715</link>
       <description>By Sandy Hardian Susanto Herho, Alfita Puspa Handayani, Karina Aprilia Sujatmiko, Faruq Khadami, Iwan Pramesti Anwar
@@ -82,13 +82,13 @@ Large-scale land enclosure for speculative mega-development constitutes a non-eq
       <pubDate>Sat, 14 Mar 2026 02:42:27 +0000</pubDate>
     </item>
     <item>
-      <title>sebis at ArchEHR-QA 2026: How Much Can You Do Locally? Evaluating Grounded EHR QA on a Single Notebook</title>
-      <link>https://huggingface.co/papers/2603.13962</link>
-      <description>By Ibrahim Ebrar Yurt, Fabian Karl, Tejaswi Choppa, Florian Matthes
+      <title>GradMem: Learning to Write Context into Memory with Test-Time Gradient Descent</title>
+      <link>https://huggingface.co/papers/2603.13875</link>
+      <description>By Yuri Kuratov, Matvey Kairov, Aydar Bulatov, Ivan Rodkin, Mikhail Burtsev
 
-Clinical question answering over electronic health records (EHRs) can help clinicians and patients access relevant medical information more efficiently. However, many recent approaches rely on large cloud-based models, which are difficult to deploy in clinical environments due to privacy constraints...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.13962</guid>
-      <pubDate>Sat, 14 Mar 2026 14:17:55 +0000</pubDate>
+Many large language model applications require conditioning on long contexts. Transformers typically support this by storing a large per-layer KV-cache of past activations, which incurs substantial memory overhead. A desirable alternative is ompressive memory: read a context once, store it in a comp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.13875</guid>
+      <pubDate>Sat, 14 Mar 2026 10:17:33 +0000</pubDate>
     </item>
     <item>
       <title>SK-Adapter: Skeleton-Based Structural Control for Native 3D Generation</title>
@@ -181,13 +181,22 @@ Remote sensing world models aim to both explain observed changes and forecast pl
       <pubDate>Mon, 16 Mar 2026 07:45:15 +0000</pubDate>
     </item>
     <item>
-      <title>Riemannian Motion Generation: A Unified Framework for Human Motion Representation and Generation via Riemannian Flow Matching</title>
-      <link>https://huggingface.co/papers/2603.15016</link>
-      <description>By Fangran Miao, Jian Huang, Ting Li
+      <title>VAREX: A Benchmark for Multi-Modal Structured Extraction from Documents</title>
+      <link>https://huggingface.co/papers/2603.15118</link>
+      <description>By Udi Barzelay, Ophir Azulai, Inbar Shapira, Idan Friedman, Foad Abo Dahood, et al.
 
-Human motion generation is often learned in Euclidean spaces, although valid motions follow structured non-Euclidean geometry. We present Riemannian Motion Generation (RMG), a unified framework that represents motion on a product manifold and learns dynamics via Riemannian flow matching. RMG factori...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.15016</guid>
-      <pubDate>Mon, 16 Mar 2026 09:19:10 +0000</pubDate>
+We introduce VAREX (VARied-schema EXtraction), a benchmark for evaluating multimodal foundation models on structured data extraction from government forms. VAREX employs a Reverse Annotation pipeline that programmatically fills PDF templates with synthetic values, producing deterministic ground trut...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.15118</guid>
+      <pubDate>Mon, 16 Mar 2026 11:15:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>WiT: Waypoint Diffusion Transformers via Trajectory Conflict Navigation</title>
+      <link>https://huggingface.co/papers/2603.15132</link>
+      <description>By Hainuo Wang, Mingjia Li, Xiaojie Guo
+
+While recent Flow Matching models avoid the reconstruction bottlenecks of latent autoencoders by operating directly in pixel space, the lack of semantic continuity in the pixel manifold severely intertwines optimal transport paths. This induces severe trajectory conflicts near intersections, yieldin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.15132</guid>
+      <pubDate>Mon, 16 Mar 2026 11:25:09 +0000</pubDate>
     </item>
     <item>
       <title>CCTU: A Benchmark for Tool Use under Complex Constraints</title>
@@ -199,13 +208,13 @@ Solving problems through tool use under explicit constraints constitutes a highl
       <pubDate>Mon, 16 Mar 2026 14:05:13 +0000</pubDate>
     </item>
     <item>
-      <title>When Does Sparsity Mitigate the Curse of Depth in LLMs</title>
-      <link>https://huggingface.co/papers/2603.15389</link>
-      <description>By Dilxat Muhtar, Xinyuan Song, Sebastian Pokutta, Max Zimmer, Nico Pelleriti, et al.
+      <title>SWE-Skills-Bench: Do Agent Skills Actually Help in Real-World Software Engineering?</title>
+      <link>https://huggingface.co/papers/2603.15401</link>
+      <description>By Tingxu Han, Yi Zhang, Wei Song, Chunrong Fang, Zhenyu Chen, et al.
 
-Recent work has demonstrated the curse of depth in large language models (LLMs), where later layers contribute less to learning and representation than earlier layers. Such under-utilization is linked to the accumulated growth of variance in Pre-Layer Normalization, which can push deep blocks toward...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.15389</guid>
-      <pubDate>Mon, 16 Mar 2026 15:04:16 +0000</pubDate>
+Agent skills, structured procedural knowledge packages injected at inference time, are increasingly used to augment LLM agents on software engineering tasks. However, their real utility in end-to-end development settings remains unclear. We present SWE-Skills-Bench, the first requirement-driven benc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.15401</guid>
+      <pubDate>Mon, 16 Mar 2026 15:16:31 +0000</pubDate>
     </item>
     <item>
       <title>Anatomy of a Lie: A Multi-Stage Diagnostic Framework for Tracing Hallucinations in Vision-Language Models</title>
@@ -224,15 +233,6 @@ Vision-Language Models (VLMs) frequently "hallucinate" - generate plausible yet 
 We present the PokeAgent Challenge, a large-scale benchmark for decision-making research built on Pokemon's multi-agent battle system and expansive role-playing game (RPG) environment. Partial observability, game-theoretic reasoning, and long-horizon planning remain open problems for frontier AI, ye...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.15563</guid>
       <pubDate>Mon, 16 Mar 2026 17:25:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Effective Distillation to Hybrid xLSTM Architectures</title>
-      <link>https://huggingface.co/papers/2603.15590</link>
-      <description>By Lukas Hauzenberger, Niklas Schmidinger, Thomas Schmied, Anamaria-Roberta Hartl, David Stap, et al.
-
-There have been numerous attempts to distill quadratic attention-based large language models (LLMs) into sub-quadratic linearized architectures. However, despite extensive research, such distilled models often fail to match the performance of their teacher LLMs on various downstream tasks. We set ou...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.15590</guid>
-      <pubDate>Mon, 16 Mar 2026 17:49:04 +0000</pubDate>
     </item>
     <item>
       <title>From Passive Observer to Active Critic: Reinforcement Learning Elicits Process Reasoning for Robotic Manipulation</title>

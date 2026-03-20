@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Mar 2026 04:53:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 05:58:21 +0000</lastBuildDate>
     <item>
       <title>Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA</title>
       <link>https://huggingface.co/papers/2603.08501</link>
@@ -118,6 +118,15 @@ Despite advances in the application of MLLMs for various video tasks, video even
       <pubDate>Mon, 16 Mar 2026 07:38:15 +0000</pubDate>
     </item>
     <item>
+      <title>VTC-Bench: Evaluating Agentic Multimodal Models via Compositional Visual Tool Chaining</title>
+      <link>https://huggingface.co/papers/2603.15030</link>
+      <description>By Xuanyu Zhu, Yuhao Dong, Rundong Wang, Yang Shi, Zhipeng Wu, et al.
+
+Recent advancements extend Multimodal Large Language Models (MLLMs) beyond standard visual question answering to utilizing external tools for advanced visual tasks. Despite this progress, precisely executing and effectively composing diverse tools for complex tasks remain persistent bottleneck. Cons...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.15030</guid>
+      <pubDate>Mon, 16 Mar 2026 09:31:44 +0000</pubDate>
+    </item>
+    <item>
       <title>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</title>
       <link>https://huggingface.co/papers/2603.15618</link>
       <description>By Yulin Luo, Hao Chen, Zhuangzhe Wu, Bowen Sui, Jiaming Liu, et al.
@@ -125,33 +134,6 @@ Despite advances in the application of MLLMs for various video tasks, video even
 Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for robotic manipulation, in which reliable action prediction critically depends on accurately interpreting and integrating visual observations conditioned on language instructions. Although recent works have sought to...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.15618</guid>
       <pubDate>Mon, 16 Mar 2026 17:59:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Residual Stream Duality in Modern Transformer Architectures</title>
-      <link>https://huggingface.co/papers/2603.16039</link>
-      <description>By Yifan Zhang
-
-Recent work has made clear that the residual pathway is not mere optimization plumbing; it is part of the model's representational machinery. We agree, but argue that the cleanest way to organize this design space is through a two-axis view of the Transformer. A decoder evolves information along two...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.16039</guid>
-      <pubDate>Tue, 17 Mar 2026 00:56:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>ARISE: Agent Reasoning with Intrinsic Skill Evolution in Hierarchical Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2603.16060</link>
-      <description>By Yu Li, Rui Miao, Zhengling Qi, Tian Lan
-
-The dominant paradigm for improving mathematical reasoning in language models relies on Reinforcement Learning with verifiable rewards. Yet existing methods treat each problem instance in isolation without leveraging the reusable strategies that emerge and accumulate during training. To this end, we...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.16060</guid>
-      <pubDate>Tue, 17 Mar 2026 02:03:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>MDM-Prime-v2: Binary Encoding and Index Shuffling Enable Compute-optimal Scaling of Diffusion Language Models</title>
-      <link>https://huggingface.co/papers/2603.16077</link>
-      <description>By Chen-Hao Chao, Wei-Fang Sun, Junwei Qua, Chun-Yi Lee, Rahul G. Krishnan
-
-Masked diffusion models (MDM) exhibit superior generalization when learned using a Partial masking scheme (Prime). This approach converts tokens into sub-tokens and models the diffusion process at the sub-token level. We identify two limitations of the MDM-Prime framework. First, we lack tools to gu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.16077</guid>
-      <pubDate>Tue, 17 Mar 2026 02:54:16 +0000</pubDate>
     </item>
     <item>
       <title>AdaMem: Adaptive User-Centric Memory for Long-Horizon Dialogue Agents</title>
@@ -179,15 +161,6 @@ Offline post-training adapts a pretrained robot policy to a target dataset by su
 Large language models (LLMs) increasingly store user preferences in persistent memory to support personalization across interactions. However, in third-party communication settings governed by social and institutional norms, some user preferences may be inappropriate to apply. We introduce BenchPreS...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.16557</guid>
       <pubDate>Tue, 17 Mar 2026 14:19:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>When AI Navigates the Fog of War</title>
-      <link>https://huggingface.co/papers/2603.16642</link>
-      <description>By Ming Li, Xirui Li, Tianyi Zhou
-
-Can AI reason about a war before its trajectory becomes historically obvious? Analyzing this capability is difficult because retrospective geopolitical prediction is heavily confounded by training-data leakage. We address this challenge through a temporally grounded case study of the early stages of...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.16642</guid>
-      <pubDate>Tue, 17 Mar 2026 15:13:10 +0000</pubDate>
     </item>
     <item>
       <title>HeBA: Heterogeneous Bottleneck Adapters for Robust Vision-Language Models</title>
@@ -280,6 +253,15 @@ We develop an online learning algorithm that dramatically improves the data effi
       <pubDate>Wed, 18 Mar 2026 05:47:59 +0000</pubDate>
     </item>
     <item>
+      <title>MOSS-TTS Technical Report</title>
+      <link>https://huggingface.co/papers/2603.18090</link>
+      <description>By Yitian Gong, Botian Jiang, Yiwei Zhao, Yucheng Yuan, Kuangwei Chen, et al.
+
+This technical report presents MOSS-TTS, a speech generation foundation model built on a scalable recipe: discrete audio tokens, autoregressive modeling, and large-scale pretraining. Built on MOSS-Audio-Tokenizer, a causal Transformer tokenizer that compresses 24 kHz audio to 12.5 fps with variable-...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.18090</guid>
+      <pubDate>Wed, 18 Mar 2026 09:08:06 +0000</pubDate>
+    </item>
+    <item>
       <title>Temporal Gains, Spatial Costs: Revisiting Video Fine-Tuning in Multimodal Large Language Models</title>
       <link>https://huggingface.co/papers/2603.17541</link>
       <description>By Linghao Zhang, Jungang Li, Yonghua Hei, Sicheng Tao, Song Dai, et al.
@@ -352,13 +334,22 @@ Tokenization is a fundamental technique in the generative modeling of various mo
       <pubDate>Wed, 18 Mar 2026 17:56:06 +0000</pubDate>
     </item>
     <item>
-      <title>Unified Spatio-Temporal Token Scoring for Efficient Video VLMs</title>
-      <link>https://huggingface.co/papers/2603.18004</link>
-      <description>By Jianrui Zhang, Yue Yang, Rohun Tripathi, Winson Han, Ranjay Krishna, et al.
+      <title>Loc3R-VLM: Language-based Localization and 3D Reasoning with Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2603.18002</link>
+      <description>By Kevin Qu, Haozhe Qi, Mihai Dusmanu, Mahdi Rad, Rui Wang, et al.
 
-Token pruning is essential for enhancing the computational efficiency of vision-language models (VLMs), particularly for video-based tasks where temporal redundancy is prevalent. Prior approaches typically prune tokens either (1) within the vision transformer (ViT) exclusively for unimodal perceptio...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.18004</guid>
-      <pubDate>Wed, 18 Mar 2026 17:59:56 +0000</pubDate>
+Multimodal Large Language Models (MLLMs) have made impressive progress in connecting vision and language, but they still struggle with spatial understanding and viewpoint-aware reasoning. Recent efforts aim to augment the input representations with geometric cues rather than explicitly teaching mode...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.18002</guid>
+      <pubDate>Wed, 18 Mar 2026 17:59:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cognitive Mismatch in Multimodal Large Language Models for Discrete Symbol Understanding</title>
+      <link>https://huggingface.co/papers/2603.18472</link>
+      <description>By Yinghui Li, Jiayi Kuang, Peng Xing, Daixian Liu, Junnan Dong, et al.
+
+While Multimodal Large Language Models (MLLMs) have achieved remarkable success in interpreting natural scenes, their ability to process discrete symbols -- the fundamental building blocks of human cognition -- remains a critical open question. Unlike continuous visual data, symbols such as mathemat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.18472</guid>
+      <pubDate>Thu, 19 Mar 2026 04:08:20 +0000</pubDate>
     </item>
     <item>
       <title>Memento-Skills: Let Agents Design Agents</title>
@@ -430,6 +421,15 @@ We present F2LLM-v2, a new family of general-purpose, multilingual embedding mod
 
 Current instruction-guided video editing models struggle to simultaneously balance precise semantic modifications with faithful motion preservation. While existing approaches rely on injecting explicit external priors (e.g., VLM features or structural conditions) to mitigate these issues, this relia...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.19228</guid>
+      <pubDate>Thu, 19 Mar 2026 17:59:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer</title>
+      <link>https://huggingface.co/papers/2603.19227</link>
+      <description>By Chenyang Gu, Mingyuan Zhang, Haozhe Xie, Zhongang Cai, Lei Yang, et al.
+
+Prior motion generation largely follows two paradigms: continuous diffusion models that excel at kinematic control, and discrete token-based generators that are effective for semantic conditioning. To combine their strengths, we propose a three-stage framework comprising condition feature extraction...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.19227</guid>
       <pubDate>Thu, 19 Mar 2026 17:59:51 +0000</pubDate>
     </item>
     <item>

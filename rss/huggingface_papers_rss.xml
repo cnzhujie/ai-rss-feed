@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Mar 2026 11:37:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 13:16:34 +0000</lastBuildDate>
     <item>
       <title>Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA</title>
       <link>https://huggingface.co/papers/2603.08501</link>
@@ -35,6 +35,15 @@ We introduce Distribution Contractive Reinforcement Learning (DICE-RL), a framew
 We introduce COT-FM, a general framework that reshapes the probability path in Flow Matching (FM) to achieve faster and more reliable generation. FM models often produce curved trajectories due to random or batchwise couplings, which increase discretization error and reduce sample quality. COT-FM fi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.13395</guid>
       <pubDate>Wed, 11 Mar 2026 13:52:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>SimulU: Training-free Policy for Long-form Simultaneous Speech-to-Speech Translation</title>
+      <link>https://huggingface.co/papers/2603.16924</link>
+      <description>By Amirbek Djanibekov, Luisa Bentivogli, Matteo Negri, Sara Papi
+
+Simultaneous speech-to-speech translation (SimulS2S) is essential for real-time multilingual communication, with increasing integration into meeting and streaming platforms. Despite this, SimulS2S remains underexplored in research, where current solutions often rely on resource-intensive training pr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.16924</guid>
+      <pubDate>Wed, 11 Mar 2026 22:07:53 +0000</pubDate>
     </item>
     <item>
       <title>Expert Threshold Routing for Autoregressive Language Modeling with Dynamic Computation Allocation and Load Balancing</title>
@@ -136,6 +145,15 @@ Recent advancements extend Multimodal Large Language Models (MLLMs) beyond stand
       <pubDate>Mon, 16 Mar 2026 09:31:44 +0000</pubDate>
     </item>
     <item>
+      <title>ReactMotion: Generating Reactive Listener Motions from Speaker Utterance</title>
+      <link>https://huggingface.co/papers/2603.15083</link>
+      <description>By Cheng Luo, Bizhu Wu, Bing Li, Jianfeng Ren, Ruibin Bai, et al.
+
+In this paper, we introduce a new task, Reactive Listener Motion Generation from Speaker Utterance, which aims to generate naturalistic listener body motions that appropriately respond to a speaker's utterance. However, modeling such nonverbal listener behaviors remains underexplored and challenging...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.15083</guid>
+      <pubDate>Mon, 16 Mar 2026 10:37:42 +0000</pubDate>
+    </item>
+    <item>
       <title>Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models</title>
       <link>https://huggingface.co/papers/2603.15618</link>
       <description>By Yulin Luo, Hao Chen, Zhuangzhe Wu, Bowen Sui, Jiaming Liu, et al.
@@ -172,15 +190,6 @@ Adapting large-scale Vision-Language Models (VLMs) like CLIP to downstream tasks
       <pubDate>Tue, 17 Mar 2026 15:23:04 +0000</pubDate>
     </item>
     <item>
-      <title>PRISM: Demystifying Retention and Interaction in Mid-Training</title>
-      <link>https://huggingface.co/papers/2603.17074</link>
-      <description>By Bharat Runwal, Ashish Agrawal, Anurag Roy, Rameswar Panda
-
-We present PRISM, a comprehensive empirical study of mid-training design choices for large language models. Through controlled experiments across seven base models spanning four families (Granite, LLaMA, Mistral, Nemotron-H), two architecture types (dense Transformer and attention-Mamba hybrid), and...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.17074</guid>
-      <pubDate>Tue, 17 Mar 2026 19:04:33 +0000</pubDate>
-    </item>
-    <item>
       <title>ACE-LoRA: Graph-Attentive Context Enhancement for Parameter-Efficient Adaptation of Medical Vision-Language Models</title>
       <link>https://huggingface.co/papers/2603.17079</link>
       <description>By M. Arda Aydın, Melih B. Yilmaz, Aykut Koç, Tolga Çukur
@@ -188,15 +197,6 @@ We present PRISM, a comprehensive empirical study of mid-training design choices
 The success of CLIP-like vision-language models (VLMs) on natural images has inspired medical counterparts, yet existing approaches largely fall into two extremes: specialist models trained on single-domain data, which capture domain-specific details but generalize poorly, and generalist medical VLM...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.17079</guid>
       <pubDate>Tue, 17 Mar 2026 19:06:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild</title>
-      <link>https://huggingface.co/papers/2603.17187</link>
-      <description>By Peng Xia, Jianwen Chen, Xinyu Yang, Haoqin Tu, Jiaqi Liu, et al.
-
-Large language model (LLM) agents are increasingly used for complex tasks, yet deployed agents often remain static, failing to adapt as user needs evolve. This creates a tension between the need for continuous service and the necessity of updating capabilities to match shifting task distributions. O...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.17187</guid>
-      <pubDate>Tue, 17 Mar 2026 22:30:30 +0000</pubDate>
     </item>
     <item>
       <title>AI Scientist via Synthetic Task Scaling</title>
@@ -298,15 +298,6 @@ Extending language models to video introduces two challenges: representation, wh
       <pubDate>Wed, 18 Mar 2026 17:20:19 +0000</pubDate>
     </item>
     <item>
-      <title>LoST: Level of Semantics Tokenization for 3D Shapes</title>
-      <link>https://huggingface.co/papers/2603.17995</link>
-      <description>By Niladri Shekhar Dutt, Zifan Shi, Paul Guerrero, Chun-Hao Paul Huang, Duygu Ceylan, et al.
-
-Tokenization is a fundamental technique in the generative modeling of various modalities. In particular, it plays a critical role in autoregressive (AR) models, which have recently emerged as a compelling option for 3D generation. However, optimal tokenization of 3D shapes remains an open question. ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.17995</guid>
-      <pubDate>Wed, 18 Mar 2026 17:56:06 +0000</pubDate>
-    </item>
-    <item>
       <title>Loc3R-VLM: Language-based Localization and 3D Reasoning with Vision-Language Models</title>
       <link>https://huggingface.co/papers/2603.18002</link>
       <description>By Kevin Qu, Haozhe Qi, Mihai Dusmanu, Mahdi Rad, Rui Wang, et al.
@@ -314,6 +305,15 @@ Tokenization is a fundamental technique in the generative modeling of various mo
 Multimodal Large Language Models (MLLMs) have made impressive progress in connecting vision and language, but they still struggle with spatial understanding and viewpoint-aware reasoning. Recent efforts aim to augment the input representations with geometric cues rather than explicitly teaching mode...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.18002</guid>
       <pubDate>Wed, 18 Mar 2026 17:59:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>AndroTMem: From Interaction Trajectories to Anchored Memory in Long-Horizon GUI Agents</title>
+      <link>https://huggingface.co/papers/2603.18429</link>
+      <description>By Yibo Shi, Jungang Li, Linghao Zhang, Zihao Dongfang, Biao Wu, et al.
+
+Long-horizon GUI agents are a key step toward real-world deployment, yet effective interaction memory under prevailing paradigms remains under-explored. Replaying full interaction sequences is redundant and amplifies noise, while summaries often erase dependency-critical information and traceability...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.18429</guid>
+      <pubDate>Thu, 19 Mar 2026 02:45:21 +0000</pubDate>
     </item>
     <item>
       <title>Cognitive Mismatch in Multimodal Large Language Models for Discrete Symbol Understanding</title>

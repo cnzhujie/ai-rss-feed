@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Mar 2026 13:25:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 15:04:21 +0000</lastBuildDate>
     <item>
       <title>Reasoning as Compression: Unifying Budget Forcing via the Conditional Information Bottleneck</title>
       <link>https://huggingface.co/papers/2603.08462</link>
@@ -26,15 +26,6 @@ Chain-of-Thought (CoT) prompting improves LLM accuracy on complex tasks but ofte
 Large language models often struggle with complex long-horizon analytical tasks over unstructured tables, which typically feature hierarchical and bidirectional headers and non-canonical layouts. We formalize this challenge as Deep Tabular Research (DTR), requiring multi-step reasoning over interdep...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.09151</guid>
       <pubDate>Tue, 10 Mar 2026 03:42:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>COT-FM: Cluster-wise Optimal Transport Flow Matching</title>
-      <link>https://huggingface.co/papers/2603.13395</link>
-      <description>By Chiensheng Chiang, Kuan-Hsun Tu, Jia-Wei Liao, Cheng-Fu Chou, Tsung-Wei Ke
-
-We introduce COT-FM, a general framework that reshapes the probability path in Flow Matching (FM) to achieve faster and more reliable generation. FM models often produce curved trajectories due to random or batchwise couplings, which increase discretization error and reduce sample quality. COT-FM fi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.13395</guid>
-      <pubDate>Wed, 11 Mar 2026 13:52:17 +0000</pubDate>
     </item>
     <item>
       <title>SimulU: Training-free Policy for Long-form Simultaneous Speech-to-Speech Translation</title>
@@ -100,6 +91,15 @@ In this paper, we introduce a new task, Reactive Listener Motion Generation from
       <pubDate>Mon, 16 Mar 2026 10:37:42 +0000</pubDate>
     </item>
     <item>
+      <title>Human-AI Synergy in Agentic Code Review</title>
+      <link>https://huggingface.co/papers/2603.15911</link>
+      <description>By Suzhen Zhong, Shayan Noei, Ying Zou, Bram Adams
+
+Code review is a critical software engineering practice where developers review code changes before integration to ensure code quality, detect defects, and improve maintainability. In recent years, AI agents that can understand code context, plan review actions, and interact with development environ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.15911</guid>
+      <pubDate>Mon, 16 Mar 2026 20:56:18 +0000</pubDate>
+    </item>
+    <item>
       <title>Probing Cultural Signals in Large Language Models through Author Profiling</title>
       <link>https://huggingface.co/papers/2603.16749</link>
       <description>By Valentin Lafargue, Ariel Guerra-Adames, Emmanuelle Claeys, Elouan Vuichard, Jean-Michel Loubes
@@ -125,6 +125,15 @@ VLMs show strong multimodal capabilities, but they still struggle with fine-grai
 Distilled autoregressive (AR) video models enable efficient streaming generation but frequently misalign with human visual preferences. Existing reinforcement learning (RL) frameworks are not naturally suited to these architectures, typically requiring either expensive re-distillation or solver-coup...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.17051</guid>
       <pubDate>Tue, 17 Mar 2026 18:32:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReLMXEL: Adaptive RL-Based Memory Controller with Explainable Energy and Latency Optimization</title>
+      <link>https://huggingface.co/papers/2603.17309</link>
+      <description>By Panuganti Chirag Sai, Gandholi Sarat, R. Raghunatha Sarma, Venkata Kalyan Tavva, Naveen M
+
+Reducing latency and energy consumption is critical to improving the efficiency of memory systems in modern computing. This work introduces ReLMXEL (Reinforcement Learning for Memory Controller with Explainable Energy and Latency Optimization), a explainable multi-agent online reinforcement learning...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.17309</guid>
+      <pubDate>Wed, 18 Mar 2026 03:07:54 +0000</pubDate>
     </item>
     <item>
       <title>MOSS-TTS Technical Report</title>
@@ -217,24 +226,6 @@ Long-form video question answering requires reasoning over extended temporal con
       <pubDate>Thu, 19 Mar 2026 07:11:53 +0000</pubDate>
     </item>
     <item>
-      <title>Memento-Skills: Let Agents Design Agents</title>
-      <link>https://huggingface.co/papers/2603.18743</link>
-      <description>By Huichi Zhou, Siyuan Guo, Anjie Liu, Zhongwei Yu, Ziqin Gong, et al.
-
-We introduce Memento-Skills, a generalist, continually-learnable LLM agent system that functions as an agent-designing agent: it autonomously constructs, adapts, and improves task-specific agents through experience. The system is built on a memory-based reinforcement learning framework with stateful...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.18743</guid>
-      <pubDate>Thu, 19 Mar 2026 10:45:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>ProRL Agent: Rollout-as-a-Service for RL Training of Multi-Turn LLM Agents</title>
-      <link>https://huggingface.co/papers/2603.18815</link>
-      <description>By Hao Zhang, Mingjie Liu, Shaokun Zhang, Songyang Han, Jian Hu, et al.
-
-Multi-turn LLM agents are increasingly important for solving complex, interactive tasks, and reinforcement learning (RL) is a key ingredient for improving their long-horizon behavior. However, RL training requires generating large numbers of sandboxed rollout trajectories, and existing infrastructur...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.18815</guid>
-      <pubDate>Thu, 19 Mar 2026 12:08:51 +0000</pubDate>
-    </item>
-    <item>
       <title>AgentDS Technical Report: Benchmarking the Future of Human-AI Collaboration in Domain-Specific Data Science</title>
       <link>https://huggingface.co/papers/2603.19005</link>
       <description>By An Luo, Jin Du, Xun Xian, Robert Specht, Fangqiao Tian, et al.
@@ -262,6 +253,15 @@ Vision-language models (VLMs) have shown promise in earth observation (EO), yet 
       <pubDate>Thu, 19 Mar 2026 15:38:02 +0000</pubDate>
     </item>
     <item>
+      <title>DROID-SLAM in the Wild</title>
+      <link>https://huggingface.co/papers/2603.19076</link>
+      <description>By Moyang Li, Zihan Zhu, Marc Pollefeys, Daniel Barath
+
+We present a robust, real-time RGB SLAM system that handles dynamic environments by leveraging differentiable Uncertainty-aware Bundle Adjustment. Traditional SLAM methods typically assume static scenes, leading to tracking failures in the presence of motion. Recent dynamic SLAM approaches attempt t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.19076</guid>
+      <pubDate>Thu, 19 Mar 2026 16:02:12 +0000</pubDate>
+    </item>
+    <item>
       <title>Tinted Frames: Question Framing Blinds Vision-Language Models</title>
       <link>https://huggingface.co/papers/2603.19203</link>
       <description>By Wan-Cyuan Fan, Jiayun Luo, Declan Kutscher, Leonid Sigal, Ritwik Gupta
@@ -287,15 +287,6 @@ Large vision--language models (VLMs) often use a frozen vision backbone, whose i
 Understanding and generating 3D objects as compositions of meaningful parts is fundamental to human perception and reasoning. However, most text-to-3D methods overlook the semantic and functional structure of parts. While recent part-aware approaches introduce decomposition, they remain largely geom...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.19216</guid>
       <pubDate>Thu, 19 Mar 2026 17:58:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>LVOmniBench: Pioneering Long Audio-Video Understanding Evaluation for Omnimodal LLMs</title>
-      <link>https://huggingface.co/papers/2603.19217</link>
-      <description>By Keda Tao, Yuhua Zheng, Jia Xu, Wenjie Du, Kele Shao, et al.
-
-Recent advancements in omnimodal large language models (OmniLLMs) have significantly improved the comprehension of audio and video inputs. However, current evaluations primarily focus on short audio and video clips ranging from 10 seconds to 5 minutes, failing to reflect the demands of real-world ap...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.19217</guid>
-      <pubDate>Thu, 19 Mar 2026 17:58:13 +0000</pubDate>
     </item>
     <item>
       <title>EffectErase: Joint Video Object Removal and Insertion for High-Quality Effect Erasing</title>
@@ -413,6 +404,15 @@ Given the remarkable ability of 2D foundation image models to generate high-fide
 Looped language models (LoopLMs) perform iterative latent computation to refine internal representations, offering a promising alternative to explicit chain-of-thought (CoT) reasoning. However, existing reinforcement learning (RL) paradigms primarily target output tokens, creating a structural misma...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.19714</guid>
       <pubDate>Fri, 20 Mar 2026 07:35:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReLi3D: Relightable Multi-view 3D Reconstruction with Disentangled Illumination</title>
+      <link>https://huggingface.co/papers/2603.19753</link>
+      <description>By Jan-Niklas Dihlmann, Mark Boss, Simon Donne, Andreas Engelhardt, Hendrik P. A. Lensch, et al.
+
+Reconstructing 3D assets from images has long required separate pipelines for geometry reconstruction, material estimation, and illumination recovery, each with distinct limitations and computational overhead. We present ReLi3D, the first unified end-to-end pipeline that simultaneously reconstructs ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.19753</guid>
+      <pubDate>Fri, 20 Mar 2026 08:37:39 +0000</pubDate>
     </item>
     <item>
       <title>How Well Does Generative Recommendation Generalize?</title>

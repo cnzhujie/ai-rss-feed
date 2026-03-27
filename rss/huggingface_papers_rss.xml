@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Mar 2026 05:45:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 07:19:29 +0000</lastBuildDate>
     <item>
       <title>MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens</title>
       <link>https://huggingface.co/papers/2603.23516</link>
@@ -46,6 +46,15 @@ We show that PLDR-LLMs pretrained at self-organized criticality exhibit reasonin
 No-Reference Image Quality Assessment (NR-IQA) aims to estimate perceptual quality without access to a reference image of pristine quality. Learning an NR-IQA model faces a fundamental bottleneck: its need for a large number of costly human perceptual labels. We propose SHAMISA, a non-contrastive se...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.13669</guid>
       <pubDate>Sat, 14 Mar 2026 00:37:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Representation Alignment for Just Image Transformers is not Easier than You Think</title>
+      <link>https://huggingface.co/papers/2603.14366</link>
+      <description>By Jaeyo Shin, Jiwook Kim, Hyunjung Shim
+
+Representation Alignment (REPA) has emerged as a simple way to accelerate Diffusion Transformers training in latent space. At the same time, pixel-space diffusion transformers such as Just image Transformers (JiT) have attracted growing attention because they remove a dependency on a pretrained toke...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.14366</guid>
+      <pubDate>Sun, 15 Mar 2026 13:08:31 +0000</pubDate>
     </item>
     <item>
       <title>The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics</title>
@@ -109,24 +118,6 @@ Users across enterprises increasingly rely on AI agents to query their data thro
 While prior red-teaming efforts have focused on eliciting harmful text outputs from large language models (LLMs), such approaches fail to capture agent-specific vulnerabilities that emerge through multi-step tool execution, particularly in rapidly growing ecosystems such as the Model Context Protoco...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.22341</guid>
       <pubDate>Sat, 21 Mar 2026 12:33:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>2Xplat: Two Experts Are Better Than One Generalist</title>
-      <link>https://huggingface.co/papers/2603.21064</link>
-      <description>By Hwasik Jeong, Seungryong Lee, Gyeongjin Kang, Seungkwon Yang, Xiangyu Sun, et al.
-
-Pose-free feed-forward 3D Gaussian Splatting (3DGS) has opened a new frontier for rapid 3D modeling, enabling high-quality Gaussian representations to be generated from uncalibrated multi-view images in a single forward pass. The dominant approach in this space adopts unified monolithic architecture...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.21064</guid>
-      <pubDate>Sun, 22 Mar 2026 05:14:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Session Risk Memory (SRM): Temporal Authorization for Deterministic Pre-Execution Safety Gates</title>
-      <link>https://huggingface.co/papers/2603.22350</link>
-      <description>By Florin Adrian Chitan
-
-Deterministic pre-execution safety gates evaluate whether individual agent actions are compatible with their assigned roles. While effective at per-action authorization, these systems are structurally blind to distributed attacks that decompose harmful intent across multiple individually-compliant s...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.22350</guid>
-      <pubDate>Sun, 22 Mar 2026 08:30:28 +0000</pubDate>
     </item>
     <item>
       <title>When Models Judge Themselves: Unsupervised Self-Evolution for Multimodal Reasoning</title>
@@ -262,15 +253,6 @@ Monocular novel-view synthesis has long required multi-view image pairs for supe
 Existing approaches for improving the efficiency of Large Vision-Language Models (LVLMs) are largely based on the concept of visual token reduction. This approach, however, creates an information bottleneck that impairs performance, especially on challenging tasks that require fine-grained understan...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.23495</guid>
       <pubDate>Tue, 24 Mar 2026 17:58:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>DA-Flow: Degradation-Aware Optical Flow Estimation with Diffusion Models</title>
-      <link>https://huggingface.co/papers/2603.23499</link>
-      <description>By Jaewon Min, Jaeeun Lee, Yeji Choi, Paul Hyunbin Cho, Jin Hyeon Kim, et al.
-
-Optical flow models trained on high-quality data often degrade severely when confronted with real-world corruptions such as blur, noise, and compression artifacts. To overcome this limitation, we formulate Degradation-Aware Optical Flow, a new task targeting accurate dense correspondence estimation ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.23499</guid>
-      <pubDate>Tue, 24 Mar 2026 17:59:13 +0000</pubDate>
     </item>
     <item>
       <title>Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments</title>
@@ -424,6 +406,24 @@ Image restoration under real-world degradations is critical for downstream tasks
 We introduce Voxtral TTS, an expressive multilingual text-to-speech model that generates natural speech from as little as 3 seconds of reference audio. Voxtral TTS adopts a hybrid architecture that combines auto-regressive generation of semantic speech tokens with flow-matching for acoustic tokens. ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.25551</guid>
       <pubDate>Thu, 26 Mar 2026 15:23:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>S2D2: Fast Decoding for Diffusion LLMs via Training-Free Self-Speculation</title>
+      <link>https://huggingface.co/papers/2603.25702</link>
+      <description>By Ligong Han, Hao Wang, Han Gao, Kai Xu, Akash Srivastava
+
+Block-diffusion language models offer a promising path toward faster-than-autoregressive generation by combining block-wise autoregressive decoding with within-block parallel denoising. However, in the few-step regime needed for practical acceleration, standard confidence-thresholded decoding is oft...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.25702</guid>
+      <pubDate>Thu, 26 Mar 2026 17:48:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electrostatic Photoluminescence Tuning in All-Solid-State Perovskite Transistors</title>
+      <link>https://huggingface.co/papers/2603.25718</link>
+      <description>By Vladimir Bruevich, Dmitry Maslennikov, Beier Hu, Artem A. Bakulin, Vitaly Podzorov
+
+We demonstrate an all solid state semiconductor device, based on epitaxial single crystalline metal halide perovskites, enabling reversible control of a perovskite photoluminescence with a gate voltage. Fundamentally distinct from electroluminescent diodes, such a photoluminescence field effect tran...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.25718</guid>
+      <pubDate>Thu, 26 Mar 2026 17:57:34 +0000</pubDate>
     </item>
     <item>
       <title>PixelSmile: Toward Fine-Grained Facial Expression Editing</title>

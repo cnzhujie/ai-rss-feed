@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Mar 2026 09:02:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 10:56:17 +0000</lastBuildDate>
     <item>
       <title>MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens</title>
       <link>https://huggingface.co/papers/2603.23516</link>
@@ -73,6 +73,15 @@ While recent generative video models have achieved remarkable visual realism and
 The real world is non-stationary and infinitely complex, requiring intelligent agents to learn continually without the prohibitive cost of retraining from scratch. While online continual learning offers a framework for this setting, learning new information often interferes with previously acquired ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.17198</guid>
       <pubDate>Tue, 17 Mar 2026 22:59:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>MemMA: Coordinating the Memory Cycle through Multi-Agent Reasoning and In-Situ Self-Evolution</title>
+      <link>https://huggingface.co/papers/2603.18718</link>
+      <description>By Minhua Lin, Zhiwei Zhang, Hanqing Lu, Hui Liu, Xianfeng Tang, et al.
+
+Memory-augmented LLM agents maintain external memory banks to support long-horizon interaction, yet most existing systems treat construction, retrieval, and utilization as isolated subroutines. This creates two coupled challenges: strategic blindness on the forward path of the memory cycle, where co...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.18718</guid>
+      <pubDate>Thu, 19 Mar 2026 10:15:59 +0000</pubDate>
     </item>
     <item>
       <title>6Bit-Diffusion: Inference-Time Mixed-Precision Quantization for Video Diffusion Models</title>
@@ -156,15 +165,6 @@ Precipitation nowcasting is critical for disaster mitigation and aviation safety
       <pubDate>Mon, 23 Mar 2026 10:05:51 +0000</pubDate>
     </item>
     <item>
-      <title>VP-VLA: Visual Prompting as an Interface for Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2603.22003</link>
-      <description>By Zixuan Wang, Yuxin Chen, Yuqi Liu, Jinhui Ye, Pengguang Chen, et al.
-
-Vision-Language-Action (VLA) models typically map visual observations and linguistic instructions directly to robotic control signals. This "black-box" mapping forces a single forward pass to simultaneously handle instruction interpretation, spatial grounding, and low-level control, often leading to...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.22003</guid>
-      <pubDate>Mon, 23 Mar 2026 14:08:58 +0000</pubDate>
-    </item>
-    <item>
       <title>StreamingClaw Technical Report</title>
       <link>https://huggingface.co/papers/2603.22120</link>
       <description>By Jiawei Chen, Zhe Chen, Chaoqun Du, Maokui He, Wei He, et al.
@@ -219,15 +219,6 @@ State-of-the-art video generation models produce remarkable photorealism, but th
       <pubDate>Tue, 24 Mar 2026 17:32:42 +0000</pubDate>
     </item>
     <item>
-      <title>Regulating AI Agents</title>
-      <link>https://huggingface.co/papers/2603.23471</link>
-      <description>By Kathrin Gardhouse, Amin Oueslati, Noam Kolt
-
-AI agents -- systems that can independently take actions to pursue complex goals with only limited human oversight -- have entered the mainstream. These systems are now being widely used to produce software, conduct business activities, and automate everyday personal tasks. While AI agents implicate...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.23471</guid>
-      <pubDate>Tue, 24 Mar 2026 17:38:27 +0000</pubDate>
-    </item>
-    <item>
       <title>UniFunc3D: Unified Active Spatial-Temporal Grounding for 3D Functionality Segmentation</title>
       <link>https://huggingface.co/papers/2603.23478</link>
       <description>By Jiaying Lin, Dan Xu
@@ -244,15 +235,6 @@ Functionality segmentation in 3D scenes requires an agent to ground implicit nat
 Monocular novel-view synthesis has long required multi-view image pairs for supervision, limiting training data scale and diversity. We argue it is not necessary: one view is enough. We present OVIE, trained entirely on unpaired internet images. We leverage a monocular depth estimator as a geometric...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.23488</guid>
       <pubDate>Tue, 24 Mar 2026 17:54:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>VISion On Request: Enhanced VLLM efficiency with sparse, dynamically selected, vision-language interactions</title>
-      <link>https://huggingface.co/papers/2603.23495</link>
-      <description>By Adrian Bulat, Alberto Baldrati, Ioannis Maniadis Metaxas, Yassine Ouali, Georgios Tzimiropoulos
-
-Existing approaches for improving the efficiency of Large Vision-Language Models (LVLMs) are largely based on the concept of visual token reduction. This approach, however, creates an information bottleneck that impairs performance, especially on challenging tasks that require fine-grained understan...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.23495</guid>
-      <pubDate>Tue, 24 Mar 2026 17:58:17 +0000</pubDate>
     </item>
     <item>
       <title>Can LLM Agents Be CFOs? A Benchmark for Resource Allocation in Dynamic Enterprise Environments</title>
@@ -363,6 +345,15 @@ Software development is iterative, yet agentic coding benchmarks overwhelmingly 
       <pubDate>Wed, 25 Mar 2026 19:26:44 +0000</pubDate>
     </item>
     <item>
+      <title>Calibri: Enhancing Diffusion Transformers via Parameter-Efficient Calibration</title>
+      <link>https://huggingface.co/papers/2603.24800</link>
+      <description>By Danil Tokhchukov, Aysel Mirzoeva, Andrey Kuznetsov, Konstantin Sobolev
+
+In this paper, we uncover the hidden potential of Diffusion Transformers (DiTs) to significantly enhance generative tasks. Through an in-depth analysis of the denoising process, we demonstrate that introducing a single learned scaling parameter can significantly improve the performance of DiT blocks...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.24800</guid>
+      <pubDate>Wed, 25 Mar 2026 20:19:50 +0000</pubDate>
+    </item>
+    <item>
       <title>FinMCP-Bench: Benchmarking LLM Agents for Real-World Financial Tool Use under the Model Context Protocol</title>
       <link>https://huggingface.co/papers/2603.24943</link>
       <description>By Jie Zhu, Yimin Tian, Boyang Li, Kehao Wu, Zhongzhi Liang, et al.
@@ -406,6 +397,15 @@ Image restoration under real-world degradations is critical for downstream tasks
 We introduce Voxtral TTS, an expressive multilingual text-to-speech model that generates natural speech from as little as 3 seconds of reference audio. Voxtral TTS adopts a hybrid architecture that combines auto-regressive generation of semantic speech tokens with flow-matching for acoustic tokens. ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.25551</guid>
       <pubDate>Thu, 26 Mar 2026 15:23:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes</title>
+      <link>https://huggingface.co/papers/2603.25562</link>
+      <description>By Yuqian Fu, Haohuan Huang, Kaiwen Jiang, Yuanheng Zhu, Dongbin Zhao
+
+On-policy distillation (OPD) is appealing for large language model (LLM) post-training because it evaluates teacher feedback on student-generated rollouts rather than fixed teacher traces. In long-horizon settings, however, the common sampled-token variant is fragile: it reduces distribution matchin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.25562</guid>
+      <pubDate>Thu, 26 Mar 2026 15:35:59 +0000</pubDate>
     </item>
     <item>
       <title>S2D2: Fast Decoding for Diffusion LLMs via Training-Free Self-Speculation</title>

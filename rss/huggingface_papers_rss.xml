@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Apr 2026 17:05:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 19:14:14 +0000</lastBuildDate>
     <item>
       <title>Learn2Fold: Structured Origami Generation with World Model Planning</title>
       <link>https://huggingface.co/papers/2603.29585</link>
@@ -145,6 +145,15 @@ Standard LLM-based speech recognition systems typically process utterances in is
       <pubDate>Fri, 27 Mar 2026 10:09:30 +0000</pubDate>
     </item>
     <item>
+      <title>MPDiT: Multi-Patch Global-to-Local Transformer Architecture For Efficient Flow Matching and Diffusion Model</title>
+      <link>https://huggingface.co/papers/2603.26357</link>
+      <description>By Quan Dao, Dimitris Metaxas
+
+Transformer architectures, particularly Diffusion Transformers (DiTs), have become widely used in diffusion and flow-matching models due to their strong performance compared to convolutional UNets. However, the isotropic design of DiTs processes the same number of patchified tokens in every block, l...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.26357</guid>
+      <pubDate>Fri, 27 Mar 2026 12:30:10 +0000</pubDate>
+    </item>
+    <item>
       <title>AutoWeather4D: Autonomous Driving Video Weather Conversion via G-Buffer Dual-Pass Editing</title>
       <link>https://huggingface.co/papers/2603.26546</link>
       <description>By Tianyu Liu, Weitao Xiong, Kunming Luo, Manyuan Zhang, Peng Liu, et al.
@@ -161,15 +170,6 @@ Generative video models have significantly advanced the photorealistic synthesis
 Large-scale video diffusion models achieve impressive visual quality, yet often fail to preserve geometric consistency. Prior approaches improve consistency either by augmenting the generator with additional modules or applying geometry-aware alignment. However, architectural modifications can compr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.26599</guid>
       <pubDate>Fri, 27 Mar 2026 16:57:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>TAPS: Task Aware Proposal Distributions for Speculative Sampling</title>
-      <link>https://huggingface.co/papers/2603.27027</link>
-      <description>By Mohamad Zbib, Mohamad Bazzi, Ammar Mohanna, Hasan Abed Al Kader Hammoud, Bernard Ghanem
-
-Speculative decoding accelerates autoregressive generation by letting a lightweight draft model propose future tokens that a larger target model then verifies in parallel. In practice, however, draft models are usually trained on broad generic corpora, which leaves it unclear how much speculative de...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.27027</guid>
-      <pubDate>Fri, 27 Mar 2026 22:34:20 +0000</pubDate>
     </item>
     <item>
       <title>Unified Number-Free Text-to-Motion Generation Via Flow Matching</title>
@@ -233,6 +233,15 @@ Perception-centric systems are typically implemented with a modular encoder-deco
 Foundation models have demonstrated remarkable success across diverse domains and tasks, primarily due to the thrive of large-scale, diverse, and high-quality datasets. However, in the field of medical imaging, the curation and assembling of such medical datasets are highly challenging due to the re...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.27460</guid>
       <pubDate>Sun, 29 Mar 2026 00:46:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>TokenDial: Continuous Attribute Control in Text-to-Video via Spatiotemporal Token Offsets</title>
+      <link>https://huggingface.co/papers/2603.27520</link>
+      <description>By Zhixuan Liu, Peter Schaldenbrand, Yijun Li, Long Mai, Aniruddha Mahapatra, et al.
+
+We present TokenDial, a framework for continuous, slider-style attribute control in pretrained text-to-video generation models. While modern generators produce strong holistic videos, they offer limited control over how much an attribute changes (e.g., effect intensity or motion magnitude) without d...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.27520</guid>
+      <pubDate>Sun, 29 Mar 2026 05:07:41 +0000</pubDate>
     </item>
     <item>
       <title>LongCat-Next: Lexicalizing Modalities as Discrete Tokens</title>
@@ -323,15 +332,6 @@ Large language models (LLMs) can generate chains of thought (CoTs) that are not 
 Long video understanding remains challenging for Multi-modal Large Language Models (MLLMs) due to high memory costs and context-length limits. Prior approaches mitigate this by scoring and selecting frames/tokens within short clips, but they lack a principled mechanism to (i) compare relevance acros...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.28696</guid>
       <pubDate>Mon, 30 Mar 2026 17:14:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>On-the-fly Repulsion in the Contextual Space for Rich Diversity in Diffusion Transformers</title>
-      <link>https://huggingface.co/papers/2603.28762</link>
-      <description>By Omer Dahary, Benaya Koren, Daniel Garibi, Daniel Cohen-Or
-
-Modern Text-to-Image (T2I) diffusion models have achieved remarkable semantic alignment, yet they often suffer from a significant lack of variety, converging on a narrow set of visual solutions for any given prompt. This typicality bias presents a challenge for creative applications that require a w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.28762</guid>
-      <pubDate>Mon, 30 Mar 2026 17:59:13 +0000</pubDate>
     </item>
     <item>
       <title>PoseDreamer: Scalable and Photorealistic Human Data Generation Pipeline with Diffusion Models</title>

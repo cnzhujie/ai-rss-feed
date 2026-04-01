@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Apr 2026 13:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 15:14:55 +0000</lastBuildDate>
     <item>
       <title>Learn2Fold: Structured Origami Generation with World Model Planning</title>
       <link>https://huggingface.co/papers/2603.29585</link>
@@ -26,6 +26,15 @@ The ability to transform a flat sheet into a complex three-dimensional structure
 We introduce VectorGym, a comprehensive benchmark suite for Scalable Vector Graphics (SVG) that spans generation from text and sketches, complex editing, and visual understanding. VectorGym addresses the lack of realistic, challenging benchmarks aligned with professional design workflows. Our benchm...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.29852</guid>
       <pubDate>Sun, 22 Feb 2026 10:39:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tabular LLMs for Interpretable Few-Shot Alzheimer's Disease Prediction with Multimodal Biomedical Data</title>
+      <link>https://huggingface.co/papers/2603.17191</link>
+      <description>By Sophie Kearney, Shu Yang, Zixuan Wen, Weimin Lyu, Bojian Hou, et al.
+
+Accurate diagnosis of Alzheimer's disease (AD) requires handling tabular biomarker data, yet such data are often small and incomplete, where deep learning models frequently fail to outperform classical methods. Pretrained large language models (LLMs) offer few-shot generalization, structured reasoni...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.17191</guid>
+      <pubDate>Tue, 17 Mar 2026 22:43:50 +0000</pubDate>
     </item>
     <item>
       <title>How Auditory Knowledge in LLM Backbones Shapes Audio Language Models: A Holistic Evaluation</title>
@@ -53,6 +62,15 @@ Evaluating production LLM responses and routing requests across providers in LLM
 We present Future-KL Influenced Policy Optimization (FIPO), a reinforcement learning algorithm designed to overcome reasoning bottlenecks in large language models. While GRPO style training scales effectively, it typically relies on outcome-based rewards (ORM) that distribute a global advantage unif...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.19835</guid>
       <pubDate>Fri, 20 Mar 2026 10:24:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Documents Disagree: Measuring Institutional Variation in Transplant Guidance with Retrieval-Augmented Language Models</title>
+      <link>https://huggingface.co/papers/2603.21460</link>
+      <description>By Yubo Li, Ramayya Krishnan, Rema Padman
+
+Patient education materials for solid-organ transplantation vary substantially across U.S. centers, yet no systematic method exists to quantify this heterogeneity at scale. We introduce a framework that grounds the same patient questions in different centers' handbooks using retrieval-augmented lang...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.21460</guid>
+      <pubDate>Mon, 23 Mar 2026 00:42:40 +0000</pubDate>
     </item>
     <item>
       <title>It Takes Two: A Duet of Periodicity and Directionality for Burst Flicker Removal</title>
@@ -109,15 +127,6 @@ Plasma modeling is central to the design of nuclear fusion reactors, yet simulat
       <pubDate>Thu, 26 Mar 2026 18:55:44 +0000</pubDate>
     </item>
     <item>
-      <title>Density-aware Soft Context Compression with Semi-Dynamic Compression Ratio</title>
-      <link>https://huggingface.co/papers/2603.25926</link>
-      <description>By Yijiong Yu, Shuai Yuan, Jie Zheng, Huazheng Wang, Ji Pei
-
-Soft context compression reduces the computational workload of processing long contexts in LLMs by encoding long context into a smaller number of latent tokens. However, existing frameworks apply uniform compression ratios, failing to account for the extreme variance in natural language information ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.25926</guid>
-      <pubDate>Thu, 26 Mar 2026 21:36:55 +0000</pubDate>
-    </item>
-    <item>
       <title>CREval: An Automated Interpretable Evaluation for Creative Image Manipulation under Complex Instructions</title>
       <link>https://huggingface.co/papers/2603.26174</link>
       <description>By Chonghuinan Wang, Zihan Chen, Yuxiang Wei, Tianyi Jiang, Xiaohe Wu, et al.
@@ -152,15 +161,6 @@ Generative video models have significantly advanced the photorealistic synthesis
 Large-scale video diffusion models achieve impressive visual quality, yet often fail to preserve geometric consistency. Prior approaches improve consistency either by augmenting the generator with additional modules or applying geometry-aware alignment. However, architectural modifications can compr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.26599</guid>
       <pubDate>Fri, 27 Mar 2026 16:57:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Make Geometry Matter for Spatial Reasoning</title>
-      <link>https://huggingface.co/papers/2603.26639</link>
-      <description>By Shihua Zhang, Qiuhong Shen, Shizun Wang, Tianbo Pan, Xinchao Wang
-
-Empowered by large-scale training, vision-language models (VLMs) achieve strong image and video understanding, yet their ability to perform spatial reasoning in both static scenes and dynamic videos remains limited. Recent advances try to handle this limitation by injecting geometry tokens from pret...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.26639</guid>
-      <pubDate>Fri, 27 Mar 2026 17:45:12 +0000</pubDate>
     </item>
     <item>
       <title>TAPS: Task Aware Proposal Distributions for Speculative Sampling</title>
@@ -199,15 +199,6 @@ Understanding charts requires models to jointly reason over geometric visual pat
       <pubDate>Sat, 28 Mar 2026 00:45:05 +0000</pubDate>
     </item>
     <item>
-      <title>Story2Proposal: A Scaffold for Structured Scientific Paper Writing</title>
-      <link>https://huggingface.co/papers/2603.27065</link>
-      <description>By Zhuoyang Qian, Wei Shi, Xu Lin, Li Ling, Meng Luo, et al.
-
-Generating scientific manuscripts requires maintaining alignment between narrative reasoning, experimental evidence, and visual artifacts across the document lifecycle. Existing language-model generation pipelines rely on unconstrained text synthesis with validation applied only after generation, of...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.27065</guid>
-      <pubDate>Sat, 28 Mar 2026 00:46:14 +0000</pubDate>
-    </item>
-    <item>
       <title>daVinci-LLM:Towards the Science of Pretraining</title>
       <link>https://huggingface.co/papers/2603.27164</link>
       <description>By Yiwei Qin, Yixiu Liu, Tiantian Mi, Muhang Xie, Zhen Huang, et al.
@@ -215,15 +206,6 @@ Generating scientific manuscripts requires maintaining alignment between narrati
 The foundational pretraining phase determines a model's capability ceiling, as post-training struggles to overcome capability foundations established during pretraining, yet it remains critically under-explored. This stems from a structural paradox: organizations with computational resources operate...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.27164</guid>
       <pubDate>Sat, 28 Mar 2026 07:00:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>EpochX: Building the Infrastructure for an Emergent Agent Civilization</title>
-      <link>https://huggingface.co/papers/2603.27304</link>
-      <description>By Huacan Wang, Chaofa Yuan, Xialie Zhuang, Tu Hu, Shuo Zhang, et al.
-
-General-purpose technologies reshape economies less by improving individual tools than by enabling new ways to organize production and coordination. We believe AI agents are approaching a similar inflection point: as foundation models make broad task execution and tool use increasingly accessible, t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.27304</guid>
-      <pubDate>Sat, 28 Mar 2026 15:20:48 +0000</pubDate>
     </item>
     <item>
       <title>A Comparative Study in Surgical AI: Datasets, Foundation Models, and Barriers to Med-AGI</title>
@@ -379,6 +361,15 @@ Continual pre-training is widely used to adapt LLMs to target languages and doma
       <pubDate>Mon, 30 Mar 2026 18:00:02 +0000</pubDate>
     </item>
     <item>
+      <title>The Model Says Walk: How Surface Heuristics Override Implicit Constraints in LLM Reasoning</title>
+      <link>https://huggingface.co/papers/2603.29025</link>
+      <description>By Yubo Li, Lu Zhang, Tianchong Jiang, Ramayya Krishnan, Rema Padman
+
+Large language models systematically fail when a salient surface cue conflicts with an unstated feasibility constraint. We study this through a diagnose-measure-bridge-treat framework. Causal-behavioral analysis of the ``car wash problem'' across six models reveals approximately context-independent ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.29025</guid>
+      <pubDate>Mon, 30 Mar 2026 21:36:09 +0000</pubDate>
+    </item>
+    <item>
       <title>MMFace-DiT: A Dual-Stream Diffusion Transformer for High-Fidelity Multimodal Face Generation</title>
       <link>https://huggingface.co/papers/2603.29029</link>
       <description>By Bharath Krishnamurthy, Ajita Rattani
@@ -386,6 +377,15 @@ Continual pre-training is widely used to adapt LLMs to target languages and doma
 Recent multimodal face generation models address the spatial control limitations of text-to-image diffusion models by augmenting text-based conditioning with spatial priors such as segmentation masks, sketches, or edge maps. This multimodal fusion enables controllable synthesis aligned with both hig...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.29029</guid>
       <pubDate>Mon, 30 Mar 2026 21:44:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>WorldFlow3D: Flowing Through 3D Distributions for Unbounded World Generation</title>
+      <link>https://huggingface.co/papers/2603.29089</link>
+      <description>By Amogh Joshi, Julian Ost, Felix Heide
+
+Unbounded 3D world generation is emerging as a foundational task for scene modeling in computer vision, graphics, and robotics. In this work, we present WorldFlow3D, a novel method capable of generating unbounded 3D worlds. Building upon a foundational property of flow matching - namely, defining a ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.29089</guid>
+      <pubDate>Tue, 31 Mar 2026 00:08:17 +0000</pubDate>
     </item>
     <item>
       <title>TrajectoryMover: Generative Movement of Object Trajectories in Videos</title>

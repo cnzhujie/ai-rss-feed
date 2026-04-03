@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Apr 2026 07:20:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 09:04:27 +0000</lastBuildDate>
     <item>
       <title>Brevity Constraints Reverse Performance Hierarchies in Language Models</title>
       <link>https://huggingface.co/papers/2604.00025</link>
@@ -100,15 +100,6 @@ We introduce PerceptionComp, a manually annotated benchmark for complex, long-ho
       <pubDate>Fri, 27 Mar 2026 17:54:36 +0000</pubDate>
     </item>
     <item>
-      <title>GaussianGPT: Towards Autoregressive 3D Gaussian Scene Generation</title>
-      <link>https://huggingface.co/papers/2603.26661</link>
-      <description>By Nicolas von Lützow, Barbara Rössle, Katharina Schmid, Matthias Nießner
-
-Most recent advances in 3D generative modeling rely on diffusion or flow-matching formulations. We instead explore a fully autoregressive alternative and introduce GaussianGPT, a transformer-based model that directly generates 3D Gaussians via next-token prediction, thus facilitating full 3D scene g...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.26661</guid>
-      <pubDate>Fri, 27 Mar 2026 17:58:05 +0000</pubDate>
-    </item>
-    <item>
       <title>Gated Condition Injection without Multimodal Attention: Towards Controllable Linear-Attention Transformers</title>
       <link>https://huggingface.co/papers/2603.27666</link>
       <description>By Yuhe Liu, Zhenxiong Tan, Yujia Hu, Songhua Liu, Xinchao Wang
@@ -196,6 +187,15 @@ Sparse-view 3D modeling represents a fundamental tension between reconstruction 
 
 Current LLM-based coding agents follow a serial execution paradigm: the model first generates the complete code, then invokes an interpreter to execute it. This sequential workflow leaves the executor idle during generation and the generator idle during execution, resulting in unnecessary end-to-end...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.00491</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigating Autonomous Agent Contributions in the Wild: Activity Patterns and Code Change over Time</title>
+      <link>https://huggingface.co/papers/2604.00917</link>
+      <description>By Razvan Mihai Popescu, David Gros, Andrei Botocan, Rahul Pandita, Prem Devanbu, et al.
+
+The rise of large language models for code has reshaped software development. Autonomous coding agents, able to create branches, open pull requests, and perform code reviews, now actively contribute to real-world projects. Their growing role offers a unique and timely opportunity to investigate AI-d...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.00917</guid>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -314,15 +314,6 @@ Large language models (LLMs) and their applications, such as agents, are highly 
 The rise of test-time scaling has remarkably boosted the reasoning and agentic proficiency of Large Language Models (LLMs). Yet, standard Transformers struggle to scale inference-time compute efficiently, as conventional looping strategies suffer from high computational overhead and a KV cache that ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.01220</guid>
       <pubDate>Wed, 01 Apr 2026 17:58:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>HippoCamp: Benchmarking Contextual Agents on Personal Computers</title>
-      <link>https://huggingface.co/papers/2604.01221</link>
-      <description>By Zhe Yang, Shulin Tian, Kairui Hu, Shuai Liu, Hoang-Nhat Nguyen, et al.
-
-We present HippoCamp, a new benchmark designed to evaluate agents' capabilities on multimodal file management. Unlike existing agent benchmarks that focus on tasks like web interaction, tool use, or software automation in generic settings, HippoCamp evaluates agents in user-centric environments to m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.01221</guid>
-      <pubDate>Wed, 01 Apr 2026 17:58:33 +0000</pubDate>
     </item>
     <item>
       <title>SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization</title>
@@ -457,6 +448,15 @@ Despite recent progress, video diffusion models still struggle to synthesize rea
 
 Existing video object removal methods excel at inpainting content "behind" the object and correcting appearance-level artifacts such as shadows and reflections. However, when the removed object has more significant interactions, such as collisions with other objects, current models fail to correct t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.02296</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation</title>
+      <link>https://huggingface.co/papers/2604.02289</link>
+      <description>By Chongjie Ye, Cheng Cao, Chuanyu Pan, Yiming Hao, Yihao Zhi, et al.
+
+Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.02289</guid>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

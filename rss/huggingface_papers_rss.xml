@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Apr 2026 05:50:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 07:43:13 +0000</lastBuildDate>
+    <item>
+      <title>Self-Execution Simulation Improves Coding Models</title>
+      <link>https://huggingface.co/papers/2604.03253</link>
+      <description>By Gallil Maimon, Ori Yoran, Felix Kreuk, Michael Hassid, Gal Cohen, et al.
+
+A promising research direction in enabling LLMs to generate consistently correct code involves addressing their inability to properly estimate program execution, particularly for code they generate. In this work, we demonstrate that Code LLMs can be trained to simulate program execution in a step-by...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.03253</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Working Notes on Late Interaction Dynamics: Analyzing Targeted Behaviors of Late Interaction Models</title>
       <link>https://huggingface.co/papers/2603.26259</link>
@@ -53,15 +62,6 @@ Learning human-object manipulation presents significant challenges due to its fi
 Humans build shared spatial understanding by communicating partial, viewpoint-dependent observations. We ask whether Multimodal Large Language Models (MLLMs) can do the same, aligning distinct egocentric views through dialogue to form a coherent, allocentric mental model of a shared environment. To ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.27183</guid>
       <pubDate>Sat, 28 Mar 2026 08:01:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Memory-Augmented Vision-Language Agents for Persistent and Semantically Consistent Object Captioning</title>
-      <link>https://huggingface.co/papers/2603.24257</link>
-      <description>By Tommaso Galliena, Stefano Rosa, Tommaso Apicella, Pietro Morerio, Alessio Del Bue, et al.
-
-Vision-Language Models (VLMs) often yield inconsistent descriptions of the same object across viewpoints, hindering the ability of embodied agents to construct consistent semantic representations over time. Previous methods resolved inconsistencies using offline multi-view aggregation or multi-stage...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.24257</guid>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MultiGen: Level-Design for Editable Multiplayer Worlds in Diffusion Game Engines</title>
@@ -170,33 +170,6 @@ Robot action planning in the real world is challenging as it requires not only u
 Modern LLMs scale at test-time, e.g. via repeated sampling, where inference cost grows with model size and the number of samples. This creates a trade-off that pretraining scaling laws, such as Chinchilla, do not address. We present Train-to-Test (T^2) scaling laws that jointly optimize model size, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.01411</guid>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Brainstacks: Cross-Domain Cognitive Capabilities via Frozen MoE-LoRA Stacks for Continual LLM Learning</title>
-      <link>https://huggingface.co/papers/2604.01152</link>
-      <description>By Mohammad R. Abu Ayyash
-
-We present Brainstacks, a modular architecture for continual multi-domain fine-tuning of large language models that packages domain expertise as frozen adapter stacks composing additively on a shared frozen base at inference. Five interlocking components: (1) MoE-LoRA with Shazeer-style noisy top-2 ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.01152</guid>
-      <pubDate>Wed, 01 Apr 2026 17:08:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2604.01618</link>
-      <description>By Jiawei Chen, Simin Huang, Jiawei Du, Shuaihang Chen, Yu Tian, et al.
-
-Vision-language-action (VLA) models have shown strong performance in robotic manipulation, yet their robustness to physically realizable adversarial attacks remains underexplored. Existing studies reveal vulnerabilities through language perturbations and 2D visual attacks, but these attack surfaces ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.01618</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steerable Visual Representations</title>
-      <link>https://huggingface.co/papers/2604.02327</link>
-      <description>By Jona Ruthardt, Manu Gaur, Deva Ramanan, Makarand Tapaswi, Yuki M. Asano
-
-Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.02327</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ActionParty: Multi-Subject Action Binding in Generative Video Games</title>
@@ -370,6 +343,15 @@ AI agents deployed as persistent assistants must maintain correct beliefs as the
       <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Can LLMs Learn to Reason Robustly under Noisy Supervision?</title>
+      <link>https://huggingface.co/papers/2604.03993</link>
+      <description>By Shenzhi Yang, Guangcheng Zhu, Bowen Song, Sharon Li, Haobo Wang, et al.
+
+Reinforcement Learning with Verifiable Rewards (RLVR) effectively trains reasoning models that rely on abundant perfect labels, but its vulnerability to unavoidable noisy labels due to expert scarcity remains critically underexplored. In this work, we take the first step toward a systematic analysis...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.03993</guid>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>SpatialEdit: Benchmarking Fine-Grained Image Spatial Editing</title>
       <link>https://huggingface.co/papers/2604.04911</link>
       <description>By Yicheng Xiao, Wenhu Zhang, Lin Song, Yukang Chen, Wenbo Li, et al.
@@ -457,6 +439,24 @@ World models have garnered significant attention as a promising research directi
 
 Agentic AI systems increasingly execute consequential actions on behalf of human principals, delegating tasks through multi-step chains of autonomous agents. No existing standard addresses a fundamental accountability gap: verifying that terminal actions in a delegation chain were genuinely authoriz...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.04522</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AvatarPointillist: AutoRegressive 4D Gaussian Avatarization</title>
+      <link>https://huggingface.co/papers/2604.04787</link>
+      <description>By Hongyu Liu, Xuan Wang, Yating Wang, Zijian Wu, Ziyu Wan, et al.
+
+We introduce AvatarPointillist, a novel framework for generating dynamic 4D Gaussian avatars from a single portrait image. At the core of our method is a decoder-only Transformer that autoregressively generates a point cloud for 3D Gaussian Splatting. This sequential approach allows for precise, ada...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.04787</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw</title>
+      <link>https://huggingface.co/papers/2604.04759</link>
+      <description>By Zijun Wang, Haoqin Tu, Letian Zhang, Hardy Chen, Juncheng Wu, et al.
+
+OpenClaw, the most widely deployed personal AI agent in early 2026, operates with full local system access and integrates with sensitive services such as Gmail, Stripe, and the filesystem. While these broad privileges enable high levels of automation and powerful personalization, they also expose a ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.04759</guid>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 09:13:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 11:07:11 +0000</lastBuildDate>
     <item>
       <title>Self-Execution Simulation Improves Coding Models</title>
       <link>https://huggingface.co/papers/2604.03253</link>
@@ -163,15 +163,6 @@ The autonomous discovery of bugs remains a significant challenge in modern softw
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LightThinker++: From Reasoning Compression to Memory Management</title>
-      <link>https://huggingface.co/papers/2604.03679</link>
-      <description>By Yuqi Zhu, Jintian Zhang, Zhenjie Wan, Yujie Luo, Shuofei Qiao, et al.
-
-Large language models (LLMs) excel at complex reasoning, yet their efficiency is limited by the surging cognitive overhead of long thought traces. In this paper, we propose LightThinker, a method that enables LLMs to dynamically compress intermediate thoughts into compact semantic representations. H...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.03679</guid>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>SciLT: Long-Tailed Classification in Scientific Image Domains</title>
       <link>https://huggingface.co/papers/2604.03687</link>
       <description>By Jiahao Chen, Bing Su
@@ -187,6 +178,15 @@ Long-tailed recognition has benefited from foundation models and fine-tuning par
 
 Large Language Models (LLMs) can compose poetry, but how far are they from human poets? In this paper, we introduce POEMetric, the first comprehensive framework for poetry evaluation, examining 1) basic instruction-following abilities in generating poems according to a certain form and theme, 2) adv...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.03695</guid>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling?</title>
+      <link>https://huggingface.co/papers/2604.03619</link>
+      <description>By Peter Yongho Kim, Juhyeon Park, Jungwoo Park, Jubin Choi, Jungwoo Seo, et al.
+
+Modeling long-range spatiotemporal dynamics in functional Magnetic Resonance Imaging (fMRI) remains a key challenge due to the high dimensionality of the four-dimensional signals. Prior voxel-based models, although demonstrating excellent performance and interpretation capabilities, are constrained ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.03619</guid>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -217,31 +217,13 @@ Selecting LLM-generated code candidates using LLM-generated tests is challenging
       <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale</title>
-      <link>https://huggingface.co/papers/2604.04771</link>
-      <description>By Bin Wang, Tianyao He, Linke Ouyang, Fan Wu, Zhiyuan Zhao, et al.
+      <title>DARE: Diffusion Large Language Models Alignment and Reinforcement Executor</title>
+      <link>https://huggingface.co/papers/2604.04215</link>
+      <description>By Jingyi Yang, Yuxian Jiang, Xuhao Hu, Shuang Cheng, Biqing Qi, et al.
 
-Current document parsing methods compete primarily on model architecture innovation, while systematic engineering of training data remains underexplored. Yet SOTA models of different architectures and parameter scales exhibit highly consistent failure patterns on the same set of hard samples, sugges...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04771</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TriAttention: Efficient Long Reasoning with Trigonometric KV Compression</title>
-      <link>https://huggingface.co/papers/2604.04921</link>
-      <description>By Weian Mao, Xi Lin, Wei Huang, Yuxin Xie, Tianfu Fu, et al.
-
-Extended reasoning in large language models (LLMs) creates severe KV cache memory bottlenecks. Leading KV cache compression methods estimate KV importance using attention scores from recent post-RoPE queries. However, queries rotate with position during RoPE, making representative queries very few, ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04921</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FileGram: Grounding Agent Personalization in File-System Behavioral Traces</title>
-      <link>https://huggingface.co/papers/2604.04901</link>
-      <description>By Shuai Liu, Shulin Tian, Kairui Hu, Yuhao Dong, Zhe Yang, et al.
-
-Coworking AI agents operating within local file systems are rapidly emerging as a paradigm in human-AI interaction; however, effective personalization remains limited by severe data constraints, as strict privacy barriers and the difficulty of jointly collecting multimodal real-world traces prevent ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04901</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+Diffusion large language models (dLLMs) are emerging as a compelling alternative to dominant autoregressive models, replacing strictly sequential token generation with iterative denoising and parallel generation dynamics. However, their open-source ecosystem remains fragmented across model families ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.04215</guid>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenWorldLib: A Unified Codebase and Definition of Advanced World Models</title>
@@ -370,6 +352,15 @@ We present MegaTrain, a memory-centric system that efficiently trains 100B+ para
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Watch Before You Answer: Learning from Visually Grounded Post-Training</title>
+      <link>https://huggingface.co/papers/2604.05117</link>
+      <description>By Yuxuan Zhang, EunJeong Hwang, Huaisong Zhang, Penghui Du, Yiming Jia, et al.
+
+It is critical for vision-language models (VLMs) to comprehensively understand visual, temporal, and textual cues. However, despite rapid progress in multimodal modeling, video understanding performance still lags behind text-based reasoning. In this work, we find that progress is even worse than pr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.05117</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning</title>
       <link>https://huggingface.co/papers/2604.05404</link>
       <description>By Qisheng Su, Shiting Huang, Zhen Fang, Ziyan Chen, Zehui Chen, et al.
@@ -457,6 +448,15 @@ The rapid growth of scientific literature has made it increasingly difficult for
 
 Large Language Models (LLMs) achieve strong program repair performance but often suffer from over-editing, where excessive modifications overwrite correct code and hinder bug localization. We systematically quantify its impact and introduce precise repair task, which maximizes reuse of correct code ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.05963</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Context-Value-Action Architecture for Value-Driven Large Language Model Agents</title>
+      <link>https://huggingface.co/papers/2604.05939</link>
+      <description>By TianZe Zhang, Sirui Sun, Yuhang Xie, Xin Zhang, Zhiqiang Wu, et al.
+
+Large Language Models (LLMs) have shown promise in simulating human behavior, yet existing agents often exhibit behavioral rigidity, a flaw frequently masked by the self-referential bias of current "LLM-as-a-judge" evaluations. By evaluating against empirical ground truth, we reveal a counter-intuit...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.05939</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

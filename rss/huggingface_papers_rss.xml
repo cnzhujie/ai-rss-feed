@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 03:20:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 05:50:58 +0000</lastBuildDate>
     <item>
       <title>Self-Execution Simulation Improves Coding Models</title>
       <link>https://huggingface.co/papers/2604.03253</link>
@@ -136,12 +136,30 @@ Transforming causal generative language models into bidirectional encoders offer
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ThinkTwice: Jointly Optimizing Large Language Models for Reasoning and Self-Refinement</title>
+      <link>https://huggingface.co/papers/2604.01591</link>
+      <description>By Difan Jiao, Qianfeng Wen, Blair Yang, Zhenwei Tang, Ashton Anderson
+
+We introduce ThinkTwice, a simple two-phase framework that jointly optimizes LLMs to solve reasoning problems and refine the answers, based on Group Relative Policy Optimization (GRPO). In each pair of training steps, ThinkTwice first optimizes the model on solving reasoning problems, then optimizes...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.01591</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Do Audio-Visual Large Language Models Really See and Hear?</title>
       <link>https://huggingface.co/papers/2604.02605</link>
       <description>By Ramaneswaran Selvakumar, Kaousheik Jayakumar, S Sakshi, Sreyan Ghosh, Ruohan Gao, et al.
 
 Audio-Visual Large Language Models (AVLLMs) are emerging as unified interfaces to multimodal perception. We present the first mechanistic interpretability study of AVLLMs, analyzing how audio and visual features evolve and fuse through different layers of an AVLLM to produce the final text outputs. ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.02605</guid>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers</title>
+      <link>https://huggingface.co/papers/2604.02648</link>
+      <description>By Shufan Jiang, Chios Chen, Zhiyang Chen
+
+The autonomous discovery of bugs remains a significant challenge in modern software development. Compared to code generation, the complexity of dynamic runtime environments makes bug discovery considerably harder for large language models (LLMs). In this paper, we take game development as a represen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.02648</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -172,24 +190,6 @@ Large Language Models (LLMs) can compose poetry, but how far are they from human
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AURA: Always-On Understanding and Real-Time Assistance via Video Streams</title>
-      <link>https://huggingface.co/papers/2604.04184</link>
-      <description>By Xudong Lu, Yang Bo, Jinpeng Chen, Shuhan Li, Xintong Guo, et al.
-
-Video Large Language Models (VideoLLMs) have achieved strong performance on many video understanding tasks, but most existing systems remain offline and are not well-suited for live video streams that require continuous observation and timely response. Recent streaming VideoLLMs have made progress, ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04184</guid>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ClawArena: Benchmarking AI Agents in Evolving Information Environments</title>
-      <link>https://huggingface.co/papers/2604.04202</link>
-      <description>By Haonian Ji, Kaiwen Xiong, Siwei Han, Peng Xia, Shi Qiu, et al.
-
-AI agents deployed as persistent assistants must maintain correct beliefs as their information environment evolves. In practice, evidence is scattered across heterogeneous sources that often contradict one another, new information can invalidate earlier conclusions, and user preferences surface thro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04202</guid>
-      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Can LLMs Learn to Reason Robustly under Noisy Supervision?</title>
       <link>https://huggingface.co/papers/2604.03993</link>
       <description>By Shenzhi Yang, Guangcheng Zhu, Bowen Song, Sharon Li, Haobo Wang, et al.
@@ -215,33 +215,6 @@ Foundation models for biology and physics optimize predictive accuracy, but thei
 Selecting LLM-generated code candidates using LLM-generated tests is challenging because the tests themselves may be incorrect. Existing methods either treat all tests equally or rely on ad-hoc heuristics to filter unreliable tests. Yet determining test correctness requires knowing which codes are c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.03922</guid>
       <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Less Detail, Better Answers: Degradation-Driven Prompting for VQA</title>
-      <link>https://huggingface.co/papers/2604.04838</link>
-      <description>By Haoxuan Han, Weijie Wang, Zeyu Zhang, Yefei He, Bohan Zhuang
-
-Recent advancements in Vision-Language Models (VLMs) have significantly pushed the boundaries of Visual Question Answering (VQA).However,high-resolution details can sometimes become noise that leads to hallucinations or reasoning errors. In this paper,we propose Degradation-Driven Prompting (DDP), a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04838</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Memory Intelligence Agent</title>
-      <link>https://huggingface.co/papers/2604.04503</link>
-      <description>By Jingyang Qiao, Weicheng Meng, Yu Cheng, Zhihang Lin, Zhizhong Zhang, et al.
-
-Deep research agents (DRAs) integrate LLM reasoning with external tools. Memory systems enable DRAs to leverage historical experiences, which are essential for efficient reasoning and autonomous evolution. Existing methods rely on retrieving similar trajectories from memory to aid reasoning, while s...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04503</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vero: An Open RL Recipe for General Visual Reasoning</title>
-      <link>https://huggingface.co/papers/2604.04917</link>
-      <description>By Gabriel Sarch, Linrong Cai, Qunzhong Wang, Haoyang Wu, Danqi Chen, et al.
-
-What does it take to build a visual reasoner that works across charts, science, spatial understanding, and open-ended tasks? The strongest vision-language models (VLMs) show such broad visual reasoning is within reach, but the recipe behind them remains unclear, locked behind proprietary reinforceme...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04917</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SkillX: Automatically Constructing Skill Knowledge Bases for Agents</title>
@@ -388,6 +361,24 @@ We present Vanast, a unified framework that generates garment-transferred human 
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>How Well Do Agentic Skills Work in the Wild: Benchmarking LLM Skill Usage in Realistic Settings</title>
+      <link>https://huggingface.co/papers/2604.04323</link>
+      <description>By Yujian Liu, Jiabao Ji, Li An, Tommi Jaakkola, Yang Zhang, et al.
+
+Agent skills, which are reusable, domain-specific knowledge artifacts, have become a popular mechanism for extending LLM-based agents, yet formally benchmarking skill usage performance remains scarce. Existing skill benchmarking efforts focus on overly idealized conditions, where LLMs are directly p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.04323</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU</title>
+      <link>https://huggingface.co/papers/2604.05091</link>
+      <description>By Zhengqing Yuan, Hanchi Sun, Lichao Sun, Yanfang Ye
+
+We present MegaTrain, a memory-centric system that efficiently trains 100B+ parameter large language models at full precision on a single GPU. Unlike traditional GPU-centric systems, MegaTrain stores parameters and optimizer states in host memory (CPU memory) and treats GPUs as transient compute eng...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.05091</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning</title>
       <link>https://huggingface.co/papers/2604.05404</link>
       <description>By Qisheng Su, Shiting Huang, Zhen Fang, Ziyan Chen, Zehui Chen, et al.
@@ -457,6 +448,15 @@ World action models (WAMs) have emerged as a promising direction for robot polic
 
 Multimodal LLM agents operating in complex game environments must continually reuse past experience to solve new tasks efficiently. In this work, we propose Echo, a transfer-oriented memory framework that enables agents to derive actionable knowledge from prior interactions rather than treating memo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.05533</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework</title>
+      <link>https://huggingface.co/papers/2604.06170</link>
+      <description>By Komal Kumar, Aman Chadha, Salman Khan, Fahad Shahbaz Khan, Hisham Cholakkal
+
+The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. Recent advances in multi-agent large language models (LLMs) have demonstrated strong potential for understanding user intent and are being tra...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.06170</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

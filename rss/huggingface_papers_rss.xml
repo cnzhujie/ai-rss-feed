@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 05:20:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 07:49:20 +0000</lastBuildDate>
     <item>
       <title>VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics</title>
       <link>https://huggingface.co/papers/2604.06182</link>
@@ -19,22 +19,22 @@ Existing online benchmarks for mobile GUI agents remain largely app-centric and 
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in LLM Multi-Agent Systems</title>
-      <link>https://huggingface.co/papers/2604.03295</link>
-      <description>By Shanglin Wu, Yuyang Luo, Yueqing Liang, Kaiwen Shi, Yanfang Ye, et al.
+      <title>SEVerA: Verified Synthesis of Self-Evolving Agents</title>
+      <link>https://huggingface.co/papers/2603.25111</link>
+      <description>By Debangshu Banerjee, Changming Xu, Gagandeep Singh
 
-Large language model (LLM) multi-agent systems can scale along two distinct dimensions: by increasing the number of agents and by improving through accumulated experience over time. Although prior work has studied these dimensions separately, their interaction under realistic cost constraints remain...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.03295</guid>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+Recent advances have shown the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes an agent program that invokes parametric models, including LLMs, which are then tuned per task to improve performance. Howeve...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.25111</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mimic Intent, Not Just Trajectories</title>
-      <link>https://huggingface.co/papers/2602.08602</link>
-      <description>By Renming Huang, Chendong Zeng, Wenjing Tang, Jintian Cai, Cewu Lu, et al.
+      <title>Tunable Soft Equivariance with Guarantees</title>
+      <link>https://huggingface.co/papers/2603.26657</link>
+      <description>By Md Ashiqur Rahman, Lim Jun Hao, Jeremiah Jiang, Teck-Yian Lim, Raymond A. Yeh
 
-While imitation learning (IL) has achieved impressive success in dexterous manipulation through generative modeling and pretraining, state-of-the-art approaches like Vision-Language-Action (VLA) models still struggle with adaptation to environmental changes and skill transfer. We argue this stems fr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2602.08602</guid>
-      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+Equivariance is a fundamental property in computer vision models, yet strict equivariance is rarely satisfied in real-world data, which can limit a model's performance. Controlling the degree of equivariance is therefore desirable. We propose a general framework for constructing soft equivariant mod...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.26657</guid>
+      <pubDate>Fri, 27 Mar 2026 17:56:25 +0000</pubDate>
     </item>
     <item>
       <title>Learning to Retrieve from Agent Trajectories</title>
@@ -53,15 +53,6 @@ Information retrieval (IR) systems have traditionally been designed and trained 
 Group Relative Policy Optimization (GRPO) is widely used for reinforcement learning with verifiable rewards, but it often suffers from advantage collapse: when all rollouts in a group receive the same reward, the group yields zero relative advantage and thus no learning signal. For example, if a que...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.00698</guid>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BidirLM: From Text to Omnimodal Bidirectional Encoders by Adapting and Composing Causal LLMs</title>
-      <link>https://huggingface.co/papers/2604.02045</link>
-      <description>By Nicolas Boizard, Théo Deschamps-Berger, Hippolyte Gisserot-Boukhlef, Céline Hudelot, Pierre Colombo
-
-Transforming causal generative language models into bidirectional encoders offers a powerful alternative to BERT-style architectures. However, current approaches remain limited: they lack consensus on optimal training objectives, suffer from catastrophic forgetting at scale, and fail to flexibly int...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.02045</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ThinkTwice: Jointly Optimizing Large Language Models for Reasoning and Self-Refinement</title>
@@ -226,13 +217,22 @@ Reasoning with complex, context-specific rules remains challenging for large lan
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning</title>
-      <link>https://huggingface.co/papers/2604.05404</link>
-      <description>By Qisheng Su, Shiting Huang, Zhen Fang, Ziyan Chen, Zehui Chen, et al.
+      <title>Beyond Hard Negatives: The Importance of Score Distribution in Knowledge Distillation for Dense Retrieval</title>
+      <link>https://huggingface.co/papers/2604.04734</link>
+      <description>By Youngjoon Jang, Seongtae Hong, Hyeonseok Moon, Heuiseok Lim
 
-In real-world Tool-Integrated Reasoning (TIR) scenarios, where LLMs interleave reasoning with external tool calls, a major source of inefficiency is that the toolcalls create pauses between LLM requests and cause KV-Cache eviction, forcing recomputation. Also, the long, unfiltered response returned ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.05404</guid>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+Transferring knowledge from a cross-encoder teacher via Knowledge Distillation (KD) has become a standard paradigm for training retrieval models. While existing studies have largely focused on mining hard negatives to improve discrimination, the systematic composition of training data and the result...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.04734</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>R3PM-Net: Real-time, Robust, Real-world Point Matching Network</title>
+      <link>https://huggingface.co/papers/2604.05060</link>
+      <description>By Yasaman Kashefbahrami, Erkut Akdag, Panagiotis Meletis, Evgeniya Balmashnova, Dip Goswami, et al.
+
+Accurate Point Cloud Registration (PCR) is an important task in 3D data processing, involving the estimation of a rigid transformation between two point clouds. While deep-learning methods have addressed key limitations of traditional non-learning approaches, such as sensitivity to noise, outliers, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.05060</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification</title>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2026 03:38:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 06:22:16 +0000</lastBuildDate>
     <item>
       <title>Structural Graph Probing of Vision-Language Models</title>
       <link>https://huggingface.co/papers/2603.27070</link>
@@ -17,6 +17,15 @@
 Vision-language models (VLMs) achieve strong multimodal performance, yet how computation is organized across populations of neurons remains poorly understood. In this work, we study VLMs through the lens of neural topology, representing each layer as a within-layer correlation graph derived from neu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.27070</guid>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AgentSwing: Adaptive Parallel Context Management Routing for Long-Horizon Web Agents</title>
+      <link>https://huggingface.co/papers/2603.27490</link>
+      <description>By Zhaopeng Feng, Liangcai Su, Zhen Zhang, Xinyu Wang, Xiaotian Zhang, et al.
+
+As large language models (LLMs) evolve into autonomous agents for long-horizon information-seeking, managing finite context capacity has become a critical bottleneck. Existing context management methods typically commit to a single fixed strategy throughout the entire trajectory. Such static designs...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.27490</guid>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Automating Database-Native Function Code Synthesis with LLMs</title>
@@ -152,24 +161,6 @@ We introduce region-specific image refinement as a dedicated problem setting: gi
 The manufacturing sector is increasingly adopting Multimodal Large Language Models (MLLMs) to transition from simple perception to autonomous execution, yet current evaluations fail to reflect the rigorous demands of real-world manufacturing environments. Progress is hindered by data scarcity and a ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.07413</guid>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering</title>
-      <link>https://huggingface.co/papers/2604.08224</link>
-      <description>By Chenyu Zhou, Huacan Chai, Wenteng Chen, Zihan Guo, Rong Shan, et al.
-
-Large language model (LLM) agents are increasingly built less by changing model weights than by reorganizing the runtime around them. Capabilities that earlier systems expected the model to recover internally are now externalized into memory stores, reusable skills, interaction protocols, and the su...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08224</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DMax: Aggressive Parallel Decoding for dLLMs</title>
-      <link>https://huggingface.co/papers/2604.08302</link>
-      <description>By Zigeng Chen, Gongfan Fang, Xinyin Ma, Ruonan Yu, Xinchao Wang
-
-We present DMax, a new paradigm for efficient diffusion language models (dLLMs). It mitigates error accumulation in parallel decoding, enabling aggressive decoding parallelism while preserving generation quality. Unlike conventional masked dLLMs that decode through a binary mask-to-token transition,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08302</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces</title>
@@ -457,6 +448,15 @@ With the advancement of interactive video generation, diffusion models have incr
 
 Chest X-ray report generation (CXR-RG) has the potential to substantially alleviate radiologists' workload. However, conventional autoregressive vision--language models (VLMs) suffer from high inference latency due to sequential token decoding. Diffusion-based models offer a promising alternative th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.09450</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism</title>
+      <link>https://huggingface.co/papers/2604.09544</link>
+      <description>By Hadas Orgad, Boyi Wei, Kaden Zheng, Martin Wattenberg, Peter Henderson, et al.
+
+Large language models (LLMs) undergo alignment training to avoid harmful behaviors, yet the resulting safeguards remain brittle: jailbreaks routinely bypass them, and fine-tuning on narrow domains can induce ``emergent misalignment'' that generalizes broadly. Whether this brittleness reflects a fund...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.09544</guid>
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Apr 2026 06:05:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 08:47:46 +0000</lastBuildDate>
+    <item>
+      <title>SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</title>
+      <link>https://huggingface.co/papers/2604.09557</link>
+      <description>By Talor Abramovich, Maor Ashkenazi, Carl, Putterman, Benjamin Chislett, et al.
+
+Speculative Decoding (SD) has emerged as a critical technique for accelerating Large Language Model (LLM) inference. Unlike deterministic system optimizations, SD performance is inherently data-dependent, meaning that diverse and representative workloads are essential for accurately measuring its ef...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.09557</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Multi-User Large Language Model Agents</title>
       <link>https://huggingface.co/papers/2604.08567</link>
@@ -17,6 +26,15 @@
 Large language models (LLMs) and LLM-based agents are increasingly deployed as assistants in planning and decision making, yet most existing systems are implicitly optimized for a single-principal interaction paradigm, in which the model is designed to satisfy the objectives of one dominant user who...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.08567</guid>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation</title>
+      <link>https://huggingface.co/papers/2604.08570</link>
+      <description>By Ali Slim, Haydar Hamieh, Jawad Kotaich, Yehya Ghosn, Mahdi Chehimi, et al.
+
+Large Language Models (LLMs) are increasingly used for code generation, yet quantum code generation is still evaluated mostly within single frameworks, making it difficult to separate quantum reasoning from framework familiarity. We introduce QuanBench+, a unified benchmark spanning Qiskit, PennyLan...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.08570</guid>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Robust Reasoning Benchmark</title>
@@ -82,51 +100,6 @@ Speculative sampling (SpS) has been successful in accelerating the decoding thro
       <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Structured Causal Video Reasoning via Multi-Objective Alignment</title>
-      <link>https://huggingface.co/papers/2604.04415</link>
-      <description>By Zinuo Li, Yongxin Guo, Jun Liu, Jiawei Zhan, Xi Jiang, et al.
-
-Human understanding of video dynamics is typically grounded in a structured mental representation of entities, actions, and temporal relations, rather than relying solely on immediate deductive reasoning. In contrast, existing Video-LLMs largely depend on unstructured video reasoning, where critical...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04415</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FORGE:Fine-grained Multimodal Evaluation for Manufacturing Scenarios</title>
-      <link>https://huggingface.co/papers/2604.07413</link>
-      <description>By Xiangru Jian, Hao Xu, Wei Pang, Xinjian Zhao, Chengyu Tao, et al.
-
-The manufacturing sector is increasingly adopting Multimodal Large Language Models (MLLMs) to transition from simple perception to autonomous execution, yet current evaluations fail to reflect the rigorous demands of real-world manufacturing environments. Progress is hindered by data scarcity and a ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.07413</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EXAONE 4.5 Technical Report</title>
-      <link>https://huggingface.co/papers/2604.08644</link>
-      <description>By Eunbi Choi, Kibong Choi, Sehyun Chun, Seokhee Hong, Junwon Hwang, et al.
-
-This technical report introduces EXAONE 4.5, the first open-weight vision language model released by LG AI Research. EXAONE 4.5 is architected by integrating a dedicated visual encoder into the existing EXAONE 4.0 framework, enabling native multimodal pretraining over both visual and textual modalit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08644</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WildDet3D: Scaling Promptable 3D Detection in the Wild</title>
-      <link>https://huggingface.co/papers/2604.08626</link>
-      <description>By Weikai Huang, Jieyu Zhang, Sijun Li, Taoyang Jia, Jiafei Duan, et al.
-
-Understanding objects in 3D from a single image is a cornerstone of spatial intelligence. A key step toward this goal is monocular 3D object detection--recovering the extent, location, and orientation of objects from an input RGB image. To be practical in the open world, such a detector must general...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08626</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cross-Modal Emotion Transfer for Emotion Editing in Talking Face Video</title>
-      <link>https://huggingface.co/papers/2604.07786</link>
-      <description>By Chanhyuk Choi, Taesoo Kim, Donggyu Lee, Siyeol Jung, Taehwan Kim
-
-Talking face generation has gained significant attention as a core application of generative models. To enhance the expressiveness and realism of synthesized videos, emotion editing in talking face video plays a crucial role. However, existing approaches often limit expressive flexibility and strugg...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.07786</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>On Semiotic-Grounded Interpretive Evaluation of Generative Art</title>
       <link>https://huggingface.co/papers/2604.08641</link>
       <description>By Ruixiang Jiang, Changwen Chen
@@ -163,31 +136,13 @@ Prompt optimization improves language models without updating their weights by s
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation</title>
-      <link>https://huggingface.co/papers/2604.09201</link>
-      <description>By Haoyu Zhao, Zihao Zhang, Jiaxi Gu, Haoran Chen, Qingping Zheng, et al.
+      <title>Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator</title>
+      <link>https://huggingface.co/papers/2604.08121</link>
+      <description>By Luozheng Qin, Jia Gong, Qian Qiao, Tianjiao Li, Li Xu, et al.
 
-Camera-controllable video generation aims to synthesize videos with flexible and physically plausible camera movements. However, existing methods either provide imprecise camera control from text prompts or rely on labor-intensive manual camera trajectory parameters, limiting their use in automated ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.09201</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Matrix-Game 3.0: Real-Time and Streaming Interactive World Model with Long-Horizon Memory</title>
-      <link>https://huggingface.co/papers/2604.08995</link>
-      <description>By Zile Wang, Zexiang Liu, Jaixing Li, Kaichen Huang, Baixin Xu, et al.
-
-With the advancement of interactive video generation, diffusion models have increasingly demonstrated their potential as world models. However, existing approaches still struggle to simultaneously achieve memory-enabled long-term temporal consistency and high-resolution real-time generation, limitin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08995</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ECHO: Efficient Chest X-ray Report Generation with One-step Block Diffusion</title>
-      <link>https://huggingface.co/papers/2604.09450</link>
-      <description>By Lifeng Chen, Tianqi You, Hao Liu, Zhimin Bao, Jile Jiao, et al.
-
-Chest X-ray report generation (CXR-RG) has the potential to substantially alleviate radiologists' workload. However, conventional autoregressive vision--language models (VLMs) suffer from high inference latency due to sequential token decoding. Diffusion-based models offer a promising alternative th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.09450</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+Unified multimodal models integrating visual understanding and generation face a fundamental challenge: visual generation incurs substantially higher computational costs than understanding, particularly for video. This imbalance motivates us to invert the conventional paradigm: rather than extending...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.08121</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism</title>
@@ -298,6 +253,15 @@ Young children demonstrate early abilities to understand their physical world, e
       <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Not All Denoising Steps Are Equal: Model Scheduling for Faster Masked Diffusion Language Models</title>
+      <link>https://huggingface.co/papers/2604.02340</link>
+      <description>By Ivan Sedykh, Nikita Sorokin, Valentin Malykh
+
+Recent advances in masked diffusion language models (MDLMs) narrow the quality gap to autoregressive LMs, but their sampling remains expensive because generation requires many full-sequence denoising passes with a large Transformer and, unlike autoregressive decoding, cannot benefit from KV caching....</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.02340</guid>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>TorchUMM: A Unified Multimodal Model Codebase for Evaluation, Analysis, and Post-training</title>
       <link>https://huggingface.co/papers/2604.10784</link>
       <description>By Yinyi Luo, Wenwen Wang, Hayes Bai, Hongyu Zhu, Hao Chen, et al.
@@ -322,6 +286,33 @@ Accelerating scientific discovery requires the identification of which experimen
 
 Post-training data plays a pivotal role in shaping the capabilities of Large Language Models (LLMs), yet datasets are often treated as isolated artifacts, overlooking the systemic connections that underlie their evolution. To disentangle these complex relationships, we introduce the concept of data ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.10480</guid>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DiningBench: A Hierarchical Multi-view Benchmark for Perception and Reasoning in the Dietary Domain</title>
+      <link>https://huggingface.co/papers/2604.10425</link>
+      <description>By Song Jin, Juntian Zhang, Xun Zhang, Zeying Tian, Fei Jiang, et al.
+
+Recent advancements in Vision-Language Models (VLMs) have revolutionized general visual understanding. However, their application in the food domain remains constrained by benchmarks that rely on coarse-grained categories, single-view imagery, and inaccurate metadata. To bridge this gap, we introduc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.10425</guid>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing Polish Language Modeling through Tokenizer Optimization in the Bielik v3 7B and 11B Series</title>
+      <link>https://huggingface.co/papers/2604.10799</link>
+      <description>By Krzysztof Ociepa, Łukasz Flis, Remigiusz Kinas, Krzysztof Wróbel, Adrian Gwoździej
+
+The development of the Bielik v3 PL series, encompassing both the 7B and 11B parameter variants, represents a significant milestone in the field of language-specific large language model (LLM) optimization. While general-purpose models often demonstrate impressive multilingual capabilities, they fre...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.10799</guid>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BMdataset: A Musicologically Curated LilyPond Dataset</title>
+      <link>https://huggingface.co/papers/2604.10628</link>
+      <description>By Matteo Spanio, Ilay Guler, Antonio Rodà
+
+Symbolic music research has relied almost exclusively on MIDI-based datasets; text-based engraving formats such as LilyPond remain unexplored for music understanding. We present BMdataset, a musicologically curated dataset of 393 LilyPond scores (2,646 movements) transcribed by experts directly from...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.10628</guid>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -415,15 +406,6 @@ We have witnessed remarkable advances in LLM reasoning capabilities with the adv
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents</title>
-      <link>https://huggingface.co/papers/2604.11784</link>
-      <description>By Fei Tang, Zhiqiong Lu, Boxuan Zhang, Weiming Lu, Jun Xiao, et al.
-
-GUI agents drive applications through their visual interfaces instead of programmatic APIs, interacting with arbitrary software via taps, swipes, and keystrokes, reaching a long tail of applications that CLI-based agents cannot. Yet progress in this area is bottlenecked less by modeling capacity tha...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11784</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music</title>
       <link>https://huggingface.co/papers/2604.10905</link>
       <description>By Sreyan Ghosh, Arushi Goel, Kaousheik Jayakumar, Lasha Koroshinadze, Nishit Anand, et al.
@@ -457,6 +439,24 @@ We propose continuous adversarial flow models, a type of continuous-time flow mo
 
 Prior representative ReAct-style approaches in autonomous Software Engineering (SWE) typically lack the explicit System-2 reasoning required for deep analysis and handling complex edge cases. While recent reasoning models demonstrate the potential of extended Chain-of-Thought (CoT), applying them to...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.11716</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind</title>
+      <link>https://huggingface.co/papers/2604.11666</link>
+      <description>By Hanqi Xiao, Vaidehi Patil, Zaid Khan, Hyunji Lee, Elias Stengel-Eskin, et al.
+
+As large language models (LLMs) become the engine behind conversational systems, their ability to reason about the intentions and states of their dialogue partners (i.e., form and use a theory-of-mind, or ToM) becomes increasingly critical for safe interaction with potentially adversarial partners. ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.11666</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Polyglot Teachers: Evaluating Language Models for Multilingual Synthetic Data Generation</title>
+      <link>https://huggingface.co/papers/2604.11290</link>
+      <description>By Lester James V. Miranda, Ivan Vulić, Anna Korhonen
+
+Synthesizing supervised finetuning (SFT) data from language models (LMs) to teach smaller models multilingual tasks has become increasingly common. However, teacher model selection is often ad hoc, typically defaulting to the largest available option, even though such models may have significant cap...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.11290</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

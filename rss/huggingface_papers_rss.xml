@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Apr 2026 20:10:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 21:57:29 +0000</lastBuildDate>
     <item>
       <title>SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</title>
       <link>https://huggingface.co/papers/2604.09557</link>
@@ -17,15 +17,6 @@
 Speculative Decoding (SD) has emerged as a critical technique for accelerating Large Language Model (LLM) inference. Unlike deterministic system optimizations, SD performance is inherently data-dependent, meaning that diverse and representative workloads are essential for accurately measuring its ef...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.09557</guid>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Multi-User Large Language Model Agents</title>
-      <link>https://huggingface.co/papers/2604.08567</link>
-      <description>By Shu Yang, Shenzhe Zhu, Hao Zhu, José Ramón Enríquez, Di Wang, et al.
-
-Large language models (LLMs) and LLM-based agents are increasingly deployed as assistants in planning and decision making, yet most existing systems are implicitly optimized for a single-principal interaction paradigm, in which the model is designed to satisfy the objectives of one dominant user who...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08567</guid>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation</title>
@@ -73,6 +64,15 @@ Large Language Models (LLMs) deployed in agentic environments must exercise mult
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ATANT: An Evaluation Framework for AI Continuity</title>
+      <link>https://huggingface.co/papers/2604.06710</link>
+      <description>By Samuel Sameer Tanguturi
+
+We present ATANT (Automated Test for Acceptance of Narrative Truth), an open evaluation framework for measuring continuity in AI systems: the ability to persist, update, disambiguate, and reconstruct meaningful context across time. While the AI industry has produced memory components (RAG pipelines,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.06710</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator</title>
       <link>https://huggingface.co/papers/2604.08121</link>
       <description>By Luozheng Qin, Jia Gong, Qian Qiao, Tianjiao Li, Li Xu, et al.
@@ -89,15 +89,6 @@ Unified multimodal models integrating visual understanding and generation face a
 While Experience Replay - the practice of storing rollouts and reusing them multiple times during training - is a foundational technique in general RL, it remains largely unexplored in LLM post-training due to the prevailing belief that fresh, on-policy data is essential for high performance. In thi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.08706</guid>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Process Reward Agents for Steering Knowledge-Intensive Reasoning</title>
-      <link>https://huggingface.co/papers/2604.09482</link>
-      <description>By Jiwoong Sohn, Tomasz Sternal, Kenneth Styppa, Torsten Hoefler, Michael Moor
-
-Reasoning in knowledge-intensive domains remains challenging as intermediate steps are often not locally verifiable: unlike math or code, evaluating step correctness may require synthesizing clues across large external knowledge sources. As a result, subtle errors can propagate through reasoning tra...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.09482</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Envisioning the Future, One Step at a Time</title>
@@ -250,6 +241,15 @@ Symbolic music research has relied almost exclusively on MIDI-based datasets; te
 
 On-policy reinforcement learning has become the dominant paradigm for reasoning alignment in large language models, yet its sparse, outcome-level rewards make token-level credit assignment notoriously difficult. On-Policy Distillation (OPD) alleviates this by introducing dense, token-level KL superv...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.10688</guid>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IceCache: Memory-efficient KV-cache Management for Long-Sequence LLMs</title>
+      <link>https://huggingface.co/papers/2604.10539</link>
+      <description>By Yuzhen Mao, Qitong Wang, Martin Ester, Ke Li
+
+Key-Value (KV) cache plays a crucial role in accelerating inference in large language models (LLMs) by storing intermediate attention states and avoiding redundant computation during autoregressive generation. However, its memory footprint scales linearly with sequence length, often leading to sever...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.10539</guid>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

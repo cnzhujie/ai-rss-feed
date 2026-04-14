@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Apr 2026 16:15:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 18:10:49 +0000</lastBuildDate>
     <item>
       <title>SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</title>
       <link>https://huggingface.co/papers/2604.09557</link>
@@ -46,15 +46,6 @@ While Large Language Models (LLMs) achieve high performance on standard mathemat
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Semantic Richness or Geometric Reasoning? The Fragility of VLM's Visual Invariance</title>
-      <link>https://huggingface.co/papers/2604.01848</link>
-      <description>By Jason Qiu, Zachary Meurer, Xavier Thomas, Deepti Ghadiyaram
-
-This work investigates the fundamental fragility of state-of-the-art Vision-Language Models (VLMs) under basic geometric transformations. While modern VLMs excel at semantic tasks such as recognizing objects in canonical orientations and describing complex scenes, they exhibit systematic failures at...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.01848</guid>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models</title>
       <link>https://huggingface.co/papers/2604.02315</link>
       <description>By Sarath Shekkizhar, Romain Cosentino, Adam Earle
@@ -73,21 +64,21 @@ Speculative sampling (SpS) has been successful in accelerating the decoding thro
       <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>p1: Better Prompt Optimization with Fewer Prompts</title>
-      <link>https://huggingface.co/papers/2604.08801</link>
-      <description>By Zhaolin Gao, Yu, Wang, Bo Liu, Thorsten Joachims, et al.
-
-Prompt optimization improves language models without updating their weights by searching for a better system prompt, but its effectiveness varies widely across tasks. We study what makes a task amenable to prompt optimization. We show that the reward variance across different system prompts can be d...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08801</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator</title>
       <link>https://huggingface.co/papers/2604.08121</link>
       <description>By Luozheng Qin, Jia Gong, Qian Qiao, Tianjiao Li, Li Xu, et al.
 
 Unified multimodal models integrating visual understanding and generation face a fundamental challenge: visual generation incurs substantially higher computational costs than understanding, particularly for video. This imbalance motivates us to invert the conventional paradigm: rather than extending...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.08121</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient RL Training for LLMs with Experience Replay</title>
+      <link>https://huggingface.co/papers/2604.08706</link>
+      <description>By Charles Arnal, Vivien Cabannes, Taco Cohen, Julia Kempe, Remi Munos
+
+While Experience Replay - the practice of storing rollouts and reusing them multiple times during training - is a foundational technique in general RL, it remains largely unexplored in LLM post-training due to the prevailing belief that fresh, on-policy data is essential for high performance. In thi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.08706</guid>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ This paper localizes the policy routing mechanism in alignment-trained language 
 
 In this work, we introduce a new perspective on comparative image assessment by representing an image pair as a structured composition of its regions. In contrast, existing methods focus on whole image analysis, while implicitly relying on region-level understanding. We extend the intra-image notion...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.11004</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks</title>
+      <link>https://huggingface.co/papers/2604.11753</link>
+      <description>By Yoonsang Lee, Howard Yen, Xi Ye, Danqi Chen
+
+We study parallel test-time scaling for long-horizon agentic tasks such as agentic search and deep research, where multiple rollouts are generated in parallel and aggregated into a final response. While such scaling has proven effective for chain-of-thought reasoning, agentic tasks pose unique chall...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.11753</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

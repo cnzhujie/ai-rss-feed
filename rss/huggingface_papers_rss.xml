@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 03:27:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 06:04:57 +0000</lastBuildDate>
     <item>
       <title>SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</title>
       <link>https://huggingface.co/papers/2604.09557</link>
@@ -82,6 +82,33 @@ Proximal Policy Optimization (PPO) is central to aligning Large Language Models 
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Many-Tier Instruction Hierarchy in LLM Agents</title>
+      <link>https://huggingface.co/papers/2604.09443</link>
+      <description>By Jingyu Zhang, Tianjian Li, William Jurayj, Hongyuan Zhan, Benjamin Van Durme, et al.
+
+Large language model agents receive instructions from many sources-system messages, user prompts, tool outputs, and more-each carrying different levels of trust and authority. When these instructions conflict, models must reliably follow the highest-privilege instruction to remain safe and effective...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.09443</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CONSCIENTIA: Can LLM Agents Learn to Strategize? Emergent Deception and Trust in a Multi-Agent NYC Simulation</title>
+      <link>https://huggingface.co/papers/2604.09746</link>
+      <description>By Aarush Sinha, Arion Das, Soumyadeep Nag, Charan Karnati, Shravani Nag, et al.
+
+As large language models (LLMs) are increasingly deployed as autonomous agents, understanding how strategic behavior emerges in multi-agent environments has become an important alignment challenge. We take a neutral empirical stance and construct a controlled environment in which strategic behavior ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.09746</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hierarchical SVG Tokenization: Learning Compact Visual Programs for Scalable Vector Graphics Modeling</title>
+      <link>https://huggingface.co/papers/2604.05072</link>
+      <description>By Ximing Xing, Ziteng Xue, Zhenxi Li, Weicong Liang, Linqing Wang, et al.
+
+Recent large language models have shifted SVG generation from differentiable rendering optimization to autoregressive program synthesis. However, existing approaches still rely on generic byte-level tokenization inherited from natural language processing, which poorly reflects the geometric structur...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.05072</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Prompt Relay: Inference-Time Temporal Control for Multi-Event Video Generation</title>
       <link>https://huggingface.co/papers/2604.10030</link>
       <description>By Gordon Chen, Ziqi Huang, Ziwei Liu
@@ -116,24 +143,6 @@ Recent advances in masked diffusion language models (MDLMs) narrow the quality g
 Vision--language models (VLMs) have achieved impressive performance on complex multimodal reasoning tasks, yet they still fail on simple grounding skills such as object counting. Existing evaluations mostly assess only final outputs, offering limited insight into where these failures arise inside th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.10039</guid>
       <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SciPredict: Can LLMs Predict the Outcomes of Scientific Experiments in Natural Sciences?</title>
-      <link>https://huggingface.co/papers/2604.10718</link>
-      <description>By Udari Madhushani Sehwag, Elaine Lau, Haniyeh Ehsani Oskouie, Shayan Shabihi, Erich Liang, et al.
-
-Accelerating scientific discovery requires the identification of which experiments would yield the best outcomes before committing resources to costly physical validation. While existing benchmarks evaluate LLMs on scientific knowledge and reasoning, their ability to predict experimental outcomes - ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.10718</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tracing the Roots: A Multi-Agent Framework for Uncovering Data Lineage in Post-Training LLMs</title>
-      <link>https://huggingface.co/papers/2604.10480</link>
-      <description>By Yu Li, Xiaoran Shang, Qizhi Pei, Yun Zhu, Xin Gao, et al.
-
-Post-training data plays a pivotal role in shaping the capabilities of Large Language Models (LLMs), yet datasets are often treated as isolated artifacts, overlooking the systemic connections that underlie their evolution. To disentangle these complex relationships, we introduce the concept of data ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.10480</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DiningBench: A Hierarchical Multi-view Benchmark for Perception and Reasoning in the Dietary Domain</title>
@@ -197,51 +206,6 @@ Recent progress in multimodal models has spurred rapid advances in audio underst
 Diffusion models are often introduced from multiple perspectives, such as VAEs, score matching, or flow matching, accompanied by dense and technically demanding mathematics that can be difficult for beginners to grasp. One classic question is: how does the reverse process invert the forward process ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.10465</guid>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Eliciting Medical Reasoning with Knowledge-enhanced Data Synthesis: A Semi-Supervised Reinforcement Learning Approach</title>
-      <link>https://huggingface.co/papers/2604.11547</link>
-      <description>By Haolin Li, Shuyang Jiang, Ruipeng Zhang, Jiangchao Yao, Ya Zhang, et al.
-
-While large language models hold promise for complex medical applications, their development is hindered by the scarcity of high-quality reasoning data. To address this issue, existing approaches typically distill chain-of-thought reasoning traces from large proprietary models via supervised fine-tu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11547</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CocoaBench: Evaluating Unified Digital Agents in the Wild</title>
-      <link>https://huggingface.co/papers/2604.11201</link>
-      <description>By CocoaBench Team, Shibo Hao, Zhining Zhang, Zhiqi Liang, Tianyang Liu, et al.
-
-LLM agents now perform strongly in software engineering, deep research, GUI automation, and various other applications, while recent agent scaffolds and models are increasingly integrating these capabilities into unified systems. Yet, most evaluations still test these capabilities in isolation, whic...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11201</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Solving Physics Olympiad via Reinforcement Learning on Physics Simulators</title>
-      <link>https://huggingface.co/papers/2604.11805</link>
-      <description>By Mihir Prabhudesai, Aryan Satpathy, Yangmin Li, Zheyang Qin, Nikash Bhardwaj, et al.
-
-We have witnessed remarkable advances in LLM reasoning capabilities with the advent of DeepSeek-R1. However, much of this progress has been fueled by the abundance of internet question-answer (QA) pairs, a major bottleneck going forward, since such data is limited in scale and concentrated mainly in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11805</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Audio Flamingo Next: Next-Generation Open Audio-Language Models for Speech, Sound, and Music</title>
-      <link>https://huggingface.co/papers/2604.10905</link>
-      <description>By Sreyan Ghosh, Arushi Goel, Kaousheik Jayakumar, Lasha Koroshinadze, Nishit Anand, et al.
-
-We present Audio Flamingo Next (AF-Next), the next-generation and most capable large audio-language model in the Audio Flamingo series, designed to advance understanding and reasoning over speech, environmental sounds and music. Compared to Audio Flamingo 3, AF-Next introduces: (i) a stronger founda...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.10905</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introspective Diffusion Language Models</title>
-      <link>https://huggingface.co/papers/2604.11035</link>
-      <description>By Yifan Yu, Yuqing Jian, Junxiong Wang, Zhongzhu Zhou, Donglin Zhuang, et al.
-
-Diffusion language models promise parallel generation, yet still lag behind autoregressive (AR) models in quality. We stem this gap to a failure of introspective consistency: AR models agree with their own generations, while DLMs often do not. We define the introspective acceptance rate, which measu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11035</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Continuous Adversarial Flow Models</title>
@@ -379,6 +343,24 @@ We present a discriminative multimodal reward model that scores all candidate re
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>LARY: A Latent Action Representation Yielding Benchmark for Generalizable Vision-to-Action Alignment</title>
+      <link>https://huggingface.co/papers/2604.11689</link>
+      <description>By Dujun Nie, Fengjiao Chen, Qi Lv, Jun Kuang, Xiaoyu Li, et al.
+
+While the shortage of explicit action data limits Vision-Language-Action (VLA) models, human action videos offer a scalable yet unlabeled data source. A critical challenge in utilizing large-scale human video datasets lies in transforming visual signals into ontology-independent representations, kno...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.11689</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Perception Errors: Semantic Fixation in Large Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2604.12119</link>
+      <description>By Md Tanvirul Alam
+
+Large vision-language models (VLMs) often rely on familiar semantic priors, but existing evaluations do not cleanly separate perception failures from rule-mapping failures. We study this behavior as semantic fixation: preserving a default interpretation even when the prompt specifies an alternative,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.12119</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Habitat-GS: A High-Fidelity Navigation Simulator with Dynamic Gaussian Splatting</title>
       <link>https://huggingface.co/papers/2604.12626</link>
       <description>By Ziyuan Xia, Jingyi Xu, Chong Cui, Yuanhong Yu, Jiazhao Zhang, et al.
@@ -457,6 +439,24 @@ Visual tokenizers map high-dimensional raw pixels into a compressed representati
 
 Multimodal deep search agents have shown great potential in solving complex tasks by iteratively collecting textual and visual evidence. However, managing the heterogeneous information and high token costs associated with multimodal inputs over long horizons remains a critical challenge, as existing...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.12890</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Adversarial One Step Generation via Condition Shifting</title>
+      <link>https://huggingface.co/papers/2604.12322</link>
+      <description>By Deyuan Liu, Peng Sun, Yansen Han, Zhenglin Cheng, Chuyan Chen, et al.
+
+The push for efficient text to image synthesis has moved the field toward one step sampling, yet existing methods still face a three way tradeoff among fidelity, inference speed, and training efficiency. Approaches that rely on external discriminators can sharpen one step performance, but they often...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.12322</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>KnowRL: Boosting LLM Reasoning via Reinforcement Learning with Minimal-Sufficient Knowledge Guidance</title>
+      <link>https://huggingface.co/papers/2604.12627</link>
+      <description>By Linhao Yu, Tianmeng Yang, Siyu Ding, Renren Jin, Naibin Gu, et al.
+
+RLVR improves reasoning in large language models, but its effectiveness is often limited by severe reward sparsity on hard problems. Recent hint-based RL methods mitigate sparsity by injecting partial solutions or abstract templates, yet they typically scale guidance by adding more tokens, which int...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.12627</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

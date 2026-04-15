@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 08:48:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 10:22:12 +0000</lastBuildDate>
     <item>
       <title>SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</title>
       <link>https://huggingface.co/papers/2604.09557</link>
@@ -17,6 +17,15 @@
 Speculative Decoding (SD) has emerged as a critical technique for accelerating Large Language Model (LLM) inference. Unlike deterministic system optimizations, SD performance is inherently data-dependent, meaning that diverse and representative workloads are essential for accurately measuring its ef...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.09557</guid>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization</title>
+      <link>https://huggingface.co/papers/2604.09574</link>
+      <description>By Jiachen Zhu, Lingyu Yang, Rong Shan, Congmin Zheng, Zeyu Zheng, et al.
+
+The rise of autonomous GUI agents has triggered adversarial countermeasures from digital platforms, yet existing research prioritizes utility and robustness over the critical dimension of anti-detection. We argue that for agents to survive in human-centric ecosystems, they must evolve Humanization c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.09574</guid>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation</title>
@@ -44,15 +53,6 @@ Large Language Models (LLMs) deployed in agentic environments must exercise mult
 We present ATANT (Automated Test for Acceptance of Narrative Truth), an open evaluation framework for measuring continuity in AI systems: the ability to persist, update, disambiguate, and reconstruct meaningful context across time. While the AI industry has produced memory components (RAG pipelines,...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.06710</guid>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator</title>
-      <link>https://huggingface.co/papers/2604.08121</link>
-      <description>By Luozheng Qin, Jia Gong, Qian Qiao, Tianjiao Li, Li Xu, et al.
-
-Unified multimodal models integrating visual understanding and generation face a fundamental challenge: visual generation incurs substantially higher computational costs than understanding, particularly for video. This imbalance motivates us to invert the conventional paradigm: rather than extending...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08121</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Efficient RL Training for LLMs with Experience Replay</title>
@@ -98,15 +98,6 @@ As large language models (LLMs) are increasingly deployed as autonomous agents, 
 Recent large language models have shifted SVG generation from differentiable rendering optimization to autoregressive program synthesis. However, existing approaches still rely on generic byte-level tokenization inherited from natural language processing, which poorly reflects the geometric structur...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.05072</guid>
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zero-shot World Models Are Developmentally Efficient Learners</title>
-      <link>https://huggingface.co/papers/2604.10333</link>
-      <description>By Khai Loong Aw, Klemen Kotar, Wanhee Lee, Seungwoo Kim, Khaled Jedoui, et al.
-
-Young children demonstrate early abilities to understand their physical world, estimating depth, motion, object coherence, interactions, and many other aspects of physical scene understanding. Children are both data-efficient and flexible cognitive systems, creating competence despite extremely limi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.10333</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Not All Denoising Steps Are Equal: Model Scheduling for Faster Masked Diffusion Language Models</title>
@@ -197,15 +188,6 @@ Diffusion models are often introduced from multiple perspectives, such as VAEs, 
 Large language models are increasingly used as agents in social, economic, and policy simulations. A common assumption is that stronger reasoning should improve simulation fidelity. We argue that this assumption can fail when the objective is not to solve a strategic problem, but to sample plausible...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.11840</guid>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWE-AGILE: A Software Agent Framework for Efficiently Managing Dynamic Reasoning Context</title>
-      <link>https://huggingface.co/papers/2604.11716</link>
-      <description>By Shuquan Lian, Juncheng Liu, Yazhe Chen, Yuhong Chen, Hui Li
-
-Prior representative ReAct-style approaches in autonomous Software Engineering (SWE) typically lack the explicit System-2 reasoning required for deep analysis and handling complex edge cases. While recent reasoning models demonstrate the potential of extended Chain-of-Thought (CoT), applying them to...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11716</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind</title>
@@ -331,6 +313,24 @@ While the shortage of explicit action data limits Vision-Language-Action (VLA) m
 
 Large vision-language models (VLMs) often rely on familiar semantic priors, but existing evaluations do not cleanly separate perception failures from rule-mapping failures. We study this behavior as semantic fixation: preserving a default interpretation even when the prompt specifies an alternative,...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.12119</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents</title>
+      <link>https://huggingface.co/papers/2604.11784</link>
+      <description>By Fei Tang, Zhiqiong Lu, Boxuan Zhang, Weiming Lu, Jun Xiao, et al.
+
+GUI agents drive applications through their visual interfaces instead of programmatic APIs, interacting with arbitrary software via taps, swipes, and keystrokes, reaching a long tail of applications that CLI-based agents cannot. Yet progress in this area is bottlenecked less by modeling capacity tha...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.11784</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>3DTV: A Feedforward Interpolation Network for Real-Time View Synthesis</title>
+      <link>https://huggingface.co/papers/2604.11211</link>
+      <description>By Stefan Schulz, Fernando Edelstein, Hannah Dröge, Matthias B. Hullin, Markus Plack
+
+Real-time free-viewpoint rendering requires balancing multi-camera redundancy with the latency constraints of interactive applications. We address this challenge by combining lightweight geometry with learning and propose 3DTV, a feedforward network for real-time sparse-view interpolation. A Delauna...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.11211</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

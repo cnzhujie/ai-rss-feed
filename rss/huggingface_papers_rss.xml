@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 14:00:50 +0000</lastBuildDate>
-    <item>
-      <title>SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding</title>
-      <link>https://huggingface.co/papers/2604.09557</link>
-      <description>By Talor Abramovich, Maor Ashkenazi, Carl, Putterman, Benjamin Chislett, et al.
-
-Speculative Decoding (SD) has emerged as a critical technique for accelerating Large Language Model (LLM) inference. Unlike deterministic system optimizations, SD performance is inherently data-dependent, meaning that diverse and representative workloads are essential for accurately measuring its ef...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.09557</guid>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 15 Apr 2026 16:10:43 +0000</lastBuildDate>
     <item>
       <title>Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization</title>
       <link>https://huggingface.co/papers/2604.09574</link>
@@ -35,15 +26,6 @@ The rise of autonomous GUI agents has triggered adversarial countermeasures from
 Spatial competence is the quality of maintaining a consistent internal representation of an environment and using it to infer discrete structure and plan actions under constraints. Prevailing spatial evaluations for large models are limited to probing isolated primitives through 3D transformations o...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.09594</guid>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation</title>
-      <link>https://huggingface.co/papers/2604.08570</link>
-      <description>By Ali Slim, Haydar Hamieh, Jawad Kotaich, Yehya Ghosn, Mahdi Chehimi, et al.
-
-Large Language Models (LLMs) are increasingly used for code generation, yet quantum code generation is still evaluated mostly within single frameworks, making it difficult to separate quantum reasoning from framework familiarity. We introduce QuanBench+, a unified benchmark spanning Qiskit, PennyLan...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08570</guid>
-      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TRACE: Capability-Targeted Agentic Training</title>
@@ -190,13 +172,13 @@ Large language models are increasingly used as agents in social, economic, and p
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Polyglot Teachers: Evaluating Language Models for Multilingual Synthetic Data Generation</title>
-      <link>https://huggingface.co/papers/2604.11290</link>
-      <description>By Lester James V. Miranda, Ivan Vulić, Anna Korhonen
+      <title>PokeRL: Reinforcement Learning for Pokemon Red</title>
+      <link>https://huggingface.co/papers/2604.10812</link>
+      <description>By Dheeraj Mudireddy, Sai Patibandla
 
-Synthesizing supervised finetuning (SFT) data from language models (LMs) to teach smaller models multilingual tasks has become increasingly common. However, teacher model selection is often ad hoc, typically defaulting to the largest available option, even though such models may have significant cap...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11290</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+Pokemon Red is a long-horizon JRPG with sparse rewards, partial observability, and quirky control mechanics that make it a challenging benchmark for reinforcement learning. While recent work has shown that PPO agents can clear the first two gyms using heavy reward shaping and engineered observations...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.10812</guid>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SHARE: Social-Humanities AI for Research and Education</title>
@@ -322,6 +304,15 @@ GUI agents drive applications through their visual interfaces instead of program
 
 Real-time free-viewpoint rendering requires balancing multi-camera redundancy with the latency constraints of interactive applications. We address this challenge by combining lightweight geometry with learning and propose 3DTV, a feedforward network for real-time sparse-view interpolation. A Delauna...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.11211</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LASA: Language-Agnostic Semantic Alignment at the Semantic Bottleneck for LLM Safety</title>
+      <link>https://huggingface.co/papers/2604.12710</link>
+      <description>By Junxiao Yang, Haoran Liu, Jinzhe Tu, Jiale Cheng, Zhexin Zhang, et al.
+
+Large language models (LLMs) often demonstrate strong safety performance in high-resource languages, yet exhibit severe vulnerabilities when queried in low-resource languages. We attribute this gap to a mismatch between language-agnostic semantic understanding ability and language-dominant safety al...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.12710</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Large Audio-Language Models (ALMs) have recently demonstrated remarkable capabil
 
 Latent diffusion models for medical image super-resolution universally inherit variational autoencoders designed for natural photographs. We show that this default choice, not the diffusion architecture, is the dominant constraint on reconstruction quality. In a controlled experiment holding all oth...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.12152</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GlotOCR Bench: OCR Models Still Struggle Beyond a Handful of Unicode Scripts</title>
+      <link>https://huggingface.co/papers/2604.12978</link>
+      <description>By Amir Hossein Kargaran, Nafiseh Nikeghbal, Jana Diesner, François Yvon, Hinrich Schütze
+
+Optical character recognition (OCR) has advanced rapidly with the rise of vision-language models, yet evaluation has remained concentrated on a small cluster of high- and mid-resource scripts. We introduce GlotOCR Bench, a comprehensive benchmark evaluating OCR generalization across 100+ Unicode scr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.12978</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

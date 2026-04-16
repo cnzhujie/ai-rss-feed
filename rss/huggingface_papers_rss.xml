@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2026 03:34:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 06:07:52 +0000</lastBuildDate>
     <item>
       <title>Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization</title>
       <link>https://huggingface.co/papers/2604.09574</link>
@@ -208,31 +208,13 @@ Most reward models for visual generation reduce rich human judgments to a single
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Nemotron 3 Super: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning</title>
-      <link>https://huggingface.co/papers/2604.12374</link>
-      <description>By NVIDIA, Aakshita Chandiramani, Aaron Blakeman, Abdullahi Olaoye, Abhibha Gupta, et al.
+      <title>Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure</title>
+      <link>https://huggingface.co/papers/2604.11045</link>
+      <description>By Huacan Wang, Jie Zhou, Ningyan Zhu, Shuo Zhang, Feiyu Chen, et al.
 
-We describe the pre-training, post-training, and quantization of Nemotron 3 Super, a 120 billion (active 12 billion) parameter hybrid Mamba-Attention Mixture-of-Experts model. Nemotron 3 Super is the first model in the Nemotron 3 family to 1) be pre-trained in NVFP4, 2) leverage LatentMoE, a new Mix...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.12374</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2604.13010</link>
-      <description>By Yecheng Wu, Song Han, Hai Cai
-
-On-policy distillation (OPD) has emerged as an efficient post-training paradigm for large language models. However, standard OPD requires a live teacher inference server throughout training, resulting in substantial infrastructure overhead. In this work, we investigate whether on-policy distillation...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.13010</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Generative Refinement Networks for Visual Synthesis</title>
-      <link>https://huggingface.co/papers/2604.13030</link>
-      <description>By Jian Han, Jinlai Liu, Jiahuan Wang, Bingyue Peng, Zehuan Yuan
-
-While diffusion models dominate the field of visual generation, they are computationally inefficient, applying a uniform computational effort regardless of different complexity. In contrast, autoregressive (AR) models are inherently complexity-aware, as evidenced by their variable likelihoods, but a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.13030</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+AI coding agents have become central to developer workflows, yet every existing solution locks its reasoning capabilities within a specific delivery form, such as a CLI, IDE plugin, or web application. This limitation creates systemic barriers when enterprises attempt to reuse these capabilities acr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.11045</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Lyra 2.0: Explorable Generative 3D Worlds</title>
@@ -361,6 +343,15 @@ Large language models are emerging as scientific assistants, but evaluating thei
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Exploration and Exploitation Errors Are Measurable for Language Model Agents</title>
+      <link>https://huggingface.co/papers/2604.13151</link>
+      <description>By Jaden Park, Jungtaek Kim, Jongwon Jeong, Robert D. Nowak, Kangwook Lee, et al.
+
+Language Model (LM) agents are increasingly used in complex open-ended decision-making tasks, from AI coding to physical AI. A core requirement in these settings is the ability to both explore the problem space and exploit acquired knowledge effectively. However, systematically distinguishing and qu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.13151</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective</title>
       <link>https://huggingface.co/papers/2604.14025</link>
       <description>By Weijie Wang, Qihang Cao, Sensen Gao, Donny Y. Chen, Haofei Xu, et al.
@@ -457,6 +448,15 @@ Feed-forward 3D reconstruction models are efficient but rigid: once trained, the
 
 While reinforcement learning with verifiable rewards (RLVR) significantly enhances LLM reasoning by optimizing the conditional distribution P(y|x), its potential is fundamentally bounded by the base model's existing output distribution. Optimizing the marginal distribution P(y) in the Pre-train Spac...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.14142</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents</title>
+      <link>https://huggingface.co/papers/2604.14004</link>
+      <description>By Kangsan Kim, Minki Kang, Taeil Kim, Yanlai Yang, Mengye Ren, et al.
+
+Memory-based self-evolution has emerged as a promising paradigm for coding agents. However, existing approaches typically restrict memory utilization to homogeneous task domains, failing to leverage the shared infrastructural foundations, such as runtime environments and programming languages, that ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.14004</guid>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

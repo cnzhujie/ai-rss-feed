@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2026 03:30:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 06:08:21 +0000</lastBuildDate>
     <item>
       <title>Self-Sovereign Agent</title>
       <link>https://huggingface.co/papers/2604.08551</link>
@@ -37,13 +37,13 @@ LLM agents increasingly adopt skills as a reusable unit of composition. While sk
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Spec Kit Agents: Context-Grounded Agentic Workflows</title>
-      <link>https://huggingface.co/papers/2604.05278</link>
-      <description>By Pardis Taghavi, Santosh Bhavani
+      <title>SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems</title>
+      <link>https://huggingface.co/papers/2604.04514</link>
+      <description>By Varun Pratap Bhardwaj
 
-Spec-driven development (SDD) with AI coding agents provides a structured workflow, but agents often remain "context blind" in large, evolving repositories, leading to hallucinated APIs and architectural violations. We present Spec Kit Agents, a multi-agent SDD pipeline (with PM and developer roles)...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.05278</guid>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+AI coding agents operate in a paradox: they possess vast parametric knowledge yet cannot remember a conversation from an hour ago. Existing memory systems store text in vector databases with single-channel retrieval, require cloud LLMs for core operations, and implement none of the cognitive process...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.04514</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Target Policy Optimization</title>
@@ -181,15 +181,6 @@ Current post-training methods in verifiable settings fall into two categories. R
       <pubDate>Mon, 13 Apr 2026 19:46:55 +0000</pubDate>
     </item>
     <item>
-      <title>Grid2Matrix: Revealing Digital Agnosia in Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2604.09687</link>
-      <description>By Yunkai Zhang, Linda Li, Yingxin Cui, Xiyuan Ruan, Zeyu Zheng, et al.
-
-Vision-Language Models (VLMs) excel on many multimodal reasoning benchmarks, but these evaluations often do not require an exhaustive readout of the image and can therefore obscure failures in faithfully capturing all visual details. We introduce Grid2Matrix (G2M), a controlled benchmark in which a ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.09687</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>InfiniteScienceGym: An Unbounded, Procedurally-Generated Benchmark for Scientific Analysis</title>
       <link>https://huggingface.co/papers/2604.13201</link>
       <description>By Oliver Bentham, Vivek Srikumar
@@ -251,15 +242,6 @@ Large language models (LLMs), despite being safety-aligned, exhibit brittle refu
 Claude Code is an agentic coding tool that can run shell commands, edit files, and call external services on behalf of the user. This study describes its comprehensive architecture by analyzing the publicly available TypeScript source code and further comparing it with OpenClaw, an independent open-...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.14228</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective</title>
-      <link>https://huggingface.co/papers/2604.14025</link>
-      <description>By Weijie Wang, Qihang Cao, Sensen Gao, Donny Y. Chen, Haofei Xu, et al.
-
-Reconstructing 3D representations from 2D inputs is a fundamental task in computer vision and graphics, serving as a cornerstone for understanding and interacting with the physical world. While traditional methods achieve high fidelity, they are limited by slow per-scene optimization or category-spe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.14025</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration</title>
@@ -458,6 +440,24 @@ Retrieval-Augmented Generation (RAG) extends Large Vision-Language Models (LVLMs
 
 Reinforcement Learning (RL) has emerged as a critical driver for enhancing the reasoning capabilities of Large Language Models (LLMs). While recent advancements have focused on reward engineering or data synthesis, few studies exploit the model's intrinsic representation characteristics to guide the...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.14922</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model Capability Dominates: Inference-Time Optimization Lessons from AIMO 3</title>
+      <link>https://huggingface.co/papers/2603.27844</link>
+      <description>By Natapong Nitarach
+
+Majority voting over multiple LLM attempts improves mathematical reasoning, but correlated errors limit the effective sample size. A natural fix is to assign different reasoning strategies to different voters. The approach, Diverse Prompt Mixer, is tested on the AIMO 3 competition: 3 models, 23+ exp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.27844</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens</title>
+      <link>https://huggingface.co/papers/2604.15284</link>
+      <description>By Roni Itkin, Noam Issachar, Yehonatan Keypur, Yehonatan Keypur, Anpei Chen, et al.
+
+The efficient spatial allocation of primitives serves as the foundation of 3D Gaussian Splatting, as it directly dictates the synergy between representation compactness, reconstruction speed, and rendering fidelity. Previous solutions, whether based on iterative optimization or feed-forward inferenc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.15284</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

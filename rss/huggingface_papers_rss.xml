@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2026 11:57:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 13:52:01 +0000</lastBuildDate>
     <item>
       <title>Self-Sovereign Agent</title>
       <link>https://huggingface.co/papers/2604.08551</link>
@@ -53,15 +53,6 @@ AI coding agents operate in a paradox: they possess vast parametric knowledge ye
 In RL, given a prompt, we sample a group of completions from a model and score them. Two questions follow: which completions should gain probability mass, and how should the parameters move to realize that change? Standard policy-gradient methods answer both at once, so the update can overshoot or u...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.06159</guid>
       <pubDate>Tue, 07 Apr 2026 17:55:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents</title>
-      <link>https://huggingface.co/papers/2604.07429</link>
-      <description>By Mingyu Ouyang, Siyuan Hu, Kevin Qinghong Lin, Hwee Tou Ng, Mike Zheng Shou
-
-Towards an embodied generalist for real-world interaction, Multimodal Large Language Model (MLLM) agents still suffer from challenging latency, sparse feedback, and irreversible mistakes. Video games offer an ideal testbed with rich visual observations and closed-loop interaction, demanding fine-gra...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.07429</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ReconPhys: Reconstruct Appearance and Physical Attributes from Single Video</title>
@@ -244,13 +235,13 @@ Large language models (LLMs) have recently gained significant attention as a pro
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>TIP: Token Importance in On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2604.14084</link>
-      <description>By Yuanda Xu, Hejian Sang, Zhengze Zhou, Ran He, Zhipeng Wang, et al.
+      <title>Boosting Visual Instruction Tuning with Self-Supervised Guidance</title>
+      <link>https://huggingface.co/papers/2604.12966</link>
+      <description>By Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris
 
-On-policy knowledge distillation (OPD) trains a student on its own rollouts under token-level supervision from a teacher. Not all token positions matter equally, but existing views of token importance are incomplete. We ask a direct question: which tokens carry the most useful learning signal in OPD...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.14084</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from weak visual representations, but from under-utilization of vis...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.12966</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>UI-Copilot: Advancing Long-Horizon GUI Automation via Tool-Integrated Policy Optimization</title>
@@ -458,6 +449,15 @@ Retrieval-Augmented Generation (RAG) grounds LLM responses in external evidence 
 
 Vision-language models (VLM) have markedly advanced AI-driven interpretation and reporting of complex medical imaging, such as computed tomography (CT). Yet, existing methods largely relegate clinicians to passive observers of final outputs, offering no interpretable reasoning trace for them to insp...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.15231</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Optimal Transport-driven Approach for Cultivating Latent Space in Online Incremental Learning</title>
+      <link>https://huggingface.co/papers/2211.16780</link>
+      <description>By Quyen Tran, Hai Nguyen, Hoang Phan, Quan Dao, Linh Ngo, et al.
+
+In online incremental learning, data continuously arrives with substantial distributional shifts, creating a significant challenge because previous samples have limited replay value when learning a new task. Prior research has typically relied on either a single adaptive centroid or multiple fixed c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2211.16780</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

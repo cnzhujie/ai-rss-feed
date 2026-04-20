@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2026 03:39:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 06:22:25 +0000</lastBuildDate>
+    <item>
+      <title>Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems</title>
+      <link>https://huggingface.co/papers/2604.04936</link>
+      <description>By Uday Allu, Sonu Kedia, Tanmay Odapally, Biddwan Ahmed
+
+Retrieval-Augmented Generation (RAG) systems critically depend on effective document chunking strategies to balance retrieval quality, latency, and operational cost. Traditional chunking approaches, such as fixed-size, rule-based, or fully agentic chunking, often suffer from high token consumption, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.04936</guid>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Self-Sovereign Agent</title>
       <link>https://huggingface.co/papers/2604.08551</link>
@@ -37,15 +46,6 @@ A widely adopted strategy for model enhancement is to use synthetic data generat
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SkVM: Compiling Skills for Efficient Execution Everywhere</title>
-      <link>https://huggingface.co/papers/2604.03088</link>
-      <description>By Le Chen, Erhu Feng, Yubin Xia, Haibo Chen
-
-LLM agents increasingly adopt skills as a reusable unit of composition. While skills are shared across diverse agent platforms, current systems treat them as raw context, causing the same skill to behave inconsistently for different agents. This fragility undermines skill portability and execution e...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.03088</guid>
-      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems</title>
       <link>https://huggingface.co/papers/2604.04514</link>
       <description>By Varun Pratap Bhardwaj
@@ -53,15 +53,6 @@ LLM agents increasingly adopt skills as a reusable unit of composition. While sk
 AI coding agents operate in a paradox: they possess vast parametric knowledge yet cannot remember a conversation from an hour ago. Existing memory systems store text in vector databases with single-channel retrieval, require cloud LLMs for core operations, and implement none of the cognitive process...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.04514</guid>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Target Policy Optimization</title>
-      <link>https://huggingface.co/papers/2604.06159</link>
-      <description>By Jean Kaddour
-
-In RL, given a prompt, we sample a group of completions from a model and score them. Two questions follow: which completions should gain probability mass, and how should the parameters move to realize that change? Standard policy-gradient methods answer both at once, so the update can overshoot or u...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.06159</guid>
-      <pubDate>Tue, 07 Apr 2026 17:55:59 +0000</pubDate>
     </item>
     <item>
       <title>What do Language Models Learn and When? The Implicit Curriculum Hypothesis</title>
@@ -136,15 +127,6 @@ Current post-training methods in verifiable settings fall into two categories. R
       <pubDate>Mon, 13 Apr 2026 19:46:55 +0000</pubDate>
     </item>
     <item>
-      <title>Mobile GUI Agents under Real-world Threats: Are We There Yet?</title>
-      <link>https://huggingface.co/papers/2507.04227</link>
-      <description>By Guohong Liu, Jialei Ye, Jiacheng Liu, Yuanchun Li, Wei Liu, et al.
-
-Recent years have witnessed a rapid development of mobile GUI agents powered by large language models (LLMs), which can autonomously execute diverse device-control tasks based on natural language instructions. The increasing accuracy of these agents on standard benchmarks has raised expectations for...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2507.04227</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ROSE: An Intent-Centered Evaluation Metric for NL2SQL</title>
       <link>https://huggingface.co/papers/2604.12988</link>
       <description>By Wenqi Pei, Shizheng Hou, Boyan Li, Han Chen, Zhichao Shi, et al.
@@ -197,16 +179,6 @@ Large language models (LLMs) have recently gained significant attention as a pro
 Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from weak visual representations, but from under-utilization of vis...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.12966</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Geometric Context Transformer for Streaming 3D Reconstruction</title>
-      <link>https://huggingface.co/papers/2604.14141</link>
-      <description>By Lin-Zhuo Chen, Jian Gao, Yihang Chen, Ka Leong Cheng, Yipengjing Sun, et al.
-
-Streaming 3D reconstruction aims to recover 3D information, such as camera poses and point clouds, from a video stream, which necessitates geometric accuracy, temporal
-  consistency, and computational efficiency. Motivated by the principles of Simultaneous Localization and Mapping (SLAM), we introdu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.14141</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling</title>
@@ -269,6 +241,15 @@ We present Three-Phase Transformer (3PT), a residual-stream structural prior for
 
 We study behavior-regularized reinforcement learning (RL), where regularization toward a reference distribution (the dataset in offline RL or the base model in LLM RL finetuning) is essential to prevent value over-optimization caused by erroneous out-of-distribution extrapolation. Existing methods e...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.14265</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AccelOpt: A Self-Improving LLM Agentic System for AI Accelerator Kernel Optimization</title>
+      <link>https://huggingface.co/papers/2511.15915</link>
+      <description>By Genghan Zhang, Shaowei Zhu, Anjiang Wei, Zhenyu Song, Allen Nie, et al.
+
+We present AccelOpt, a self-improving large language model (LLM) agentic system that autonomously optimizes kernels for emerging AI acclerators, eliminating the need for expert-provided hardware-specific optimization knowledge. AccelOpt explores the kernel optimization space through iterative genera...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2511.15915</guid>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -416,6 +397,15 @@ Visual reasoning models (VRMs) have recently shown strong cross-modal reasoning 
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips</title>
+      <link>https://huggingface.co/papers/2502.07408</link>
+      <description>By Ido Galil, Moshe Kimhi, Ran El-Yaniv
+
+Deep Neural Networks (DNNs) can be catastrophically disrupted by flipping only a handful of parameter bits. We introduce Deep Neural Lesion (DNL), a data-free and optimizationfree method that locates critical parameters, and an enhanced single-pass variant, 1P-DNL, that refines this selection with o...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2502.07408</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects</title>
       <link>https://huggingface.co/papers/2604.16272</link>
       <description>By Xiangbo Gao, Sicong Jiang, Bangya Liu, Xinghao Chen, Minglai Yang, et al.
@@ -458,6 +448,15 @@ Parallel reasoning enhances Large Reasoning Models (LRMs) but incurs prohibitive
 
 The development of general-purpose agents requires a shift from executing simple instructions to completing complex, real-world productivity workflows. However, current tool-use benchmarks remain misaligned with real-world requirements, relying on AI-generated queries, dummy tools, and limited syste...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.15715</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Repurposing 3D Generative Model for Autoregressive Layout Generation</title>
+      <link>https://huggingface.co/papers/2604.16299</link>
+      <description>By Haoran Feng, Yifan Niu, Zehuan Huang, Yang-Tian Sun, Chunchao Guo, et al.
+
+We introduce LaviGen, a framework that repurposes 3D generative models for 3D layout generation. Unlike previous methods that infer object layouts from textual descriptions, LaviGen operates directly in the native 3D space, formulating layout generation as an autoregressive process that explicitly m...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16299</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

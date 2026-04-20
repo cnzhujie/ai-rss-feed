@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Apr 2026 23:46:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 03:39:08 +0000</lastBuildDate>
     <item>
       <title>Self-Sovereign Agent</title>
       <link>https://huggingface.co/papers/2604.08551</link>
@@ -17,6 +17,15 @@
 We investigate the emerging prospect of self-sovereign agents -- AI systems that can economically sustain and extend their own operation without human involvement. Recent advances in large language models and agent frameworks have substantially expanded agents' practical capabilities, pointing towar...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.08551</guid>
       <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PersonaVLM: Long-Term Personalized Multimodal LLMs</title>
+      <link>https://huggingface.co/papers/2604.13074</link>
+      <description>By Chang Nie, Chaoyou Fu, Yifan Zhang, Haihua Yang, Caifeng Shan
+
+Multimodal Large Language Models (MLLMs) serve as daily assistants for millions. However, their ability to generate responses aligned with individual preferences remains limited. Prior approaches enable only static, single-turn personalization through input augmentation or output alignment, and thus...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.13074</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data</title>
@@ -55,15 +64,6 @@ In RL, given a prompt, we sample a group of completions from a model and score t
       <pubDate>Tue, 07 Apr 2026 17:55:59 +0000</pubDate>
     </item>
     <item>
-      <title>ReconPhys: Reconstruct Appearance and Physical Attributes from Single Video</title>
-      <link>https://huggingface.co/papers/2604.07882</link>
-      <description>By Boyuan Wang, Xiaofeng Wang, Yongkang Li, Zheng Zhu, Yifan Chang, et al.
-
-Reconstructing non-rigid objects with physical plausibility remains a significant challenge. Existing approaches leverage differentiable rendering for per-scene optimization, recovering geometry and dynamics but requiring expensive tuning or manual annotation, which limits practicality and generaliz...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.07882</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>What do Language Models Learn and When? The Implicit Curriculum Hypothesis</title>
       <link>https://huggingface.co/papers/2604.08510</link>
       <description>By Emmy Liu, Kaiser Sun, Millicent Li, Isabelle Lee, Lindia Tjuatja, et al.
@@ -73,15 +73,6 @@ Large language models (LLMs) can perform remarkably complex tasks, yet the fine-
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Do AI Coding Agents Log Like Humans? An Empirical Study</title>
-      <link>https://huggingface.co/papers/2604.09409</link>
-      <description>By Youssef Esseddiq Ouatiti, Mohammed Sayagh, Hao Li, Ahmed E. Hassan
-
-Software logging is essential for maintaining and debugging complex systems, yet it remains unclear how AI coding agents handle this non-functional requirement. While prior work characterizes human logging practices, the behaviors of AI coding agents and the efficacy of natural language instructions...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.09409</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>A Temporally Augmented Graph Attention Network for Affordance Classification</title>
       <link>https://huggingface.co/papers/2604.10149</link>
       <description>By Ami Chopra, Supriya Bordoloi, Shyamanta M. Hazarika
@@ -89,33 +80,6 @@ Software logging is essential for maintaining and debugging complex systems, yet
 Graph attention networks (GATs) provide one of the best frameworks for learning node representations in relational data; but, existing variants such as Graph Attention Network (GAT) mainly operate on static graphs and rely on implicit temporal aggregation when applied to sequential data. In this pap...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.10149</guid>
       <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RationalRewards: Reasoning Rewards Scale Visual Generation Both Training and Test Time</title>
-      <link>https://huggingface.co/papers/2604.11626</link>
-      <description>By Haozhe Wang, Cong Wei, Weiming Ren, Jiaming Liu, Fangzhen Lin, et al.
-
-Most reward models for visual generation reduce rich human judgments to a single unexplained score, discarding the reasoning that underlies preference. We show that teaching reward models to produce explicit, multi-dimensional critiques before scoring transforms them from passive evaluators into act...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11626</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure</title>
-      <link>https://huggingface.co/papers/2604.11045</link>
-      <description>By Huacan Wang, Jie Zhou, Ningyan Zhu, Shuo Zhang, Feiyu Chen, et al.
-
-AI coding agents have become central to developer workflows, yet every existing solution locks its reasoning capabilities within a specific delivery form, such as a CLI, IDE plugin, or web application. This limitation creates systemic barriers when enterprises attempt to reuse these capabilities acr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11045</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SemaClaw: A Step Towards General-Purpose Personal AI Agents through Harness Engineering</title>
-      <link>https://huggingface.co/papers/2604.11548</link>
-      <description>By Ningyan Zhu, Huacan Wang, Jie Zhou, Feiyu Chen, Shuo Zhang, et al.
-
-The rise of OpenClaw in early 2026 marks the moment when millions of users began deploying personal AI agents into their daily lives, delegating tasks ranging from travel planning to multi-step research. This scale of adoption signals that two parallel arcs of development have reached an inflection ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.11548</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HDR Video Generation via Latent Alignment with Logarithmic Encoding</title>
@@ -170,15 +134,6 @@ Accurate future video prediction requires both high visual fidelity and consiste
 Current post-training methods in verifiable settings fall into two categories. Reinforcement learning (RLVR) relies on binary rewards, which are broadly applicable and powerful, but provide only sparse supervision during training. Distillation provides dense token-level supervision, typically obtain...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.12002</guid>
       <pubDate>Mon, 13 Apr 2026 19:46:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exploration and Exploitation Errors Are Measurable for Language Model Agents</title>
-      <link>https://huggingface.co/papers/2604.13151</link>
-      <description>By Jaden Park, Jungtaek Kim, Jongwon Jeong, Robert D. Nowak, Kangwook Lee, et al.
-
-Language Model (LM) agents are increasingly used in complex open-ended decision-making tasks, from AI coding to physical AI. A core requirement in these settings is the ability to both explore the problem space and exploit acquired knowledge effectively. However, systematically distinguishing and qu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.13151</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mobile GUI Agents under Real-world Threats: Are We There Yet?</title>
@@ -242,24 +197,6 @@ Large language models (LLMs) have recently gained significant attention as a pro
 Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from weak visual representations, but from under-utilization of vis...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.12966</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space</title>
-      <link>https://huggingface.co/papers/2604.14142</link>
-      <description>By Yuqiao Tan, Minzheng Wang, Bo Liu, Zichen Liu, Tian Liang, et al.
-
-While reinforcement learning with verifiable rewards (RLVR) significantly enhances LLM reasoning by optimizing the conditional distribution P(y|x), its potential is fundamentally bounded by the base model's existing output distribution. Optimizing the marginal distribution P(y) in the Pre-train Spac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.14142</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents</title>
-      <link>https://huggingface.co/papers/2604.14004</link>
-      <description>By Kangsan Kim, Minki Kang, Taeil Kim, Yanlai Yang, Mengye Ren, et al.
-
-Memory-based self-evolution has emerged as a promising paradigm for coding agents. However, existing approaches typically restrict memory utilization to homogeneous task domains, failing to leverage the shared infrastructural foundations, such as runtime environments and programming languages, that ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.14004</guid>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Geometric Context Transformer for Streaming 3D Reconstruction</title>
@@ -459,6 +396,69 @@ In online incremental learning, data continuously arrives with substantial distr
 Text-driven inversion of generative models is a core paradigm for manipulating 2D or 3D content, unlocking numerous applications such as text-based editing, style transfer, or inverse problems. However, it relies on the assumption that generative models remain sensitive to natural language prompts. ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.14914</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PRL-Bench: A Comprehensive Benchmark Evaluating LLMs' Capabilities in Frontier Physics Research</title>
+      <link>https://huggingface.co/papers/2604.15411</link>
+      <description>By Tingjia Miao, Wenkai Jin, Muhua Zhang, Jinxin Tan, Yuelin Hu, et al.
+
+The paradigm of agentic science requires AI systems to conduct robust reasoning and engage in long-horizon, autonomous exploration. However, current scientific benchmarks remain confined to domain knowledge comprehension and complex reasoning, failing to evaluate the exploratory nature and procedura...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.15411</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning Adaptive Reasoning Paths for Efficient Visual Reasoning</title>
+      <link>https://huggingface.co/papers/2604.14568</link>
+      <description>By Yixu Huang, Tinghui Zhu, Muhao Chen
+
+Visual reasoning models (VRMs) have recently shown strong cross-modal reasoning capabilities by integrating visual perception with language reasoning. However, they often suffer from overthinking, producing unnecessarily long reasoning chains for any tasks. We attribute this issue to Reasoning Path ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.14568</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects</title>
+      <link>https://huggingface.co/papers/2604.16272</link>
+      <description>By Xiangbo Gao, Sicong Jiang, Bangya Liu, Xinghao Chen, Minglai Yang, et al.
+
+As AI-assisted video creation becomes increasingly practical, instruction-guided video editing has become essential for refining generated or captured footage to meet professional requirements. Yet the field still lacks both a large-scale human-annotated dataset with complete editing examples and a ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16272</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen3.5-Omni Technical Report</title>
+      <link>https://huggingface.co/papers/2604.15804</link>
+      <description>By Qwen Team
+
+In this work, we present Qwen3.5-Omni, the latest advancement in the Qwen-Omni model family. Representing a significant evolution over its predecessor, Qwen3.5-Omni scales to hundreds of billions of parameters and supports a 256k context length. By leveraging a massive dataset comprising heterogeneo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.15804</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics</title>
+      <link>https://huggingface.co/papers/2604.16254</link>
+      <description>By Heewon Oh
+
+We present ArtifactNet, a lightweight framework that detects AI-generated music by reframing the problem as forensic physics -- extracting and analyzing the physical artifacts that neural audio codecs inevitably imprint on generated audio. A bounded-mask UNet (ArtifactUNet, 3.6M parameters) extracts...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16254</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning</title>
+      <link>https://huggingface.co/papers/2604.16029</link>
+      <description>By Jiaxi Bi, Tongxu Luo, Wenyu Du, Zhengyang Tang, Benyou Wang
+
+Parallel reasoning enhances Large Reasoning Models (LRMs) but incurs prohibitive costs due to futile paths caused by early errors. To mitigate this, path pruning at the prefix level is essential, yet existing research remains fragmented without a standardized framework. In this work, we propose the ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16029</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows</title>
+      <link>https://huggingface.co/papers/2604.15715</link>
+      <description>By Jize Wang, Xuanxuan Liu, Yining Li, Songyang Zhang, Yijun Wang, et al.
+
+The development of general-purpose agents requires a shift from executing simple instructions to completing complex, real-world productivity workflows. However, current tool-use benchmarks remain misaligned with real-world requirements, relying on AI-generated queries, dummy tools, and limited syste...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.15715</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

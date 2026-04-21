@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 06:08:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 08:56:26 +0000</lastBuildDate>
     <item>
       <title>Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems</title>
       <link>https://huggingface.co/papers/2604.04936</link>
@@ -109,13 +109,13 @@ Reinforcement Learning with Verifiable Rewards (RLVR) has catalyzed significant 
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Learning Adaptive Reasoning Paths for Efficient Visual Reasoning</title>
-      <link>https://huggingface.co/papers/2604.14568</link>
-      <description>By Yixu Huang, Tinghui Zhu, Muhao Chen
+      <title>GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification</title>
+      <link>https://huggingface.co/papers/2604.14258</link>
+      <description>By Wangjie Gan, Miao Pan, Linbo Xi, Wenqi Zhang, Jintao Chen, et al.
 
-Visual reasoning models (VRMs) have recently shown strong cross-modal reasoning capabilities by integrating visual perception with language reasoning. However, they often suffer from overthinking, producing unnecessarily long reasoning chains for any tasks. We attribute this issue to Reasoning Path ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.14568</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+Large language models are typically post-trained using supervised fine-tuning (SFT) and reinforcement learning (RL), yet effectively unifying efficient knowledge injection with robust generalization remains challenging. In this work, we provide a training-dynamics analysis showing that SFT can be in...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.14258</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips</title>
@@ -161,42 +161,6 @@ Tokenization is a key component of autoregressive (AR) generative models, conver
 Large language models have demonstrated strong performance on general-purpose programming tasks, yet their ability to generate executable algorithmic trading strategies remains underexplored. Unlike standard code benchmarks, trading-strategy generation requires simultaneous mastery of domain-specifi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.15151</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ArtifactNet: Detecting AI-Generated Music via Forensic Residual Physics</title>
-      <link>https://huggingface.co/papers/2604.16254</link>
-      <description>By Heewon Oh
-
-We present ArtifactNet, a lightweight framework that detects AI-generated music by reframing the problem as forensic physics -- extracting and analyzing the physical artifacts that neural audio codecs inevitably imprint on generated audio. A bounded-mask UNet (ArtifactUNet, 3.6M parameters) extracts...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.16254</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cut Your Losses! Learning to Prune Paths Early for Efficient Parallel Reasoning</title>
-      <link>https://huggingface.co/papers/2604.16029</link>
-      <description>By Jiaxi Bi, Tongxu Luo, Wenyu Du, Zhengyang Tang, Benyou Wang
-
-Parallel reasoning enhances Large Reasoning Models (LRMs) but incurs prohibitive costs due to futile paths caused by early errors. To mitigate this, path pruning at the prefix level is essential, yet existing research remains fragmented without a standardized framework. In this work, we propose the ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.16029</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows</title>
-      <link>https://huggingface.co/papers/2604.15715</link>
-      <description>By Jize Wang, Xuanxuan Liu, Yining Li, Songyang Zhang, Yijun Wang, et al.
-
-The development of general-purpose agents requires a shift from executing simple instructions to completing complex, real-world productivity workflows. However, current tool-use benchmarks remain misaligned with real-world requirements, relying on AI-generated queries, dummy tools, and limited syste...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.15715</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Repurposing 3D Generative Model for Autoregressive Layout Generation</title>
-      <link>https://huggingface.co/papers/2604.16299</link>
-      <description>By Haoran Feng, Yifan Niu, Zehuan Huang, Yang-Tian Sun, Chunchao Guo, et al.
-
-We introduce LaviGen, a framework that repurposes 3D generative models for 3D layout generation. Unlike previous methods that infer object layouts from textual descriptions, LaviGen operates directly in the native 3D space, formulating layout generation as an autoregressive process that explicitly m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.16299</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TwinTrack: Post-hoc Multi-Rater Calibration for Medical Image Segmentation</title>
@@ -271,6 +235,15 @@ We present SemanticQA, an evaluation suite designed to assess language models (L
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Modeling Sparse and Bursty Vulnerability Sightings: Forecasting Under Data Constraints</title>
+      <link>https://huggingface.co/papers/2604.16038</link>
+      <description>By Cedric Bonhomme, Alexandre Dulaunoy
+
+Understanding and anticipating vulnerability-related activity is a major challenge in cyber threat intelligence. This work investigates whether vulnerability sightings, such as proof-of-concept releases, detection templates, or online discussions, can be forecast over time. Building on our earlier w...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16038</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Crowded in B-Space: Calibrating Shared Directions for LoRA Merging</title>
       <link>https://huggingface.co/papers/2604.16826</link>
       <description>By Yixuan Tang, Yi Yang
@@ -295,6 +268,15 @@ Multimodal large language models (MLLMs) have shown impressive capabilities, yet
 
 Reinforcement learning from verifiable rewards (RLVR) has demonstrated remarkable effectiveness in improving the reasoning capabilities of large language models. As models evolve into natively multimodal architectures, extending RLVR to video understanding becomes increasingly important yet remains ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.16893</guid>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Text-Dominance: Understanding Modality Preference of Omni-modal Large Language Models</title>
+      <link>https://huggingface.co/papers/2604.16902</link>
+      <description>By Xinru Yan, Boxi Cao, Yaojie Lu, Hongyu Lin, Weixiang Zhou, et al.
+
+Native Omni-modal Large Language Models (OLLMs) have shifted from pipeline architectures to unified representation spaces. However, this native integration gives rise to a critical yet underexplored phenomenon: modality preference. To bridge this gap, we first systematically quantify modality prefer...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16902</guid>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Large language models have achieved significant reasoning improvements through r
 
 Game development sits at the intersection of creative design and intricate software engineering, demanding the joint orchestration of game engines, real-time loops, and tightly coupled state across many files. While Large Language Models (LLMs) and code agents now solve isolated programming tasks wi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.18394</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Latent Preference Modeling for Cross-Session Personalized Tool Calling</title>
+      <link>https://huggingface.co/papers/2604.17886</link>
+      <description>By Yejin Yoon, Minseo Kim, Taeuk Kim
+
+Users often omit essential details in their requests to LLM-based agents, resulting in under-specified inputs for tool use. This poses a fundamental challenge for tool-augmented agents, as API execution typically requires complete arguments, highlighting the need for personalized tool calling. To st...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.17886</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation</title>
+      <link>https://huggingface.co/papers/2604.18168</link>
+      <description>By Chenxi Zhao, Chen Zhu, Xiaokun Feng, Aiming Hao, Jiashu Zhu, et al.
+
+Few-step generation has been a long-standing goal, with recent one-step generation methods exemplified by MeanFlow achieving remarkable results. Existing research on MeanFlow primarily focuses on class-to-image generation. However, an intuitive yet unexplored direction is to extend the condition fro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.18168</guid>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

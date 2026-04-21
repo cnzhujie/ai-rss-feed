@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 18:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 20:08:39 +0000</lastBuildDate>
     <item>
       <title>Significance and Stability Analysis of Gene-Environment Interaction using RGxEStat</title>
       <link>https://huggingface.co/papers/2604.03337</link>
@@ -53,15 +53,6 @@ We test whether artificial intelligence architectural evolution obeys the same s
 Current multimodal large language models (MLLMs) have demonstrated remarkable capabilities in short-form video understanding, yet translating long-form cinematic videos into detailed, temporally grounded scripts remains a significant challenge. This paper introduces the novel video-to-script (V2S) t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.11102</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies</title>
-      <link>https://huggingface.co/papers/2604.09860</link>
-      <description>By Xuning Yang, Rishit Dagli, Alex Zook, Hugo Hadfield, Ankit Goyal, et al.
-
-The pursuit of general-purpose robotics has yielded impressive foundation models, yet simulation-based benchmarking remains a bottleneck due to rapid performance saturation and a lack of true generalization testing. Existing benchmarks often exhibit significant domain overlap between training and ev...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.09860</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Motif-Video 2B: Technical Report</title>
@@ -109,22 +100,13 @@ Knowledge distillation is a widely adopted technique for transferring capabiliti
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hierarchical Codec Diffusion for Video-to-Speech Generation</title>
-      <link>https://huggingface.co/papers/2604.15923</link>
-      <description>By Jiaxin Ye, Gaoxiang Cong, Chenhui Wang, Xin-Cheng Wen, Zhaoyang Li, et al.
+      <title>Symbolic Guardrails for Domain-Specific Agents: Stronger Safety and Security Guarantees Without Sacrificing Utility</title>
+      <link>https://huggingface.co/papers/2604.15579</link>
+      <description>By Yining Hong, Yining She, Eunsuk Kang, Christopher S. Timperley, Christian Kästner
 
-Video-to-Speech (VTS) generation aims to synthesize speech from a silent video without auditory signals. However, existing VTS methods disregard the hierarchical nature of speech, which spans coarse speaker-aware semantics to fine-grained prosodic details. This oversight hinders direct alignment bet...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.15923</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Where does output diversity collapse in post-training?</title>
-      <link>https://huggingface.co/papers/2604.16027</link>
-      <description>By Constantinos Karouzos, Xingwei Tan, Nikolaos Aletras
-
-Post-trained language models produce less varied outputs than their base counterparts. This output diversity collapse undermines inference-time scaling methods that rely on varied samples, and risks homogenizing model outputs on creative and value-laden tasks. Prior work attributes collapse to speci...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.16027</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+AI agents that interact with their environments through tools enable powerful applications, but in high-stakes business settings, unintended actions can cause unacceptable harm, such as privacy breaches and financial loss. Existing mitigations, such as training-based methods and neural guardrails, i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.15579</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Amazing Agent Race: Strong Tool Users, Weak Navigators</title>
@@ -316,6 +298,15 @@ The most important architectural problem in AI is not the size of the model but 
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>When Background Matters: Breaking Medical Vision Language Models by Transferable Attack</title>
+      <link>https://huggingface.co/papers/2604.17318</link>
+      <description>By Akash Ghosh, Subhadip Baidya, Sriparna Saha, Xiuying Chen
+
+Vision-Language Models (VLMs) are increasingly used in clinical diagnostics, yet their robustness to adversarial attacks remains largely unexplored, posing serious risks. Existing medical attacks focus on secondary objectives such as model stealing or adversarial fine-tuning, while transferable atta...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.17318</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The Geometric Canary: Predicting Steerability and Detecting Drift via Representational Stability</title>
       <link>https://huggingface.co/papers/2604.17698</link>
       <description>By Prashant C. Raju
@@ -457,6 +448,15 @@ Few-step generation has been a long-standing goal, with recent one-step generati
 
 Computer-use agents have rapidly improved on real-world tasks such as web navigation, desktop automation, and software interaction, in some cases surpassing human performance. Yet even when the task and model are unchanged, an agent that succeeds once may fail on a repeated execution of the same tas...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.17849</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MARCO: Navigating the Unseen Space of Semantic Correspondence</title>
+      <link>https://huggingface.co/papers/2604.18267</link>
+      <description>By Claudia Cuttano, Gabriele Trivigno, Carlo Masone, Stefan Roth
+
+Recent advances in semantic correspondence rely on dual-encoder architectures, combining DINOv2 with diffusion backbones. While accurate, these billion-parameter models generalize poorly beyond training keypoints, revealing a gap between benchmark performance and real-world usability, where queried ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.18267</guid>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

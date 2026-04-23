@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 03:33:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 06:11:40 +0000</lastBuildDate>
     <item>
       <title>SPRITE: From Static Mockups to Engine-Ready Game UI</title>
       <link>https://huggingface.co/papers/2604.18591</link>
@@ -44,6 +44,15 @@ As LLM-based assistants become persistent and personalized, they must extract an
 Language-model agent systems commonly rely on reactive prompting, in which a single instruction guides the model through an open-ended sequence of reasoning and tool-use steps, leaving control flow and intermediate state implicit and making agent behavior potentially difficult to control. Orchestrat...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.13346</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges</title>
+      <link>https://huggingface.co/papers/2604.13602</link>
+      <description>By Xiaohua Wang, Muzhao Tian, Yuqi Zeng, Zisu Huang, Jiakang Yuan, et al.
+
+Reinforcement Learning from Human Feedback (RLHF) and related alignment paradigms have become central to steering large language models (LLMs) and multimodal large language models (MLLMs) toward human-preferred behaviors. However, these approaches introduce a systemic vulnerability: reward hacking, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.13602</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training</title>
@@ -118,24 +127,6 @@ Task arithmetic provides an efficient, training-free way to edit pre-trained mod
       <pubDate>Sat, 18 Apr 2026 17:34:56 +0000</pubDate>
     </item>
     <item>
-      <title>When Background Matters: Breaking Medical Vision Language Models by Transferable Attack</title>
-      <link>https://huggingface.co/papers/2604.17318</link>
-      <description>By Akash Ghosh, Subhadip Baidya, Sriparna Saha, Xiuying Chen
-
-Vision-Language Models (VLMs) are increasingly used in clinical diagnostics, yet their robustness to adversarial attacks remains largely unexplored, posing serious risks. Existing medical attacks focus on secondary objectives such as model stealing or adversarial fine-tuning, while transferable atta...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.17318</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Terminal Wrench: A Dataset of 331 Reward-Hackable Environments and 3,632 Exploit Trajectories</title>
-      <link>https://huggingface.co/papers/2604.17596</link>
-      <description>By Ivan Bercovich, Ivgeni Segal, Kexun Zhang, Shashwat Saxena, Aditi Raghunathan, et al.
-
-We release Terminal Wrench, a subset of 331 terminal-agent benchmark environments, copied from the popular open benchmarks that are demonstrably reward-hackable. The data set includes 3,632 hack trajectories and 2,352 legitimate baseline trajectories across three frontier models (Claude Opus 4.6, Ge...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.17596</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>UniMesh: Unifying 3D Mesh Understanding and Generation</title>
       <link>https://huggingface.co/papers/2604.17472</link>
       <description>By Peng Huang, Yifeng Chen, Zeyu Zhang, Hao Tang
@@ -170,15 +161,6 @@ Autoregressive video diffusion is emerging as a promising paradigm for streaming
 Recent Speech-to-Speech Translation (S2ST) systems achieve strong semantic accuracy yet consistently strip away non-verbal vocalizations (NVs), such as laughter and crying that convey pragmatic intent, which severely limits real-world utility. We address this via three contributions. First, we propo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.17435</guid>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>River-LLM: Large Language Model Seamless Exit Based on KV Share</title>
-      <link>https://huggingface.co/papers/2604.18396</link>
-      <description>By Yingtao Shen, An Zou
-
-Large Language Models (LLMs) have demonstrated exceptional performance across diverse domains but are increasingly constrained by high inference latency. Early Exit has emerged as a promising solution to accelerate inference by dynamically bypassing redundant layers. However, in decoder-only archite...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.18396</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MM-JudgeBias: A Benchmark for Evaluating Compositional Biases in MLLM-as-a-Judge</title>
@@ -457,6 +439,24 @@ We present LLaDA2.0-Uni, a unified discrete diffusion large language model (dLLM
 
 Language models trained on natural text learn to represent numbers using periodic features with dominant periods at T=2, 5, 10. In this paper, we identify a two-tiered hierarchy of these features: while Transformers, Linear RNNs, LSTMs, and classical word embeddings trained in different ways all lea...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.20817</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploring Spatial Intelligence from a Generative Perspective</title>
+      <link>https://huggingface.co/papers/2604.20570</link>
+      <description>By Muzhi Zhu, Shunyao Jiang, Huanyi Zheng, Zekai Luo, Hao Zhong, et al.
+
+Spatial intelligence is essential for multimodal large language models, yet current benchmarks largely assess it only from an understanding perspective. We ask whether modern generative or unified multimodal models also possess generative spatial intelligence (GSI), the ability to respect and manipu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.20570</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Near-Future Policy Optimization</title>
+      <link>https://huggingface.co/papers/2604.20733</link>
+      <description>By Chuanyu Qin, Chenxu Yang, Qingyi Si, Naibin Gu, Dingyu Yao, et al.
+
+Reinforcement learning with verifiable rewards (RLVR) has become a core post-training recipe. Introducing suitable off-policy trajectories into on-policy exploration accelerates RLVR convergence and raises the performance ceiling, yet finding a source of such trajectories remains the key challenge. ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.20733</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

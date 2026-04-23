@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 06:11:40 +0000</lastBuildDate>
-    <item>
-      <title>SPRITE: From Static Mockups to Engine-Ready Game UI</title>
-      <link>https://huggingface.co/papers/2604.18591</link>
-      <description>By Yunshu Bai, RuiHao Li, Hao Zhang, Chien Her Lim, Ming Yan, et al.
-
-Game UI implementation requires translating stylized mockups into interactive engine entities. However, current "Screenshot-to-Code" tools often struggle with the irregular geometries and deep visual hierarchies typical of game interfaces. To bridge this gap, we introduce SPRITE, a pipeline that tra...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.18591</guid>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 23 Apr 2026 08:57:40 +0000</lastBuildDate>
     <item>
       <title>Predicting integers from continuous parameters</title>
       <link>https://huggingface.co/papers/2602.10751</link>
@@ -35,15 +26,6 @@ We study the problem of predicting numeric labels that are constrained to the in
 As LLM-based assistants become persistent and personalized, they must extract and retain useful information from past conversations as memory. However, the types of information worth remembering vary considerably across tasks. We formalize the heterogeneous memory extraction task and introduce BEHEM...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.11610</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AgentSPEX: An Agent SPecification and EXecution Language</title>
-      <link>https://huggingface.co/papers/2604.13346</link>
-      <description>By Pengcheng Wang, Jerry Huang, Jiarui Yao, Rui Pan, Peizhi Niu, et al.
-
-Language-model agent systems commonly rely on reactive prompting, in which a single instruction guides the model through an open-ended sequence of reasoning and tool-use steps, leaving control flow and intermediate state implicit and making agent behavior potentially difficult to control. Orchestrat...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.13346</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges</title>
@@ -64,13 +46,13 @@ End-to-end spoken dialogue models have garnered significant attention because th
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>KWBench: Measuring Unprompted Problem Recognition in Knowledge Work</title>
-      <link>https://huggingface.co/papers/2604.15760</link>
-      <description>By Ankit Maloo
+      <title>Scaling Test-Time Compute for Agentic Coding</title>
+      <link>https://huggingface.co/papers/2604.16529</link>
+      <description>By Joongwon Kim, Wannan Yang, Kelvin Niu, Hongming Zhang, Yun Zhu, et al.
 
-We introduce the first version of KWBench (Knowledge Work Bench), a benchmark for unprompted problem recognition in large language models: can an LLM identify a professional scenario before attempting to solve it. Existing frontier benchmarks have saturated, and most knowledge-work evaluations to da...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.15760</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+Test-time scaling has become a powerful way to improve large language models. However, existing methods are best suited to short, bounded outputs that can be directly compared, ranked or refined. Long-horizon coding agents violate this premise: each attempt produces an extended trajectory of actions...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16529</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Target-Oriented Pretraining Data Selection via Neuron-Activated Graph</title>
@@ -127,15 +109,6 @@ Task arithmetic provides an efficient, training-free way to edit pre-trained mod
       <pubDate>Sat, 18 Apr 2026 17:34:56 +0000</pubDate>
     </item>
     <item>
-      <title>UniMesh: Unifying 3D Mesh Understanding and Generation</title>
-      <link>https://huggingface.co/papers/2604.17472</link>
-      <description>By Peng Huang, Yifeng Chen, Zeyu Zhang, Hao Tang
-
-Recent advances in 3D vision have led to specialized models for either 3D understanding (e.g., shape classification, segmentation, reconstruction) or 3D generation (e.g., synthesis, completion, and editing). However, these tasks are often tackled in isolation, resulting in fragmented architectures a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.17472</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Code-Switching Information Retrieval: Benchmarks, Analysis, and the Limits of Current Retrievers</title>
       <link>https://huggingface.co/papers/2604.17632</link>
       <description>By Qingcheng Zeng, Yuheng Lu, Zeqi Zhou, Heli Qi, Puxuan Yu, et al.
@@ -160,6 +133,15 @@ Autoregressive video diffusion is emerging as a promising paradigm for streaming
 
 Recent Speech-to-Speech Translation (S2ST) systems achieve strong semantic accuracy yet consistently strip away non-verbal vocalizations (NVs), such as laughter and crying that convey pragmatic intent, which severely limits real-world utility. We address this via three contributions. First, we propo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.17435</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diverse Dictionary Learning</title>
+      <link>https://huggingface.co/papers/2604.17568</link>
+      <description>By Yujia Zheng, Zijian Li, Shunxing Fan, Andrew Gordon Wilson, Kun Zhang
+
+Given only observational data X = g(Z), where both the latent variables Z and the generating process g are unknown, recovering Z is ill-posed without additional assumptions. Existing methods often assume linearity or rely on auxiliary supervision and functional constraints. However, such assumptions...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.17568</guid>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -217,40 +199,13 @@ As reinforcement learning continues to scale the training of large language mode
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Evaluation-driven Scaling for Scientific Discovery</title>
-      <link>https://huggingface.co/papers/2604.19341</link>
-      <description>By Haotian Ye, Haowei Lin, Jingyi Tang, Yizhen Luo, Caiyin Yang, et al.
+      <title>AI scientists produce results without reasoning scientifically</title>
+      <link>https://huggingface.co/papers/2604.18805</link>
+      <description>By Martiño Ríos-García, Nawaf Alampara, Chandan Gupta, Indrajeet Mandal, Sajid Mannan, et al.
 
-Language models are increasingly used in scientific discovery to generate hypotheses, propose candidate solutions, implement systems, and iteratively refine them. At the core of these trial-and-error loops lies evaluation: the process of obtaining feedback on candidate solutions via verifiers, simul...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19341</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items</title>
-      <link>https://huggingface.co/papers/2604.19748</link>
-      <description>By Mengting Chen, Zhengrui Chen, Yongchao Du, Zuan Gao, Taihang Hu, et al.
-
-Recent advances in image generation and editing have opened new opportunities for virtual try-on. However, existing methods still struggle to meet complex real-world demands. We present Tstars-Tryon 1.0, a commercial-scale virtual try-on system that is robust, realistic, versatile, and highly effici...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19748</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PlayCoder: Making LLM-Generated GUI Code Playable</title>
-      <link>https://huggingface.co/papers/2604.19742</link>
-      <description>By Zhiyuan Peng, Wei Tao, Xin Yin, Chenhao Ying, Yuan Luo, et al.
-
-Large language models (LLMs) have achieved strong results in code generation, but their ability to generate GUI applications, especially games, remains insufficiently studied. Existing benchmarks mainly evaluate correctness through test cases, which are inadequate for GUI applications because these ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19742</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LoopCTR: Unlocking the Loop Scaling Power for Click-Through Rate Prediction</title>
-      <link>https://huggingface.co/papers/2604.19550</link>
-      <description>By Jiakai Tang, Runfeng Zhang, Weiqiu Wang, Yifei Liu, Chuan Wang, et al.
-
-Scaling Transformer-based click-through rate (CTR) models by stacking more parameters brings growing computational and storage overhead, creating a widening gap between scaling ambitions and the stringent industrial deployment constraints. We propose LoopCTR, which introduces a loop scaling paradigm...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19550</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+Large language model (LLM)-based systems are increasingly deployed to conduct scientific research autonomously, yet whether their reasoning adheres to the epistemic norms that make scientific inquiry self-correcting is poorly understood. Here, we evaluate LLM-based scientific agents across eight dom...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.18805</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation</title>
@@ -394,6 +349,51 @@ We present MMCORE, a unified framework designed for multimodal image generation 
 
 Edge-scale deep research agents based on small language models are attractive for real-world deployment due to their advantages in cost, latency, and privacy. In this work, we study how to train a strong small deep research agent under limited open-data by improving both data quality and data utiliz...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.19859</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visual Reasoning through Tool-supervised Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2604.19945</link>
+      <description>By Qihua Dong, Gozde Sahin, Pei Wang, Zhaowei Cai, Robik Shrestha, et al.
+
+In this paper, we investigate the problem of how to effectively master tool-use to solve complex visual reasoning tasks for Multimodal Large Language Models. To achieve that, we propose a novel Tool-supervised Reinforcement Learning (ToolsRL) framework, with direct tool supervision for more effectiv...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.19945</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReImagine: Rethinking Controllable High-Quality Human Video Generation via Image-First Synthesis</title>
+      <link>https://huggingface.co/papers/2604.19720</link>
+      <description>By Zhengwentai Sun, Keru Zheng, Chenghong Li, Hongjie Liao, Xihe Yang, et al.
+
+Human video generation remains challenging due to the difficulty of jointly modeling human appearance, motion, and camera viewpoint under limited multi-view data. Existing methods often address these factors separately, resulting in limited controllability or reduced visual quality. We revisit this ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.19720</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAVOIR: Learning Social Savoir-Faire via Shapley-based Reward Attribution</title>
+      <link>https://huggingface.co/papers/2604.18982</link>
+      <description>By Xiachong Feng, Yi Jiang, Xiaocheng Feng, Deyi Yin, Libo Qin, et al.
+
+Social intelligence, the ability to navigate complex interpersonal interactions, presents a fundamental challenge for language agents. Training such agents via reinforcement learning requires solving the credit assignment problem: determining how individual utterances contribute to multi-turn dialog...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.18982</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tadabur: A Large-Scale Quran Audio Dataset</title>
+      <link>https://huggingface.co/papers/2604.18932</link>
+      <description>By Faisal Alherran
+
+Despite growing interest in Quranic data research, existing Quran datasets remain limited in both scale and diversity. To address this gap, we present Tadabur, a large-scale Quran audio dataset. Tadabur comprises more than 1400+ hours of recitation audio from over 600 distinct reciters, providing su...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.18932</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression</title>
+      <link>https://huggingface.co/papers/2604.19572</link>
+      <description>By Jincheng Ren, Siwei Wu, Yizhi Li, Kang Zhu, Shu Xu, et al.
+
+As model capabilities advance, research has increasingly shifted toward long-horizon, multi-turn terminal-centric agentic tasks, where raw environment feedback is often preserved in the interaction history to support future decisions. However, repeatedly retaining such feedback introduces substantia...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.19572</guid>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

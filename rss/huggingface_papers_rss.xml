@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 12:03:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 15:18:48 +0000</lastBuildDate>
     <item>
       <title>Predicting integers from continuous parameters</title>
       <link>https://huggingface.co/papers/2602.10751</link>
@@ -55,13 +55,13 @@ Test-time scaling has become a powerful way to improve large language models. Ho
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Target-Oriented Pretraining Data Selection via Neuron-Activated Graph</title>
-      <link>https://huggingface.co/papers/2604.15706</link>
-      <description>By Zijun Wang, Haoqin Tu, Weidong Zhou, Yiyang Zhou, Xiaohuan Zhou, et al.
+      <title>OpenMobile: Building Open Mobile Agents with Task and Trajectory Synthesis</title>
+      <link>https://huggingface.co/papers/2604.15093</link>
+      <description>By Kanzhi Cheng, Zehao Li, Zheng Ma, Nuo Chen, Jialin Cao, et al.
 
-Everyday tasks come with a target, and pretraining models around this target is what turns them into experts. In this paper, we study target-oriented language model (LM) pretraining by introducing Neuron-Activated Graph Ranking (NAG-based Ranking), a training-free and interpretable framework for tar...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.15706</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+Mobile agents powered by vision-language models have demonstrated impressive capabilities in automating mobile tasks, with recent leading models achieving a marked performance leap, e.g., nearly 70% success on AndroidWorld. However, these systems keep their training data closed and remain opaque abo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.15093</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mind's Eye: A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs</title>
@@ -91,12 +91,30 @@ The rise of autonomous AI agents suggests that dynamic benchmark environments wi
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Benign Fine-Tuning Breaks Safety Alignment in Audio LLMs</title>
+      <link>https://huggingface.co/papers/2604.16659</link>
+      <description>By Jaechul Roh, Amir Houmansadr
+
+Prior work shows that fine-tuning aligned models on benign data degrades safety in text and vision modalities, and that proximity to harmful content in representation space predicts which samples cause the most damage. However, existing analyses operate within a single, undifferentiated embedding sp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16659</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The Cognitive Penalty: Ablating System 1 and System 2 Reasoning in Edge-Native SLMs for Decentralized Consensus</title>
       <link>https://huggingface.co/papers/2604.16913</link>
       <description>By Syed Muhammad Aqdas Rizvi
 
 Decentralized Autonomous Organizations (DAOs) are inclined explore Small Language Models (SLMs) as edge-native constitutional firewalls to vet proposals and mitigate semantic social engineering. While scaling inference-time compute (System 2) enhances formal logic, its efficacy in highly adversarial...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.16913</guid>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL</title>
+      <link>https://huggingface.co/papers/2604.17073</link>
+      <description>By Skylar Zhai, Jingcheng Liang, Dongyeop Kang
+
+Reinforcement fine-tuning improves the reasoning ability of large language models, but it can also encourage them to answer unanswerable queries by guessing or hallucinating missing information. Existing abstention methods either train models to produce generic refusals or encourage follow-up clarif...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.17073</guid>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -107,15 +125,6 @@ Decentralized Autonomous Organizations (DAOs) are inclined explore Small Languag
 Task arithmetic provides an efficient, training-free way to edit pre-trained models, yet lacks a fundamental theoretical explanation for its success. The existing concept of ``weight disentanglement" describes the ideal outcome of non-interfering task composition but does not reveal its underlying c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.17078</guid>
       <pubDate>Sat, 18 Apr 2026 17:34:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Code-Switching Information Retrieval: Benchmarks, Analysis, and the Limits of Current Retrievers</title>
-      <link>https://huggingface.co/papers/2604.17632</link>
-      <description>By Qingcheng Zeng, Yuheng Lu, Zeqi Zhou, Heli Qi, Puxuan Yu, et al.
-
-Code-switching is a pervasive linguistic phenomenon in global communication, yet modern information retrieval systems remain predominantly designed for, and evaluated within, monolingual contexts. To bridge this critical disconnect, we present a holistic study dedicated to code-switching IR. We intr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.17632</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Speculative Decoding for Autoregressive Video Generation</title>
@@ -143,24 +152,6 @@ Recent Speech-to-Speech Translation (S2ST) systems achieve strong semantic accur
 Given only observational data X = g(Z), where both the latent variables Z and the generating process g are unknown, recovering Z is ill-posed without additional assumptions. Existing methods often assume linearity or rely on auxiliary supervision and functional constraints. However, such assumptions...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.17568</guid>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MM-JudgeBias: A Benchmark for Evaluating Compositional Biases in MLLM-as-a-Judge</title>
-      <link>https://huggingface.co/papers/2604.18164</link>
-      <description>By Sua Lee, Sanghee Park, Jinbae Im
-
-Multimodal Large Language Models (MLLMs) have been increasingly used as automatic evaluators-a paradigm known as MLLM-as-a-Judge. However, their reliability and vulnerabilities to biases remain underexplored. We find that many MLLM judges fail to reliably integrate key visual or textual cues, yieldi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.18164</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dual-View Training for Instruction-Following Information Retrieval</title>
-      <link>https://huggingface.co/papers/2604.18845</link>
-      <description>By Qingcheng Zeng, Puxuan Yu, Aman Mehta, Fuheng Zhao, Rajhans Samdani
-
-Instruction-following information retrieval (IF-IR) studies retrieval systems that must not only find documents relevant to a query, but also obey explicit user constraints such as required attributes, exclusions, or output preferences. However, most retrievers are trained primarily for semantic rel...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.18845</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Contrastive Attribution in the Wild: An Interpretability Analysis of LLM Failures on Realistic Benchmarks</title>
@@ -208,13 +199,13 @@ Large language model (LLM)-based systems are increasingly deployed to conduct sc
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation</title>
-      <link>https://huggingface.co/papers/2604.19636</link>
-      <description>By Xiangyang Luo, Xiaozhe Xin, Tao Feng, Xu Guo, Meiguang Jin, et al.
+      <title>Streaming Structured Inference with Flash-SemiCRF</title>
+      <link>https://huggingface.co/papers/2604.18780</link>
+      <description>By Benjamin K. Johnson, Thomas Goralski, Ayush Semwal, Hui Shen, H. Josh Jang
 
-Synthesizing human--object interaction (HOI) videos has broad practical value in e-commerce, digital advertising, and virtual marketing. However, current diffusion models, despite their photorealistic rendering capability, still frequently fail on (i) the structural stability of sensitive regions su...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19636</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+Semi-Markov Conditional Random Fields (semi-CRFs) assign labels to segments of a sequence rather than to individual positions, enabling exact inference over segment-level features and principled uncertainty estimates at their boundaries. However, existing implementations must materialize a large edg...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.18780</guid>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Chat2Workflow: A Benchmark for Generating Executable Visual Workflows with Natural Language</title>
@@ -457,6 +448,15 @@ Reinforcement learning with verifiable rewards (RLVR) has become a core post-tra
 
 Recent advances in video generative models enable the synthesis of realistic human-object interaction videos across a wide range of scenarios and object categories, including complex dexterous manipulations that are difficult to capture with motion capture systems. While the rich interaction knowled...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.20841</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Image Generators are Generalist Vision Learners</title>
+      <link>https://huggingface.co/papers/2604.20329</link>
+      <description>By Valentin Gabeur, Shangbang Long, Songyou Peng, Paul Voigtlaender, Shuyang Sun, et al.
+
+Recent works show that image and video generators exhibit zero-shot visual understanding behaviors, in a way reminiscent of how LLMs develop emergent capabilities of language understanding and reasoning from generative pretraining. While it has long been conjectured that the ability to create visual...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.20329</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

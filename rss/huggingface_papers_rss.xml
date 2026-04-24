@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 09:05:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 11:13:25 +0000</lastBuildDate>
     <item>
       <title>EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model</title>
       <link>https://huggingface.co/papers/2604.10268</link>
@@ -17,6 +17,15 @@
 We propose EditCrafter, a high-resolution image editing method that operates without tuning, leveraging pretrained text-to-image (T2I) diffusion models to process images at resolutions significantly exceeding those used during training. Leveraging the generative priors of large-scale T2I diffusion m...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.10268</guid>
       <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents</title>
+      <link>https://huggingface.co/papers/2506.17001</link>
+      <description>By Mikhail Menschikov, Dmitry Evseev, Victoria Dochkina, Ruslan Kostoev, Ilia Perepechkin, et al.
+
+Personalizing language models by effectively incorporating user interaction history remains a central challenge in the development of adaptive AI systems. While large language models (LLMs), combined with Retrieval-Augmented Generation (RAG), have improved factual accuracy, they often lack structure...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2506.17001</guid>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks</title>
@@ -118,6 +127,15 @@ Given only observational data X = g(Z), where both the latent variables Z and th
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics</title>
+      <link>https://huggingface.co/papers/2604.17295</link>
+      <description>By Yueyang Ding, HaoPeng Zhang, Rui Dai, Yi Wang, Tianyu Zong, et al.
+
+Comprehensive understanding of time series remains a significant challenge for Large Language Models (LLMs). Current research is hindered by fragmented task definitions and benchmarks with inherent ambiguities, precluding rigorous evaluation and the development of unified Time Series Reasoning Model...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.17295</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>AI scientists produce results without reasoning scientifically</title>
       <link>https://huggingface.co/papers/2604.18805</link>
       <description>By Martiño Ríos-García, Nawaf Alampara, Chandan Gupta, Indrajeet Mandal, Sajid Mannan, et al.
@@ -134,33 +152,6 @@ Large language model (LLM)-based systems are increasingly deployed to conduct sc
 Semi-Markov Conditional Random Fields (semi-CRFs) assign labels to segments of a sequence rather than to individual positions, enabling exact inference over segment-level features and principled uncertainty estimates at their boundaries. However, existing implementations must materialize a large edg...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.18780</guid>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CityRAG: Stepping Into a City via Spatially-Grounded Video Generation</title>
-      <link>https://huggingface.co/papers/2604.19741</link>
-      <description>By Gene Chou, Charles Herrmann, Kyle Genova, Boyang Deng, Songyou Peng, et al.
-
-We address the problem of generating a 3D-consistent, navigable environment that is spatially grounded: a simulation of a real location. Existing video generative models can produce a plausible sequence that is consistent with a text (T2V) or image (I2V) prompt. However, the capability to reconstruc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19741</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Micro Language Models Enable Instant Responses</title>
-      <link>https://huggingface.co/papers/2604.19642</link>
-      <description>By Wen Cheng, Tuochao Chen, Karim Helwani, Sriram Srinivasan, Luke Zettlemoyer, et al.
-
-Edge devices such as smartwatches and smart glasses cannot continuously run even the smallest 100M-1B parameter language models due to power and compute constraints, yet cloud inference introduces multi-second latencies that break the illusion of a responsive assistant. We introduce micro language m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19642</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RDP LoRA: Geometry-Driven Identification for Parameter-Efficient Adaptation in Large Language Models</title>
-      <link>https://huggingface.co/papers/2604.19321</link>
-      <description>By Yusuf Çelebi, Yağız Asker, Özay Ezerceli, Mahmoud ElHussieni, Selva Taş, et al.
-
-Fine-tuning Large Language Models (LLMs) remains structurally uncertain despite parameter-efficient methods such as Low-Rank Adaptation (LoRA), as the layer-specific roles of internal representations are poorly understood, leading to heuristic decisions about where adaptation should be applied. We m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19321</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CreativeGame:Toward Mechanic-Aware Creative Game Generation</title>
@@ -457,6 +448,15 @@ Learning robust representations of authorial style is crucial for authorship att
 
 Large Language Models (LLMs) have demonstrated remarkable fluency and versatility across a wide range of NLP tasks, yet they remain prone to factual inaccuracies and hallucinations. This limitation poses significant risks in high-stakes domains such as healthcare, law, and scientific communication, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.21193</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Encoder-Free Human Motion Understanding via Structured Motion Descriptions</title>
+      <link>https://huggingface.co/papers/2604.21668</link>
+      <description>By Yao Zhang, Zhuchenyang Liu, Thomas Ploetz, Yu Xiao
+
+The world knowledge and reasoning capabilities of text-based large language models (LLMs) are advancing rapidly, yet current approaches to human motion understanding, including motion question answering and captioning, have not fully exploited these capabilities. Existing LLM-based methods typically...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.21668</guid>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

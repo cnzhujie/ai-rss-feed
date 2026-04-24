@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 03:41:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 06:15:52 +0000</lastBuildDate>
     <item>
       <title>Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks</title>
       <link>https://huggingface.co/papers/2604.11610</link>
@@ -100,15 +100,6 @@ Electroencephalography (EEG) foundation models have shown strong potential for l
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MoVE: Translating Laughter and Tears via Mixture of Vocalization Experts in Speech-to-Speech Translation</title>
-      <link>https://huggingface.co/papers/2604.17435</link>
-      <description>By Szu-Chi Chen, I-Ning Tsai, Yi-Cheng Lin, Sung-Feng Huang, Hung-yi Lee
-
-Recent Speech-to-Speech Translation (S2ST) systems achieve strong semantic accuracy yet consistently strip away non-verbal vocalizations (NVs), such as laughter and crying that convey pragmatic intent, which severely limits real-world utility. We address this via three contributions. First, we propo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.17435</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Diverse Dictionary Learning</title>
       <link>https://huggingface.co/papers/2604.17568</link>
       <description>By Yujia Zheng, Zijian Li, Shunxing Fan, Andrew Gordon Wilson, Kun Zhang
@@ -116,15 +107,6 @@ Recent Speech-to-Speech Translation (S2ST) systems achieve strong semantic accur
 Given only observational data X = g(Z), where both the latent variables Z and the generating process g are unknown, recovering Z is ill-posed without additional assumptions. Existing methods often assume linearity or rely on auxiliary supervision and functional constraints. However, such assumptions...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.17568</guid>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation</title>
-      <link>https://huggingface.co/papers/2604.18240</link>
-      <description>By Wentao Shi, Yu Wang, Yuyang Zhao, Yuxin Chen, Fuli Feng, et al.
-
-As reinforcement learning continues to scale the training of large language model-based agents, reliably verifying agent behaviors in complex environments has become increasingly challenging. Existing approaches rely on rule-based verifiers or LLM-as-a-Judge models, which struggle to generalize beyo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.18240</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI scientists produce results without reasoning scientifically</title>
@@ -143,15 +125,6 @@ Large language model (LLM)-based systems are increasingly deployed to conduct sc
 Semi-Markov Conditional Random Fields (semi-CRFs) assign labels to segments of a sequence rather than to individual positions, enabling exact inference over segment-level features and principled uncertainty estimates at their boundaries. However, existing implementations must materialize a large edg...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.18780</guid>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Accurate and scalable exchange-correlation with deep learning</title>
-      <link>https://huggingface.co/papers/2506.14665</link>
-      <description>By Giulia Luise, Chin-Wei Huang, Thijs Vogels, Derk P. Kooi, Sebastian Ehlert, et al.
-
-Density Functional Theory (DFT) underpins much of modern computational chemistry and materials science. Yet, the reliability of DFT-derived predictions of experimentally measurable properties remains fundamentally limited by the need to approximate the unknown exchange-correlation (XC) functional. T...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2506.14665</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What Makes an LLM a Good Optimizer? A Trajectory Analysis of LLM-Guided Evolutionary Search</title>
@@ -376,6 +349,33 @@ Large language models (LLMs) often exhibit performance disparities across langua
 
 Frontier coding agents are increasingly used in workflows where users supervise progress primarily through repeated improvement of a public score, namely the reported score on a public evaluation file with labels in the workspace, rather than through direct inspection of the agent's intermediate out...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.20200</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</title>
+      <link>https://huggingface.co/papers/2604.20987</link>
+      <description>By Xiyang Wu, Zongxia Li, Guangyao Shi, Alexander Duffy, Tyler Marques, et al.
+
+Long horizon interactive environments are a testbed for evaluating agents skill usage abilities. These environments demand multi step reasoning, the chaining of multiple skills over many timesteps, and robust decision making under delayed rewards and partial observability. Games are a good testbed f...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.20987</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hybrid Policy Distillation for LLMs</title>
+      <link>https://huggingface.co/papers/2604.20244</link>
+      <description>By Wenhong Zhu, Ruobing Xie, Rui Wang, Pengfei Liu
+
+Knowledge distillation (KD) is a powerful paradigm for compressing large language models (LLMs), whose effectiveness depends on intertwined choices of divergence direction, optimization strategy, and data regime. We break down the design of existing KD methods and present a unified view that establi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.20244</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2604.20398</link>
+      <description>By Juyong Jiang, Chenglin Cai, Chansung Park, Jiasi Shen, Sunghun Kim, et al.
+
+While Large Language Models (LLMs) excel at function-level code generation, project-level tasks such as generating functional and visually aesthetic multi-page websites remain highly challenging. Existing works are often limited to single-page static websites, while agentic frameworks typically rely...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.20398</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

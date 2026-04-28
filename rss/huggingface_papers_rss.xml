@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Apr 2026 23:04:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 03:52:29 +0000</lastBuildDate>
     <item>
       <title>DiagramBank: A Large-scale Dataset of Diagram Design Exemplars with Paper Metadata for Retrieval-Augmented Generation</title>
       <link>https://huggingface.co/papers/2604.20857</link>
@@ -26,6 +26,15 @@ Recent advances in autonomous ``AI scientist'' systems have demonstrated the abi
 This paper introduces AgriIR, a configurable retrieval augmented generation (RAG) framework designed to deliver grounded, domain-specific answers while maintaining flexibility and low computational cost. Instead of relying on large, monolithic models, AgriIR decomposes the information access process...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.16353</guid>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing</title>
+      <link>https://huggingface.co/papers/2604.22782</link>
+      <description>By Anastasiia Filippova, David Grangier, Marco Cuturi, João Monteiro
+
+Serving transformer language models with high throughput requires caching Key-Values (KVs) to avoid redundant computation during autoregressive generation. The memory footprint of KV caching is significant and heavily impacts serving costs. This work proposes to lessen these memory requirements. Whi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.22782</guid>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding</title>
@@ -55,24 +64,6 @@ Personalizing language models by effectively incorporating user interaction hist
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OpenMobile: Building Open Mobile Agents with Task and Trajectory Synthesis</title>
-      <link>https://huggingface.co/papers/2604.15093</link>
-      <description>By Kanzhi Cheng, Zehao Li, Zheng Ma, Nuo Chen, Jialin Cao, et al.
-
-Mobile agents powered by vision-language models have demonstrated impressive capabilities in automating mobile tasks, with recent leading models achieving a marked performance leap, e.g., nearly 70% success on AndroidWorld. However, these systems keep their training data closed and remain opaque abo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.15093</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Benign Fine-Tuning Breaks Safety Alignment in Audio LLMs</title>
-      <link>https://huggingface.co/papers/2604.16659</link>
-      <description>By Jaechul Roh, Amir Houmansadr
-
-Prior work shows that fine-tuning aligned models on benign data degrades safety in text and vision modalities, and that proximity to harmful content in representation space predicts which samples cause the most damage. However, existing analyses operate within a single, undifferentiated embedding sp...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.16659</guid>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>C-GenReg: Training-Free 3D Point Cloud Registration by Multi-View-Consistent Geometry-to-Image Generation with Probabilistic Modalities Fusion</title>
       <link>https://huggingface.co/papers/2604.16680</link>
       <description>By Yuval Haitman, Amit Efraim, Joseph M. Francos
@@ -80,15 +71,6 @@ Prior work shows that fine-tuning aligned models on benign data degrades safety 
 We introduce C-GenReg, a training-free framework for 3D point cloud registration that leverages the complementary strengths of world-scale generative priors and registration-oriented Vision Foundation Models (VFMs). Current learning-based 3D point cloud registration methods struggle to generalize ac...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.16680</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL</title>
-      <link>https://huggingface.co/papers/2604.17073</link>
-      <description>By Skylar Zhai, Jingcheng Liang, Dongyeop Kang
-
-Reinforcement fine-tuning improves the reasoning ability of large language models, but it can also encourage them to answer unanswerable queries by guessing or hallucinating missing information. Existing abstention methods either train models to produce generic refusals or encourage follow-up clarif...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.17073</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Test-Time Adaptation for EEG Foundation Models: A Systematic Study under Real-World Distribution Shifts</title>
@@ -118,15 +100,6 @@ Joint image-feature generative modeling has recently emerged as an effective str
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Streaming Structured Inference with Flash-SemiCRF</title>
-      <link>https://huggingface.co/papers/2604.18780</link>
-      <description>By Benjamin K. Johnson, Thomas Goralski, Ayush Semwal, Hui Shen, H. Josh Jang
-
-Semi-Markov Conditional Random Fields (semi-CRFs) assign labels to segments of a sequence rather than to individual positions, enabling exact inference over segment-level features and principled uncertainty estimates at their boundaries. However, existing implementations must materialize a large edg...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.18780</guid>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>LLM Safety From Within: Detecting Harmful Content with Internal Representations</title>
       <link>https://huggingface.co/papers/2604.18519</link>
       <description>By Difan Jiao, Yilun Liu, Ye Yuan, Zhenwei Tang, Linfeng Du, et al.
@@ -134,24 +107,6 @@ Semi-Markov Conditional Random Fields (semi-CRFs) assign labels to segments of a
 Guard models are widely used to detect harmful content in user prompts and LLM responses. However, state-of-the-art guard models rely solely on terminal-layer representations and overlook the rich safety-relevant features distributed across internal layers. We present SIREN, a lightweight guard mode...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.18519</guid>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tadabur: A Large-Scale Quran Audio Dataset</title>
-      <link>https://huggingface.co/papers/2604.18932</link>
-      <description>By Faisal Alherran
-
-Despite growing interest in Quranic data research, existing Quran datasets remain limited in both scale and diversity. To address this gap, we present Tadabur, a large-scale Quran audio dataset. Tadabur comprises more than 1400+ hours of recitation audio from over 600 distinct reciters, providing su...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.18932</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression</title>
-      <link>https://huggingface.co/papers/2604.19572</link>
-      <description>By Jincheng Ren, Siwei Wu, Yizhi Li, Kang Zhu, Shu Xu, et al.
-
-As model capabilities advance, research has increasingly shifted toward long-horizon, multi-turn terminal-centric agentic tasks, where raw environment feedback is often preserved in the interaction history to support future decisions. However, repeatedly retaining such feedback introduces substantia...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.19572</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Expert Upcycling: Shifting the Compute-Efficient Frontier of Mixture-of-Experts</title>
@@ -188,24 +143,6 @@ Modern sequence modeling is dominated by two families: Transformers, whose self-
 Vision-Language-Action Models (VLAs) inherit their visual and linguistic capabilities from Vision-Language Models (VLMs), yet most VLAs are built from off-the-shelf VLMs that are not adapted to the embodied domain, limiting their downstream performance. In this work, we propose EmbodiedMidtrain to b...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.20012</guid>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation</title>
-      <link>https://huggingface.co/papers/2604.20841</link>
-      <description>By Hyeonwoo Kim, Jeonghwan Kim, Kyungwon Cho, Hanbyul Joo
-
-Recent advances in video generative models enable the synthesis of realistic human-object interaction videos across a wide range of scenarios and object categories, including complex dexterous manipulations that are difficult to capture with motion capture systems. While the rich interaction knowled...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.20841</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Image Generators are Generalist Vision Learners</title>
-      <link>https://huggingface.co/papers/2604.20329</link>
-      <description>By Valentin Gabeur, Shangbang Long, Songyou Peng, Paul Voigtlaender, Shuyang Sun, et al.
-
-Recent works show that image and video generators exhibit zero-shot visual understanding behaviors, in a way reminiscent of how LLMs develop emergent capabilities of language understanding and reasoning from generative pretraining. While it has long been conjectured that the ability to create visual...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.20329</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>COMPASS: COntinual Multilingual PEFT with Adaptive Semantic Sampling</title>
@@ -397,6 +334,15 @@ As reasoning capacity and deployment scope grow in tandem, large language models
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SketchVLM: Vision language models can annotate images to explain thoughts and guide users</title>
+      <link>https://huggingface.co/papers/2604.22875</link>
+      <description>By Brandon Collins, Logan Bolton, Hung Huy Nguyen, Mohammad Reza Taesiri, Trung Bui, et al.
+
+When answering questions about images, humans naturally point, label, and draw to explain their reasoning. In contrast, modern vision-language models (VLMs) such as Gemini-3-Pro and GPT-5 only respond with text, which can be difficult for users to verify. We present SketchVLM, a training-free, model...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.22875</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond</title>
       <link>https://huggingface.co/papers/2604.22748</link>
       <description>By Meng Chu, Xuan Billy Zhang, Kevin Qinghong Lin, Lingdong Kong, Jize Zhang, et al.
@@ -458,6 +404,60 @@ Real-world document question answering is challenging. Analysts must synthesize 
 Transformations produced by image and video generation models often evolve in a highly non-linear manner: long stretches where the content barely changes are followed by sudden, abrupt semantic jumps. To analyze and correct this behavior, we introduce a Semantic Progress Function, a one-dimensional ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.22554</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ProEval: Proactive Failure Discovery and Efficient Performance Estimation for Generative AI Evaluation</title>
+      <link>https://huggingface.co/papers/2604.23099</link>
+      <description>By Yizheng Huang, Wenjun Zeng, Aditi Kumaresan, Zi Wang
+
+Evaluating generative AI models is increasingly resource-intensive due to slow inference, expensive raters, and a rapidly growing landscape of models and benchmarks. We propose ProEval, a proactive evaluation framework that leverages transfer learning to efficiently estimate performance and identify...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.23099</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis</title>
+      <link>https://huggingface.co/papers/2604.24198</link>
+      <description>By Zhisong Qiu, Shuofei Qiao, Kewei Xu, Yuqi Zhu, Lun Du, et al.
+
+Process Reward Models (PRMs) have achieved remarkable success in augmenting the reasoning capabilities of Large Language Models (LLMs) within static domains such as mathematics. However, their potential in dynamic data analysis tasks remains underexplored. In this work, we first present a empirical ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.24198</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>World-R1: Reinforcing 3D Constraints for Text-to-Video Generation</title>
+      <link>https://huggingface.co/papers/2604.24764</link>
+      <description>By Weijie Wang, Xiaoxuan He, Youping Gu, Yifan Yang, Zeyu Zhang, et al.
+
+Recent video foundation models demonstrate impressive visual synthesis but frequently suffer from geometric inconsistencies. While existing methods attempt to inject 3D priors via architectural modifications, they often incur high computational costs and limit scalability. We propose World-R1, a fra...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.24764</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stabilizing Efficient Reasoning with Step-Level Advantage Selection</title>
+      <link>https://huggingface.co/papers/2604.24003</link>
+      <description>By Han Wang, Xiaodong Yu, Jialian Wu, Jiang Liu, Ximeng Sun, et al.
+
+Large language models (LLMs) achieve strong reasoning performance by allocating substantial computation at inference time, often generating long and verbose reasoning traces. While recent work on efficient reasoning reduces this overhead through length-based rewards or pruning, many approaches are p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.24003</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation</title>
+      <link>https://huggingface.co/papers/2604.24763</link>
+      <description>By Zhiheng Liu, Weiming Ren, Xiaoke Huang, Shoufa Chen, Tianhong Li, et al.
+
+Unified multimodal models typically rely on pretrained vision encoders and use separate visual representations for understanding and generation, creating misalignment between the two tasks and preventing fully end-to-end optimization from raw pixels. We introduce Tuna-2, a native unified multimodal ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.24763</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data</title>
+      <link>https://huggingface.co/papers/2604.24479</link>
+      <description>By Mohammadmehdi Ataei, Farzaneh Askari, Kamal Rahimi Malekshan, Pradeep Kumar Jayaraman
+
+Computer-Aided Design (CAD) models are defined by their construction history: a parametric recipe that encodes design intent. However, existing large-scale 3D datasets predominantly consist of boundary representations (B-Reps) or meshes, stripping away this critical procedural information. To addres...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.24479</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

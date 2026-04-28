@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2026 06:36:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 09:29:34 +0000</lastBuildDate>
     <item>
       <title>DiagramBank: A Large-scale Dataset of Diagram Design Exemplars with Paper Metadata for Retrieval-Augmented Generation</title>
       <link>https://huggingface.co/papers/2604.20857</link>
@@ -118,6 +118,24 @@ Large Language Model agents have rapidly evolved from static text generators int
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>EX-FIQA: Leveraging Intermediate Early eXit Representations from Vision Transformers for Face Image Quality Assessment</title>
+      <link>https://huggingface.co/papers/2604.22842</link>
+      <description>By Guray Ozgur, Tahar Chettaoui, Eduarda Caldeira, Jan Niklas Kolf, Andrea Atzori, et al.
+
+Face Image Quality Assessment is crucial for reliable face recognition systems, yet existing Vision Transformer-based approaches rely exclusively on final-layer representations, ignoring quality-relevant information captured at intermediate network depths. This paper presents the first comprehensive...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.22842</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ATTN-FIQA: Interpretable Attention-based Face Image Quality Assessment with Vision Transformers</title>
+      <link>https://huggingface.co/papers/2604.22841</link>
+      <description>By Guray Ozgur, Tahar Chettaoui, Eduarda Caldeira, Jan Niklas Kolf, Marco Huber, et al.
+
+Face Image Quality Assessment (FIQA) aims to assess the recognition utility of face samples and is essential for reliable face recognition (FR) systems. Existing approaches require computationally expensive procedures such as multiple forward passes, backpropagation, or additional training, and only...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.22841</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</title>
       <link>https://huggingface.co/papers/2604.20987</link>
       <description>By Xiyang Wu, Zongxia Li, Guangyao Shi, Alexander Duffy, Tyler Marques, et al.
@@ -161,51 +179,6 @@ Mixture-of-Experts models, now popular for scaling capacity at fixed inference s
 Video-language models (VLMs) learn to reason about the dynamic visual world through natural language. We introduce a suite of open datasets, benchmarks, and recipes for scalable oversight that enable precise video captioning. First, we define a structured specification for describing subjects, scene...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.21718</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Context Unrolling in Omni Models</title>
-      <link>https://huggingface.co/papers/2604.21921</link>
-      <description>By Ceyuan Yang, Zhijie Lin, Yang Zhao, Fei Xiao, Hao He, et al.
-
-We present Omni, a unified multimodal model natively trained on diverse modalities, including text, images, videos, 3D geometry, and hidden representations. We find that such training enables Context Unrolling, where the model explicitly reasons across multiple modal representations before producing...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.21921</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WorldMark: A Unified Benchmark Suite for Interactive Video World Models</title>
-      <link>https://huggingface.co/papers/2604.21686</link>
-      <description>By Xiaojie Xu, Zhengyuan Lin, Kang He, Yukang Feng, Xiaofeng Mao, et al.
-
-Interactive video generation models such as Genie, YUME, HY-World, and Matrix-Game are advancing rapidly, yet every model is evaluated on its own benchmark with private scenes and trajectories, making fair cross-model comparison impossible. Existing public benchmarks offer useful metrics such as tra...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.21686</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition</title>
-      <link>https://huggingface.co/papers/2604.21689</link>
-      <description>By Kwan Yun, Changmin Lee, Ayeong Jeong, Youngseo Kim, Seungmi Lee, et al.
-
-Creative face stylization aims to render portraits in diverse visual idioms such as cartoons, sketches, and paintings while retaining recognizable identity. However, current identity encoders, which are typically trained and calibrated on natural photographs, exhibit severe brittleness under styliza...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.21689</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation</title>
-      <link>https://huggingface.co/papers/2604.21375</link>
-      <description>By Qijun Han, Haoqin Tu, Zijun Wang, Haoyue Dai, Yiyang Zhou, et al.
-
-Autonomous GUI agents face two fundamental challenges: early stopping, where agents prematurely declare success without verifiable evidence, and repetitive loops, where agents cycle through the same failing actions without recovery. We present VLAA-GUI, a modular GUI agentic framework built around t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.21375</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection</title>
-      <link>https://huggingface.co/papers/2604.21904</link>
-      <description>By Yanran Zhang, Wenzhao Zheng, Yifei Li, Bingyao Yu, Yu Zheng, et al.
-
-In recent years, significant progress has been made in both image generation and generated image detection. Despite their rapid, yet largely independent, development, these two fields have evolved distinct architectural paradigms: the former predominantly relies on generative networks, while the lat...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.21904</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TingIS: Real-time Risk Event Discovery from Noisy Customer Incidents at Enterprise Scale</title>
@@ -361,6 +334,15 @@ Transformations produced by image and video generation models often evolve in a 
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company</title>
+      <link>https://huggingface.co/papers/2604.22446</link>
+      <description>By Zhengxu Yu, Yu Fu, Zhiyuan He, Yuxuan Huang, Lee Ka Yiu, et al.
+
+Individual agent capabilities have advanced rapidly through modular skills and tool integrations, yet multi-agent systems remain constrained by fixed team structures, tightly coupled coordination logic, and session-bound learning. We argue that this reflects a deeper absence: a principled organisati...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.22446</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ProEval: Proactive Failure Discovery and Efficient Performance Estimation for Generative AI Evaluation</title>
       <link>https://huggingface.co/papers/2604.23099</link>
       <description>By Yizheng Huang, Wenjun Zeng, Aditi Kumaresan, Zi Wang
@@ -376,6 +358,15 @@ Evaluating generative AI models is increasingly resource-intensive due to slow i
 
 Data valuation is essential for enhancing the transparency and accountability of large language models (LLMs) and vision-language models (VLMs). However, existing methods typically rely on gradient computations, making them computationally prohibitive for billion-parameter models and precluding batc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2508.10180</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Discovering Agentic Safety Specifications from 1-Bit Danger Signals</title>
+      <link>https://huggingface.co/papers/2604.23210</link>
+      <description>By Víctor Gallego
+
+Can large language model agents discover hidden safety objectives through experience alone? We introduce EPO-Safe (Experiential Prompt Optimization for Safe Agents), a framework where an LLM iteratively generates action plans, receives sparse binary danger warnings, and evolves a natural language be...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.23210</guid>
       <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Current evaluations of spatial intelligence can be systematically invalid under 
 
 Shot Boundary Detection (SBD) aims to automatically identify shot changes and divide a video into coherent shots. While SBD was widely studied in the literature, existing state-of-the-art methods often produce non-interpretable boundaries on transitions, miss subtle yet harmful discontinuities, and ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.24762</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Vision-language Models with Perception-centric Process Reward Models</title>
+      <link>https://huggingface.co/papers/2604.24583</link>
+      <description>By Yingqian Min, Kun Zhou, Yifan Li, Yuhuan Wu, Han Peng, et al.
+
+Recent advancements in reinforcement learning with verifiable rewards (RLVR) have significantly improved the complex reasoning ability of vision-language models (VLMs). However, its outcome-level supervision is too coarse to diagnose and correct errors within the reasoning chain. To this end, we pro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.24583</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

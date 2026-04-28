@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2026 11:52:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 14:32:01 +0000</lastBuildDate>
     <item>
       <title>DiagramBank: A Large-scale Dataset of Diagram Design Exemplars with Paper Metadata for Retrieval-Augmented Generation</title>
       <link>https://huggingface.co/papers/2604.20857</link>
@@ -26,6 +26,15 @@ Recent advances in autonomous ``AI scientist'' systems have demonstrated the abi
 This paper introduces AgriIR, a configurable retrieval augmented generation (RAG) framework designed to deliver grounded, domain-specific answers while maintaining flexibility and low computational cost. Instead of relying on large, monolithic models, AgriIR decomposes the information access process...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.16353</guid>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disentangled Robot Learning via Separate Forward and Inverse Dynamics Pretraining</title>
+      <link>https://huggingface.co/papers/2604.16391</link>
+      <description>By Wenyao Zhang, Bozhou Zhang, Zekun Qi, Wenjun Zeng, Xin Jin, et al.
+
+Vision-language-action (VLA) models have shown great potential in building generalist robots, but still face a dilemma-misalignment of 2D image forecasting and 3D action prediction. Besides, such a vision-action entangled training manner limits model learning from large-scale, action-free web video ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.16391</guid>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Stochastic KV Routing: Enabling Adaptive Depth-Wise Cache Sharing</title>
@@ -46,24 +55,6 @@ Large multimodal models are increasingly used as the reasoning core of embodied 
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EditCrafter: Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model</title>
-      <link>https://huggingface.co/papers/2604.10268</link>
-      <description>By Kunho Kim, Sumin Seo, Yongjun Cho, Hyungjin Chung
-
-We propose EditCrafter, a high-resolution image editing method that operates without tuning, leveraging pretrained text-to-image (T2I) diffusion models to process images at resolutions significantly exceeding those used during training. Leveraging the generative priors of large-scale T2I diffusion m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.10268</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PersonalAI: A Systematic Comparison of Knowledge Graph Storage and Retrieval Approaches for Personalized LLM agents</title>
-      <link>https://huggingface.co/papers/2506.17001</link>
-      <description>By Mikhail Menschikov, Dmitry Evseev, Victoria Dochkina, Ruslan Kostoev, Ilia Perepechkin, et al.
-
-Personalizing language models by effectively incorporating user interaction history remains a central challenge in the development of adaptive AI systems. While large language models (LLMs), combined with Retrieval-Augmented Generation (RAG), have improved factual accuracy, they often lack structure...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2506.17001</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>LLaTiSA: Towards Difficulty-Stratified Time Series Reasoning from Visual Perception to Semantics</title>
       <link>https://huggingface.co/papers/2604.17295</link>
       <description>By Yueyang Ding, HaoPeng Zhang, Rui Dai, Yi Wang, Tianyu Zong, et al.
@@ -79,6 +70,15 @@ Comprehensive understanding of time series remains a significant challenge for L
 
 Joint image-feature generative modeling has recently emerged as an effective strategy for improving diffusion training by coupling low-level VAE latents with high-level semantic features extracted from pre-trained visual encoders. However, existing approaches rely on a fixed representation space, co...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.17492</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UniGeo: Unifying Geometric Guidance for Camera-Controllable Image Editing via Video Models</title>
+      <link>https://huggingface.co/papers/2604.17565</link>
+      <description>By Hong Jiang, Wensong Song, Zongxing Yang, Ruijie Quan, Yi Yang
+
+Camera-controllable image editing aims to synthesize novel views of a given scene under varying camera poses while strictly preserving cross-view geometric consistency. However, existing methods typically rely on fragmented geometric guidance, such as only injecting point clouds at the representatio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.17565</guid>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -136,33 +136,6 @@ Face Image Quality Assessment (FIQA) aims to assess the recognition utility of f
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Co-Evolving LLM Decision and Skill Bank Agents for Long-Horizon Tasks</title>
-      <link>https://huggingface.co/papers/2604.20987</link>
-      <description>By Xiyang Wu, Zongxia Li, Guangyao Shi, Alexander Duffy, Tyler Marques, et al.
-
-Long horizon interactive environments are a testbed for evaluating agents skill usage abilities. These environments demand multi step reasoning, the chaining of multiple skills over many timesteps, and robust decision making under delayed rewards and partial observability. Games are a good testbed f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.20987</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hybrid Policy Distillation for LLMs</title>
-      <link>https://huggingface.co/papers/2604.20244</link>
-      <description>By Wenhong Zhu, Ruobing Xie, Rui Wang, Pengfei Liu
-
-Knowledge distillation (KD) is a powerful paradigm for compressing large language models (LLMs), whose effectiveness depends on intertwined choices of divergence direction, optimization strategy, and data regime. We break down the design of existing KD methods and present a unified view that establi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.20244</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WebGen-R1: Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2604.20398</link>
-      <description>By Juyong Jiang, Chenglin Cai, Chansung Park, Jiasi Shen, Sunghun Kim, et al.
-
-While Large Language Models (LLMs) excel at function-level code generation, project-level tasks such as generating functional and visually aesthetic multi-page websites remain highly challenging. Existing works are often limited to single-page static websites, while agentic frameworks typically rely...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.20398</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Temporally Extended Mixture-of-Experts Models</title>
       <link>https://huggingface.co/papers/2604.20156</link>
       <description>By Zeyu Shen, Peter Henderson
@@ -179,15 +152,6 @@ Mixture-of-Experts models, now popular for scaling capacity at fixed inference s
 Video-language models (VLMs) learn to reason about the dynamic visual world through natural language. We introduce a suite of open datasets, benchmarks, and recipes for scalable oversight that enable precise video captioning. First, we define a structured specification for describing subjects, scene...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.21718</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models</title>
-      <link>https://huggingface.co/papers/2604.21193</link>
-      <description>By Vipula Rawte, Ryan Rossi, Franck Dernoncourt, Nedim Lipka
-
-Large Language Models (LLMs) have demonstrated remarkable fluency and versatility across a wide range of NLP tasks, yet they remain prone to factual inaccuracies and hallucinations. This limitation poses significant risks in high-stakes domains such as healthcare, law, and scientific communication, ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.21193</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Encoder-Free Human Motion Understanding via Structured Motion Descriptions</title>
@@ -379,6 +343,33 @@ Vision-Language-Action (VLA) models are emerging as a unified substrate for embo
       <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Learning to Identify Out-of-Distribution Objects for 3D LiDAR Anomaly Segmentation</title>
+      <link>https://huggingface.co/papers/2604.23604</link>
+      <description>By Simone Mosco, Daniel Fusaro, Alberto Pretto
+
+Understanding the surrounding environment is fundamental in autonomous driving and robotic perception. Distinguishing between known classes and previously unseen objects is crucial in real-world environments, as done in Anomaly Segmentation. However, research in the 3D field remains limited, with mo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.23604</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RaV-IDP: A Reconstruction-as-Validation Framework for Faithful Intelligent Document Processing</title>
+      <link>https://huggingface.co/papers/2604.23644</link>
+      <description>By Pritesh Jha
+
+Intelligent document processing pipelines extract structured entities (tables, images, and text) from documents for use in downstream systems such as knowledge bases, retrieval-augmented generation, and analytics. A persistent limitation of existing pipelines is that extraction output is produced wi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.23644</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PageGuide: Browser extension to assist users in navigating a webpage and locating information</title>
+      <link>https://huggingface.co/papers/2604.23772</link>
+      <description>By Tin Nguyen, Thang T. Truong, Runtao Zhou, Trung Bui, Chirag Agarwal, et al.
+
+Users browsing the web daily struggle to quickly locate relevant information in cluttered pages, complete unfamiliar multi-step tasks, and stay focused amid distracting content. State-of-the-art AI assistants (e.g., ChatGPT, Gemini, Claude) and browser agents (e.g., OpenAI Operator, Browser Use) can...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.23772</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Rewarding the Scientific Process: Process-Level Reward Modeling for Agentic Data Analysis</title>
       <link>https://huggingface.co/papers/2604.24198</link>
       <description>By Zhisong Qiu, Shuofei Qiao, Kewei Xu, Yuqi Zhu, Lun Du, et al.
@@ -457,6 +448,15 @@ Recent advancements in reinforcement learning with verifiable rewards (RLVR) hav
 
 We measure how much one extra recurrence is worth to a looped (depth-recurrent) language model, in equivalent unique parameters. From an iso-depth sweep of 116 pretraining runs across recurrence counts r in {1, 2, 4, 8} spanning {sim}50times in training compute, we fit a joint scaling law L = E + A,...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.21106</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quantum Kernel Advantage over Classical Collapse in Medical Foundation Model Embeddings</title>
+      <link>https://huggingface.co/papers/2604.24597</link>
+      <description>By Sebastian Cajas Ordóñez, Felipe Ocampo Osorio, Dax Enshan Koh, Rafi Al Attrach, Aldo Marzullo, et al.
+
+We provide evidence of quantum kernel advantage under noiseless simulation in binary insurance classification on MIMIC-CXR chest radiographs using quantum support vector machines (QSVM) with frozen embeddings from three medical foundation models (MedSigLIP-448, RAD-DINO, ViT-patch32). We propose a t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.24597</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

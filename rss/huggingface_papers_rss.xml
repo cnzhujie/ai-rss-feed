@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2026 20:22:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 22:05:23 +0000</lastBuildDate>
     <item>
       <title>DiagramBank: A Large-scale Dataset of Diagram Design Exemplars with Paper Metadata for Retrieval-Augmented Generation</title>
       <link>https://huggingface.co/papers/2604.20857</link>
@@ -46,22 +46,13 @@ Serving transformer language models with high throughput requires caching Key-Va
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>3D-VCD: Hallucination Mitigation in 3D-LLM Embodied Agents through Visual Contrastive Decoding</title>
-      <link>https://huggingface.co/papers/2604.08645</link>
-      <description>By Makanjuola Ogunleye, Eman Abdelrahman, Ismini Lourentzou
+      <title>Why Fine-Tuning Encourages Hallucinations and How to Fix It</title>
+      <link>https://huggingface.co/papers/2604.15574</link>
+      <description>By Guy Kaplan, Zorik Gekhman, Zhen Zhu, Lotem Rozner, Yuval Reif, et al.
 
-Large multimodal models are increasingly used as the reasoning core of embodied agents operating in 3D environments, yet they remain prone to hallucinations that can produce unsafe and ungrounded decisions. Existing inference-time hallucination mitigation methods largely target 2D vision-language se...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.08645</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coevolving Representations in Joint Image-Feature Diffusion</title>
-      <link>https://huggingface.co/papers/2604.17492</link>
-      <description>By Theodoros Kouzelis, Spyros Gidaris, Nikos Komodakis
-
-Joint image-feature generative modeling has recently emerged as an effective strategy for improving diffusion training by coupling low-level VAE latents with high-level semantic features extracted from pre-trained visual encoders. However, existing approaches rely on a fixed representation space, co...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.17492</guid>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+Large language models are prone to hallucinating factually incorrect statements. A key source of these errors is exposure to new factual information through supervised fine-tuning (SFT), which can increase hallucinations w.r.t. knowledge acquired during pre-training. In this work, we explore whether...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.15574</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>UniGeo: Unifying Geometric Guidance for Camera-Controllable Image Editing via Video Models</title>
@@ -457,6 +448,15 @@ We provide evidence of quantum kernel advantage under noiseless simulation in bi
 
 Concept Bottleneck Models (CBMs) predict through human-interpretable concepts, but they typically output point concept probabilities that conflate epistemic uncertainty (reducible model underspecification) with aleatoric uncertainty (irreducible input ambiguity). This makes concept-level uncertainty...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.24170</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Robustness of Tabular Retrieval via Representational Stability</title>
+      <link>https://huggingface.co/papers/2604.24040</link>
+      <description>By Kushal Raj Bhandari, Adarsh Singh, Jianxi Gao, Soham Dan, Vivek Gupta
+
+Transformer-based table retrieval systems flatten structured tables into token sequences, making retrieval sensitive to the choice of serialization even when table semantics remain unchanged. We show that semantically equivalent serializations, such as csv, tsv, html, markdown, and ddl, can produce ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.24040</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

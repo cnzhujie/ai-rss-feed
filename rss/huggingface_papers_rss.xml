@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 04:53:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 07:29:27 +0000</lastBuildDate>
     <item>
       <title>The Last Harness You'll Ever Build</title>
       <link>https://huggingface.co/papers/2604.21003</link>
@@ -134,33 +134,6 @@ User simulation has long played a vital role in computer science due to its pote
 Generating diverse responses is crucial for test-time scaling of large language models (LLMs), yet standard stochastic sampling mostly yields surface-level lexical variation, limiting semantic exploration. In this paper, we propose Exploratory Sampling (ESamp), a decoding approach that explicitly en...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.24927</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DV-World: Benchmarking Data Visualization Agents in Real-World Scenarios</title>
-      <link>https://huggingface.co/papers/2604.25914</link>
-      <description>By Jinxiang Meng, Shaoping Huang, Fangyu Lei, Jingyu Guo, Haoxiang Liu, et al.
-
-Real-world data visualization (DV) requires native environmental grounding, cross-platform evolution, and proactive intent alignment. Yet, existing benchmarks often suffer from code-sandbox confinement, single-language creation-only tasks, and assumption of perfect intent. To bridge these gaps, we i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.25914</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Toward Scalable Terminal Task Synthesis via Skill Graphs</title>
-      <link>https://huggingface.co/papers/2604.25727</link>
-      <description>By Zhiyuan Fan, Tinghao Yu, Yuanjun Cai, Jiangtao Guan, Yun Yang, et al.
-
-Terminal agents have demonstrated strong potential for autonomous command-line execution, yet their training remains constrained by the scarcity of high-quality and diverse execution trajectories. Existing approaches mitigate this bottleneck by synthesizing large-scale terminal task instances for tr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.25727</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Systematic Post-Train Framework for Video Generation</title>
-      <link>https://huggingface.co/papers/2604.25427</link>
-      <description>By Zeyue Xue, Siming Fu, Jie Huang, Shuai Lu, Haoran Li, et al.
-
-While large-scale video diffusion models have demonstrated impressive capabilities in generating high-resolution and semantically rich content, a significant gap remains between their pretraining performance and real-world deployment requirements due to critical issues such as prompt sensitivity, te...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.25427</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>IAM: Identity-Aware Human Motion and Shape Joint Generation</title>
@@ -361,6 +334,24 @@ RLVR and OPD have become standard paradigms for post-training. We provide a unif
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling</title>
+      <link>https://huggingface.co/papers/2604.27039</link>
+      <description>By Zhen Zhang, Changyi Yang, Zijie Xia, Zhen Yang, Chengzhi Liu, et al.
+
+Token serves as the fundamental unit of computation in modern autoregressive models, and generation length directly influences both inference cost and reasoning performance. Despite its importance, existing approaches lack fine-grained length modeling, operating primarily at the coarse-grained seque...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.27039</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient Training on Multiple Consumer GPUs with RoundPipe</title>
+      <link>https://huggingface.co/papers/2604.27085</link>
+      <description>By Yibin Luo, Shiwei Gao, Huichuan Zheng, Youyou Lu, Jiwu Shu
+
+Fine-tuning Large Language Models (LLMs) on consumer-grade GPUs is highly cost-effective, yet constrained by limited GPU memory and slow PCIe interconnects. Pipeline parallelism combined with CPU offloading mitigates these hardware bottlenecks by reducing communication overhead. However, existing PP...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.27085</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Synthetic Computers at Scale for Long-Horizon Productivity Simulation</title>
       <link>https://huggingface.co/papers/2604.28181</link>
       <description>By Tao Ge, Baolin Peng, Hao Cheng, Jianfeng Gao
@@ -457,6 +448,15 @@ Humanoid control systems have made significant progress in recent years, yet mod
 
 While Reinforcement Learning from Human Feedback (RLHF) has become a pivotal paradigm for text-to-image generation, its application to image editing remains largely unexplored. A key bottleneck is the lack of a robust general reward model for all editing tasks. Existing edit reward models usually gi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.27505</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows</title>
+      <link>https://huggingface.co/papers/2604.28139</link>
+      <description>By Chenxin Li, Zhengyang Tang, Huangxin Lin, Yunlong Lin, Shijue Huang, et al.
+
+LLM agents are expected to complete end-to-end units of work across software tools, business services, and local workspaces. Yet many agent benchmarks freeze a curated task set at release time and grade mainly the final response, making it difficult to evaluate agents against evolving workflow deman...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.28139</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 May 2026 17:43:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 19:45:16 +0000</lastBuildDate>
     <item>
       <title>AnalogRetriever: Learning Cross-Modal Representations for Analog Circuit Retrieval</title>
       <link>https://huggingface.co/papers/2604.23195</link>
@@ -91,33 +91,6 @@ Tabular Foundation Models (TFMs) achieve state-of-the-art zero-shot accuracy on 
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Co-Evolving Policy Distillation</title>
-      <link>https://huggingface.co/papers/2604.27083</link>
-      <description>By Naibin Gu, Chenxu Yang, Qingyi Si, Chuanyu Qin, Dingyu Yao, et al.
-
-RLVR and OPD have become standard paradigms for post-training. We provide a unified analysis of these two paradigms in consolidating multiple expert capabilities into a single model, identifying capability loss in different ways: mixed RLVR suffers from inter-capability divergence cost, while the pi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.27083</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Length Value Model: Scalable Value Pretraining for Token-Level Length Modeling</title>
-      <link>https://huggingface.co/papers/2604.27039</link>
-      <description>By Zhen Zhang, Changyi Yang, Zijie Xia, Zhen Yang, Chengzhi Liu, et al.
-
-Token serves as the fundamental unit of computation in modern autoregressive models, and generation length directly influences both inference cost and reasoning performance. Despite its importance, existing approaches lack fine-grained length modeling, operating primarily at the coarse-grained seque...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.27039</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Efficient Training on Multiple Consumer GPUs with RoundPipe</title>
-      <link>https://huggingface.co/papers/2604.27085</link>
-      <description>By Yibin Luo, Shiwei Gao, Huichuan Zheng, Youyou Lu, Jiwu Shu
-
-Fine-tuning Large Language Models (LLMs) on consumer-grade GPUs is highly cost-effective, yet constrained by limited GPU memory and slow PCIe interconnects. Pipeline parallelism combined with CPU offloading mitigates these hardware bottlenecks by reducing communication overhead. However, existing PP...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.27085</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Compliance versus Sensibility: On the Reasoning Controllability in Large Language Models</title>
       <link>https://huggingface.co/papers/2604.27251</link>
       <description>By Xingwei Tan, Marco Valentino, Mahmud Elahi Akhter, Yuxiang Zhou, Maria Liakata, et al.
@@ -179,24 +152,6 @@ Training stable biological foundation models requires rethinking attention mecha
 In this paper, we study an under-explored but important factor of diffusion generative models, i.e., the combinatorial complexity. Data samples are generally high-dimensional, and for various structured generation tasks, additional attributes are combined to associate with data samples. We show that...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2405.13729</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control</title>
-      <link>https://huggingface.co/papers/2604.27711</link>
-      <description>By Yanghao Zhou, Jingyu Ma, Yibo Peng, Zhenguo Sun, Yu Bai, et al.
-
-Humanoid control systems have made significant progress in recent years, yet modeling fluent interaction-rich behavior between a robot, its surrounding environment, and task-relevant objects remains a fundamental challenge. This difficulty arises from the need to jointly capture spatial context, tem...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.27711</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Leveraging Verifier-Based Reinforcement Learning in Image Editing</title>
-      <link>https://huggingface.co/papers/2604.27505</link>
-      <description>By Hanzhong Guo, Jie Wu, Jie Liu, Yu Gao, Zilyu Ye, et al.
-
-While Reinforcement Learning from Human Feedback (RLHF) has become a pivotal paradigm for text-to-image generation, its application to image editing remains largely unexplored. A key bottleneck is the lack of a robust general reward model for all editing tasks. Existing edit reward models usually gi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.27505</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows</title>
@@ -388,6 +343,24 @@ While autoregressive Large Vision-Language Models (LVLMs) demonstrate remarkable
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis</title>
+      <link>https://huggingface.co/papers/2605.00632</link>
+      <description>By Massimo Rondelli, Francesco Pivi, Maurizio Gabbrielli
+
+Automatic generation of executable Blender code from natural language remains challenging, with state-of-the-art LLMs producing frequent syntactic errors and geometrically inconsistent objects. We present BlenderRAG, a retrieval-augmented generation system that operates on a curated multimodal datas...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.00632</guid>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hallucinations Undermine Trust; Metacognition is a Way Forward</title>
+      <link>https://huggingface.co/papers/2605.01428</link>
+      <description>By Gal Yona, Mor Geva, Yossi Matias
+
+Despite significant strides in factual reliability, errors -- often termed hallucinations -- remain a major concern for generative AI, especially as LLMs are increasingly expected to be helpful in more complex or nuanced setups. Yet even in the simplest setting -- factoid question-answering with cle...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.01428</guid>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>From Context to Skills: Can Language Models Learn from Context Skillfully?</title>
       <link>https://huggingface.co/papers/2604.27660</link>
       <description>By Shuzheng Si, Haozhe Zhao, Yu Lei, Qingyi Wang, Dingwei Chen, et al.
@@ -403,6 +376,24 @@ Many real-world tasks require language models (LMs) to reason over complex conte
 
 Autoregressive video generation paradigms offer theoretical promise for long video synthesis, yet their practical deployment is hindered by the computational burden of sequential iterative denoising. While cache reuse strategies can accelerate generation by skipping redundant denoising steps, existi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.01725</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Counting as a minimal probe of language model reliability</title>
+      <link>https://huggingface.co/papers/2605.02028</link>
+      <description>By Tianxiang Dai, Jonathan Fan
+
+Large language models perform strongly on benchmarks in mathematical reasoning, coding and document analysis, suggesting a broad ability to follow instructions. However, it remains unclear whether such success reflects general logical competence, repeated application of learned procedures, or patter...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.02028</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linear-Time Global Visual Modeling without Explicit Attention</title>
+      <link>https://huggingface.co/papers/2605.01711</link>
+      <description>By Ruize He, Dongchen Han, Gao Huang
+
+Existing research largely attributes the global sequence modeling capability of Transformers to the explicit computation of attention weights, a process that inherently incurs quadratic computational complexity. In this work, we offer a novel perspective: we demonstrate that attention can be mathema...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.01711</guid>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ We present Orbit-Space Geometric Probability Paths (OGPP), a particle-native flo
 
 Vision-Language-Action (VLA) models aim to provide a single generalist controller for robots, but today's systems fall short on the criteria that matter for real-world deployment. Frontier models are closed, open-weight alternatives are tied to expensive hardware, reasoning-augmented policies pay pr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.02881</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Hybrid Approach for Closing the Sim2real Appearance Gap in Game Engine Synthetic Datasets</title>
+      <link>https://huggingface.co/papers/2605.02291</link>
+      <description>By Stefanos Pasios
+
+Video game engines have been an important source for generating large volumes of visual synthetic datasets for training and evaluating computer vision algorithms that are to be deployed in the real world. While the visual fidelity of modern game engines has been significantly improved with technolog...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.02291</guid>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 May 2026 03:51:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 06:36:59 +0000</lastBuildDate>
+    <item>
+      <title>StateSMix: Online Lossless Compression via Mamba State Space Models and Sparse N-gram Context Mixing</title>
+      <link>https://huggingface.co/papers/2605.02904</link>
+      <description>By Roberto Tacconelli
+
+We present StateSMix, a fully self-contained lossless compressor that couples an online-trained Mamba-style State Space Model (SSM) with sparse n-gram context mixing and arithmetic coding. The model is initialised from scratch and trained token-by-token on the file being compressed, requiring no pre...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.02904</guid>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OceanPile: A Large-Scale Multimodal Ocean Corpus for Foundation Models</title>
       <link>https://huggingface.co/papers/2605.00877</link>
@@ -26,15 +35,6 @@ The vast and underexplored ocean plays a critical role in regulating global clim
 Joint audio-video generation models have shown that unified generation yields stronger cross-modal coherence than cascaded approaches. However, existing models couple modalities throughout denoising via pervasive attention, treating high-level semantics and low-level details in a fully entangled man...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.23586</guid>
       <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills</title>
-      <link>https://huggingface.co/papers/2604.24026</link>
-      <description>By Qiliang Liang, Hansi Wang, Zhong Liang, Yang Liu
-
-LLM agents increasingly rely on reusable skills, capability packages that combine instructions, control flow, constraints, and tool calls. In most current agent systems, however, skills are still represented by text-heavy artifacts, including SKILL.md-style documents and structured records whose mac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.24026</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Soft Anisotropic Diagrams for Differentiable Image Representation</title>
@@ -154,33 +154,6 @@ While GUI agents have shown impressive capabilities in common computer-use tasks
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LASE: Language-Adversarial Speaker Encoding for Indic Cross-Script Identity Preservation</title>
-      <link>https://huggingface.co/papers/2605.00777</link>
-      <description>By Venkata Pushpak Teja Menta
-
-A speaker encoder used in multilingual voice cloning should treat the same speaker identically regardless of which script the audio was uttered in. Off-the-shelf encoders do not, and the failure is accent-conditional. On a 1043-pair Western-accented voice corpus across English, Hindi, Telugu, and Ta...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.00777</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning to Act and Cooperate for Distributed Black-Box Consensus Optimization</title>
-      <link>https://huggingface.co/papers/2605.00691</link>
-      <description>By Zi-Bo Qin, Feng-Feng Wei, Tai-You Chen, Wei-Neng Chen
-
-Distributed blackbox consensus optimization is a fundamental problem in multi-agent systems, where agents must improve a global objective using only local objective queries and limited neighbor communication. Existing methods largely rely on handcrafted update rules and static cooperation patterns, ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.00691</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Online Self-Calibration Against Hallucination in Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2605.00323</link>
-      <description>By Minghui Chen, Chenxu Yang, Hengjie Zhu, Dayan Wu, Zheng Lin, et al.
-
-Large Vision-Language Models (LVLMs) often suffer from hallucinations, generating descriptions that include visual details absent from the input image. Recent preference alignment methods typically rely on supervision distilled from stronger models such as GPT. However, this offline paradigm introdu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.00323</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Trees to Flows and Back: Unifying Decision Trees and Diffusion Models</title>
       <link>https://huggingface.co/papers/2605.00414</link>
       <description>By Sai Niranjan Ramachandran, Suvrit Sra
@@ -289,6 +262,24 @@ Although multi-modal learning has advanced point cloud completion, the theoretic
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation</title>
+      <link>https://huggingface.co/papers/2605.01284</link>
+      <description>By Peiyang Liu, Ziqiang Cui, Xi Wang, Di Liang, Wei Ye
+
+Iterative Retrieval-Augmented Generation (iRAG) has emerged as a powerful paradigm for answering complex multi-hop questions by progressively retrieving and reasoning over external documents. However, current systems predominantly operate on parsed text, which creates two critical bottlenecks: (1) C...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.01284</guid>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ESARBench: A Benchmark for Agentic UAV Embodied Search and Rescue</title>
+      <link>https://huggingface.co/papers/2605.01371</link>
+      <description>By Daoxuan Zhang, Ping Chen, Jianyi Zhou, Shuo Yang
+
+The rapid advancement of Multimodal Large Language Models (MLLMs) has empowered Unmanned Aerial Vehicle (UAV) with exceptional capabilities in spatial reasoning, semantic understanding, and complex decision-making, making them inherently suited for UAV Search and Rescue (SAR). However, existing UAV ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.01371</guid>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>From Context to Skills: Can Language Models Learn from Context Skillfully?</title>
       <link>https://huggingface.co/papers/2604.27660</link>
       <description>By Shuzheng Si, Haozhe Zhao, Yu Lei, Qingyi Wang, Dingwei Chen, et al.
@@ -322,6 +313,15 @@ Large language models perform strongly on benchmarks in mathematical reasoning, 
 
 Existing research largely attributes the global sequence modeling capability of Transformers to the explicit computation of attention weights, a process that inherently incurs quadratic computational complexity. In this work, we offer a novel perspective: we demonstrate that attention can be mathema...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.01711</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TCDA: Thread-Constrained Discourse-Aware Modeling for Conversational Sentiment Quadruple Analysis</title>
+      <link>https://huggingface.co/papers/2605.01717</link>
+      <description>By Xinran Li, Xinze Che, Yifan Lyu, Zhiqi Huang, Xiujuan Xu
+
+Conversational Aspect-based Sentiment Quadruple Analysis (DiaASQ) needs to capture the complex interrelationships in multiple rounds of dialogues. Existing methods usually employ simple Graph Convolutional Networks (GCN), which introduce structural noise and fail to consider the temporal sequence of...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.01717</guid>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

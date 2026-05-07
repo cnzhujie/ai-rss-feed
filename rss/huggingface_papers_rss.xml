@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 11:54:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 14:34:49 +0000</lastBuildDate>
     <item>
       <title>StateSMix: Online Lossless Compression via Mamba State Space Models and Sparse N-gram Context Mixing</title>
       <link>https://huggingface.co/papers/2605.02904</link>
@@ -53,15 +53,6 @@ Multimodal Large Language Models (MLLMs) have demonstrated strong image-level vi
 Diffusion models are primarily trained for image synthesis, yet their denoising trajectories encode rich, spatially aligned visual priors. In this paper, we demonstrate that these priors can be utilized for text-conditioned semantic and open-vocabulary segmentation, and this approach can be generali...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.24575</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prior-Aligned Data Cleaning for Tabular Foundation Models</title>
-      <link>https://huggingface.co/papers/2604.25154</link>
-      <description>By Laure Berti-Equille
-
-Tabular Foundation Models (TFMs) achieve state-of-the-art zero-shot accuracy on small tabular datasets by meta-learning over synthetic data-generating processes -- making them highly attractive for practitioners who cannot afford large annotated corpora. However, their in-context learning mechanism ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.25154</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum</title>
@@ -127,13 +118,13 @@ Driving world models serve as a pivotal technology for autonomous driving by sim
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>BlenderRAG: High-Fidelity 3D Object Generation via Retrieval-Augmented Code Synthesis</title>
-      <link>https://huggingface.co/papers/2605.00632</link>
-      <description>By Massimo Rondelli, Francesco Pivi, Maurizio Gabbrielli
+      <title>MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction</title>
+      <link>https://huggingface.co/papers/2604.27393</link>
+      <description>By Junbo Cui, Bokai Xu, Chongyi Wang, Tianyu Yu, Weiyue Sun, et al.
 
-Automatic generation of executable Blender code from natural language remains challenging, with state-of-the-art LLMs producing frequent syntactic errors and geometrically inconsistent objects. We present BlenderRAG, a retrieval-augmented generation system that operates on a curated multimodal datas...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.00632</guid>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+Recent progress in multimodal large language models (MLLMs) has brought AI capabilities from static offline data processing to real-time streaming interaction, yet they still remain far from human-level multimodal interaction. The key bottlenecks are no longer modality coverage or latency alone, but...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.27393</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Healthcare AI GYM for Medical Agents</title>
@@ -161,15 +152,6 @@ The standard post-training recipe for large multimodal models (LMMs) applies sup
 Reinforcement Learning with Verifiable Rewards (RLVR) enhances reasoning of Large Language Models (LLMs) but usually exhibits limited generation diversity due to the over-incentivization of positive rewards. Although methods like Negative Sample Reinforcement (NSR) mitigate this issue by upweighting...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.00380</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hallucinations Undermine Trust; Metacognition is a Way Forward</title>
-      <link>https://huggingface.co/papers/2605.01428</link>
-      <description>By Gal Yona, Mor Geva, Yossi Matias
-
-Despite significant strides in factual reliability, errors -- often termed hallucinations -- remain a major concern for generative AI, especially as LLMs are increasingly expected to be helpful in more complex or nuanced setups. Yet even in the simplest setting -- factoid question-answering with cle...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.01428</guid>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agentic AI Systems Should Be Designed as Marginal Token Allocators</title>
@@ -205,6 +187,15 @@ Iterative Retrieval-Augmented Generation (iRAG) has emerged as a powerful paradi
 
 The rapid advancement of Multimodal Large Language Models (MLLMs) has empowered Unmanned Aerial Vehicle (UAV) with exceptional capabilities in spatial reasoning, semantic understanding, and complex decision-making, making them inherently suited for UAV Search and Rescue (SAR). However, existing UAV ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.01371</guid>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TT4D: A Pipeline and Dataset for Table Tennis 4D Reconstruction From Monocular Videos</title>
+      <link>https://huggingface.co/papers/2605.01234</link>
+      <description>By Nima Rahmanian, Daniel Kienzle, Thomas Gossard, Dvij Kalaria, Rainer Lienhart, et al.
+
+We present TT4D, a large-scale, high-fidelity table tennis dataset. It provides 140+ hours of reconstructed singles and doubles gameplay from monocular broadcast videos, featuring multimodal annotations like high-quality camera calibrations, precise 3D ball positions, ball spin, time segmentation, a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.01234</guid>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Deep search has become a crucial capability for frontier multimodal agents, enab
 
 In single-stream autoregressive interfaces, the same tokens both update the model state and constitute an irreversible public commitment. This coupling creates a silence tax: additional deliberation postpones the first task-relevant content, while naive early streaming risks premature commitments th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.03314</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The First Token Knows: Single-Decode Confidence for Hallucination Detection</title>
+      <link>https://huggingface.co/papers/2605.05166</link>
+      <description>By Mina Gabriel
+
+Self-consistency detects hallucinations by generating multiple sampled answers to a question and measuring agreement, but this requires repeated decoding and can be sensitive to lexical variation. Semantic self-consistency improves this by clustering sampled answers by meaning using natural language...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.05166</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

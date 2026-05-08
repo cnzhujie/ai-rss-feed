@@ -8,15 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 03:49:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 06:03:33 +0000</lastBuildDate>
     <item>
-      <title>Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2605.02913</link>
-      <description>By Rohan Surana, Gagan Mundada, Xunyi Jiang, Chuhan Wang, Zhenwei Tang, et al.
+      <title>Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO</title>
+      <link>https://huggingface.co/papers/2605.04077</link>
+      <description>By Zhiyuan Zeng, Jiameng Huang, Zhangyue Yin, Jiashuo Liu, Ziniu Li, et al.
 
-Reinforcement learning (RL) has become a central post-training tool for improving the reasoning abilities of large language models (LLMs). In these systems, the rollout, the trajectory sampled from a prompt to termination, including intermediate reasoning steps and optional tool or environment inter...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.02913</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+Reinforcement learning with verifiable rewards (RLVR) has become a central paradigm for improving reasoning and code generation in large language models, and GRPO-style training is widely adopted for its simplicity and effectiveness. However, an important design choice remains underexplored: how tok...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.04077</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills</title>
@@ -35,15 +35,6 @@ Background: Agent skills are increasingly deployed as modular, reusable capabili
 Diffusion models are primarily trained for image synthesis, yet their denoising trajectories encode rich, spatially aligned visual priors. In this paper, we demonstrate that these priors can be utilized for text-conditioned semantic and open-vocabulary segmentation, and this approach can be generali...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.24575</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum</title>
-      <link>https://huggingface.co/papers/2604.25907</link>
-      <description>By Chu-Cheng Lin, Eugene Ie
-
-Adapting reasoning models to new tasks during post-training with only output-level supervision stalls under reinforcement learning from verifiable rewards (RLVR) when the initial success probability p_0 is small. Using the Tsallis q-logarithm, we define a loss family J_Q that interpolates between RL...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.25907</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation</title>
@@ -107,15 +98,6 @@ We present TT4D, a large-scale, high-fidelity table tennis dataset. It provides 
 This paper identifies a critical yet underexplored challenge in reasoning alignment from multiple multi-modal large language models (MLLMs): In non-stationary environments, the diverse reasoning distributions of source models often evolve unpredictably, transmitting systematic biases and drift to th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2510.04142</guid>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Video Generation with Predictive Latents</title>
-      <link>https://huggingface.co/papers/2605.02134</link>
-      <description>By Yian Zhao, Feng Wang, Qiushan Guo, Chang Liu, Xiangyang Ji, et al.
-
-Video Variational Autoencoder (VAE) enables latent video generative modeling by mapping the visual world into compact spatiotemporal latent spaces, improving training efficiency and stability. While existing video VAEs achieve commendable reconstruction quality, continued optimization of reconstruct...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.02134</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning</title>
@@ -295,6 +277,24 @@ We introduce ReflectDrive-2, a masked discrete diffusion planner with separate a
 
 Foundation models have established unified representations for natural language processing, yet this paradigm remains largely unexplored for tabular data. Existing methods face fundamental limitations: LLM-based approaches lack retrieval-compatible vector outputs, whereas text embedding models often...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.04962</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RemoteZero: Geospatial Reasoning with Zero Human Annotations</title>
+      <link>https://huggingface.co/papers/2605.04451</link>
+      <description>By Liang Yao, Fan Liu, Shengxiang Xu, Chuanyi Zhang, Rui Min, et al.
+
+Geospatial reasoning requires models to resolve complex spatial semantics and user intent into precise target locations for Earth observation. Recent progress has liberated the reasoning path from manual curation, allowing models to generate their own inference chains. Yet a final dependency remains...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.04451</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble for Faithful Multi-Turn Response Generation</title>
+      <link>https://huggingface.co/papers/2605.04523</link>
+      <description>By Ivan Bondarenko, Roman Derunets, Oleg Sedukhin, Mikhail Komarov, Ivan Chernov, et al.
+
+We present our winning system for Task~B (generation with reference passages) in SemEval-2026 Task~8: MTRAGEval. Our method is a heterogeneous ensemble of seven LLMs with two prompting variants, where a GPT-4o-mini judge selects the best candidate per instance. We ranked 1st out of 26 teams, achievi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.04523</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

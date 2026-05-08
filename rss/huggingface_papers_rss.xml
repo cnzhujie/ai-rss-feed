@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 10:43:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 12:14:02 +0000</lastBuildDate>
     <item>
       <title>Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO</title>
       <link>https://huggingface.co/papers/2605.04077</link>
@@ -82,6 +82,15 @@ This paper identifies a critical yet underexplored challenge in reasoning alignm
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction</title>
+      <link>https://huggingface.co/papers/2605.05242</link>
+      <description>By Zhuofeng Li, Haoxiang Zhang, Cong Wei, Pan Lu, Ping Nie, et al.
+
+Modern retrieval systems, whether lexical or semantic, expose a corpus through a fixed similarity interface that compresses access into a single top-k retrieval step before reasoning. This abstraction is efficient, but for agentic search, it becomes a bottleneck: exact lexical constraints, sparse cl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.05242</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning</title>
       <link>https://huggingface.co/papers/2604.25788</link>
       <description>By Yixuan Huang, Bowen Li, Vaibhav Saxena, Yichao Liang, Utkarsh Aashu Mishra, et al.
@@ -89,33 +98,6 @@ This paper identifies a critical yet underexplored challenge in reasoning alignm
 Robotic systems that interact with the physical world must reason about kinematic and dynamic constraints imposed by their own embodiment, their environment, and the task at hand. We introduce KinDER, a benchmark for Kinematic and Dynamic Embodied Reasoning that targets physical reasoning challenges...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.25788</guid>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems</title>
-      <link>https://huggingface.co/papers/2605.04018</link>
-      <description>By Yilun Zhao, Jinbiao Wei, Tingyu Song, Siyue Zhang, Chen Zhao, et al.
-
-Reasoning-intensive retrieval aims to surface evidence that supports downstream reasoning rather than merely matching topical similarity. This capability is increasingly important for agentic search systems, where retrievers must provide complementary evidence across iterative search and synthesis. ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.04018</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RLDX-1 Technical Report</title>
-      <link>https://huggingface.co/papers/2605.03269</link>
-      <description>By Dongyoung Kim, Huiwon Jang, Myungkyu Koo, Suhyeok Jang, Taeyoung Kim, et al.
-
-While Vision-Language-Action models (VLAs) have shown remarkable progress toward human-like generalist robotic policies through the versatile intelligence (i.e. broad scene understanding and language-conditioned generalization) inherited from pre-trained Vision-Language Models, they still struggle w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.03269</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stream-R1: Reliability-Perplexity Aware Reward Distillation for Streaming Video Generation</title>
-      <link>https://huggingface.co/papers/2605.03849</link>
-      <description>By Bin Wu, Mengqi Huang, Shaojin Wu, Weinan Jia, Yuxin Wang, et al.
-
-Distillation-based acceleration has become foundational for making autoregressive streaming video diffusion models practical, with distribution matching distillation (DMD) as the de facto choice. Existing methods, however, train the student to match the teacher's output indiscriminately, treating ev...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.03849</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Awaking Spatial Intelligence in Unified Multimodal Understanding and Generation</title>
@@ -151,6 +133,15 @@ Estimating how well a person performs an action, rather than which action is per
 
 We investigate the scaling properties of implicit deductive reasoning over Horn clauses in depth-bounded Transformers. By systematically decorrelating provability from spurious features and enforcing algorithmic alignment, we find that in sufficiently deep models with a bidirectional prefix mask, im...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.04330</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Audio-Visual Intelligence in Large Foundation Models</title>
+      <link>https://huggingface.co/papers/2605.04045</link>
+      <description>By You Qin, Kai Liu, Shengqiong Wu, Kai Wang, Shijian Deng, et al.
+
+Audio-Visual Intelligence (AVI) has emerged as a central frontier in artificial intelligence, bridging auditory and visual modalities to enable machines that can perceive, generate, and interact in the multimodal real world. In the era of large foundation models, joint modeling of audio and vision h...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.04045</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ We revisit a universally accepted but under-examined design choice in every mode
 
 In recent years, open-source efforts like Senorita-2M have propelled video editing toward natural language instruction. However, current publicly available datasets predominantly focus on local editing or style transfer, which largely preserve the original scene structure and are easier to scale. In...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.06535</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BioTool: A Comprehensive Tool-Calling Dataset for Enhancing Biomedical Capabilities of Large Language Models</title>
+      <link>https://huggingface.co/papers/2605.05758</link>
+      <description>By Xin Gao, Ruiyi Zhang, Meixi Du, Peijia Qin, Pengtao Xie
+
+Despite the success of large language models (LLMs) on general-purpose tasks, their performance in highly specialized domains such as biomedicine remains unsatisfactory. A key limitation is the inability of LLMs to effectively leverage biomedical tools, which clinical experts and biomedical research...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.05758</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 08:25:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 10:43:43 +0000</lastBuildDate>
     <item>
       <title>Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO</title>
       <link>https://huggingface.co/papers/2605.04077</link>
@@ -26,15 +26,6 @@ Reinforcement learning with verifiable rewards (RLVR) has become a central parad
 Diffusion models are primarily trained for image synthesis, yet their denoising trajectories encode rich, spatially aligned visual priors. In this paper, we demonstrate that these priors can be utilized for text-conditioned semantic and open-vocabulary segmentation, and this approach can be generali...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.24575</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation</title>
-      <link>https://huggingface.co/papers/2604.28196</link>
-      <description>By Xin Zhou, Dingkang Liang, Xiwu Chen, Feiyang Tan, Dingyuan Zhang, et al.
-
-Driving world models serve as a pivotal technology for autonomous driving by simulating environmental dynamics. However, existing approaches predominantly focus on future scene generation, often overlooking comprehensive 3D scene understanding. Conversely, while Large Language Models (LLMs) demonstr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.28196</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction</title>
@@ -154,22 +145,13 @@ Estimating how well a person performs an action, rather than which action is per
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>D-OPSD: On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models</title>
-      <link>https://huggingface.co/papers/2605.05204</link>
-      <description>By Dengyang Jiang, Xin Jin, Dongyang Liu, Zanyi Wang, Mingzhe Zheng, et al.
+      <title>The Scaling Properties of Implicit Deductive Reasoning in Transformers</title>
+      <link>https://huggingface.co/papers/2605.04330</link>
+      <description>By Enrico Vompa, Tanel Tammet
 
-The landscape of high-performance image generation models is currently shifting from the inefficient multi-step ones to the efficient few-step counterparts (e.g, Z-Image-Turbo and FLUX.2-klein). However, these models present significant challenges for directly continuous supervised fine-tuning. For ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.05204</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PhysForge: Generating Physics-Grounded 3D Assets for Interactive Virtual World</title>
-      <link>https://huggingface.co/papers/2605.05163</link>
-      <description>By Yunhan Yang, Chunshi Wang, Junliang Ye, Yang Li, Zanxin Chen, et al.
-
-Synthesizing physics-grounded 3D assets is a critical bottleneck for interactive virtual worlds and embodied AI. Existing methods predominantly focus on static geometry, overlooking the functional properties essential for interaction. We propose that interactive asset generation must be rooted in fu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.05163</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+We investigate the scaling properties of implicit deductive reasoning over Horn clauses in depth-bounded Transformers. By systematically decorrelating provability from spurious features and enforcing algorithmic alignment, we find that in sufficiently deep models with a bidirectional prefix mask, im...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.04330</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Lightning Unified Video Editing via In-Context Sparse Attention</title>
@@ -277,6 +259,15 @@ Geospatial reasoning requires models to resolve complex spatial semantics and us
 
 We present our winning system for Task~B (generation with reference passages) in SemEval-2026 Task~8: MTRAGEval. Our method is a heterogeneous ensemble of seven LLMs with two prompting variants, where a GPT-4o-mini judge selects the best candidate per instance. We ranked 1st out of 26 teams, achievi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.04523</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>KernelBench-X: A Comprehensive Benchmark for Evaluating LLM-Generated GPU Kernels</title>
+      <link>https://huggingface.co/papers/2605.04956</link>
+      <description>By Han Wang, Jintao Zhang, Kai Jiang, Haoxu Wang, Jianfei Chen, et al.
+
+LLM-based Triton kernel generation has attracted significant interest, yet a fundamental empirical question remains unanswered: where does this capability break down, and why? We present KernelBench-X, a benchmark designed to answer this question through category-aware evaluation of correctness and ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.04956</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Many deployments must compare candidate language models for safety before a labe
 
 We revisit a universally accepted but under-examined design choice in every modern LLM: a token index is looked up once at the input embedding layer and then permanently discarded. This single-injection assumption induces two structural failures: (i) the Rare Token Problem, where a Zipf-type distrib...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.06216</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sparkle: Realizing Lively Instruction-Guided Video Background Replacement via Decoupled Guidance</title>
+      <link>https://huggingface.co/papers/2605.06535</link>
+      <description>By Ziyun Zeng, Yiqi Lin, Guoqiang Liang, Mike Zheng Shou
+
+In recent years, open-source efforts like Senorita-2M have propelled video editing toward natural language instruction. However, current publicly available datasets predominantly focus on local editing or style transfer, which largely preserve the original scene structure and are easier to scale. In...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.06535</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

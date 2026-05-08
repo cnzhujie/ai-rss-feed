@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 06:03:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 08:25:16 +0000</lastBuildDate>
     <item>
       <title>Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO</title>
       <link>https://huggingface.co/papers/2605.04077</link>
@@ -17,15 +17,6 @@
 Reinforcement learning with verifiable rewards (RLVR) has become a central paradigm for improving reasoning and code generation in large language models, and GRPO-style training is widely adopted for its simplicity and effectiveness. However, an important design choice remains underexplored: how tok...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.04077</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills</title>
-      <link>https://huggingface.co/papers/2604.20441</link>
-      <description>By Yingyong Hou, Xinyuan Lao, Huimei Wang, Qianyu Yao, Wei Chen, et al.
-
-Background: Agent skills are increasingly deployed as modular, reusable capability units in AI agent systems. Medical research agent skills require safeguards beyond general-purpose evaluation, including scientific integrity, methodological validity, reproducibility, and boundary safety. This study ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.20441</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Diffusion Model as a Generalist Segmentation Learner</title>
@@ -161,15 +152,6 @@ Music popularity prediction has attracted growing research interest, with releva
 Estimating how well a person performs an action, rather than which action is performed, is central to coaching, rehabilitation, and talent identification. This task is challenging because proficiency is encoded in subtle differences in timing, balance, body mechanics, and execution, often distribute...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.03848</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StableI2I: Spotting Unintended Changes in Image-to-Image Transition</title>
-      <link>https://huggingface.co/papers/2605.04453</link>
-      <description>By Jiayang Li, Shuo Cao, Xiaohui Li, Zhizhen Zhang, Kaiwen Zhu, et al.
-
-In most real-world image-to-image (I2I) scenarios, existing evaluations primarily focus on instruction following and the perceptual quality or aesthetics of the generated images. However, they largely fail to assess whether the output image preserves the semantic correspondence and spatial structure...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.04453</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>D-OPSD: On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models</title>
@@ -457,6 +439,24 @@ Despite the growing popularity of Multimodal Domain Generalization (MMDG) for en
 
 World Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation by jointly predicting future visual observations and future actions. However, current WAMs typically execute a fixed number of predicted actions after each model inference, leaving the robot blind to wh...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.06222</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels</title>
+      <link>https://huggingface.co/papers/2605.06652</link>
+      <description>By Sushant Gautam, Finn Schwall, Annika Willoch Olstad, Fernando Vallecillos Ruiz, Birk Torpmann-Hagen, et al.
+
+Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless comparative safety scoring and specify the contract under which a scenario-based audit can be inter...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.06652</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TIDE: Every Layer Knows the Token Beneath the Context</title>
+      <link>https://huggingface.co/papers/2605.06216</link>
+      <description>By Ajay Jaiswal, Lauren Hannah, Han-Byul Kim, Duc Hoang, Mehrdad Farajtabar, et al.
+
+We revisit a universally accepted but under-examined design choice in every modern LLM: a token index is looked up once at the input embedding layer and then permanently discarded. This single-injection assumption induces two structural failures: (i) the Rare Token Problem, where a Zipf-type distrib...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.06216</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

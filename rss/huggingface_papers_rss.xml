@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 May 2026 12:43:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 16:07:29 +0000</lastBuildDate>
     <item>
       <title>R^3-SQL: Ranking Reward and Resampling for Text-to-SQL</title>
       <link>https://huggingface.co/papers/2604.25325</link>
@@ -26,15 +26,6 @@ Modern Text-to-SQL systems generate multiple candidate SQL queries and rank them
 Continuous Glucose Monitoring (CGM) can detect early metabolic subphenotypes (insulin resistance, IR; β-cell dysfunction), but population-scale deployment faces two coupled problems. First, the same physiological state appears through multiple views (CGM time series, venous OGTT, Glucodensity summar...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.00933</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prescriptive Scaling Laws for Data Constrained Training</title>
-      <link>https://huggingface.co/papers/2605.01640</link>
-      <description>By Justin Lovelace, Christian Belardi, Srivatsa Kundurthy, Shriya Sudhakar, Kilian Q. Weinberger
-
-Training compute is increasingly outpacing the availability of high-quality data. This shifts the central challenge from optimal compute allocation to extracting maximum value from limited data. The widely adopted Chinchilla scaling law assumes every training token is unique. This limits its ability...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.01640</guid>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CASCADE: Case-Based Continual Adaptation for Large Language Models During Deployment</title>
@@ -55,6 +46,15 @@ LLM-Agents have evolved into autonomous systems for complex task execution, with
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Discovering Reinforcement Learning Interfaces with Large Language Models</title>
+      <link>https://huggingface.co/papers/2605.03408</link>
+      <description>By Akshat Singh Jaswal, Ashish Baghel, Paras Chopra
+
+Reinforcement learning systems rely on environment interfaces that specify observations and reward functions, yet constructing these interfaces for new tasks often requires substantial manual effort. While recent work has automated reward design using large language models (LLMs), these approaches a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.03408</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Beyond Retrieval: A Multitask Benchmark and Model for Code Search</title>
       <link>https://huggingface.co/papers/2605.04615</link>
       <description>By Siqiao Xue, Zihan Liao, Jin Qin, Ziyin Zhang, Yixiang Mu, et al.
@@ -71,24 +71,6 @@ Code search has usually been evaluated as first-stage retrieval, even though pro
 AI agents are increasingly deployed across diverse domains to automate complex workflows through long-horizon and high-stakes action executions. Due to their high capability and flexibility, such agents raise significant security and safety concerns. A growing number of real-world incidents have sho...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.04808</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GeoStack: A Framework for Quasi-Abelian Knowledge Composition in VLMs</title>
-      <link>https://huggingface.co/papers/2605.06477</link>
-      <description>By Pranav Mantini, Shishir K. Shah
-
-We address the challenge of knowledge composition in Vision-Language Models (VLMs), where accumulating expertise across multiple domains or tasks typically leads to catastrophic forgetting. We introduce GeoStack (Geometric Stacking), a modular framework that allows independently trained domain exper...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.06477</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction</title>
-      <link>https://huggingface.co/papers/2605.06642</link>
-      <description>By Xiangyuan Xue, Yifan Zhou, Zidong Wang, Shengji Tang, Philip Torr, et al.
-
-Large language models (LLMs) are increasingly used as interactive agents, but optimizing them for long-horizon decision making remains difficult because current methods are largely purely reactive, which weakens both exploration and credit assignment over extended trajectories. In this work, we pres...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.06642</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PianoCoRe: Combined and Refined Piano MIDI Dataset</title>
@@ -457,6 +439,24 @@ With the rise in scale for deep learning models to billions of parameters, the c
 
 The rapid convergence of artificial intelligence (AI) toward conversational chatbot interfaces marks a critical moment for the industry. This paper argues that the chatbot paradigm is not a neutral interface choice, but a dominant sociotechnical configuration whose widespread adoption reshapes socia...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.07896</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Delta-Adapter: Scalable Exemplar-Based Image Editing with Single-Pair Supervision</title>
+      <link>https://huggingface.co/papers/2605.07940</link>
+      <description>By Jiacheng Chen, Songze Li, Han Fu, Baoquan Zhao, Wei Liu, et al.
+
+Exemplar-based image editing applies a transformation defined by a source-target image pair to a new query image. Existing methods rely on a pair-of-pairs supervision paradigm, requiring two image pairs sharing the same edit semantics to learn the target transformation. This constraint makes trainin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.07940</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation</title>
+      <link>https://huggingface.co/papers/2605.07924</link>
+      <description>By Amin Karimi Monsefi, Dominic Culver, Nikhil Bhendawade, Manuel R. Ciosici, Yizhe Zhang, et al.
+
+Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step trajectory to train a student to reproduce the process in a few steps. When the student underperforms, the usual explana...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.07924</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 15:42:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 18:06:02 +0000</lastBuildDate>
     <item>
       <title>X-OmniClaw Technical Report: A Unified Mobile Agent for Multimodal Understanding and Interaction</title>
       <link>https://huggingface.co/papers/2605.05765</link>
@@ -34,6 +34,15 @@ Dense hand contact estimation requires both high-level semantic understanding an
 
 Learning-rate steps are usually treated as hyperparameters. This paper isolates a local beliefspace calculation: when an update is modeled as a projected forward step on the probability simplex, admissibility means contractivity in the natural KL/Bregman geometry. Under this model, the upper bound o...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.06741</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Conformal Agent Error Attribution</title>
+      <link>https://huggingface.co/papers/2605.06788</link>
+      <description>By Naihe Feng, Yi Sui, Shiyi Hou, Ga Wu, Jesse C. Cresswell
+
+When multi-agent systems (MAS) fail, identifying where the decisive error occurred is the first step for automated recovery to an earlier state. Error attribution remains a fundamental challenge due to the long interaction traces that large language model-based MAS generate. This paper presents a fr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.06788</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -100,13 +109,13 @@ Safety alignment in language models operates through two mechanistically distinc
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Pushing Biomolecular Utility-Diversity Frontiers with Supergroup Relative Policy Optimization</title>
-      <link>https://huggingface.co/papers/2605.08659</link>
-      <description>By Xinwu Ye, He Cao, Hao Li, Bin Feng, Zijing Liu, et al.
+      <title>jina-embeddings-v5-omni: Text-Geometry-Preserving Multimodal Embeddings via Frozen-Tower Composition</title>
+      <link>https://huggingface.co/papers/2605.08384</link>
+      <description>By Florian Hönicke, Michael Günther, Andreas Koukounas, Kalim Akram, Scott Martens, et al.
 
-Biomolecular generators are often adapted with reward feedback to improve task-specific utility, but pushing utility alone can concentrate generation on a narrow family of candidates. Maintaining diversity is difficult because sample diversity is a set-level property. We introduce Supergroup Relativ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.08659</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+In this work, we introduce frozen-encoder model composition, a novel approach to multimodal embedding models. We build on the VLM-style architecture, in which non-text encoders are adapted to produce input for a language model, which in turn generates embeddings for all varieties of input. We presen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.08384</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MuSS: A Large-Scale Dataset and Cinematic Narrative Benchmark for Multi-Shot Subject-to-Video Generation</title>
@@ -170,33 +179,6 @@ Sardinian, a Romance language with roughly one million speakers, has minimal pre
 Large language model agents increasingly operate through an intermediate skill layer that mediates between user intent and concrete task execution. This layer is widely treated as an organizational abstraction, but we argue it is also a privilege boundary that current models routinely exceed. We pre...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09163</guid>
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeltaRubric: Generative Multimodal Reward Modeling via Joint Planning and Verification</title>
-      <link>https://huggingface.co/papers/2605.09269</link>
-      <description>By Rui Liu, Dian Yu, Zhenwen Liang, Yucheng Shi, Tong Zheng, et al.
-
-Aligning Multimodal Large Language Models (MLLMs) requires reliable reward models, yet existing single-step evaluators can suffer from lazy judging, exploiting language priors over fine-grained visual verification. While rubric-based evaluation mitigates these biases in text-only settings, extending...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09269</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reinforcing Multimodal Reasoning Against Visual Degradation</title>
-      <link>https://huggingface.co/papers/2605.09262</link>
-      <description>By Rui Liu, Dian Yu, Haolin Liu, Yucheng Shi, Tong Zheng, et al.
-
-Reinforcement Learning has significantly advanced the reasoning capabilities of Multimodal Large Language Models (MLLMs), yet the resulting policies remain brittle against real-world visual degradations such as blur, compression artifacts, and low-resolution scans. Prior robustness techniques from v...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09262</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TD3B: Transition-Directed Discrete Diffusion for Allosteric Binder Generation</title>
-      <link>https://huggingface.co/papers/2605.09810</link>
-      <description>By Hanqun Cao, Aastha Pal, Sophia Tang, Yinuo Zhang, Jingjie Zhang, et al.
-
-Protein function is often controlled by ligands that bias the direction of state transitions, such as agonists and antagonists, rather than stabilizing a single conformation. This is especially important for clinically relevant G protein-coupled receptors (GPCRs), where therapeutic efficacy depends ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09810</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sub-JEPA: Subspace Gaussian Regularization for Stable End-to-End World Models</title>
@@ -457,6 +439,24 @@ We present Key-Value Means ("KVM"), a novel block-recurrence for attention that 
 
 Activation steering controls language model behavior by adding directions to internal representations at inference time, but standard residual-stream steering can fail in stateful dialogue. We identify KV-cache contamination as a key failure mode: steered token states are stored and repeatedly reuse...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.10664</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?</title>
+      <link>https://huggingface.co/papers/2605.10848</link>
+      <description>By Tz-Huan Hsu, Jheng-Hong Yang, Jimmy Lin
+
+Does a lexical retriever suffice as large language models (LLMs) become more capable in an agentic loop? This question naturally arises when building deep research systems. We revisit it by pairing BM25 with frontier LLMs that have better reasoning and tool-use abilities. To support researchers aski...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.10848</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepRefine: Agent-Compiled Knowledge Refinement via Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2605.10488</link>
+      <description>By Haoyu Huang, Jiaxin Bai, Shujie Liu, Yang Wei, Hong Ting Tsang, et al.
+
+Agent-compiled knowledge bases provide persistent external knowledge for large language model (LLM) agents in open-ended, knowledge-intensive downstream tasks. Yet their quality is systematically limited by incompleteness, incorrectness, and redundancy, manifested as missing evidence or cross-docume...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.10488</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

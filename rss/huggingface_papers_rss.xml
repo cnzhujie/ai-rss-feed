@@ -8,15 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 20:44:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 22:17:36 +0000</lastBuildDate>
     <item>
-      <title>X-OmniClaw Technical Report: A Unified Mobile Agent for Multimodal Understanding and Interaction</title>
-      <link>https://huggingface.co/papers/2605.05765</link>
-      <description>By Xiaoming Ren, Ru Zhen, Chao Li, Yang Song, Qiuxia Hou, et al.
+      <title>InfoLaw: Information Scaling Laws for Large Language Models with Quality-Weighted Mixture Data and Repetition</title>
+      <link>https://huggingface.co/papers/2605.02364</link>
+      <description>By Fengze Liu, Weidong Zhou, Binbin Liu, Ping Guo, Zijun Wang, et al.
 
-Inspired by the development of OpenClaw, there is a growing demand for mobile-based personal agents capable of handling complex and intuitive interactions. In this technical report, we introduce X-OmniClaw, a unified mobile agent designed for multimodal understanding and interaction in the Android e...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.05765</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+Upweighting high-quality data in LLM pretraining often improves performance, but in datalimited regimes, especially under overtraining, stronger upweighting increases repetition and can degrade performance. However, standard scaling laws do not reliably extrapolate across mixture recipes or under re...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.02364</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Training-Free Dense Hand Contact Estimation with Multi-Modal Large Language Models</title>
@@ -244,24 +244,6 @@ Reinforcement learning (RL) has enabled complex reasoning abilities in large lan
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Model Merging Scaling Laws in Large Language Models</title>
-      <link>https://huggingface.co/papers/2509.24244</link>
-      <description>By Yuanyi Wang, Yanggan Gu, Yiming Zhang, Qi Zhou, Zhaoyi Yan, et al.
-
-We study empirical scaling laws for language model merging measured by cross-entropy. Despite its wide practical use, merging lacks a quantitative rule that predicts returns as we add experts or scale the model size. We identify a compact power law that links model size and expert number: the size-d...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2509.24244</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rebellious Student: Reversing Teacher Signals for Reasoning Exploration with Self-Distilled RLVR</title>
-      <link>https://huggingface.co/papers/2605.10781</link>
-      <description>By Jeonghye Kim, Jiwon Jeon, Dongsheng Li, Yuqing Yang
-
-Self-distillation has emerged as a powerful framework for post-training LLMs, where a teacher conditioned on extra information guides a student without it, both from the same model. While this guidance is useful when the student has failed, on successful rollouts, the same mechanism instead overwrit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.10781</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Pixal3D: Pixel-Aligned 3D Generation from Images</title>
       <link>https://huggingface.co/papers/2605.10922</link>
       <description>By Dong-Yang Li, Wang Zhao, Yuxin Chen, Wenbo Hu, Meng-Hao Guo, et al.
@@ -457,6 +439,24 @@ Agent-compiled knowledge bases provide persistent external knowledge for large l
 
 Cell-type-specific marker genes are fundamental to plant biology, yet existing resources primarily rely on curated databases or high-throughput studies without explicitly modeling the supporting evidence found in scientific literature. We introduce PlantMarkerBench, a multi-species benchmark for eva...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.10032</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GridProbe: Posterior-Probing for Adaptive Test-Time Compute in Long-Video VLMs</title>
+      <link>https://huggingface.co/papers/2605.10762</link>
+      <description>By Mohamed Eltahir, Lama Ayash, Ali Habibullah, Tanveer Hussain, Naeemullah Khan
+
+Long-video understanding in VLMs is bottlenecked by a single monolithic forward pass over thousands of frames at quadratic attention cost. A common mitigation is to first select a small subset of informative frames before the forward pass; common for training-free selectors via auxiliary encoder-spa...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.10762</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why</title>
+      <link>https://huggingface.co/papers/2605.10889</link>
+      <description>By Mohammadreza Armandpour, Fatih Ilhan, David Harrison, Ajay Jaiswal, Duc N. M Hoang, et al.
+
+On-policy distillation offers dense, per-token supervision for training reasoning models; however, it remains unclear under which conditions this signal is beneficial and under which it is detrimental. Which teacher model should be used, and in the case of self-distillation, which specific context s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.10889</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

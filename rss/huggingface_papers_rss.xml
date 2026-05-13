@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 13:21:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 16:26:06 +0000</lastBuildDate>
     <item>
       <title>World Model for Robot Learning: A Comprehensive Survey</title>
       <link>https://huggingface.co/papers/2605.00080</link>
@@ -34,6 +34,15 @@ Identity-preserving text-to-video generation (IPT2V) empowers users to produce d
 
 Recent advances have shown that large-scale video diffusion models can be repurposed as neural renderers by first decomposing videos into intrinsic scene representations and then performing forward rendering under novel illumination. While promising, this paradigm fundamentally relies on accurate in...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.06658</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient Pre-Training with Token Superposition</title>
+      <link>https://huggingface.co/papers/2605.06546</link>
+      <description>By Bowen Peng, Théo Gigant, Jeffrey Quesnelle
+
+Pre-training of Large Language Models is often prohibitively expensive and inefficient at scale, requiring complex and invasive modifications in order to achieve high data throughput. In this work, we present Token-Superposition Training (TST), a simple drop-in method that significantly improves the...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.06546</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -127,15 +136,6 @@ Large language models (LLMs) are transforming society, powering applications fro
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents</title>
-      <link>https://huggingface.co/papers/2605.09530</link>
-      <description>By Yining Chen, Jihao Zhao, Bo Tang, Haofen Wang, Feiyu Xiong, et al.
-
-As LLM-powered agents are increasingly deployed in edge-cloud environments, personalized memory has become a key enabler of long-term adaptation and user-centric interaction. However, cloud-assisted memory management exposes sensitive user information, while existing privacy protection methods typic...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09530</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>SeePhys Pro: Diagnosing Modality Transfer and Blind-Training Effects in Multimodal RLVR for Physics Reasoning</title>
       <link>https://huggingface.co/papers/2605.09266</link>
       <description>By Kun Xiang, Terry Jingchen Zhang, Zirong Liu, Bokai Zhou, Yueling Tang, et al.
@@ -152,15 +152,6 @@ We introduce SeePhys Pro, a fine-grained modality transfer benchmark that studie
 Multi-agent systems (MAS) have emerged as a promising paradigm for solving complex tasks. Recent work has explored self-evolving MAS that automatically optimize agent capabilities or communication topologies. However, existing methods either learn a topology that remains fixed at inference time or a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09539</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes</title>
-      <link>https://huggingface.co/papers/2605.11182</link>
-      <description>By Siqi Zhu, Xuyan Ye, Hongyu Lu, Weiye Shi, Ge Liu
-
-On-policy distillation (OPD) and on-policy self-distillation (OPSD) have emerged as promising post-training methods for large language models, offering dense token-level supervision on trajectories sampled from the model's own policy. However, existing results on their effectiveness remain mixed: wh...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.11182</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agent-ValueBench: A Comprehensive Benchmark for Evaluating Agent Values</title>
@@ -215,15 +206,6 @@ Joint named entity recognition (NER) and relation extraction (RE) is a fundament
 In industrial procurement, an LLM answer is useful only if it survives a standards check: recommended material must match operating condition, every parameter must respect a regulated threshold, and no procedure may contradict a safety clause. Partial correctness can mask safety-critical contradicti...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.10267</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives</title>
-      <link>https://huggingface.co/papers/2605.12496</link>
-      <description>By Yihao Meng, Zichen Liu, Hao Ouyang, Qiuyu Wang, Ka Leong Cheng, et al.
-
-Autoregressive video generation aims at real-time, open-ended synthesis. Yet, cinematic storytelling is not merely the endless extension of a single scene; it requires progressing through evolving events, viewpoint shifts, and discrete shot boundaries. Existing autoregressive models often struggle i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12496</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>δ-mem: Efficient Online Memory for Large Language Models</title>
@@ -457,6 +439,24 @@ The continued improvements in language model capability have unlocked their wide
 
 Unified multimodal models (UMMs) aim to integrate understanding and generation within a single architecture. However, it remains underexplored how to effectively coordinate these two capabilities for more effective and efficient reasoning. Existing coordination approaches either perform coupling dur...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.11400</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ORBIT: Preserving Foundational Language Capabilities in GenRetrieval via Origin-Regulated Merging</title>
+      <link>https://huggingface.co/papers/2605.12419</link>
+      <description>By Neha Verma, Nikhil Mehta, Shao-Chuan Wang, Naijing Zhang, Alicia Tsai, et al.
+
+Despite the rapid advancements in large language model (LLM) development, fine-tuning them for specific tasks often results in the catastrophic forgetting of their general, language-based reasoning abilities. This work investigates and addresses this challenge in the context of the Generative Retrie...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.12419</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent-BRACE: Decoupling Beliefs from Actions in Long-Horizon Tasks via Verbalized State Uncertainty</title>
+      <link>https://huggingface.co/papers/2605.11436</link>
+      <description>By Joykirat Singh, Zaid Khan, Archiki Prasad, Justin Chih-Yao Chen, Akshay Nambi, et al.
+
+Large language models (LLMs) are increasingly deployed on long-horizon tasks in partially observable environments, where they must act while inferring and tracking a complex environment state over many steps. This leads to two challenges: partial observability requires maintaining uncertainty over u...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.11436</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

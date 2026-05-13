@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 10:36:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 13:21:50 +0000</lastBuildDate>
     <item>
       <title>World Model for Robot Learning: A Comprehensive Survey</title>
       <link>https://huggingface.co/papers/2605.00080</link>
@@ -28,6 +28,15 @@ Identity-preserving text-to-video generation (IPT2V) empowers users to produce d
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Relit-LiVE: Relight Video by Jointly Learning Environment Video</title>
+      <link>https://huggingface.co/papers/2605.06658</link>
+      <description>By Weiqing Xiao, Hong Li, Xiuyu Yang, Houyuan Chen, Wenyi Li, et al.
+
+Recent advances have shown that large-scale video diffusion models can be repurposed as neural renderers by first decomposing videos into intrinsic scene representations and then performing forward rendering under novel illumination. While promising, this paradigm fundamentally relies on accurate in...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.06658</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Implicit Preference Alignment for Human Image Animation</title>
       <link>https://huggingface.co/papers/2605.07545</link>
       <description>By Yuanzhi Wang, Xuhua Ren, Jiaxiang Cheng, Bing Ma, Kai Yu, et al.
@@ -43,6 +52,33 @@ Human image animation has witnessed significant advancements, yet generating hig
 
 Embedding-based code retrieval often suffers when encoders overfit to surface syntax. Prior work mitigates this by using LLMs to rephrase queries and corpora into a normalized style, but leaves two questions open: how much representational shift helps, and when is the per-query LLM call justified? W...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.08299</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your Language Model is Its Own Critic: Reinforcement Learning with Value Estimation from Actor's Internal States</title>
+      <link>https://huggingface.co/papers/2605.07579</link>
+      <description>By Yunho Choi, Jongwon Lim, Woojin Ahn, Minjae Oh, Jeonghoon Shim, et al.
+
+Reinforcement learning with verifiable rewards (RLVR) for Large Reasoning Models hinges on baseline estimation for variance reduction, but existing approaches pay a heavy price: PPO requires a policy-model scale critic, while GRPO needs multiple rollouts per prompt to keep its empirical group mean s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.07579</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reliable Chain-of-Thought via Prefix Consistency</title>
+      <link>https://huggingface.co/papers/2605.07654</link>
+      <description>By Naoto Iwase, Yuki Ichihara, Mohammad Atif Quamar, Junpei Komiyama
+
+Large Language Models often improve accuracy on reasoning tasks by sampling multiple Chain-of-Thought (CoT) traces and aggregating them with majority voting (MV), a test-time technique called self-consistency. When we truncate a CoT partway through and regenerate the remainder, we observe that trace...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.07654</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Reasoning: Reinforcement Learning Unlocks Parametric Knowledge in LLMs</title>
+      <link>https://huggingface.co/papers/2605.07153</link>
+      <description>By Wanli Yang, Hongyu Zang, Junwei Zhang, Wenjie Shi, Du Su, et al.
+
+Reinforcement learning (RL) has achieved remarkable success in LLM reasoning, but whether it can also improve direct recall of parametric knowledge remains an open question. We study this question in a controlled zero-shot, one-hop, closed-book QA setting with no chain-of-thought, training only on b...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.07153</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -91,15 +127,6 @@ Large language models (LLMs) are transforming society, powering applications fro
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models</title>
-      <link>https://huggingface.co/papers/2605.11011</link>
-      <description>By Taekhyun Park, Yongjae Lee, Dohee Kim, Hyerim Bae
-
-Looped computation shows promise in improving the reasoning-oriented performance of LLMs by scaling test-time compute. However, existing approaches typically require either training recurrent models from scratch or applying disruptive retrofits, which involve substantial computational costs and may ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.11011</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents</title>
       <link>https://huggingface.co/papers/2605.09530</link>
       <description>By Yining Chen, Jihao Zhao, Bo Tang, Haofen Wang, Feiyu Xiong, et al.
@@ -125,15 +152,6 @@ We introduce SeePhys Pro, a fine-grained modality transfer benchmark that studie
 Multi-agent systems (MAS) have emerged as a promising paradigm for solving complex tasks. Recent work has explored self-evolving MAS that automatically optimize agent capabilities or communication topologies. However, existing methods either learn a topology that remains fixed at inference time or a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09539</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards</title>
-      <link>https://huggingface.co/papers/2605.10899</link>
-      <description>By Gaotang Li, Bhavana Dalvi Mishra, Zifeng Wang, Jun Yan, Yanfei Chen, et al.
-
-Training deep research agents, namely systems that plan, search, evaluate evidence, and synthesize long-form reports, pushes reinforcement learning beyond the regime of verifiable rewards. Their outputs lack ground-truth answers, their trajectories span many tool-augmented decisions, and standard po...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.10899</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Many Faces of On-Policy Distillation: Pitfalls, Mechanisms, and Fixes</title>
@@ -197,33 +215,6 @@ Joint named entity recognition (NER) and relation extraction (RE) is a fundament
 In industrial procurement, an LLM answer is useful only if it survives a standards check: recommended material must match operating condition, every parameter must respect a regulated threshold, and no procedure may contradict a safety clause. Partial correctness can mask safety-critical contradicti...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.10267</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MoCam: Unified Novel View Synthesis via Structured Denoising Dynamics</title>
-      <link>https://huggingface.co/papers/2605.12119</link>
-      <description>By Haofeng Liu, Yang Zhou, Ziheng Wang, Zhengbo Xu, Zhan Peng, et al.
-
-Generative novel view synthesis faces a fundamental dilemma: geometric priors provide spatial alignment but become sparse and inaccurate under view changes, while appearance priors offer visual fidelity but lack geometric correspondence. Existing methods either propagate geometric errors throughout ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12119</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AutoLLMResearch: Training Research Agents for Automating LLM Experiment Configuration -- Learning from Cheap, Optimizing Expensive</title>
-      <link>https://huggingface.co/papers/2605.11518</link>
-      <description>By Taicheng Guo, Nitesh V. Chawla, Olaf Wiest, Xiangliang Zhang
-
-Effectively configuring scalable large language model (LLM) experiments, spanning architecture design, hyperparameter tuning, and beyond, is crucial for advancing LLM research, as poor configuration choices can waste substantial computational resources and prevent models from realizing their full po...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.11518</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LychSim: A Controllable and Interactive Simulation Framework for Vision Research</title>
-      <link>https://huggingface.co/papers/2605.12449</link>
-      <description>By Wufei Ma, Chloe Wang, Siyi Chen, Jiawei Peng, Patrick Li, et al.
-
-While self-supervised pretraining has reduced vision systems' reliance on synthetic data, simulation remains an indispensable tool for closed-loop optimization and rigorous out-of-distribution (OOD) evaluation. However, modern simulation platforms often present steep technical barriers, requiring ex...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12449</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CausalCine: Real-Time Autoregressive Generation for Multi-Shot Video Narratives</title>
@@ -457,6 +448,15 @@ We introduce Pion, a spectrum-preserving optimizer for large language model (LLM
 
 The continued improvements in language model capability have unlocked their widespread use as drivers of autonomous agents, for example in coding or computer use applications. However, the core of these systems has not changed much since early instruction-tuned models like ChatGPT. Even advanced AI ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.12460</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UniPath: Adaptive Coordination of Understanding and Generation for Unified Multimodal Reasoning</title>
+      <link>https://huggingface.co/papers/2605.11400</link>
+      <description>By Hayes Bai, Yinyi Luo, Wenwen Wang, Qingsong Wen, Jindong Wang
+
+Unified multimodal models (UMMs) aim to integrate understanding and generation within a single architecture. However, it remains underexplored how to effectively coordinate these two capabilities for more effective and efficient reasoning. Existing coordination approaches either perform coupling dur...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.11400</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

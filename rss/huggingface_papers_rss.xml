@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 16:26:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 19:00:33 +0000</lastBuildDate>
     <item>
       <title>World Model for Robot Learning: A Comprehensive Survey</title>
       <link>https://huggingface.co/papers/2605.00080</link>
@@ -91,6 +91,15 @@ Reinforcement learning (RL) has achieved remarkable success in LLM reasoning, bu
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A Single Layer to Explain Them All:Understanding Massive Activations in Large Language Models</title>
+      <link>https://huggingface.co/papers/2605.08504</link>
+      <description>By Zeru Shi, Zhenting Wang, Fan Yang, Qifan Wang, Ruixiang Tang
+
+We investigate the origins of massive activations in large language models (LLMs) and identify a specific layer named the Massive Emergence Layer (ME Layer), that is consistently observed across model families, where massive activations first emerge and subsequently propagate to deeper layers throug...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.08504</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>MCP-Cosmos: World Model-Augmented Agents for Complex Task Execution in MCP Environments</title>
       <link>https://huggingface.co/papers/2605.09131</link>
       <description>By Giridhar Ganapavarapu, Dhaval Patel
@@ -154,6 +163,15 @@ Multi-agent systems (MAS) have emerged as a promising paradigm for solving compl
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Micro-Defects Expose Macro-Fakes: Detecting AI-Generated Images via Local Distributional Shifts</title>
+      <link>https://huggingface.co/papers/2605.09296</link>
+      <description>By Boxuan Zhang, Jianing Zhu, Qifan Wang, Jiang Liu, Ruixiang Tang
+
+Recent generative models can produce images that appear highly realistic, raising challenges in distinguishing real and AI-generated images. Yet existing detectors based on pre-trained feature extractors tend to over-rely on global semantics, limiting sensitivity to the critical micro-defects. In th...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.09296</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Agent-ValueBench: A Comprehensive Benchmark for Evaluating Agent Values</title>
       <link>https://huggingface.co/papers/2605.10365</link>
       <description>By Haonan Dong, Qiguan Feng, Kehan Jiang, Haoran Ye, Xin Zhang, et al.
@@ -208,49 +226,13 @@ In industrial procurement, an LLM answer is useful only if it survives a standar
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>δ-mem: Efficient Online Memory for Large Language Models</title>
-      <link>https://huggingface.co/papers/2605.12357</link>
-      <description>By Jingdi Lei, Di Zhang, Junxian Li, Weida Wang, Kaixuan Fan, et al.
+      <title>Urban-ImageNet: A Large-Scale Multi-Modal Dataset and Evaluation Framework for Urban Space Perception</title>
+      <link>https://huggingface.co/papers/2605.09936</link>
+      <description>By Yiwei Ou, Chung Ching Cheung, Jun Yang Ang, Xiaobin Ren, Ronggui Sun, et al.
 
-Large language models increasingly need to accumulate and reuse historical information in long-term assistants and agent systems. Simply expanding the context window is costly and often fails to ensure effective context utilization. We propose δ-mem, a lightweight memory mechanism that augments a fr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12357</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training</title>
-      <link>https://huggingface.co/papers/2605.12483</link>
-      <description>By Yuanda Xu, Hejian Sang, Zhengze Zhou, Ran He, Zhipeng Wang, et al.
-
-In settings where labeled verifiable training data is the binding constraint, each checked example should be allocated carefully. The standard practice is to use this data directly on the model that will be deployed, for example by running GRPO on the deployment student. We argue that this is often ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12483</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Images in Sentences: Scaling Interleaved Instructions for Unified Visual Generation</title>
-      <link>https://huggingface.co/papers/2605.12305</link>
-      <description>By Yabo Zhang, Kunchang Li, Dewei Zhou, Xinyu Huang, Xun Wang
-
-While recent advancements in multimodal language models have enabled image generation from expressive multi-image instructions, existing methods struggle to maintain performance under complex interleaved instructions. This limitation stems from the structural separation of images and text in current...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12305</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond the Last Layer: Multi-Layer Representation Fusion for Visual Tokenization</title>
-      <link>https://huggingface.co/papers/2605.10780</link>
-      <description>By Xuanyu Zhu, Yan Bai, Yang Shi, Yihang Lou, Yuanxing Zhang, et al.
-
-Representation autoencoders that reuse frozen pretrained vision encoders as visual tokenizers have achieved strong reconstruction and generation quality. However, existing methods universally extract features from only the last encoder layer, discarding the rich hierarchical information distributed ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.10780</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Web to Pixels: Bringing Agentic Search into Visual Perception</title>
-      <link>https://huggingface.co/papers/2605.12497</link>
-      <description>By Bokang Yang, Xinyi Sun, Kaituo Feng, Xingping Dong, Dongming Wu, et al.
-
-Visual perception connects high-level semantic understanding to pixel-level perception, but most existing settings assume that the decisive evidence for identifying a target is already in the image or frozen model knowledge. We study a more practical yet harder open-world case where a visible object...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12497</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+We present Urban-ImageNet, a large-scale multi-modal dataset and evaluation benchmark for urban space perception from user-generated social media imagery. The corpus contains over 2 Million public social media images and paired textual posts collected from Weibo across 61 urban sites in 24 Chinese c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.09936</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Reward Hacking in Rubric-Based Reinforcement Learning</title>
@@ -457,6 +439,24 @@ Despite the rapid advancements in large language model (LLM) development, fine-t
 
 Large language models (LLMs) are increasingly deployed on long-horizon tasks in partially observable environments, where they must act while inferring and tracking a complex environment state over many steps. This leads to two challenges: partial observability requires maintaining uncertainty over u...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.11436</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning, Fast and Slow: Towards LLMs That Adapt Continually</title>
+      <link>https://huggingface.co/papers/2605.12484</link>
+      <description>By Rishabh Tiwari, Kusha Sareen, Lakshya A Agrawal, Joseph E. Gonzalez, Matei Zaharia, et al.
+
+Large language models (LLMs) are trained for downstream tasks by updating their parameters (e.g., via RL). However, updating parameters forces them to absorb task-specific information, which can result in catastrophic forgetting and loss of plasticity. In contrast, in-context learning with fixed LLM...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.12484</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solve the Loop: Attractor Models for Language and Reasoning</title>
+      <link>https://huggingface.co/papers/2605.12466</link>
+      <description>By Jacob Fein-Ashley, Paria Rashidinejad
+
+Looped Transformers offer a promising alternative to purely feed-forward computation by iteratively refining latent representations, improving language modeling and reasoning. Yet recurrent architectures remain unstable to train, costly to optimize and deploy, and constrained to small, fixed recurre...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.12466</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

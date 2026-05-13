@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 19:00:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 21:40:35 +0000</lastBuildDate>
     <item>
       <title>World Model for Robot Learning: A Comprehensive Survey</title>
       <link>https://huggingface.co/papers/2605.00080</link>
@@ -172,6 +172,15 @@ Recent generative models can produce images that appear highly realistic, raisin
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>LLM Agents Already Know When to Call Tools -- Even Without Reasoning</title>
+      <link>https://huggingface.co/papers/2605.09252</link>
+      <description>By Chung-En Sun, Linbo Liu, Ge Yan, Zimo Wang, Tsui-Wei Weng
+
+Tool-augmented LLM agents tend to call tools indiscriminately, even when the model can answer directly. Each unnecessary call wastes API fees and latency, yet no existing benchmark systematically studies when a tool call is actually needed. We propose When2Tool, a benchmark of 18 environments (15 si...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.09252</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Agent-ValueBench: A Comprehensive Benchmark for Evaluating Agent Values</title>
       <link>https://huggingface.co/papers/2605.10365</link>
       <description>By Haonan Dong, Qiguan Feng, Kehan Jiang, Haoran Ye, Xin Zhang, et al.
@@ -233,24 +242,6 @@ In industrial procurement, an LLM answer is useful only if it survives a standar
 We present Urban-ImageNet, a large-scale multi-modal dataset and evaluation benchmark for urban space perception from user-generated social media imagery. The corpus contains over 2 Million public social media images and paired textual posts collected from Weibo across 61 urban sites in 24 Chinese c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09936</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reward Hacking in Rubric-Based Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2605.12474</link>
-      <description>By Anas Mahmoud, MohammadHossein Rezaei, Zihao Wang, Anisha Gunjal, Bing Liu, et al.
-
-Reinforcement learning with verifiable rewards has enabled strong post-training gains in domains such as math and coding, though many open-ended settings rely on rubric-based rewards. We study reward hacking in rubric-based RL, where a policy is optimized against a training verifier but evaluated ag...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12474</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture</title>
-      <link>https://huggingface.co/papers/2605.12500</link>
-      <description>By Haiwen Diao, Penghao Wu, Hanming Deng, Jiahao Wang, Shihao Bai, et al.
-
-Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces. We argue that this divide is not merely...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12500</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Do Enterprise Systems Need Learned World Models? The Importance of Context to Infer Dynamics</title>
@@ -457,6 +448,15 @@ Large language models (LLMs) are trained for downstream tasks by updating their 
 
 Looped Transformers offer a promising alternative to purely feed-forward computation by iteratively refining latent representations, improving language modeling and reasoning. Yet recurrent architectures remain unstable to train, costly to optimize and deploy, and constrained to small, fixed recurre...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.12466</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EgoForce: Forearm-Guided Camera-Space 3D Hand Pose from a Monocular Egocentric Camera</title>
+      <link>https://huggingface.co/papers/2605.12498</link>
+      <description>By Christen Millerdurai, Shaoxiang Wang, Yaxu Xie, Vladislav Golyanik, Didier Stricker, et al.
+
+Reconstructing the absolute 3D pose and shape of the hands from the user's viewpoint using a single head-mounted camera is crucial for practical egocentric interaction in AR/VR, telepresence, and hand-centric manipulation tasks, where sensing must remain compact and unobtrusive. While monocular RGB ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.12498</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

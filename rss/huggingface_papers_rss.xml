@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 20:39:38 +0000</lastBuildDate>
-    <item>
-      <title>EviMem: Evidence-Gap-Driven Iterative Retrieval for Long-Term Conversational Memory</title>
-      <link>https://huggingface.co/papers/2604.27695</link>
-      <description>By Yuyang Li, Yime He, Zeyu Zhang, Dong Gong
-
-Long-term conversational memory requires retrieving evidence scattered across multiple sessions, yet single-pass retrieval fails on temporal and multi-hop questions. Existing iterative methods refine queries via generated content or document-level signals, but none explicitly diagnoses the evidence ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.27695</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 14 May 2026 22:15:44 +0000</lastBuildDate>
     <item>
       <title>SafeHarbor: Hierarchical Memory-Augmented Guardrail for LLM Agent Safety</title>
       <link>https://huggingface.co/papers/2605.05704</link>
@@ -28,13 +19,14 @@ With the rapid evolution of foundation models, Large Language Model (LLM) agents
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Results and Retrospective Analysis of the CODS 2025 AssetOpsBench Challenge</title>
-      <link>https://huggingface.co/papers/2605.08518</link>
-      <description>By Dhaval Patel, Chathurangi Shyalika, Suryanarayana Reddy Yarrabothula, Ling Yue, Shuxin Lin, et al.
+      <title>Federation of Experts: Communication Efficient Distributed Inference for Large Language Models</title>
+      <link>https://huggingface.co/papers/2605.06206</link>
+      <description>By Muhammad Shahir Abdurrahman, Chun Deng, Azalia Mirhoseini, Philip Levis
 
-Competition retrospectives are useful when they explain what a leaderboard measured, how hidden evaluation changed conclusions, and which design patterns were rewarded. We revisit the CODS 2025  challenge, a privacy-aware Codabench competition on industrial multi-agent orchestration built on . We co...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.08518</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+Mixture of experts has emerged as the primary mechanism for making Large Language Models (LLMs) computationally efficient. However, in distributed settings, communicating token embeddings between experts is a significant bottleneck.
+  We present the novel Federation of Experts (FoE) architecture. Fo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.06206</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FAAST: Forward-Only Associative Learning via Closed-Form Fast Weights for Test-Time Supervised Adaptation</title>
@@ -88,6 +80,15 @@ Existing preference datasets for text-to-image models typically store only the f
 
 Segmentation is a fundamental vision task underlying numerous downstream applications. Recent promptable segmentation models, such as Segment Anything Model 3 (SAM3), extend segmentation from category-agnostic mask prediction to concept-guided localization conditioned on high-level textual prompts. ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09591</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LEAD: Length-Efficient Adaptive and Dynamic Reasoning for Large Language Models</title>
+      <link>https://huggingface.co/papers/2605.09806</link>
+      <description>By Songtao Wei, Yi Li, Zhikai Li, Xu Hu, Yuede Ji, et al.
+
+Large reasoning models, such as OpenAI o1 and DeepSeek-R1, tend to become increasingly verbose as their reasoning capabilities improve. These inflated Chain-of-Thought (CoT) trajectories often exceed what the underlying problems require, wasting compute, latency, and context budgets. While introduci...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.09806</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -253,22 +254,13 @@ Given a generalist model, learning a task-relevant specialist representation is 
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Useful Memories Become Faulty When Continuously Updated by LLMs</title>
-      <link>https://huggingface.co/papers/2605.12978</link>
-      <description>By Dylan Zhang, Yanshan Lin, Zhengkun Wu, Yihang Sun, Bingxuan Li, et al.
+      <title>An Empirical Study of Automating Agent Evaluation</title>
+      <link>https://huggingface.co/papers/2605.11378</link>
+      <description>By Kang Zhou, Sangmin Woo, Haibo Ding, Kiran Ramnath, Subramanian Chidambaram, et al.
 
-Learning from past experience benefits from two complementary forms of memory: episodic traces -- raw trajectories of what happened -- and consolidated abstractions distilled across many episodes into reusable, schema-like lessons. Recent agentic-memory systems pursue the consolidated form: an LLM r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12978</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Frequency Bias and OOD Generalization in Neural Operators under a Variable-Coefficient Wave Equation</title>
-      <link>https://huggingface.co/papers/2605.12997</link>
-      <description>By Runlong Xie, An Luo
-
-Neural operators learn to map initial conditions to the terminal solution of partial differential equations (PDEs), providing a surrogate for the full operator mapping. This enables rapid prediction across different input configurations. While recent neural operator architectures have demonstrated s...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12997</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+Agent evaluation requires assessing complex multi-step behaviors involving tool use and intermediate reasoning, making it costly and expertise-intensive. A natural question arises: can frontier coding assistants reliably automate this evaluation process? Our study shows that simply prompting coding ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.11378</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Edit-Compass &amp; EditReward-Compass: A Unified Benchmark for Image Editing and Reward Modeling</title>
@@ -457,6 +449,15 @@ Most existing medical dialogue systems operate in a single-turn question--answer
 
 Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addresses two core evaluation challenges: generating realistic simulated conversations, and measuring qu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.13841</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FlowCompile: An Optimizing Compiler for Structured LLM Workflows</title>
+      <link>https://huggingface.co/papers/2605.13647</link>
+      <description>By Junyan Li, Zhang-Wei Hong, Maohao Shen, Yang Zhang, Chuang Gan
+
+Structured LLM workflows, where specialized LLM sub-agents execute according to a predefined graph, have become a powerful abstraction for solving complex tasks. Optimizing such workflows, i.e., selecting configurations for each sub-agent to balance accuracy and latency, is challenging due to the co...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.13647</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

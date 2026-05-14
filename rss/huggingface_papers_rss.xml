@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 15:27:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 18:01:13 +0000</lastBuildDate>
     <item>
       <title>EviMem: Evidence-Gap-Driven Iterative Retrieval for Long-Term Conversational Memory</title>
       <link>https://huggingface.co/papers/2604.27695</link>
@@ -64,22 +64,22 @@ On-policy distillation (OPD) is widely used for LLM post-training. When pushed w
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Micro-Defects Expose Macro-Fakes: Detecting AI-Generated Images via Local Distributional Shifts</title>
-      <link>https://huggingface.co/papers/2605.09296</link>
-      <description>By Boxuan Zhang, Jianing Zhu, Qifan Wang, Jiang Liu, Ruixiang Tang
+      <title>Source or It Didn't Happen: A Multi-Agent Framework for Citation Hallucination Detection</title>
+      <link>https://huggingface.co/papers/2605.08583</link>
+      <description>By Mingzhe Li, Zhiqiang Lin, Shiqing Ma
 
-Recent generative models can produce images that appear highly realistic, raising challenges in distinguishing real and AI-generated images. Yet existing detectors based on pre-trained feature extractors tend to over-rely on global semantics, limiting sensitivity to the critical micro-defects. In th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09296</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+Large language models are increasingly used in scientific writing, yet they can fabricate citation-shaped references that appear plausible but fail bibliographic verification. Existing detectors often reduce verification to binary found/not-found decisions and rely on brittle parsing or incomplete r...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.08583</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LLM Agents Already Know When to Call Tools -- Even Without Reasoning</title>
-      <link>https://huggingface.co/papers/2605.09252</link>
-      <description>By Chung-En Sun, Linbo Liu, Ge Yan, Zimo Wang, Tsui-Wei Weng
+      <title>RewardHarness: Self-Evolving Agentic Post-Training</title>
+      <link>https://huggingface.co/papers/2605.08703</link>
+      <description>By Yuxuan Zhang, Penghui Du, Bo Li, Cong Wei, Junwen Miao, et al.
 
-Tool-augmented LLM agents tend to call tools indiscriminately, even when the model can answer directly. Each unnecessary call wastes API fees and latency, yet no existing benchmark systematically studies when a tool call is actually needed. We propose When2Tool, a benchmark of 18 environments (15 si...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09252</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+Evaluating instruction-guided image edits requires rewards that reflect subtle human preferences, yet current reward models typically depend on large-scale preference annotation and additional model training. This creates a data-efficiency gap: humans can often infer the target evaluation criteria f...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.08703</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Offline Preference Optimization for Rectified Flow with Noise-Tracked Pairs</title>
@@ -98,24 +98,6 @@ Existing preference datasets for text-to-image models typically store only the f
 Segmentation is a fundamental vision task underlying numerous downstream applications. Recent promptable segmentation models, such as Segment Anything Model 3 (SAM3), extend segmentation from category-agnostic mask prediction to concept-guided localization conditioned on high-level textual prompts. ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09591</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation</title>
-      <link>https://huggingface.co/papers/2605.10376</link>
-      <description>By Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, et al.
-
-Vision-Language Models (VLMs) have advanced rapidly in multimodal perception and language understanding, yet it remains unclear whether they can reliably ground language into spatially coherent, plausibly executable actions in 3D digital environments. We introduce SleepWalk, a benchmark for evaluati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.10376</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EVOCHAMBER: Test-Time Co-evolution of Multi-Agent System at Individual, Team, and Population Scales</title>
-      <link>https://huggingface.co/papers/2605.11136</link>
-      <description>By Yaolun Zhang, Tianyi Xu, Shengyu Dai, Zhenwen Shao, Qingyun Wu, et al.
-
-We argue that multi-agent test-time evolution is not single-agent evolution replicated N times. A single-agent learner can only evolve its own context and memory. A multi-agent system additionally evolves who collaborates, how they collaborate, and how knowledge flows across the population. These co...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.11136</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution</title>
@@ -152,24 +134,6 @@ Tabular Foundation Models have recently established the state of the art in supe
 Low-light image enhancement is challenging due to complex degradations, including amplified noise, artifacts, and color distortion. While Retinex-based deep learning methods have achieved promising results, they primarily rely on single-modality RGB information. We propose M2Retinexformer (Multi-Mod...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.12556</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Solve the Loop: Attractor Models for Language and Reasoning</title>
-      <link>https://huggingface.co/papers/2605.12466</link>
-      <description>By Jacob Fein-Ashley, Paria Rashidinejad
-
-Looped Transformers offer a promising alternative to purely feed-forward computation by iteratively refining latent representations, improving language modeling and reasoning. Yet recurrent architectures remain unstable to train, costly to optimize and deploy, and constrained to small, fixed recurre...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12466</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EgoForce: Forearm-Guided Camera-Space 3D Hand Pose from a Monocular Egocentric Camera</title>
-      <link>https://huggingface.co/papers/2605.12498</link>
-      <description>By Christen Millerdurai, Shaoxiang Wang, Yaxu Xie, Vladislav Golyanik, Didier Stricker, et al.
-
-Reconstructing the absolute 3D pose and shape of the hands from the user's viewpoint using a single head-mounted camera is crucial for practical egocentric interaction in AR/VR, telepresence, and hand-centric manipulation tasks, where sensing must remain compact and unobtrusive. While monocular RGB ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12498</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Covering Human Action Space for Computer Use: Data Synthesis and Benchmark</title>
@@ -268,6 +232,24 @@ AI agents negotiate and transact in natural language with unfamiliar counterpart
 
 Agentic reinforcement learning (RL) for Large Language Models (LLMs) critically depends on the exploration capability of the base policy, as training signals emerge only within its in-capability region. For tasks where the base policy cannot reach reward states, additional training or external guida...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.12004</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning to Explore: Scaling Agentic Reasoning via Exploration-Aware Policy Optimization</title>
+      <link>https://huggingface.co/papers/2605.08978</link>
+      <description>By Xingyuan Hua, Sheng Yue, Ju Ren
+
+Recent advancements in agentic test-time scaling allow models to gather environmental feedback before committing to final actions. A key limitation of existing methods is that they typically employ undifferentiated exploration strategies, lacking the ability to adaptively distinguish when exploratio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.08978</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Generalist to Specialist Representation</title>
+      <link>https://huggingface.co/papers/2605.12733</link>
+      <description>By Yujia Zheng, Fan Feng, Yuke Li, Shaoan Xie, Kevin Murphy, et al.
+
+Given a generalist model, learning a task-relevant specialist representation is fundamental for downstream applications. Identifiability, the asymptotic guarantee of recovering the ground-truth representation, is critical because it sets the ultimate limit of any model, even with infinite data and c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.12733</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Intensive care units (ICU) generate long, dense and evolving streams of clinical
 
 Model merging combines task experts into one model and avoids joint training, retraining, or deploying many expert models, but the merged model often still underperforms task experts. We study this performance gap through feature drift, the difference between features produced by the merged model an...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.13030</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IndicMedDialog: A Parallel Multi-Turn Medical Dialogue Dataset for Accessible Healthcare in Indic Languages</title>
+      <link>https://huggingface.co/papers/2605.13292</link>
+      <description>By Shubham Kumar Nigam, Suparnojit Sarkar, Piyush Patel
+
+Most existing medical dialogue systems operate in a single-turn question--answering paradigm or rely on template-based datasets, limiting conversational realism and multilingual applicability. We introduce IndicMedDialog, a parallel multi-turn medical dialogue dataset spanning English and nine Indic...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.13292</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents</title>
+      <link>https://huggingface.co/papers/2605.13841</link>
+      <description>By Tara Bogavelli, Gabrielle Gauthier Melançon, Katrina Stankiewicz, Oluwanifemi Bamgbose, Fanny Riols, et al.
+
+Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addresses two core evaluation challenges: generating realistic simulated conversations, and measuring qu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.13841</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

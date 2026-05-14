@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 07:47:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 10:26:59 +0000</lastBuildDate>
     <item>
       <title>EviMem: Evidence-Gap-Driven Iterative Retrieval for Long-Term Conversational Memory</title>
       <link>https://huggingface.co/papers/2604.27695</link>
@@ -17,15 +17,6 @@
 Long-term conversational memory requires retrieving evidence scattered across multiple sessions, yet single-pass retrieval fails on temporal and multi-hop questions. Existing iterative methods refine queries via generated content or document-level signals, but none explicitly diagnoses the evidence ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.27695</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Relit-LiVE: Relight Video by Jointly Learning Environment Video</title>
-      <link>https://huggingface.co/papers/2605.06658</link>
-      <description>By Weiqing Xiao, Hong Li, Xiuyu Yang, Houyuan Chen, Wenyi Li, et al.
-
-Recent advances have shown that large-scale video diffusion models can be repurposed as neural renderers by first decomposing videos into intrinsic scene representations and then performing forward rendering under novel illumination. While promising, this paradigm fundamentally relies on accurate in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.06658</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Efficient Pre-Training with Token Superposition</title>
@@ -44,15 +35,6 @@ Pre-training of Large Language Models is often prohibitively expensive and ineff
 With the rapid evolution of foundation models, Large Language Model (LLM) agents have demonstrated increasingly powerful tool-use capabilities. However, this proficiency introduces significant security risks, as malicious actors can manipulate agents into executing tools to generate harmful content....</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.05704</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond Reasoning: Reinforcement Learning Unlocks Parametric Knowledge in LLMs</title>
-      <link>https://huggingface.co/papers/2605.07153</link>
-      <description>By Wanli Yang, Hongyu Zang, Junwei Zhang, Wenjie Shi, Du Su, et al.
-
-Reinforcement learning (RL) has achieved remarkable success in LLM reasoning, but whether it can also improve direct recall of parametric knowledge remains an open question. We study this question in a controlled zero-shot, one-hop, closed-book QA setting with no chain-of-thought, training only on b...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.07153</guid>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>A Single Layer to Explain Them All:Understanding Massive Activations in Large Language Models</title>
@@ -97,6 +79,24 @@ Recent generative models can produce images that appear highly realistic, raisin
 
 Tool-augmented LLM agents tend to call tools indiscriminately, even when the model can answer directly. Each unnecessary call wastes API fees and latency, yet no existing benchmark systematically studies when a tool call is actually needed. We propose When2Tool, a benchmark of 18 environments (15 si...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09252</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Offline Preference Optimization for Rectified Flow with Noise-Tracked Pairs</title>
+      <link>https://huggingface.co/papers/2605.09433</link>
+      <description>By Yunhong Lu, Qichao Wang, Hengyuan Cao, Xiaoyin Xu, Min Zhang
+
+Existing preference datasets for text-to-image models typically store only the final winner/loser images. This representation is insufficient for rectified flow (RF) models, whose generation is naturally indexed by a specific prior noise sample and follows a nearly straight denoising trajectory. In ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.09433</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Pixels to Concepts: Do Segmentation Models Understand What They Segment?</title>
+      <link>https://huggingface.co/papers/2605.09591</link>
+      <description>By Shuang Liang, Zeqing Wang, Yuxian Li, Xihui Liu, Han Wang
+
+Segmentation is a fundamental vision task underlying numerous downstream applications. Recent promptable segmentation models, such as Segment Anything Model 3 (SAM3), extend segmentation from category-agnostic mask prediction to concept-guided localization conditioned on high-level textual prompts. ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.09591</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -152,33 +152,6 @@ To tackle long-context reasoning tasks without the quadratic complexity of stand
 Tabular Foundation Models have recently established the state of the art in supervised tabular learning, by leveraging pretraining to learn generalizable representations of numerical and categorical structured data. However, they lack native support for unstructured modalities such as text and image...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.10616</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UniPath: Adaptive Coordination of Understanding and Generation for Unified Multimodal Reasoning</title>
-      <link>https://huggingface.co/papers/2605.11400</link>
-      <description>By Hayes Bai, Yinyi Luo, Wenwen Wang, Qingsong Wen, Jindong Wang
-
-Unified multimodal models (UMMs) aim to integrate understanding and generation within a single architecture. However, it remains underexplored how to effectively coordinate these two capabilities for more effective and efficient reasoning. Existing coordination approaches either perform coupling dur...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.11400</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ORBIT: Preserving Foundational Language Capabilities in GenRetrieval via Origin-Regulated Merging</title>
-      <link>https://huggingface.co/papers/2605.12419</link>
-      <description>By Neha Verma, Nikhil Mehta, Shao-Chuan Wang, Naijing Zhang, Alicia Tsai, et al.
-
-Despite the rapid advancements in large language model (LLM) development, fine-tuning them for specific tasks often results in the catastrophic forgetting of their general, language-based reasoning abilities. This work investigates and addresses this challenge in the context of the Generative Retrie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12419</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent-BRACE: Decoupling Beliefs from Actions in Long-Horizon Tasks via Verbalized State Uncertainty</title>
-      <link>https://huggingface.co/papers/2605.11436</link>
-      <description>By Joykirat Singh, Zaid Khan, Archiki Prasad, Justin Chih-Yao Chen, Akshay Nambi, et al.
-
-Large language models (LLMs) are increasingly deployed on long-horizon tasks in partially observable environments, where they must act while inferring and tracking a complex environment state over many steps. This leads to two challenges: partial observability requires maintaining uncertainty over u...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.11436</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Learning, Fast and Slow: Towards LLMs That Adapt Continually</title>
@@ -457,6 +430,33 @@ Traditional retrieval pipelines optimize utility through stages of candidate ret
 
 Fine-tuning multilingual ASR models like Whisper for low-resource languages often improves read speech but degrades spontaneous audio performance, a phenomenon we term studio-bias. To diagnose this mismatch, we introduce Vividh-ASR, a complexity-stratified benchmark for Hindi and Malayalam across fo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.13087</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FrameSkip: Learning from Fewer but More Informative Frames in VLA Training</title>
+      <link>https://huggingface.co/papers/2605.13757</link>
+      <description>By Bin Yu, Shijie Lian, Xiaopeng Lin, Zhaolong Shen, Yuliang Wei, et al.
+
+Vision-Language-Action (VLA) policies are commonly trained from dense robot demonstration trajectories, often collected through teleoperation, by sampling every recorded frame as if it provided equally useful supervision. We argue that this convention creates a temporal supervision imbalance: long l...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.13757</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PersonalAI 2.0: Enhancing knowledge graph traversal/retrieval with planning mechanism for Personalized LLM Agents</title>
+      <link>https://huggingface.co/papers/2605.13481</link>
+      <description>By Mikhail Menschikov, Matvey Iskornev, Alexander Kharitonov, Alina Bogdanova, Mikhail Belkin, et al.
+
+We introduce PersonalAI 2.0 (PAI-2), a novel framework, designed to enhance large language model (LLM) based systems through integration of external knowledge graphs (KG). The proposed approach addresses key limitations of existing Graph Retrieval-Augmented Generation (GraphRAG) methods by incorpora...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.13481</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RealICU: Do LLM Agents Understand Long-Context ICU Data? A Benchmark Beyond Behavior Imitation</title>
+      <link>https://huggingface.co/papers/2605.13542</link>
+      <description>By Chengzhi Shen, Weixiang Shen, Tobias Susetzky, Chen, Chen, et al.
+
+Intensive care units (ICU) generate long, dense and evolving streams of clinical information, where physicians must repeatedly reassess patient states under time pressure, underscoring a clear need for reliable AI decision support. Existing ICU benchmarks typically treat historical clinician actions...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.13542</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

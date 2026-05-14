@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 10:26:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 12:57:55 +0000</lastBuildDate>
     <item>
       <title>EviMem: Evidence-Gap-Driven Iterative Retrieval for Long-Term Conversational Memory</title>
       <link>https://huggingface.co/papers/2604.27695</link>
@@ -17,15 +17,6 @@
 Long-term conversational memory requires retrieving evidence scattered across multiple sessions, yet single-pass retrieval fails on temporal and multi-hop questions. Existing iterative methods refine queries via generated content or document-level signals, but none explicitly diagnoses the evidence ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.27695</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Efficient Pre-Training with Token Superposition</title>
-      <link>https://huggingface.co/papers/2605.06546</link>
-      <description>By Bowen Peng, Théo Gigant, Jeffrey Quesnelle
-
-Pre-training of Large Language Models is often prohibitively expensive and inefficient at scale, requiring complex and invasive modifications in order to achieve high data throughput. In this work, we present Token-Superposition Training (TST), a simple drop-in method that significantly improves the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.06546</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SafeHarbor: Hierarchical Memory-Augmented Guardrail for LLM Agent Safety</title>
@@ -52,6 +43,15 @@ We investigate the origins of massive activations in large language models (LLMs
 
 Competition retrospectives are useful when they explain what a leaderboard measured, how hidden evaluation changed conclusions, and which design patterns were rewarded. We revisit the CODS 2025  challenge, a privacy-aware Codabench competition on industrial multi-agent orchestration built on . We co...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.08518</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FAAST: Forward-Only Associative Learning via Closed-Form Fast Weights for Test-Time Supervised Adaptation</title>
+      <link>https://huggingface.co/papers/2605.04651</link>
+      <description>By Guangsheng Bao, Hongbo Zhang, Han Cui, Ke Sun, Yanbin Zhao, et al.
+
+Adapting pretrained models typically involves a trade-off between the high training costs of backpropagation and the heavy inference overhead of memory-based or in-context learning. We propose FAAST, a forward-only associative adaptation method that analytically compiles labeled examples into fast w...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.04651</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -100,15 +100,6 @@ Segmentation is a fundamental vision task underlying numerous downstream applica
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Urban-ImageNet: A Large-Scale Multi-Modal Dataset and Evaluation Framework for Urban Space Perception</title>
-      <link>https://huggingface.co/papers/2605.09936</link>
-      <description>By Yiwei Ou, Chung Ching Cheung, Jun Yang Ang, Xiaobin Ren, Ronggui Sun, et al.
-
-We present Urban-ImageNet, a large-scale multi-modal dataset and evaluation benchmark for urban space perception from user-generated social media imagery. The corpus contains over 2 Million public social media images and paired textual posts collected from Weibo across 61 urban sites in 24 Chinese c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09936</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation</title>
       <link>https://huggingface.co/papers/2605.10376</link>
       <description>By Niyati Rawal, Sushant Ravva, Shah Alam Abir, Saksham Jain, Aman Chadha, et al.
@@ -154,13 +145,13 @@ Tabular Foundation Models have recently established the state of the art in supe
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Learning, Fast and Slow: Towards LLMs That Adapt Continually</title>
-      <link>https://huggingface.co/papers/2605.12484</link>
-      <description>By Rishabh Tiwari, Kusha Sareen, Lakshya A Agrawal, Joseph E. Gonzalez, Matei Zaharia, et al.
+      <title>M2Retinexformer: Multi-Modal Retinexformer for Low-Light Image Enhancement</title>
+      <link>https://huggingface.co/papers/2605.12556</link>
+      <description>By Youssef Aboelwafa, Hicham G. Elmongui, Marwan Torki
 
-Large language models (LLMs) are trained for downstream tasks by updating their parameters (e.g., via RL). However, updating parameters forces them to absorb task-specific information, which can result in catastrophic forgetting and loss of plasticity. In contrast, in-context learning with fixed LLM...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12484</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+Low-light image enhancement is challenging due to complex degradations, including amplified noise, artifacts, and color distortion. While Retinex-based deep learning methods have achieved promising results, they primarily rely on single-modality RGB information. We propose M2Retinexformer (Multi-Mod...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.12556</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Solve the Loop: Attractor Models for Language and Reasoning</title>
@@ -457,6 +448,15 @@ We introduce PersonalAI 2.0 (PAI-2), a novel framework, designed to enhance larg
 
 Intensive care units (ICU) generate long, dense and evolving streams of clinical information, where physicians must repeatedly reassess patient states under time pressure, underscoring a clear need for reliable AI decision support. Existing ICU benchmarks typically treat historical clinician actions...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.13542</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FeatCal: Feature Calibration for Post-Merging Models</title>
+      <link>https://huggingface.co/papers/2605.13030</link>
+      <description>By Yanggan Gu, Shuo Cai, Zihao Wang, Wenjun Wang, Yuanyi Wang, et al.
+
+Model merging combines task experts into one model and avoids joint training, retraining, or deploying many expert models, but the merged model often still underperforms task experts. We study this performance gap through feature drift, the difference between features produced by the merged model an...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.13030</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

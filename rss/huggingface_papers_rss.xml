@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 May 2026 10:19:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 14:35:42 +0000</lastBuildDate>
     <item>
       <title>Realiz3D: 3D Generation Made Photorealistic via Domain-Aware Learning</title>
       <link>https://huggingface.co/papers/2605.13852</link>
@@ -17,15 +17,6 @@
 We often aim to generate images that are both photorealistic and 3D-consistent, adhering to precise geometry, material, and viewpoint controls. Typically, this is achieved by fine-tuning an image generator, pre-trained on billions of real images, using renders of synthetic 3D assets, where annotatio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.13852</guid>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RouteProfile: Elucidating the Design Space of LLM Profiles for Routing</title>
-      <link>https://huggingface.co/papers/2605.00180</link>
-      <description>By Jingjun Xu, Hongji Pu, Tao Feng, Haozhen Zhang, Jiaxuan You, et al.
-
-As the large language model (LLM) ecosystem expands, individual models exhibit varying capabilities across queries, benchmarks, and domains, motivating the development of LLM routing. While prior work has largely focused on router mechanism design, LLM profiles, which capture model capabilities, rem...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.00180</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WildTableBench: Benchmarking Multimodal Foundation Models on Table Understanding In the Wild</title>
@@ -46,21 +37,30 @@ Distilling large reasoning models is essential for making Long-CoT reasoning pra
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?</title>
-      <link>https://huggingface.co/papers/2605.06527</link>
-      <description>By Hanxiang Chao, Yihan Bai, Rui Sheng, Tianle Li, Yushi Sun
-
-Large Language Model (LLM) agents are increasingly expected to maintain coherent, long-term personalized memory, yet current benchmarks primarily measure static fact retrieval, overlooking the ability to revise stored beliefs when new evidence emerges. We identify a critical and underexplored failur...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.06527</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Long Context Pre-Training with Lighthouse Attention</title>
       <link>https://huggingface.co/papers/2605.06554</link>
       <description>By Bowen Peng, Subho Ghosh, Jeffrey Quesnelle
 
 Training causal transformers at extreme sequence lengths is bottlenecked by the quadratic time and memory of scaled dot-product attention (SDPA). In this work, we propose Lighthouse Attention, a training-only symmetrical selection-based hierarchical attention algorithm that wraps around ordinary SDP...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.06554</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MobileEgo Anywhere: Open Infrastructure for long horizon egocentric data on commodity hardware</title>
+      <link>https://huggingface.co/papers/2605.05945</link>
+      <description>By Senthil Palanisamy, Abhishek Anand, Satpal Singh Rathor, Pratyush Patnaik, Shubhanshu Khatana
+
+The recent advancement of Vision Language Action (VLA) models has driven a critical demand for large scale egocentric datasets. However, existing datasets are often limited by short episode durations, typically spanning only a few minutes, which fails to capture the long horizon temporal dependencie...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.05945</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steered LLM Activations are Non-Surjective</title>
+      <link>https://huggingface.co/papers/2604.09839</link>
+      <description>By Aayush Mishra, Daniel Khashabi, Anqi Liu
+
+Activation steering is a popular white-box control technique that modifies model activations to elicit an abstract change in its behavior. It has also become a standard tool in interpretability (e.g., probing truthfulness, or translating activations into human-readable explanations) and safety resea...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.09839</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -80,15 +80,6 @@ Evaluating instruction-guided image edits requires rewards that reflect subtle h
 Monitoring complex industrial assets relies on engineer-authored symbolic rules that trigger based on sensor conditions and prompt technicians to perform corrective actions. The bottleneck is not detection but response: translating rules into maintenance steps requires asset-specific knowledge gaine...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.08614</guid>
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Forcing-KV: Hybrid KV Cache Compression for Efficient Autoregressive Video Diffusion Models</title>
-      <link>https://huggingface.co/papers/2605.09681</link>
-      <description>By Yicheng Ji, Zhizhou Zhong, Jun Zhang, Qin Yang, XiTai Jin, et al.
-
-Autoregressive (AR) video diffusion models adopt a streaming generation framework, enabling long-horizon video generation with real-time responsiveness, as exemplified by the Self Forcing training paradigm. However, existing AR video diffusion models still suffer from significant attention complexit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09681</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Adaptive Teacher Exposure for Self-Distillation in LLM Reasoning</title>
@@ -134,15 +125,6 @@ Cross-embodiment video generation aims to transfer motions across different huma
 Group Relative Policy Optimisation (GRPO) enhances large language models by estimating advantages across a group of sampled trajectories. However, mapping these trajectory-level advantages to policy updates requires aggregating token-level probabilities within each sequence. Relying on a fixed aggre...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.12058</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PRISM: Prior Rectification and Uncertainty-Aware Structure Modeling for Diffusion-Based Text Image Super-Resolution</title>
-      <link>https://huggingface.co/papers/2605.13027</link>
-      <description>By Zihang Xu, Xiaoyang Liu, Zheng Chen, Yulun Zhang, Xiaokang Yang
-
-Text image super-resolution (Text-SR) requires more than visually plausible detail synthesis: slight errors in stroke topology may alter character identity and break readability. Existing methods improve text fidelity with stronger recognition-based or generative priors, yet they still face two unre...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.13027</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PanoWorld: Towards Spatial Supersensing in 360^circ Panorama World</title>
@@ -206,25 +188,6 @@ Multimodal Large Language Models (MLLMs) have significantly advanced document un
 Whether navigating a building, operating a robot, or playing a game, an agent that acts effectively in an environment must first learn an internal model of how that environment works. Partially-observable Markov decision processes (POMDPs) provide a flexible modeling class for such internal world mo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.13740</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dynamic Latent Routing</title>
-      <link>https://huggingface.co/papers/2605.14323</link>
-      <description>By Fangyuan Yu, Xin Su, Amir Abdullah
-
-We investigate the temporal concatenation of sub-policies in Markov Decision Processes (MDP) with time-varying reward functions. We introduce General Dijkstra Search (GDS), and prove that globally optimal goal-reaching policies can be recovered through temporal composition of intermediate optimal su...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.14323</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unlocking Complex Visual Generation via Closed-Loop Verified Reasoning</title>
-      <link>https://huggingface.co/papers/2605.14876</link>
-      <description>By Hanbo Cheng, Limin Lin, Ruo Zhang, Yicheng Pan, Jun Du
-
-Despite rapid advancements, current text-to-image (T2I) models predominantly rely on a single-step generation paradigm, which struggles with complex semantics and faces diminishing returns from parameter scaling.
-  While recent multi-step reasoning approaches show promise, they are hindered by ungro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.14876</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Overcoming Dynamics-Blindness: Training-Free Pace-and-Path Correction for VLA Models</title>
@@ -380,6 +343,15 @@ Multi-head Latent Attention (MLA), the attention used in DeepSeek-V2/V3, jointly
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ChangeFlow -- Latent Rectified Flow for Change Detection in Remote Sensing</title>
+      <link>https://huggingface.co/papers/2605.15375</link>
+      <description>By Blaž Rolih, Matic Fučka, Filip Wolf, Luka Čehovin Zajc
+
+Remote sensing change detection (RSCD) aims to localise changes between two images of the same geographic region. In practice, change masks often follow region-level annotation conventions rather than purely local appearance differences, making them context-dependent and occasionally ambiguous. Most...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15375</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Look Before You Leap: Autonomous Exploration for LLM Agents</title>
       <link>https://huggingface.co/papers/2605.16143</link>
       <description>By Ziang Ye, Wentao Shi, Yuxin Liu, Yu Wang, Zhengzhou Cai, et al.
@@ -458,6 +430,33 @@ Human-centric video customization, particularly at the garment level, has shown 
 
 Vision-Language Models (VLMs) excel at 2D tasks such as grounding and captioning, yet remain limited in 3D understanding. A key limitation is their text-only supervision paradigm, which under-constrains fine-grained visual perception and prevents the recovery of dense geometry. Prior methods either ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.15876</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CM-EVS: Sparse Panoramic RGB-D-Pose Data for Complete Scene Coverage</title>
+      <link>https://huggingface.co/papers/2605.15597</link>
+      <description>By Jiale Liu, Jungang Li, Jieming Yu, Xinglin Yu, Zihao Dongfang, et al.
+
+Modern 3D visual learning relies on observations sampled from metric 3D assets, yet existing scans, meshes, point clouds, simulations, and reconstructions do not directly provide a sparse, comparable, and geometry-consistent panoramic training interface. Dense trajectories duplicate nearby views, so...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15597</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sparse Autoencoders enable Robust and Interpretable Fine-tuning of CLIP models</title>
+      <link>https://huggingface.co/papers/2605.15961</link>
+      <description>By Fabian Morelli, Arnas Uselis, Ankit Sonthalia, Seong Joon Oh
+
+Large-scale pre-trained vision-language models like CLIP demonstrate remarkable zero-shot performance across diverse tasks. However, fine-tuning these models to improve downstream performance often degrades robustness against distribution shifts. Recent approaches have attempted to mitigate this tra...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15961</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient Image Synthesis with Sphere Latent Encoder</title>
+      <link>https://huggingface.co/papers/2605.15592</link>
+      <description>By Tung Do, Thuan Hoang Nguyen, Hao Li
+
+Few-step image generation has seen rapid progress, with consistency and meanflow-based methods significantly reducing the number of sampling steps. Despite their low inference cost, these approaches often suffer from training instability and limited scalability. Sphere Encoder is a recent alternativ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15592</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

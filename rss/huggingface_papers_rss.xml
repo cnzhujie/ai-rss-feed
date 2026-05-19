@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 May 2026 12:16:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 16:27:35 +0000</lastBuildDate>
     <item>
       <title>Stress-Testing the Reasoning Competence of LLMs With Proofs Under Minimal Formalism</title>
       <link>https://huggingface.co/papers/2605.12524</link>
@@ -17,15 +17,6 @@
 We introduce ProofGrid, a benchmark suite for evaluating LLM reasoning through machine-checkable proofs rather than final answers alone. ProofGrid contains 15 tasks spanning proof writing, proof checking, proof masking, and proof gap-filling. Tasks are expressed in minimal formal notation, especiall...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.12524</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steered LLM Activations are Non-Surjective</title>
-      <link>https://huggingface.co/papers/2604.09839</link>
-      <description>By Aayush Mishra, Daniel Khashabi, Anqi Liu
-
-Activation steering is a popular white-box control technique that modifies model activations to elicit an abstract change in its behavior. It has also become a standard tool in interpretability (e.g., probing truthfulness, or translating activations into human-readable explanations) and safety resea...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.09839</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MLAIRE: Multilingual Language-Aware Information Retrieval Evaluation Protocal</title>
@@ -46,13 +37,13 @@ Reconstructing a structured vector-graphics representation from a rasterized flo
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Follow the Mean: Reference-Guided Flow Matching</title>
-      <link>https://huggingface.co/papers/2605.10302</link>
-      <description>By Pedro M. P. Curvo, Maksim Zhdanov, Floor Eijkelboom, Jan-Willem van de Meent
+      <title>AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2603.10126</link>
+      <description>By Yutong Hu, Jan-Nico Zaech, Nikolay Nikolov, Yuanqi Yao, Sombit Dey, et al.
 
-Existing approaches to controllable generation typically rely on fine-tuning, auxiliary networks, or test-time search. We show that flow matching admits a different control interface: adaptation through examples. For deterministic interpolants, the velocity field is solely governed by a conditional ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.10302</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+We propose a standalone autoregressive (AR) Action Expert that generates actions as a continuous causal sequence while conditioning on refreshable vision-language prefixes. In contrast to existing Vision-Language-Action (VLA) models and diffusion policies that reset temporal context with each new ob...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.10126</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>No One Knows the State of the Art in Geospatial Foundation Models</title>
@@ -89,24 +80,6 @@ We audit the multimodal-physics evaluation pipeline end-to-end and document thre
 Large language models (LLMs) increasingly act as autonomous agents that must decide when to answer directly vs. when to invoke external tools. Prior work studying adaptive tool use has largely treated tool necessity as a model-agnostic property, annotated by human or LLM judge, and mostly cover case...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.14038</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Forgetting That Sticks: Quantization-Permanent Unlearning via Circuit Attribution</title>
-      <link>https://huggingface.co/papers/2605.15138</link>
-      <description>By Saisab Sadhu, Pratinav Seth, Vinay Kumar Sankarapu
-
-Standard unlearning evaluations measure behavioral suppression in full precision, immediately after training, despite every deployed language model being quantized first. Recent work has shown that 4-bit post-training quantization can reverse machine unlearning; we show this is not a tuning artefact...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15138</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Known By Their Actions: Fingerprinting LLM Browser Agents via UI Traces</title>
-      <link>https://huggingface.co/papers/2605.14786</link>
-      <description>By William Lugoloobi, Samuelle Marro, Jabez Magomere, Joss Wright, Chris Russell
-
-As LLM-based agents increasingly browse the web on users' behalf, a natural question arises: can websites passively identify which underlying model powers an agent? Doing so would represent a significant security risk, enabling targeted attacks tailored to known model vulnerabilities. Across 14 fron...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.14786</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AuralSAM2: Enabling SAM2 Hear Through Pyramid Audio-Visual Feature Prompting</title>
@@ -172,6 +145,17 @@ Large language models (LLMs) are increasingly being applied to financial analysi
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>TopoPrimer: The Missing Topological Context in Forecasting Models</title>
+      <link>https://huggingface.co/papers/2605.15035</link>
+      <description>By Zara Zetlin, Kayhan Moharreri, Maria Safi
+
+We introduce TopoPrimer, a framework that makes the global topological structure of the series population an explicit input
+  to any forecasting model. TopoPrimer improves accuracy across diverse domains, stabilizes forecasts under seasonal demand
+  spikes, and closes the cold-start gap. Precomputed...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15035</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Measuring Maximum Activations in Open Large Language Models</title>
       <link>https://huggingface.co/papers/2605.15572</link>
       <description>By Luxuan Chen, Han Tian, Xinran Chen, Rui Kong, Fang Wang, et al.
@@ -205,6 +189,15 @@ Large Vision-Language Models (LVLMs) have shown significant progress in video un
 
 End-to-end automation of realistic healthcare operations stresses three capabilities underrepresented in current benchmarks: policy density, decisions must be grounded in a large library of medical, insurance, and operational rules; Multi-role composition: a single task requires the agent to play mu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.16679</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs</title>
+      <link>https://huggingface.co/papers/2605.15565</link>
+      <description>By Haizhong Zheng, Yizhuo Di, Jiahui Wang, Shuowei Jin, Xueshen Liu, et al.
+
+Reinforcement learning (RL) is increasingly used to improve the reasoning, coding, and tool-use capabilities of large language models, but agentic RL remains prohibitively expensive. Scaling RL to agentic LLMs requires supporting complex workloads, including multi-policy collaborative training, whil...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15565</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +450,15 @@ Diffusion models have been widely studied for removing unsafe content learned du
 
 Recent GUI agents have made substantial progress in visual grounding and action prediction, yet they remain brittle in long-horizon tasks that require maintaining task state across many interface transitions. Existing agents typically rely on raw history replay or text-only memory, which either over...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.18652</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating Cognitive Age Alignment in Interactive AI Agents</title>
+      <link>https://huggingface.co/papers/2605.17894</link>
+      <description>By Yifan Shen, Jiawen Zhang, Jian Xu, Junho Kim, Ismini Lourentzou, et al.
+
+While agentic AI and its core multimodal large language models (MLLMs) have demonstrated remarkable promise in language and visual reasoning across domains ranging from daily life to advanced scientific research, a profound gap remains between artificial and human intelligence. Despite the integrati...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.17894</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 May 2026 08:33:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 12:16:39 +0000</lastBuildDate>
     <item>
       <title>Stress-Testing the Reasoning Competence of LLMs With Proofs Under Minimal Formalism</title>
       <link>https://huggingface.co/papers/2605.12524</link>
@@ -17,15 +17,6 @@
 We introduce ProofGrid, a benchmark suite for evaluating LLM reasoning through machine-checkable proofs rather than final answers alone. ProofGrid contains 15 tasks spanning proof writing, proof checking, proof masking, and proof gap-filling. Tasks are expressed in minimal formal notation, especiall...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.12524</guid>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MobileEgo Anywhere: Open Infrastructure for long horizon egocentric data on commodity hardware</title>
-      <link>https://huggingface.co/papers/2605.05945</link>
-      <description>By Senthil Palanisamy, Abhishek Anand, Satpal Singh Rathor, Pratyush Patnaik, Shubhanshu Khatana
-
-The recent advancement of Vision Language Action (VLA) models has driven a critical demand for large scale egocentric datasets. However, existing datasets are often limited by short episode durations, typically spanning only a few minutes, which fails to capture the long horizon temporal dependencie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.05945</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Steered LLM Activations are Non-Surjective</title>
@@ -55,15 +46,6 @@ Reconstructing a structured vector-graphics representation from a rasterized flo
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hölder Policy Optimisation</title>
-      <link>https://huggingface.co/papers/2605.12058</link>
-      <description>By Yuxiang Chen, Dingli Liang, Yihang Chen, Ziqin Gong, Chenyang Le, et al.
-
-Group Relative Policy Optimisation (GRPO) enhances large language models by estimating advantages across a group of sampled trajectories. However, mapping these trajectory-level advantages to policy updates requires aggregating token-level probabilities within each sequence. Relying on a fixed aggre...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12058</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Follow the Mean: Reference-Guided Flow Matching</title>
       <link>https://huggingface.co/papers/2605.10302</link>
       <description>By Pedro M. P. Curvo, Maksim Zhdanov, Floor Eijkelboom, Jan-Willem van de Meent
@@ -91,15 +73,6 @@ Language models are instruction-tuned to refuse harmful requests, but the mechan
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Learning POMDP World Models from Observations with Language-Model Priors</title>
-      <link>https://huggingface.co/papers/2605.13740</link>
-      <description>By Valentin Six, Frederik Panse, Mathis Fajeau, Lancelot Da Costa, Mridul Sharma, et al.
-
-Whether navigating a building, operating a robot, or playing a game, an agent that acts effectively in an environment must first learn an internal model of how that environment works. Partially-observable Markov decision processes (POMDPs) provide a flexible modeling class for such internal world mo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.13740</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Physics-R1: An Audited Olympiad Corpus and Recipe for Visual Physics Reasoning</title>
       <link>https://huggingface.co/papers/2605.14040</link>
       <description>By Shan Yang
@@ -116,24 +89,6 @@ We audit the multimodal-physics evaluation pipeline end-to-end and document thre
 Large language models (LLMs) increasingly act as autonomous agents that must decide when to answer directly vs. when to invoke external tools. Prior work studying adaptive tool use has largely treated tool necessity as a model-agnostic property, annotated by human or LLM judge, and mostly cover case...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.14038</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GQLA: Group-Query Latent Attention for Hardware-Adaptive Large Language Model Decoding</title>
-      <link>https://huggingface.co/papers/2605.15250</link>
-      <description>By Fanxu Meng
-
-Multi-head Latent Attention (MLA), the attention used in DeepSeek-V2/V3, jointly compresses keys and values into a low-rank latent and matches the H100 roofline almost perfectly. Its trained weights, however, expose only one decoding path - an absorbed MQA form - which ties efficient inference to H1...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15250</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ChangeFlow -- Latent Rectified Flow for Change Detection in Remote Sensing</title>
-      <link>https://huggingface.co/papers/2605.15375</link>
-      <description>By Blaž Rolih, Matic Fučka, Filip Wolf, Luka Čehovin Zajc
-
-Remote sensing change detection (RSCD) aims to localise changes between two images of the same geographic region. In practice, change masks often follow region-level annotation conventions rather than purely local appearance differences, making them context-dependent and occasionally ambiguous. Most...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15375</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Forgetting That Sticks: Quantization-Permanent Unlearning via Circuit Attribution</title>
@@ -208,31 +163,13 @@ Aligning streaming autoregressive (AR) video generators with human preferences i
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CM-EVS: Sparse Panoramic RGB-D-Pose Data for Complete Scene Coverage</title>
-      <link>https://huggingface.co/papers/2605.15597</link>
-      <description>By Jiale Liu, Jungang Li, Jieming Yu, Xinglin Yu, Zihao Dongfang, et al.
+      <title>FINESSE-Bench: A Hierarchical Benchmark Suite for Financial Domain Knowledge and Technical Analysis in Large Language Models</title>
+      <link>https://huggingface.co/papers/2605.15482</link>
+      <description>By Dmitry Stanishevskii, Nini Kamkia, Alexey Khoroshilov, Dmitry Zmitrovich, Denis Kokosinskii, et al.
 
-Modern 3D visual learning relies on observations sampled from metric 3D assets, yet existing scans, meshes, point clouds, simulations, and reconstructions do not directly provide a sparse, comparable, and geometry-consistent panoramic training interface. Dense trajectories duplicate nearby views, so...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15597</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sparse Autoencoders enable Robust and Interpretable Fine-tuning of CLIP models</title>
-      <link>https://huggingface.co/papers/2605.15961</link>
-      <description>By Fabian Morelli, Arnas Uselis, Ankit Sonthalia, Seong Joon Oh
-
-Large-scale pre-trained vision-language models like CLIP demonstrate remarkable zero-shot performance across diverse tasks. However, fine-tuning these models to improve downstream performance often degrades robustness against distribution shifts. Recent approaches have attempted to mitigate this tra...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15961</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Efficient Image Synthesis with Sphere Latent Encoder</title>
-      <link>https://huggingface.co/papers/2605.15592</link>
-      <description>By Tung Do, Thuan Hoang Nguyen, Hao Li
-
-Few-step image generation has seen rapid progress, with consistency and meanflow-based methods significantly reducing the number of sampling steps. Despite their low inference cost, these approaches often suffer from training instability and limited scalability. Sphere Encoder is a recent alternativ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15592</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+Large language models (LLMs) are increasingly being applied to financial analysis, reporting, investment decision support, risk management, compliance, and professional training. However, robust evaluation of their domain competence in finance remains incomplete. Widely used open benchmarks such as ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15482</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Measuring Maximum Activations in Open Large Language Models</title>
@@ -250,6 +187,24 @@ The dynamic range of activations is a first-order constraint for low-bit quantiz
 
 Understanding social interactions requires reasoning over subtle non-verbal cues, yet current multimodal large language models (MLLMs) often fail to identify who interacts with whom in multi-person videos. We introduce GRASP, a large-scale social reasoning dataset that connects high-level social QA ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.15764</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VideoSeeker: Incentivizing Instance-level Video Understanding via Native Agentic Tool Invocation</title>
+      <link>https://huggingface.co/papers/2605.16079</link>
+      <description>By Yiming Zhao, Yu Zeng, Wenxuan Huang, Zhen Fang, Qing Miao, et al.
+
+Large Vision-Language Models (LVLMs) have shown significant progress in video understanding, yet they face substantial challenges in tasks requiring precise spatiotemporal localization at the instance level. Existing methods primarily rely on text prompts for human-model interaction, but these promp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.16079</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CHI-Bench: Can AI Agents Automate End-to-End, Long-Horizon, Policy-Rich Healthcare Workflows?</title>
+      <link>https://huggingface.co/papers/2605.16679</link>
+      <description>By Haolin Chen, Deon Metelski, Leon Qi, Tao Xia, Joonyul Lee, et al.
+
+End-to-end automation of realistic healthcare operations stresses three capabilities underrepresented in current benchmarks: policy density, decisions must be grounded in a large library of medical, insurance, and operational rules; Multi-role composition: a single task requires the agent to play mu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.16679</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -286,6 +241,33 @@ GPU kernel optimization is increasingly critical for efficient deep learning sys
 
 Supervised fine-tuning (SFT) is widely used to inject new knowledge into language models, but it often degrades pretrained capabilities such as reasoning and general-domain performance. We argue this forgetting arises because fine-tuning targets from humans or external systems diverge from the model...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.16865</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NGM: A Plug-and-Play Training-Free Memory Module for LLMs</title>
+      <link>https://huggingface.co/papers/2605.16893</link>
+      <description>By Yuwen Qu, Wenhui Dong, Chenyang Si, Caifeng Shan
+
+Recent studies introduce conditional memory modules that decouple knowledge storage from neural computation, enabling more direct knowledge access. Compared to MoE, which relies on dynamic computation paths, explicit lookup provides a more efficient knowledge retrieval mechanism. However, these appr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.16893</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TOBench: A Task-Oriented Omni-Modal Benchmark for Real-World Tool-Using Agents</title>
+      <link>https://huggingface.co/papers/2605.16909</link>
+      <description>By Zhiqiang Liu, Wenhui Dong, Yilang Tan, Yuwen Qu, Haochen Yin, et al.
+
+Tool-using agents are increasingly expected to operate across realistic professional workflows, where they must interpret multimodal inputs, coordinate external tools, inspect intermediate artifacts, and revise their actions before producing a final result. Existing benchmarks, however, often evalua...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.16909</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring</title>
+      <link>https://huggingface.co/papers/2605.16882</link>
+      <description>By Wenjun Wang, Yanggan Gu, Shuo Cai, Yuanyi Wang, Pengkai Wang, et al.
+
+Low-resource deployment constraints have made model quantization essential for deploying neural networks while preserving performance. Meanwhile, model merging has become an increasingly practical low-resource strategy for integrating multiple task- or domain-specialized experts into a single model ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.16882</guid>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Long-horizon LLM agents leave traces that could become reusable experience, but 
 
 Large Reasoning Models (LRMs) introduce new opportunities for safety monitoring through their Chain of Thought (CoT) reasoning. However, CoT is not always faithful to the model's final output, undermining its reliability as a monitoring tool. To address this, we investigate the hidden representation...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.18549</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SafeDiffusion-R1: Online Reward Steering for Safe Diffusion Post-Training</title>
+      <link>https://huggingface.co/papers/2605.18719</link>
+      <description>By Komal Kumar, Ankan Deria, Abhishek Basu, Fahad Shamshad, Hisham Cholakkal, et al.
+
+Diffusion models have been widely studied for removing unsafe content learned during pre-training. Existing methods require expensive supervised data, either unsafe-text paired with safe-image groundtruth or negative/positive image pairs, making them impractical to scale. Furthermore, offline reinfo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18719</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents</title>
+      <link>https://huggingface.co/papers/2605.18652</link>
+      <description>By Ziyun Zeng, Hang Hua, Bocheng Zou, Mu Cai, Rogerio Feris, et al.
+
+Recent GUI agents have made substantial progress in visual grounding and action prediction, yet they remain brittle in long-horizon tasks that require maintaining task state across many interface transitions. Existing agents typically rely on raw history replay or text-only memory, which either over...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18652</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 May 2026 19:07:42 +0000</lastBuildDate>
-    <item>
-      <title>Stress-Testing the Reasoning Competence of LLMs With Proofs Under Minimal Formalism</title>
-      <link>https://huggingface.co/papers/2605.12524</link>
-      <description>By Konstantine Arkoudas, Serafim Batzoglou
-
-We introduce ProofGrid, a benchmark suite for evaluating LLM reasoning through machine-checkable proofs rather than final answers alone. ProofGrid contains 15 tasks spanning proof writing, proof checking, proof masking, and proof gap-filling. Tasks are expressed in minimal formal notation, especiall...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.12524</guid>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 19 May 2026 21:26:32 +0000</lastBuildDate>
     <item>
       <title>AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models</title>
       <link>https://huggingface.co/papers/2603.10126</link>
@@ -55,15 +46,6 @@ Language models are instruction-tuned to refuse harmful requests, but the mechan
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Physics-R1: An Audited Olympiad Corpus and Recipe for Visual Physics Reasoning</title>
-      <link>https://huggingface.co/papers/2605.14040</link>
-      <description>By Shan Yang
-
-We audit the multimodal-physics evaluation pipeline end-to-end and document three undetected construction practices that distort how the field measures vision-language reasoning: train-eval contamination, translation drift, and MCQ saturation. (1) Public training pools (UGPhysics-Train, SciInstruct,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.14040</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use</title>
       <link>https://huggingface.co/papers/2605.14038</link>
       <description>By Yize Cheng, Chenrui Fan, Mahdi JafariRaviz, Keivan Rezaei, Soheil Feiz
@@ -71,15 +53,6 @@ We audit the multimodal-physics evaluation pipeline end-to-end and document thre
 Large language models (LLMs) increasingly act as autonomous agents that must decide when to answer directly vs. when to invoke external tools. Prior work studying adaptive tool use has largely treated tool necessity as a model-agnostic property, annotated by human or LLM judge, and mostly cover case...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.14038</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MetaAgent-X : Breaking the Ceiling of Automatic Multi-Agent Systems via End-to-End Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2605.14212</link>
-      <description>By Yaolun Zhang, Yujie Zhao, Nan Wang, Yiran Wu, Jiayu Chang, et al.
-
-Automatic multi-agent systems aim to instantiate agent workflows without relying on manually designed or fixed orchestration. However, existing automatic MAS approaches remain only partially adaptive: they either perform training-free test-time search or optimize the meta-level designer while keepin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.14212</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Auditing Agent Harness Safety</title>
@@ -459,6 +432,33 @@ Evaluating embodied systems on real dexterous hardware requires more than isolat
 
 A striking geometric disparity has long persisted in the practice of deep learning. While modern neural network architectures naturally exhibit rich symmetry and equivariance properties, popular optimizers such as Adam and its variants operate inherently coordinate-wise, rendering them unable to res...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.18106</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SCICONVBENCH: Benchmarking LLMs on Multi-Turn Clarification for Task Formulation in Computational Science</title>
+      <link>https://huggingface.co/papers/2605.18630</link>
+      <description>By Nithin Somasekharan, Youssef Hassan, Shiyao Lin, Gihan Panapitiya, Patrick Emami, et al.
+
+Large Language Models (LLMs) are increasingly deployed as scientific AI as- sistants, and a growing body of benchmarks evaluates their capabilities across knowledge retrieval, reasoning, code generation, and tool use. These evaluations, however, typically assume the scientific problem is already wel...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18630</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WavFlow: Audio Generation in Waveform Space</title>
+      <link>https://huggingface.co/papers/2605.18749</link>
+      <description>By Feiyan Zhou, Luyuan Wang, Shoufa Chen, Zhe Wang, Zhiheng Liu, et al.
+
+Modern audio generation predominantly relies on latent-space compression, introducing additional complexity and potential information loss. In this work, we challenge this paradigm with WavFlow, a framework that generates high-fidelity audio directly in raw waveform space without intermediate repres...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18749</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache Quantization</title>
+      <link>https://huggingface.co/papers/2605.17757</link>
+      <description>By Zhongzhu Zhou, Donglin Zhuang, Jisen Li, Ziyan Chen, Shuaiwen Leon Song, et al.
+
+INT2 KV-cache quantization is attractive for long-context LLM serving, but it remains difficult to make both accurate and deployable. Simple rotations such as Hadamard transforms reduce outliers, but still degrade at INT2 because they are not aligned with downstream attention. We propose OSCAR, an U...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.17757</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

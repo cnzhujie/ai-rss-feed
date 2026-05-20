@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 15:42:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 18:25:14 +0000</lastBuildDate>
     <item>
       <title>OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments</title>
       <link>https://huggingface.co/papers/2605.18758</link>
@@ -25,6 +25,15 @@ Current benchmarks for graphical user interface (GUI) agents predominantly rely 
 
 Recent studies suggest that Reinforcement Fine-Tuning (RFT) is inherently more resilient to catastrophic forgetting than Supervised Fine-Tuning (SFT). However, whether RFT (e.g., GRPO) can effectively overcome forgetting in challenging visual continual learning settings, such as class-incremental le...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09640</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching</title>
+      <link>https://huggingface.co/papers/2605.09789</link>
+      <description>By Kejia Ren, Gaotian Wang, Andrew S. Morgan, Kaiyu Hang
+
+Dexterous manipulation is physics-intensive and highly sensitive to modeling errors and perception noise, making sim-to-real transfer prohibitively challenging. Domain randomization (DR) is commonly used to improve the robustness of learned policies for such tasks, but conventional DR randomizes one...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.09789</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -120,24 +129,6 @@ Humans naturally communicate through abstract concepts like "mood". However, cur
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>VideoSeeker: Incentivizing Instance-level Video Understanding via Native Agentic Tool Invocation</title>
-      <link>https://huggingface.co/papers/2605.16079</link>
-      <description>By Yiming Zhao, Yu Zeng, Wenxuan Huang, Zhen Fang, Qing Miao, et al.
-
-Large Vision-Language Models (LVLMs) have shown significant progress in video understanding, yet they face substantial challenges in tasks requiring precise spatiotemporal localization at the instance level. Existing methods primarily rely on text prompts for human-model interaction, but these promp...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.16079</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CHI-Bench: Can AI Agents Automate End-to-End, Long-Horizon, Policy-Rich Healthcare Workflows?</title>
-      <link>https://huggingface.co/papers/2605.16679</link>
-      <description>By Haolin Chen, Deon Metelski, Leon Qi, Tao Xia, Joonyul Lee, et al.
-
-End-to-end automation of realistic healthcare operations stresses three capabilities underrepresented in current benchmarks: policy density, decisions must be grounded in a large library of medical, insurance, and operational rules; Multi-role composition: a single task requires the agent to play mu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.16679</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs</title>
       <link>https://huggingface.co/papers/2605.15565</link>
       <description>By Haizhong Zheng, Yizhuo Di, Jiahui Wang, Shuowei Jin, Xueshen Liu, et al.
@@ -174,12 +165,21 @@ Pairwise Ranking Prompting (PRP) elicits pairwise preference judgments from an L
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring</title>
-      <link>https://huggingface.co/papers/2605.16882</link>
-      <description>By Wenjun Wang, Yanggan Gu, Shuo Cai, Yuanyi Wang, Pengkai Wang, et al.
+      <title>RoPE Distinguishes Neither Positions Nor Tokens in Long Contexts, Provably</title>
+      <link>https://huggingface.co/papers/2605.15514</link>
+      <description>By Yufeng Du, Phillip Harris, Minyang Tian, Eliu A Huerta, Srikanth Ronanki, et al.
 
-Low-resource deployment constraints have made model quantization essential for deploying neural networks while preserving performance. Meanwhile, model merging has become an increasingly practical low-resource strategy for integrating multiple task- or domain-specialized experts into a single model ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.16882</guid>
+We identify intrinsic limitations of Rotary Positional Embeddings (RoPE) in Transformer-based long-context language models. Our theoretical analysis abstracts away from the specific content of the context and depends only on its length. We prove that as context length increases, RoPE-based attention...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15514</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Do Reasoning Models Lose Coverage? The Role of Data and Forks in the Road</title>
+      <link>https://huggingface.co/papers/2605.17026</link>
+      <description>By Ngoc-Hieu Nguyen, Parshin Shojaee, Phuc Minh Nguyen, Nan Zhang, Chandan K Reddy, et al.
+
+Recent progress in large language models has led to the emergence of reasoning models, which have shown strong performance on complex tasks through specialized fine-tuning procedures. While these methods reliably improve pass@1 accuracy, prior works have observed that they show a coverage shrinkage ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.17026</guid>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -190,24 +190,6 @@ Low-resource deployment constraints have made model quantization essential for d
 Real-time duplex interaction is essential for multimodal AI systems operating in real-world scenarios, where models must continuously process streaming inputs and respond at appropriate moments. However, most existing multimodal large language models (MLLMs) are evaluated in offline settings, where ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.17360</guid>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents</title>
-      <link>https://huggingface.co/papers/2605.18652</link>
-      <description>By Ziyun Zeng, Hang Hua, Bocheng Zou, Mu Cai, Rogerio Feris, et al.
-
-Recent GUI agents have made substantial progress in visual grounding and action prediction, yet they remain brittle in long-horizon tasks that require maintaining task state across many interface transitions. Existing agents typically rely on raw history replay or text-only memory, which either over...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18652</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Evaluating Cognitive Age Alignment in Interactive AI Agents</title>
-      <link>https://huggingface.co/papers/2605.17894</link>
-      <description>By Yifan Shen, Jiawen Zhang, Jian Xu, Junho Kim, Ismini Lourentzou, et al.
-
-While agentic AI and its core multimodal large language models (MLLMs) have demonstrated remarkable promise in language and visual reasoning across domains ranging from daily life to advanced scientific research, a profound gap remains between artificial and human intelligence. Despite the integrati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.17894</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DexHoldem: Playing Texas Hold'em with Dexterous Embodied System</title>
@@ -324,6 +306,15 @@ Modern large language model (LLM) applications increasingly rely on long conditi
 
 Backdoor attacks on language models pose a growing security concern, yet the internal mechanisms by which a trigger sequence hijacks model computations remain poorly understood. We identify a circuit underlying a language-switching backdoor in an 8B-parameter autoregressive language model, where a t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.18646</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harnessing LLM Agents with Skill Programs</title>
+      <link>https://huggingface.co/papers/2605.17734</link>
+      <description>By Hongjun Liu, Yifei Ming, Shafiq Joty, Chen Zhao
+
+Equipping LLM agents with reusable skills derived from past experience has become a popular and successful approach for tackling complex and long-horizon tasks. However, such lessons are often encoded as textual guidance that remains largely advisory, lacking explicit mechanisms for when and how to ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.17734</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -459,6 +450,15 @@ Omni-modal large language models (om-LLMs) achieve unified audio-visual understa
 
 4D mesh generation has recently emerged as a powerful paradigm for recovering dynamic 3D structure from videos, but existing methods remain slow, computationally expensive, and difficult to scale to longer sequences. We introduce a training-free approach that accelerates 4D mesh generation while imp...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.19786</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes</title>
+      <link>https://huggingface.co/papers/2605.19305</link>
+      <description>By Tianshu Kuai, Arman Maesumi, Daniel Ritchie, Noam Aigerman
+
+This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulati...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.19305</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

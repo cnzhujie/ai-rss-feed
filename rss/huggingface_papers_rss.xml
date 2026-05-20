@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 21:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 23:19:08 +0000</lastBuildDate>
     <item>
       <title>OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments</title>
       <link>https://huggingface.co/papers/2605.18758</link>
@@ -181,33 +181,6 @@ The design of modern neural architectures has converged through incremental empi
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Symmetry-Compatible Principle for Optimizer Design: Embeddings, LM Heads, SwiGLU MLPs, and MoE Routers</title>
-      <link>https://huggingface.co/papers/2605.18106</link>
-      <description>By Tim Tsz-Kit Lau, Weijie Su
-
-A striking geometric disparity has long persisted in the practice of deep learning. While modern neural network architectures naturally exhibit rich symmetry and equivariance properties, popular optimizers such as Adam and its variants operate inherently coordinate-wise, rendering them unable to res...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18106</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SCICONVBENCH: Benchmarking LLMs on Multi-Turn Clarification for Task Formulation in Computational Science</title>
-      <link>https://huggingface.co/papers/2605.18630</link>
-      <description>By Nithin Somasekharan, Youssef Hassan, Shiyao Lin, Gihan Panapitiya, Patrick Emami, et al.
-
-Large Language Models (LLMs) are increasingly deployed as scientific AI as- sistants, and a growing body of benchmarks evaluates their capabilities across knowledge retrieval, reasoning, code generation, and tool use. These evaluations, however, typically assume the scientific problem is already wel...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18630</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WavFlow: Audio Generation in Waveform Space</title>
-      <link>https://huggingface.co/papers/2605.18749</link>
-      <description>By Feiyan Zhou, Luyuan Wang, Shoufa Chen, Zhe Wang, Zhiheng Liu, et al.
-
-Modern audio generation predominantly relies on latent-space compression, introducing additional complexity and potential information loss. In this work, we challenge this paradigm with WavFlow, a framework that generates high-fidelity audio directly in raw waveform space without intermediate repres...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18749</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache Quantization</title>
       <link>https://huggingface.co/papers/2605.17757</link>
       <description>By Zhongzhu Zhou, Donglin Zhuang, Jisen Li, Ziyan Chen, Shuaiwen Leon Song, et al.
@@ -313,6 +286,15 @@ Equipping LLM agents with reusable skills derived from past experience has becom
 
 Large language models (LLMs) are highly susceptible to backdoor attacks (BAs), wherein training samples are poisoned using trigger-based harmful content. Furthermore, existing defenses have proven ineffective when extensively tested across BA patterns. To better combat BAs, we explore the use of LLM...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.19147</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interactive Evaluation Requires a Design Science</title>
+      <link>https://huggingface.co/papers/2605.17829</link>
+      <description>By Keyang Xuan, Peiyang Song, Pan Lu, Pengrui Han, Wenkai Li, et al.
+
+AI evaluation is undergoing a structural change. Large language models (LLMs) are increasingly deployed as systems that act over time through tools, environments, users, and other agents, while many evaluation practices still inherit assumptions from response-centered benchmarks (e.g., fixed inputs,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.17829</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Omni-modal large language models (om-LLMs) achieve unified audio-visual understa
 
 This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulati...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.19305</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Base Models Look Human To AI Detectors</title>
+      <link>https://huggingface.co/papers/2605.19516</link>
+      <description>By Yixuan Even Xu, Ziqian Zhong, Aditi Raghunathan, Fei Fang, J. Zico Kolter
+
+As AI-generated text enters the real-world at scale, institutions increasingly use commercial AI-text detectors, especially in education and academic-integrity workflows. We report a surprising empirical finding about such systems: when evaluated by GPTZero and Pangram, generated text from base mode...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.19516</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not Every Rubric Teaches Equally: Policy-Aware Rubric Rewards for RLVR</title>
+      <link>https://huggingface.co/papers/2605.20164</link>
+      <description>By Utkarsh Tyagi, Xingang Guo, MohammadHossein Rezaei, Daniel George, Anas Mahmoud, et al.
+
+Reinforcement learning with verifiable rewards has made post-training highly effective when correctness can be checked automatically. However, many important model behaviors require satisfying several qualitative criteria at once. Rubric-based rewards address this setting by grading prompt-specific ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.20164</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

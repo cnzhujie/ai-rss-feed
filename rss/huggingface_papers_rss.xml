@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 11:53:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 15:42:21 +0000</lastBuildDate>
     <item>
       <title>OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments</title>
       <link>https://huggingface.co/papers/2605.18758</link>
@@ -91,15 +91,6 @@ Despite rapid progress in video-capable MLLMs, we find that their apparent audio
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>FINESSE-Bench: A Hierarchical Benchmark Suite for Financial Domain Knowledge and Technical Analysis in Large Language Models</title>
-      <link>https://huggingface.co/papers/2605.15482</link>
-      <description>By Dmitry Stanishevskii, Nini Kamkia, Alexey Khoroshilov, Dmitry Zmitrovich, Denis Kokosinskii, et al.
-
-Large language models (LLMs) are increasingly being applied to financial analysis, reporting, investment decision support, risk management, compliance, and professional training. However, robust evaluation of their domain competence in finance remains incomplete. Widely used open benchmarks such as ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15482</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>TopoPrimer: The Missing Topological Context in Forecasting Models</title>
       <link>https://huggingface.co/papers/2605.15035</link>
       <description>By Zara Zetlin, Kayhan Moharreri, Maria Safi
@@ -117,6 +108,15 @@ We introduce TopoPrimer, a framework that makes the global topological structure
 
 Video diffusion models have made rapid progress in perceptual realism and temporal coherence, but they remain primarily optimized for plausible generation rather than verifiable reasoning. This limitation is especially pronounced in tasks where generated videos must satisfy explicit spatial, tempora...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.15458</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Editor's Choice: Evaluating Abstract Intent in Image Editing through Atomic Entity Analysis</title>
+      <link>https://huggingface.co/papers/2605.14842</link>
+      <description>By Mor Ventura, Roy Hirsch, Yonatan Bitton, Regev Cohen, Roi Reichart
+
+Humans naturally communicate through abstract concepts like "mood". However, current image editing benchmarks focus primarily on explicit, literal commands, leaving abstract instructions largely underexplored. In this work, we first formalize the definition and taxonomy of abstract image editing. To...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.14842</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -172,24 +172,6 @@ Process Reward Models (PRMs) provide step-level feedback for reasoning, but curr
 Pairwise Ranking Prompting (PRP) elicits pairwise preference judgments from an LLM, which are then aggregated into a ranking, usually via classical sorting algorithms. However, judgments are noisy, order-sensitive, and sometimes intransitive, so sorting assumptions do not match the setting. Because ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.14236</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NGM: A Plug-and-Play Training-Free Memory Module for LLMs</title>
-      <link>https://huggingface.co/papers/2605.16893</link>
-      <description>By Yuwen Qu, Wenhui Dong, Chenyang Si, Caifeng Shan
-
-Recent studies introduce conditional memory modules that decouple knowledge storage from neural computation, enabling more direct knowledge access. Compared to MoE, which relies on dynamic computation paths, explicit lookup provides a more efficient knowledge retrieval mechanism. However, these appr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.16893</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TOBench: A Task-Oriented Omni-Modal Benchmark for Real-World Tool-Using Agents</title>
-      <link>https://huggingface.co/papers/2605.16909</link>
-      <description>By Zhiqiang Liu, Wenhui Dong, Yilang Tan, Yuwen Qu, Haochen Yin, et al.
-
-Tool-using agents are increasingly expected to operate across realistic professional workflows, where they must interpret multimodal inputs, coordinate external tools, inspect intermediate artifacts, and revise their actions before producing a final result. Existing benchmarks, however, often evalua...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.16909</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>E-PMQ: Expert-Guided Post-Merge Quantization with Merged-Weight Anchoring</title>
@@ -381,15 +363,6 @@ We present OpenComputer, a verifier-grounded framework for constructing verifiab
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SceneCode: Executable World Programs for Editable Indoor Scenes with Articulated Objects</title>
-      <link>https://huggingface.co/papers/2605.19587</link>
-      <description>By Puyi Wang, Yuhao Wang, Linjie Li, Zhengyuan Yang, Kevin Qinghong Lin, et al.
-
-Indoor scene synthesis underpins embodied AI, robotic manipulation, and simulation-based policy evaluation, where a useful scene must specify not only what the environment looks like, but also how its objects are structured. Existing pipelines, however, typically represent generated content as stati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.19587</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>MSAVBench: Towards Comprehensive and Reliable Evaluation of Multi-Shot Audio-Video Generation</title>
       <link>https://huggingface.co/papers/2605.20183</link>
       <description>By Yujie Wei, Yujin Han, Zhekai Chen, Yongming Li, Kaixun Jiang, et al.
@@ -459,6 +432,33 @@ Authorship attribution models fine-tuned with the same pretrained encoder, data,
 
 Training 3D Gaussian Splatting (3DGS) at billion-primitive scale is fundamentally memory-bound: each Gaussian primitive carries a large attribute vector, and the aggregate parameter table quickly exceeds GPU capacity, limiting prior systems to tens of millions of Gaussians on commodity single-GPU ha...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.20150</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>optimize_anything: A Universal API for Optimizing any Text Parameter</title>
+      <link>https://huggingface.co/papers/2605.19633</link>
+      <description>By Lakshya A Agrawal, Donghyun Lee, Shangyin Tan, Wenjie Ma, Karim Elmaaroufi, et al.
+
+Can a single LLM-based optimization system match specialized tools across fundamentally different domains? We show that when optimization problems are formulated as improving a text artifact evaluated by a scoring function, a single AI-based optimization system-supporting single-task search, multi-t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.19633</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stage-adaptive Token Selection for Efficient Omni-modal LLMs</title>
+      <link>https://huggingface.co/papers/2605.20035</link>
+      <description>By Zijie Xin, Jie Yang, Ruixiang Zhao, Tianyi Wang, Fengyun Rao, et al.
+
+Omni-modal large language models (om-LLMs) achieve unified audio-visual understanding by encoding video and audio into temporally aligned token sequences interleaved at the window level. However, processing these dense non-textual tokens throughout the LLM incurs substantial computational overhead. ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.20035</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fast 4D Mesh Generation by Spatio-Temporal Attention Chains</title>
+      <link>https://huggingface.co/papers/2605.19786</link>
+      <description>By Dvir Samuel, Yuval Atzmon, Gal Chechik, Yoni Kasten
+
+4D mesh generation has recently emerged as a powerful paradigm for recovering dynamic 3D structure from videos, but existing methods remain slow, computationally expensive, and difficult to scale to longer sequences. We introduce a training-free approach that accelerates 4D mesh generation while imp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.19786</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

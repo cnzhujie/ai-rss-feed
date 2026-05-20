@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 08:31:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 11:53:32 +0000</lastBuildDate>
     <item>
       <title>OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments</title>
       <link>https://huggingface.co/papers/2605.18758</link>
@@ -17,6 +17,15 @@
 Current benchmarks for graphical user interface (GUI) agents predominantly rely on static screenshots. However, real-world smartphone interaction routinely requires agents to process transient audio cues and temporal video dynamics that are tightly coupled with the moment of action. To bridge this g...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.18758</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Overcoming Catastrophic Forgetting in Visual Continual Learning with Reinforcement Fine-Tuning</title>
+      <link>https://huggingface.co/papers/2605.09640</link>
+      <description>By Meng Lou, Hanzhong Guo, Linwei Chen, Yizhou Yu
+
+Recent studies suggest that Reinforcement Fine-Tuning (RFT) is inherently more resilient to catastrophic forgetting than Supervised Fine-Tuning (SFT). However, whether RFT (e.g., GRPO) can effectively overcome forgetting in challenging visual continual learning settings, such as class-incremental le...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.09640</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models</title>
@@ -111,15 +120,6 @@ Video diffusion models have made rapid progress in perceptual realism and tempor
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GRASP: Learning to Ground Social Reasoning in Multi-Person Non-Verbal Interactions</title>
-      <link>https://huggingface.co/papers/2605.15764</link>
-      <description>By Junho Kim, Xu Cao, Houze Yang, Bikram Boote, Ana Jojic, et al.
-
-Understanding social interactions requires reasoning over subtle non-verbal cues, yet current multimodal large language models (MLLMs) often fail to identify who interacts with whom in multi-person videos. We introduce GRASP, a large-scale social reasoning dataset that connects high-level social QA ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15764</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>VideoSeeker: Incentivizing Instance-level Video Understanding via Native Agentic Tool Invocation</title>
       <link>https://huggingface.co/papers/2605.16079</link>
       <description>By Yiming Zhao, Yu Zeng, Wenxuan Huang, Zhen Fang, Qing Miao, et al.
@@ -165,6 +165,15 @@ Process Reward Models (PRMs) provide step-level feedback for reasoning, but curr
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Active Learners as Efficient PRP Rerankers</title>
+      <link>https://huggingface.co/papers/2605.14236</link>
+      <description>By Jeremías Figueiredo Paschmann, Juan Kaplan, Francisco Nattero, Santiago Barron, Juan Wisznia, et al.
+
+Pairwise Ranking Prompting (PRP) elicits pairwise preference judgments from an LLM, which are then aggregated into a ranking, usually via classical sorting algorithms. However, judgments are noisy, order-sensitive, and sometimes intransitive, so sorting assumptions do not match the setting. Because ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.14236</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>NGM: A Plug-and-Play Training-Free Memory Module for LLMs</title>
       <link>https://huggingface.co/papers/2605.16893</link>
       <description>By Yuwen Qu, Wenhui Dong, Chenyang Si, Caifeng Shan
@@ -192,15 +201,6 @@ Low-resource deployment constraints have made model quantization essential for d
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A2RBench: An Automatic Paradigm for Formally Verifiable Abstract Reasoning Benchmark Generation</title>
-      <link>https://huggingface.co/papers/2605.17278</link>
-      <description>By Qingchuan Ma, Yuexiao Ma, Yongkang Xie, Tianyu Xie, Xiawu Zheng, et al.
-
-Abstract reasoning ability reflects the intelligence and generalization capacity of LLMs to extract and apply abstract rules. However, accurately measuring this ability remains challenging: existing benchmarks either rely on expensive manual annotation, limiting their scale, or risk measuring memori...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.17278</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Omni-DuplexEval: Evaluating Real-time Duplex Omni-modal Interaction</title>
       <link>https://huggingface.co/papers/2605.17360</link>
       <description>By Chaoqun He, Mingyang Xiang, Yingjing Xu, Bokai Xu, Junbo Cui, et al.
@@ -208,33 +208,6 @@ Abstract reasoning ability reflects the intelligence and generalization capacity
 Real-time duplex interaction is essential for multimodal AI systems operating in real-world scenarios, where models must continuously process streaming inputs and respond at appropriate moments. However, most existing multimodal large language models (MLLMs) are evaluated in offline settings, where ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.17360</guid>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution</title>
-      <link>https://huggingface.co/papers/2605.18401</link>
-      <description>By Hongyi Liu, Haoyan Yang, Tao Jiang, Bo Tang, Feiyu Xiong, et al.
-
-Long-horizon LLM agents leave traces that could become reusable experience, but raw trajectories are noisy and hard to govern. We treat Agent Skills as an experience schema that couples executable scripts, with non-executable guidance on procedures. Yet open skill ecosystems contain redundant, uneve...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18401</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monitoring the Internal Monologue: Probe Trajectories Reveal Reasoning Dynamics</title>
-      <link>https://huggingface.co/papers/2605.18549</link>
-      <description>By Maciej Chrabąszcz, Aleksander Szymczyk, Marcin Sendera, Tomasz Trzciński, Sebastian Cygert
-
-Large Reasoning Models (LRMs) introduce new opportunities for safety monitoring through their Chain of Thought (CoT) reasoning. However, CoT is not always faithful to the model's final output, undermining its reliability as a monitoring tool. To address this, we investigate the hidden representation...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18549</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SafeDiffusion-R1: Online Reward Steering for Safe Diffusion Post-Training</title>
-      <link>https://huggingface.co/papers/2605.18719</link>
-      <description>By Komal Kumar, Ankan Deria, Abhishek Basu, Fahad Shamshad, Hisham Cholakkal, et al.
-
-Diffusion models have been widely studied for removing unsafe content learned during pre-training. Existing methods require expensive supervised data, either unsafe-text paired with safe-image groundtruth or negative/positive image pairs, making them impractical to scale. Furthermore, offline reinfo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18719</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents</title>
@@ -363,6 +336,15 @@ Modern large language model (LLM) applications increasingly rely on long conditi
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Language-Switching Triggers Take a Latent Detour Through Language Models</title>
+      <link>https://huggingface.co/papers/2605.18646</link>
+      <description>By Francis Kulumba, Wissam Antoun, Théo Lasnier, Benoît Sagot, Djamé Seddah
+
+Backdoor attacks on language models pose a growing security concern, yet the internal mechanisms by which a trigger sequence hijacks model computations remain poorly understood. We identify a circuit underlying a language-switching backdoor in an 8B-parameter autoregressive language model, where a t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18646</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CEPO: RLVR Self-Distillation using Contrastive Evidence Policy Optimization</title>
       <link>https://huggingface.co/papers/2605.19436</link>
       <description>By Ahmed Heakl, Abdelrahman M. Shaker, Youssef Mohamed, Rania Elbadry, Omar Fetouh, et al.
@@ -459,6 +441,24 @@ Chain-of-thought (CoT) is a standard approach for eliciting reasoning capabiliti
 
 Text-to-Image (T2I) models have recently seen notable progress around 1K and 2K resolution. With the extreme desire for better visual experience and the rapid development of imaging technology, the demand for Ultra-High-Resolution (UHR) image generation has grown significantly. However, UHR image ge...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.20147</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Where Does Authorship Signal Emerge in Encoder-Based Language Models?</title>
+      <link>https://huggingface.co/papers/2605.19908</link>
+      <description>By Francis Kulumba, Guillaume Vimont, Laurent Romary, Florian Cafiero
+
+Authorship attribution models fine-tuned with the same pretrained encoder, data, and loss can differ four-fold in performance depending only on their scoring mechanism. We use mechanistic interpretability tools to explain this gap. Stylistic features such as word length, punctuation density, and fun...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.19908</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TideGS: Scalable Training of Over One Billion 3D Gaussian Splatting Primitives via Out-of-Core Optimization</title>
+      <link>https://huggingface.co/papers/2605.20150</link>
+      <description>By Chonghao Zhong, Linfeng Shi, Hua Chen, Tiecheng Sun, Hao Zhao, et al.
+
+Training 3D Gaussian Splatting (3DGS) at billion-primitive scale is fundamentally memory-bound: each Gaussian primitive carries a large attribute vector, and the aggregate parameter table quickly exceeds GPU capacity, limiting prior systems to tens of millions of Gaussians on commodity single-GPU ha...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.20150</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

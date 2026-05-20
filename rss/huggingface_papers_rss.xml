@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 18:25:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 21:03:07 +0000</lastBuildDate>
     <item>
       <title>OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments</title>
       <link>https://huggingface.co/papers/2605.18758</link>
@@ -17,6 +17,24 @@
 Current benchmarks for graphical user interface (GUI) agents predominantly rely on static screenshots. However, real-world smartphone interaction routinely requires agents to process transient audio cues and temporal video dynamics that are tightly coupled with the moment of action. To bridge this g...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.18758</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mid-Training with Self-Generated Data Improves Reinforcement Learning in Language Models</title>
+      <link>https://huggingface.co/papers/2605.08472</link>
+      <description>By Aswin RRV, Jacob Dineen, Divij Handa, Mihir Parmar, Ben Zhou, et al.
+
+The effectiveness of Reinforcement Learning (RL) in Large Language Models (LLMs) depends on the nature and diversity of the data used before and during RL. In particular, reasoning problems can often be approached in multiple ways that rely on different forms of reasoning, and exposure to only a lim...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.08472</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Computer Science Conferences Should Require Nonrepudiable Experimental Results</title>
+      <link>https://huggingface.co/papers/2605.08586</link>
+      <description>By Mamadou K. Keita, Christopher Homan
+
+This position paper argues that computer science conferences should require tamper-evident, nonrepudiable attestations of experimental results. We name the underlying problem experiment nonrepudiation: a compliant protocol must bind the numbers in a paper to an actual executed computation in a way t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.08586</guid>
+      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Overcoming Catastrophic Forgetting in Visual Continual Learning with Reinforcement Fine-Tuning</title>
@@ -35,24 +53,6 @@ Recent studies suggest that Reinforcement Fine-Tuning (RFT) is inherently more r
 Dexterous manipulation is physics-intensive and highly sensitive to modeling errors and perception noise, making sim-to-real transfer prohibitively challenging. Domain randomization (DR) is commonly used to improve the robustness of learned policies for such tasks, but conventional DR randomizes one...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.09789</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AR-VLA: True Autoregressive Action Expert for Vision-Language-Action Models</title>
-      <link>https://huggingface.co/papers/2603.10126</link>
-      <description>By Yutong Hu, Jan-Nico Zaech, Nikolay Nikolov, Yuanqi Yao, Sombit Dey, et al.
-
-We propose a standalone autoregressive (AR) Action Expert that generates actions as a continuous causal sequence while conditioning on refreshable vision-language prefixes. In contrast to existing Vision-Language-Action (VLA) models and diffusion policies that reset temporal context with each new ob...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.10126</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Auditing Multimodal LLM Raters: Central Tendency Bias in Clinical Ordinal Scoring</title>
-      <link>https://huggingface.co/papers/2605.16386</link>
-      <description>By Jiaqing Zhang, Sandeep Elluri, Bhanu Cherukuvada, Yonah Joffe, Jessica Sena, et al.
-
-Multimodal large language models (LLMs) are increasingly explored as automated evaluators in clinical settings, yet their scoring behavior on ordinal clinical scales remains poorly understood. We benchmark three frontier LLM families against supervised deep learning models for scoring Clock Drawing ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.16386</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DocAtlas: Multilingual Document Understanding Across 80+ Languages</title>
@@ -100,17 +100,6 @@ Despite rapid progress in video-capable MLLMs, we find that their apparent audio
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>TopoPrimer: The Missing Topological Context in Forecasting Models</title>
-      <link>https://huggingface.co/papers/2605.15035</link>
-      <description>By Zara Zetlin, Kayhan Moharreri, Maria Safi
-
-We introduce TopoPrimer, a framework that makes the global topological structure of the series population an explicit input
-  to any forecasting model. TopoPrimer improves accuracy across diverse domains, stabilizes forecasts under seasonal demand
-  spikes, and closes the cold-start gap. Precomputed...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15035</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Video Models Can Reason with Verifiable Rewards</title>
       <link>https://huggingface.co/papers/2605.15458</link>
       <description>By Tinghui Zhu, Sheng Zhang, James Y. Huang, Selena Song, Xiaofei Wen, et al.
@@ -127,15 +116,6 @@ Video diffusion models have made rapid progress in perceptual realism and tempor
 Humans naturally communicate through abstract concepts like "mood". However, current image editing benchmarks focus primarily on explicit, literal commands, leaving abstract instructions largely underexplored. In this work, we first formalize the definition and taxonomy of abstract image editing. To...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.14842</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs</title>
-      <link>https://huggingface.co/papers/2605.15565</link>
-      <description>By Haizhong Zheng, Yizhuo Di, Jiahui Wang, Shuowei Jin, Xueshen Liu, et al.
-
-Reinforcement learning (RL) is increasingly used to improve the reasoning, coding, and tool-use capabilities of large language models, but agentic RL remains prohibitively expensive. Scaling RL to agentic LLMs requires supporting complex workloads, including multi-policy collaborative training, whil...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15565</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Echo-Forcing: A Scene Memory Framework for Interactive Long Video Generation</title>
@@ -192,13 +172,13 @@ Real-time duplex interaction is essential for multimodal AI systems operating in
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DexHoldem: Playing Texas Hold'em with Dexterous Embodied System</title>
-      <link>https://huggingface.co/papers/2605.18727</link>
-      <description>By Feng Chen, Tianzhe Chu, Li Sun, Pei Zhou, Zhuxiu Xu, et al.
+      <title>Bug or Feature^2: Weight Drift, Activation Sparsity, and Spikes</title>
+      <link>https://huggingface.co/papers/2605.17659</link>
+      <description>By Egor Shvetsov, Aleksandr Serkov, Shokorov Viacheslav, Redko Dmitry, Vladislav Goloshchapov, et al.
 
-Evaluating embodied systems on real dexterous hardware requires more than isolated primitive skills: an agent must perceive a changing tabletop scene, choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable for later decisions. We introduce DexHoldem, a real...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18727</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+The design of modern neural architectures has converged through incremental empirical choices, yet the mechanisms governing their training dynamics remain only partially understood. We identify and analyze a negative weight drift induced by the interaction between standard losses and positively bias...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.17659</guid>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Symmetry-Compatible Principle for Optimizer Design: Embeddings, LM Heads, SwiGLU MLPs, and MoE Routers</title>
@@ -315,6 +295,24 @@ Backdoor attacks on language models pose a growing security concern, yet the int
 
 Equipping LLM agents with reusable skills derived from past experience has become a popular and successful approach for tackling complex and long-horizon tasks. However, such lessons are often encoded as textual guidance that remains largely advisory, lacking explicit mechanisms for when and how to ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.17734</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RT-Splatting: Joint Reflection-Transmission Modeling with Gaussian Splatting</title>
+      <link>https://huggingface.co/papers/2605.18263</link>
+      <description>By Ji Shi, Xianghua Ying, Bowei Xing, Ruohao Guo, Wenzhen Yue
+
+3D Gaussian Splatting (3DGS) enables real-time novel view synthesis with high visual quality. However, existing methods struggle with semi-transparent specular surfaces that exhibit both complex reflections and clear transmission, often producing blurry reflections or overly occluded transmission. T...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18263</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Be Kind, Rewrite: Benign Projections via Rewriting Defend Against LLM Data Poisoning Attacks</title>
+      <link>https://huggingface.co/papers/2605.19147</link>
+      <description>By John T. Halloran, Noopur S. Bhatt
+
+Large language models (LLMs) are highly susceptible to backdoor attacks (BAs), wherein training samples are poisoned using trigger-based harmful content. Furthermore, existing defenses have proven ineffective when extensively tested across BA patterns. To better combat BAs, we explore the use of LLM...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.19147</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

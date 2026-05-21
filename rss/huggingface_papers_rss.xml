@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 May 2026 16:20:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 19:03:51 +0000</lastBuildDate>
     <item>
       <title>Mid-Training with Self-Generated Data Improves Reinforcement Learning in Language Models</title>
       <link>https://huggingface.co/papers/2605.08472</link>
@@ -28,15 +28,6 @@ This position paper argues that computer science conferences should require tamp
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching</title>
-      <link>https://huggingface.co/papers/2605.09789</link>
-      <description>By Kejia Ren, Gaotian Wang, Andrew S. Morgan, Kaiyu Hang
-
-Dexterous manipulation is physics-intensive and highly sensitive to modeling errors and perception noise, making sim-to-real transfer prohibitively challenging. Domain randomization (DR) is commonly used to improve the robustness of learned policies for such tasks, but conventional DR randomizes one...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09789</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Safety Alignment as Continual Learning: Mitigating the Alignment Tax via Orthogonal Gradient Projection</title>
       <link>https://huggingface.co/papers/2602.07892</link>
       <description>By Guanglong Sun, Siyuan Zhang, Liyuan Wang, Jun Zhu, Hang Su, et al.
@@ -53,15 +44,6 @@ Safety post-training can improve the harmfulness and policy compliance of Large 
 Recent advances in multimodal large language models have driven growing interest in graphical user interface (GUI) agents, yet their generalization remains constrained by the scarcity of large-scale training data spanning diverse real-world applications. Existing datasets rely heavily on costly manu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.14747</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RoPE Distinguishes Neither Positions Nor Tokens in Long Contexts, Provably</title>
-      <link>https://huggingface.co/papers/2605.15514</link>
-      <description>By Yufeng Du, Phillip Harris, Minyang Tian, Eliu A Huerta, Srikanth Ronanki, et al.
-
-We identify intrinsic limitations of Rotary Positional Embeddings (RoPE) in Transformer-based long-context language models. Our theoretical analysis abstracts away from the specific content of the context and depends only on its length. We prove that as context length increases, RoPE-based attention...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15514</guid>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>S-Bus: Automatic Read-Set Reconstruction for Multi-Agent LLM State Coordination</title>
@@ -88,6 +70,15 @@ Reinforcement Learning with Verifiable Reward (RLVR) has proven effective in imp
 
 The design of modern neural architectures has converged through incremental empirical choices, yet the mechanisms governing their training dynamics remain only partially understood. We identify and analyze a negative weight drift induced by the interaction between standard losses and positively bias...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.17659</guid>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SaaSBench: Exploring the Boundaries of Coding Agents in Long-Horizon Enterprise SaaS Engineering</title>
+      <link>https://huggingface.co/papers/2605.17526</link>
+      <description>By Qingnan Ren, Shun Zou, Shiting Huang, Ziao Zhang, Kou Shi, et al.
+
+As autonomous coding agents become capable of handling increasingly long-horizon tasks, they have gradually demonstrated the potential to complete end-to-end software development. Although existing benchmarks have recently evolved from localized code editing to from-scratch project generation, they ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.17526</guid>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -190,13 +181,22 @@ Stable Audio 3 is a family of fast latent diffusion models (small, medium, large
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes</title>
-      <link>https://huggingface.co/papers/2605.19305</link>
-      <description>By Tianshu Kuai, Arman Maesumi, Daniel Ritchie, Noam Aigerman
+      <title>Lost in the Folds: When Cross-Validation Is Not a Deep Ensemble for Uncertainty Estimation</title>
+      <link>https://huggingface.co/papers/2605.18329</link>
+      <description>By Kirscher Tristan, Bujotzek Markus, Kirchhoff Yannick, Rokuss Maximilian, Isensee Fabian, et al.
 
-This paper tackles the task of learning to generate signals over triangle meshes in a triangulation-agnostic manner, meaning the trained model can be applied to different meshes and triangulations effectively. Practically, the paper adapts the flow matching (FM) paradigm to a mesh-based, triangulati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.19305</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+Ensemble disagreement is widely used as a proxy for epistemic uncertainty in medical image segmentation. In practice, many studies form ensembles via K-fold cross-validation (CV), yet refer to them as ``deep ensembles'' (DE). Because CV members are trained on different data subsets, their disagreeme...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18329</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning from Language Feedback via Variational Policy Distillation</title>
+      <link>https://huggingface.co/papers/2605.15113</link>
+      <description>By Yang Li, Erik Nijkamp, Semih Yavuz, Shafiq Joty
+
+Reinforcement learning from verifiable rewards (RLVR) suffers from sparse outcome signals, creating severe exploration bottlenecks on complex reasoning tasks. Recent on-policy self-distillation methods attempt to address this by utilizing language feedback to generate dense, token-level supervision....</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15113</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Base Models Look Human To AI Detectors</title>

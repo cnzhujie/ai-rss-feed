@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 04:18:05 +0000</lastBuildDate>
-    <item>
-      <title>Safety Alignment as Continual Learning: Mitigating the Alignment Tax via Orthogonal Gradient Projection</title>
-      <link>https://huggingface.co/papers/2602.07892</link>
-      <description>By Guanglong Sun, Siyuan Zhang, Liyuan Wang, Jun Zhu, Hang Su, et al.
-
-Safety post-training can improve the harmfulness and policy compliance of Large Language Models (LLMs), but it may also reduce general utility, a phenomenon often described as the alignment tax. We study this trade-off through the lens of continual learning: sequential alignment stages expose the mo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2602.07892</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 22 May 2026 08:26:41 +0000</lastBuildDate>
     <item>
       <title>Training Large Language Models to Predict Clinical Events</title>
       <link>https://huggingface.co/papers/2605.12817</link>
@@ -55,15 +46,6 @@ Subword tokenization is an essential part of modern large language models (LLMs)
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Unlearnability Phenomenon in RLVR for Language Models</title>
-      <link>https://huggingface.co/papers/2605.16787</link>
-      <description>By Yulin Chen, He He, Chen Zhao
-
-Reinforcement Learning with Verifiable Reward (RLVR) has proven effective in improving Large Language Model's (LLM) reasoning ability. However, the learning dynamics of RLVR remain underexplored. In this paper, we reveal a counterintuitive phenomenon: among hard examples that the model initially str...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.16787</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DynMuon: A Dynamic Spectral Shaping View of Muon</title>
       <link>https://huggingface.co/papers/2605.17109</link>
       <description>By Fangzhou Wu, Rikhav Shah, Sandeep Silwal, Qiuyi Zhang
@@ -82,6 +64,15 @@ Query clustering organizes queries into groups that reflect shared latent capabi
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Full Attention Strikes Back: Transferring Full Attention into Sparse within Hundred Training Steps</title>
+      <link>https://huggingface.co/papers/2605.16928</link>
+      <description>By Yanke Zhou, Yiduo Li, Hanlin Tang, Maohua Li, Kan Liu, et al.
+
+Long-context inference in large language models is bottlenecked by the quadratic cost of full attention. Existing efficient alternatives often rely either on native sparse training or on heuristic token eviction, creating an undesirable trade-off among efficiency, training cost, and accuracy. In thi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.16928</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>SaaSBench: Exploring the Boundaries of Coding Agents in Long-Horizon Enterprise SaaS Engineering</title>
       <link>https://huggingface.co/papers/2605.17526</link>
       <description>By Qingnan Ren, Shun Zou, Shiting Huang, Ziao Zhang, Kou Shi, et al.
@@ -89,15 +80,6 @@ Query clustering organizes queries into groups that reflect shared latent capabi
 As autonomous coding agents become capable of handling increasingly long-horizon tasks, they have gradually demonstrated the potential to complete end-to-end software development. Although existing benchmarks have recently evolved from localized code editing to from-scratch project generation, they ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.17526</guid>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learn-by-Wire Training Control Governance: Bounded Autonomous Training Under Stress for Stability and Efficiency</title>
-      <link>https://huggingface.co/papers/2605.19008</link>
-      <description>By Anis Radianis
-
-Modern language-model training is increasingly exposed to instability, degraded runs, and wasted compute, especially under aggressive learning-rate, scale, and runtime-stress conditions. This paper introduces Learn-by-Wire Guard (LBW-Guard), a bounded autonomous training-control governance layer tha...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.19008</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>A Survey of Large Audio Language Models: Generalization, Trustworthiness, and Outlook</title>
@@ -143,15 +125,6 @@ Ensemble disagreement is widely used as a proxy for epistemic uncertainty in med
 Reinforcement learning from verifiable rewards (RLVR) suffers from sparse outcome signals, creating severe exploration bottlenecks on complex reasoning tasks. Recent on-policy self-distillation methods attempt to address this by utilizing language feedback to generate dense, token-level supervision....</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.15113</guid>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stitched Value Model for Diffusion Alignment</title>
-      <link>https://huggingface.co/papers/2605.19804</link>
-      <description>By Hyojun Go, Hyungjin Chung, Prune Truong, Goutam Bhat, Li Mi, et al.
-
-For practical use, diffusion- or flow-based generative models must be aligned with task-specific rewards, such as prompt fidelity or aesthetic preference. That alignment is challenging because the reward is defined for clean output images, but the alignment procedure requires value function estimate...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.19804</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs</title>
@@ -226,58 +199,22 @@ The rise of personal assistant agents, e.g., OpenClaw, highlights the growing po
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HRM-Text: Efficient Pretraining Beyond Scaling</title>
-      <link>https://huggingface.co/papers/2605.20613</link>
-      <description>By Guan Wang, Changling Liu, Chenyu Wang, Cai Zhou, Yuhao Sun, et al.
+      <title>ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning</title>
+      <link>https://huggingface.co/papers/2605.20176</link>
+      <description>By Juncheng Wu, Letian Zhang, Yuhan Wang, Haoqin Tu, Hardy Chen, et al.
 
-The current pretraining paradigm for large language models relies on massive compute and internet-scale raw text, creating a significant barrier to foundational research. In contrast, biological systems demonstrate highly sample-efficient learning through multi-timescale processing, such as the func...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.20613</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+Large language models (LLMs) and agentic systems have shown promise for clinical decision support, but existing works largely assume that evidence has already been curated and handed to the model. Real-world clinical workflows instead require agents to actively seek, iteratively plan, and synthesize...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.20176</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>iTryOn: Mastering Interactive Video Virtual Try-On with Spatial-Semantic Guidance</title>
-      <link>https://huggingface.co/papers/2605.21431</link>
-      <description>By Jun Zheng, Zhengze Xu, Mengting Chen, Jing Wang, Jinsong Lan, et al.
+      <title>Minimalist Visual Inertial Odometry</title>
+      <link>https://huggingface.co/papers/2605.19990</link>
+      <description>By Francesco Pasti, Jeremy Klotz, Nicola Bellotto, Shree K. Nayar
 
-Video Virtual Try-On (VVT) aims to seamlessly replace a garment on a person in a video with a new one. While existing methods have made significant strides in maintaining temporal consistency, they are predominantly confined to non-interactive scenarios where models merely showcase garments. This li...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.21431</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Conditional Equivalence of DPO and RLHF: Implicit Assumption, Failure Modes, and Provable Alignment</title>
-      <link>https://huggingface.co/papers/2605.20834</link>
-      <description>By Zhiqin Yang, Yonggang Zhang, Wei Xue, Dong Fang, Bo Han, et al.
-
-Direct Preference Optimization (DPO) has emerged as a popular alternative to Reinforcement Learning from Human Feedback (RLHF), offering theoretical equivalence with simpler implementation. We prove this equivalence is conditional rather than universal, depending on an implicit assumption frequently...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.20834</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OcclusionFormer: Arranging Z-Order for Layout-Grounded Image Generation</title>
-      <link>https://huggingface.co/papers/2605.21343</link>
-      <description>By Ziye Li, Henghui Ding
-
-Recent layout-to-image models have achieved remarkable progress in spatial controllability. However, they still struggle with inter-object occlusion. When bounding boxes overlap, most existing methods lack explicit occlusion information, which makes the generation in intersection regions inherently ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.21343</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>IndusAgent: Reinforcing Open-Vocabulary Industrial Anomaly Detection with Agentic Tools</title>
-      <link>https://huggingface.co/papers/2605.20682</link>
-      <description>By Rongbin Tan, Fangfang Lin, Zhenlong Yuan, Min Qiu, Kejin Cui, et al.
-
-Multimodal large language models (MLLMs) have shown remarkable capability in bridging visual perception and textual reasoning, enabling zero-shot understanding across diverse industrial scenarios. However, their performance in open-vocabulary industrial anomaly detection (IAD) is often limited by do...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.20682</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OCTOPUS: Optimized KV Cache for Transformers via Octahedral Parametrization Under optimal Squared error quantization</title>
-      <link>https://huggingface.co/papers/2605.21226</link>
-      <description>By Mark Boss, Vikram Voleti, Simon Donné, Shimon Vainer
-
-The key-value (KV) cache dominates memory bandwidth and footprint in long-context autoregressive inference. Recent rotation-preconditioned codecs (TurboQuant, PolarQuant) show that a structured random rotation followed by a per-coordinate scalar quantizer matched to an analytically tractable margina...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.21226</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+Visual-Inertial Odometry(VIO), which is critical to mobile robot navigation, uses cameras with a large number of pixels. Capturing and processing camera images requires significant resources. This work presents a minimalist approach to planar odometry, demonstrating that just four visual measurement...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.19990</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories</title>
@@ -322,6 +259,24 @@ Reinforcement learning from verifiable rewards (RLVR) has emerged as a central t
 
 Simulation-ready physical 3D assets have emerged as a promising direction owing to their broad applicability in downstream tasks. However, most existing 3D generation methods either neglect physical properties or are limited to a single asset category, e.g., rigid, deformable, or articulated objects...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.21572</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Q-ARVD: Quantizing Autoregressive Video Diffusion Models</title>
+      <link>https://huggingface.co/papers/2605.21072</link>
+      <description>By Siao Tang, Xinyin Ma, Gongfan Fang, Xingyi Yang, Xinchao Wang
+
+Autoregressive video diffusion models (ARVDs) have emerged as a promising architecture for streaming video generation, paving the way for real-time interactive video generation and world modeling. Despite their potential, the substantial inference cost of ARVDs remains a major obstacle to practical ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.21072</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GenEvolve: Self-Evolving Image Generation Agents via Tool-Orchestrated Visual Experience Distillation</title>
+      <link>https://huggingface.co/papers/2605.21605</link>
+      <description>By Sixiang Chen, Zhaohu Xing, Tian Ye, Xinyu Geng, Yunlong Lin, et al.
+
+Open-ended image generation is no longer a simple prompt-to-image problem. High-quality generation often requires an agent to combine a model's internal generative ability with external resources. As requests become more diverse and demanding, we aim to develop a general image-generation agent that ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.21605</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +412,51 @@ Many public buildings provide floorplans with a "you are here" indicator to help
 
 Traditional visual object tracking (VOT) methods typically rely on task-specific supervised training, limiting their generalization to unseen objects and challenging scenarios with distractors, occlusion, and nonlinear motion. Recent vision foundation models, exemplified by SAM 2, learn strong video...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.22538</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems</title>
+      <link>https://huggingface.co/papers/2605.22144</link>
+      <description>By Yufei Shi, Weilong Yan, Naixuan Huang, Yucheng Chen, Chenyu Zhang, et al.
+
+Existing approaches for digital short-drama production typically rely on one-shot LLM generated scripts and loosely coupled pipelines, which fail to satisfy three key requirements of short-drama generation: (1) narrative pacing, resulting in weak hooks, insufficient escalation, and unattractive endi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22144</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SpaceDG: Benchmarking Spatial Intelligence under Visual Degradation</title>
+      <link>https://huggingface.co/papers/2605.22536</link>
+      <description>By Xiaolong Zhou, Yifei Liu, Ziyang Gong, Jiarui Li, Qiyue Zhao, et al.
+
+Multimodal Large Language Models (MLLMs) have made rapid progress in spatial intelligence, yet existing spatial reasoning benchmarks largely assume pristine visual inputs and overlook the degradations that commonly occur in real-world deployment, such as motion blur, low light, adverse weather, lens...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22536</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LatentOmni: Rethinking Omni-Modal Understanding via Unified Audio-Visual Latent Reasoning</title>
+      <link>https://huggingface.co/papers/2605.22012</link>
+      <description>By Yifan Dai, Zhenhua Wu, Bohan Zeng, Daili Hua, Jialing Liu, et al.
+
+Joint audio-visual reasoning is essential for omnimodal understanding, yet current multimodal large language models (MLLMs) still struggle when reasoning requires fine-grained evidence from both modalities. A central limitation is that explicit text-based chain-of-thought (CoT) compresses continuous...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22012</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More Context, Larger Models, or Moral Knowledge? A Systematic Study of Schwartz Value Detection in Political Texts</title>
+      <link>https://huggingface.co/papers/2605.22641</link>
+      <description>By Víctor Yeste, Paolo Rosso
+
+Detecting Schwartz values in political text is difficult because implicit cues often depend on surrounding arguments and fine-grained distinctions between neighboring values. We study when context and explicit moral knowledge help sentence-level value detection. Using the ValuesML/Touch{é} ValueEval...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22641</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TransitLM: A Large-Scale Dataset and Benchmark for Map-Free Transit Route Generation</title>
+      <link>https://huggingface.co/papers/2605.22355</link>
+      <description>By Hanyu Guo, Jiedong Yang, Chao Chen, Longfei Xu, Kaikui Liu, et al.
+
+Public transit route planning traditionally depends on structured map infrastructure and complex routing engines, and no existing dataset supports training models to bypass this dependency. We present TransitLM, a large-scale dataset of over 13 million transit route planning records from four Chines...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22355</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

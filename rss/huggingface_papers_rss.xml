@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 08:26:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 11:50:03 +0000</lastBuildDate>
+    <item>
+      <title>Unsupervised Process Reward Models</title>
+      <link>https://huggingface.co/papers/2605.10158</link>
+      <description>By Artyom Gadetsky, Maxim Kodryan, Siba Smarak Panigrahi, Hang Guo, Maria Brbic
+
+Process Reward Models (PRMs) are a powerful mechanism for steering large language model reasoning by providing fine-grained, step-level supervision. However, this effectiveness comes at a significant cost: PRMs require expert annotations for every reasoning step, making them costly and difficult to ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.10158</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Training Large Language Models to Predict Clinical Events</title>
       <link>https://huggingface.co/papers/2605.12817</link>
@@ -127,22 +136,13 @@ Reinforcement learning from verifiable rewards (RLVR) suffers from sparse outcom
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs</title>
-      <link>https://huggingface.co/papers/2605.20315</link>
-      <description>By Haiquan Lu, Zigeng Chen, Gongfan Fang, Xinyin Ma, Xinchao Wang
+      <title>OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding</title>
+      <link>https://huggingface.co/papers/2605.18577</link>
+      <description>By Ruixiang Zhao, Jie Yang, Zijie Xin, Tianyi Wang, Fengyun Rao, et al.
 
-LLM agents have recently emerged as a powerful paradigm for solving complex tasks through planning, tool use, memory retrieval, and multi-step interaction. However, these agentic workflows often introduce substantial input-side overhead, making the compute-intensive prefilling stage a key bottleneck...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.20315</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CutVerse: A Compositional GUI Agents Benchmark for Media Post-Production Editing</title>
-      <link>https://huggingface.co/papers/2605.19484</link>
-      <description>By Haobo Hu, Xiangwu Guo, Zhiheng Chen, Difei Gao, Haotian Liu, et al.
-
-While GUI agents have made significant progress in web navigation and basic operating system tasks, their capabilities in professional creative workflows remain largely underexplored. To bridge this gap, we introduce Cutverse, a benchmark designed to systematically evaluate autonomous GUI agents in ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.19484</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuous audio-visual streams, is an emerging capability of omni-modal large language models. Existing benchmarks fall short in three key aspects: they rely primarily on visual signals, ado...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18577</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MOCHA: Multi-Objective Chebyshev Annealing for Agent Skill Optimization</title>
@@ -215,15 +215,6 @@ Large language models (LLMs) and agentic systems have shown promise for clinical
 Visual-Inertial Odometry(VIO), which is critical to mobile robot navigation, uses cameras with a large number of pixels. Capturing and processing camera images requires significant resources. This work presents a minimalist approach to planar odometry, demonstrating that just four visual measurement...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.19990</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories</title>
-      <link>https://huggingface.co/papers/2605.21468</link>
-      <description>By Zhepei Wei, Xinyu Zhu, Wei-Lin Chen, Chengsong Huang, Jiaxin Huang, et al.
-
-Reinforcement learning with verifiable rewards (RLVR) has become a dominant paradigm for improving reasoning in large language models (LLMs), yet the underlying geometry of the resulting parameter trajectories remains underexplored. In this work, we demonstrate that RLVR weight trajectories are extr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.21468</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Same Architecture, Different Capacity: Optimizer-Induced Spectral Scaling Laws</title>
@@ -457,6 +448,15 @@ Detecting Schwartz values in political text is difficult because implicit cues o
 
 Public transit route planning traditionally depends on structured map infrastructure and complex routing engines, and no existing dataset supports training models to bypass this dependency. We present TransitLM, a large-scale dataset of over 13 million transit route planning records from four Chines...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.22355</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders</title>
+      <link>https://huggingface.co/papers/2605.22777</link>
+      <description>By Tianhang Wang, Yitong Chen, Wei Song, Zuxuan Wu, Min Li, et al.
+
+Representation Autoencoders (RAEs) leverage frozen vision foundation models (VFMs) as tokenizer encoders, providing robust high-level representations that facilitate fast convergence and high-quality generation in latent diffusion models. However, freezing the VFM inherently constrains its spatial r...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22777</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

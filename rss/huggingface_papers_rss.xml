@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 14:53:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 17:13:47 +0000</lastBuildDate>
+    <item>
+      <title>SAM 3D Animal: Promptable Animal 3D Reconstruction from Images in the Wild</title>
+      <link>https://huggingface.co/papers/2605.07604</link>
+      <description>By Xuyi Hu, Jin Lyu, Jiuming Liu, Yebin Liu, Silvia Zuffi, et al.
+
+3D animal reconstruction in the wild remains challenging due to large species variation, frequent occlusions, and the prevalence of multi-animal scenes, while existing methods predominantly focus on single-animal settings. We present SAM 3D Animal, the first promptable framework for multi-animal 3D ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.07604</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Unsupervised Process Reward Models</title>
       <link>https://huggingface.co/papers/2605.10158</link>
@@ -37,13 +46,13 @@ LLMs are widely adopted in production, pushing inference systems to their limits
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Decoupling the Benefits of Subword Tokenization for Language Model Training via Byte-level Simulation</title>
-      <link>https://huggingface.co/papers/2604.27263</link>
-      <description>By Théo Gigant, Bowen Peng, Jeffrey Quesnelle
+      <title>Rule2DRC: Benchmarking LLM Agents for DRC Script Synthesis with Execution-Guided Test Generation</title>
+      <link>https://huggingface.co/papers/2605.15669</link>
+      <description>By Jinuk Kim, Junsoo Byun, Donghwi Hwang, Seong-Jin Park, Hyun Oh Song
 
-Subword tokenization is an essential part of modern large language models (LLMs), yet its specific contributions to training efficiency and model performance remain poorly understood. In this work, we decouple the effects of subword tokenization by isolating them within a controlled byte-level pretr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.27263</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+Manufacturable chip layouts must satisfy thousands of geometry-based design rules, and design rule checking (DRC) enforces them by running executable DRC scripts on layouts. Translating natural language rules into correct DRC scripts is labor-intensive and requires specialized expertise, motivating ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.15669</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DynMuon: A Dynamic Spectral Shaping View of Muon</title>
@@ -71,33 +80,6 @@ Query clustering organizes queries into groups that reflect shared latent capabi
 Long-context inference in large language models is bottlenecked by the quadratic cost of full attention. Existing efficient alternatives often rely either on native sparse training or on heuristic token eviction, creating an undesirable trade-off among efficiency, training cost, and accuracy. In thi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.16928</guid>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SaaSBench: Exploring the Boundaries of Coding Agents in Long-Horizon Enterprise SaaS Engineering</title>
-      <link>https://huggingface.co/papers/2605.17526</link>
-      <description>By Qingnan Ren, Shun Zou, Shiting Huang, Ziao Zhang, Kou Shi, et al.
-
-As autonomous coding agents become capable of handling increasingly long-horizon tasks, they have gradually demonstrated the potential to complete end-to-end software development. Although existing benchmarks have recently evolved from localized code editing to from-scratch project generation, they ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.17526</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lost in the Folds: When Cross-Validation Is Not a Deep Ensemble for Uncertainty Estimation</title>
-      <link>https://huggingface.co/papers/2605.18329</link>
-      <description>By Kirscher Tristan, Bujotzek Markus, Kirchhoff Yannick, Rokuss Maximilian, Isensee Fabian, et al.
-
-Ensemble disagreement is widely used as a proxy for epistemic uncertainty in medical image segmentation. In practice, many studies form ensembles via K-fold cross-validation (CV), yet refer to them as ``deep ensembles'' (DE). Because CV members are trained on different data subsets, their disagreeme...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18329</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning from Language Feedback via Variational Policy Distillation</title>
-      <link>https://huggingface.co/papers/2605.15113</link>
-      <description>By Yang Li, Erik Nijkamp, Semih Yavuz, Shafiq Joty
-
-Reinforcement learning from verifiable rewards (RLVR) suffers from sparse outcome signals, creating severe exploration bottlenecks on complex reasoning tasks. Recent on-policy self-distillation methods attempt to address this by utilizing language feedback to generate dense, token-level supervision....</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.15113</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding</title>
@@ -457,6 +439,24 @@ Fashion image retrieval is a cornerstone of modern e-commerce systems. A unified
 
 As wearable and mobile devices become increasingly embedded in daily life, they offer a practical way to continuously sense human motion in the wild. But inertial signals are highly dependent on the sensing setup, including body location, mounting position, sensor orientation, device hardware, and s...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.22715</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient Agentic Reasoning Through Self-Regulated Simulative Planning</title>
+      <link>https://huggingface.co/papers/2605.22138</link>
+      <description>By Mingkai Deng, Jinyu Hou, Lara Sá Neves, Varad Pimpalkhute, Taylor W. Killian, et al.
+
+How should an agent decide when and how to plan? A dominant approach builds agents as reactive policies with adaptive computation (e.g., chain-of-thought), trained end-to-end expecting planning to emerge implicitly. Without control over the presence, structure, or horizon of planning, these systems ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22138</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forecasting Scientific Progress with Artificial Intelligence</title>
+      <link>https://huggingface.co/papers/2605.22681</link>
+      <description>By Sean Wu, Pan Lu, Yupeng Chen, Jonathan Bragg, Yutaro Yamada, et al.
+
+Artificial intelligence (AI) is increasingly embedded in scientific discovery, yet whether it can anticipate scientific progress remains unclear. To study this question, we introduce a temporally grounded evaluation framework for forecasting scientific progress under controlled knowledge constraints...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22681</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

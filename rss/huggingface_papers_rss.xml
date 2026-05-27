@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 12:26:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 16:41:14 +0000</lastBuildDate>
     <item>
       <title>Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration</title>
       <link>https://huggingface.co/papers/2605.17423</link>
@@ -17,24 +17,6 @@
 We study series-level cinematic remaking, a long-horizon video-to-video generation problem that localizes full episodes or films via stylization or actor replacement while strictly preserving narrative structure, motion choreography, and character identity across hundreds of shots. Existing video ge...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.17423</guid>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Decoupling Communication from Policy: Robust MARL under Bandwidth Constraints</title>
-      <link>https://huggingface.co/papers/2605.21085</link>
-      <description>By Alexi Canesse, Benoît Goupil, Jesse Read, Sonia Vanier
-
-Communication enables coordination in multi-agent reinforcement learning (MARL), but many real-world applications, e.g., search-and-rescue with drone swarms, operate under severe bandwidth constraints. Many communication architectures still expose a coupled bottleneck in which a shared latent repres...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.21085</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries</title>
-      <link>https://huggingface.co/papers/2605.21712</link>
-      <description>By Mahdi Azhdari, Eric J. Gonzales
-
-Transportation safety analysis requires integrating crash records, roadway attributes, and geospatial data through GIS-based workflows, but access remains uneven across agencies and community stakeholders. Technical prerequisites create a gap between analytical tools central to safety planning and t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.21712</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RankJudge: A Multi-Turn LLM-as-a-Judge Synthetic Benchmark Generator</title>
@@ -62,15 +44,6 @@ Large language models inevitably retain sensitive information, defined as inputs
 As large language model (LLM)-based agents increasingly participate in online discourse, red-teaming their capacity to support political influence campaigns is critical for information integrity. In pursuit of this goal, we focus on locally deployed open-source LLMs, as opposed to frontier API-only ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.22880</guid>
       <pubDate>Wed, 20 May 2026 19:25:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Representation over Routing: Overcoming Surrogate Hacking in Multi-Timescale PPO</title>
-      <link>https://huggingface.co/papers/2604.13517</link>
-      <description>By Jing Sun
-
-Temporal credit assignment in reinforcement learning has long been a central challenge. Inspired by the multi-timescale encoding of the dopamine system in neurobiology, recent research has sought to introduce multiple discount factors into Actor-Critic architectures, such as Proximal Policy Optimiza...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.13517</guid>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MotiMotion: Motion-Controlled Video Generation with Visual Reasoning</title>
@@ -124,6 +97,15 @@ Evaluation harnesses are software systems that orchestrate model evaluation by m
 
 The rapid evolution of generative video foundation models has propelled the field toward professional-grade cinematic synthesis. To achieve such demanding quality, the community transitions towards Reinforcement Learning (RL) and agentic workflows. However, reliable evaluation has emerged as a criti...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.23271</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FastKernels: Benchmarking GPU Kernel Generation in Production</title>
+      <link>https://huggingface.co/papers/2605.23215</link>
+      <description>By Gabriele Oliaro, Yichao Fu, May Jiang, Owen Lu, Junli Wang, et al.
+
+LLM-based agents for GPU kernel generation are advancing rapidly, yet their progress is fundamentally constrained by the benchmarks they optimize against. Existing benchmarks are poorly aligned with production inference frameworks: they evaluate kernels on a single GPU with synthetic inputs, ignore ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.23215</guid>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -188,24 +170,6 @@ Modern robotic policies increasingly rely on action chunking to execute complex 
 Large language models for vertical domains are bottlenecked by the scarcity of complex, domain-specific task-oriented dialogues. Existing data acquisition pipelines face a persistent trilemma: expert annotation is expensive, real-world service conversations are constrained by privacy and commercial ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.25162</guid>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Language Models Need Sleep</title>
-      <link>https://huggingface.co/papers/2605.26099</link>
-      <description>By Sangyun Lee, Sean McLeish, Tom Goldstein, Giulia Fanti
-
-Transformer-based large language models are increasingly used for long-horizon tasks; however, their attention mechanism scales poorly with context length. To handle this, we study a sleep-like consolidation mechanism in which a model periodically converts recent context into persistent fast weights...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.26099</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents</title>
-      <link>https://huggingface.co/papers/2605.25624</link>
-      <description>By Bowen Wang, Dunjie Lu, Junli Wang, Tianyi Bai, Shixuan Liu, et al.
-
-Reinforcement learning with verifiable rewards (RLVR) has driven breakthroughs in domains such as math, tool-use, and software engineering, yet its extension to computer-use agents (CUAs) has been bottlenecked by the scarcity of scalable training data with deterministic rewards. Constructing such da...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.25624</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents</title>
@@ -304,6 +268,24 @@ Despite the emergence of diffusion large language models (D-LLMs) as an alternat
 
 Prior work establishes that controlled contrastiveness between self-generated responses from large language models, set via reward scores, improves downstream preference tuning in English. We extend this method to multiple languages and evaluate two models across a total of 14 high and low-resource ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.26293</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NSF-SciFy: Mining the NSF Awards Database for Scientific Claims</title>
+      <link>https://huggingface.co/papers/2503.08600</link>
+      <description>By Delip Rao, Weiqiu You, Eric Wong, Chris Callison-Burch
+
+We introduce NSF-SciFy, a comprehensive dataset of scientific claims and investigation proposals extracted from National Science Foundation award abstracts. While previous scientific claim verification datasets have been limited in size and scope, NSF-SciFy represents a significant advance with 2.8 ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2503.08600</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can LLMs Introspect? A Reality Check</title>
+      <link>https://huggingface.co/papers/2605.26242</link>
+      <description>By Shashwat Singh, Tal Linzen, Shauli Ravfogel
+
+Can large language models detect and report their own internal states? A number of studies have argued that the answer to this question is yes. We argue, based on lessons from human metacognition research, that this conclusion may be premature: to be convinced of this conclusion we need to distingui...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.26242</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Recent advances in large language models (LLMs) have facilitated the widespread 
 
 We introduce Gemini Embedding 2, a native multimodal embedding model that allows embedding video, audio, image, and text modalities in a unified representation space. We leverage the multimodal capabilities of Gemini to produce embeddings for arbitrary combinations of interleaved inputs across all t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.27295</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JLT: Clean-Latent Prediction in Latent Diffusion Transformers</title>
+      <link>https://huggingface.co/papers/2605.27102</link>
+      <description>By Funing Fu, Tenghui Wang, Junyong Cen, Qichao Zhu, Guanyu Zhou
+
+Flow matching with clean-data prediction has shown that regressing the clean point can exploit low-dimensional structure more effectively than predicting an ambient noised quantity. We ask whether this principle remains useful after images are mapped into a learned latent space, where compression ha...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27102</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QUACK: Questioning, Understanding, and Auditing Communicated Knowledge in Multimodal Social Deduction Agents</title>
+      <link>https://huggingface.co/papers/2605.27068</link>
+      <description>By Ye Yuan, Rui Song, Weien Li, Zeyu Li, Haochen Liu, et al.
+
+Social deduction games have become a popular testbed for probing reasoning, deception, coordination, and belief modeling in Large Language Model (LLM) agents. However, most environments are scored only by game outcomes such as win rates and largely remain to text-only interaction, making it difficul...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27068</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

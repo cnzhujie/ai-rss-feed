@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 08:42:29 +0000</lastBuildDate>
-    <item>
-      <title>Seeing the Needle in the Haystack: Towards Weakly-Supervised Log Instance Anomaly Localization via Counterfactual Perturbation</title>
-      <link>https://huggingface.co/papers/2605.10988</link>
-      <description>By Yutszyuk Wong, Wentai Wu, Yuen-Ying Yeung, Weiwei Lin
-
-Log anomaly detection is a critical task for system operations and security assurance. However, in networked systems at scale, log data are generated at massive scale while instance-level annotations are prohibitively expensive, posing great difficulties to fine-grained anomaly localization. To addr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.10988</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 27 May 2026 12:26:35 +0000</lastBuildDate>
     <item>
       <title>Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration</title>
       <link>https://huggingface.co/papers/2605.17423</link>
@@ -55,6 +46,15 @@ As interactive LLM-based applications are created and refined, model developers 
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ZeroUnlearn: Few-Shot Knowledge Unlearning in Large Language Models</title>
+      <link>https://huggingface.co/papers/2605.18879</link>
+      <description>By Yujie Lin, Chengyi Yang, Zhishang Xiang, Yiping Song, Jinsong Su
+
+Large language models inevitably retain sensitive information, defined as inputs that may induce harmful generations, due to training on massive web corpora, raising concerns for privacy and safety. Existing machine unlearning methods primarily rely on retraining or aggressive fine-tuning, which are...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.18879</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>How Far Will They Go? Red-Teaming Online Influence with Large Language Models</title>
       <link>https://huggingface.co/papers/2605.22880</link>
       <description>By Daniel C. Ruiz, Anna Serbina, Ashwin Rao, Emilio Ferrara, Luca Luceri
@@ -62,15 +62,6 @@ As interactive LLM-based applications are created and refined, model developers 
 As large language model (LLM)-based agents increasingly participate in online discourse, red-teaming their capacity to support political influence campaigns is critical for information integrity. In pursuit of this goal, we focus on locally deployed open-source LLMs, as opposed to frontier API-only ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.22880</guid>
       <pubDate>Wed, 20 May 2026 19:25:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>ThriftAttention: Selective Mixed Precision for Long-Context FP4 Attention</title>
-      <link>https://huggingface.co/papers/2605.23081</link>
-      <description>By Joe Sharratt
-
-Efficient attention algorithms are critical to mitigate the quadratic cost of attention in long-context workloads. Prior work utilises block-scaled quantisation techniques on Blackwell GPUs to move attention computation to 4-bit precision to accelerate inference. However, these techniques result in ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.23081</guid>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Representation over Routing: Overcoming Surrogate Hacking in Multi-Timescale PPO</title>
@@ -100,22 +91,13 @@ Large language models (LLMs) are typically trained on shuffled corpora, yielding
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction</title>
-      <link>https://huggingface.co/papers/2605.23889</link>
-      <description>By Chong Cheng, Peilin Tao, Nanjie Yao, Guanzhi Ding, Xianda Chen, et al.
+      <title>Agentic CLEAR: Automating Multi-Level Evaluation of LLM Agents</title>
+      <link>https://huggingface.co/papers/2605.22608</link>
+      <description>By Asaf Yehudai, Lilach Eden, Michal Shmueli-Scheuer
 
-Online 3D reconstruction requires estimating camera pose and scene geometry under strict causal and bounded-memory constraints. Existing methods often suffer from drift, jitter, or collapse on long sequences. We trace these failures to a fundamental mismatch. Streaming geometry is inherently tempora...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.23889</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CRONOS: Benchmarking Counterfactual Physical Consistency in Video Models</title>
-      <link>https://huggingface.co/papers/2605.23699</link>
-      <description>By León Begiristain, Olaf Dünkel, Adam Kortylewski
-
-Video prediction is increasingly viewed as a path toward generalizable world models, yet it remains unclear whether these systems learn underlying causal structure or merely exploit superficial visual correlations for future prediction. We introduce CRONOS, an intervention-based benchmark designed t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.23699</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+Agentic systems are becoming more capable: agents define strategies, take actions, and interact with different environments. This autonomy poses serious challenges for overseeing and assessing agent behavior. Most current tools are limited, focusing on observability with basic evaluation capabilitie...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22608</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CoSPlay: Cooperative Self-Play at Test-Time with Self-Generated Code and Unit Test</title>
@@ -163,15 +145,6 @@ Long-horizon agentic reasoning requires large language models to act over long i
       <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SimuWoB: Simulating Real-World Mobile Apps for Fast and Faithful GUI Agent Benchmarking</title>
-      <link>https://huggingface.co/papers/2605.25160</link>
-      <description>By Guohong Liu, Jialei Ye, Pengzhi Gao, Wei Liu, Jian Luan, et al.
-
-Mobile GUI agents powered by large language models have progressed rapidly, creating urgent needs for realistic and comprehensive evaluation. Existing benchmarks prioritize reproducibility but are often limited to open-source apps or file-operation tasks for the difficulty of constructing rewards on...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.25160</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Injecting Image Guidance into Text-Conditioned Diffusion Models at Inference</title>
       <link>https://huggingface.co/papers/2605.25191</link>
       <description>By Agata Żywot, Iason Skylitsis, Thijmen Nijdam, Zoe Tzifa-Kratira, Derck Prinzhorn, et al.
@@ -208,13 +181,13 @@ Modern robotic policies increasingly rely on action chunking to execute complex 
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anticipate and Learn: Unleashing Idle-Time Compute in Proactive Agents</title>
-      <link>https://huggingface.co/papers/2605.25971</link>
-      <description>By Haoyi Hu, Qirong Lyu, Xianghan Kong, Weiwen Liu, Jianghao Lin, et al.
+      <title>STREAM: A Data-Centric Framework for Mining High-Value Task-Oriented Dialogues from Streaming Media</title>
+      <link>https://huggingface.co/papers/2605.25162</link>
+      <description>By Liang Xue, Haoyu Liu, Cheng Wang, Pengyu Chen, Haozhuo Zheng, et al.
 
-While AI agents demonstrate remarkable capabilities in reasoning and tool use, they remain fundamentally reactive: they compute responses only after explicit user prompts. This paradigm ignores a critical opportunity: the idle time between interactions is largely wasted, leaving agents unable to pre...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.25971</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+Large language models for vertical domains are bottlenecked by the scarcity of complex, domain-specific task-oriented dialogues. Existing data acquisition pipelines face a persistent trilemma: expert annotation is expensive, real-world service conversations are constrained by privacy and commercial ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.25162</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Language Models Need Sleep</title>
@@ -313,6 +286,24 @@ Vision-Language-Action (VLA) models widely adopt pretrained Vision-Language Mode
 
 Activation oracles aim to make the activations of other models legible to humans and yield promising results compared to white-box interpretability techniques. However, uncertainty quantification (UQ) for the natural-language outputs of such activation oracles is so far understudied. Here, we invest...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.26045</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>D^2-Monitor: Dynamic Safety Monitoring for Diffusion LLMs via Hesitation-Aware Routing</title>
+      <link>https://huggingface.co/papers/2605.25893</link>
+      <description>By Aoxi Liu, Yupeng Chen, James Oldfield, Guanzhe Hong, Junchi Yu, et al.
+
+Despite the emergence of diffusion large language models (D-LLMs) as an alternative to autoregressive large language models (AR-LLMs), safety monitoring for D-LLMs remains largely unexplored. Unlike AR-LLMs, D-LLMs generate text through a multi-step denoising process, exposing intermediate hidden re...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.25893</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations</title>
+      <link>https://huggingface.co/papers/2605.26293</link>
+      <description>By Mike Zhang, Ali Basirat, Desmond Elliott
+
+Prior work establishes that controlled contrastiveness between self-generated responses from large language models, set via reward scores, improves downstream preference tuning in English. We extend this method to multiple languages and evaluate two models across a total of 14 high and low-resource ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.26293</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Large language models (LLMs) have evolved into interactive agents that collabora
 
 Recent advances in large language models (LLMs) have facilitated the widespread deployment of LLMs as interactive agents capable of reasoning, planning, and tool use. Despite strong performance on existing benchmarks, such agents often exhibit notable degradation when deployed in real-world settings...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.27209</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini</title>
+      <link>https://huggingface.co/papers/2605.27295</link>
+      <description>By Madhuri Shanbhogue, Zhe Li, Shanfeng Zhang, Gustavo Hernández Ábrego, Shih-Cheng Huang, et al.
+
+We introduce Gemini Embedding 2, a native multimodal embedding model that allows embedding video, audio, image, and text modalities in a unified representation space. We leverage the multimodal capabilities of Gemini to produce embeddings for arbitrary combinations of interleaved inputs across all t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27295</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

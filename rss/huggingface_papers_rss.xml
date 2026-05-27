@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 04:26:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 08:42:29 +0000</lastBuildDate>
     <item>
       <title>Seeing the Needle in the Haystack: Towards Weakly-Supervised Log Instance Anomaly Localization via Counterfactual Perturbation</title>
       <link>https://huggingface.co/papers/2605.10988</link>
@@ -17,15 +17,6 @@
 Log anomaly detection is a critical task for system operations and security assurance. However, in networked systems at scale, log data are generated at massive scale while instance-level annotations are prohibitively expensive, posing great difficulties to fine-grained anomaly localization. To addr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.10988</guid>
       <pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing</title>
-      <link>https://huggingface.co/papers/2605.23986</link>
-      <description>By Han Chen, Zining Zhang, Wenqi Pei, Bingsheng He, Ming Wu, et al.
-
-Memory is a fundamental component for enabling long-context LLM agents, supporting persistent state across interactions through a continuous serve-and-update lifecycle. Despite substantial prior work, existing systems suffer from significant maintenance overhead due to two key limitations: coarse-gr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.23986</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Soap2Soap: Long Cinematic Video Remaking via Multi-Agent Collaboration</title>
@@ -100,40 +91,13 @@ Current motion-controlled image-to-video generation models rigidly follow user-p
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks</title>
-      <link>https://huggingface.co/papers/2605.24218</link>
-      <description>By Jian Xie, Tianhe Lin, Zilu Wang, Yuting Ning, Yuekun Yao, et al.
+      <title>Understanding Data Temporality Impact on Large Language Models Pre-training</title>
+      <link>https://huggingface.co/papers/2605.22769</link>
+      <description>By Pilchen Hippolyte, Fabre Romain, Signe Talla Franck, Perez Patrick, Grave Edouard
 
-Deep research agents extend the role of search engines from retrieving keyword-matched pages to synthesizing knowledge, fundamentally changing how humans interact with information. However, frontier systems remain proprietary, while existing open agents often generalize poorly across different task ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.24218</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills</title>
-      <link>https://huggingface.co/papers/2605.24117</link>
-      <description>By Yingtie Lei, Zhongwei Wan, Jiankun Zhang, Samiul Alam, Zixuan Zhong, et al.
-
-Large language model (LLM) agents accumulate rich episodic trajectories while solving real-world tasks, but it remains unclear whether such experience can be distilled into reusable procedural skills. We introduce SkillEvolBench, a diagnostic benchmark for evaluating this step from experience reuse ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.24117</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Decoding the Critique Mechanism in Large Reasoning Models</title>
-      <link>https://huggingface.co/papers/2603.16331</link>
-      <description>By Hoang Phan, Quang H. Nguyen, Hung T. Q. Le, Xiusi Chen, Heng Ji, et al.
-
-Large Reasoning Models (LRMs) exhibit backtracking and self-verification mechanisms that enable them to revise intermediate steps and reach correct solutions, yielding strong performance on complex logical benchmarks. We hypothesize that such behaviors are beneficial only when the model has sufficie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.16331</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coloring the Noise: Adversarial Sobolev Alignment for Faithful Image Super Resolution</title>
-      <link>https://huggingface.co/papers/2605.23264</link>
-      <description>By Hongbo Wang, Huaibo Huang, Pin Wang, Jinhua Hao, Chao Zhou, et al.
-
-Generative priors in Image Super-Resolution (SR) often compromise faithful restoration, we attribute this limitation to a fundamental spectral misalignment between isotropic objectives and the intrinsic natural image manifold. While Direct Preference Optimization offers a path to alignment, its reli...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.23264</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+Large language models (LLMs) are typically trained on shuffled corpora, yielding models whose knowledge is frozen at train time and whose temporal grounding remains poorly understood. In this work, we study the impact of pre-training dynamics on the acquisition of time-sensitive factual knowledge, f...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.22769</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction</title>
@@ -181,21 +145,21 @@ The rapid evolution of generative video foundation models has propelled the fiel
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SEAL: Synergistic Co-Evolution of Agents and Learning Environments</title>
-      <link>https://huggingface.co/papers/2605.24426</link>
-      <description>By Yihao Hu, Zhihao Wen, Xiujin Liu, Pan Wang, Xin Zhang, et al.
-
-Large Language Model (LLM) agents are increasingly improved through interaction, yet most self-evolution methods adapt either the policy or the learning environment in isolation. We identify this structural gap as Agent-Environment Misalignment: the agent's capability frontier changes during trainin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.24426</guid>
-      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ECHO: Terminal Agents Learn World Models for Free</title>
       <link>https://huggingface.co/papers/2605.24517</link>
       <description>By Vaishnavi Shrivastava, Piero Kauffmann, Ahmed Awadallah, Dimitris Papailiopoulos
 
 CLI agents are the closest thing language models have to an embodied setting: the model emits commands, the terminal executes them, and the returned stream -- stdout, errors, files, logs, and traces -- records the consequences. We argue that this stream is a supervision signal, but standard agent RL...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.24517</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAM: State-Adaptive Memory for Long-Horizon Reasoning Agent</title>
+      <link>https://huggingface.co/papers/2605.24468</link>
+      <description>By Yuyang Hu, Hongjin Qian, Shuting Wang, Jiongnan Liu, Ziliang Zhao, et al.
+
+Long-horizon agentic reasoning requires large language models to act over long interaction histories containing thoughts, tool calls, observations, and partial conclusions. The challenge is not merely that these histories grow long, but that information needed for the current decision may be scatter...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.24468</guid>
       <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -226,31 +190,22 @@ Reward hacking arises when a model improves a proxy reward by exploiting shortcu
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reinforcing Few-step Generators via Reward-Tilted Distribution Matching</title>
-      <link>https://huggingface.co/papers/2605.26108</link>
-      <description>By Yushi Huang, Xiangxin Zhou, Ruoyu Wang, Chi Zhang, Jun Zhang, et al.
+      <title>DarkForest: Less Talk, Higher Accuracy for Multi-Agent LLMs</title>
+      <link>https://huggingface.co/papers/2605.25188</link>
+      <description>By Yi Li, Songtao Wei, Dongming Jiang, Zhichun Guo, Qiannan Li, et al.
 
-Recent advances in few-step diffusion distillation have enabled efficient image generation, yet aligning these models with human preferences remains challenging. We propose Reward-Tilted Distribution Matching Distillation (RTDMD), a two-stage framework that unifies distribution matching distillation...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.26108</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+Multi-agent LLM systems improve reasoning by combining outputs from multiple agents, but interaction-heavy methods can introduce error propagation and high communication overhead. When agents exchange raw responses or reasoning traces, incorrect intermediate reasoning may be adopted and amplified, l...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.25188</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Pixel-Level Pavement Distress Assessment Using Instance Segmentation</title>
-      <link>https://huggingface.co/papers/2605.26095</link>
-      <description>By Logan Dewick, Bibesh Pyakurel, Kong Pheng Yang, Nazim Choudhury, M. G. Sarwar Murshed
+      <title>Learning High-Frequency Continuous Action Chunks in Latent Space</title>
+      <link>https://huggingface.co/papers/2605.24931</link>
+      <description>By Kunyun Wang, Yuhang Zheng, Yupeng Zheng, Jieru Zhao, Wenchao Ding
 
-Automated pavement distress assessment requires more than image-level classification or coarse bounding box detection, demanding precise localization of thin, branching, and irregular cracks to achieve the geometric precision necessary for maintenance-relevant quantification. This paper presents a v...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.26095</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>InstructSAM: Segment Any Instance with Any Instructions</title>
-      <link>https://huggingface.co/papers/2605.26102</link>
-      <description>By Yuqian Yuan, Wentong Li, Zhaocheng Li, Yutong Lin, Juncheng Li, et al.
-
-In this paper, we introduce InstructSAM, a unified and streamlined framework designed for multi-instance segmentation under arbitrary instructions. We formulates instruction-driven instance segmentation as a set-structured query prediction problem and propose an explicit reasoning-to-instance query ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.26102</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+Modern robotic policies increasingly rely on action chunking to execute complex tasks in the physical world. While action chunking improves temporal consistency at moderate action frequencies, it becomes insufficient when the action frequency is further increased (e.g., to 60~Hz). At such high frequ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.24931</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anticipate and Learn: Unleashing Idle-Time Compute in Proactive Agents</title>
@@ -340,6 +295,24 @@ We present MobileGym, a browser-hosted, lightweight, fully controllable environm
 
 We introduce LLaVA-OneVision-2 (LLaVA-OV-2), the most capable vision-language model in the LLaVA-OneVision series to date, achieving superior performance across a broad range of multimodal benchmarks. The model builds on a native OneVision-Encoder and incorporates Windowed Attention for efficient lo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.25979</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking VLM Representation for VLA Initialization</title>
+      <link>https://huggingface.co/papers/2605.25802</link>
+      <description>By Weifeng Lin, Siyuan Huang, Hao Li, Tingwei Chen, Ruichuan An, et al.
+
+Vision-Language-Action (VLA) models widely adopt pretrained Vision-Language Models (VLMs) as policy backbones, yet it remains unclear what kind of pretrained VLM representation is useful as a VLA initialization. In this paper, we study VLA initialization as a controlled representation-design problem...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.25802</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Confidence and Calibration of Activation Oracles for Reliable Interpretation of Language Model Internals</title>
+      <link>https://huggingface.co/papers/2605.26045</link>
+      <description>By Federico Torrielli, Peter Schneider-Kamp, Lukas Galke Poech
+
+Activation oracles aim to make the activations of other models legible to humans and yield promising results compared to white-box interpretability techniques. However, uncertainty quantification (UQ) for the natural-language outputs of such activation oracles is so far understudied. Here, we invest...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.26045</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +430,33 @@ Large Language Models (LLMs) are increasingly deployed as autonomous agents that
 
 Mixture-of-Experts (MoE) has become the de facto architecture for hundred-billion-parameter language models, yet its advantages at sub-billion scales for on-device deployment remain largely unexplored. To close this gap, we present MobileMoE, a family of on-device MoE language models with sub-billio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.27358</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Share More, Search Less: Collaborative Parallel Thinking for Efficient Test-Time Scaling</title>
+      <link>https://huggingface.co/papers/2605.27030</link>
+      <description>By Xinglin Wang, Hao Lin, Shaoxiong Feng, Peiwen Yuan, Yiwei Li, et al.
+
+Test-Time Scaling (TTS) enhances the reasoning capabilities of large language models by allocating additional inference compute to explore the solution space. However, existing parallel TTS methods typically keep branches isolated during search: intermediate discoveries remain branch-private and can...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27030</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VitaBench 2.0: Evaluating Personalized and Proactive Agents in Long-Term User Interactions</title>
+      <link>https://huggingface.co/papers/2605.27141</link>
+      <description>By Yuxin Chen, Yi Zhang, Zhengzhou Cai, Yaorui Shi, Zhiyuan Yao, et al.
+
+Large language models (LLMs) have evolved into interactive agents that collaborate with users in real-world tasks. Effective collaboration in such settings increasingly depends on understanding the user beyond what is explicitly stated, as user intent is often reflected in fragmented daily interacti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27141</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning to Act under Noise: Enhancing Agent Robustness via Noisy Environments</title>
+      <link>https://huggingface.co/papers/2605.27209</link>
+      <description>By Yuxin Chen, Xiaodong Cai, Junfeng Fang, Zhuowen Han, Yu Wang, et al.
+
+Recent advances in large language models (LLMs) have facilitated the widespread deployment of LLMs as interactive agents capable of reasoning, planning, and tool use. Despite strong performance on existing benchmarks, such agents often exhibit notable degradation when deployed in real-world settings...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27209</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

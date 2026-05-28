@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 18:15:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 21:12:06 +0000</lastBuildDate>
     <item>
       <title>Rethinking How to Remember: Beyond Atomic Facts in Lifelong LLM Agent Memory</title>
       <link>https://huggingface.co/papers/2605.19952</link>
@@ -226,22 +226,13 @@ Cross-view spatial reasoning remains a weak spot for vision-language models (VLM
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AutoScientists: Self-Organizing Agent Teams for Long-Running Scientific Experimentation</title>
-      <link>https://huggingface.co/papers/2605.28655</link>
-      <description>By Shanghua Gao, Ada Fang, Marinka Zitnik
+      <title>Got a Secret? LLM Agents Can't Keep It: Evaluating Privacy in Multi-Agent Systems</title>
+      <link>https://huggingface.co/papers/2605.27766</link>
+      <description>By Aman Priyanshu, Supriti Vijay, Esha Pahwa
 
-Scientific research proceeds through iterative cycles of hypothesis generation, experiment design, execution, and revision. AI agents can automate parts of this process, but existing approaches typically follow a single research trajectory or coordinate through a central planner with fixed objective...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.28655</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players</title>
-      <link>https://huggingface.co/papers/2605.28816</link>
-      <description>By Fangfu Liu, Kai He, Tianchang Shen, Tianshi Cao, Sanja Fidler, et al.
-
-World models for interactive video generation have largely focused on single-agent settings, where future observations are generated from a single control signal. However, many generated environments require multi-agent interaction: multiple players, robots, or embodied agents act simultaneously wit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.28816</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+LLM safety evaluations predominantly test models in isolation, yet deployed AI agents increasingly operate within persistent social environments alongside other agents. We introduce a Moltbook-style simulation platform where thousands of LLM agents interact across communities over a simulated month,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27766</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HRBench: Benchmarking and Understanding Thinking-Mode Switch Strategies in Hybrid-Reasoning LLMs</title>
@@ -457,6 +448,15 @@ Understanding 3D objects from images is fundamental to robotics and AR/VR applic
 
 Despite the rapid progress of multimodal large language models in building Graphical User Interface (GUI) agents, their real-world task completion is fundamentally bottlenecked by a lack of world knowledge about GUI operations. Existing solutions typically rely on expensive multi-agent scaffolding o...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.28534</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LACUNA: Safe Agents as Recursive Program Holes</title>
+      <link>https://huggingface.co/papers/2605.28617</link>
+      <description>By Yaoyu Zhao, Yichen Xu, Oliver Bračevac, Cao Nguyen Pham, Frank Zhengqing Wu, et al.
+
+LLM agents increasingly act by writing code, yet a split persists between the runtime that drives the agent and the code the model writes. The runtime owns the loop, context, and control flow, and the model has little say over any of them. Letting model-written code shape the runtime itself would ma...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.28617</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

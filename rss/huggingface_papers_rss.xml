@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 10:17:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 14:41:26 +0000</lastBuildDate>
     <item>
       <title>EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration</title>
       <link>https://huggingface.co/papers/2605.15042</link>
@@ -19,13 +19,13 @@ We propose EverAnimate, an efficient post-training method for long-horizon anima
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Agentic CLEAR: Automating Multi-Level Evaluation of LLM Agents</title>
-      <link>https://huggingface.co/papers/2605.22608</link>
-      <description>By Asaf Yehudai, Lilach Eden, Michal Shmueli-Scheuer
+      <title>Rethinking How to Remember: Beyond Atomic Facts in Lifelong LLM Agent Memory</title>
+      <link>https://huggingface.co/papers/2605.19952</link>
+      <description>By Jingwei Sun, Jianing Zhu, Jiangchao Yao, Tongliang Liu, Bo Han
 
-Agentic systems are becoming more capable: agents define strategies, take actions, and interact with different environments. This autonomy poses serious challenges for overseeing and assessing agent behavior. Most current tools are limited, focusing on observability with basic evaluation capabilitie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.22608</guid>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+To enable reliable long-term interaction, LLM agents require a memory system that can faithfully store, efficiently retrieve, and deeply reason over accumulated dialogue history. Most existing methods adopt an extracted fact based paradigm: handcrafted static prompts compress raw dialogues into atom...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.19952</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FastKernels: Benchmarking GPU Kernel Generation in Production</title>
@@ -44,33 +44,6 @@ LLM-based agents for GPU kernel generation are advancing rapidly, yet their prog
 Recent progress on long-horizon agentic tasks has been driven largely by scaling up individual agents through stronger models, better tools, and more effective scaffolding. In contrast, much less is understood about scaling out: whether multiple peer agents, all targeting the same task, can become a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.24486</guid>
       <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>STREAM: A Data-Centric Framework for Mining High-Value Task-Oriented Dialogues from Streaming Media</title>
-      <link>https://huggingface.co/papers/2605.25162</link>
-      <description>By Liang Xue, Haoyu Liu, Cheng Wang, Pengyu Chen, Haozhuo Zheng, et al.
-
-Large language models for vertical domains are bottlenecked by the scarcity of complex, domain-specific task-oriented dialogues. Existing data acquisition pipelines face a persistent trilemma: expert annotation is expensive, real-world service conversations are constrained by privacy and commercial ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.25162</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations</title>
-      <link>https://huggingface.co/papers/2605.26293</link>
-      <description>By Mike Zhang, Ali Basirat, Desmond Elliott
-
-Prior work establishes that controlled contrastiveness between self-generated responses from large language models, set via reward scores, improves downstream preference tuning in English. We extend this method to multiple languages and evaluate two models across a total of 14 high and low-resource ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.26293</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NSF-SciFy: Mining the NSF Awards Database for Scientific Claims</title>
-      <link>https://huggingface.co/papers/2503.08600</link>
-      <description>By Delip Rao, Weiqiu You, Eric Wong, Chris Callison-Burch
-
-We introduce NSF-SciFy, a comprehensive dataset of scientific claims and investigation proposals extracted from National Science Foundation award abstracts. While previous scientific claim verification datasets have been limited in size and scope, NSF-SciFy represents a significant advance with 2.8 ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2503.08600</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Can LLMs Introspect? A Reality Check</title>
@@ -118,31 +91,22 @@ Causal Transformer language models suffer from strictly sequential decoding and 
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini</title>
-      <link>https://huggingface.co/papers/2605.27295</link>
-      <description>By Madhuri Shanbhogue, Zhe Li, Shanfeng Zhang, Gustavo Hernández Ábrego, Shih-Cheng Huang, et al.
+      <title>Everything at Every Scale: Scale-Invariant Diffusion with Continuous Super-Resolution</title>
+      <link>https://huggingface.co/papers/2605.26032</link>
+      <description>By Zixin Jessie Chen, Zhuo Chen, Archer Wang, Jeff Gore, William T. Freeman, et al.
 
-We introduce Gemini Embedding 2, a native multimodal embedding model that allows embedding video, audio, image, and text modalities in a unified representation space. We leverage the multimodal capabilities of Gemini to produce embeddings for arbitrary combinations of interleaved inputs across all t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.27295</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+Creating images from noise is image generation; reconstructing fine details from coarse inputs is super-resolution. Despite their practical differences, both can be understood as reversing information loss across scales. We introduce SKILD, a Scale-invariant K-Space Image Learning Diffusion model th...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.26032</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>JLT: Clean-Latent Prediction in Latent Diffusion Transformers</title>
-      <link>https://huggingface.co/papers/2605.27102</link>
-      <description>By Funing Fu, Tenghui Wang, Junyong Cen, Qichao Zhu, Guanyu Zhou
+      <title>AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions</title>
+      <link>https://huggingface.co/papers/2605.25707</link>
+      <description>By Jingwei Sun, Jianing Zhu, Yuanyi Li, Tongliang Liu, Xia HU, et al.
 
-Flow matching with clean-data prediction has shown that regressing the clean point can exploit low-dimensional structure more effectively than predicting an ambient noised quantity. We ask whether this principle remains useful after images are mapped into a learned latent space, where compression ha...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.27102</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>QUACK: Questioning, Understanding, and Auditing Communicated Knowledge in Multimodal Social Deduction Agents</title>
-      <link>https://huggingface.co/papers/2605.27068</link>
-      <description>By Ye Yuan, Rui Song, Weien Li, Zeyu Li, Haochen Liu, et al.
-
-Social deduction games have become a popular testbed for probing reasoning, deception, coordination, and belief modeling in Large Language Model (LLM) agents. However, most environments are scored only by game outcomes such as win rates and largely remain to text-only interaction, making it difficul...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.27068</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+Autonomous computer use agents that powered by multimodal large language models (MLLMs) are emerging as capable assistants for completing complex digital workflows. However, real-world execution environments are far from ideal: pop-ups, resolution changes, and competing applications frequently inter...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.25707</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Balancing Fidelity and Diversity in Diffusion Models via Symmetric Attention Decomposition: Hopfield Perspective</title>
@@ -232,6 +196,15 @@ Agent skills provide a lightweight way to adapt LLM agents to specialized domain
 
 We introduce GE-Sim 2.0 (Genie Envisioner World Simulator 2.0), a closed-loop video world simulator for robotic manipulation. Building on the action-conditioned video generation framework of Genie Envisioner, GE-Sim 2.0 is re-trained on thousands of hours of real-world robot data spanning teleoperat...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.27491</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GradSentry: Gradient Spectral Entropy for Backdoor Sample Filtering in Large Language Model Fine-Tuning</title>
+      <link>https://huggingface.co/papers/2605.26574</link>
+      <description>By Haodong Zhao, Tianyi Xu, Tianhang Zhao, Zhuosheng Zhang, Gongshen Liu
+
+Fine-tuning Large Language Models with untrusted data exposes models to backdoor attacks, where poisoned samples cause targeted misbehavior. Existing sample-filtering defenses rely on clustering, which requires sufficient data and can fail at extreme poison ratios. We propose GradSentry ({Grad}ient ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.26574</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +430,33 @@ Clark Hash is a small method for storing neural embeddings in less space. It nor
 
 Recent studies have shown that Large Language Models (LLMs) can achieve strong reasoning performance by incorporating functional symbolic representations that abstractly describe graph traversal algorithms and step-by-step reasoning in few-shot learning settings. However, it remains unclear how LLMs...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.27824</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient and Scalable Provenance Tracking for LLM-Generated Code Snippets</title>
+      <link>https://huggingface.co/papers/2605.28510</link>
+      <description>By Andrea Gurioli, Davide D'Ascenzo, Federico Pennino, Maurizio Gabbrielli, Stefano Zacchiroli
+
+Large language models (LLMs) for code completion and generation are increasingly used in software development, yet they may reproduce training examples verbatim and without authorship attribution, raising legal and ethical concerns around plagiarism and license compliance. Classical fingerprint-base...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.28510</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Models That Know How Evaluations Are Designed Score Safer</title>
+      <link>https://huggingface.co/papers/2605.28591</link>
+      <description>By Katharina Deckenbach, Haritz Puerto, Jonas Geiping, Sahar Abdelnabi
+
+The validity of AI safety evaluations depends on models behaving consistently across controlled and deployment settings. Prior work has identified test-time contextual cues, such as hypothetical scenarios, as a source of verbalized evaluation awareness and subsequent behavioral shift. In this paper,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.28591</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Fragility of Chain-of-Thought Monitoring Across Typologically Diverse Languages</title>
+      <link>https://huggingface.co/papers/2605.27901</link>
+      <description>By Eric Onyame, Runtao Zhou, Kowshik Thopalli, Bhavya Kailkhura, Chirag Agarwal
+
+Chain-of-thought (CoT) monitoring has been proposed as a promising safety mechanism for detecting misaligned behavior in large language models. However, its reliability remains largely unexplored beyond English and across diverse model families. We present the first large-scale evaluation of CoT mon...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27901</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

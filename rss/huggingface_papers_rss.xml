@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 05:14:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 10:17:49 +0000</lastBuildDate>
     <item>
       <title>EverAnimate: Minute-Scale Human Animation via Latent Flow Restoration</title>
       <link>https://huggingface.co/papers/2605.15042</link>
@@ -17,24 +17,6 @@
 We propose EverAnimate, an efficient post-training method for long-horizon animated video generation that preserves visual quality and character identity. Long-form animation remains challenging because highly dynamic human motion must be synthesized against relatively static environments, making ch...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.15042</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ZeroUnlearn: Few-Shot Knowledge Unlearning in Large Language Models</title>
-      <link>https://huggingface.co/papers/2605.18879</link>
-      <description>By Yujie Lin, Chengyi Yang, Zhishang Xiang, Yiping Song, Jinsong Su
-
-Large language models inevitably retain sensitive information, defined as inputs that may induce harmful generations, due to training on massive web corpora, raising concerns for privacy and safety. Existing machine unlearning methods primarily rely on retraining or aggressive fine-tuning, which are...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.18879</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Understanding Data Temporality Impact on Large Language Models Pre-training</title>
-      <link>https://huggingface.co/papers/2605.22769</link>
-      <description>By Pilchen Hippolyte, Fabre Romain, Signe Talla Franck, Perez Patrick, Grave Edouard
-
-Large language models (LLMs) are typically trained on shuffled corpora, yielding models whose knowledge is frozen at train time and whose temporal grounding remains poorly understood. In this work, we study the impact of pre-training dynamics on the acquisition of time-sensitive factual knowledge, f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.22769</guid>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agentic CLEAR: Automating Multi-Level Evaluation of LLM Agents</title>
@@ -55,31 +37,13 @@ LLM-based agents for GPU kernel generation are advancing rapidly, yet their prog
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SAM: State-Adaptive Memory for Long-Horizon Reasoning Agent</title>
-      <link>https://huggingface.co/papers/2605.24468</link>
-      <description>By Yuyang Hu, Hongjin Qian, Shuting Wang, Jiongnan Liu, Ziliang Zhao, et al.
+      <title>AgentFugue: Agent Scaling for Long-Horizon Tasks through Collective Reasoning</title>
+      <link>https://huggingface.co/papers/2605.24486</link>
+      <description>By Yuyang Hu, Hongjin Qian, Shuting Wang, Jiongnan Liu, Tong Zhao, et al.
 
-Long-horizon agentic reasoning requires large language models to act over long interaction histories containing thoughts, tool calls, observations, and partial conclusions. The challenge is not merely that these histories grow long, but that information needed for the current decision may be scatter...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.24468</guid>
+Recent progress on long-horizon agentic tasks has been driven largely by scaling up individual agents through stronger models, better tools, and more effective scaffolding. In contrast, much less is understood about scaling out: whether multiple peer agents, all targeting the same task, can become a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.24486</guid>
       <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DarkForest: Less Talk, Higher Accuracy for Multi-Agent LLMs</title>
-      <link>https://huggingface.co/papers/2605.25188</link>
-      <description>By Yi Li, Songtao Wei, Dongming Jiang, Zhichun Guo, Qiannan Li, et al.
-
-Multi-agent LLM systems improve reasoning by combining outputs from multiple agents, but interaction-heavy methods can introduce error propagation and high communication overhead. When agents exchange raw responses or reasoning traces, incorrect intermediate reasoning may be adopted and amplified, l...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.25188</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning High-Frequency Continuous Action Chunks in Latent Space</title>
-      <link>https://huggingface.co/papers/2605.24931</link>
-      <description>By Kunyun Wang, Yuhang Zheng, Yupeng Zheng, Jieru Zhao, Wenchao Ding
-
-Modern robotic policies increasingly rely on action chunking to execute complex tasks in the physical world. While action chunking improves temporal consistency at moderate action frequencies, it becomes insufficient when the action frequency is further increased (e.g., to 60~Hz). At such high frequ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.24931</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>STREAM: A Data-Centric Framework for Mining High-Value Task-Oriented Dialogues from Streaming Media</title>
@@ -89,33 +53,6 @@ Modern robotic policies increasingly rely on action chunking to execute complex 
 Large language models for vertical domains are bottlenecked by the scarcity of complex, domain-specific task-oriented dialogues. Existing data acquisition pipelines face a persistent trilemma: expert annotation is expensive, real-world service conversations are constrained by privacy and commercial ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.25162</guid>
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking VLM Representation for VLA Initialization</title>
-      <link>https://huggingface.co/papers/2605.25802</link>
-      <description>By Weifeng Lin, Siyuan Huang, Hao Li, Tingwei Chen, Ruichuan An, et al.
-
-Vision-Language-Action (VLA) models widely adopt pretrained Vision-Language Models (VLMs) as policy backbones, yet it remains unclear what kind of pretrained VLM representation is useful as a VLA initialization. In this paper, we study VLA initialization as a controlled representation-design problem...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.25802</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Confidence and Calibration of Activation Oracles for Reliable Interpretation of Language Model Internals</title>
-      <link>https://huggingface.co/papers/2605.26045</link>
-      <description>By Federico Torrielli, Peter Schneider-Kamp, Lukas Galke Poech
-
-Activation oracles aim to make the activations of other models legible to humans and yield promising results compared to white-box interpretability techniques. However, uncertainty quantification (UQ) for the natural-language outputs of such activation oracles is so far understudied. Here, we invest...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.26045</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>D^2-Monitor: Dynamic Safety Monitoring for Diffusion LLMs via Hesitation-Aware Routing</title>
-      <link>https://huggingface.co/papers/2605.25893</link>
-      <description>By Aoxi Liu, Yupeng Chen, James Oldfield, Guanzhe Hong, Junchi Yu, et al.
-
-Despite the emergence of diffusion large language models (D-LLMs) as an alternative to autoregressive large language models (AR-LLMs), safety monitoring for D-LLMs remains largely unexplored. Unlike AR-LLMs, D-LLMs generate text through a multi-step denoising process, exposing intermediate hidden re...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.25893</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations</title>
@@ -172,31 +109,13 @@ End-to-end autonomous driving via Vision-Language-Action (VLA) models demands a 
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Share More, Search Less: Collaborative Parallel Thinking for Efficient Test-Time Scaling</title>
-      <link>https://huggingface.co/papers/2605.27030</link>
-      <description>By Xinglin Wang, Hao Lin, Shaoxiong Feng, Peiwen Yuan, Yiwei Li, et al.
+      <title>Triplet-Block Diffusion RWKV</title>
+      <link>https://huggingface.co/papers/2605.25969</link>
+      <description>By Ke Lin, Yiyang Luo, Zhaolong Su, Yunya Song, Anyi Rao
 
-Test-Time Scaling (TTS) enhances the reasoning capabilities of large language models by allocating additional inference compute to explore the solution space. However, existing parallel TTS methods typically keep branches isolated during search: intermediate discoveries remain branch-private and can...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.27030</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VitaBench 2.0: Evaluating Personalized and Proactive Agents in Long-Term User Interactions</title>
-      <link>https://huggingface.co/papers/2605.27141</link>
-      <description>By Yuxin Chen, Yi Zhang, Zhengzhou Cai, Yaorui Shi, Zhiyuan Yao, et al.
-
-Large language models (LLMs) have evolved into interactive agents that collaborate with users in real-world tasks. Effective collaboration in such settings increasingly depends on understanding the user beyond what is explicitly stated, as user intent is often reflected in fragmented daily interacti...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.27141</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning to Act under Noise: Enhancing Agent Robustness via Noisy Environments</title>
-      <link>https://huggingface.co/papers/2605.27209</link>
-      <description>By Yuxin Chen, Xiaodong Cai, Junfeng Fang, Zhuowen Han, Yu Wang, et al.
-
-Recent advances in large language models (LLMs) have facilitated the widespread deployment of LLMs as interactive agents capable of reasoning, planning, and tool use. Despite strong performance on existing benchmarks, such agents often exhibit notable degradation when deployed in real-world settings...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.27209</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+Causal Transformer language models suffer from strictly sequential decoding and a quadratic per-step attention cost. While linear-time causal models and discrete diffusion models each address these weaknesses, their integration remains inherently inconsistent: diffusion requires bidirectional attent...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.25969</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Gemini Embedding 2: A Native Multimodal Embedding Model from Gemini</title>
@@ -268,6 +187,51 @@ AI coding agents are increasingly used to write real-world software, but ensurin
 
 We present PEAM, a Parametric Embodied Agent Memory framework in Minecraft that transforms agent memory from inference-time retrieval into parameter-resident skills internalized through experience. PEAM pairs a slow deliberative LLM for open-ended reasoning with a fast parametric module for reflexiv...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.27762</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AgensFlow: A Coordination-Policy Substrate for Multi-Agent Systems</title>
+      <link>https://huggingface.co/papers/2605.27466</link>
+      <description>By Nicole Koenigstein
+
+Multi-agent systems built on large language models (LLMs) require many coordination choices that are difficult to fix a priori: which skill protocol to invoke, which agent role should perform a subtask, which model to bind to each role, how roles should interact, when to use retrieval or verificatio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27466</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lost in Sampling: Assessing Lexical Reachability in LLMs via the Word Coverage Score (WCS)</title>
+      <link>https://huggingface.co/papers/2605.27268</link>
+      <description>By Samer Awad, Javier Conde, Carlos Arriaga, Tairan Fu, Javier Coronado-Blázquez, et al.
+
+Modern Large Language Models (LLMs) are often criticized for producing repetitive and homogeneous text, despite possessing vast latent vocabularies. While previous research has focused on model knowledge and training data, we investigate the role of decoding mechanics in suppressing linguistic diver...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27268</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders</title>
+      <link>https://huggingface.co/papers/2605.27354</link>
+      <description>By Yi Jing, Zao Dai, Jinwu Hu, Zijun Yao, Lei Hou, et al.
+
+Model internals encode rich information about how a large language model (LLM) processes its training data; however, post-training data engineering largely relies on external signals and ignores rich intrinsic signals lying in model internals. We propose SAERL, a data engineering framework for LLM r...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27354</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SkillGrad: Optimizing Agent Skills Like Gradient Descent</title>
+      <link>https://huggingface.co/papers/2605.27760</link>
+      <description>By Hanyu Wang, Yifan Lan, Bochuan Cao, Lu Lin, Jinghui Chen
+
+Agent skills provide a lightweight way to adapt LLM agents to specialized domains by storing reusable procedural knowledge in structured files. However, whether downloaded from third parties or self-generated, these skills are often unreliable, incomplete, or outdated. Existing skill-evolution metho...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27760</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GE-Sim 2.0: A Roadmap Towards Comprehensive Closed-loop Video World Simulators for Robotic Manipulation</title>
+      <link>https://huggingface.co/papers/2605.27491</link>
+      <description>By Boxiang Qiu, Liliang Chen, Yue Liao, Nan Wang, Lintao Wang, et al.
+
+We introduce GE-Sim 2.0 (Genie Envisioner World Simulator 2.0), a closed-loop video world simulator for robotic manipulation. Building on the action-conditioned video generation framework of Genie Envisioner, GE-Sim 2.0 is re-trained on thousands of hours of real-world robot data spanning teleoperat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27491</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +421,42 @@ Proactive Recommender Systems (PRSs) aim to guide user preference shift toward t
 
 Parameter-efficient finetuning (PEFT) has become the standard approach for adapting large language models, yet evaluations largely emphasize downstream accuracy while overlooking the retention of pretrained capabilities. We argue that PEFT should be assessed through the stability-plasticity dilemma:...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.28819</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes</title>
+      <link>https://huggingface.co/papers/2605.28421</link>
+      <description>By Caijun Xu, Changyi Xiao, Zhongyuan Peng, Yixin Cao
+
+Reinforcement learning has become a central paradigm for advancing reasoning in large language models, yet most existing methods still depend on stronger teacher models or heavily curated difficult datasets, limiting scalable capability improvement. In this paper, we introduce DenoiseRL, a reinforce...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.28421</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ESC-Skills: Discovering and Self-Evolving Skills for Emotional Support Conversations</title>
+      <link>https://huggingface.co/papers/2605.27908</link>
+      <description>By Jie Zhu, Huaixia Dou, Shuo Jiang, Junhui Li, Lifan Guo, et al.
+
+Existing emotional support conversation (ESC) systems mainly rely on end-to-end response generation or coarse strategy supervision, offering limited interpretability and little support for systematic skill improvement. We propose ESC-Skills, a skill-centric framework that discovers and self-evolves ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27908</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clark Hash: Stateless Sparse Johnson-Lindenstrauss Quantization for Neural Embeddings</title>
+      <link>https://huggingface.co/papers/2605.28034</link>
+      <description>By Stanislav Kirdey, Clark Labs Inc
+
+Clark Hash is a small method for storing neural embeddings in less space. It normalizes each database vector, applies a deterministic sparse signed Johnson-Lindenstrauss projection, clips the result, and stores a fixed-width scalar-quantized code. Queries stay in floating point and are scored agains...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.28034</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Revealing Algorithmic Deductive Circuits for Logical Reasoning</title>
+      <link>https://huggingface.co/papers/2605.27824</link>
+      <description>By Phuong Minh Nguyen, Tien Huu Dang, Naoya Inoue
+
+Recent studies have shown that Large Language Models (LLMs) can achieve strong reasoning performance by incorporating functional symbolic representations that abstractly describe graph traversal algorithms and step-by-step reasoning in few-shot learning settings. However, it remains unclear how LLMs...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27824</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

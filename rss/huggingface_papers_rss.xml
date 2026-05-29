@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 21:57:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 23:23:18 +0000</lastBuildDate>
     <item>
       <title>ORACLE: Anticipating Scams from Partial Trajectories in Streaming App Usage</title>
       <link>https://huggingface.co/papers/2605.16363</link>
@@ -55,6 +55,15 @@ High-fidelity 3D Gaussian head avatar generation is critical for applications su
       <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>CONF-KV: Confidence-Aware KV Cache Eviction with Mixed-Precision Storage for Long-Horizon LLM</title>
+      <link>https://huggingface.co/papers/2605.24786</link>
+      <description>By Yubo Li, Yidi Miao
+
+Long-horizon LLM inference turns the key--value (KV) cache into the dominant GPU memory consumer and makes per-token attention increasingly expensive. Many common eviction policies use static recency windows or historical attention, leaving unused a signal computed on every decoding step: the model'...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.24786</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CollectionLoRA: Collecting 50 Effects in 1 LoRA via Multi-Teacher On-Policy Distillation</title>
       <link>https://huggingface.co/papers/2605.25378</link>
       <description>By Fangtai Wu, Hailong Guo, Shijie Huang, Jiayi Song, Yubo Huang, et al.
@@ -88,6 +97,15 @@ Dense retrievers exhibit positional bias, favoring documents whose query-relevan
 
 Reinforcement Learning from Human Feedback (RLHF) is the standard method to align Large Language Models (LLMs) with human preferences. In this work, we introduce alignment tampering, a potential vulnerability where the LLM undergoing alignment influences the preference dataset, causing RLHF to ampli...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.27355</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PANDO: Efficient Multimodal AI Agents via Online Skill Distillation</title>
+      <link>https://huggingface.co/papers/2605.24785</link>
+      <description>By Yubo Li, Yidi Miao, Yuntian Shen, Yuxin Liu
+
+Recent advances in multimodal web agents often rely on increased inference-time computation, including rollout search, verifier passes, offline skill discovery, and specialist model stacks. This raises a central question: can a web agent become more efficient as it accumulates experience, rather tha...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.24785</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -125,33 +143,6 @@ Pointwise reward modeling offers critical signals for LLM post-training, yet str
 The rapid growth in submissions to machine learning venues has strained the scientific peer-review system and intensified interest in LLM-based automated peer reviewers. However, how good these systems are actually, especially compared to human reviewers at catching scientific gaps, remains poorly u...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.26730</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How LoRA Remembers? A Parametric Memory Law for LLM Finetuning</title>
-      <link>https://huggingface.co/papers/2605.30260</link>
-      <description>By Ziwen Xu, Haiwen Hong, Linsong Yu, Benglei Cui, Longtao Huang, et al.
-
-Large Language Models (LLMs) must continuously learn and update knowledge to remain effective in dynamic real-world environments. While Low-Rank Adaptation (LoRA) is widely used for such memory updates, existing studies mainly rely on qualitative downstream evaluations, leaving the quantitative capa...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30260</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents</title>
-      <link>https://huggingface.co/papers/2605.29559</link>
-      <description>By Xiaoxuan Peng, Kaiqi Zhang, Xinyu Lu, Boxi Cao, Yaojie Lu, et al.
-
-Mastering terminal environments requires language agents capable of multi-step planning, feedback-grounded execution, and dynamic state adaptation. However, training such agents is currently bottlenecked by a reliance on scraped external repositories, which limits domain diversity, environment contr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.29559</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>When Should Models Change Their Minds? Contextual Belief Management in Large Language Models</title>
-      <link>https://huggingface.co/papers/2605.30219</link>
-      <description>By Haoming Xu, Weihong Xu, Zongrui Li, Mengru Wang, Yunzhi Yao, et al.
-
-Long-horizon interactions require language models to manage accumulating information: when to update their state, when to preserve their state, and what to ignore. We study this challenge as Contextual Belief Management (CBM): maintaining a predicted belief state aligned with formal evidence while i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30219</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments</title>
@@ -457,6 +448,15 @@ Recent advances in Vision-Language Models (VLMs) have achieved impressive perfor
 
 Robot manipulation critically depends on perception that preserves the action-relevant aspects of a scene. Yet most robot learning pipelines are built upon visual encoders pre-trained for static recognition or vision-language alignment, leaving motion understanding to downstream policies. We introdu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.30350</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Far Looks Up: Probing Spatial Representation in Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2605.30161</link>
+      <description>By Cheolhong Min, Jaeyun Jung, Daeun Lee, Hyeonseong Jeon, Yu Su, et al.
+
+Vision-language models (VLMs) achieve strong performance on spatial reasoning benchmarks, yet it remains unclear whether this reflects structured 3D understanding or reliance on statistical shortcuts in natural images. We introduce a representation-level analysis framework that constructs minimal co...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.30161</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

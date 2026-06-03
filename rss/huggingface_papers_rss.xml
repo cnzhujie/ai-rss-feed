@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 15:49:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 22:30:15 +0000</lastBuildDate>
     <item>
       <title>From Activation to Causality: Discovery of Causal Visual Representations in the Human Brain</title>
       <link>https://huggingface.co/papers/2605.23895</link>
@@ -26,15 +26,6 @@ Identifying which brain regions represent a visual concept in the human brain is
 We present a functional form (that we refer to as a Unified Neural Scaling Law (UNSL)) that accurately models and extrapolates the scaling behaviors of deep neural networks as multiple dimensions all vary simultaneously (i.e. how the evaluation metric of interest varies as one simultaneously varies ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.26248</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lost in Translation? Exploring the Shift in Grammatical Gender from Latin to Occitan</title>
-      <link>https://huggingface.co/papers/2605.09156</link>
-      <description>By Ahan Chatterjee, Matthias Schöffel, Matthias Aßenmacher, Marinus Wiedner, Esteban Garces Arias
-
-The diachronic evolution from Latin to the Romance languages involved a restructuring of the grammatical gender system from a tripartite configuration (masculine, feminine, neuter) to a bipartite one (masculine, feminine) in most Romance languages. In this work, we introduce an interpretable deep le...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.09156</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MERIT: Learning Disentangled Music Representations for Audio Similarity</title>
@@ -80,24 +71,6 @@ Research on AI-generated text detection has presented a number of approaches to 
 Linear probes trained on LLM activations are increasingly proposed as deception-detection metrics, yet report AUROC exceeding 0.96 on clean benchmarks while collapsing under distributional shift. This paper systematically pressure-tests probe-based metrics across the Gemma 3 model family (1B-27B par...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.27958</guid>
       <pubDate>Wed, 27 May 2026 04:51:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding</title>
-      <link>https://huggingface.co/papers/2605.29707</link>
-      <description>By Jianuo Huang, Yaojie Zhang, Qituan Zhang, Hao Lin, Hanlin Xu, et al.
-
-Speculative decoding accelerates LLM inference by drafting multiple tokens and verifying them in parallel with the target model. However, its practical speedup is constrained by the trade-off between draft quality and drafting cost: autoregressive drafters model causal dependencies among draft token...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.29707</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs</title>
-      <link>https://huggingface.co/papers/2605.30501</link>
-      <description>By Zhihao Wu, Gracia Gong, Qinglin Zhu, Yudong Chen, Runcong Zhao
-
-Watermarking embeds statistical signatures in AI-generated text for detection and attribution. We reveal a fundamental vulnerability: when users access multiple models (today's reality), watermarks trivially fail. Watermarks perturb output distributions away from the original, and in competitive mar...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30501</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FreeForm: Reduced-Order Deformable Simulation from Particle-Based Skinning Eigenmodes</title>
@@ -199,21 +172,21 @@ Recent progress in the development of language models has been defined by scale,
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>τ_0-WM: A Unified Video-Action World Model for Robotic Manipulation</title>
-      <link>https://huggingface.co/papers/2606.01027</link>
-      <description>By Pengfei Zhou, Shengcong Chen, Di Chen, Jiaxu Wang, Rongjun Jin, et al.
-
-Robotic manipulation requires models that generate executable actions while anticipating and evaluating their future consequences before physical execution. We present τ_0-World Model (τ_0-WM), a unified video-action world model that integrates policy learning, video prediction, and action evaluatio...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.01027</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Trust Region On-Policy Distillation</title>
       <link>https://huggingface.co/papers/2606.01249</link>
       <description>By Xingrun Xing, Haoqing Wang, Boyan Gao, Ziheng Li, Yehui Tang
 
 On-Policy Distillation (OPD) is a fundamental technique for efficient post-training of large language models (LLMs), with broad applications in agent learning, multi-task enhancement, and model compression. However, OPD training becomes unstable when the teacher and student distributions differ subs...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.01249</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification</title>
+      <link>https://huggingface.co/papers/2606.01476</link>
+      <description>By Yuhang Zhou, Lizhu Zhang, Yifan Wu, Mingyi Wang, Peng Bo, et al.
+
+On-Policy Distillation (OPD) trains a student model on its own generative trajectories under dense token-level feedback from a stronger teacher, mitigating both the off-policy distribution shift of Supervised Fine-Tuning (SFT) and the sparse credit assignment of Reinforcement Learning (RL). However,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.01476</guid>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -343,6 +316,15 @@ Reinforcement learning (RL) for visual reasoning needs scalable, verifiable, and
       <pubDate>Mon, 01 Jun 2026 02:52:49 +0000</pubDate>
     </item>
     <item>
+      <title>Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams</title>
+      <link>https://huggingface.co/papers/2606.01770</link>
+      <description>By Zewen Liu, Zhan Shi, Yisi Sang, Bing He, Minhua Lin, et al.
+
+Auto-harness systems such as A-Evolve, GEPA, and Meta-Harness improve LLM agents by optimizing prompts, skills, tools, memories, and supporting infrastructure from execution feedback, but they are typically evaluated on fixed offline benchmarks. Real deployments instead present open-ended task strea...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.01770</guid>
+      <pubDate>Mon, 01 Jun 2026 06:51:14 +0000</pubDate>
+    </item>
+    <item>
       <title>Ψ-Bench: Evaluating Persona-Sensitive Influencing in Persuasive Dialogues</title>
       <link>https://huggingface.co/papers/2606.02754</link>
       <description>By Peixuan Han, Hongyi Du, Jiayu Liu, Yihang Sun, Yutong Liu, et al.
@@ -431,6 +413,24 @@ Modern generative models possess a deep understanding of visual content, yet tra
 Test-time scaling is a powerful approach to obtain better reasoning in large language models, but it becomes memory-bottlenecked during long-horizon decoding, as the KV-cache grows. KV-cache quantization can help improve this, but current methods are evaluated under prefill-like settings and errors ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.03458</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models</title>
+      <link>https://huggingface.co/papers/2606.03748</link>
+      <description>By Glenn Jocher, Jing Qiu, Mengyu Liu, Shuai Lyu, Fatih Cagatay Akyon, et al.
+
+Real-time vision demands models that are accurate, efficient, and simple to deploy across diverse hardware. The YOLO family has become widely deployed for this reason, yet most YOLO detectors still rely on non-maximum suppression at inference, carry heavy detection heads due to Distribution Focal Lo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03748</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Conditional Hypothesis Generation for LLM-Based Text Analysis with Researcher-Specified Covariates</title>
+      <link>https://huggingface.co/papers/2606.03029</link>
+      <description>By Paiheng Xu, Jing Liu, Wei Ai
+
+A core goal of computational social science is to discover interpretable differences in how language varies across outcomes of interest, such as political affiliation or instructional quality. Recent LLM-based hypothesis generation methods describe such differences in natural language, but select fo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03029</guid>
+      <pubDate>Tue, 02 Jun 2026 02:07:46 +0000</pubDate>
     </item>
     <item>
       <title>Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling</title>

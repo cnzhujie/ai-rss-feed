@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 10:41:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 14:07:25 +0000</lastBuildDate>
     <item>
       <title>Benchmarks are Not Enough: RAMP for Runtime Assessing of Agentic Models in Production Systems</title>
       <link>https://huggingface.co/papers/2605.27492</link>
@@ -37,24 +37,6 @@ Weight-space model merging is usually formulated as an algebraic operation on ch
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection</title>
-      <link>https://huggingface.co/papers/2605.30288</link>
-      <description>By Haowen Wang, Yaxin Du, Jian Yang, Jiajun Wu, Shukai Liu, et al.
-
-Mid-training has become an important stage in modern LLM development, using large-scale curated mixtures to strengthen capabilities before final post-training. Its data selection problem is distinct: the data are optimized under a pretraining-style objective at near-pretraining scale, but are curate...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30288</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Domain-Specific Data Synthesis for LLMs via Minimal Sufficient Representation Learning</title>
-      <link>https://huggingface.co/papers/2605.30039</link>
-      <description>By Tong Ye, Hang Yu, Tengfei Ma, Xuhong Zhang, Jianguo Li, et al.
-
-Large Language Models have demonstrated remarkable progress in general-purpose capabilities and can achieve strong performance in specific domains through fine-tuning on domain-specific data. However, acquiring high-quality data for target domains remains a significant challenge. Existing data synth...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30039</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Score-Control for Hallucination Reduction in Diffusion Models</title>
       <link>https://huggingface.co/papers/2606.00377</link>
       <description>By Mahesh Bhosale, Naresh Kumar Devulapally, Abdul Wasi, Chau Pham, Vishnu Suresh Lokhande, et al.
@@ -73,12 +55,39 @@ Speech translation systems increasingly span speech-to-text translation (S2TT), 
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SpatialAct: Probing Spatial Reasoning-to-Action Capabilities of VLM Agents in 3D Scenes</title>
+      <link>https://huggingface.co/papers/2605.31148</link>
+      <description>By Tianhui Liu, Jie Feng, Zhiheng Zheng, Shengyuan Wang, Yiming Guo, et al.
+
+Humans can effortlessly perceive spatial layouts, form cognitive representations, reason about spatial relations, and translate such reasoning into actions in everyday 3D environments. Although recent vision-language models (VLMs) have shown promising performance on observation-conditioned spatial p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.31148</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PaintBench: Deterministic Evaluation of Precise Visual Editing</title>
+      <link>https://huggingface.co/papers/2606.00188</link>
+      <description>By Kai Xu, Ellis Brown, Shrikar Madhu, Rob Fergus, He He, et al.
+
+While current multimodal models are proficient at open-ended visual editing, executing precise single-answer edits remains an important obstacle. To probe this challenge, we introduce PaintBench, a dynamically scalable benchmark targeting 20 fundamental precise visual editing operations across four ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.00188</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Do Text Edits Generalize to Visual Generation? Benchmarking Cross-Modal Knowledge Editing in UMMs</title>
       <link>https://huggingface.co/papers/2606.00477</link>
       <description>By Xin Gao, Cheng Yang, Chufan Shi, Taylor Berg-Kirkpatrick
 
 Unified multimodal models (UMMs) have emerged as a promising paradigm for general-purpose multimodal intelligence. As they are deployed in real-world applications, effectively updating internal knowledge becomes critical. While knowledge editing has matured for text-only models, it remains unclear w...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.00477</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Semi-Supervised Noise Adaptation: Transferring Knowledge from Noise Domain</title>
+      <link>https://huggingface.co/papers/2606.00558</link>
+      <description>By Yuan Yao, Jin Song, Huixia Li, Tongtong Yuan, Jiaqi Wu, et al.
+
+Transfer learning aims to facilitate the learning of a target domain by transferring knowledge from a source domain. The source domain typically contains semantically meaningful samples (*e.g.*, images) to facilitate effective knowledge transfer. However, a recent study observes that the noise domai...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.00558</guid>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -98,15 +107,6 @@ On-Policy Distillation (OPD) trains a student model on its own generative trajec
 The rapid progress of frontier large language models has led to widespread benchmark saturation, limiting the ability of existing datasets to differentiate model capabilities or provide useful training signal. For instance, on LiveCodeBench, frontier models achieve over 99% Pass@1 on easy splits and...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.01286</guid>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling</title>
-      <link>https://huggingface.co/papers/2606.02578</link>
-      <description>By Seojeong Park, Jiho Choi, Junyong Kang, Seonho Lee, Jaeyo Shin, et al.
-
-Recent multimodal large language models have demonstrated strong reasoning ability, yet their reliability as automated evaluators remains limited by a critical weakness: when visual evidence conflicts with textual cues, MLLM judges tend to reward plausible narratives over perceptually correct answer...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.02578</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WALL-WM: Carving World Action Modeling at the Event Joints</title>
@@ -170,33 +170,6 @@ Auto-harness systems such as A-Evolve, GEPA, and Meta-Harness improve LLM agents
 Abundant procedural knowledge on the Web holds great potential for helping agents solve long-horizon tasks. However, such knowledge is often multimodal, heterogeneous, noisy, and implicitly assumes human executors, making it difficult to use directly as the skills required by agents. To bridge the g...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.01993</guid>
       <pubDate>Mon, 01 Jun 2026 09:50:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>AURA: Action-Gated Memory for Robot Policies at Constant VRAM</title>
-      <link>https://huggingface.co/papers/2606.02775</link>
-      <description>By Josef Chen
-
-The KV-cache is the right memory for datacenters but the wrong memory for robots. Datacenter inference batches many short requests and resets them, amortizing an attention cache across a crowd. Embodied agents instead run one long, non-resetting episode on bandwidth-limited edge hardware, where high...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.02775</guid>
-      <pubDate>Mon, 01 Jun 2026 18:38:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bootstrap Your Generator: Unpaired Visual Editing with Flow Matching</title>
-      <link>https://huggingface.co/papers/2606.03911</link>
-      <description>By Yoad Tewel, Yuval Atzmon, Gal Chechik, Lior Wolf
-
-Modern generative models possess a deep understanding of visual content, yet training them for image editing typically requires massive datasets of paired examples. This limits scalability, especially for video editing where collecting paired data is prohibitively expensive. We propose Bootstrap You...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03911</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>KVarN: Variance-Normalized KV-Cache Quantization Mitigates Error Accumulation in Reasoning Tasks</title>
-      <link>https://huggingface.co/papers/2606.03458</link>
-      <description>By Lorenz K. Muller, Philippe Bich, Chiara Boretti, Hyun-Min Chang, Jiawei Zhuang, et al.
-
-Test-time scaling is a powerful approach to obtain better reasoning in large language models, but it becomes memory-bottlenecked during long-horizon decoding, as the KV-cache grows. KV-cache quantization can help improve this, but current methods are evaluated under prefill-like settings and errors ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03458</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models</title>
@@ -304,6 +277,24 @@ Training and scaling Large Language Models demand enormous computational resourc
 
 Multimodal agents in robotics, AR, and autonomous driving must reason about places and layouts from continuous egocentric streams, often using evidence outside the current view. Existing benchmarks either evaluate offline over full videos or target events rather than spatial structure. We introduce ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.03890</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training-Free Multi-Concept LoRA Composition with Prompt-Aware Weighting</title>
+      <link>https://huggingface.co/papers/2606.03792</link>
+      <description>By Georgios Tsoumplekas, Stella Bounareli, Vasileios Argyriou
+
+Low-Rank Adaptation (LoRA) successfully enables personalization in text-to-image generation by adapting pre-trained diffusion models to specific visual concepts and styles. However, extending such models to multi-concept customization remains challenging. Naively combining multiple LoRA weights or t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03792</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent libOS: A Library-OS-Inspired Runtime for Long-Running, Capability-Controlled LLM Agents</title>
+      <link>https://huggingface.co/papers/2606.03895</link>
+      <description>By Yingqi Zhang
+
+Large language model (LLM) agents are evolving from request-response assistants into long-running software actors: they maintain state across model calls, fork subtasks, wait for external events, request human authority, generate tools, and perform side effects that must be resumed and audited. This...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03895</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Rubric-based reinforcement learning (RL) uses an LLM-as-a-Judge (LaaJ) to score 
 
 Koopman theory turns nonlinear dynamics into a linear spectral problem. In computation, however, everything depends on a hard finite-dimensional choice: the observables must be expressive, nearly invariant under the dynamics, and, ideally, compatible with composition. Deep Koopman methods learn flex...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.05131</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating Large Language Models in Dynamic Clinical Decision-Making with Standardized Patient Cases</title>
+      <link>https://huggingface.co/papers/2606.05112</link>
+      <description>By Cheng Liang, Pengcheng Qiu, Ya Zhang, Yanfeng Wang, Chaoyi Wu, et al.
+
+Large language models (LLMs) are increasingly proposed as clinical agents, yet static, single-turn benchmarks cannot capture how a model dynamically delivers care across an encounter: gathering information, planning treatment, and adapting longitudinal management across successive patient states. Me...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05112</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 14:07:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 20:12:55 +0000</lastBuildDate>
     <item>
       <title>Benchmarks are Not Enough: RAMP for Runtime Assessing of Agentic Models in Production Systems</title>
       <link>https://huggingface.co/papers/2605.27492</link>
@@ -19,21 +19,21 @@ LLM agents are rapidly evolving from coding assistants into autonomous software 
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Prior Availability in Industrial Visual Sim-to-Real: A Review of CAD-Guided and CAD-Unavailable Regimes</title>
-      <link>https://huggingface.co/papers/2605.30581</link>
-      <description>By Chenxi Tao, Seung-Kyum Choi
-
-Industrial visual sim-to-real is often described as transferring from synthetic images to real images, but industrial deployment usually involves a broader mismatch between available evidence and required decisions. A system may be built from CAD renderings, simulated RGB-D observations, normal refe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30581</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Access Sets Matter: Budgeting Expert Reads for Scalable Weight-Space Model Merging</title>
       <link>https://huggingface.co/papers/2605.29489</link>
       <description>By Yuanyi Wang, Yanggan Gu, Su Lu, Yifan Yang, Zhaoyi Yan, et al.
 
 Weight-space model merging is usually formulated as an algebraic operation on checkpoints, yet at LLM scale the limiting resource is often the set of expert weights that must be read. We introduce MergePipe, a budget-aware execution layer that casts LLM merging as an expert access-set problem: given...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.29489</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2605.30257</link>
+      <description>By Ciara Rowles, Reshinth Adithyan, Nikhil Pinnaparaju, Vikram Voleti, Mark Boss
+
+We present Stable-Layers, a reinforcement learning framework that eliminates the need for paired supervision by fine-tuning a pretrained layer decomposition model using only feedback from a vision-language model (VLM). Starting from Qwen-Image-Layered, we apply Flow-GRPO with LoRA adaptation, sampli...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.30257</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -73,6 +73,15 @@ While current multimodal models are proficient at open-ended visual editing, exe
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Functional Attention: From Pairwise Affinities to Functional Correspondences</title>
+      <link>https://huggingface.co/papers/2605.31559</link>
+      <description>By Jiefang Xiao, Maolin Gao, Simon Weber, Guandao Yang, Daniel Cremers
+
+Learning mappings between infinite-dimensional function spaces, or operator learning, is essential for many machine learning applications. Although transformer-based operators are popular, they often rely on token-wise attention. These methods treat continuous fields as discrete tokens and usually i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.31559</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Do Text Edits Generalize to Visual Generation? Benchmarking Cross-Modal Knowledge Editing in UMMs</title>
       <link>https://huggingface.co/papers/2606.00477</link>
       <description>By Xin Gao, Cheng Yang, Chufan Shi, Taylor Berg-Kirkpatrick
@@ -91,31 +100,13 @@ Transfer learning aims to facilitate the learning of a target domain by transfer
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OmniOPD: Logit-Free On-Policy Distillation via Speculative Verification</title>
-      <link>https://huggingface.co/papers/2606.01476</link>
-      <description>By Yuhang Zhou, Lizhu Zhang, Yifan Wu, Mingyi Wang, Peng Bo, et al.
+      <title>SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory</title>
+      <link>https://huggingface.co/papers/2606.00825</link>
+      <description>By Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, James Fort, Richard Newcombe, et al.
 
-On-Policy Distillation (OPD) trains a student model on its own generative trajectories under dense token-level feedback from a stronger teacher, mitigating both the off-policy distribution shift of Supervised Fine-Tuning (SFT) and the sparse credit assignment of Reinforcement Learning (RL). However,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.01476</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BenchEvolver: Frontier Task Synthesis via Solution-Centric Evolution</title>
-      <link>https://huggingface.co/papers/2606.01286</link>
-      <description>By Yangzhen Wu, Aaron J. Li, Wenjie Ma, Li Cao, Ziheng Zhou, et al.
-
-The rapid progress of frontier large language models has led to widespread benchmark saturation, limiting the ability of existing datasets to differentiate model capabilities or provide useful training signal. For instance, on LiveCodeBench, frontier models achieve over 99% Pass@1 on easy splits and...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.01286</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WALL-WM: Carving World Action Modeling at the Event Joints</title>
-      <link>https://huggingface.co/papers/2606.01955</link>
-      <description>By Shalfun Li, Victor Yao, Charles Yang, Truth Qu, Regis Cheng, et al.
-
-WALL-WM is a World Action Model that shifts video-action learning from chunk-centric optimization to event-grounded Vision-Language-Action pretraining, using semantically coherent action events as the atomic unit of learning. Existing WAMs commonly initialize from multimodal or video foundation mode...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.01955</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocent...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.00825</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Cosmos 3: Omnimodal World Models for Physical AI</title>
@@ -154,13 +145,13 @@ How can a population of agents self-orchestrate and self-adapt into stronger col
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams</title>
-      <link>https://huggingface.co/papers/2606.01770</link>
-      <description>By Zewen Liu, Zhan Shi, Yisi Sang, Bing He, Minhua Lin, et al.
+      <title>Scalable Inference-Time Annealing with Surrogate Likelihood Estimators</title>
+      <link>https://huggingface.co/papers/2605.31498</link>
+      <description>By Daniel Peñaherrera, Rishal Aggarwal, David Ryan Koes
 
-Auto-harness systems such as A-Evolve, GEPA, and Meta-Harness improve LLM agents by optimizing prompts, skills, tools, memories, and supporting infrastructure from execution feedback, but they are typically evaluated on fixed offline benchmarks. Real deployments instead present open-ended task strea...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.01770</guid>
-      <pubDate>Mon, 01 Jun 2026 06:51:14 +0000</pubDate>
+A long standing challenge in computational chemistry and biophysics is efficiently sampling the Boltzmann distribution of molecules. Advances in generative modeling have been proposed to address the limitations of conventional sampling techniques by eliminating the computational cost of simulation. ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.31498</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MMG2Skill: Can Agents Distill In-the-Wild Guides into Self-Evolving Skills?</title>
@@ -170,33 +161,6 @@ Auto-harness systems such as A-Evolve, GEPA, and Meta-Harness improve LLM agents
 Abundant procedural knowledge on the Web holds great potential for helping agents solve long-horizon tasks. However, such knowledge is often multimodal, heterogeneous, noisy, and implicitly assumes human executors, making it difficult to use directly as the skills required by agents. To bridge the g...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.01993</guid>
       <pubDate>Mon, 01 Jun 2026 09:50:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models</title>
-      <link>https://huggingface.co/papers/2606.03748</link>
-      <description>By Glenn Jocher, Jing Qiu, Mengyu Liu, Shuai Lyu, Fatih Cagatay Akyon, et al.
-
-Real-time vision demands models that are accurate, efficient, and simple to deploy across diverse hardware. The YOLO family has become widely deployed for this reason, yet most YOLO detectors still rely on non-maximum suppression at inference, carry heavy detection heads due to Distribution Focal Lo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03748</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SynCred-Bench: Benchmarking Synthetic Credibility in AI-Generated Visual Misinformation</title>
-      <link>https://huggingface.co/papers/2606.03348</link>
-      <description>By Junxiao Yang, Minghao Zhang, Xiaoce Wang, Haoran Liu, Shiyao Cui, et al.
-
-Recent generative models can now produce visual artifacts with realistic embedded text and layouts, creating a new misinformation threat: synthetic credibility. We introduce SYNCRED-Bench, a benchmark of 600 AI-generated misinformation images balanced across six credible-form categories and seven fi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03348</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AgentCL: Toward Rigorous Evaluation of Continual Learning in Language Agents</title>
-      <link>https://huggingface.co/papers/2606.02461</link>
-      <description>By Yiheng Shu, Bernal Jiménez Gutiérrez, Saisri Padmaja Jonnalagedda, Yuguang Yao, Huan Sun, et al.
-
-Language agents spend substantial inference time solving individual tasks, yet the experience acquired in one episode is often underutilized in future episodes. Continual learning expects an agent to accumulate reusable experience across a stream of tasks, improve over time, and avoid interference f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.02461</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Self-Distilled Policy Gradient</title>
@@ -298,13 +262,40 @@ Large language model (LLM) agents are evolving from request-response assistants 
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Conditional Hypothesis Generation for LLM-Based Text Analysis with Researcher-Specified Covariates</title>
-      <link>https://huggingface.co/papers/2606.03029</link>
-      <description>By Paiheng Xu, Jing Liu, Wei Ai
+      <title>When Graph Tokens Sink: A Mechanistic Analysis of Graph Language Models</title>
+      <link>https://huggingface.co/papers/2606.03712</link>
+      <description>By Ding Zhang, Runtao Zhou, Wenqing Zheng, Rizal Fathony, Bayan Bruss, et al.
 
-A core goal of computational social science is to discover interpretable differences in how language varies across outcomes of interest, such as political affiliation or instructional quality. Recent LLM-based hypothesis generation methods describe such differences in natural language, but select fo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03029</guid>
-      <pubDate>Tue, 02 Jun 2026 02:07:46 +0000</pubDate>
+Graph Language Models (GLMs) have become a promising direction for adapting Large Language Models (LLMs) to graph learning tasks. By transforming graph topology and node information into graph tokens, GLMs allow LLMs to jointly process structured graph inputs and textual instructions. Yet, it remain...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03712</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Token Budgets: An Empirical Catalog of 63 LLM-Agent Budget-Overrun Incidents, with an Affine-Typed Rust Mitigation as a Case Study</title>
+      <link>https://huggingface.co/papers/2606.04056</link>
+      <description>By Sajjad Khan
+
+LLM-agent budget overruns are a documented production failure class: a single retry loop can spend thousands of dollars before an operator notices, and the in-process integrity properties that would prevent it (no aliasing, no double-spend, no use-after-delegation of a cost-bearing value) are enforc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.04056</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neural Networks Provably Learn Spectral Representations for Group Composition</title>
+      <link>https://huggingface.co/papers/2606.02993</link>
+      <description>By Jianliang He, Leda Wang, Fengzhuo Zhang, Siyu Chen, Zhuoran Yang
+
+Understanding how structured internal structure emerges during neural network training is central to the study of deep learning. We investigate this phenomenon through the group composition task, where a two-layer neural network is trained to predict g_1 star g_2 for elements of a finite group G. By...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.02993</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Large Language Models Hack Rewards, and Society</title>
+      <link>https://huggingface.co/papers/2606.04075</link>
+      <description>By Wei Liu, Xinyi Mou, Hanqi Yan, Zhongyu Wei, Yulan He
+
+Reinforcement learning (RL) has become a dominant post-training paradigm, enabling large language models (LLMs) to learn from rewards. We observe that societal regulations are structurally similar to reward functions. They define measurable outcomes, thresholds, and exceptions, while often leaving i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.04075</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WebRISE: Requirement-Induced State Evaluation for MLLM-Generated Web Artifacts</title>
@@ -325,31 +316,13 @@ Large Reasoning Models (LRMs) have achieved remarkable progress thanks to Reinfo
       <pubDate>Tue, 02 Jun 2026 11:21:27 +0000</pubDate>
     </item>
     <item>
-      <title>The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?</title>
-      <link>https://huggingface.co/papers/2606.04455</link>
-      <description>By Xinyu Lu, Tianshu Wang, Pengbo Wang, zujie wen, Zhiqiang Zhang, et al.
+      <title>KletterMix: Climbing Toward High-Quality German Pretraining Data</title>
+      <link>https://huggingface.co/papers/2606.03773</link>
+      <description>By Maurice Kraus, Ruben Härle, Sebastian Sztwiertnia, Abbas Goher Khan, Mehdi Ali, et al.
 
-Current AI benchmarks evaluate agents on task execution within human-designed workflows. These evaluations fundamentally fail to measure a critical next-level capability: whether models can autonomously develop agent systems. We introduce the Meta-Agent Challenge (MAC), an evaluation framework desig...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.04455</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stateful Visual Encoders for Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2606.04433</link>
-      <description>By Zirui Wang, Junwei Yu, Adam Yala, David M. Chan, Joseph E. Gonzalez, et al.
-
-Vision-language models (VLMs) are increasingly used in multi-image, multi-turn agentic settings where decisions depend on visual changes. However, in existing open-weight VLMs, visual comparisons happen only inside the language model, while the visual encoder itself remains stateless: each image is ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.04433</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GRAIL: Gradient-Reweighted Advantages for Reinforcement Learning with Verifiable Rewards</title>
-      <link>https://huggingface.co/papers/2606.04889</link>
-      <description>By Tej Deep Pala, Vernon Toh, Soujanya Poria
-
-Reinforcement learning with verifiable rewards (e.g. GRPO) is now a common way to improve mathematical reasoning in Large Language Models (LLMs). However, current methods usually broadcast one sequence-level advantage to all tokens, or use costly process reward models (PRMs) for step-level supervisi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.04889</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+High-quality pretraining data is a central ingredient in modern language models, but German-language resources remain far less developed than their English counterparts: they are often smaller, less carefully curated, weakly documented, and rarely validated through controlled training experiments. W...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03773</guid>
+      <pubDate>Tue, 02 Jun 2026 15:28:15 +0000</pubDate>
     </item>
     <item>
       <title>GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors</title>
@@ -457,6 +430,33 @@ Koopman theory turns nonlinear dynamics into a linear spectral problem. In compu
 
 Large language models (LLMs) are increasingly proposed as clinical agents, yet static, single-turn benchmarks cannot capture how a model dynamically delivers care across an encounter: gathering information, planning treatment, and adapting longitudinal management across successive patient states. Me...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.05112</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DAR: Deontic Reasoning with Agentic Harnesses</title>
+      <link>https://huggingface.co/papers/2606.05009</link>
+      <description>By Guangyao Dou, William Jurayj, Nils Holzenberger, Benjamin Van Durme
+
+Deontic reasoning is the task of answering questions by applying explicit rules and policies to case-specific facts, for example computing tax liability under a statute or determining the outcome of an immigration appeal. A key technical challenge for LLM-based deontic reasoning is that the relevant...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05009</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ZipSplat: Fewer Gaussians, Better Splats</title>
+      <link>https://huggingface.co/papers/2606.05102</link>
+      <description>By Alexander Veicht, Sunghwan Hong, Dániel Baráth, Marc Pollefeys
+
+Feed-forward 3D Gaussian Splatting methods reconstruct a scene from posed or pose-free images in a single forward pass, yet current approaches predict one Gaussian per input pixel, tying the representation budget to camera resolution rather than scene complexity. A flat wall and a richly textured ob...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05102</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Probing Outcome-Level Resemblance and Mechanism-Level Alignment in LLM Risk Decisions: Evidence from the St. Petersburg Game</title>
+      <link>https://huggingface.co/papers/2606.04978</link>
+      <description>By Chensong Huang, Changyu Chen, Chenwei Lin, Hanjia Lyu, Xian Xu, et al.
+
+LLMs can appear cautious in risk decision-making tasks, yet cautious-looking outputs do not necessarily indicate alignment with human decision-making mechanisms. We investigate this distinction using the St. Petersburg game as a controlled testbed, a classical paradox in which the expected payoff is...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.04978</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

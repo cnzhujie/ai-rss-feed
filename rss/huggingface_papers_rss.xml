@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 16:32:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 19:00:46 +0000</lastBuildDate>
     <item>
       <title>Is This Edit Correct? A Multi-Dimensional Benchmark for Reasoning-Aware Image Editing</title>
       <link>https://huggingface.co/papers/2606.05172</link>
@@ -17,6 +17,15 @@
 Diffusion-based image editing has achieved strong visual fidelity under natural language instructions, yet most existing systems still operate at the level of surface instruction following, without reasoning about the implicit contextual constraints embedded in real user requests. This often leads t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.05172</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trust Region Q Adjoint Matching</title>
+      <link>https://huggingface.co/papers/2605.27079</link>
+      <description>By Yonghoon Dong, Kyungmin Lee, Changyeon Kim, Jaehyuk Kim, Jinwoo Shin
+
+Off-policy reinforcement learning of pretrained flow policies remains challenging due to the instability of optimization arising from the multi-step sampling process. Recently, Q-learning with Adjoint Matching (QAM) addressed this issue by reformulating into a memoryless stochastic optimal control (...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.27079</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents</title>
@@ -64,15 +73,6 @@ Large Language Models exhibit paradoxical fragility in fundamental arithmetic, i
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory</title>
-      <link>https://huggingface.co/papers/2606.00825</link>
-      <description>By Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, James Fort, Richard Newcombe, et al.
-
-AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocent...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.00825</guid>
-      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Measuring the Symmetry--Data Exchange Rate</title>
       <link>https://huggingface.co/papers/2606.01090</link>
       <description>By Ahmed M. Adly
@@ -118,22 +118,13 @@ Financial AI agents often fail for a simple reason: they make users carry the co
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Neural Networks Provably Learn Spectral Representations for Group Composition</title>
-      <link>https://huggingface.co/papers/2606.02993</link>
-      <description>By Jianliang He, Leda Wang, Fengzhuo Zhang, Siyu Chen, Zhuoran Yang
+      <title>LLM Anonymization Against Agentic Re-Identification</title>
+      <link>https://huggingface.co/papers/2605.30848</link>
+      <description>By Ziwen Li, Jianing Wen, Tianshi Li
 
-Understanding how structured internal structure emerges during neural network training is central to the study of deep learning. We investigate this phenomenon through the group composition task, where a two-layer neural network is trained to predict g_1 star g_2 for elements of a finite group G. By...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.02993</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Large Language Models Hack Rewards, and Society</title>
-      <link>https://huggingface.co/papers/2606.04075</link>
-      <description>By Wei Liu, Xinyi Mou, Hanqi Yan, Zhongyu Wei, Yulan He
-
-Reinforcement learning (RL) has become a dominant post-training paradigm, enabling large language models (LLMs) to learn from rewards. We observe that societal regulations are structurally similar to reward functions. They define measurable outcomes, thresholds, and exceptions, while often leaving i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.04075</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+Agentic LLMs with web search change the threat model for text anonymization: weak contextual cues can become cross-referenceable evidence for re-identification, yet those same details also carry downstream analytic value of the text. Existing defenses either remove explicit identifiers, perturb text...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.30848</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning</title>
@@ -178,6 +169,15 @@ While household robots are often evaluated based on task completion, everyday do
 
 In robotics systems, vast amounts of visual data are easily captured at high resolution using low-cost, low-power hardware. Yet, limited bandwidth and on-device compute resources prevent full utilization when transmitted via conventional codecs like JPEG/MPEG. Newer codecs, like AV1/AVIF, improve th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.03940</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MAOAM: Unified Object and Material Selection with Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2606.04880</link>
+      <description>By Jaden Park, Valentin Deschaintre, Jason Kuen, Kangning Liu, Iliyan Georgiev, et al.
+
+Selection is a core operation in interactive image editing. To be practical, a user should be able to specify and disambiguate the desired selection region through either text or click-based interactions, and the system should support selecting not only objects but also other criteria, such as mater...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.04880</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

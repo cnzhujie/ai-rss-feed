@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2026 11:17:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 16:08:34 +0000</lastBuildDate>
+    <item>
+      <title>SPACENUM: Revisiting Spatial Numerical Understanding in VLMs</title>
+      <link>https://huggingface.co/papers/2605.23898</link>
+      <description>By Jianshu Zhang, Yijiang Li, Huifeixin Chen, Haoran Lu, Letian Xue, et al.
+
+Vision-Language Models (VLMs) are increasingly deployed in embodied environments, where they need produce numerical outputs such as action magnitudes and spatial coordinates. Although these numbers appear meaningful, it remains unclear whether these numerical outputs are genuinely grounded in spatia...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.23898</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>When Gradients Collide: Failure Modes of Multi-Objective Prompt Optimization for LLM Judges</title>
       <link>https://huggingface.co/papers/2605.26046</link>
@@ -37,13 +46,22 @@ Humans are the bottleneck in building and improving AI. Both the models and the 
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MechVQA: Benchmarking and Enhancing Multimodal LLMs on Comprehensive Mechanical Drawing Understanding</title>
-      <link>https://huggingface.co/papers/2605.30794</link>
-      <description>By Qian Kou, Xiaofeng Shi, Yulin Li, Xiaosong Qiu, Xinyang Wang, et al.
+      <title>Augmenting Attention with Exponentially Decaying Memory Improves Query-Aware KV Sparsity</title>
+      <link>https://huggingface.co/papers/2605.28640</link>
+      <description>By Xiuying Wei, Caglar Gulcehre
 
-Multimodal Large Language Models (MLLMs) have demonstrated significant achievements in general visual question answering (VQA) tasks. However, they remain brittle on mechanical engineering drawings, where high annotation density and weak domain knowledge, compounded by unreliable spatial relation re...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30794</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+Efficient inference is critical for long-context language models, where attention computation and KV-cache access dominate the cost. Recent work RAT+, introduces a recurrence-augmented attention backbone that enables flexible dilated attention at inference time. In this paper, we investigate whether...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.28640</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Human-Like Interactive Speech Recognition With Agentic Correction and Semantic Evaluation</title>
+      <link>https://huggingface.co/papers/2605.29430</link>
+      <description>By Zixuan Jiang, Yanqiao Zhu, Peng Wang, Qinyuan Chen, Xinjian Zhao, et al.
+
+Automatic speech recognition (ASR) is a core component of human--computer interaction and an increasingly important front-end for LLM-based assistants and agents. However, most current ASR systems still follow a single-pass paradigm, which is poorly aligned with human communication, where misunderst...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.29430</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Shape of Addition: Geometric Structures of Arithmetic in Large Language Models</title>
@@ -73,15 +91,6 @@ Large language models are increasingly deployed as coding agents, shifting safet
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Absorbing Complexity: An Interaction-Native Knowledge Harness for Financial LLM Agents</title>
-      <link>https://huggingface.co/papers/2606.01886</link>
-      <description>By Ailiya Borjigin, Igor Stadnyk, Ben Bilski, Maksym Chikita, Dmytro Kyrylenko, et al.
-
-Financial AI agents often fail for a simple reason: they make users carry the complexity. A user must repeatedly restate goals, risk preferences, portfolio context, past judgments, and shifting market assumptions, while the agent answers, retrieves, acts, and forgets. In finance, this is not just in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.01886</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>LLM Anonymization Against Agentic Re-Identification</title>
       <link>https://huggingface.co/papers/2605.30848</link>
       <description>By Ziwen Li, Jianing Wen, Tianshi Li
@@ -109,6 +118,15 @@ Large language models (LLMs) have recently been adopted as synthetic agents for 
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>LayerRoute: Input-Conditioned Adaptive Layer Skipping via LoRA Fine-Tuning for Agentic Language Models</title>
+      <link>https://huggingface.co/papers/2606.01838</link>
+      <description>By Prateek Kumar Sikdar
+
+Agentic language model systems alternate between two structurally distinct step types: structured tool calls (short, deterministic, low perplexity) and open-ended planning/reasoning steps (long, complex, high perplexity). Despite this heterogeneity, current inference systems apply identical compute ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.01838</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>HarnessForge: Joint Harness and Policy Evolution for Adaptive Agent Systems</title>
       <link>https://huggingface.co/papers/2606.01779</link>
       <description>By Mingju Chen, Can Lv, Guibin Zhang, Heng Chang, Shiji Zhou
@@ -116,15 +134,6 @@ Large language models (LLMs) have recently been adopted as synthetic agents for 
 LLM agents are increasingly expected to operate across heterogeneous task regimes that require distinct execution paradigms. This challenges fixed agent systems and motivates system-level meta-adaptation beyond isolated component updates. While existing works have adapted external harness or trained...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.01779</guid>
       <pubDate>Mon, 01 Jun 2026 07:00:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>SEAOTTER: Sensor Embedded Autoencoding with One-Time Transcode for Efficient Reconstruction</title>
-      <link>https://huggingface.co/papers/2606.03940</link>
-      <description>By Dan Jacobellis, Neeraja J. Yadwadkar
-
-In robotics systems, vast amounts of visual data are easily captured at high resolution using low-cost, low-power hardware. Yet, limited bandwidth and on-device compute resources prevent full utilization when transmitted via conventional codecs like JPEG/MPEG. Newer codecs, like AV1/AVIF, improve th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03940</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MAOAM: Unified Object and Material Selection with Vision-Language Models</title>
@@ -145,49 +154,31 @@ Learning representations of CAD models is a largely open problem. While 3D repre
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LLMs Can Leak Training Data But Do They Want To? A Propensity-Aware Evaluation of Memorization in LLMs</title>
-      <link>https://huggingface.co/papers/2606.06286</link>
-      <description>By Gianluca Barmina, Peter Schneider-Kamp, Lukas Galke Poech
+      <title>GENEB: Why Genomic Models Are Hard to Compare</title>
+      <link>https://huggingface.co/papers/2606.04525</link>
+      <description>By Daria Ledneva, Mikhail Nuridinov, Denis Kuznetsov
 
-Large language models can reproduce training data, but existing memorization evaluations mostly measure whether models can be forced to do so, rather than whether they do so under ordinary use. We introduce PropMe, a propensity-aware framework for memorization evaluation that contrasts prefix-based ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06286</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+Progress in genomic foundation models is difficult to assess due to fragmented benchmarks, incompatible evaluation protocols, and task-specific reporting. As a result, claims of superiority or generality across models are often not directly comparable. We introduce GENEB, a large-scale diagnostic be...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.04525</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards One-to-Many Temporal Grounding</title>
-      <link>https://huggingface.co/papers/2606.06294</link>
-      <description>By Qi Xu, Yue Tan, Shihao Chen, Jiahao Meng, Anna Wang, et al.
+      <title>Reinforcement Learning from Rich Feedback with Distributional DAgger</title>
+      <link>https://huggingface.co/papers/2606.05152</link>
+      <description>By Rishabh Agrawal, Jacob Fein-Ashley, Paria Rashidinejad
 
-Temporal Grounding (TG) aims to localize video segments corresponding to a textual query. Prior research predominantly focuses on single-segment retrieval. Real-world scenarios, however, often require localizing multiple disjoint segments for a single query -- a setting we term One-to-Many Temporal ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06294</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+Reasoning models have advanced rapidly, but the dominant reinforcement learning from verifiable rewards (RLVR) recipe remains surprisingly narrow: sample many responses and reward each with a single bit indicating whether the final answer is correct. Yet many settings provide rich feedback, includin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05152</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?</title>
-      <link>https://huggingface.co/papers/2606.04811</link>
-      <description>By Rui Zhao, Kaiming Yang, Jifeng Zhu, Siyang Chen, Ziqi Wang, et al.
+      <title>Measuring Model Robustness via Fisher Information: Spectral Bounds, Theoretical Guarantees, and Practical Algorithms</title>
+      <link>https://huggingface.co/papers/2606.04767</link>
+      <description>By Chong Zhang, Xiang Li, Jia Wang, Qiufeng Wang, Xiaobo Jin
 
-Video generation models have made impressive strides in synthesizing visually compelling content, yet their outputs remain confined to the virtual domain. A natural question follows: how well do these models reflect the physical world when their generated videos leave the screen and enter reality? W...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.04811</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ForeSci: Evaluating LLM Agents for Forward-Looking AI Research Judgment</title>
-      <link>https://huggingface.co/papers/2606.00644</link>
-      <description>By Qiuyu Tian, Haojie Yin, Yingce Xia, Youyong Kong, Zequn Liu
-
-AI research often requires decisions before future evidence exists: which bottleneck to attack, which direction to pursue, or where a project should be positioned. We introduce ForeSci, a temporally controlled benchmark for evaluating whether LLM agents can make such forward-looking research judgeme...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.00644</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Revising Context, Shifting Simulated Stance: Auditing LLM-Based Stance Simulation in Online Discussions</title>
-      <link>https://huggingface.co/papers/2606.06443</link>
-      <description>By Xinnong Zhang, Wanting Shan, Hanjia Lyu, Zhongyu Wei, Jiebo Luo
-
-Large language models are increasingly used to simulate social media users and infer how individuals may respond to online discussions. However, it remains unclear whether these simulations reflect precise user-specific beliefs or whether they are highly sensitive to semantically independent changes...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06443</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+The robustness of deep neural networks is crucial for safety-critical deployments, yet existing evaluation methods are often attack-dependent and lack interpretability. We propose a principled, attack-agnostic robustness metric based on the spectral norm of the Fisher Information Matrix (FIM), which...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.04767</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Benchmark Everything Everywhere All at Once</title>
@@ -457,6 +448,15 @@ Confidence-based loss weighting is usually avoided in generative models because 
 
 Harmony is a compact symbolic layer where mathematical pitch relations, acoustic consonance, and musical convention meet. This report treats chord-symbol sequences not as a complete representation of music, but as an interpretable, controllable time series for genre-local harmonic modeling. Starting...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.07334</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Retrieving Interaction Spaces for Agentic Search</title>
+      <link>https://huggingface.co/papers/2606.06880</link>
+      <description>By Shengyao Zhuang, Yuansheng Ni, Hengxin Fun, Jimmy Lin, Xueguang Ma
+
+Retrieval for search agents is still inherited from non-agentic information retrieval: a retriever ranks the corpus and the agent reads a small set of returned documents. Recent direct corpus interaction (DCI) work shows that agents can instead interact with the raw corpus through shell tools such a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.06880</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

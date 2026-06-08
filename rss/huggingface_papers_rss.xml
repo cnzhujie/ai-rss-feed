@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2026 16:08:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 19:26:22 +0000</lastBuildDate>
     <item>
       <title>SPACENUM: Revisiting Spatial Numerical Understanding in VLMs</title>
       <link>https://huggingface.co/papers/2605.23898</link>
@@ -55,6 +55,15 @@ Efficient inference is critical for long-context language models, where attentio
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>CORE: Contrastive Reflection Enables Rapid Improvements in Reasoning</title>
+      <link>https://huggingface.co/papers/2605.28742</link>
+      <description>By Linas Nasvytis, Simon Jerome Han, Ben Prystawski, Satchel Grant, Noah D. Goodman, et al.
+
+Language models can use verifiable rewards to improve at a wide variety of reasoning tasks. However, both parametric (e.g. RLVR) and non-parametric (e.g. prompt optimization) approaches to doing so typically require hundreds of training samples and thousands of model rollouts, making them expensive ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.28742</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Towards Human-Like Interactive Speech Recognition With Agentic Correction and Semantic Evaluation</title>
       <link>https://huggingface.co/papers/2605.29430</link>
       <description>By Zixuan Jiang, Yanqiao Zhu, Peng Wang, Qinyuan Chen, Xinjian Zhao, et al.
@@ -62,15 +71,6 @@ Efficient inference is critical for long-context language models, where attentio
 Automatic speech recognition (ASR) is a core component of human--computer interaction and an increasingly important front-end for LLM-based assistants and agents. However, most current ASR systems still follow a single-pass paradigm, which is poorly aligned with human communication, where misunderst...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.29430</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Shape of Addition: Geometric Structures of Arithmetic in Large Language Models</title>
-      <link>https://huggingface.co/papers/2606.03645</link>
-      <description>By Liuyuan Wen, Xun Zhu, Lihao Huang, Wenbin Li, Yang Gao
-
-Large Language Models exhibit paradoxical fragility in fundamental arithmetic, implying a disconnect between internal computation and discrete output. By analyzing the residual stream geometry during multi-operand addition, we identify the Iso-Raw-Sum Trajectory (IRST), a geometric structure where r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03645</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Critic-R: Improving Agentic Search using Instruction-tuned Retrievers with Natural Language Introspective Feedback</title>
@@ -145,6 +145,15 @@ Selection is a core operation in interactive image editing. To be practical, a u
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A Cookbook of 3D Vision: Data, Learning Paradigms, and Application</title>
+      <link>https://huggingface.co/papers/2606.04291</link>
+      <description>By Hongyang Du, Zongxia Li, Dawei Liu, Runhao Li, Haoyuan Song, et al.
+
+3D vision has rapidly evolved, driven by increasingly diverse data representations, learning paradigms, and modeling strategies. Yet the field remains fragmented across representations and benchmarks, making it difficult to develop unified perspectives on efficiency, fidelity, and scalability. This ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.04291</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>BRepCLIP: Contrastive Multimodal Pretraining on BRep Primitives for CAD Understanding</title>
       <link>https://huggingface.co/papers/2606.05515</link>
       <description>By Muhammad Usama, Didier Stricker, Mohammad Sadil Khan, Muhammad Zeshan Afzal
@@ -181,40 +190,13 @@ The robustness of deep neural networks is crucial for safety-critical deployment
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Benchmark Everything Everywhere All at Once</title>
-      <link>https://huggingface.co/papers/2606.06462</link>
-      <description>By Shiyun Xiong, Dongming Wu, Peiwen Sun, Yuang Ai, Bokang Yang, et al.
+      <title>Imaginative Perception Tokens Enhance Spatial Reasoning in Multimodal Language Models</title>
+      <link>https://huggingface.co/papers/2606.03988</link>
+      <description>By Mahtab Bigverdi, Linjie Li, Weikai Huang, Yiming Liu, Jaemin Cho, et al.
 
-Benchmarks are fundamental for evaluating and advancing LLMs and MLLMs by providing standardized and explicit measures of performance. However, their construction is labor-intensive and hard to reuse, raising concerns about sustainability and scalability. Moreover, existing benchmarks often quickly ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06462</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AURA: Intent-Directed Probing for Implicit-Need Surfacing in Situated LLM Agents</title>
-      <link>https://huggingface.co/papers/2606.05557</link>
-      <description>By Yang Li, Jiaxiang Liu, Jiang Cai, Mingkun Xu
-
-A situated query like "where is Lin Wei?" often encodes more than its literal content: the user may also want to know whether Lin Wei is free, in a good mood, or worth interrupting now. Standard tool-use agents answer the literal question and stop. AURA inserts an inference step between scene percep...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.05557</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution</title>
-      <link>https://huggingface.co/papers/2606.06492</link>
-      <description>By Liliana Hotsko, Yinxi Li, Yuntian Deng, Pengyu Nie
-
-Code language models need repository-level context to resolve imports, APIs, and project conventions. Existing methods inject this knowledge as long inputs (retrieved through RAG or dependency analysis) or through per-repository fine-tuning and LoRA -- costly at repository scale and brittle to evolv...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06492</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding</title>
-      <link>https://huggingface.co/papers/2606.06155</link>
-      <description>By Qize Yu, Jiadi You, Yuran Wang, Jiaqi Liang, Bowen Ping, et al.
-
-Vision-Language-Action (VLA) models leverage the rich world knowledge of pretrained vision-language models (VLMs) to enable instruction-following robotic manipulation. However, the structural mismatch between VLM semantic spaces and embodied control policies often hinders the learning of precise per...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06155</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+Vision language models (VLMs) excel at many tasks but still struggle with spatial reasoning when critical information is not directly observable. Many such problems require imaginative perception: inferring what would be seen from an unseen viewpoint, tracing paths through occluded spaces, or integr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03988</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Learning Geometric Representations from Videos for Spatial Intelligent Multimodal Large Language Models</title>
@@ -331,6 +313,24 @@ Generalist robot intelligence is often framed as a policy-scaling problem: colle
 
 Reasoning models produce long chain-of-thought traces that are costly to distill and encourage verbose student outputs. We study post-hoc compression of such traces before knowledge distillation. Two teachers, Qwen3.5-397B-A17B and gpt-oss-120B, generate about 283k correct traces each; two instructi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.05988</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2606.06712</link>
+      <description>By Xingyu Su, Jacob Helwig, Shubham Parashar, Atharv Chagi, Lakshmi Jotsna, et al.
+
+We study the transformation of autoregressive models (ARLMs) into diffusion language models (DLMs). Rather than pretraining from scratch, prior work replaces the causal attention in ARLMs with bidirectional attention and then trains the resulting model using a DLM objective. However, these approache...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.06712</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UnpredictaBench: A Benchmark for Evaluating Distributional Randomness in LLMs</title>
+      <link>https://huggingface.co/papers/2606.06622</link>
+      <description>By Amirhossein Abaskohi, Amirhossein Dabiriaghdam, Liang Luo, Ellie Dingqiao Wen, Lele Wang, et al.
+
+We introduce UnpredictaBench, an evaluation that tests the ability of large language models (LLMs) to capture true underlying distributions. As LLMs are increasingly used as substitutes for other entities (e.g., for humans in economic simulations), the tendency of many models to collapse towards a s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.06622</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

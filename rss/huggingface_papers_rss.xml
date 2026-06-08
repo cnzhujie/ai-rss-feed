@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2026 19:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 21:56:11 +0000</lastBuildDate>
     <item>
       <title>SPACENUM: Revisiting Spatial Numerical Understanding in VLMs</title>
       <link>https://huggingface.co/papers/2605.23898</link>
@@ -80,24 +80,6 @@ Automatic speech recognition (ASR) is a core component of human--computer intera
 Agentic search systems iteratively interact with retrieval models to answer complex queries. Despite substantial progress, optimizing retrievers for agentic search remains challenging, often requiring heavy co-training or gold-standard annotations that limit real-world applicability. We propose Crit...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.00590</guid>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SABER: Benchmarking Operational Safety of LLM Coding Agents in Stateful Project Workspaces</title>
-      <link>https://huggingface.co/papers/2606.01317</link>
-      <description>By Qi Hu, Yifeng Tang, Qinghua Wang, Lanyang Zhao, Pengji Zhang, et al.
-
-Large language models are increasingly deployed as coding agents, shifting safety from individual responses to action sequences. Existing benchmarks, however, primarily assess whether models refuse unsafe prompts, leaving impacts on stateful workspaces largely unexamined. We present SABER, a benchma...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.01317</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLM Anonymization Against Agentic Re-Identification</title>
-      <link>https://huggingface.co/papers/2605.30848</link>
-      <description>By Ziwen Li, Jianing Wen, Tianshi Li
-
-Agentic LLMs with web search change the threat model for text anonymization: weak contextual cues can become cross-referenceable evidence for re-identification, yet those same details also carry downstream analytic value of the text. Existing defenses either remove explicit identifiers, perturb text...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30848</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset</title>
@@ -197,15 +179,6 @@ The robustness of deep neural networks is crucial for safety-critical deployment
 Vision language models (VLMs) excel at many tasks but still struggle with spatial reasoning when critical information is not directly observable. Many such problems require imaginative perception: inferring what would be seen from an unseen viewpoint, tracing paths through occluded spaces, or integr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.03988</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning Geometric Representations from Videos for Spatial Intelligent Multimodal Large Language Models</title>
-      <link>https://huggingface.co/papers/2606.05833</link>
-      <description>By Haibo Wang, Lifu Huang
-
-Multimodal Large Language Models (MLLMs) excel at 2D semantic understanding but lack intrinsic 3D awareness, resulting in representations that fail to maintain geometric and spatial consistency across video frames. Given the scarcity of large-scale 3D data, we present GeoVR, a novel framework that l...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.05833</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Regret Minimization with Adaptive Opponents in Repeated Games</title>
@@ -334,6 +307,15 @@ We introduce UnpredictaBench, an evaluation that tests the ability of large lang
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Almieyar-Oryx-BloomBench: A Bilingual Multimodal Benchmark for Cognitively Informed Evaluation of Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2606.05531</link>
+      <description>By Mohammad Mahdi Abootorabi, Omid Ghahroodi, Anas Madkoor, Marzia Nouri, Doratossadat Dastgheib, et al.
+
+Despite the rapid progress of Vision-Language Models (VLMs), the field lacks benchmarks that rigorously diagnose their true reasoning abilities and chart meaningful progress toward human-like multimodal intelligence. Most existing evaluations focus on piecemeal or disconnected tasks, obscuring criti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05531</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>dots.tts Technical Report</title>
       <link>https://huggingface.co/papers/2606.07080</link>
       <description>By Shi Lian, Changtao Li, Bohan Li, Hankun Wang, Da Zheng, et al.
@@ -457,6 +439,24 @@ Harmony is a compact symbolic layer where mathematical pitch relations, acoustic
 
 Retrieval for search agents is still inherited from non-agentic information retrieval: a retriever ranks the corpus and the agent reads a small set of returned documents. Recent direct corpus interaction (DCI) work shows that agents can instead interact with the raw corpus through shell tools such a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.06880</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ECI_{sem}: Semantic Residual Effective Contrastive Information for Evaluating Hard Negatives</title>
+      <link>https://huggingface.co/papers/2603.20990</link>
+      <description>By Aarush Sinha, Rahul Seetharaman, Aman Bansal
+
+Hard-negative source selection for dense retrieval is usually decided only after fine-tuning and downstream evaluation. We propose ECI_{sem}, a semantic residual variant of Effective Contrastive Information (ECI) that ranks candidate negative sources using frozen target-encoder embeddings. ECI_{sem}...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.20990</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Empirical Study on the Characteristics and Evolution of AI-usage in GitHub Repositories: Evidence from Code Comments</title>
+      <link>https://huggingface.co/papers/2606.06843</link>
+      <description>By Abdullah Al Mujahid, Preetha Chatterjee, Mia Mohammad Imran
+
+Developers increasingly use AI tools such as ChatGPT, Copilot, and Claude in everyday software workflows, but prior studies often evaluate LLM outputs in isolation rather than examining how developers adapt them in real projects. We analyze 35,361 GitHub code comments that explicitly reference AI us...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.06843</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

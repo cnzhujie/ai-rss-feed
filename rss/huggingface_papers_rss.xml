@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 16:08:46 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 19:22:10 +0000</lastBuildDate>
     <item>
       <title>Liberating LLM Capabilities in Full-Duplex Speech Models</title>
       <link>https://huggingface.co/papers/2606.07547</link>
@@ -55,13 +55,13 @@ Mixture-of-Experts (MoE) is now the dominant architecture for frontier language 
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Human Psychometric Questionnaires Mischaracterize LLM Behavior</title>
-      <link>https://huggingface.co/papers/2509.10078</link>
-      <description>By Woojung Song, Dongmin Choi, Yoonah Park, Jongwook Han, Eun-Ju Lee, et al.
+      <title>SDR: Set-Distance Rewards for Radiology Report Generation</title>
+      <link>https://huggingface.co/papers/2606.00440</link>
+      <description>By Halil Ibrahim Gulluk, Max Van Puyvelde, Wim Van Criekinge, Olivier Gevaert
 
-We examine whether human psychometric questionnaires can serve as reliable tools for characterizing and predicting LLM behavior in everyday user interactions. We analyze eight open-source LLMs by comparing their value and personality profiles derived from two different methods: Likert self-reports o...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2509.10078</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+Reinforcement learning with verifiable rewards has rapidly advanced reasoning in vision--language models. However, for chest X-ray report generation, the standard rewards (i.e. exact-match accuracy and step-level processes) are incompatible because the reports consist of unordered and orthogonal fin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.00440</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Honest Lying: Understanding Memory Confabulation in Reflexive Agents</title>
@@ -136,6 +136,15 @@ Cross-view geo-localization estimates the geographic location of a ground image 
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Agents' Last Exam</title>
+      <link>https://huggingface.co/papers/2606.05405</link>
+      <description>By Yiyou Sun, Xinyang Han, Weichen Zhang, Yuanbo Pang, Tianyu Wang, et al.
+
+Recent AI systems have achieved strong results on a wide range of benchmarks, yet these gains have not translated into economically meaningful deployment across many professional domains. We argue that this gap is largely an evaluation problem: widely used benchmarks lack sustained performance measu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05405</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Cosine Misleads: Auxiliary Losses Reshape Vision Language Models, Not Their Latents</title>
       <link>https://huggingface.co/papers/2606.05753</link>
       <description>By XiuYu Zhang, Junfeng Fang, Zhenkai Liang
@@ -163,6 +172,15 @@ Linear activation steering has gained popularity as a simple and empirically eff
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>AsyncWebRL: Efficient Multi-Step RL for Visual Web Agents</title>
+      <link>https://huggingface.co/papers/2606.05597</link>
+      <description>By Hao Bai, Rui Yang, Chenlu Ye, Spencer Whitehead, Aviral Kumar, et al.
+
+Training vision-language web agents with multi-step RL is compute-intensive, with two dominant forms of inefficiency: idle GPUs in synchronous RL, and trajectories that use more steps and tokens than necessary. We present AsyncWebRL, which addresses both. On the system side, an asynchronous design o...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05597</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Answer Presence Drives RAG Rewriting Gains</title>
       <link>https://huggingface.co/papers/2606.05633</link>
       <description>By Yuejie Li, Yueying Hua, Ke Yang, Li Zhang, Yueping He, et al.
@@ -170,15 +188,6 @@ Linear activation steering has gained popularity as a simple and empirically eff
 Retrieval-augmented QA pipelines often route retrieved passages through an LLM rewriter before a smaller reader, lifting F1 by tens of points on multi-hop benchmarks; this gain is typically credited to improved evidence quality. We ask whether that lift is causally driven by the gold answer string a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.05633</guid>
       <pubDate>Thu, 04 Jun 2026 03:00:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWE-Explore: Benchmarking How Coding Agents Explore Repositories</title>
-      <link>https://huggingface.co/papers/2606.07297</link>
-      <description>By Shaoqiu Zhang, Yuhang Wang, Jialiang Liang, Yuling Shi, Wenhao Zeng, et al.
-
-Repository-level coding benchmarks such as SWE-bench have driven a rapid surge in the capabilities of coding agents. Yet they usually treat coding tasks as a holistic, binary prediction problem (e.g., resolved or unresolved), neglecting fine-grained agent capabilities such as repository understandin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.07297</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>On the Geometry of On-Policy Distillation</title>
@@ -217,6 +226,15 @@ Whisper, a widely adopted ASR model, is known to suffer from hallucinations - co
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Robotic Policy Adaptation via Weight-Space Meta-Learning</title>
+      <link>https://huggingface.co/papers/2606.07217</link>
+      <description>By Christian Bianchi, Siamak Yousefi, Alessio Sampieri, Andrea Roberti, Luca Rigazio, et al.
+
+Vision-Language-Action (VLA) models are emerging as a promising paradigm for robotic manipulation, enabling general-purpose policies trained from large corpora of demonstrations and action labels. However, adapting these models to new tasks still typically requires task-specific demonstrations, acti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.07217</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>SigmaScale: LLM Compression with SVD-based Low-Rank Decomposition and Learned Scaling Matrices</title>
       <link>https://huggingface.co/papers/2606.07098</link>
       <description>By Ernests Lavrinovics, Marco Letizia, Roy Janco, Shai Segal, Johannes Bjerva, et al.
@@ -242,15 +260,6 @@ Understanding what generative models retain from training data remains challengi
 This paper explores agentic 3D spatial understanding, i.e., MLLM agents performing 3D reasoning through tool use. Existing methods often misuse tools and exhibit biased tool preferences under 3D scenarios, leaving the agentic paradigm with only marginal gains over non-agentic strategies. We reveal t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.07436</guid>
       <pubDate>Fri, 05 Jun 2026 16:33:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Set-Based Transformer for Atmospheric Compensation in Standoff LWIR Hyperspectral Imaging</title>
-      <link>https://huggingface.co/papers/2606.08324</link>
-      <description>By Fabian Perez, Nicolas Quintero, Jeferson Acevedo, Hoover Rueda-Chacon
-
-Passive long-wave infrared (LWIR) hyperspectral imaging under a standoff geometry depends on atmospheric absorption and emission, as well as reflected radiance, thus making atmospheric compensation essential to get knowledge of a target of interest. Despite its importance, this compensation has been...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.08324</guid>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bayesian-Agent: Posterior-Guided Skill Evolution for LLM Agent Harnesses</title>
@@ -296,15 +305,6 @@ World Action Models (WAMs) extend robot policy learning by incorporating future 
 Vision Transformers operate on fixed patch grids, which can introduce phase-dependent instability for dense prediction: changing the patch partition can change the token evidence available to a pixel, especially near boundaries. We formalize patch-grid phase as a nuisance variable and propose Phase ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.08132</guid>
       <pubDate>Sat, 06 Jun 2026 12:15:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>CoVEBench: Can Video Editing Models Handle Complex Instructions?</title>
-      <link>https://huggingface.co/papers/2606.08415</link>
-      <description>By Jiangtao Wu, Jiaming Wang, Yiwen He, Yuanxing Zhang, Shihao Li, et al.
-
-While recent text-guided video editing models excel at elementary tasks (e.g., style transfer, object insertion), real-world user requests are highly compositional. A single prompt often demands multiple coupled edits, such as modifying subjects, actions, and camera views, while strictly preserving ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.08415</guid>
-      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation</title>

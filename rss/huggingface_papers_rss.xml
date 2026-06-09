@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 08:35:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 12:10:39 +0000</lastBuildDate>
+    <item>
+      <title>Liberating LLM Capabilities in Full-Duplex Speech Models</title>
+      <link>https://huggingface.co/papers/2606.07547</link>
+      <description>By Luoyuan Zhang, Bokai Xu, Junbo Cui, Weiyue Sun, Yingjing Xu, et al.
+
+Speech-based large language models are typically constrained to spoken replies, which limits their user-facing outputs to what can be verbalized and suppresses text-native capabilities such as code generation, structured analysis, and multi-step reasoning in realtime interaction, for tasks that requ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.07547</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>EMMA: Extracting Multiple physical parameters from Multimodal Data</title>
       <link>https://huggingface.co/papers/2605.24047</link>
@@ -19,31 +28,13 @@ We introduce EMMA, a physics-informed multimodal framework that recovers all ide
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SPACENUM: Revisiting Spatial Numerical Understanding in VLMs</title>
-      <link>https://huggingface.co/papers/2605.23898</link>
-      <description>By Jianshu Zhang, Yijiang Li, Huifeixin Chen, Haoran Lu, Letian Xue, et al.
+      <title>WorldCraft: From Camera Navigation to Object Manipulation in Interactive Video World Models</title>
+      <link>https://huggingface.co/papers/2605.25077</link>
+      <description>By Bohai Gu, Taiyi Wu, Yueyang Yuan, Jian Liu, Xiaocheng Lu, et al.
 
-Vision-Language Models (VLMs) are increasingly deployed in embodied environments, where they need produce numerical outputs such as action magnitudes and spatial coordinates. Although these numbers appear meaningful, it remains unclear whether these numerical outputs are genuinely grounded in spatia...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.23898</guid>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Augmenting Attention with Exponentially Decaying Memory Improves Query-Aware KV Sparsity</title>
-      <link>https://huggingface.co/papers/2605.28640</link>
-      <description>By Xiuying Wei, Caglar Gulcehre
-
-Efficient inference is critical for long-context language models, where attention computation and KV-cache access dominate the cost. Recent work RAT+, introduces a recurrence-augmented attention backbone that enables flexible dilated attention at inference time. In this paper, we investigate whether...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.28640</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CORE: Contrastive Reflection Enables Rapid Improvements in Reasoning</title>
-      <link>https://huggingface.co/papers/2605.28742</link>
-      <description>By Linas Nasvytis, Simon Jerome Han, Ben Prystawski, Satchel Grant, Noah D. Goodman, et al.
-
-Language models can use verifiable rewards to improve at a wide variety of reasoning tasks. However, both parametric (e.g. RLVR) and non-parametric (e.g. prompt optimization) approaches to doing so typically require hundreds of training samples and thousands of model rollouts, making them expensive ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.28742</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+Recent video-based world models have made pixel-space environments interactive at the camera level: users can navigate viewpoints while the model generates coherent visual continuations. Yet their action spaces remain incomplete: users can move the camera, but cannot act on individual objects. Since...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.25077</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research</title>
@@ -82,15 +73,6 @@ Reflexion-style agents rely on self-generated reflections as memory, implicitly 
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A Cookbook of 3D Vision: Data, Learning Paradigms, and Application</title>
-      <link>https://huggingface.co/papers/2606.04291</link>
-      <description>By Hongyang Du, Zongxia Li, Dawei Liu, Runhao Li, Haoyuan Song, et al.
-
-3D vision has rapidly evolved, driven by increasingly diverse data representations, learning paradigms, and modeling strategies. Yet the field remains fragmented across representations and benchmarks, making it difficult to develop unified perspectives on efficiency, fidelity, and scalability. This ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.04291</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory</title>
       <link>https://huggingface.co/papers/2606.06523</link>
       <description>By Ruida Wang, Jerry Huang, Pengcheng Wang, Xuanqing Liu, Luyang Kong, et al.
@@ -118,22 +100,13 @@ Text-to-image models rely on text prompts as their primary interface to human in
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reinforcement Learning from Rich Feedback with Distributional DAgger</title>
-      <link>https://huggingface.co/papers/2606.05152</link>
-      <description>By Rishabh Agrawal, Jacob Fein-Ashley, Paria Rashidinejad
+      <title>Reasoning over Grammar: Can Synthetic Linguistic Reasoning Traces Enhance Low-Resource Machine Translation?</title>
+      <link>https://huggingface.co/papers/2606.03782</link>
+      <description>By Renhao Pei, Yihong Liu, Sampo Pyysalo, Hinrich Schütze, Shaoxiong Ji
 
-Reasoning models have advanced rapidly, but the dominant reinforcement learning from verifiable rewards (RLVR) recipe remains surprisingly narrow: sample many responses and reward each with a single bit indicating whether the final answer is correct. Yet many settings provide rich feedback, includin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.05152</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Measuring Model Robustness via Fisher Information: Spectral Bounds, Theoretical Guarantees, and Practical Algorithms</title>
-      <link>https://huggingface.co/papers/2606.04767</link>
-      <description>By Chong Zhang, Xiang Li, Jia Wang, Qiufeng Wang, Xiaobo Jin
-
-The robustness of deep neural networks is crucial for safety-critical deployments, yet existing evaluation methods are often attack-dependent and lack interpretability. We propose a principled, attack-agnostic robustness metric based on the spectral norm of the Fisher Information Matrix (FIM), which...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.04767</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+Large language models (LLMs) offer a promising approach to machine translation (MT) for extremely low-resource languages by incorporating linguistic resources through in-context learning. However, LLMs often struggle to apply grammatical information effectively during translation. Inspired by recent...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03782</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Imaginative Perception Tokens Enhance Spatial Reasoning in Multimodal Language Models</title>
@@ -163,22 +136,13 @@ Large language models are increasingly evaluated by other models, raising a natu
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2606.06712</link>
-      <description>By Xingyu Su, Jacob Helwig, Shubham Parashar, Atharv Chagi, Lakshmi Jotsna, et al.
+      <title>CIPER: A Unified Framework for Cross-view Image-retrieval and Pose-estimation</title>
+      <link>https://huggingface.co/papers/2606.05011</link>
+      <description>By Yurim Jeon, Dongseong Seo, Seung-Woo Seo
 
-We study the transformation of autoregressive models (ARLMs) into diffusion language models (DLMs). Rather than pretraining from scratch, prior work replaces the causal attention in ARLMs with bidirectional attention and then trains the resulting model using a DLM objective. However, these approache...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06712</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UnpredictaBench: A Benchmark for Evaluating Distributional Randomness in LLMs</title>
-      <link>https://huggingface.co/papers/2606.06622</link>
-      <description>By Amirhossein Abaskohi, Amirhossein Dabiriaghdam, Liang Luo, Ellie Dingqiao Wen, Lele Wang, et al.
-
-We introduce UnpredictaBench, an evaluation that tests the ability of large language models (LLMs) to capture true underlying distributions. As LLMs are increasingly used as substitutes for other entities (e.g., for humans in economic simulations), the tendency of many models to collapse towards a s...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06622</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+Cross-view geo-localization estimates the geographic location of a ground image by matching it against an aerial image database. Existing methods tackle this through either large-scale retrieval or precise pose estimation, but not both: retrieval-based methods enable wide-area search at the cost of ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05011</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Almieyar-Oryx-BloomBench: A Bilingual Multimodal Benchmark for Cognitively Informed Evaluation of Vision-Language Models</title>
@@ -205,6 +169,15 @@ Latent visual reasoning (LVR) inserts supervised latent tokens between perceptio
 
 Agent systems increasingly use textual skills to encode reusable task procedures, but injecting these skills into the prompt at every step incurs substantial context overhead and exposes skill content as plaintext. We present LatentSkill, a framework that converts textual skills into plug-and-play L...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.06087</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Geometric Account of Activation Steering through Angle-Norm Decomposition</title>
+      <link>https://huggingface.co/papers/2606.06735</link>
+      <description>By Georgii Aparin, Tatiana Gaintseva
+
+Linear activation steering has gained popularity as a simple and empirically effective way to control language model behavior. More recently, spherical steering paradigms have been proposed to address limitations of additive interventions, often motivated by the assumption that hidden-state norm doe...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.06735</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -271,6 +244,24 @@ Deep Research (DR) has emerged as a new agentic paradigm to tackle complex, open
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SlimSearcher: Training Efficiency-Aware Web Agents via Adaptive Reward Gating</title>
+      <link>https://huggingface.co/papers/2606.07074</link>
+      <description>By Zequn Xie, Junjie Wang, Dan Yang, Jie Feng, Yue Shen, et al.
+
+Deep research agents have demonstrated remarkable capabilities in complex information-seeking tasks, yet this power comes at a steep computational cost. Driven by accuracy-focused training paradigms, current models adopt brute-force strategies characterized by blind tool dependency and performative ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.07074</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Whisper Hallucination Detection and Mitigation via Hidden Representation Steering and Sparse AutoEncoders</title>
+      <link>https://huggingface.co/papers/2606.07473</link>
+      <description>By Georgii Aparin, Vadim Popov, Tasnima Sadekova, Assel Yermekova
+
+Whisper, a widely adopted ASR model, is known to suffer from hallucinations - coherent transcriptions generated for non-speech audio entirely disconnected from the input. We investigate whether hallucinations can be detected and mitigated through Whisper's internal representations. We extract audio ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.07473</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Set-Based Transformer for Atmospheric Compensation in Standoff LWIR Hyperspectral Imaging</title>
       <link>https://huggingface.co/papers/2606.08324</link>
       <description>By Fabian Perez, Nicolas Quintero, Jeferson Acevedo, Hoover Rueda-Chacon
@@ -331,6 +322,15 @@ On-policy distillation (OPD) has become a central post-training tool for large l
 
 Enterprise property graphs vary widely in schema structure, internal terminology, domain assumptions, governance constraints, and user interaction patterns. A deployment-relevant Text2Cypher benchmark therefore reflects the questions users and agents actually ask of that graph. Creating such a bench...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.08481</guid>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OmniCap-IF: Benchmarking and Improving Instruction Following Abilities for Omni-Video Captioning</title>
+      <link>https://huggingface.co/papers/2606.08572</link>
+      <description>By Jiahao Wang, An Ping, Yanghai Wang, Yuanxing Zhang, Shihao Li, et al.
+
+While Omni-modal Large Language Models (OLLMs) have demonstrated impressive capabilities in jointly processing audio and visual streams, their ability to strictly adhere to complex, multi-faceted user instructions remains largely unexplored. Existing benchmarks primarily focus on holistic video unde...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.08572</guid>
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

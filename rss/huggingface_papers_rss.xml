@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 19:22:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 21:53:38 +0000</lastBuildDate>
     <item>
       <title>Liberating LLM Capabilities in Full-Duplex Speech Models</title>
       <link>https://huggingface.co/papers/2606.07547</link>
@@ -53,6 +53,15 @@ We present DEI: Diversity in Evolutionary Inference, a distributed Quality-Diver
 Mixture-of-Experts (MoE) is now the dominant architecture for frontier language models, yet it requires all expert parameters to be loaded in memory, making it less preferable for memory-constrained deployment. Existing compression methods reduce the number of experts but the output remains an MoE m...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.28207</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Send a SCOUT First: Pre-hoc Reasoning for Adaptive Detector Allocation in Prompt-Injection Defense</title>
+      <link>https://huggingface.co/papers/2605.30837</link>
+      <description>By Shuhao Zhang, Jiarui Li, Qi Cao, Ruiyi Zhang, Pengtao Xie
+
+Prompt-injection detectors are heterogeneous: each is strong on a different slice of attacks, and none is always reliable. Yet existing systems still treat detection as a fixed single-detector pipeline, committing every request to one detector's blind spots. We reframe defense as detector allocation...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.30837</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SDR: Set-Distance Rewards for Radiology Report Generation</title>
@@ -188,15 +197,6 @@ Training vision-language web agents with multi-step RL is compute-intensive, wit
 Retrieval-augmented QA pipelines often route retrieved passages through an LLM rewriter before a smaller reader, lifting F1 by tens of points on multi-hop benchmarks; this gain is typically credited to improved evidence quality. We ask whether that lift is causally driven by the gold answer string a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.05633</guid>
       <pubDate>Thu, 04 Jun 2026 03:00:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>On the Geometry of On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2606.07082</link>
-      <description>By Zhennan Shen, Yanshu Li, Qingyu Yin, Chak Tou Leong, Zhilin Wang, et al.
-
-On-policy distillation (OPD) is increasingly used to improve large language model reasoning, but its training dynamics remain poorly understood. We characterize the trajectory of OPD updates in parameter space and compare it with supervised fine-tuning (SFT) and reinforcement learning with verifiabl...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.07082</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DuMate-DeepResearch: An Auditable Multi-Agent System with Recursive Search and Rubric-Grounded Reasoning</title>
@@ -343,15 +343,6 @@ While Omni-modal Large Language Models (OLLMs) have demonstrated impressive capa
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Latent Spatial Memory for Video World Models</title>
-      <link>https://huggingface.co/papers/2606.09828</link>
-      <description>By Weijie Wang, Haoyu Zhao, Yifan Yang, Feng Chen, Zeyu Zhang, et al.
-
-Video world models that maintain 3D spatial consistency across generated frames typically rely on explicit point cloud memory constructed in RGB space. This design is both computationally expensive, requiring repeated rendering and VAE encoding, and inherently lossy, as the round trip through pixel ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.09828</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Echo-Memory: A Controlled Study of Memory in Action World Models</title>
       <link>https://huggingface.co/papers/2606.09803</link>
       <description>By Wayne King, Zeyue Xue, Yuxuan Bian, Jie Huang, Haoran Li, et al.
@@ -421,6 +412,15 @@ Long-horizon agentic tasks pose a fundamental credit assignment challenge for ou
 
 Real-time video restoration (VR) for live streams requires high-resolution outputs under strict per-frame latency constraints. Existing one-step diffusion-based VR models remain difficult to deploy on consumer-grade GPUs due to two main bottlenecks: quadratic spatial attention at high resolutions an...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.09516</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Precision Is Not Faithfulness: Coverage-Aware Evaluation of Grounded Generation with a Complete Oracle</title>
+      <link>https://huggingface.co/papers/2606.09376</link>
+      <description>By Juan S. Santillana
+
+Reference-free faithfulness metrics verify each atomic claim a model makes against ground truth, and are increasingly used to evaluate grounded generation. We show they share a blind spot: they measure only precision -- are the stated claims supported? -- and therefore reward abstention, since a mod...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.09376</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

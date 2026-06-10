@@ -8,25 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2026 12:30:37 +0000</lastBuildDate>
-    <item>
-      <title>DEI: Diversity in Evolutionary Inference for Quality-Diversity Search</title>
-      <link>https://huggingface.co/papers/2605.27130</link>
-      <description>By John Donaghy, Shikhar Rastogi
-
-We present DEI: Diversity in Evolutionary Inference, a distributed Quality-Diversity (QD) search framework that assigns heterogeneous large language models (LLMs) as mutation operators across peer nodes communicating with non-blocking collective operations. Unlike homogeneous parallel search, which ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.27130</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pruning and Distilling Mixture-of-Experts into Dense Language Models</title>
-      <link>https://huggingface.co/papers/2605.28207</link>
-      <description>By Junhyuck Kim, Jihun Yun, Haechan Kim, Gyeongman Kim, Joonghyun Bae, et al.
-
-Mixture-of-Experts (MoE) is now the dominant architecture for frontier language models, yet it requires all expert parameters to be loaded in memory, making it less preferable for memory-constrained deployment. Existing compression methods reduce the number of experts but the output remains an MoE m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.28207</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 10 Jun 2026 16:39:45 +0000</lastBuildDate>
     <item>
       <title>Send a SCOUT First: Pre-hoc Reasoning for Adaptive Detector Allocation in Prompt-Injection Defense</title>
       <link>https://huggingface.co/papers/2605.30837</link>
@@ -53,6 +35,15 @@ Reinforcement learning with verifiable rewards has rapidly advanced reasoning in
 Weak-to-strong generalization studies how to improve a strong student using supervision from a weaker teacher when reliable labels are scarce. We view this primarily as a data selection problem, where the key challenge is to identify which weak labels are reliable enough to serve as a training signa...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.01000</guid>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SkillHarm: Lifecycle-Aware Skill-Based Attacks via Automated Construction</title>
+      <link>https://huggingface.co/papers/2606.02540</link>
+      <description>By Yuting Ning, Zhehao Zhang, Yash Kumar Lal, Boyu Gou, Junyi Li, et al.
+
+Agent skills occupy a privileged position in the agent workflow, as agents are expected to implicitly follow and execute them, rendering third-party skills a vulnerable attack surface. Existing studies have revealed unsafe agent behaviors induced by skill-based attacks, but they primarily evaluate p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.02540</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agents' Last Exam</title>
@@ -145,31 +136,13 @@ Current Vision-Language Models struggle with hours-long videos because processin
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SigmaScale: LLM Compression with SVD-based Low-Rank Decomposition and Learned Scaling Matrices</title>
-      <link>https://huggingface.co/papers/2606.07098</link>
-      <description>By Ernests Lavrinovics, Marco Letizia, Roy Janco, Shai Segal, Johannes Bjerva, et al.
+      <title>Do Coding Agents Deceive Us? Detecting and Preventing Cheating via Capped Evaluation with Randomized Tests</title>
+      <link>https://huggingface.co/papers/2606.07379</link>
+      <description>By Thanawat Lodkaew, Johannes Ackermann, Soichiro Nishimori, Nontawat Charoenphakdee, Masashi Sugiyama, et al.
 
-We present SigmaScale, a method for learning auxiliary scaling matrices S to aid truncated Singular Value Decomposition (SVD) based Large Language Model (LLM) compression. Instead of deriving scaling matrices analytically, SigmaScale optimizes two sets of vectors that define diagonal row and column ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.07098</guid>
-      <pubDate>Fri, 05 Jun 2026 09:48:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Where Rectified Flows Leak: Characterising Membership Signals Along the Interpolation Path</title>
-      <link>https://huggingface.co/papers/2606.07271</link>
-      <description>By Thomas Sesmat, Gabriel Meseguer-Brocal, Geoffroy Peeters
-
-Understanding what generative models retain from training data remains challenging, with implications for copyright and privacy. Beyond verbatim reproduction, models can encode subtler traces of their training data that never surface in their outputs yet remain exploitable. We study this regime for ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.07271</guid>
-      <pubDate>Fri, 05 Jun 2026 13:46:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmpiriGraph-Psy: A Dataset and LLM Pipeline for Extracting Empirical Relation Graphs from Psychology Abstracts</title>
-      <link>https://huggingface.co/papers/2606.08362</link>
-      <description>By Danqin Zhao, Yicun Liu, Xingwei Tan, Thomas T. Hills
-
-Existing scientific relation extraction benchmarks mainly target domains such as computer science, where entities are tasks, methods, datasets, materials, or metrics. This leaves a gap in variable-oriented empirical fields such as psychology, where findings are expressed as relations among construct...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.08362</guid>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+A growing failure mode in agent evaluation and training is that models can achieve high evaluation scores by exploiting shortcuts instead of solving the intended task, producing deceptive performance. This makes evaluation scores unreliable as measures of true task-solving ability. We propose CapCod...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.07379</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Light-WAM: Efficient World Action Models with State-Fusion Action Decoding</title>
@@ -403,6 +376,33 @@ We introduce Kwai Keye-VL-2.0-30B-A3B, an open-source Mixture-of-Experts (MoE) m
 
 Autoregressive video generators synthesize long videos by generating successive temporal segments, but their historical KV cache grows with video length. Existing bounded-cache methods reduce this cost with local windows, sink tokens, or compressed memory states, yet they usually assign fixed roles ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.10671</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Next Forcing: Causal World Modeling with Multi-Chunk Prediction</title>
+      <link>https://huggingface.co/papers/2606.11187</link>
+      <description>By Gangwei Xu, Qihang Zhang, Jiaming Zhou, Xing Zhu, Yujun Shen, et al.
+
+Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk without...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11187</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Role of Feedback Alignment in Self-Distillation</title>
+      <link>https://huggingface.co/papers/2606.11173</link>
+      <description>By Semih Kara, Oğuzhan Ersoy
+
+Conditioning a language model on additional context, such as feedback on a previous attempt, typically improves its response. Self-distillation trains the model to retain this improvement when the context is not present. The method works by matching the model's output distribution under two settings...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11173</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Decentralized Multi-Agent Systems with Shared Context</title>
+      <link>https://huggingface.co/papers/2606.10662</link>
+      <description>By Yuzhen Mao, Azalia Mirhoseini
+
+Multi-agent systems (MAS) can scale large language model reasoning at test time by decomposing complex problems into parallel subtasks. However, most existing MAS rely on centralized orchestration, where a main agent assigns work, collects outputs, and merges results. As the number of subtasks grows...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.10662</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

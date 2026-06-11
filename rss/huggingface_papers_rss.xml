@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 18:21:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 21:26:21 +0000</lastBuildDate>
     <item>
       <title>Distilling LLM Feedback for Lean Theorem Proving</title>
       <link>https://huggingface.co/papers/2605.30861</link>
@@ -64,15 +64,6 @@ Many modern vision-language models (VLMs) build on autoregressive decoding of di
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>IR3DE: A Linear Router for Large Language Models</title>
-      <link>https://huggingface.co/papers/2606.06098</link>
-      <description>By Eros Fanì, Oğuzhan Ersoy
-
-Foundational Large Language Models (LLMs) demonstrate proficiency on a wide range of general tasks, and achieve remarkable results on various specialized tasks via domain-expert LLMs. With the ever-growing list of available LLMs, inference routers are being proposed to select the most appropriate LL...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.06098</guid>
-      <pubDate>Thu, 04 Jun 2026 12:36:28 +0000</pubDate>
-    </item>
-    <item>
       <title>In-Context Multiple Instance Learning</title>
       <link>https://huggingface.co/papers/2606.06458</link>
       <description>By Alexander Möllers, Marvin Sextro, Julius Hense, Gabriel Dernbach, Klaus-Robert Müller
@@ -97,6 +88,15 @@ A growing failure mode in agent evaluation and training is that models can achie
 
 Pipeline parallelism is essential for training large neural networks, but existing schedules trade off throughput, memory, and optimization consistency. Synchronous pipelines preserve forward/backward weight consistency but suffer from bubbles; asynchronous pipelines remove bubbles but introduce wei...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.07881</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReVision: Scaling Computer-Use Agents via Temporal Visual Redundancy Reduction</title>
+      <link>https://huggingface.co/papers/2605.11212</link>
+      <description>By Amirhossein Abaskohi, Yuhang He, Peter West, Giuseppe Carenini, Pranit Chawla, et al.
+
+Computer-use agents (CUAs) rely on visual observations of graphical user interfaces, where each screenshot is encoded into a large number of visual tokens. As interaction trajectories grow, the token cost increases rapidly, limiting the amount of history that can be incorporated under fixed context ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.11212</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -161,24 +161,6 @@ Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurolog
 As recommender systems transition toward agentic, multi-turn conversational interfaces, evaluation paradigms have struggled to keep pace. Current benchmarks often rely on "LLM-as-a-judge" evaluations, which introduce subjectivity, high costs and inconsistency. We present τ-Rec, a benchmark for agent...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.10156</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpreting and Steering a Text-to-Speech Language Model with Sparse Autoencoders</title>
-      <link>https://huggingface.co/papers/2606.10029</link>
-      <description>By Nikita Koriagin, Georgii Aparin, Nikita Balagansky, Daniil Gavrilov
-
-Language models increasingly serve as the backbone of text-to-speech (TTS) systems, yet we understand little about the representations they build when text and generated speech tokens share a single residual stream. We train BatchTopK sparse autoencoders on the LM backbone of CosyVoice3 and introduc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.10029</guid>
-      <pubDate>Mon, 08 Jun 2026 18:09:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kwai Keye-VL-2.0 Technical Report</title>
-      <link>https://huggingface.co/papers/2606.10651</link>
-      <description>By Kwai Keye Team, Bin Wen, Changyi Liu, Chengru Song, Chongling Rao, et al.
-
-We introduce Kwai Keye-VL-2.0-30B-A3B, an open-source Mixture-of-Experts (MoE) multimodal foundation model designed to advance long-video understanding and agentic intelligence. To address the challenges of ultra-long contexts, information redundancy, and prohibitive computational costs inherent in ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.10651</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FadeMem: Distance-Aware Memory Consolidation for Autoregressive Video Diffusion</title>
@@ -278,6 +260,15 @@ Large language models (LLMs) are on the rise for accelerating scientific discove
 Reinforcement learning with verifiable rewards (RLVR) is a promising approach for enhancing reasoning and agentic behavior in large language models. However, rollout-intensive policy optimization is often limited by insufficient reward contrast, arising when overly simple or complex prompts generate...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.11119</guid>
       <pubDate>Tue, 09 Jun 2026 17:16:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Social World Models with Large Language Models</title>
+      <link>https://huggingface.co/papers/2606.11482</link>
+      <description>By Haofei Yu, Yining Zhao, Guanyu Lin, Jiaxuan You
+
+Understanding and predicting how social beliefs evolve in response to events -- from policy changes to scientific breakthroughs -- remains a fundamental challenge in social science. Given LLMs' commonsense knowledge and social intelligence, we ask: Can LLMs model the dynamics of social beliefs follo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11482</guid>
+      <pubDate>Tue, 09 Jun 2026 22:15:51 +0000</pubDate>
     </item>
     <item>
       <title>On the Limits of LLM-as-Judge for Scientific Novelty Assessment</title>
@@ -430,6 +421,15 @@ Large language models (LLMs) are widely used to tackle complex tasks with autono
 
 Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compact ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.12412</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Which Models Are Our Models Built On? Auditing Invisible Dependencies in Modern LLMs</title>
+      <link>https://huggingface.co/papers/2606.12385</link>
+      <description>By Sanjay Adhikesaven, Haoxiang Sun, Sewon Min
+
+Modern LLM training pipelines increasingly rely on other models to generate data, filter corpora, judge outputs, and guide development decisions. These dependencies are recursive: a model may depend on an upstream artifact whose own dependencies are documented only in separate releases and artifacts...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.12385</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

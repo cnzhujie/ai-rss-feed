@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 14:45:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 18:21:39 +0000</lastBuildDate>
     <item>
       <title>Distilling LLM Feedback for Lean Theorem Proving</title>
       <link>https://huggingface.co/papers/2605.30861</link>
@@ -44,6 +44,24 @@ Autonomous LLM training is often framed as recipe search, which leaves the train
 Prior work has shown that instruction-tuned large language models (LLMs) are less well calibrated than their base pre-trained counterparts. However, little is known about the frequently used chat template's effect on the calibration of conversational LLMs. In this work, we investigate the mechanisms...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.03437</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SparDA: Sparse Decoupled Attention for Efficient Long-Context LLM Inference</title>
+      <link>https://huggingface.co/papers/2606.04511</link>
+      <description>By Yaosheng Fu, Guangxuan Xiao, Xin Dong, Song Han, Oreste Villa
+
+Sparse attention reduces compute and memory bandwidth for long-context LLM inference. However, two key challenges remain: (1) KV cache capacity still grows with sequence length, and offloading to CPU memory introduces a PCIe transfer bottleneck; (2) the sparse selection step itself retains O(T^2) co...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.04511</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2606.05758</link>
+      <description>By Zhuoming Liu, Jinhong Lin, Kwan Man Cheng, Lin Zhang, Shayok Bagchi, et al.
+
+Many modern vision-language models (VLMs) build on autoregressive decoding of discrete tokens. While text-based output interfaces enable scalable pretraining and strong zero-shot generalization across diverse tasks, they are poorly suited for problems that require precise continuous outputs, such as...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05758</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>IR3DE: A Linear Router for Large Language Models</title>
@@ -145,24 +163,6 @@ As recommender systems transition toward agentic, multi-turn conversational inte
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PsychoSafe: Eliciting Psychologically-Informed Refusals in Large Language Models</title>
-      <link>https://huggingface.co/papers/2606.09697</link>
-      <description>By Gianluca Barmina, Federico Torrielli, Sven Harms, Jacob Nielsen, Felix Mächtle, et al.
-
-Large language models (LLMs) routinely face requests that should be refused, creating a trade-off between helpfulness and harm prevention. However, refusals themselves can be helpful. In high-risk interactions involving crisis, coercion, or escalating intent, blunt non-compliance may prevent direct ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.09697</guid>
-      <pubDate>Mon, 08 Jun 2026 16:19:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>BrainSurgery: Reproducible and Reliable Declarative Weight Manipulations for Model Editing and Upcycling</title>
-      <link>https://huggingface.co/papers/2606.09707</link>
-      <description>By Gianluca Barmina, Annemette Broch Pirchert, Andrea Blasi Núñez, Lukas Galke Poech, Peter Schneider-Kamp
-
-As deep learning models scale, managing, inspecting, and modifying large checkpoints has become increasingly challenging. Researchers often need to alter model weights for layer restructuring, precision casting, low-rank factorization, and architectural debugging, yet these workflows often rely on f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.09707</guid>
-      <pubDate>Mon, 08 Jun 2026 16:26:09 +0000</pubDate>
-    </item>
-    <item>
       <title>Interpreting and Steering a Text-to-Speech Language Model with Sparse Autoencoders</title>
       <link>https://huggingface.co/papers/2606.10029</link>
       <description>By Nikita Koriagin, Georgii Aparin, Nikita Balagansky, Daniil Gavrilov
@@ -170,24 +170,6 @@ As deep learning models scale, managing, inspecting, and modifying large checkpo
 Language models increasingly serve as the backbone of text-to-speech (TTS) systems, yet we understand little about the representations they build when text and generated speech tokens share a single residual stream. We train BatchTopK sparse autoencoders on the LM backbone of CosyVoice3 and introduc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.10029</guid>
       <pubDate>Mon, 08 Jun 2026 18:09:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>U-TTT: Towards Generalizable PET Image Denoising via Test-Time Training</title>
-      <link>https://huggingface.co/papers/2606.11032</link>
-      <description>By Zhiwen Yang, Jiayin Li, Hao Lu, Hui Zhang, Zihua Wang, et al.
-
-Existing deep learning models for Positron Emission Tomography (PET) image denoising often suffer from severe performance degradation under distribution shifts, fundamentally restricting their robust clinical deployment. This lack of generalization stems from the conventional paradigm of fixed-param...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11032</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UniPET: a universal network for high-quality PET image denoising across varied dose reduction factors</title>
-      <link>https://huggingface.co/papers/2606.11131</link>
-      <description>By Zhiwen Yang, Yang Zhou, Haowei Chen, Hui Zhang, Dan Zhao, et al.
-
-Most existing deep learning-based PET image denoising methods assume a fixed and known dose reduction factor (DRF) for low-dose PET images. However, these methods encounter significant performance degradation when the DRF varies beyond the assumed one in practical applications. To address the challe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11131</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Kwai Keye-VL-2.0 Technical Report</title>
@@ -278,6 +260,15 @@ We introduce Embodied-R1.5, a unified Embodied Foundation Model (EFM) that integ
 Combinatorics is central to Olympiad-level mathematical problem solving, requiring deep discrete reasoning, creative constructions, and rigorous structural insight. Recent evidence suggests that even today's strongest frontier models remain uneven on Olympiad combinatorics, revealing a gap in creati...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.10479</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Diverse Scientific Hypothesis Search with Large Language Models</title>
+      <link>https://huggingface.co/papers/2606.10587</link>
+      <description>By Haorui Wang, Parshin Shojaee, Kazem Meidani, Kunyang Sun, José Miguel Hernández-Lobato, et al.
+
+Large language models (LLMs) are on the rise for accelerating scientific discovery, most recently in advanced tasks such as generating valid scientific hypotheses. Yet in many discovery settings, the goal is not to identify a single best hypothesis since validation can be noisy and expensive, and sc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.10587</guid>
+      <pubDate>Tue, 09 Jun 2026 08:52:49 +0000</pubDate>
     </item>
     <item>
       <title>TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning</title>
@@ -440,6 +431,15 @@ Large language models (LLMs) are widely used to tackle complex tasks with autono
 Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compact ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.12412</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>APEX: A Network-Native Time-Series Foundation Model for Forecasting and Anomaly Detection for Wireless Edge Operations</title>
+      <link>https://huggingface.co/papers/2606.11553</link>
+      <description>By Swadhin Pradhan, Niloo Bahadori, Peiman Amini
+
+Generic time-series foundation models transfer poorly to wireless network telemetry whose signals are bursty, zero-inflated, and coupled across protocol layers. We present APEX, a network-native, decoder-only transformer for forecasting enterprise AP telemetry, and evaluate it on DHCP degradation as...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11553</guid>
+      <pubDate>Wed, 10 Jun 2026 01:23:24 +0000</pubDate>
     </item>
     <item>
       <title>Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training</title>

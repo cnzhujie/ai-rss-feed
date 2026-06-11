@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 05:57:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 10:54:04 +0000</lastBuildDate>
+    <item>
+      <title>Distilling LLM Feedback for Lean Theorem Proving</title>
+      <link>https://huggingface.co/papers/2605.30861</link>
+      <description>By Gaetan Narozniak, Gérard Biau, Rémi Munos, Ahmad Rammal, Pierre Marion
+
+Post-training for reasoning models typically combines supervised fine-tuning with reinforcement learning from verifiable rewards, most commonly with GRPO. However, this algorithm suffers from sparse rewards, limited exploration, and mode collapse. Building upon recent works on self-distillation, we ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2605.30861</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SkillHarm: Lifecycle-Aware Skill-Based Attacks via Automated Construction</title>
       <link>https://huggingface.co/papers/2606.02540</link>
@@ -25,6 +34,15 @@ Agent skills occupy a privileged position in the agent workflow, as agents are e
 
 Autonomous LLM training is often framed as recipe search, which leaves the training harness largely static. This limitation sharpens in agentic RL, where shifting bottlenecks and scalar rewards mask diverse failure modes. We introduce EvoTrainer, an autonomous training framework that co-evolves LLM ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.03108</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Large Language Models Are Overconfident in Their Own Responses</title>
+      <link>https://huggingface.co/papers/2606.03437</link>
+      <description>By Mario Sanz-Guerrero, Manuel Mager, Katharina von der Wense
+
+Prior work has shown that instruction-tuned large language models (LLMs) are less well calibrated than their base pre-trained counterparts. However, little is known about the frequently used chat template's effect on the calibration of conversational LLMs. In this work, we investigate the mechanisms...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.03437</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -55,15 +73,6 @@ Multiple Instance Learning (MIL) addresses problems where supervision is availab
       <pubDate>Thu, 04 Jun 2026 17:50:32 +0000</pubDate>
     </item>
     <item>
-      <title>Struct-Searcher: Agentic Structural Thinking Advances Multimodal Deep Information Seeking</title>
-      <link>https://huggingface.co/papers/2606.07689</link>
-      <description>By Fan Zhang, Vireo Zhang, Shengju Qian, Haoxuan Li, Zheng Lian, et al.
-
-Deep research agents have attracted increasing attention for their ability to collect large-scale online information to acquire target knowledge, with recent efforts shifting from purely text-based information seeking to multimodal settings. However, existing agentic workflows are largely aligned wi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.07689</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism</title>
       <link>https://huggingface.co/papers/2606.07512</link>
       <description>By Cong Chen, Guo Gan, Kaixiang Ji, ChaoYang Zhang, Zhen Yang, et al.
@@ -82,12 +91,30 @@ A growing failure mode in agent evaluation and training is that models can achie
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Breaking the Bubble: Asynchronous Pipeline Parallel Training with Bounded Weight Inconsistency</title>
+      <link>https://huggingface.co/papers/2606.07881</link>
+      <description>By Itay Elam, Eliron Rahimi, Avi Mendelson, Chaim Baskin
+
+Pipeline parallelism is essential for training large neural networks, but existing schedules trade off throughput, memory, and optimization consistency. Synchronous pipelines preserve forward/backward weight consistency but suffer from bubbles; asynchronous pipelines remove bubbles but introduce wei...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.07881</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>When Behavioral Safety Evaluation Fails: A Representation-Level Perspective</title>
       <link>https://huggingface.co/papers/2606.08044</link>
       <description>By Enyi Jiang, Anders Gjølbye, Yibo Jacky Zhang, Sanmi Koyejo
 
 Large Language Model (LLM) safety has often been evaluated at the behavior level, which provides limited evidence of internal robustness, as these evaluations target outputs rather than representation-level vulnerability under intervention. We formalize this discrepancy as the audit gap: the differe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.08044</guid>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>POISE: Position-Aware Undetectable Skill Injection on LLM Agents</title>
+      <link>https://huggingface.co/papers/2606.07943</link>
+      <description>By Haochang Hao, Dehai Min, Zhifang Zhang, Yunbei Zhang, Miao Xu, et al.
+
+Agent skills provide a lightweight mechanism for extending general-purpose agents, but their open format exposes them to skill-poisoning attacks. A practically dangerous injection must stay invisible: if executing the payload derails the user's legitimate task, the resulting failure signal invites i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.07943</guid>
       <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -98,24 +125,6 @@ Large Language Model (LLM) safety has often been evaluated at the behavior level
 Expert writing feedback from experienced researchers is critical for early-career scholars to improve their manuscripts, yet high-quality feedback often remains scarce because reviewing research papers is labor-intensive. Emerging AI-powered writing assistants largely focus on grammar fixes or simul...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.08857</guid>
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SearchSwarm: Towards Delegation Intelligence in Agentic LLMs for Long-Horizon Deep Research</title>
-      <link>https://huggingface.co/papers/2606.09730</link>
-      <description>By Pu Ning, Quan Chen, Kun Tao, Xinyu Tang, Tianshu Wang, et al.
-
-Large language models are increasingly expected to handle complex, long-horizon real-world tasks whose context demands can grow without bound, yet model context windows remain inherently finite. Recent work explores a paradigm where a main agent decomposes tasks and dispatches subtasks to subagents,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.09730</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking the Divergence Regularization in LLM RL</title>
-      <link>https://huggingface.co/papers/2606.09821</link>
-      <description>By Jiarui Yao, Xiangxin Zhou, Penghui Qi, Wee Sun Lee, Liefeng Bo, et al.
-
-Reinforcement learning (RL) has become a key component of post-training large language models (LLMs). In practice, LLM RL is often off-policy because of training-inference mismatch and policy staleness, making trust-region control essential for stable optimization. Mainstream methods such as PPO and...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.09821</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Late-Layer Fusion is Enough: Dual-Path Vision Token Routing for Multimodal Large Language Models under Visual Saturation</title>
@@ -145,6 +154,15 @@ Tabular encoders are usually evaluated inside task-specific end-to-end pipelines
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching</title>
+      <link>https://huggingface.co/papers/2601.05212</link>
+      <description>By Danilo Danese, Angela Lombardi, Matteo Attimonelli, Giuseppe Fasano, Tommaso Di Noia
+
+Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2601.05212</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>PsychoSafe: Eliciting Psychologically-Informed Refusals in Large Language Models</title>
       <link>https://huggingface.co/papers/2606.09697</link>
       <description>By Gianluca Barmina, Federico Torrielli, Sven Harms, Jacob Nielsen, Felix Mächtle, et al.
@@ -170,33 +188,6 @@ As deep learning models scale, managing, inspecting, and modifying large checkpo
 Language models increasingly serve as the backbone of text-to-speech (TTS) systems, yet we understand little about the representations they build when text and generated speech tokens share a single residual stream. We train BatchTopK sparse autoencoders on the LM backbone of CosyVoice3 and introduc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.10029</guid>
       <pubDate>Mon, 08 Jun 2026 18:09:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attention Amnesia in Hybrid LLMs: When CoT Fine-Tuning Breaks Long-Range Recall, and How to Fix It</title>
-      <link>https://huggingface.co/papers/2606.11052</link>
-      <description>By Xinyu Zhou, Boyu Zhu, Yi Xu, Zhiwei Li, Yingfa Chen, et al.
-
-Chain-of-thought (CoT) supervised fine-tuning (SFT) is widely adopted to improve reasoning ability, yet we find that it systematically degrades long-context recall in hybrid linear-attention models. Across architectures including HypeNet and Jet-Nemotron, retrieval performance on Needle-In-A-Haystac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11052</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WorldOlympiad: Can Your World Model Survive a Triathlon?</title>
-      <link>https://huggingface.co/papers/2606.11129</link>
-      <description>By Yuke Zhao, Wangbo Zhao, Weijie Wang, Zeyu Zhang, Dakai An, et al.
-
-We introduce WorldOlympiad, a benchmark for diagnosing video-based world models across physical faithfulness, geometric consistency, and interaction fidelity. While existing benchmarks often focus on visual quality, semantic alignment, or short-term temporal coherence, they provide limited insight i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11129</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Flow-DPPO: Divergence Proximal Policy Optimization for Flow Matching Models</title>
-      <link>https://huggingface.co/papers/2606.11025</link>
-      <description>By Bowen Ping, Xiangxin Zhou, Penghui Qi, Minnan Luo, Liefeng Bo, et al.
-
-Recent work has demonstrated that online reinforcement learning (RL) can substantially improve the quality and alignment of flow matching models for image and video generation. Methods such as Flow-GRPO and CPS cast the denoising process as a Markov Decision Process and apply PPO-style ratio clippin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11025</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>U-TTT: Towards Generalizable PET Image Denoising via Test-Time Training</title>
@@ -307,15 +298,6 @@ Combinatorics is central to Olympiad-level mathematical problem solving, requiri
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>One Token per Multimodal Evidence: Latent Memory for Resource-Constrained QA</title>
-      <link>https://huggingface.co/papers/2606.10572</link>
-      <description>By Zhi Zheng, Ziqiao Meng, Hao Luan, Wei Liu, Wee Sun Lee
-
-External memory effectively grounds large language models (LLMs) and vision-language models (VLMs)-based question answering (QA) in relevant multimodal evidence. However, existing memory paradigms represent each memory item in raw text and image forms, so retrieval-based systems must pass the retrie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.10572</guid>
-      <pubDate>Tue, 09 Jun 2026 08:36:08 +0000</pubDate>
-    </item>
-    <item>
       <title>Role-Agent: Bootstrapping LLM Agents via Dual-Role Evolution</title>
       <link>https://huggingface.co/papers/2606.10917</link>
       <description>By Xucong Wang, Ziyu Ma, Shidong Yang, Tongwen Huang, Pengkun Wang, et al.
@@ -325,22 +307,13 @@ Although Large Language Model (LLM) agents have demonstrated strong performance 
       <pubDate>Tue, 09 Jun 2026 14:28:07 +0000</pubDate>
     </item>
     <item>
-      <title>Lip Forcing: Few-Step Autoregressive Diffusion for Real-time Lip Synchronization</title>
-      <link>https://huggingface.co/papers/2606.11180</link>
-      <description>By Paul Hyunbin Cho, Jinhyuk Jang, SeokYoung Lee, Joungbin Lee, Siyoon Jin, et al.
+      <title>TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2606.11119</link>
+      <description>By Heming Zou, Qi Wang, Yun Qu, Yuhang Jiang, Lizhou Cai, et al.
 
-Diffusion-based lip synchronization models achieve strong visual quality and audio-visual alignment, but full-sequence bidirectional attention and many denoising steps make them impractical for real-time inference. We present Lip Forcing, to our knowledge the first autoregressive diffusion method fo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11180</guid>
-      <pubDate>Tue, 09 Jun 2026 17:56:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents</title>
-      <link>https://huggingface.co/papers/2606.11182</link>
-      <description>By Weixian Xu, Shilong Liu, Mengdi Wang
-
-In this paper, we propose EEVEE, the first multi-dataset test-time prompt learning framework for LLM agents, enabling test-time prompt learning under real-world task streams. Existing methods are largely designed for single-dataset settings, while real-world applications require models to handle het...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11182</guid>
-      <pubDate>Tue, 09 Jun 2026 17:57:16 +0000</pubDate>
+Reinforcement learning with verifiable rewards (RLVR) is a promising approach for enhancing reasoning and agentic behavior in large language models. However, rollout-intensive policy optimization is often limited by insufficient reward contrast, arising when overly simple or complex prompts generate...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11119</guid>
+      <pubDate>Tue, 09 Jun 2026 17:16:03 +0000</pubDate>
     </item>
     <item>
       <title>On the Limits of LLM-as-Judge for Scientific Novelty Assessment</title>
@@ -458,6 +431,33 @@ Router is the cornerstone component to the Mixture-of-Experts models. Serving as
 Spatial reasoning from egocentric videos is inherently challenging because the observable evidence is constrained by the camera trajectory. Existing methods rely on single-turn inference, forcing models to resolve geometric ambiguity through semantic priors rather than verifiable evidence. We argue ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.11683</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Time-Series Foundation Model Embeddings for Remaining Useful Life Estimation</title>
+      <link>https://huggingface.co/papers/2606.11990</link>
+      <description>By Amir El-Ghoussani, Michele De Vita, Ronald Naumann, Valiseios Belagiannis
+
+Remaining Useful Life (RUL) prediction is essential for industrial predictive maintenance, yet many learning-based approaches rely on extensive feature engineering or large labeled datasets to train task-specific sequence models. In this work, we introduce a lightweight learning approach, in which w...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11990</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grammar-Constrained Decoding Can Jailbreak LLMs into Generating Malicious Code</title>
+      <link>https://huggingface.co/papers/2606.11817</link>
+      <description>By Yitong Zhang, Shiteng Lu, Jia Li
+
+Large Language Models (LLMs) are increasingly used for code generation, raising concerns that they may be misused to produce malicious code. Meanwhile, Grammar-Constrained Decoding (GCD) has been widely adopted to improve the reliability of LLM-generated code by enforcing syntactic validity. In this...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11817</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training</title>
+      <link>https://huggingface.co/papers/2606.11854</link>
+      <description>By Michal Chudoba, Sergey Alyaev, Petra Galuscakova, Tomasz Wiktorski
+
+There are two main Parameter-Efficient Fine-Tuning (PEFT) techniques for Large Language Models (LLMs). While Low-Rank Adaptation (LoRA) introduces additional weights between the LLM layers, Soft Prompting introduces additional fine-tuning-specific raw tokens to an LLM input. However, both require mo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11854</guid>
+      <pubDate>Wed, 10 Jun 2026 09:30:37 +0000</pubDate>
     </item>
   </channel>
 </rss>

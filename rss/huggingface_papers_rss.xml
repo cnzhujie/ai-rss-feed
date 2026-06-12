@@ -8,34 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 04:47:49 +0000</lastBuildDate>
-    <item>
-      <title>Distilling LLM Feedback for Lean Theorem Proving</title>
-      <link>https://huggingface.co/papers/2605.30861</link>
-      <description>By Gaetan Narozniak, Gérard Biau, Rémi Munos, Ahmad Rammal, Pierre Marion
-
-Post-training for reasoning models typically combines supervised fine-tuning with reinforcement learning from verifiable rewards, most commonly with GRPO. However, this algorithm suffers from sparse rewards, limited exploration, and mode collapse. Building upon recent works on self-distillation, we ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2605.30861</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EvoTrainer: Co-Evolving LLM Policies and Training Harnesses for Autonomous Agentic Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2606.03108</link>
-      <description>By Guhong Chen, Yingcheng Shi, Yongbin Li, Binhua Li, Xander Xu, et al.
-
-Autonomous LLM training is often framed as recipe search, which leaves the training harness largely static. This limitation sharpens in agentic RL, where shifting bottlenecks and scalar rewards mask diverse failure modes. We introduce EvoTrainer, an autonomous training framework that co-evolves LLM ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03108</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Large Language Models Are Overconfident in Their Own Responses</title>
-      <link>https://huggingface.co/papers/2606.03437</link>
-      <description>By Mario Sanz-Guerrero, Manuel Mager, Katharina von der Wense
-
-Prior work has shown that instruction-tuned large language models (LLMs) are less well calibrated than their base pre-trained counterparts. However, little is known about the frequently used chat template's effect on the calibration of conversational LLMs. In this work, we investigate the mechanisms...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.03437</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 12 Jun 2026 09:05:00 +0000</lastBuildDate>
     <item>
       <title>Can Generalist Agents Automate Data Curation?</title>
       <link>https://huggingface.co/papers/2606.04261</link>
@@ -62,15 +35,6 @@ Sparse attention reduces compute and memory bandwidth for long-context LLM infer
 Many modern vision-language models (VLMs) build on autoregressive decoding of discrete tokens. While text-based output interfaces enable scalable pretraining and strong zero-shot generalization across diverse tasks, they are poorly suited for problems that require precise continuous outputs, such as...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.05758</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Breaking the Bubble: Asynchronous Pipeline Parallel Training with Bounded Weight Inconsistency</title>
-      <link>https://huggingface.co/papers/2606.07881</link>
-      <description>By Itay Elam, Eliron Rahimi, Avi Mendelson, Chaim Baskin
-
-Pipeline parallelism is essential for training large neural networks, but existing schedules trade off throughput, memory, and optimization consistency. Synchronous pipelines preserve forward/backward weight consistency but suffer from bubbles; asynchronous pipelines remove bubbles but introduce wei...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.07881</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ReVision: Scaling Computer-Use Agents via Temporal Visual Redundancy Reduction</title>
@@ -172,13 +136,13 @@ Visual reasoning requires integrating evidence distributed across regions, attri
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ComBench: A Benchmark for Rigorous Proof Reasoning and Constructive Realization in Olympiad-Level Combinatorics</title>
-      <link>https://huggingface.co/papers/2606.10479</link>
-      <description>By Shunkai Zhang, Haoran Zhang, Yun Luo, Qianjia Cheng, Haodi Lei, et al.
+      <title>Leveraging Morphology for Historical Script Metrological Analysis</title>
+      <link>https://huggingface.co/papers/2606.09446</link>
+      <description>By Malamatenia Vlachou Efstathiou, Raphaël Baena, Dominique Stutzmann, Mathieu Aubry
 
-Combinatorics is central to Olympiad-level mathematical problem solving, requiring deep discrete reasoning, creative constructions, and rigorous structural insight. Recent evidence suggests that even today's strongest frontier models remain uneven on Olympiad combinatorics, revealing a gap in creati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.10479</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+Advances in handwritten text recognition have enabled large-scale transcription of historical documents, but still provide limited access to interpretable visual measurements for paleography, the study of historical scripts. In this paper, our main insight is that morphological script analysis, in p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.09446</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>N-GRPO: Embedding-Level Neighbor Mixing for Enhanced Policy Optimization</title>
@@ -187,6 +151,24 @@ Combinatorics is central to Olympiad-level mathematical problem solving, requiri
 
 The success of Large Language Models in mathematical reasoning relies heavily on the generation of diverse and valid solution paths during the rollout phase. However, current rollout techniques face a fundamental trade-off: token-level sampling often yields redundant trajectories that differ only in...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.10768</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IDEAL: In-DEpth ALignment Makes A Discrete Representation AutoEncoder</title>
+      <link>https://huggingface.co/papers/2606.11096</link>
+      <description>By Yitong Chen, Zijie Diao, Junke Wang, Lingyu Kong, Yixuan Ren, et al.
+
+Built on pretrained vision foundation models (VFMs), representation autoencoders (RAEs) have recently emerged as a promising approach for constructing semantically rich latent spaces for image generation. However, their reconstruction quality often remains suboptimal, largely because deep VFM repres...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11096</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flash-GMM: A Memory-Efficient Kernel for Scalable Soft Clustering</title>
+      <link>https://huggingface.co/papers/2606.10896</link>
+      <description>By Gal Bloch, Ariel Gera, Matan Orbach, Ohad Eytan, Assaf Toledo
+
+We present Flash-GMM, a fused Triton kernel for efficient computation of Gaussian Mixture Models (GMMs) over large-scale data in a single GPU pass. By eliminating the need to materialize the full responsibility matrix in GPU memory, Flash-GMM achieves a 20times speedup over existing implementations ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.10896</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -215,51 +197,6 @@ Reinforcement learning with verifiable rewards (RLVR) is a promising approach fo
 Understanding and predicting how social beliefs evolve in response to events -- from policy changes to scientific breakthroughs -- remains a fundamental challenge in social science. Given LLMs' commonsense knowledge and social intelligence, we ask: Can LLMs model the dynamics of social beliefs follo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.11482</guid>
       <pubDate>Tue, 09 Jun 2026 22:15:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks</title>
-      <link>https://huggingface.co/papers/2606.12344</link>
-      <description>By Mengyu Zheng, Kai Han, Boxun Li, Haiyang Xu, Yuchuan Tian, et al.
-
-General-purpose agents such as OpenClaw are increasingly used as autonomous tool users, but their coding ability is difficult to measure under SWE-bench: a generic agent does not by itself satisfy the clean Docker workspace, patch, and prediction contract required for scoring. We introduce Claw-SWE-...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.12344</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Redesign Mixture-of-Experts Routers with Manifold Power Iteration</title>
-      <link>https://huggingface.co/papers/2606.12397</link>
-      <description>By Songhao Wu, Ang Lv, Ruobing Xie, Yankai Lin
-
-Router is the cornerstone component to the Mixture-of-Experts models. Serving as expert proxies, the rows of the router matrix compute their similarity to the MoE inputs to determine which subset of experts is activated. Ideally, each router row is designed to encode the expert matrix into this repr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.12397</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reason, Then Re-reason: Cross-view Revisiting Improves Spatial Reasoning</title>
-      <link>https://huggingface.co/papers/2606.11683</link>
-      <description>By Chaofan Ma, Zhenjie Mao, Yuhuan Yang, Fanqin Zeng, Yue Shi, et al.
-
-Spatial reasoning from egocentric videos is inherently challenging because the observable evidence is constrained by the camera trajectory. Existing methods rely on single-turn inference, forcing models to resolve geometric ambiguity through semantic priors rather than verifiable evidence. We argue ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11683</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Time-Series Foundation Model Embeddings for Remaining Useful Life Estimation</title>
-      <link>https://huggingface.co/papers/2606.11990</link>
-      <description>By Amir El-Ghoussani, Michele De Vita, Ronald Naumann, Valiseios Belagiannis
-
-Remaining Useful Life (RUL) prediction is essential for industrial predictive maintenance, yet many learning-based approaches rely on extensive feature engineering or large labeled datasets to train task-specific sequence models. In this work, we introduce a lightweight learning approach, in which w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11990</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Grammar-Constrained Decoding Can Jailbreak LLMs into Generating Malicious Code</title>
-      <link>https://huggingface.co/papers/2606.11817</link>
-      <description>By Yitong Zhang, Shiteng Lu, Jia Li
-
-Large Language Models (LLMs) are increasingly used for code generation, raising concerns that they may be misused to produce malicious code. Meanwhile, Grammar-Constrained Decoding (GCD) has been widely adopted to improve the reliability of LLM-generated code by enforcing syntactic validity. In this...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11817</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Adaptive Multi-Resolution Procedural Knowledge Compression for Large Language Models</title>
@@ -304,6 +241,51 @@ Training deep search agents requires verifiable questions whose answers remain u
 
 Compact language models (LMs) reduce cost, latency, and deployment risk for tool agents. Yet MCP-style tool use requires more than isolated function calling: an agent must discover tools from live catalogs, satisfy schemas, preserve dependencies across intermediate outputs, and ground final response...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.12674</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>High-Fidelity Two-Step Image Generation via Teacher-Aligned End-to-End Distillation</title>
+      <link>https://huggingface.co/papers/2606.12575</link>
+      <description>By Dongyang Liu, Ruoyi Du, David Liu, Dengyang Jiang, Liangchen Li, et al.
+
+Few-step diffusion distillation has become increasingly mature for 4-8-step generation, yet pushing further to 2 steps remains challenging. In this work, we introduce Z-Image Turbo++, a high-quality 2-step image generation model distilled from the 8-step Z-Image Turbo teacher. Our method addresses t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.12575</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PianoKontext: Expressive Performance Rendering from Deadpan Context</title>
+      <link>https://huggingface.co/papers/2606.12282</link>
+      <description>By Dmitrii Gavrilev
+
+Expressive performance rendering (EPR) aims to generate realistic performances constrained on sequences of notes. However, flow matching audio editing models manipulate only synchronized music samples of the same duration, limiting their understanding of expressive timing. We introduce PianoKontext,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.12282</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TreeSeeker: Tree-Structured Trial, Error, and Return in Deep Search</title>
+      <link>https://huggingface.co/papers/2606.11662</link>
+      <description>By Zhuofan Shi, Mingzhe Ma, Lu Wang, Fangkai Yang, Pu Zhao, et al.
+
+Deep search requires agents to answer complex questions through multi-step web search, browsing, evidence comparison, and synthesis. A central challenge is deciding how to search when several directions look plausible but only some will later lead to reliable evidence. If an agent greedily follows t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.11662</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VIA-SD: Verification via Intra-Model Routing for Speculative Decoding</title>
+      <link>https://huggingface.co/papers/2606.12243</link>
+      <description>By Yuchen Xian, Yang He, Yunqiu Xu, Yi Yang
+
+Speculative decoding (SD) addresses the high inference costs of LLMs by having lightweight drafters generate candidates for large verifiers to validate in parallel. Existing draft-verify methods use binary decisions: accept or fully recompute. Yet we find that many rejected tokens can be verified co...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.12243</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From 2D Grids to 1D Tokens: Reforming Shared Representations for Multimodal Image Fusion</title>
+      <link>https://huggingface.co/papers/2606.12303</link>
+      <description>By Yuchen Xian, Yunqiu Xu, Yang He, Yi Yang
+
+Multimodal image fusion aims to integrate complementary information from different modalities into a fused image that preserves rich local details while maintaining globally consistent appearance. Existing approaches build shared representations on 2D feature grids, which excel at modeling local str...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.12303</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Large language model (LLM) agents have achieved strong performance on a wide ran
 
 Search Agents -- large language models augmented with search tools -- have intensified the need for future-proof evaluation benchmarks. Existing benchmarks such as BrowseComp rely on static knowledge, making them vulnerable to test-set contamination and parametric memorization. Consequently, models ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.13120</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MiniMax Sparse Attention</title>
+      <link>https://huggingface.co/papers/2606.13392</link>
+      <description>By Xunhao Lai, Weiqi Xu, Yufeng Yang, Qiaorui Chen, Yang Xu, et al.
+
+Ultra-long-context capability is becoming indispensable for frontier LLMs: agentic workflows, repository-scale code reasoning, and persistent memory all require the model to jointly attend over hundreds of thousands to millions of tokens, yet the quadratic cost of softmax attention makes this untena...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.13392</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HYDRA-X: Native Unified Multimodal Models with Holistic Visual Tokenizers</title>
+      <link>https://huggingface.co/papers/2606.13289</link>
+      <description>By Guozhen Zhang, Xuerui Qiu, Yutao Cui, Tianhui Song, Changlin Li, et al.
+
+Holistic visual tokenizers are fundamental to unified multimodal models (UMMs) as they map diverse visual inputs into a unified representation space. In this paper, we present HYDRA-X, the first UMM that unifies image and video tokenization within a single Vision Transformer (ViT). Our design is dri...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.13289</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

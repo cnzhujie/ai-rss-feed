@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 09:05:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 13:32:45 +0000</lastBuildDate>
     <item>
       <title>Can Generalist Agents Automate Data Curation?</title>
       <link>https://huggingface.co/papers/2606.04261</link>
@@ -37,6 +37,24 @@ Many modern vision-language models (VLMs) build on autoregressive decoding of di
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Where, What, Why, and Importance: Structured Defect Grounding for Text-to-Image Feedback</title>
+      <link>https://huggingface.co/papers/2606.06113</link>
+      <description>By Huaisong Zhang, Hao Yu, Yuxuan Zhang, Jiahe Wang, Xinrui Chen, et al.
+
+Despite generating increasingly photorealistic images, text-to-image (T2I) models still exhibit localized, subtle, and structurally complex failures. Diagnosing these failures requires instance-level feedback that answers where a defect occurs, what type it is, why it is defective, and its importanc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.06113</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs</title>
+      <link>https://huggingface.co/papers/2606.12451</link>
+      <description>By Ashutosh Hathidara, Sai Shruthi Sistla, Sebastian Schreiber, Sahil Bansal
+
+Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-capture specialized tool semantics, parametric tool retrieval addresses this by encoding each tool as a virtual...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.12451</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ReVision: Scaling Computer-Use Agents via Temporal Visual Redundancy Reduction</title>
       <link>https://huggingface.co/papers/2605.11212</link>
       <description>By Amirhossein Abaskohi, Yuhang He, Peter West, Giuseppe Carenini, Pranit Chawla, et al.
@@ -44,15 +62,6 @@ Many modern vision-language models (VLMs) build on autoregressive decoding of di
 Computer-use agents (CUAs) rely on visual observations of graphical user interfaces, where each screenshot is encoded into a large number of visual tokens. As interaction trajectories grow, the token cost increases rapidly, limiting the amount of history that can be incorporated under fixed context ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2605.11212</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>POISE: Position-Aware Undetectable Skill Injection on LLM Agents</title>
-      <link>https://huggingface.co/papers/2606.07943</link>
-      <description>By Haochang Hao, Dehai Min, Zhifang Zhang, Yunbei Zhang, Miao Xu, et al.
-
-Agent skills provide a lightweight mechanism for extending general-purpose agents, but their open format exposes them to skill-poisoning attacks. A practically dangerous injection must stay invisible: if executing the payload derails the user's legitimate task, the resulting failure signal invites i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.07943</guid>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DyCo-RL: Dynamic Cross-Modal Coordination for Visual Reasoning</title>
@@ -82,6 +91,15 @@ Multimodal Large Language Models (MLLMs) have demonstrated remarkable success in
       <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Revisiting Articulated Parts Perception in Robot Manipulation</title>
+      <link>https://huggingface.co/papers/2606.08103</link>
+      <description>By Xiaoqian Wu, Yejie Guo, Xiaoyang Chen, Lixin Yang, Cewu Lu, et al.
+
+We are surrounded by various objects with movable, articulated parts, e.g., box, handle, door. An accurate and generalizable perception of articulated parts is essential to enhance robotic manipulation capabilities. Building on this need, recent efforts in articulated parts perception have followed ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.08103</guid>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>MaskAlign: Token-Subset Representation Alignment for Efficient Diffusion Training</title>
       <link>https://huggingface.co/papers/2606.08788</link>
       <description>By Lianyu Pang, Tianlin Pan, Cheng Da, Changqian Yu, Huan Yang, et al.
@@ -89,15 +107,6 @@ Multimodal Large Language Models (MLLMs) have demonstrated remarkable success in
 Representation alignment with pretrained vision models has recently shown strong potential for accelerating diffusion transformer training. By aligning intermediate diffusion features with clean-image representations from self-supervised vision encoders, existing methods improve convergence and gene...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.08788</guid>
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FlowLet: Conditional 3D Brain MRI Synthesis using Wavelet Flow Matching</title>
-      <link>https://huggingface.co/papers/2601.05212</link>
-      <description>By Danilo Danese, Angela Lombardi, Matteo Attimonelli, Giuseppe Fasano, Tommaso Di Noia
-
-Brain Magnetic Resonance Imaging (MRI) plays a central role in studying neurological development, aging, and diseases. One key application is Brain Age Prediction (BAP), which estimates an individual's biological brain age from MRI data. Effective BAP models require large, diverse, and age-balanced ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2601.05212</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>τ-Rec: A Verifiable Benchmark for Agentic Recommender Systems</title>
@@ -179,15 +188,6 @@ We present Flash-GMM, a fused Triton kernel for efficient computation of Gaussia
 Large language models (LLMs) are on the rise for accelerating scientific discovery, most recently in advanced tasks such as generating valid scientific hypotheses. Yet in many discovery settings, the goal is not to identify a single best hypothesis since validation can be noisy and expensive, and sc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.10587</guid>
       <pubDate>Tue, 09 Jun 2026 08:52:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2606.11119</link>
-      <description>By Heming Zou, Qi Wang, Yun Qu, Yuhang Jiang, Lizhou Cai, et al.
-
-Reinforcement learning with verifiable rewards (RLVR) is a promising approach for enhancing reasoning and agentic behavior in large language models. However, rollout-intensive policy optimization is often limited by insufficient reward contrast, arising when overly simple or complex prompts generate...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11119</guid>
-      <pubDate>Tue, 09 Jun 2026 17:16:03 +0000</pubDate>
     </item>
     <item>
       <title>Building Social World Models with Large Language Models</title>
@@ -289,6 +289,15 @@ Multimodal image fusion aims to integrate complementary information from differe
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A Stationary (and Therefore Compatible) Representation is All You Need</title>
+      <link>https://huggingface.co/papers/2606.12488</link>
+      <description>By Niccolò Biondi, Federico Pernici, Simone Ricci, Alberto Del Bimbo
+
+Learning compatible representations aims to learn feature representations that can be used interchangeably over time whenever a model undergoes updates. In this paper, we demonstrate that stationary representations learned by d-Simplex fixed classifiers imply compatibility as in its formal definitio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.12488</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>APEX: A Network-Native Time-Series Foundation Model for Forecasting and Anomaly Detection for Wireless Edge Operations</title>
       <link>https://huggingface.co/papers/2606.11553</link>
       <description>By Swadhin Pradhan, Niloo Bahadori, Peiman Amini
@@ -296,24 +305,6 @@ Multimodal image fusion aims to integrate complementary information from differe
 Generic time-series foundation models transfer poorly to wireless network telemetry whose signals are bursty, zero-inflated, and coupled across protocol layers. We present APEX, a network-native, decoder-only transformer for forecasting enterprise AP telemetry, and evaluate it on DHCP degradation as...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.11553</guid>
       <pubDate>Wed, 10 Jun 2026 01:23:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training</title>
-      <link>https://huggingface.co/papers/2606.11854</link>
-      <description>By Michal Chudoba, Sergey Alyaev, Petra Galuscakova, Tomasz Wiktorski
-
-There are two main Parameter-Efficient Fine-Tuning (PEFT) techniques for Large Language Models (LLMs). While Low-Rank Adaptation (LoRA) introduces additional weights between the LLM layers, Soft Prompting introduces additional fine-tuning-specific raw tokens to an LLM input. However, both require mo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11854</guid>
-      <pubDate>Wed, 10 Jun 2026 09:30:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>On Subquadratic Architectures: From Applications to Principles</title>
-      <link>https://huggingface.co/papers/2606.12364</link>
-      <description>By Anamaria-Roberta Hartl, Levente Zólyomi, David Stap, Pieter-Jan Hoedt, Niklas Schmidinger, et al.
-
-Transformers dominate modern sequence modeling, but their quadratic attention incurs substantial computational cost. Subquadratic architectures offer a scalable alternative. However, it remains unclear which designs yield the most effective sequence models. We compare three leading approaches: xLSTM...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.12364</guid>
-      <pubDate>Wed, 10 Jun 2026 17:33:55 +0000</pubDate>
     </item>
     <item>
       <title>RepWAM: World Action Modeling with Representation Visual-Action Tokenizers</title>
@@ -457,6 +448,15 @@ Ultra-long-context capability is becoming indispensable for frontier LLMs: agent
 
 Holistic visual tokenizers are fundamental to unified multimodal models (UMMs) as they map diverse visual inputs into a unified representation space. In this paper, we present HYDRA-X, the first UMM that unifies image and video tokenization within a single Vision Transformer (ViT). Our design is dri...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.13289</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages</title>
+      <link>https://huggingface.co/papers/2606.13572</link>
+      <description>By Tanmoy Kanti Halder, Akash Ghosh, Subhadip Baidya, Arijit Roy, Sriparna Saha
+
+Multimodal Large Language Models (MLLMs) have shown promising reasoning capabilities in general domains, yet their performance remains limited in specialized settings such as healthcare, especially in multilingual and low-resource scenarios. This gap is critical in regions like rural India, where pa...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.13572</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

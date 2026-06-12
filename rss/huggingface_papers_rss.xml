@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 16:49:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 19:12:27 +0000</lastBuildDate>
     <item>
       <title>Can Generalist Agents Automate Data Curation?</title>
       <link>https://huggingface.co/papers/2606.04261</link>
@@ -26,15 +26,6 @@ Curating training data is among the most consequential yet labor-intensive parts
 Sparse attention reduces compute and memory bandwidth for long-context LLM inference. However, two key challenges remain: (1) KV cache capacity still grows with sequence length, and offloading to CPU memory introduces a PCIe transfer bottleneck; (2) the sparse selection step itself retains O(T^2) co...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.04511</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2606.05758</link>
-      <description>By Zhuoming Liu, Jinhong Lin, Kwan Man Cheng, Lin Zhang, Shayok Bagchi, et al.
-
-Many modern vision-language models (VLMs) build on autoregressive decoding of discrete tokens. While text-based output interfaces enable scalable pretraining and strong zero-shot generalization across diverse tasks, they are poorly suited for problems that require precise continuous outputs, such as...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.05758</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Where, What, Why, and Importance: Structured Defect Grounding for Text-to-Image Feedback</title>
@@ -190,13 +181,13 @@ Adversarial robustness evaluations of large language models (LLMs) typically rep
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards Diverse Scientific Hypothesis Search with Large Language Models</title>
-      <link>https://huggingface.co/papers/2606.10587</link>
-      <description>By Haorui Wang, Parshin Shojaee, Kazem Meidani, Kunyang Sun, José Miguel Hernández-Lobato, et al.
+      <title>WebChallenger: A Reliable and Efficient Generalist Web Agent</title>
+      <link>https://huggingface.co/papers/2606.10423</link>
+      <description>By Jayoo Hwang, Xiaowen Zhang, Vedant Padwal
 
-Large language models (LLMs) are on the rise for accelerating scientific discovery, most recently in advanced tasks such as generating valid scientific hypotheses. Yet in many discovery settings, the goal is not to identify a single best hypothesis since validation can be noisy and expensive, and sc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.10587</guid>
-      <pubDate>Tue, 09 Jun 2026 08:52:49 +0000</pubDate>
+Autonomous web navigation remains challenging for LLM agents, and the strongest generalist systems rely on proprietary reasoning models whose inference cost is prohibitive for the repetitive tasks where such agents would be most useful. We argue this gap stems not from insufficient model capability ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.10423</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building Social World Models with Large Language Models</title>
@@ -206,15 +197,6 @@ Large language models (LLMs) are on the rise for accelerating scientific discove
 Understanding and predicting how social beliefs evolve in response to events -- from policy changes to scientific breakthroughs -- remains a fundamental challenge in social science. Given LLMs' commonsense knowledge and social intelligence, we ask: Can LLMs model the dynamics of social beliefs follo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.11482</guid>
       <pubDate>Tue, 09 Jun 2026 22:15:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reroute, Don't Remove: Recoverable Visual Token Routing for Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2606.12412</link>
-      <description>By Cheng-Yu Yang, Shao-Yuan Lo, Yu-Lun Liu
-
-Vision-language models (VLMs) project images into hundreds to thousands of visual tokens, making decoder inference expensive in both attention computation and KV-cache memory. Existing visual-token reduction methods largely follow a rank-and-remove paradigm: they score visual tokens, keep a compact ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.12412</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Which Models Are Our Models Built On? Auditing Invisible Dependencies in Modern LLMs</title>
@@ -457,6 +439,24 @@ Holistic visual tokenizers are fundamental to unified multimodal models (UMMs) a
 
 Multimodal Large Language Models (MLLMs) have shown promising reasoning capabilities in general domains, yet their performance remains limited in specialized settings such as healthcare, especially in multilingual and low-resource scenarios. This gap is critical in regions like rural India, where pa...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.13572</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding Agents</title>
+      <link>https://huggingface.co/papers/2606.13174</link>
+      <description>By Yujun Zhou, Kehan Guo, Haomin Zhuang, Xiangqi Wang, Yue Huang, et al.
+
+Interactive LLM agents are becoming part of daily work, but they do not reliably become easier to work with over time: a correction remembered in one session may still be violated in the next. We study this gap between preference access and preference compliance. In tasks derived from anonymized rea...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.13174</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>See What I See, Know What I Think: Dense Latent Communication Across Heterogeneous Agents</title>
+      <link>https://huggingface.co/papers/2606.13594</link>
+      <description>By Siyi Chen, Xiaoyan Zhang, Meng Wu, Jonathan Tremblay, Valts Blukis, et al.
+
+Multi-agent systems communicate mostly through text, paying a lossy and expensive decode and re-encode cost. KV-cache communication is a promising alternative, yet most prior work is homogeneous, using duplicate copies of the same model, and avoids the central challenge of cross-model latent alignme...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.13594</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2026 17:58:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 21:14:57 +0000</lastBuildDate>
     <item>
       <title>On the Limits of LLM Adaptability: Impact of Model-Internalized Priors on Annotation Task Performance</title>
       <link>https://huggingface.co/papers/2606.00467</link>
@@ -46,6 +46,15 @@ Studies of human reasoning have shown that people are typically stronger at eval
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Two-Fidelity Best-Action Identification for Stochastic Minimax Tree</title>
+      <link>https://huggingface.co/papers/2606.01708</link>
+      <description>By Peter Chen, Xi Chen
+
+We study fixed-confidence best-action identification (BAI) in stochastic minimax trees. This problem is increasingly relevant in modern AI planning, where deep minimax search and Monte Carlo Tree Search (MCTS) with language model long rollouts face a fundamental tradeoff: heuristic evaluations are c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.01708</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Smaller Models are Natural Explorers for Policy-Level Diversity in GRPO</title>
       <link>https://huggingface.co/papers/2605.30789</link>
       <description>By Yiming Ren, Yiran Xu, Zicheng Lin, Chufan Shi, Yukang Chen, et al.
@@ -55,13 +64,13 @@ We identify a new dimension for enhancing rollout diversity in Group Relative Po
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs</title>
-      <link>https://huggingface.co/papers/2606.12451</link>
-      <description>By Ashutosh Hathidara, Sai Shruthi Sistla, Sebastian Schreiber, Sahil Bansal
+      <title>Statistically Reliable LLM-Based Ranking Evaluation via Prediction-Powered Inference</title>
+      <link>https://huggingface.co/papers/2606.05308</link>
+      <description>By Abhishek Divekar
 
-Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-capture specialized tool semantics, parametric tool retrieval addresses this by encoding each tool as a virtual...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.12451</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+With PRECISE, we extended Prediction-Powered Inference to produce bias-corrected estimates of ranking evaluation metrics by combining a small human-labeled set with a large LLM-judged set. PPI is provably unbiased regardless of the LLM judge's error profile. We make it applicable to hierarchical met...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.05308</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Skip a Layer or Loop It? Learning Program-of-Layers in LLMs</title>
@@ -100,15 +109,6 @@ Egocentric human video offers a scalable alternative to robot data for pretraini
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Cold-Start Safety Gap in LLM Agents</title>
-      <link>https://huggingface.co/papers/2606.07867</link>
-      <description>By Chung-En Sun, Linbo Liu, Tsui-Wei Weng
-
-Are tool-calling LLM agents equally safe throughout a conversation? We discover they are not: agents are most vulnerable at the very start of a session and become substantially safer after a few regular agentic tasks -- a phenomenon we term the cold-start safety gap. To study this systematically, we...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.07867</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>WaveDiT: Distribution-Aware Wavelet Flow Matching for Efficient 3D Brain MRI Synthesis</title>
       <link>https://huggingface.co/papers/2606.08670</link>
       <description>By Danilo Danese, Angela Lombardi, Giuseppe Fasano, Matteo Attimonelli, Tommaso Di Noia
@@ -145,24 +145,6 @@ Embodied world models have emerged as a pivotal paradigm for visual robotic deci
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Risk Under Pressure: Compute-Aware Evaluation of Adversarial Robustness in Language Models</title>
-      <link>https://huggingface.co/papers/2606.11409</link>
-      <description>By Malikeh Ehghaghi, Boglárka Ecsedi, Marsha Chechik, Colin Raffel
-
-Adversarial robustness evaluations of large language models (LLMs) typically report attack success rate (ASR) under fixed query budgets, implicitly treating all attacks as equally costly. In practice, the computational expense of different attack strategies can vary by orders of magnitude. Consequen...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11409</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WebChallenger: A Reliable and Efficient Generalist Web Agent</title>
-      <link>https://huggingface.co/papers/2606.10423</link>
-      <description>By Jayoo Hwang, Xiaowen Zhang, Vedant Padwal
-
-Autonomous web navigation remains challenging for LLM agents, and the strongest generalist systems rely on proprietary reasoning models whose inference cost is prohibitive for the repetitive tasks where such agents would be most useful. We argue this gap stems not from insufficient model capability ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.10423</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>P3D-Bench: Benchmarking MLLMs for Parametric 3D Generation and Structural Reasoning</title>
       <link>https://huggingface.co/papers/2606.11152</link>
       <description>By Yikang Yang, Zhanpeng Hu, Youtian Lin, Mengqi Zhou, Jingxi Xu, et al.
@@ -179,15 +161,6 @@ Multimodal large language models can write code to produce complex programs as w
 As AI systems built from multiple language-model agents become more common, they are increasingly used to make decisions together: discussing, negotiating, and acting on shared tasks. While individual agents may appear well-aligned when tested on their own, problems can arise from how they interact ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.10747</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Stationary (and Therefore Compatible) Representation is All You Need</title>
-      <link>https://huggingface.co/papers/2606.12488</link>
-      <description>By Niccolò Biondi, Federico Pernici, Simone Ricci, Alberto Del Bimbo
-
-Learning compatible representations aims to learn feature representations that can be used interchangeably over time whenever a model undergoes updates. In this paper, we demonstrate that stationary representations learned by d-Simplex fixed classifiers imply compatibility as in its formal definitio...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.12488</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior</title>
@@ -259,6 +232,15 @@ Large language models (LLMs) now reach expert-level scores on medical licensing 
 
 Vision-Language-Action (VLA) models that couple pretrained Vision-Language Models (VLMs) with continuous action experts have achieved strong manipulation performance, yet generalization to out-of-distribution (OOD) language instructions remains poor. A known challenge is the structural imbalance in ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.12366</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation</title>
+      <link>https://huggingface.co/papers/2606.12594</link>
+      <description>By Joshua Ong Jun Leang, Zheng Zhao, Mihaela Cătălina Stoian, Qiyuan Xu, Haonan Li, et al.
+
+Modern Lean theorem provers achieve strong performance only with substantial training and inference compute, driven in part by scarce verified proof data and the long reasoning traces of formal proof search, making both supervised fine-tuning (SFT) and sampling expensive. We introduce Pythagoras-Pro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.12594</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -361,6 +343,15 @@ Image-to-3D methods often trade off faithfulness and completeness: depth estimat
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>No Hidden Prompts Needed! You Can Game AI Peer Review with Presentation-Only Revisions</title>
+      <link>https://huggingface.co/papers/2606.13044</link>
+      <description>By Xu Yang, Zhizhou Sha, Junbo Li, Jian Yu, Yifan Sun, et al.
+
+As AI-generated reviews move from experimental tools into peer-review infrastructure, most robustness concerns have focused on explicit attacks such as hidden instructions and prompt injection. We study a harder and more policy-relevant failure mode: no hidden text, no prompt injection, and no chang...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.13044</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>VISTA: View-Consistent Self-Verified Training for GUI Grounding</title>
       <link>https://huggingface.co/papers/2606.14579</link>
       <description>By Xinyu Qiu, Yunzhu Zhang, Heng Jia, Shuheng Shen, Changhua Meng, et al.
@@ -457,6 +448,15 @@ Unstructured pruning produces sparse weight tensors, but the standard implementa
 
 Online group chats are social spaces with local conversational norms that are rarely stated explicitly. The ability and willingness of LLM-based agents to recognize and adapt to these norms remains mostly unexplored. We introduce LoSoNA, a benchmark for local social norm adaptation in multi-party ch...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.14600</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AFFORDANCE20Q: Evaluating Affordance Reasoning from Physical Properties</title>
+      <link>https://huggingface.co/papers/2606.14240</link>
+      <description>By Yifan Jiang, Meige Yang, Zitong Li, Jay Pujara
+
+Affordance reasoning, the inference of an object's action possibilities from its physical properties (e.g., shape and material), is fundamental to human physical understanding and increasingly critical for Large Language Models (LLMs). However, existing affordance benchmarks largely expose explicit ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.14240</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

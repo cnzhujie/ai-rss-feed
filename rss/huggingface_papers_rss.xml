@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 13:51:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 17:12:08 +0000</lastBuildDate>
     <item>
       <title>Where Did It Go Wrong? Process-Level Evaluation of Web Agents with Semantic State Tracking</title>
       <link>https://huggingface.co/papers/2606.15673</link>
@@ -70,6 +70,15 @@ Can Large Language Models (LLMs) understand and reason about quantum operators? 
 
 Disaggregated inference architectures physically separate prefill and decode phases onto distinct GPU pools, creating competing "agents" that share a fixed hardware budget. We provide, to our knowledge, the first formal game-theoretic analysis of this architecture, using NVIDIA Dynamo as a concrete ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.17081</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Evolving Visual Questioner</title>
+      <link>https://huggingface.co/papers/2606.13929</link>
+      <description>By Yijun Liang, Hengguang Zhou, Ming Li, Lichen Li, Cho-Jui Hsieh, et al.
+
+Vision-language models (VLMs) are typically trained as passive answerers, while their ability to actively ask diverse, non-trivial, visual-centric and grounded questions remains underexplored. Existing visual questioners' performance is bottlenecked by the availability of high-quality training data ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.13929</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -197,24 +206,6 @@ Progress in AI has largely been driven by methods that assume less. As compute a
 Vision-Language-Action models (VLAs) leverage large-scale vision-language pretraining for semantic robot control, but often lack explicit foresight into how robot actions change the scene. World-Action Models (WAMs) address this limitation by conditioning policies on predicted futures, yet existing ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.15768</guid>
       <pubDate>Sun, 14 Jun 2026 12:06:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Geometric Action Model for Robot Policy Learning</title>
-      <link>https://huggingface.co/papers/2606.17046</link>
-      <description>By Jisang Han, Seonghu Jeon, Jaewoo Jung, René Zurbrügg, Honggyu An, et al.
-
-Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong semantic or temporal priors from large-scale founda...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.17046</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PermaVid: Consistent Video Generation Across Edits via Disentangled Context Memory</title>
-      <link>https://huggingface.co/papers/2606.16449</link>
-      <description>By Shuai Yang, Bingjie Gao, Ziwei Liu, Jiaqi Wang, Dahua Lin, et al.
-
-Consistent video generation under editing operations requires persistence: when edits modify scene appearance or layout, subsequent generations should remain coherent across time and viewpoints. However, existing memory designs struggle to maintain long-term consistency after such modifications, as ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.16449</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DreamX-World 1.0: A General-Purpose Interactive World Model</title>
@@ -349,6 +340,15 @@ Existing image editing methods can be generally categorized into textual instruc
 
 Making large language models (LLMs) deeply forget specific knowledge and values without sacrificing general capabilities remains a central challenge in unlearning. However, current methods are easily reversed by fine-tuning or few-shot prompting, suggesting their forgetting is only shallow. We ident...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.17168</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Verified Detection and Prevention of Concurrency Anomalies in Multi-Agent Large Language Model Systems</title>
+      <link>https://huggingface.co/papers/2606.17182</link>
+      <description>By Sajjad Khan
+
+Multi-agent LLM systems share state through memory stores, vector indices, and tool registries. We model such sharing as long-running read-generate-write operations under deterministic-generation semantics -- the regime durable-execution engines enforce by deterministic replay -- and formalize four ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.17182</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

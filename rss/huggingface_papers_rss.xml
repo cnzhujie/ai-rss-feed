@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 12:18:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 17:43:50 +0000</lastBuildDate>
     <item>
       <title>Duration Aware Scheduling for ASR Serving Under Workload Drift</title>
       <link>https://huggingface.co/papers/2603.11273</link>
@@ -26,15 +26,6 @@ Scheduling policies in large-scale Automatic Speech Recognition (ASR) serving pi
 Despite growing interest, most evaluations of large language models' (LLMs') personalization abilities have relied on synthetic data. It remains unclear how well current personalization systems work for real users. In this paper, we study the gap in LLM personalization performance when using synthet...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.06614</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HiLo-Token: Input-Adaptive High-Low Frequency Token Compression for Efficient Image Editing</title>
-      <link>https://huggingface.co/papers/2606.13898</link>
-      <description>By Haoran You, Yotam Nitzan, Lingzhi Zhang, Yifan Gong, Mang-Tik Chiu, et al.
-
-Creative image editing tools, such as Photoshop's Remove or Generative Fill buttons, are central to everyday customer use and account for a major share of traffic in Photoshop and Lightroom. However, current generative AI models face significant latency challenges, which become even more pronounced ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.13898</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Reinforcement Learning-Guided Retrieval with Soft Fusion for Robust Multimodal Imitation Learning under Missing Modalities</title>
@@ -163,17 +154,6 @@ Personalized presentation generation requires more than conditioning on a curren
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>When Does Trajectory-Level Supervision Permit Efficient Offline Reinforcement Learning?</title>
-      <link>https://huggingface.co/papers/2606.18531</link>
-      <description>By Xuanfei Ren, Tengyang Xie
-
-Offline reinforcement learning is typically analyzed under process-level reward supervision, yet many sequential decision datasets
-  record only trajectory-level outcomes. We develop a statistical theory for offline policy optimization from such outcome-level
-  supervision. We first study the canoni...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.18531</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Adaptive Volumetric Mechanical Property Fields Invariant to Resolution</title>
       <link>https://huggingface.co/papers/2606.18231</link>
       <description>By Rishit Dagli, Donglai Xiang, Vismay Modi, Xuning Yang, Gavriel State, et al.
@@ -201,13 +181,22 @@ Generalist vision-language-action systems need object-centric 3D evidence and re
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL</title>
-      <link>https://huggingface.co/papers/2606.19162</link>
-      <description>By Nicolas Beltran-Velez, Felix Friedrich, Zhang Xiaofeng, Reyhane Askari-Hemmat, Xiaochuang Han, et al.
+      <title>MCompassRAG: Topic Metadata as a Semantic Compass for Paragraph-Level Retrieval</title>
+      <link>https://huggingface.co/papers/2606.18508</link>
+      <description>By Amirhossein Abaskohi, Raymond Li, Gaetano Cimino, Peter West, Giuseppe Carenini, et al.
 
-Score- and flow-matching models often rely on preference-based reinforcement learning for two purposes: aligning with subjective preferences and, surprisingly, recovering properties such as visual realism and coherent object structure that matching-based training is intended to learn from the data i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.19162</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+Retrieval-augmented generation (RAG) systems depend critically on how documents are chunked and searched. Fine-grained chunks can improve retrieval precision but expand the search space, increasing latency and cost; larger chunks reduce the number of candidates but make dense similarity less reliabl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.18508</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SproutRAG: Attention-Guided Tree Search with Progressive Embeddings for Long-Document RAG</title>
+      <link>https://huggingface.co/papers/2606.18381</link>
+      <description>By Amirhossein Abaskohi, Issam H. Laradji, Peter West, Giuseppe Carenini
+
+Retrieval-augmented generation (RAG) systems must balance retrieval granularity with contextual coherence, a challenge that existing methods address through LLM-guided chunking, single-level context expansion, or hierarchical summarization. These approaches variously depend on costly LLM calls durin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.18381</guid>
+      <pubDate>Tue, 16 Jun 2026 18:28:00 +0000</pubDate>
     </item>
     <item>
       <title>REVES: REvision and VErification--Augmented Training for Test-Time Scaling</title>
@@ -459,6 +448,15 @@ The Frechet Inception Distance (FID) is the de facto arbiter of image generation
 
 Policy-adherent tool-calling agents in customer-service domains must maintain task states across turns while calling tools and obeying domain policies. Task states consist of relevant facts, identifiers, constraints, and conditions observed through user interaction and tool calls. In standard agents...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.20529</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>StylisticBias: A Few Human Visual Cues Drive Most Social Biases in MLLMs</title>
+      <link>https://huggingface.co/papers/2606.20527</link>
+      <description>By Shaghayegh Kolli, Timo Cavelius, Nafiseh Nikeghbal, Samantha Dalal, Jana Diesner
+
+Multimodal large language models (MLLMs) are increasingly deployed in personally and societally consequential settings, yet the visual cues that shape how these models judge people remain poorly understood. Prior work often compares different (groups of) individuals, making it difficult to separate ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.20527</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

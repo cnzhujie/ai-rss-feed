@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 09:56:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 12:41:44 +0000</lastBuildDate>
     <item>
       <title>SkillHarness: Harnessing Safe Skills for Computer-Use Agents</title>
       <link>https://huggingface.co/papers/2606.20636</link>
@@ -118,24 +118,6 @@ Retrieval-augmented generation (RAG) systems must balance retrieval granularity 
       <pubDate>Tue, 16 Jun 2026 18:28:00 +0000</pubDate>
     </item>
     <item>
-      <title>WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents</title>
-      <link>https://huggingface.co/papers/2606.18847</link>
-      <description>By Yehang Zhang, Jianchong Su, Haojian Huang, Yifan Chang, Tianhao Zhou, et al.
-
-To assist humans over extended periods in real homes, embodied agents must remember user routines, world states, and past interactions. Existing long-term memory benchmarks mainly evaluate language-centric retrieval and question answering, while embodied benchmarks often focus on short-horizon task ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.18847</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BrainG3N: A Dual-Purpose Tokenizer for Controllable 3D Brain MRI Generation</title>
-      <link>https://huggingface.co/papers/2606.19651</link>
-      <description>By Max Van Puyvelde, Ibrahim Gulluk, Wim Van Criekinge, Olivier Gevaert
-
-Three-dimensional (3D) brain MRI is central to clinical neurology and neuro-oncology, where generative models could augment under-represented cohorts, simulate disease trajectories, and support privacy-preserving data sharing. Latent diffusion has been the go-to solution for modeling imaging data, b...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.19651</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents</title>
       <link>https://huggingface.co/papers/2606.18829</link>
       <description>By Zhe Ren, Yibo Yang, Yimeng Chen, Zijun Zhao, Benshuo Fu, et al.
@@ -232,6 +214,15 @@ World Action Models (WAMs) are embodied predictive-action models that make a for
 
 This work presents a general framework for training large language models (LLMs) to "Connect the Dots" (CoD), a meta-capability required by long-lifecycle agents: as an LLM-based AI agent gets deployed in an environment, it solves a long sequence of tasks while continuously exploring the environment...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.20002</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grouped Query Experts: Mixture-of-Experts on GQA Self-Attention</title>
+      <link>https://huggingface.co/papers/2606.20945</link>
+      <description>By Vishesh Tripathi, Abhay Kumar
+
+Self-attention is central to Transformer performance and is often the most expensive part of the Transformer at long context lengths because its pairwise token interactions scale quadratically with sequence length. Standard dense attention also applies the same set of attention heads to every token ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.20945</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Meshes are among the most common 3D scene representations, but directly generati
 
 Long-horizon tasks are common in real-world robotic deployments, yet failure detection for such tasks remains underexplored. Detecting failures in long-horizon robotic tasks is particularly challenging because failure onset is often ambiguous and dense temporal annotations are typically unavailable....</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.23085</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arbor: Explicit Geometric Conditioning for Controllable 3D Asset Generation</title>
+      <link>https://huggingface.co/papers/2606.23514</link>
+      <description>By Jan-Niklas Dihlmann, Andreas Engelhardt, Simon Donne, Hendrik P. A. Lensch, Mark Boss
+
+Text and image conditioned 3D models now generate convincing assets, but they still offer little direct control over the space an object should occupy or avoid. In authoring, this spatial intent is often known before generation starts. A chair should fit a seating envelope, a prop should leave clear...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.23514</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

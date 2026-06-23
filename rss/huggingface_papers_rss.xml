@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 18:06:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 21:03:17 +0000</lastBuildDate>
     <item>
       <title>SkillHarness: Harnessing Safe Skills for Computer-Use Agents</title>
       <link>https://huggingface.co/papers/2606.20636</link>
@@ -19,15 +19,6 @@ Computer-Use Agents (CUAs) are increasingly deployed in dynamic interactive envi
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Exploring the Design Space of Reward Backpropagation for Flow Matching</title>
-      <link>https://huggingface.co/papers/2606.11075</link>
-      <description>By Ruoyu Wang, Boye Niu, Xiangxin Zhou, Yushi Huang, Tongliang Liu, et al.
-
-Aligning text-to-image flow matching models with human preferences via direct reward backpropagation is sample-efficient but hampered by two well-known pathologies: activations cannot be stored across the full sampling trajectory at modern model scale, and chained Jacobian products across steps infl...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11075</guid>
-      <pubDate>Tue, 09 Jun 2026 16:36:54 +0000</pubDate>
-    </item>
-    <item>
       <title>Notes2Skills: From Lab Notebooks to Certainty-Aware Scientific Agent Skills</title>
       <link>https://huggingface.co/papers/2606.11897</link>
       <description>By Shi Liu, Jiayao Chen, Chengwei Qin, Yanqing Hu, Jufan Zhang, et al.
@@ -35,15 +26,6 @@ Aligning text-to-image flow matching models with human preferences via direct re
 Scientific discovery workflows usually contain and rely heavily on lab notes, where researchers record observations, interpret uncertain results, and plan follow-up experiments. Such informative lab notes preserve evolving scientific reasoning and author uncertainty, rather than polished final resul...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.11897</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks</title>
-      <link>https://huggingface.co/papers/2606.12871</link>
-      <description>By Jingxuan Han, Wei Liu, Mingyang Zhu, Youpeng Wang, Ziwen Wang, et al.
-
-Search Agents (SAs) typically leverage large language models (LLMs) to support complex information-seeking tasks by autonomously exploring web sources and synthesizing information into comprehensive responses. For SAs evaluation, prior benchmarks mainly focus on specialized tasks that are unlikely t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.12871</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FastMix: Fast Data Mixture Optimization via Gradient Descent</title>
@@ -79,6 +61,15 @@ Self-distillation improves reasoning in large language models by using the model
 
 Modern agent systems often suffer from fragmented runtime state: transcripts, tool effects, memory events, workspace placement, branch provenance, and replay evidence are recorded separately and become difficult to inspect or reproduce. OpenRath addresses this issue with a PyTorch-like programming m...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.19409</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comparing Linear Probes with Mahalanobis Cosine Similarity</title>
+      <link>https://huggingface.co/papers/2606.19603</link>
+      <description>By Zhuofan Josh Ying, Peter Hase, Nikolaus Kriegeskorte
+
+Linear probes are widely used in interpretability research and often compared by cosine similarity. The Mahalanobis cosine similarity (MCS) between two directions, which reweights the inner product by test data covariance, is a natural task-aware refinement. Ying et al. (2026) report that a probe's ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.19603</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -152,15 +143,6 @@ As Self-Driving Cars continue to expand internationally and use multi-modal syst
 Filmmaking demands precise motion control and reference image compositing -- capabilities that existing methods treat separately. Point-track-conditioned image-to-video models restrict content insertion to the first frame, while reference-to-video models lack fine-grained spatial-temporal control ov...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.20891</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CalVerT: Augmenting Agents with Calibrated Verifier Telemetry Improves Action and Learning in Knowledge-Intensive Tasks</title>
-      <link>https://huggingface.co/papers/2606.21777</link>
-      <description>By Ashwin Vinod, Ying Ding, Elias Stengel-Eskin
-
-LLM agents in knowledge intensive question answering take retrieval and reasoning actions with incomplete knowledge about whether their current answer is uncertain, unsupported, or already complete. This produces two failure modes: committing to confident but unsupported answers, which hurts accurac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.21777</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory</title>
@@ -457,6 +439,24 @@ Video diffusion models have enabled remarkable progress in video generation and 
 
 Long-horizon LLM agents can fail quietly: they settle on one reading of the evidence early, then spend the rest of the run defending it. We call this premature commitment. Final-answer scoring misses the failure mode because it sees only the answer, not whether the process has already collapsed to a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.22936</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ShotcreteDepth: A Bi-modal Dataset for Robust Robotic Depth Perception in Shotcrete Construction Environments</title>
+      <link>https://huggingface.co/papers/2606.23152</link>
+      <description>By Jakub Gregorek, Lars Arnold Dethlefsen, Patrick Schmidt, Mads Essenbæk, Jonas Flink Bentzen, et al.
+
+We introduce ShotcreteDepth, a bi-modal dataset from the construction domain that captures both an active shotcreting process and general construction environments. The dataset comprises stereo RGB imagery and LiDAR point clouds acquired under harsh real-world conditions, including high turbidity an...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.23152</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild</title>
+      <link>https://huggingface.co/papers/2606.23688</link>
+      <description>By Yehonathan Litman, Xiaoxuan Ma, Manan Shah, Nicolas Ugrinovic, Kris Kitani, et al.
+
+Reconstructing dynamic non-rigid objects from monocular video requires integrating visual cues from direct observations with data-driven priors over geometry and appearance. Prior approaches either learn to directly predict 4D representations from visual input or initialize a 3D representation that ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.23688</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

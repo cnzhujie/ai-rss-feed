@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 15:56:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 18:06:27 +0000</lastBuildDate>
     <item>
       <title>SkillHarness: Harnessing Safe Skills for Computer-Use Agents</title>
       <link>https://huggingface.co/papers/2606.20636</link>
@@ -64,24 +64,6 @@ Optimizing pretraining data composition is pivotal for LLM generalization. While
       <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Characterizing Narrative Content in Web-scale LLM Pretraining Data</title>
-      <link>https://huggingface.co/papers/2606.19468</link>
-      <description>By Teagan Johnson, Elliott Ash, Andrew Piper, Maria Antoniak
-
-The narrative composition of web-scale LLM pretraining corpora remains largely unexplored even though narrative is a fundamental mode of human communication. We present the first fine-grained study of narrative features in Dolma, a 3-trillion-token open pretraining corpus. Drawing on narrative theor...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.19468</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark</title>
-      <link>https://huggingface.co/papers/2606.18648</link>
-      <description>By Yigeng Jiang, Tengchao Yang, Taoyong Cui, Jiaxing Wan, Yuan Wang, et al.
-
-Deep research agents are Large Language Model (LLM)-based systems designed for autonomous, multi-step scientific reasoning, and they hold immense potential for accelerating research in the physical sciences. However, comprehensive and in-depth evaluations of their capabilities within this domain rem...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.18648</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Learning from Your Own Mistakes: Constructing Learnable Micro-Reflective Trajectories for Self-Distillation</title>
       <link>https://huggingface.co/papers/2606.18844</link>
       <description>By Zhilin Huang, Hang Gao, Ziqiang Dong, Yuan Chen, Yifeng Luo, et al.
@@ -98,15 +80,6 @@ Self-distillation improves reasoning in large language models by using the model
 Modern agent systems often suffer from fragmented runtime state: transcripts, tool effects, memory events, workspace placement, branch provenance, and replay evidence are recorded separately and become difficult to inspect or reproduce. OpenRath addresses this issue with a PyTorch-like programming m...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.19409</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>When, Where, and How: Adaptive Binning for Tabular Self-Supervised Learning</title>
-      <link>https://huggingface.co/papers/2606.19827</link>
-      <description>By Daehwan Kim, Haejun Chung, Ikbeom Jang
-
-Medical tabular data are ubiquitous in clinical research, but deep learning for tables remains underexplored because reliable labels often require costly expert adjudication, even though structured clinical variables are routinely available in tabular form. Self-supervised learning can leverage thes...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.19827</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Manifold Bandits: Bayesian Curriculum Learning over the Latent Geometry of Large Language Models</title>
@@ -169,6 +142,15 @@ As urban areas expand, automatic monitoring of parking lots becomes essential fo
 
 As Self-Driving Cars continue to expand internationally and use multi-modal systems such as VLMs as a cognitive backbone for their Action models; how well will these systems generalize in new settings, in particular out-of-distribution (OOD) edge-case scenarios in new geographies? In this paper, we ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.20980</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Go-with-the-Track: Video Compositing and Motion Control with Point Tracking</title>
+      <link>https://huggingface.co/papers/2606.20891</link>
+      <description>By Koichi Namekata, Yash Kant, Zhizheng Liu, Ryan D Burgert, Yuancheng Xu, et al.
+
+Filmmaking demands precise motion control and reference image compositing -- capabilities that existing methods treat separately. Point-track-conditioned image-to-video models restrict content insertion to the first frame, while reference-to-video models lack fine-grained spatial-temporal control ov...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.20891</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -295,6 +277,15 @@ LLM agents increasingly operate in large tool ecosystems, where real-world tasks
 
 Vision-Language-Action (VLA) models provide a unified paradigm for robotic manipulation, yet their real-world deployment is often bottlenecked by execution efficiency. While existing efforts predominantly focus on compute-centric efficiency to reduce per-step inference latency, the intrinsic policy ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.22540</guid>
+      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Libretto: Giving LLM Agents a Sense of Musical Structure</title>
+      <link>https://huggingface.co/papers/2606.22708</link>
+      <description>By Yichen Xu
+
+Generative music systems can now produce impressive audio from text prompts, but audio outputs are difficult to inspect, edit, and diagnose as musical structure. We introduce Libretto, an agent-facing framework for symbolic music generation and revision. Libretto uses an LLM-native grammar with expl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.22708</guid>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Computer-use agents (CUAs) now act on a user's behalf across personal applicatio
 
 Video diffusion models have enabled remarkable progress in video generation and editing. However, content preservation remains a core challenge: existing methods regenerate every pixel and often alter elements that should remain unchanged, such as characters or background scenes. We introduce Vera, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.23610</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Agents Commit Too Soon: Diagnosing Premature Commitment in LLM Agents</title>
+      <link>https://huggingface.co/papers/2606.22936</link>
+      <description>By Aman Mehta
+
+Long-horizon LLM agents can fail quietly: they settle on one reading of the evidence early, then spend the rest of the run defending it. We call this premature commitment. Final-answer scoring misses the failure mode because it sees only the answer, not whether the process has already collapsed to a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.22936</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

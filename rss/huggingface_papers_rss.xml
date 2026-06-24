@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 08:27:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 11:50:17 +0000</lastBuildDate>
     <item>
       <title>SkillHarness: Harnessing Safe Skills for Computer-Use Agents</title>
       <link>https://huggingface.co/papers/2606.20636</link>
@@ -127,13 +127,22 @@ MLLM-based mobile GUI agents have made substantial progress on short-horizon tas
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DataClaw0: Agentic Tailoring Multimodal Data from Raw Streams</title>
-      <link>https://huggingface.co/papers/2606.21337</link>
-      <description>By Cong Wan, Zeyu Guo, Zijian Cai, Jiangyang Li, SongLin Dong, et al.
+      <title>EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies</title>
+      <link>https://huggingface.co/papers/2606.20092</link>
+      <description>By Ganlin Yang, Zhangzheng Tu, Yuqiang Yang, Sitong Mao, Junyi Dong, et al.
 
-Massive unstructured multimodal streams suffer from high "data entropy," impeding both efficient human knowledge acquisition and high-quality AI post-training. Existing passive annotation paradigms, heavily reliant on heuristic rules or general VLMs, are costly, monotonous, and fail to unlock the de...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.21337</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+Memory remains a critical bottleneck for long-horizon robotic manipulation, as standard Vision-Language-Action (VLA) policies often fail when task-relevant cues become occluded or unobservable over time. While existing memory-augmented methods utilize historical context, they either suffer from seve...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.20092</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QG-MIL: A Gated Transformer Aggregator for Domain-Agnostic Multiple Instance Learning in Medical Imaging</title>
+      <link>https://huggingface.co/papers/2606.20027</link>
+      <description>By Luca Zedda, Davide Antonio Mura, Cecilia Di Ruberto, Maurizio Atzori, Muhammed Furkan Dasdelen, et al.
+
+Attention-based Multiple Instance Learning aggregators in medical imaging are prone to attention concentration, producing overconfident and unstable predictions. We introduce QG-MIL, a gated transformer aggregator that addresses this through four synergistic architectural components: RMSNorm-based p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.20027</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Improving Text-to-Music Generation with Human Preference Rewards</title>
@@ -215,24 +224,6 @@ It is tempting to assume any task solvable by a short program can be taught to a
 Generative music systems can now produce impressive audio from text prompts, but audio outputs are difficult to inspect, edit, and diagnose as musical structure. We introduce Libretto, an agent-facing framework for symbolic music generation and revision. Libretto uses an LLM-native grammar with expl...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.22708</guid>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UniverSat: Resolution- and Modality-Agnostic Transformers for Earth Observation</title>
-      <link>https://huggingface.co/papers/2606.23503</link>
-      <description>By Yohann Perron, Guillaume Astruc, Nicolas Gonthier, Clement Mallet, Loic Landrieu
-
-Vision Transformers (ViT) dominate computer vision. However, their reliance on rigid patch projectors hinders transfer to Earth Observation (EO), where input modalities, scales, and resolutions vary widely. We introduce UniverSat, a ViT-style backbone built around a Universal Patch Encoder that maps...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.23503</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tmax: A simple recipe for terminal agents</title>
-      <link>https://huggingface.co/papers/2606.23321</link>
-      <description>By Hamish Ivison, Junjie Oscar Yin, Rulin Shao, Teng Xiao, Nathan Lambert, et al.
-
-Terminal-using agents have quickly become the most popular downstream application of language models (LMs). Despite their prevalence, relatively little academic work has examined RL-based training of these models, likely due to difficult benchmarks, a lack of data, and a lack of simple baseline reci...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.23321</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HAKARI-Bench: A Lightweight Benchmark for Comparing Retrieval Architectures and Efficiency Settings under Unified Conditions</title>
@@ -340,6 +331,15 @@ Training Latent Diffusion Models (LDMs) within Federated Learning (FL) has attra
 
 AI agents are driving a new software paradigm, with the ability to autonomously call tools, extract information, manage memory, and complete tasks that span applications and data sources. Most existing end-user operating systems, however, are designed for application-centric workflows and offer litt...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.23449</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ChartWalker: Benchmarking the Cross-Chart RAG Task</title>
+      <link>https://huggingface.co/papers/2606.23997</link>
+      <description>By Ning Tang, Chenghan Xie, Hanyang Yuan, Yi Li, Renhong Huang, et al.
+
+Cross-Chart Retrieval-Augmented Generation (RAG) is critical for complex multi-modal analytical tasks in scientific, business, and political domains. However, existing benchmarks either focus on tables, which are well-structured and textualized, or generate cross-chart questions by simply extracting...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.23997</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

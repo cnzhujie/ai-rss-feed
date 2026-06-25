@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 08:27:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 11:45:03 +0000</lastBuildDate>
     <item>
       <title>An Efficient Method for the Optimal Control of Microgrids Under Uncertainties using Local Reduction</title>
       <link>https://huggingface.co/papers/2606.12345</link>
@@ -46,15 +46,6 @@ While Large Language Models (LLMs) have substantially advanced text-to-code synt
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization</title>
-      <link>https://huggingface.co/papers/2606.19930</link>
-      <description>By Guangyi Liu, Pengxiang Zhao, Gao Wu, Yiwen Yin, Mading Li, et al.
-
-MLLM-based mobile GUI agents have made substantial progress in UI understanding and action execution, but adapting them to real target apps remains costly because mobile apps are numerous, frequently updated, and hard to cover with human-written tasks, demonstrations, or reward labels. Existing anno...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.19930</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management</title>
       <link>https://huggingface.co/papers/2606.19926</link>
       <description>By Guangyi Liu, Gao Wu, Congxiao Liu, Pengxiang Zhao, Liang Liu, et al.
@@ -88,6 +79,15 @@ Attention-based Multiple Instance Learning aggregators in medical imaging are pr
 
 As LLM agents increasingly select tools autonomously, their choices among tools with different privileges become safety-relevant. However, prior tool-selection studies focus on safety-agnostic metadata preferences, leaving privilege-sensitive choices underexplored. To address this gap, we study over...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.20023</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Distill Once, Adapt Life-Long: Exploring Dataset Distillation for Continual Test-Time Adaptation</title>
+      <link>https://huggingface.co/papers/2606.20196</link>
+      <description>By Hyun-Kurl Jang, Jihun Kim, Hyeokjun Kweon, Kuk-Jin Yoon
+
+Continual Test-Time Adaptation (CTTA) aims to maintain model performance under evolving target domains by adapting online without labeled data. However, practical deployments often cannot retain the source dataset due to privacy or licensing constraints, and purely source-free CTTA methods tend to b...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.20196</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -190,31 +190,13 @@ The Hitchhiker's Guide to Agentic AI is a comprehensive practitioner's reference
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DiffusionBench: On Holistic Evaluation of Diffusion Transformers</title>
-      <link>https://huggingface.co/papers/2606.24888</link>
-      <description>By Xingjian Leng, Jaskirat Singh, Zhanhao Liang, Ethan Smith, Martin Bell, et al.
+      <title>ReNIO: Reweighting Negative Trajectory Importance for LLM On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2606.23104</link>
+      <description>By Chen Lin, Kedi Chen, Wei Zhang
 
-Diffusion transformer (DiT) research on image generation has converged to a single evaluation setup: class-conditional generation on ImageNet. While methods improve the FID and related metrics, it is increasingly unclear whether they reflect real progress in generative modeling. The natural alternat...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.24888</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation</title>
-      <link>https://huggingface.co/papers/2606.24874</link>
-      <description>By Haorui Ji, Weizhe Liu, Hongdong Li, Hengkai Guo
-
-Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input images due to two structural bottlenecks. First, they adopt discriminative 2D features optimized for ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.24874</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenThoughts-Agent: Data Recipes for Agentic Models</title>
-      <link>https://huggingface.co/papers/2606.24855</link>
-      <description>By Negin Raoof, Richard Zhuang, Marianna Nezhurina, Etash Guha, Atula Tejaswi, et al.
-
-Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.24855</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+On-policy distillation (OPD) improves LLM reasoning by training a student model on its own generated outputs, but standard OPD treats all student-generated outputs (SGOs) equally regardless of their informativeness. We observe a consistent asymmetry in controlled filtering experiments: in both OPD a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.23104</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Qwen-AgentWorld: Language World Models for General Agents</title>
@@ -388,6 +370,15 @@ Memory for large language model (LLM) agents has rapidly evolved from simple ret
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>What Intermediate Layers Know: Detecting Jailbreaks from Entropy Dynamics</title>
+      <link>https://huggingface.co/papers/2606.25182</link>
+      <description>By Sofiia Nikolenko, Michele Papucci, Mina Rezaei, Shireen Kudukkil Manchingal
+
+Jailbreak attacks reveal a persistent weakness in aligned Large Language Models: carefully crafted prompts can elicit policy-violating responses despite safety training. While most defenses operate at the prompt or output level, it remains unclear how harmful intent is encoded within the model's int...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.25182</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Streaming Video Generation and Interactive World Models</title>
       <link>https://huggingface.co/papers/2606.25473</link>
       <description>By Kaiwen Zheng, Guande He, Min Zhao, Jintao Zhang, Huayu Chen, et al.
@@ -457,6 +448,15 @@ Real-world photography requires capture-time guidance for both camera framing an
 
 Synthesizing a novel-view video from a monocular reference video along a target camera trajectory requires both geometric consistency and motion fidelity with respect to the reference video. Existing methods based on explicit 3D representations are limited by the accuracy of off-the-shelf reconstruc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.26087</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Constraint Tax in Open-Weight LLMs: An Empirical Study of Tool Calling Suppression Under Structured Output Constraints</title>
+      <link>https://huggingface.co/papers/2606.25605</link>
+      <description>By Fangzheng Li, Aimin Zhang, Chen Lv
+
+Tool Calling and Structured Output are two core capabilities of modern Agent systems, yet their interaction under joint deployment conditions remains insufficiently understood. This paper reports a reproducible phenomenon observed in a production Agent system: when Tool Calling and JSON Schema const...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.25605</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

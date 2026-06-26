@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 05:15:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 09:41:19 +0000</lastBuildDate>
     <item>
       <title>GridVQA-X: A Framework for Evaluating Multimodal Explainability Methods</title>
       <link>https://huggingface.co/papers/2606.14740</link>
@@ -34,6 +34,24 @@ Trust in an AI system is often anchored by explanations of how it works, which o
 
 Retrieving external knowledge is essential for solving real-world tasks, yet it remains challenging when the relationship between a query and its relevant knowledge involves implicit and complex reasoning beyond surface-level semantic or lexical matching (e.g., mathematical problems relying on the s...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.16316</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Post-Training Shapes Biological Reasoning Models</title>
+      <link>https://huggingface.co/papers/2606.16517</link>
+      <description>By Lukas Fesser, Hanlin Zhang, Michelle M. Li, Eric Wang, Bryan Perozzi, et al.
+
+Scientific reasoning models for biology combine language models with foundation models trained on multimodal biological data, including DNA, RNA, and proteins. These models are built through post-training, yet how each stage shapes reasoning and generalization remains poorly understood. We study whe...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.16517</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CoffeeBench: Benchmarking Long-Horizon LLM Agents in Heterogeneous Multi-Agent Economies</title>
+      <link>https://huggingface.co/papers/2606.16613</link>
+      <description>By Issa Sugiura, Daichi Hattori, Kazuo Araragi, Keita Ogawa, Shota Onose, et al.
+
+As LLM agents become capable of increasingly long-horizon tasks, evaluating their performance in economic systems is becoming increasingly important. Unlike existing benchmarks that primarily evaluate a single agent interacting with a passive environment, economic systems are inherently multi-agent,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.16613</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -91,6 +109,15 @@ As expressive text-to-speech (TTS) and voice conversion (VC) systems increasingl
       <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Discretizing Reward Models</title>
+      <link>https://huggingface.co/papers/2606.21795</link>
+      <description>By Vijay Viswanathan, Shiqi Wang, Devamanyu Hazarika, Chirag Nagpal, Tongshuang Wu, et al.
+
+Despite their widespread use, the role of reward models in shaping reinforcement learning is poorly understood. Reward models offer a tempting promise: they automatically estimate response quality in the absence of verifiers or human judges. Unlike "verifiable rewards" which typically produce binary...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.21795</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies</title>
       <link>https://huggingface.co/papers/2606.18239</link>
       <description>By Ning Gao, Jinliang Zheng, Xing Gao, Haoxiang Ma, Hanqing Wang, et al.
@@ -116,24 +143,6 @@ A working citation looks like proof -- but the fact that a link resolves does no
 Chain-of-Thought (CoT) has become a standard method for improving reasoning capabilities in large language models (LLMs) by eliciting step-by-step thinking, but its effectiveness in multimodal tasks remains unclear. In this paper, we aim to systematically investigate the key question: What can multi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.22565</guid>
       <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Critique of Agent Model</title>
-      <link>https://huggingface.co/papers/2606.23991</link>
-      <description>By Eric Xing, Mingkai Deng, Jinyu Hou
-
-What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic" tools that promise to drive up productivity, and at the same time, ``existential" concerns such as AI escaping human control with d...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.23991</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct</title>
-      <link>https://huggingface.co/papers/2606.23543</link>
-      <description>By Haoling Li, Kai Zheng, Jie Wu, Can Xu, Qingfeng Sun, et al.
-
-Scaling reinforcement learning for visual mathematical reasoning requires more than generating harder questions: as data volume grows, the reward labels themselves must remain reliable. Yet existing data pipelines scale supervision while trusting the labeller, and policy-side methods assume the unde...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.23543</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Hitchhiker's Guide to Agentic AI: From Foundations to Systems</title>
@@ -170,24 +179,6 @@ Long-horizon agents depend on context management: systems compress, summarize, a
 Computer-use agents can execute software tasks through either graphical interfaces or programmatic command interfaces, but existing evaluations confound interaction modality with differences in tasks, initial states, verifiers, and permitted actions. We introduce a matched execution-layer benchmark ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.24551</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery</title>
-      <link>https://huggingface.co/papers/2606.24595</link>
-      <description>By Enze Ma, Yufan Zhou, Wei-Chieh Huang, Jie Yang, Huanhuan Ma, et al.
-
-Long-term memory promises LLM agents that grow more capable across sessions, maintaining an accurate, evolving understanding of the user that interaction forms. In practice, however, this memory is evaluated mostly through downstream behavior, such as later answers, personalization quality, or task ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.24595</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wan-Streamer v0.1: End-to-end Real-time Interactive Foundation Models</title>
-      <link>https://huggingface.co/papers/2606.25041</link>
-      <description>By Lianghua Huang, Zhifan Wu, Wei Wang, Yupeng Shi, Mengyang Feng, et al.
-
-We present Wan-Streamer, a native-streaming, end-to-end interactive foundation model designed from the ground up for real-time, low-latency, full-duplex audio-visual interaction. Wan-Streamer seamlessly models language, audio, and video as both input and output within a single Transformer, where the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.25041</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Advancing WordArt-Oriented Scene Text Recognition: Datasets and Methods</title>
@@ -457,6 +448,15 @@ Modern Vision-Language-Action (VLA) models often fail to generalize to novel set
 
 Modern generative world models render increasingly realistic action-controllable futures, yet they frequently hallucinate: rollouts remain visually fluent while drifting from the ground-truth dynamics. We hypothesize that hallucination concentrates in low-coverage regions of the state-action space, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.27326</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JetSpec: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting</title>
+      <link>https://huggingface.co/papers/2606.18394</link>
+      <description>By Lanxiang Hu, Zhaoxiang Feng, Yulun Wu, Haoran Yuan, Yujie Zhao, et al.
+
+Speculative decoding (SD) accelerates autoregressive Large Language Models (LLMs) by drafting multiple tokens and verifying them in parallel, but it faces a scaling limitation: increasing the draft budget improves speed only when acceptance remains high and drafting overhead stays low. This ceiling ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.18394</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

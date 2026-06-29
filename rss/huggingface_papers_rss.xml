@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 16:00:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 18:19:18 +0000</lastBuildDate>
     <item>
       <title>Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs</title>
       <link>https://huggingface.co/papers/2606.27378</link>
@@ -19,6 +19,15 @@ We introduce an axiomatic evaluation framework for latent thought representation
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents</title>
+      <link>https://huggingface.co/papers/2606.24893</link>
+      <description>By Zheyuan Zhang, Zehao Wen, Alvin Zhang, Andrew Wang, Jianwen Xie, et al.
+
+For agents to learn continuously from interaction with the world at test time, they must be able to explore effectively, acquire new world knowledge and skills, retain relevant episodic experiences, and plan over long horizons. To evaluate these key abilities of test-time continual learning agents, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.24893</guid>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>GridVQA-X: A Framework for Evaluating Multimodal Explainability Methods</title>
       <link>https://huggingface.co/papers/2606.14740</link>
       <description>By Sujay Belsare, Sudarshan Nikhil, Sushant Kumar, Ponnurangam Kumaraguru, Chirag Agarwal
@@ -26,15 +35,6 @@ We introduce an axiomatic evaluation framework for latent thought representation
 With the increasing development of Vision-Language Models, it becomes imperative that their predictions are readily explainable to relevant stakeholders. However, the field of explainability has not kept pace with the multimodal surge. While recent Multimodal Explainable AI (MxAI) methods generate e...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.14740</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Forecasting Future Behavior as a Learning Task</title>
-      <link>https://huggingface.co/papers/2606.11445</link>
-      <description>By Mosh Levy, Yoav Goldberg, Asa Cooper Stickland
-
-Trust in an AI system is often anchored by explanations of how it works, which one then uses to forecast its behavior on new inputs. For large reasoning models (LRMs), this conventional route is particularly difficult to follow: explanation methods for single token generations do not naturally gener...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.11445</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Post-Training Shapes Biological Reasoning Models</title>
@@ -64,15 +64,6 @@ Vision-Language-Action (VLA) models can generalize across diverse manipulation t
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Speaker Identity in Non-Verbal Vocalizations: Conditional Distillation and Mixture of Experts Approach</title>
-      <link>https://huggingface.co/papers/2606.21215</link>
-      <description>By Tzu-Chieh Wei, Yi-Cheng Lin, Huang-Cheng Chou, Kuan-Yu Chen, Hsin-Yen Sung, et al.
-
-As expressive text-to-speech (TTS) and voice conversion (VC) systems increasingly generate non-verbal vocalizations (NVVs) to enhance naturalness, reliable speaker verification (SV) becomes essential to objectively assess identity consistency across both verbal and non-verbal segments. Yet current S...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.21215</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Discretizing Reward Models</title>
       <link>https://huggingface.co/papers/2606.21795</link>
       <description>By Vijay Viswanathan, Shiqi Wang, Devamanyu Hazarika, Chirag Nagpal, Tongshuang Wu, et al.
@@ -89,15 +80,6 @@ Despite their widespread use, the role of reward models in shaping reinforcement
 A working citation looks like proof -- but the fact that a link resolves does not mean the cited paper supports the claim. I find that current agentic models rarely fabricate citations (over 99% resolve), yet roughly 15.9% link to the wrong paper. Existing benchmarks miss this failure mode: when a q...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.21959</guid>
       <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Plans Don't Persist: Why Context Management Is Load Bearing for LLM Agents</title>
-      <link>https://huggingface.co/papers/2606.22953</link>
-      <description>By Aman Mehta, Anupam Datta
-
-Long-horizon agents depend on context management: systems compress, summarize, and evict old tokens so tasks can continue beyond finite windows. That is safe only when dropped information is no longer needed or has been internalized. Plans are the stress case: they are written early, used for many s...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.22953</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents</title>
@@ -127,15 +109,6 @@ Vision-language models (VLMs) are increasingly deployed in consumer, medical, fi
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Do Thinking Tokens Help with Safety?</title>
-      <link>https://huggingface.co/papers/2606.25013</link>
-      <description>By Narutatsu Ri, Abhishek Panigrahi, Sanjeev Arora
-
-Today's reasoning models use thinking tokens to attain stronger performance on benchmarks than their instruction-tuned counterparts. It is also generally believed that this more "deliberative" mode should improve alignment and safety, by providing the model a safe space to consider whether its plann...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.25013</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Thinking While Speaking: Inference-Time Knowledge Transfer for Responsive and Intelligent Conversational Voice Agents</title>
       <link>https://huggingface.co/papers/2511.07397</link>
       <description>By Vidya Srinivas, Zachary Englhardt, Shwetak Patel, Vikram Iyer, Maximus Powers
@@ -143,15 +116,6 @@ Today's reasoning models use thinking tokens to attain stronger performance on b
 Voice agents face a fundamental tension: the reasoning, retrieval, and tool use that make foundation models capable are iterative and slow, while conversational interaction demands responses on a millisecond timescale. Smaller, real-time models meet the latency bar but cannot match foundation models...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2511.07397</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Physics Question Scene Graph: Fine-grained Evaluation of Physical Plausibility in Text-to-Video Generation</title>
-      <link>https://huggingface.co/papers/2606.25306</link>
-      <description>By Atin Pothiraj, Jaemin Cho, Yue Zhang, Elias Stengel-Eskin, Mohit Bansal
-
-Video generation models are increasingly capable of producing realistic videos, but they still struggle to generate videos that follow basic physical laws. Compounding this is a lack of reliable granular evaluation methods for localizing and specifying physical law violations in videos. We address t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.25306</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami</title>
@@ -205,6 +169,15 @@ Process reward models enable fine-grained, step-level evaluation of LLMs, yet bu
 
 Text detoxification, the automated detection and mitigation of abusive and harmful content, is essential for ensuring the safety of online communities and protecting users. However, low resource languages such as Tatar have received little research attention. In this paper we present Tatoxa, a novel...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.26015</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Galaxy's Guide to the Tokenizer: A Benchmark for Scientific Foundation Models</title>
+      <link>https://huggingface.co/papers/2606.25610</link>
+      <description>By Sogol Sanjaripour, Michael J. Smith, Manuel Pérez-Carrasco, Juan Rafael Martínez-Galarza, Bahram Mobasher, et al.
+
+Tokenization is central to adapting scientific data for transformer-based foundation models, yet its impact on learned representations remains poorly understood. We compare four tokenization strategies, Affine, AIM, JetFormer, and VQ-VAE, within a unified transformer framework for astronomical imagi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.25610</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -376,6 +349,33 @@ I describe my solution to the LeHome Challenge 2026, an ICRA 2026 competition on
 
 Efficient deployment of large language models (LLMs) in production forces a trade-off between accuracy and cost. Operators often default to a single model that is either expensive for easy queries or insufficient for hard ones. To address this challenge, we propose a two-stage cascaded solution. Sta...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.27457</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MemoBench: Benchmarking World Modeling in Dynamically Changing Environments</title>
+      <link>https://huggingface.co/papers/2606.27537</link>
+      <description>By Haoyu Chen, Kaichen Zhou, Hang Hua, Kaile Zhang, Jingwen Qian, et al.
+
+Video generation models aspire to simulate dynamic environments, and several benchmarks now evaluate memory consistency across frames. However, most assess consistency only while the target remains in view, and the few that force objects out of view evaluate static scenes where nothing changes durin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.27537</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Much Static Structure Do Code Agents Need? A Study of Deterministic Anchoring</title>
+      <link>https://huggingface.co/papers/2606.26979</link>
+      <description>By Zhihao Lin, Mingyi Zhou, Yizhuo Yang, Li Li
+
+LLM-based code agents navigate repositories through keyword search but miss the structural relationships, such as call graphs, inheritance hierarchies, and configuration dependencies, that define how software actually works. This makes agent navigation stochastic and difficult to reproduce across ru...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.26979</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>To Run or Not to Run: Analyzing the Cost-Effectiveness of Code Execution in LLM-Based Program Repair</title>
+      <link>https://huggingface.co/papers/2606.26978</link>
+      <description>By Zhihao Lin, Junhua Zhu, Mingyi Zhou, Xin Wang, Zhensu Sun, et al.
+
+LLM-based agents for program repair are increasingly built on a "generate-run-revise" paradigm, iteratively executing tests to evaluate and refine patches. This execution-based approach has become standard practice in state-of-the-art systems. However, executions can be time-consuming and expensive,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.26978</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

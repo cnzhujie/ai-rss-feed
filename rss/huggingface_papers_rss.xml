@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 11:19:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 16:00:17 +0000</lastBuildDate>
     <item>
       <title>Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs</title>
       <link>https://huggingface.co/papers/2606.27378</link>
@@ -62,15 +62,6 @@ As LLM agents become capable of increasingly long-horizon tasks, evaluating thei
 Vision-Language-Action (VLA) models can generalize across diverse manipulation tasks, but their imitation-learning-based policies remain brittle in precise physical interactions due to compounding execution errors; Can a reinforcement learning policy trained purely in simulation improve the robustne...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.18953</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PrivacyAlign: Contextual Privacy Alignment for LLM Agents</title>
-      <link>https://huggingface.co/papers/2606.21710</link>
-      <description>By Manveer Singh Tamber, Abhay Puri, Marc-Etienne Brunet, Perouz Taslakian, Jimmy Lin, et al.
-
-AI agents acting on behalf of users are constantly making decisions, and for users to trust their agents, those decisions must align with what they actually want. Privacy is an important alignment problem for agents: every message, post, or tool call an agent makes is a contextual judgment about wha...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.21710</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Speaker Identity in Non-Verbal Vocalizations: Conditional Distillation and Mixture of Experts Approach</title>
@@ -134,24 +125,6 @@ ABACUS is a unified vision-language model that handles object counting, crowd co
 Vision-language models (VLMs) are increasingly deployed in consumer, medical, financial, and enterprise applications. This broad deployment expands the safety surface: risks can arise from multimodal question answering, assistant responses, and cross-modal composition, while moderation policies may ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.22873</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Intermediate Layers Know: Detecting Jailbreaks from Entropy Dynamics</title>
-      <link>https://huggingface.co/papers/2606.25182</link>
-      <description>By Sofiia Nikolenko, Michele Papucci, Mina Rezaei, Shireen Kudukkil Manchingal
-
-Jailbreak attacks reveal a persistent weakness in aligned Large Language Models: carefully crafted prompts can elicit policy-violating responses despite safety training. While most defenses operate at the prompt or output level, it remains unclear how harmful intent is encoded within the model's int...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.25182</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lite Any Stereo V2: Faster and Stronger Efficient Zero-Shot Stereo Matching</title>
-      <link>https://huggingface.co/papers/2606.24457</link>
-      <description>By Junpeng Jing, Ronglai Zuo, Zhelun Shen, Shangchen Zhou, Rolandos Alexandros Potamias, et al.
-
-Recent advances in stereo matching have achieved remarkable accuracy, but often rely on large models, heavy computation, or additional foundation-model priors, making them difficult to deploy on resource-constrained platforms. In contrast, efficient stereo models offer faster inference but are commo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.24457</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Do Thinking Tokens Help with Safety?</title>
@@ -397,6 +370,15 @@ I describe my solution to the LeHome Challenge 2026, an ICRA 2026 competition on
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Cluster, Route, Escalate: Cascaded Framework for Cost-Aware LLM Serving</title>
+      <link>https://huggingface.co/papers/2606.27457</link>
+      <description>By Yasmin Moslem, Magdalena Kacmajor, Vasudevan Nedumpozhimana, Ammar Abbas, Solmaz Panahi, et al.
+
+Efficient deployment of large language models (LLMs) in production forces a trade-off between accuracy and cost. Operators often default to a single model that is either expensive for easy queries or insufficient for hard ones. To address this challenge, we propose a two-stage cascaded solution. Sta...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.27457</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation</title>
       <link>https://huggingface.co/papers/2606.28128</link>
       <description>By Peiwen Zhang, Yufan Deng, Shangkun Sun, Juncheng Ma, Duomin Wang, et al.
@@ -457,6 +439,24 @@ We study whether we can learn novel manipulation skills from human actions to a 
 
 Multi-agent systems (MAS) built on large language models (LLMs) provide a promising framework for solving complex tasks through role specialization and structured interaction. However, their performance is often limited by miscoordination and, more fundamentally, the lack of fine-grained credit assi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.28187</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MultiHashFormer: Hash-based Generative Language Models</title>
+      <link>https://huggingface.co/papers/2606.28057</link>
+      <description>By Huiyin Xue, Atsuki Yamaguchi, Nikolaos Aletras
+
+Language models (LMs) represent tokens using embedding matrices that scale linearly with the vocabulary size. To constrain the parameter footprint, prior work proposes hashing many tokens into a single vector within encoder-only models. While this offers parameter efficiency, many-to-one collisions ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.28057</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Parallel Rollout Approximation for Pixel-Space Autoregressive Image Generation</title>
+      <link>https://huggingface.co/papers/2606.27978</link>
+      <description>By Jiayi Xu, Di He, Guolin Ke
+
+Pixel-space continuous-token autoregressive (AR) generation directly models images as sequences of raw pixel patches, avoiding discrete tokenization or a separately pretrained tokenizer. However, it faces coupled challenges: high-dimensional patch generation causes large single-step errors, and teac...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.27978</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

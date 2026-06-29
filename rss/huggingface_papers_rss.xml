@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 18:19:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 20:52:21 +0000</lastBuildDate>
     <item>
       <title>Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs</title>
       <link>https://huggingface.co/papers/2606.27378</link>
@@ -26,15 +26,6 @@ We introduce an axiomatic evaluation framework for latent thought representation
 For agents to learn continuously from interaction with the world at test time, they must be able to explore effectively, acquire new world knowledge and skills, retain relevant episodic experiences, and plan over long horizons. To evaluate these key abilities of test-time continual learning agents, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.24893</guid>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GridVQA-X: A Framework for Evaluating Multimodal Explainability Methods</title>
-      <link>https://huggingface.co/papers/2606.14740</link>
-      <description>By Sujay Belsare, Sudarshan Nikhil, Sushant Kumar, Ponnurangam Kumaraguru, Chirag Agarwal
-
-With the increasing development of Vision-Language Models, it becomes imperative that their predictions are readily explainable to relevant stakeholders. However, the field of explainability has not kept pace with the multimodal surge. While recent Multimodal Explainable AI (MxAI) methods generate e...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.14740</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Post-Training Shapes Biological Reasoning Models</title>
@@ -62,6 +53,33 @@ As LLM agents become capable of increasingly long-horizon tasks, evaluating thei
 Vision-Language-Action (VLA) models can generalize across diverse manipulation tasks, but their imitation-learning-based policies remain brittle in precise physical interactions due to compounding execution errors; Can a reinforcement learning policy trained purely in simulation improve the robustne...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.18953</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models</title>
+      <link>https://huggingface.co/papers/2606.17846</link>
+      <description>By Haoqi Yuan, Zhixuan Liang, Anzhe Chen, Ye Wang, Haoyang Li, et al.
+
+Foundation models in language and multimodality achieve strong generalization by aligning heterogeneous data under a unified formulation and training at scale. In this report, we investigate whether this scaling recipe can be applied to robotic manipulation to achieve genuine generalization. This is...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.17846</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System</title>
+      <link>https://huggingface.co/papers/2606.18112</link>
+      <description>By Jiazhao Zhang, Gengze Zhou, Hale Yin, Yiyang Huang, Zixing Lei, et al.
+
+Agentic navigation systems require a base navigation model whose observation strategy can be externally reconfigured at inference time, because instruction following, object search, target tracking, and autonomous driving share the same perception-planning backbone yet demand fundamentally different...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.18112</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CogniRoute: Learning to Route Social Evidence in Omni-Modal Models</title>
+      <link>https://huggingface.co/papers/2606.20970</link>
+      <description>By Yifan Shen, Pei Tian, Xinzhuo Li, Bowen Fang, Shujun Xia, et al.
+
+Omni-modal models can ingest video, audio, and text, but unified access to multiple modalities does not guarantee that a model uses the right evidence. This gap is especially pronounced in social video question answering, where the answer may hinge on a gesture, vocal tone, temporal cue, or mismatch...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.20970</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Discretizing Reward Models</title>
@@ -179,33 +197,6 @@ Text detoxification, the automated detection and mitigation of abusive and harmf
 Tokenization is central to adapting scientific data for transformer-based foundation models, yet its impact on learned representations remains poorly understood. We compare four tokenization strategies, Affine, AIM, JetFormer, and VQ-VAE, within a unified transformer framework for astronomical imagi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.25610</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PhysiFormer: Learning to Simulate Mechanics in World Space</title>
-      <link>https://huggingface.co/papers/2606.27364</link>
-      <description>By Yiming Chen, Yushi Lan, Andrea Vedaldi
-
-We present PhysiFormer, a diffusion transformer for physically-plausible 3D object motion. Unlike video world models that operate in view-dependent pixel space, PhysiFormer represents objects as 3D meshes expressed in world coordinates. Given the initial vertex positions and velocities, as well as o...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.27364</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DanceOPD: On-Policy Generative Field Distillation</title>
-      <link>https://huggingface.co/papers/2606.27377</link>
-      <description>By Wei Zhou, Xiongwei Zhu, Zelin Xu, Bo Dong, Lixue Gong, et al.
-
-Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing. However, these capabilities are rarely naturally aligned and often conflict. For instance, editing tends to degrade T2I performance, while global and lo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.27377</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation</title>
-      <link>https://huggingface.co/papers/2606.26907</link>
-      <description>By Zekai Zhang, Jiahao Li, Jie Zhang, Kaiyuan Gao, Kun Yan, et al.
-
-While text-to-image (T2I) models have achieved remarkable progress, they struggle with real-world requests that are often underspecified, implicit, or dependent on up-to-date knowledge. We identify this challenge as the Context Gap: the mismatch between the user context and the sufficient generation...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.26907</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning</title>
@@ -457,6 +448,15 @@ Language models (LMs) represent tokens using embedding matrices that scale linea
 
 Pixel-space continuous-token autoregressive (AR) generation directly models images as sequences of raw pixel patches, avoiding discrete tokenization or a separately pretrained tokenizer. However, it faces coupled challenges: high-dimensional patch generation causes large single-step errors, and teac...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.27978</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simplified Sparse Attention via Gist Tokens</title>
+      <link>https://huggingface.co/papers/2604.20920</link>
+      <description>By Yuzhen Mao, Michael Y. Li, Emily B. Fox
+
+Sparse attention can reduce the cost of long-context inference, but most variants introduce new architectural components. We introduce Simplified Sparse Attention (SSA), a simpler approach to sparse attention that requires no architectural changes. Concretely, we first perform continued pretraining ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2604.20920</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 12:16:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 15:36:42 +0000</lastBuildDate>
     <item>
       <title>AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents</title>
       <link>https://huggingface.co/papers/2606.24893</link>
@@ -100,15 +100,6 @@ Physical interactions follow a long-tailed distribution: a set of common and reg
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Tatoxa System for Text Detoxification in Low-Resource Languages: The Case of Tatar</title>
-      <link>https://huggingface.co/papers/2606.26015</link>
-      <description>By Ilseyar Alimova, Bogdan Monogov, Artyom Mazur, Daniil Antonov, Vsevolod Karimov, et al.
-
-Text detoxification, the automated detection and mitigation of abusive and harmful content, is essential for ensuring the safety of online communities and protecting users. However, low resource languages such as Tatar have received little research attention. In this paper we present Tatoxa, a novel...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.26015</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Galaxy's Guide to the Tokenizer: A Benchmark for Scientific Foundation Models</title>
       <link>https://huggingface.co/papers/2606.25610</link>
       <description>By Sogol Sanjaripour, Michael J. Smith, Manuel Pérez-Carrasco, Juan Rafael Martínez-Galarza, Bahram Mobasher, et al.
@@ -136,31 +127,13 @@ Mathematical knowledge is organized around statements and their dependencies, bu
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cluster, Route, Escalate: Cascaded Framework for Cost-Aware LLM Serving</title>
-      <link>https://huggingface.co/papers/2606.27457</link>
-      <description>By Yasmin Moslem, Magdalena Kacmajor, Vasudevan Nedumpozhimana, Ammar Abbas, Solmaz Panahi, et al.
+      <title>One Model, Many Latencies: Universal Speech Enhancement for Diverse Real-Time Applications</title>
+      <link>https://huggingface.co/papers/2606.25621</link>
+      <description>By Szu-Wei Fu, Rong Chao, Xuesong Yang, Sung-Feng Huang, Ante Jukić, et al.
 
-Efficient deployment of large language models (LLMs) in production forces a trade-off between accuracy and cost. Operators often default to a single model that is either expensive for easy queries or insufficient for hard ones. To address this challenge, we propose a two-stage cascaded solution. Sta...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.27457</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MemoBench: Benchmarking World Modeling in Dynamically Changing Environments</title>
-      <link>https://huggingface.co/papers/2606.27537</link>
-      <description>By Haoyu Chen, Kaichen Zhou, Hang Hua, Kaile Zhang, Jingwen Qian, et al.
-
-Video generation models aspire to simulate dynamic environments, and several benchmarks now evaluate memory consistency across frames. However, most assess consistency only while the target remains in view, and the few that force objects out of view evaluate static scenes where nothing changes durin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.27537</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Much Static Structure Do Code Agents Need? A Study of Deterministic Anchoring</title>
-      <link>https://huggingface.co/papers/2606.26979</link>
-      <description>By Zhihao Lin, Mingyi Zhou, Yizhuo Yang, Li Li
-
-LLM-based code agents navigate repositories through keyword search but miss the structural relationships, such as call graphs, inheritance hierarchies, and configuration dependencies, that define how software actually works. This makes agent navigation stochastic and difficult to reproduce across ru...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.26979</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+Different real-time speech applications impose distinct latency budgets, often requiring separately trained enhancement models for each scenario. In this paper, we propose a one-for-all, real-time universal speech enhancement model that provides explicit control over both algorithmic and computation...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.25621</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>To Run or Not to Run: Analyzing the Cost-Effectiveness of Code Execution in LLM-Based Program Repair</title>
@@ -208,22 +181,13 @@ Time-series forecasting research has been moving steadily toward larger architec
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MultiHashFormer: Hash-based Generative Language Models</title>
-      <link>https://huggingface.co/papers/2606.28057</link>
-      <description>By Huiyin Xue, Atsuki Yamaguchi, Nikolaos Aletras
+      <title>SAM2Matting: Generalized Image and Video Matting</title>
+      <link>https://huggingface.co/papers/2606.27339</link>
+      <description>By Ruiqi Shen, Guangquan Jie, Chang Liu, Henghui Ding
 
-Language models (LMs) represent tokens using embedding matrices that scale linearly with the vocabulary size. To constrain the parameter footprint, prior work proposes hashing many tokens into a single vector within encoder-only models. While this offers parameter efficiency, many-to-one collisions ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.28057</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Parallel Rollout Approximation for Pixel-Space Autoregressive Image Generation</title>
-      <link>https://huggingface.co/papers/2606.27978</link>
-      <description>By Jiayi Xu, Di He, Guolin Ke
-
-Pixel-space continuous-token autoregressive (AR) generation directly models images as sequences of raw pixel patches, avoiding discrete tokenization or a separately pretrained tokenizer. However, it faces coupled challenges: high-dimensional patch generation causes large single-step errors, and teac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.27978</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+Despite impressive advances in image matting, video matting remains challenging due to the inherent gap between high-level tracking, which requires frame-wise understanding, and low-level matting, which focuses on extremely fine-grained details. Existing methods attempt this with expensive and narro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.27339</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Simplified Sparse Attention via Gist Tokens</title>
@@ -280,6 +244,24 @@ Adapting a foundation vision-language encoder to a specialized retrieval task cr
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A Gravitational Interpretation of Fine-Tuning Reversion</title>
+      <link>https://huggingface.co/papers/2606.28525</link>
+      <description>By Samuele Poppi, Nils Lukas
+
+Fine-tuning on harmless data can partially undo behaviors acquired earlier in training. Safety can erode under benign post-alignment updates, unlearned capabilities can re-emerge, latent traits can transfer through apparently unrelated supervision, and related post-alignment fragility appears in oth...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.28525</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RocketSmith: Agentic Additive Manufacturing of High-Powered Rockets</title>
+      <link>https://huggingface.co/papers/2606.00097</link>
+      <description>By Peter Pak, Jesse Barkley, Rumi Loghmani, Derek Baich, Ananya Pamal, et al.
+
+RocketSmith is an agentic system which intelligently automates the DFAM process for the development of high powered rockets suitable for launch. The system utilizes a large language model to orchestrate the execution of software tools to validate design characteristics such as flight stability and g...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.00097</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Agentic Abstention: Do Agents Know When to Stop Instead of Act?</title>
       <link>https://huggingface.co/papers/2606.28733</link>
       <description>By Han Luo, Bingbing Wen, Lucy Lu Wang
@@ -331,6 +313,15 @@ Current models of representational reliability in neural populations focus on te
 
 We study action-conditioned world modeling as a scalable way to learn transferable dynamics priors for robot learning. By pretraining a model to predict how actions drive visual scene evolution, the resulting world model captures reusable interaction dynamics beyond appearance-level video generation...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.29501</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Scene, Two Depths: Probing Geometric Ambiguity in Monocular Foundation Models</title>
+      <link>https://huggingface.co/papers/2606.29600</link>
+      <description>By Xiaohao Xu, Feng Xue, Xiang Li, Haowei Li, Shusheng Yang, et al.
+
+A faithful 3D world representation should account for layered geometry, where a single camera ray may contain multiple visible and geometrically valid surfaces. Monocular depth estimation, however, reduces this structure to one scalar depth per pixel. Transparent scenes make this ambiguity measurabl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.29600</guid>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Foundation models for predictive machine learning on tabular data have recently 
 
 The advancement of generative AI models capable of producing text and image marks a critical step forward in the realm of multimodal intelligence, particularly for tasks involving the interleaving of both modalities. To advance this intelligence to the next stage, it is crucial for models to autonom...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.30054</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining</title>
+      <link>https://huggingface.co/papers/2606.30634</link>
+      <description>By Philip Zmushko, Egor Petrov, Nursultan Abdullaev, Mikhail Khrushchev, Samuel Horváth
+
+Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchronous Pipeline Parallelism eliminates these bubbles, maximizing throughput at the cost of gradient st...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.30634</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

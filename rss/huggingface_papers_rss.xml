@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 15:36:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 18:04:48 +0000</lastBuildDate>
     <item>
       <title>AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents</title>
       <link>https://huggingface.co/papers/2606.24893</link>
@@ -82,6 +82,15 @@ Pre-trained Vision Foundation Models (VFMs) have become central to modern comput
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Mind the Heads: Topological Representation Alignment for Multimodal LLMs</title>
+      <link>https://huggingface.co/papers/2606.23885</link>
+      <description>By Davide Caffagni, Alberto Compagnoni, Federico Melis, Sara Sarto, Pier Luigi Dovesi, et al.
+
+Representation alignment has emerged as an effective approach to improve Multimodal Large Language Models (MLLMs) by regularizing their internal representations toward those of an external vision encoder. However, existing methods typically align a fixed layer of the language backbone, overlooking t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.23885</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>AsyncOPD: How Stale Can On-Policy Distillation Be?</title>
       <link>https://huggingface.co/papers/2606.24143</link>
       <description>By Wonjun Kang, Kevin Galim, Seunghyuk Oh, Minjun Kang, Sanghyun Park, et al.
@@ -98,15 +107,6 @@ On-policy distillation (OPD) trains a student on its own rollouts guided by teac
 Physical interactions follow a long-tailed distribution: a set of common and regular interactions dominates human experience and visual data, while a broad spectrum of rare and irregular interactions remains underrepresented. Although recent visual world models, including image and video generation ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.24256</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Galaxy's Guide to the Tokenizer: A Benchmark for Scientific Foundation Models</title>
-      <link>https://huggingface.co/papers/2606.25610</link>
-      <description>By Sogol Sanjaripour, Michael J. Smith, Manuel Pérez-Carrasco, Juan Rafael Martínez-Galarza, Bahram Mobasher, et al.
-
-Tokenization is central to adapting scientific data for transformer-based foundation models, yet its impact on learned representations remains poorly understood. We compare four tokenization strategies, Affine, AIM, JetFormer, and VQ-VAE, within a unified transformer framework for astronomical imagi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.25610</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MIMFlow: Integrating Masked Image Modeling with Normalizing Flows for End-to-End Image Generation</title>
@@ -134,15 +134,6 @@ Mathematical knowledge is organized around statements and their dependencies, bu
 Different real-time speech applications impose distinct latency budgets, often requiring separately trained enhancement models for each scenario. In this paper, we propose a one-for-all, real-time universal speech enhancement model that provides explicit control over both algorithmic and computation...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.25621</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>To Run or Not to Run: Analyzing the Cost-Effectiveness of Code Execution in LLM-Based Program Repair</title>
-      <link>https://huggingface.co/papers/2606.26978</link>
-      <description>By Zhihao Lin, Junhua Zhu, Mingyi Zhou, Xin Wang, Zhensu Sun, et al.
-
-LLM-based agents for program repair are increasingly built on a "generate-run-revise" paradigm, iteratively executing tests to evaluate and refine patches. This execution-based approach has become standard practice in state-of-the-art systems. However, executions can be time-consuming and expensive,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.26978</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Focusing on What Matters: Saliency-Harnessing Accurate Routing for Diffusion MoE</title>
@@ -457,6 +448,15 @@ The advancement of generative AI models capable of producing text and image mark
 
 Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchronous Pipeline Parallelism eliminates these bubbles, maximizing throughput at the cost of gradient st...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.30634</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SWE-Together: Evaluating Coding Agents in Interactive User Sessions</title>
+      <link>https://huggingface.co/papers/2606.29957</link>
+      <description>By Yifan Wu, Zhuokai Zhao, Songlin Li, Ho Hin Lee, Jiacheng Zhu, et al.
+
+Most coding-agent benchmarks are static: an agent receives a complete task description up front and is judged only by its final code. Real coding assistance is interactive, with users clarifying goals, adding constraints, and correcting mistakes over multiple turns. We introduce SWE-Together, a mult...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.29957</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 04:41:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 08:54:50 +0000</lastBuildDate>
     <item>
       <title>Interleaved Speech Language Models Latently Work In Text</title>
       <link>https://huggingface.co/papers/2606.22473</link>
@@ -127,13 +127,13 @@ Autoregressive Transformers dominate high-quality mesh generation by producing a
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ReFreeKV: Towards Threshold-Free KV Cache Compression</title>
-      <link>https://huggingface.co/papers/2502.16886</link>
-      <description>By Xuanfan Ni, Liyan Xu, Chenyang Lyu, Longyue Wang, Mo Yu, et al.
+      <title>RedVox: Safety and Fairness Gaps in Speech Models Across Languages</title>
+      <link>https://huggingface.co/papers/2606.26968</link>
+      <description>By Beatrice Savoldi, Sara Papi, Wafa Aissa, Matteo Negri, Luisa Bentivogli
 
-To reduce memory consumption during LLM inference, a handful of methods have been proposed for KV cache pruning. While these techniques can accomplish lossless memory reduction on many datasets, they often hinge on an under-emphasized condition: an input/domain-specific threshold for KV cache budget...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2502.16886</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+Speech-capable models are increasingly deployed in real-world applications across languages. Yet their safety and fairness beyond English settings and under naturalistic conditions remain understudied. We survey safety reporting practices across state-of-the-art speech model releases, finding that o...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.26968</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TUA-Bench: A Benchmark for General-Purpose Terminal-Use Agents</title>
@@ -262,58 +262,13 @@ While text-guided image editing has made remarkable progress, it remains limited
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Nemotron-Labs-Diffusion-Image: Advancing Masked Discrete Diffusion for High-Resolution Image Synthesis</title>
-      <link>https://huggingface.co/papers/2606.29814</link>
-      <description>By Shufan Li, Greg Heinrich, Hanrong Ye, Yonggan Fu, Aditya Grover, et al.
+      <title>Scenes as Objects, Not Primitives: Instance-Structured 3D Tokenization from Unposed Views</title>
+      <link>https://huggingface.co/papers/2606.29513</link>
+      <description>By Mijin Yoo, In Cho, Subin Jeon, Jiwoo Lee, Eunbyung Park, et al.
 
-We propose Nemotron-Labs-Diffusion-Image, a state-of-the-art masked discrete diffusion model (MDM) for high-resolution text-to-image synthesis. Compared with prior work on masked image generation, Nemotron-Labs-Diffusion-Image addresses two key challenges. First, unlike continuous diffusion models w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.29814</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting</title>
-      <link>https://huggingface.co/papers/2606.30017</link>
-      <description>By Xiaobiao Du, YuAn Wang, Hao Li, Bosheng Wang, Xun Sun, et al.
-
-Recent advances in 3D Gaussian Splatting have demonstrated unprecedented success in novel view synthesis. However, the substantial inference and storage overhead driven by high-order Spherical Harmonics (SH) are primary bottlenecks for mobile platforms. In this paper, we present Flux-GS, a real-time...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.30017</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PoseShield: Neural Collision Fields for Human Self-Collision Resolution</title>
-      <link>https://huggingface.co/papers/2606.29686</link>
-      <description>By Zhengyuan Li, Zeyun Deng, Yifan Shen, Liangyan Gui, Miaolan Xie, et al.
-
-Self-collision remains a persistent challenge in SMPL-based human pose estimation and motion generation. Under extreme articulations or stochastic motion synthesis, generated meshes frequently exhibit self-penetrations, leading to physically implausible results. We propose PoseShield, a neural colli...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.29686</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>One Forward Beats Two: InnerZoom for Accurate and Efficient GUI Grounding</title>
-      <link>https://huggingface.co/papers/2606.30084</link>
-      <description>By Chen Liu, Ling Chen, Hanzhang Zhou, Liangyu Chen, Chenglin Cai, et al.
-
-MLLM-based GUI grounding methods commonly formulate target localization as autoregressive coordinate generation, enabling models to leverage the strong instruction-following and semantic understanding capabilities of MLLMs. However, this formulation requires the model to retain region-level target e...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.30084</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing</title>
-      <link>https://huggingface.co/papers/2606.29887</link>
-      <description>By Jiacheng Zhang, Haoyu He, Sen Zhang, Shen Wang, Xiaolei Xu, et al.
-
-In real-world applications, guardrails are often expected to identify unsafe user-model interactions according to application-specific safety policies, rather than relying on predefined risk taxonomies. In this work, we study this setting under the paradigm of in-context policy guardrailing, where g...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.29887</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Walking in the Implicit: Interactive World Exploration via Neural Scene Representation</title>
-      <link>https://huggingface.co/papers/2606.30045</link>
-      <description>By Zhiqi Li, Chengrui Dong, Zhenhua Du, Hangning Zhou, Cong Qiu, et al.
-
-Interactive video generation systems for camera-controlled world exploration roll out growing sequences of latent video frames, entangling state transition with high-frequency observation synthesis. We propose Walking in the Implicit, a scene-centric paradigm that changes the rollout variable from f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.30045</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+A 3D scene is understood through its objects, not the primitives that compose them. Yet feed-forward reconstruction methods output dense, unstructured sets of points or Gaussians, leaving object-level structure to be recovered after the fact. We propose a feed-forward framework that decomposes a sce...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.29513</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DreamForge-World 0.1 Preview: A Low-Compute Real-Time Controllable World Model</title>
@@ -433,6 +388,15 @@ Photomosaics are large images whose local regions are seen as independent tiles 
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Little Brains, Big Feats: Exploring Compact Language Models</title>
+      <link>https://huggingface.co/papers/2606.30062</link>
+      <description>By Dari Baturova, Elena Bruches, Ivan Chernov, Roman Derunets, Arsenii Fomin, et al.
+
+While large language models have been dominating the research landscape recently, small language models remain highly relevant across various domains; yet, they receive far less attention. In this study, we investigate how smaller language models perform during the generation stage within a Retrieva...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.30062</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>MemLearner: Learning to Query Context memory for Video World Models</title>
       <link>https://huggingface.co/papers/2606.31734</link>
       <description>By Jiwen Yu, Jianxiong Gao, Jianhong Bai, Yiran Qin, Kaiyi Huang, et al.
@@ -457,6 +421,42 @@ Graphical user interface (GUI) agents build on vision-language models to complet
 
 Speculative decoding accelerates inference by using a lightweight draft model to generate candidate tokens in parallel, and are then verified by the target model, enabling lossless acceleration. Recently, diffusion-based speculative decoding further improves parallelism by generating multiple tokens...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.31315</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TerraDiT-Ω: Unified Spatial Control for Satellite Image Synthesis with Any Geospatial Primitive</title>
+      <link>https://huggingface.co/papers/2606.31029</link>
+      <description>By Brian Wei, Srikumar Sastry, Daniel Cher, Eric Xing, Nathan Jacobs
+
+Generative models have achieved remarkable progress, yet applying them to satellite imagery remains challenging. Unlike natural imagery, satellite scenes are structured by spatially complex and semantically distinct geometries. Prior work addresses this complexity by adapting natural image framework...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.31029</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs</title>
+      <link>https://huggingface.co/papers/2606.32032</link>
+      <description>By Gabrielle Kaili-May Liu, Avi Caciularu, Gal Yona, Idan Szpektor, Arman Cohan
+
+Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misreprese...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.32032</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-Block Diffusion Language Models</title>
+      <link>https://huggingface.co/papers/2606.29215</link>
+      <description>By Yijie Jin, Jiajun Xu, Yuxuan Liu, Chenkai Xu, Yi Tu, et al.
+
+Block Diffusion Language Models (BD-LMs) improve diffusion-based text generation with KV caching and flexible-length generation. A natural next step is to extend them from Single-Block Diffusion (SingleBD) to Multi-Block Diffusion (MultiBD), where a running-set of consecutive blocks is decoded concu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.29215</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GEAR: Guided End-to-End AutoRegression for Image Synthesis</title>
+      <link>https://huggingface.co/papers/2606.32039</link>
+      <description>By Bin Lin, Zheyuan Liu, Chenguo Lin, Sixiang Chen, Yunyang Ge, et al.
+
+Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This decoupling leaves the tokenizer unaware of what the generator finds easy to model. We ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.32039</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

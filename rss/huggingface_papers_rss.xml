@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 08:54:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 12:13:08 +0000</lastBuildDate>
     <item>
       <title>Interleaved Speech Language Models Latently Work In Text</title>
       <link>https://huggingface.co/papers/2606.22473</link>
@@ -37,6 +37,15 @@ Representation alignment has emerged as an effective approach to improve Multimo
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation</title>
+      <link>https://huggingface.co/papers/2606.23127</link>
+      <description>By Julia Belikova, Rauf Parchiev, Evgeny Egorov, Grigorii Davydenko, Gleb Gusev, et al.
+
+Procedural memory is increasingly used to improve LLM agents on recurring workplace tasks, yet its ability to produce reusable skills remains poorly understood. We introduce AFTER, a benchmark of 382 realistic enterprise tasks spanning six professional roles and 22 procedural skills, designed to eva...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.23127</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Trimming the Long-Tail of Visual World Modeling Evaluation</title>
       <link>https://huggingface.co/papers/2606.24256</link>
       <description>By Bingxuan Li, Yining Hong, Cheng Qian, Hyeonjeong Ha, Jiateng Liu, et al.
@@ -52,6 +61,15 @@ Physical interactions follow a long-tailed distribution: a set of common and reg
 
 Recent work has demonstrated the potential of large language models (LLMs) for program optimization, a key challenge in programming languages. We propose a blackbox adaptation method called Retrieval Augmented Search (RAS) that performs beam search over candidate optimizations; at each step, it retr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2501.18916</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SkillHone: A Harness for Continual Agent Skill Evolution Through Persistent Decision History</title>
+      <link>https://huggingface.co/papers/2606.08671</link>
+      <description>By Zhiwei Li, Yong Hu
+
+Agent skills extend language-model agents with task-specific procedures, scripts, and references, but the tasks and environments they target continually change. Existing methods improve skills in bounded runs and retain only the final artifact, discarding the decision history that later agents need ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.08671</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -71,15 +89,6 @@ Mathematical knowledge is organized around statements and their dependencies, bu
 Different real-time speech applications impose distinct latency budgets, often requiring separately trained enhancement models for each scenario. In this paper, we propose a one-for-all, real-time universal speech enhancement model that provides explicit control over both algorithmic and computation...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.25621</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LiveEdit: Towards Real-Time Diffusion-Based Streaming Video Editing</title>
-      <link>https://huggingface.co/papers/2606.26740</link>
-      <description>By Xinyu Wang, Chongbo Zhao, Fangneng Zhan, Yue Ma
-
-Streaming video editing has made rapid progress, yet practical deployment is still limited by two core issues: maintaining stable backgrounds and non-edited regions over time, and achieving the low latency required for real-time interactive scenarios. Meanwhile, recent streaming video generation met...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.26740</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Large-Scale Tunnel Air-Ground Collaboration With FLISP: Fast LiDAR-IMU Synchronized Path Planner</title>
@@ -134,15 +143,6 @@ Autoregressive Transformers dominate high-quality mesh generation by producing a
 Speech-capable models are increasingly deployed in real-world applications across languages. Yet their safety and fairness beyond English settings and under naturalistic conditions remain understudied. We survey safety reporting practices across state-of-the-art speech model releases, finding that o...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.26968</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TUA-Bench: A Benchmark for General-Purpose Terminal-Use Agents</title>
-      <link>https://huggingface.co/papers/2606.28480</link>
-      <description>By Shoufa Chen, Luyuan Wang, Xuan Yang, Zhiheng Liu, Yuren Cong, et al.
-
-As large language models and harness frameworks continue to advance, agents operating in terminals are increasingly capable of performing a broader range of general computer-use tasks beyond coding. However, existing benchmarks do not adequately evaluate general-purpose terminal computer-use agents ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.28480</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning</title>
@@ -217,24 +217,6 @@ Would experience designing faster GPU kernels also help close in on a long-stand
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks</title>
-      <link>https://huggingface.co/papers/2606.29537</link>
-      <description>By Mengqi Yuan, Zilong Zhou, Xinzhuang Xiong, Weiming Wu, Jiayang Sun, et al.
-
-Existing computer-use benchmarks fail to capture the realism, complexity, and long-horizon demands of real-world computer use, limiting their ability to reveal the limitations of frontier agents. We introduce OSWorld 2.0, a benchmark of 108 long-horizon computer-use workflows across everyday and pro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.29537</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Geometric Stability of Neural Population Codes: Regional Variation, Behavioral Relevance, and Circuit Dependence</title>
-      <link>https://huggingface.co/papers/2606.29655</link>
-      <description>By Prashant C. Raju
-
-Current models of representational reliability in neural populations focus on temporal stability: whether population centroids are preserved across sessions and days. This framing leaves a fundamental question unanswered: how reliably does the pairwise distance structure among stimuli reproduce acro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.29655</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Learning Transferable Dynamics Priors from Action to World Modeling</title>
       <link>https://huggingface.co/papers/2606.29501</link>
       <description>By Ze Huang, Jiahui Zhang, Hairuo Liu, Chenxi Zhang, Ran Cheng, et al.
@@ -269,15 +251,6 @@ While text-guided image editing has made remarkable progress, it remains limited
 A 3D scene is understood through its objects, not the primitives that compose them. Yet feed-forward reconstruction methods output dense, unstructured sets of points or Gaussians, leaving object-level structure to be recovered after the fact. We propose a feed-forward framework that decomposes a sce...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.29513</guid>
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DreamForge-World 0.1 Preview: A Low-Compute Real-Time Controllable World Model</title>
-      <link>https://huggingface.co/papers/2606.30292</link>
-      <description>By Daniyel Ayupov, Artur Markov-Tsoy
-
-We present DreamForge-World 0.1 Preview, a preview foundational world model for real-time interactive world simulation. The system adapts the LongLive 1 autoregressive video stack, itself derived from Wan2.1-T2V-1.3B, with a residual action pathway inspired by the Matrix-Game family. DreamForge-Worl...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.30292</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Surprising Effectiveness of Video Diffusion Models for Hand Motion Reconstruction</title>
@@ -457,6 +430,33 @@ Block Diffusion Language Models (BD-LMs) improve diffusion-based text generation
 
 Visual generative models are typically trained in two stages. A tokenizer is first trained for reconstruction and then frozen, after which a generator is trained on its discrete indices or continuous latents. This decoupling leaves the tokenizer unaware of what the generator finds easy to model. We ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.32039</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MuSViT: A Foundation Vision Model for Sheet Music Representation</title>
+      <link>https://huggingface.co/papers/2606.31811</link>
+      <description>By Carlos Penarrubia, Antonio Rios-Vila, Eliseo Fuentes-Martinez, Juan C. Martinez-Sevilla, Francisco J. Castellanos, et al.
+
+Foundation models have transformed vision and language processing by providing rich, reusable representations that transfer across diverse tasks. Sheet music, as a visual encoding of musical language, lacks such a strong domain-specific backbone. We introduce MuSViT (Music Score Vision Transformer):...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.31811</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DataEvolver: Self-Evolving Multi-Agent Data Construction for Text-Rich Image Generation</title>
+      <link>https://huggingface.co/papers/2606.31537</link>
+      <description>By Siyu Yan, Yizhen Gao, Yilin Wang, Dongxing Mao, Alex Jinpeng Wang
+
+Text-rich image generation is one of the most challenging settings in image generation, since models must simultaneously produce visually realistic images and render legible, semantically aligned, and layout-consistent text. Existing data pipelines usually follow a static crawl-filter-freeze paradig...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.31537</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FlexiSLM: A Dynamic and Controllable Frame Rate Spoken Language Model</title>
+      <link>https://huggingface.co/papers/2606.31247</link>
+      <description>By Jiaqi Li, Chaoren Wang, Xiaohai Tian, Mingjie Chen, Xinyu Liang, et al.
+
+Spoken language models (SLMs) extend LLMs to speech input and output. Existing SLMs represent speech at fixed frame rates (e.g., 25 or 12.5 Hz), ignoring the time-varying information density of speech and offering no flexibility to trade off quality for speed at inference time. Recent audio tokenize...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.31247</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

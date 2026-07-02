@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 21:16:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 23:15:23 +0000</lastBuildDate>
     <item>
       <title>Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models</title>
       <link>https://huggingface.co/papers/2606.19297</link>
@@ -100,13 +100,13 @@ Benchmarks are widely used to evaluate task completion by Large Language Models 
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Scenes as Objects, Not Primitives: Instance-Structured 3D Tokenization from Unposed Views</title>
-      <link>https://huggingface.co/papers/2606.29513</link>
-      <description>By Mijin Yoo, In Cho, Subin Jeon, Jiwoo Lee, Eunbyung Park, et al.
+      <title>When More Sampling Hurts: The Modal Ceiling and Correlation Ceiling of Test-Time Scaling</title>
+      <link>https://huggingface.co/papers/2606.28661</link>
+      <description>By Yong Yi Bay, Kathleen A. Yearick
 
-A 3D scene is understood through its objects, not the primitives that compose them. Yet feed-forward reconstruction methods output dense, unstructured sets of points or Gaussians, leaving object-level structure to be recovered after the fact. We propose a feed-forward framework that decomposes a sce...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.29513</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+People overthink; language models over-sample, and the extra effort can talk both into a worse answer. Reasoning systems answer a hard question by sampling it many times (test-time scaling), and the more they draw, the more often a correct answer turns up somewhere, so coverage, the fraction of prob...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.28661</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Hierarchical Experimentalist Agents</title>
@@ -179,15 +179,6 @@ Blind image deblurring demands the recovery of high-fidelity details and coheren
 While Text-to-Image (T2I) models have shown remarkable success in generating photorealistic visual content, they still struggle with the rigorous semantic alignment and logical reasoning required for scientific imagery. Inspired by Peirce's Semiotic Triad, we introduce Scientific Image Reasoning (Sc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.30124</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MuSViT: A Foundation Vision Model for Sheet Music Representation</title>
-      <link>https://huggingface.co/papers/2606.31811</link>
-      <description>By Carlos Penarrubia, Antonio Rios-Vila, Eliseo Fuentes-Martinez, Juan C. Martinez-Sevilla, Francisco J. Castellanos, et al.
-
-Foundation models have transformed vision and language processing by providing rich, reusable representations that transfer across diverse tasks. Sheet music, as a visual encoding of musical language, lacks such a strong domain-specific backbone. We introduce MuSViT (Music Score Vision Transformer):...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.31811</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DataEvolver: Self-Evolving Multi-Agent Data Construction for Text-Rich Image Generation</title>
@@ -304,6 +295,15 @@ This paper explores multi-turn visual reasoning and observes that MLLMs repeated
 
 As AI agents become increasingly capable of complex, long-horizon reasoning, rigorous and holistic evaluation is essential for measuring progress toward real-world healthcare applications. We introduce HealthAgentBench, a suite of 54 agentic healthcare tasks across 7 categories each with its unique ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.31179</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number: The Group-Standard-Deviation Identity</title>
+      <link>https://huggingface.co/papers/2607.00152</link>
+      <description>By Yong Yi Bay, Kathleen A. Yearick
+
+Three of the most popular methods for training language models to reason look like three different tricks. They are not. All three adjust a single number: standard deviation, reflecting how much a prompt's sampled answers disagree. When such a model is trained, it answers each problem many times, an...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.00152</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

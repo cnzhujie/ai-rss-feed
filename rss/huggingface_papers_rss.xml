@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2026 13:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 15:55:25 +0000</lastBuildDate>
     <item>
       <title>TurboServe: Serving Streaming Video Generation Efficiently and Economically</title>
       <link>https://huggingface.co/papers/2606.19271</link>
@@ -109,6 +109,15 @@ Hybrid attention models improve long-context efficiency by retaining only a subs
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>DuoMem: Towards Capable On-Device Memory Agents via Dual-Space Distillation</title>
+      <link>https://huggingface.co/papers/2606.29961</link>
+      <description>By Peyman Hosseini, Ondrej Bohdal, Ahmed Alajrami, Andrea Maracani, Ignacio Castro, et al.
+
+Large Language Model (LLM)-based agents can solve complex procedural tasks by interacting with environments over multiple turns, but this ability typically depends on large models, long contexts, and repeated inference calls. This makes advanced memory-augmented agents difficult to deploy on resourc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.29961</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>AutoTrainess: Teaching Language Models to Improve Language Models Autonomously</title>
       <link>https://huggingface.co/papers/2606.31551</link>
       <description>By Zhaojian Yu, Penghao Yin, Shuzheng Gao, Shilin He, Kai Cai, et al.
@@ -197,33 +206,6 @@ Recent multimodal large language models have shown great promise in clinical ima
 Controllable image generation methods, such as ControlNet, have demonstrated a remarkable capacity to introduce visual conditions(e.g., depth maps) to guide image generation. However, these methods often struggle with complex multi-instance scenes, frequently leading to attribute confusion among ins...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.31924</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ABot-M0.5: Unified Mobility-and-Manipulation World Action Model</title>
-      <link>https://huggingface.co/papers/2607.00678</link>
-      <description>By Ronghan Chen, Yandan Yang, Zuojin Tang, Dongjie Huo, Tong Lin, et al.
-
-Mobile manipulation is a key capability for general-purpose robots, yet remains challenging for current embodied learning methods. VLA policies are typically reactive and lack explicit world modeling, while existing World Action Models (WAMs) are still poorly aligned with the structure of mobile man...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00678</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts</title>
-      <link>https://huggingface.co/papers/2607.00666</link>
-      <description>By Taewook Kang, Taeheon Kim, Donghyun Shin, Jonghyun Choi
-
-Vision-Language-Action (VLA) models often fail to perform the same learned tasks under environmental shifts, such as changes in camera pose and shifts to a different but similar robot (e.g., from Panda to UR5e). Adapting these models to the shifted environment (i.e., target domain) often requires tr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00666</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CausalMix: Data Mixture as Causal Inference for Language Model Training</title>
-      <link>https://huggingface.co/papers/2607.01104</link>
-      <description>By Zinan Tang, Yukun Zhang, Shaomian Zheng, Zhuoshi Pan, Qizhi Pei, et al.
-
-In Large Language Model (LLM) training, data mixing plays a pivotal role in determining model performance. Recent methods optimize mixture weights via proxy models, but they rely on the assumption of static data distributions. As a result, when the underlying data pool shifts, these methods require ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.01104</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Perceive-to-Reason: Decoupling Perception and Reasoning for Fine-Grained Visual Reasoning</title>
@@ -322,6 +304,24 @@ Repository-level performance-optimization benchmarks such as GSO, SWE-Perf and S
 
 Diffusion language models, which generate text by denoising a token canvas bidirectionally instead of emitting tokens left to right, have become competitive with autoregressive (AR) generation. Medical foundation models, however, remain almost entirely autoregressive. We adapt a mixture-of-experts d...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.01436</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Logit-Contribution Scoring Identifies Non-Literal Retrieval Heads</title>
+      <link>https://huggingface.co/papers/2607.01002</link>
+      <description>By Aryo Pradipta Gema, Beatrice Alex, Pasquale Minervini
+
+In long-context use, large language models frequently synthesize answers from the meaning of a relevant context span rather than literally copy-pasting them. Identifying which attention heads perform this synthesis matters for interpreting long-context model behavior. Yet existing detectors miss the...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.01002</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AutoMem: Automated Learning of Memory as a Cognitive Skill</title>
+      <link>https://huggingface.co/papers/2607.01224</link>
+      <description>By Shengguang Wu, Hao Zhu, Yuhui Zhang, Xiaohan Wang, Serena Yeung-Levy
+
+Memory expertise is a learned skill: knowing what to encode, when to retrieve, and how to organize knowledge--a capacity known in cognitive science as metamemory. We bring this perspective to LLMs by treating memory management as a trainable skill. We promote file-system operations to first-class me...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.01224</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

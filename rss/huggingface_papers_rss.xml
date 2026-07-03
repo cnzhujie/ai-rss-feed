@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2026 03:55:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 07:30:36 +0000</lastBuildDate>
     <item>
       <title>TurboServe: Serving Streaming Video Generation Efficiently and Economically</title>
       <link>https://huggingface.co/papers/2606.19271</link>
@@ -17,15 +17,6 @@
 Streaming video generation is emerging as a new serving workload in which users interact with long-lived sessions that generate video progressively, chunk by chunk. Unlike offline video generation or typical LLM serving, streaming video generation must preserve session state across active and idle p...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.19271</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BioInsight: Multi-Agent Orchestration for Interactive Biomedical Knowledge Discovery</title>
-      <link>https://huggingface.co/papers/2606.20997</link>
-      <description>By Jieyi Wang, Bingxuan Li, Nanyi Jiang, Desong Meng, Zirui Fan, et al.
-
-Biomedical researchers increasingly use AI-generated analyses and reports to interpret protein-level signals, but static outputs are often insufficient for research decision-making, where users need to inspect evidence, assess uncertainty, compare mechanisms, and refine hypotheses. We present BioIns...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.20997</guid>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI translation of literary texts is "fine", but readers still prefer human translations</title>
@@ -73,6 +64,15 @@ People overthink; language models over-sample, and the extra effort can talk bot
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR</title>
+      <link>https://huggingface.co/papers/2606.25178</link>
+      <description>By Yongjin Yang, Jiarui Liu, Yinghui He, Lechen Zhang, Bernhard Schölkopf, et al.
+
+Reinforcement learning with verifiable rewards (RLVR) has been extended from single-domain training to multi-domain reasoning suites spanning mathematics, programming, and science. However, the training curriculum (how often each domain is sampled) is typically fixed or hand-tuned, even though reaso...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.25178</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Rank-Aware Hyperbolic Alignment for Vision-Language Dataset Distillation</title>
       <link>https://huggingface.co/papers/2606.29464</link>
       <description>By Jongoh Jeong, Sun-Kyung Lee, Kuk-Jin Yoon
@@ -107,15 +107,6 @@ While Text-to-Image (T2I) models have shown remarkable success in generating pho
 Hybrid attention models improve long-context efficiency by retaining only a subset of full-attention layers and replacing the remaining layers with linear attention. However, the effectiveness of Transformer-to-hybrid conversion critically depends on which layers preserve full attention. Existing hy...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.30562</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AtomiMed: Hierarchical Atomic Fact-Checking for Universal Clinical-Aware Medical Report Evaluation</title>
-      <link>https://huggingface.co/papers/2606.31292</link>
-      <description>By Yuan Wang, Wanxing Chang, Songtao Jiang, Shujian Gao, Xiaotian Zhang, et al.
-
-Traditional metrics for Medical Report Generation (MRG) predominantly rely on surface-level n-gram overlap, which fails to capture clinical factual accuracy and often overlooks catastrophic diagnostic errors. We address this fundamental limitation by proposing AtomiMed, a universal, modality-agnosti...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.31292</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AutoTrainess: Teaching Language Models to Improve Language Models Autonomously</title>
@@ -190,31 +181,22 @@ In collaborative dialogue, shared perception does not guarantee shared interpret
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>RepoRescue: An Empirical Study of LLM Agents on Whole-Repository Compatibility Rescue</title>
-      <link>https://huggingface.co/papers/2607.01213</link>
-      <description>By Zhihao Lin, Mingyi Zhou, Zhensu Sun, Yizhuo Yang, Renyu Yang, et al.
+      <title>Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning</title>
+      <link>https://huggingface.co/papers/2606.31825</link>
+      <description>By Junha Jung, Minbyul Jeong, Suhyeon Lim, Sungwook Jung, Jaehoon Yun, et al.
 
-Open-source libraries and tools are widely reused, but compatibility maintenance is expensive. Once maintainers leave, useful repositories can stop working as runtimes and dependencies evolve. We study whether LLM agents can adapt old repositories to modern environments, a task we call compatibility...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.01213</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+Recent multimodal large language models have shown great promise in clinical image reasoning, but existing post-training pipelines remain predominantly outcome-centric, relying on final answer correctness or sequence-level preferences. This suffers from sparse credit assignment, making it difficult ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.31825</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement</title>
-      <link>https://huggingface.co/papers/2607.00446</link>
-      <description>By Seohyun Lee, Seoung Choi, Dohwan Ko, Jongha Kim, Hyunwoo J. Kim
+      <title>InstanceControl: Controllable Complex Image Generation without Instance Labeling</title>
+      <link>https://huggingface.co/papers/2606.31924</link>
+      <description>By Xiaoyu Liu, Huan Wang, Fan Li, Zhixin Wang, Jiaqi Xu, et al.
 
-As video corpora continue to expand in both scale and task complexity, there is increasing demand for approaches that retrieve relevant videos from large-scale corpora (inter-video reasoning) and subsequently perform fine-grained, query-conditioned tasks (intra-video reasoning) within the retrieved ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00446</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Autonomous Scientific Discovery via Iterative Meta-Reflection</title>
-      <link>https://huggingface.co/papers/2607.01131</link>
-      <description>By Bingchen Zhao, Sara Beery, Oisin Mac Aodha
-
-Autonomous scientific discovery systems offer the potential to accelerate research by automating the process of hypothesis generation and validation. However, current systems operate within constrained search spaces or require predefined research questions, limiting their capacity for true open-ende...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.01131</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+Controllable image generation methods, such as ControlNet, have demonstrated a remarkable capacity to introduce visual conditions(e.g., depth maps) to guide image generation. However, these methods often struggle with complex multi-instance scenes, frequently leading to attribute confusion among ins...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.31924</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Valdi: Value Diffusion World Models</title>
@@ -457,6 +439,24 @@ Skills are becoming a reusable operational layer for LLM agents, encoding SOPs, 
 
 Representation alignment has become an effective way to accelerate diffusion transformer training and improve generation quality. Recent self-alignment methods, such as SRA and Self-Flow, further remove the dependency on external pretrained encoders by constructing alignment within the diffusion mod...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.02508</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents</title>
+      <link>https://huggingface.co/papers/2607.02255</link>
+      <description>By Xiangchen Cheng, Yunwei Jiang, Jianwen Sun, Zizhen Li, Chuanhao Li, et al.
+
+Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.02255</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments</title>
+      <link>https://huggingface.co/papers/2607.02440</link>
+      <description>By Zhilin Wang, Han Song, Runzhe Zhan, Jusen Du, Jiacheng Chen, et al.
+
+Autonomous agents are increasingly expected to improve executable policies through feedback, yet existing evaluations often collapse this process into a final score or confound it with open-ended software-engineering progress. We introduce Autonomous Policy Evolution, a controlled evaluation setting...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.02440</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

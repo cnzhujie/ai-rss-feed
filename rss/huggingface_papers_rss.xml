@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Jul 2026 23:07:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 04:14:26 +0000</lastBuildDate>
     <item>
       <title>AI translation of literary texts is "fine", but readers still prefer human translations</title>
       <link>https://huggingface.co/papers/2606.26040</link>
@@ -82,6 +82,15 @@ Vision-language dataset distillation (VLDD) compresses a large image-text paired
       <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2606.29526</link>
+      <description>By Jing Liang, Hongyao Tang, Yi Ma, Yancheng He, Weixun Wang, et al.
+
+Reinforcement learning (RL) has gained growing attention in large language model (LLM) post-training, yet RL training remains fragile and can suffer from instability or collapse. One vital cause is training-inference mismatch: LLM adopts separate inference and training engines for generation efficie...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.29526</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CogSENet: Blind Image Deblurring with Blur-Conditioned Semantic Routing and Explicit Frequency Fusion</title>
       <link>https://huggingface.co/papers/2606.30030</link>
       <description>By Pan Wang, Yihao Hu, Xiujin Liu
@@ -116,15 +125,6 @@ Hybrid attention models improve long-context efficiency by retaining only a subs
 Large Language Model (LLM)-based agents can solve complex procedural tasks by interacting with environments over multiple turns, but this ability typically depends on large models, long contexts, and repeated inference calls. This makes advanced memory-augmented agents difficult to deploy on resourc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.29961</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors</title>
-      <link>https://huggingface.co/papers/2606.32029</link>
-      <description>By Yuqing Yang, Qi Zhu, Zhen Han, Boran Han, Zhengyuan Shen, et al.
-
-While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table structure. Beyond final-answer accuracy, DREs directly compromise the correctness and reliability of inte...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.32029</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ASPIRE: Agentic /Skills Discovery for Robotics</title>
@@ -199,22 +199,13 @@ Controllable image generation methods, such as ControlNet, have demonstrated a r
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The State-Prediction Separation Hypothesis</title>
-      <link>https://huggingface.co/papers/2607.01218</link>
-      <description>By Giovanni Monea, Nathan Godey, Kianté Brantley, Yoav Artzi
+      <title>AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation</title>
+      <link>https://huggingface.co/papers/2607.00052</link>
+      <description>By Bao Long Nguyen Huu, Atsushi Hashimoto
 
-Transformers use the same forward computation stream to both predict the next token and store useful state for future token predictions. We formulate the state-prediction separation hypothesis: disentangling the two roles yields better language modeling performance. We design a Transformer variant t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.01218</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MemSyco-Bench: Benchmarking Sycophancy in Agent Memory</title>
-      <link>https://huggingface.co/papers/2607.01071</link>
-      <description>By Zhishang Xiang, Zerui Chen, Yunbo Tang, Zhimin Wei, Ruqin Ning, et al.
-
-Memory has emerged as a cornerstone of modern LLM-based agents, supporting their evolution from single-turn assistants to long-term collaborators. However, memory is not always beneficial: retrieved memories often induce a critical issue of sycophancy, causing agents to over-align with the user at t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.01071</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+GraphRAG is an extension of retrieval-augmented generation (RAG) that supports large language models (LLMs) by referring to graph-structured data as external knowledge. While this technique ideally captures intricate relationships, it often struggles with graph representations for LLMs, particularly...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.00052</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving</title>
@@ -457,6 +448,15 @@ Vein recognition is a secure biometric technology often constrained by limited a
 
 Foundation models are routinely released to the public, yet the data recipes used to train them -- such as domain mixture weights that determine how different sources are sampled -- are rarely disclosed. This creates an access asymmetry: researchers study the resulting models but lack visibility int...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.01686</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots</title>
+      <link>https://huggingface.co/papers/2607.02501</link>
+      <description>By Ling Xu, Chuyu Han, Borui Li, Hao Wu, Shiqi Jiang, et al.
+
+Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are de...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.02501</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

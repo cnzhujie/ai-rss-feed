@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2026 04:14:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 09:05:03 +0000</lastBuildDate>
     <item>
       <title>AI translation of literary texts is "fine", but readers still prefer human translations</title>
       <link>https://huggingface.co/papers/2606.26040</link>
@@ -127,24 +127,6 @@ Large Language Model (LLM)-based agents can solve complex procedural tasks by in
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ASPIRE: Agentic /Skills Discovery for Robotics</title>
-      <link>https://huggingface.co/papers/2607.00272</link>
-      <description>By Runyu Lu, Yubo Wu, Ethan Kou, Letian Fu, Wenli Xiao, et al.
-
-Traditional robot programming is challenging: it requires orchestrating multimodal perception, managing physical contact dynamics, and handling diverse configurations and execution failures. We introduce ASPIRE (Agentic Skill Programming through Iterative Robot Exploration), a continual learning sys...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00272</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity</title>
-      <link>https://huggingface.co/papers/2607.00248</link>
-      <description>By Bytedance Seed
-
-We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users' genuine needs and constructing a reliable, forward-looking evaluation system by selecting and abstracting benchmarks grounded in these needs and in re...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00248</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PixelEyes: Decoupling Perception and Reasoning for Pinpoint Visual Evidence Seeking</title>
       <link>https://huggingface.co/papers/2607.00115</link>
       <description>By Dengxian Gong, Yuanzheng Wu, Haobo Yuan, Zhengdong Hu, Tao Zhang, et al.
@@ -208,31 +190,13 @@ GraphRAG is an extension of retrieval-augmented generation (RAG) that supports l
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving</title>
-      <link>https://huggingface.co/papers/2607.00466</link>
-      <description>By Sangjin Choi, Sukmin Cho, Yifan Xiong, Ziyue Yang, Youngjin Kwon, et al.
+      <title>Securing the AI Agent: A Unified Framework for Multi-Layer Agent Red Teaming</title>
+      <link>https://huggingface.co/papers/2606.31227</link>
+      <description>By Yong Yang, Xing Zheng, Huiyu Wu, Huangsheng Cheng, Xiaorong Shi, et al.
 
-In prefill-decode (PD) disaggregated LLM serving, each request is assigned to a decode worker after prefill. Existing decode routers balance only load; for mixture-of-experts (MoE) models this is incomplete: equally loaded workers can differ in latency, since each decode step loads the weights of ev...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00466</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Multimodal Continuous Reasoning via Asymmetric Mutual Variational Learning</title>
-      <link>https://huggingface.co/papers/2607.00461</link>
-      <description>By Shijie Li, Yilin Gao, Siyuan Yang, Tieyuan Chen, Chaofan Gan, et al.
-
-Multimodal Large Language Models (MLLMs) are often constrained by a language-space bottleneck, forcing complex visual reasoning into discrete tokens which can lose perceptual nuance. A promising alternative is continuous latent reasoning, where the goal is to discover implicit reasoning pathways tha...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00461</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NoPA: Non-Parametric Online 3D Scene Graph Generation</title>
-      <link>https://huggingface.co/papers/2607.00529</link>
-      <description>By Qi Xun Yeo, Seungjun Lee, Yan Li, Gim Hee Lee
-
-Classic 3D scene graph generation approaches fail to work in real-time due to the heavy computational cost of environment mapping and the need to generate intermediate point-cloud representations. To alleviate this issue, a recent work eschews point clouds in favor of a lightweight Gaussian distribu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00529</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+The fast growth of open-source AI infrastructure, from model serving engines and agent platforms to the Model Context Protocol (MCP) ecosystem and the language models themselves, has outpaced the security tooling available to defend it. We present AI-Infra-Guard, an open-source framework that organi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.31227</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Personalization as Inverse Planning: Learning Latent Design Intents for Agentic Slide Generation via Structural Denoising</title>
@@ -304,6 +268,15 @@ Memory expertise is a learned skill: knowing what to encode, when to retrieve, a
 
 Grid-based approaches to approximate nearest neighbor (ANN) search have been absent from modern scaling analyses. We present a systematic characterization of a multiprobe grid algorithm with respect to dataset size N and dimensionality d. Our experiments reveal a previously unreported d-scaling cros...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.01283</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MultAttnAttrib: Training-Free Multimodal Attribution in Long Document Question Answering</title>
+      <link>https://huggingface.co/papers/2607.01420</link>
+      <description>By Dang Quang Thien Tran, Quang V. Dang, Vinamra Tyagi, Sai Soorya Rao Veeravalli, Trang Nguyen, et al.
+
+As grounded QA systems are increasingly deployed in AI assistants, accurately attributing generated answers to evidence is critical for user trust and model safety. While unimodal attributions have been explored in depth, the multimodal setting remains relatively under-researched. As a result, we in...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.01420</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +430,33 @@ Foundation models are routinely released to the public, yet the data recipes use
 
 Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are de...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.02501</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon</title>
+      <link>https://huggingface.co/papers/2607.01804</link>
+      <description>By Yi Pan, Miao Pan, Qi Lu, Jiaming Huang, Man Zhang, et al.
+
+Vision-Language-Action (VLA) foundation models have recently achieved strong progress in embodied intelligence. To reduce policy-call frequency while preserving temporal coherence, most generative policies adopt an action chunk mechanism, executing multiple future actions in an open-loop manner unde...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.01804</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OrbitQuant: Data-Agnostic Quantization for Image and Video Diffusion Transformers</title>
+      <link>https://huggingface.co/papers/2607.02461</link>
+      <description>By Donghyun Lee, Jitesh Chavan, Duy Nguyen, Sam Huang, Liming Jiang, et al.
+
+Diffusion transformers (DiTs) achieve state-of-the-art image and video generation, but their multi-step sampling and growing parameter count make inference expensive. Post-training quantization (PTQ) is the natural remedy, yet DiT activations shift across timesteps, prompts, and guidance branches, f...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.02461</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretation-Oriented Cloud Removal via Observation-Anchored Residual Flow with Geo-Contextual Alignment</title>
+      <link>https://huggingface.co/papers/2607.02471</link>
+      <description>By Ziyao Wang, Maonan Wang, Yucheng He, Xianping Ma, Ziyi Wang, et al.
+
+Cloud removal (CR) is essential for optical remote sensing, serving as a prerequisite for reliable downstream interpretation, such as semantic segmentation and change detection. However, existing CR approaches often prioritize visual realism while overlooking their impact on subsequent analytical ta...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.02471</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

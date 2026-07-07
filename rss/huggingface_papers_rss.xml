@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2026 08:28:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 12:00:23 +0000</lastBuildDate>
+    <item>
+      <title>Transition-Aware best-of-N sampling for Longitudinal Chest X-ray Reports</title>
+      <link>https://huggingface.co/papers/2606.28393</link>
+      <description>By Halil Ibrahim Gulluk, Max Van Puyvelde, Wim Van Criekinge, Olivier Gevaert
+
+In longitudinal clinical practice, every chest X-ray is read in the context of the patients prior exam, and much of what the radiologist communicates is the change from one visit to the next. To the best of our knowledge, we present the first training-free best-of-N sampling scheme for pre-trained c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.28393</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Parameter-Efficient Quantum-Inspired Fast Weight Programmers for Traffic-Matrix Forecasting</title>
       <link>https://huggingface.co/papers/2606.27821</link>
@@ -28,15 +37,6 @@ Building performant Vision-Language Models (VLMs) requires carefully curating la
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Transferability for General Reasoning: An Automated Curriculum for Multi-Domain RLVR</title>
-      <link>https://huggingface.co/papers/2606.25178</link>
-      <description>By Yongjin Yang, Jiarui Liu, Yinghui He, Lechen Zhang, Bernhard Schölkopf, et al.
-
-Reinforcement learning with verifiable rewards (RLVR) has been extended from single-domain training to multi-domain reasoning suites spanning mathematics, programming, and science. However, the training curriculum (how often each domain is sampled) is typically fixed or hand-tuned, even though reaso...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.25178</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning</title>
       <link>https://huggingface.co/papers/2606.29526</link>
       <description>By Jing Liang, Hongyao Tang, Yi Ma, Yancheng He, Weixun Wang, et al.
@@ -53,24 +53,6 @@ Reinforcement learning (RL) has gained growing attention in large language model
 Large Language Model (LLM)-based agents can solve complex procedural tasks by interacting with environments over multiple turns, but this ability typically depends on large models, long contexts, and repeated inference calls. This makes advanced memory-augmented agents difficult to deploy on resourc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.29961</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning</title>
-      <link>https://huggingface.co/papers/2606.31825</link>
-      <description>By Junha Jung, Minbyul Jeong, Suhyeon Lim, Sungwook Jung, Jaehoon Yun, et al.
-
-Recent multimodal large language models have shown great promise in clinical image reasoning, but existing post-training pipelines remain predominantly outcome-centric, relying on final answer correctness or sequence-level preferences. This suffers from sparse credit assignment, making it difficult ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.31825</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>InstanceControl: Controllable Complex Image Generation without Instance Labeling</title>
-      <link>https://huggingface.co/papers/2606.31924</link>
-      <description>By Xiaoyu Liu, Huan Wang, Fan Li, Zhixin Wang, Jiaqi Xu, et al.
-
-Controllable image generation methods, such as ControlNet, have demonstrated a remarkable capacity to introduce visual conditions(e.g., depth maps) to guide image generation. However, these methods often struggle with complex multi-instance scenes, frequently leading to attribute confusion among ins...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.31924</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation</title>
@@ -172,40 +154,13 @@ LLMs are increasingly used to brainstorm research ideas, but existing evaluation
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>From SRA to Self-Flow: Data Augmentation or Self-Supervision?</title>
-      <link>https://huggingface.co/papers/2607.02508</link>
-      <description>By Dengyang Jiang, Mengmeng Wang, Harry Yang, Jingdong Wang
+      <title>Multi-Turn Agentic Scientific Literature Search via Workflow Induction</title>
+      <link>https://huggingface.co/papers/2607.00597</link>
+      <description>By Jisen Li, Bingxuan Li, Nanyi Jiang, Xuying Ning, Xiyao Wang, et al.
 
-Representation alignment has become an effective way to accelerate diffusion transformer training and improve generation quality. Recent self-alignment methods, such as SRA and Self-Flow, further remove the dependency on external pretrained encoders by constructing alignment within the diffusion mod...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.02508</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents</title>
-      <link>https://huggingface.co/papers/2607.02255</link>
-      <description>By Xiangchen Cheng, Yunwei Jiang, Jianwen Sun, Zizhen Li, Chuanhao Li, et al.
-
-Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.02255</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments</title>
-      <link>https://huggingface.co/papers/2607.02440</link>
-      <description>By Zhilin Wang, Han Song, Runzhe Zhan, Jusen Du, Jiacheng Chen, et al.
-
-Autonomous agents are increasingly expected to improve executable policies through feedback, yet existing evaluations often collapse this process into a final score or confound it with open-ended software-engineering progress. We introduce Autonomous Policy Evolution, a controlled evaluation setting...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.02440</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AGVBench: A Reliability-Oriented Benchmark of Data Augmentation for Vein Recognition</title>
-      <link>https://huggingface.co/papers/2607.02271</link>
-      <description>By Haiyang Li, Yuming Fu, Qun Song, Hongchao Liao, Jing Chen, et al.
-
-Vein recognition is a secure biometric technology often constrained by limited annotated data and imaging variations. While data augmentation mitigates this, strategies designed for natural images may disrupt the fine-grained topology and textures essential for identity discrimination. We present AG...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.02271</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+Scientific literature search often requires more than retrieving papers from a single query: users' intents are underspecified, preference-dependent, and evolve through interaction. Existing search agents typically rely on fixed pipelines or implicit language-only reasoning, making their search stra...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.00597</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WARP: Weight-Space Analysis for Recovering Training Data Portfolios</title>
@@ -316,6 +271,15 @@ Controllable generative models of 3D medical images can synthesize volumes with 
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Taste-aware music retrieval from audio embeddings</title>
+      <link>https://huggingface.co/papers/2607.03296</link>
+      <description>By Matteo Spanio, Antonio Rodà
+
+Crossmodal correspondences between sound and taste are well established in psychology and neuroscience, but largely absent from content-based multimedia retrieval. We formalise taste-from-audio prediction as a content-based music information retrieval benchmark over a perceptually validated multi-so...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.03296</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification</title>
       <link>https://huggingface.co/papers/2607.01793</link>
       <description>By Yunhao Feng, Ruixiao Lin, Ming Wen, Qinqin He, Yanming Guo, et al.
@@ -331,6 +295,15 @@ LLM agents increasingly perform autonomous actions through external tools, leadi
 
 Optimizer selection for large-scale model training has become a system-level design decision constrained jointly by compute, memory, tuning budget, and task diversity, yet the landscape of over one hundred methods remains fragmented. We therefore present OmniOpt, a unified survey and benchmark cookb...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.04033</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MANCE: Manifold Aware Concept Erasure</title>
+      <link>https://huggingface.co/papers/2607.03973</link>
+      <description>By Matan Avitan, Yoav Goldberg, Yanai Elazar
+
+Concept erasure aims to remove a target concept from a representation while preserving the other information encoded in it. This is difficult because representations encode many concepts that are often correlated with the erasure target, so removing the target risks damaging them. We propose the Man...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.03973</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -385,6 +358,15 @@ Recent advances in multimodal foundation models and agent systems have driven GU
 
 Diffusion large language models (dLLMs) generate text by iteratively denoising a masked sequence, offering a parallel alternative to autoregressive models, but eliciting strong reasoning through post-training remains difficult: supervised fine-tuning is off-policy and suffers from exposure bias, whi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.04428</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Wizards at EXIST 2026: Hierarchical Soft-Label Learning for Multimodal Sexism Identification in Memes</title>
+      <link>https://huggingface.co/papers/2607.04410</link>
+      <description>By Matteo Fasulo, Antonio Gravina, Luca Tedeschini, Luca Babboni
+
+We present the AI Wizards submission to EXIST 2026 for multimodal sexism identification in memes. The task is composed of three, increasingly harder subtasks. We model them hierarchically as conditional soft-label prediction over empirical annotator distributions. Our system maps fixed Gemini Embedd...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.04410</guid>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Unified models for robot manipulation aim to equip one policy with both the sema
 
 Multi-vector vision-language retrieval preserves fine-grained visual evidence through maximum-similarity late interaction, but dense image-side tokens make storage and scoring expensive. Existing token compression methods reduce this cost, yet they can remove or collapse object- and region-level evi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.04605</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MV-Forcing: Long Multi-View Video Generation via 4D-Grounded Spatio-Temporal Self-Forcing</title>
+      <link>https://huggingface.co/papers/2607.05376</link>
+      <description>By Gal Fiebelman, Hadar Averbuch-Elor, Sagie Benaim
+
+Recent advances in video diffusion models have enabled either long single-view generation through temporal autoregression, or short multi-view synthesis through bidirectional attention. However, generating long, multi-view consistent videos of dynamic scenes remains unsolved. In this work, we presen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.05376</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>KVpop -- Key-Value Cache Compression with Predictive Online Pruning</title>
+      <link>https://huggingface.co/papers/2607.05061</link>
+      <description>By Lukas Hauzenberger, Niklas Schmidinger, Anamaria-Roberta Hartl, David Stap, Thomas Schmied, et al.
+
+Key-value (KV) cache growth is a major bottleneck in autoregressive decoding, as memory and bandwidth scale linearly with context length. Existing KV eviction methods often rely on static heuristics or proxy scores, which poorly track future token utility and cause brittle eviction as relevance shif...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.05061</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

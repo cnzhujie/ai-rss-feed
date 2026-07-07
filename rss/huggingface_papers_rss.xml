@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2026 15:09:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 18:06:12 +0000</lastBuildDate>
     <item>
       <title>Transition-Aware best-of-N sampling for Longitudinal Chest X-ray Reports</title>
       <link>https://huggingface.co/papers/2606.28393</link>
@@ -17,15 +17,6 @@
 In longitudinal clinical practice, every chest X-ray is read in the context of the patients prior exam, and much of what the radiologist communicates is the change from one visit to the next. To the best of our knowledge, we present the first training-free best-of-N sampling scheme for pre-trained c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.28393</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Parameter-Efficient Quantum-Inspired Fast Weight Programmers for Traffic-Matrix Forecasting</title>
-      <link>https://huggingface.co/papers/2606.27821</link>
-      <description>By Kuo-Chung Peng, Jiun-Cheng Jiang, Chun-Hua Lin, Tai-Yue Li, Nan-Yow Chen, et al.
-
-Traffic matrices (TMs) capture network-wide origin-destination demand and are central to traffic engineering, yet accurate whole-matrix forecasting remains challenging when prediction must be performed under the memory, update, and training-budget constraints of online network control. This paper in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.27821</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DataComp-VLM: Improved Open Datasets for Vision-Language Models</title>
@@ -37,13 +28,13 @@ Building performant Vision-Language Models (VLMs) requires carefully curating la
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Mirage of Optimizing Training Policies: Monotonic Inference Policies as the Real Objective for LLM Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2606.29526</link>
-      <description>By Jing Liang, Hongyao Tang, Yi Ma, Yancheng He, Weixun Wang, et al.
+      <title>Learning to Trigger: Reinforcement Learning at the Large Hadron Collider</title>
+      <link>https://huggingface.co/papers/2606.23993</link>
+      <description>By Zixin Ding, Shaghayegh Emami, Giovanna Salvi, Cecilia Tosciri, Abhijith Gandrakota, et al.
 
-Reinforcement learning (RL) has gained growing attention in large language model (LLM) post-training, yet RL training remains fragile and can suffer from instability or collapse. One vital cause is training-inference mismatch: LLM adopts separate inference and training engines for generation efficie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.29526</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+High-throughput scientific facilities such as the Large Hadron Collider depend on real-time event filtering (triggering) under tight constraints on bandwidth, latency, and storage. In practice, trigger menus are largely static and hand-tuned and can become suboptimal as detector conditions, pileup, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.23993</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AGE: Adaptive-masking for Graph Embedding in Graph Retrieval-Augmented Generation</title>
@@ -91,6 +82,15 @@ Increasingly, LLM inference services proxy client requests to engine replicas di
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SeKV: Resolution-Adaptive KV Cache with Hierarchical Semantic Memory for Long-Context LLM Inference</title>
+      <link>https://huggingface.co/papers/2606.31145</link>
+      <description>By Amirhossein Abaskohi, Giuseppe Carenini, Peter West, Yuhang He
+
+Large language models increasingly operate over long contexts, where the KV cache becomes a dominant memory bottleneck: its size grows linearly with sequence length and must be retained throughout decoding, making full GPU caching prohibitively expensive without compression. Existing KV cache compre...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.31145</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>AnyBokeh: Physics-Guided Any-to-Any Bokeh Editing with Optical Fingerprint Transfer</title>
       <link>https://huggingface.co/papers/2606.31959</link>
       <description>By Xinyu Hou, Xiaoming Li, Zongsheng Yue, Chen Change Loy
@@ -98,15 +98,6 @@ Increasingly, LLM inference services proxy client requests to engine replicas di
 Depth-of-field control is a fundamental tool in photography, yet post-capture bokeh editing from a single image remains challenging. A practical editor should handle images captured under arbitrary focus and aperture settings. Existing methods typically assume an all-in-focus input, or first recover...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.31959</guid>
       <pubDate>Tue, 30 Jun 2026 17:01:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Scaling Laws for Grid-Based Approximate Nearest Neighbor Search in High Dimensions</title>
-      <link>https://huggingface.co/papers/2607.01283</link>
-      <description>By Matthew J Liu, Wei Hang Zheng, Vidhan Purohit, Siqi Xie, Chieh-En Li, et al.
-
-Grid-based approaches to approximate nearest neighbor (ANN) search have been absent from modern scaling analyses. We present a systematic characterization of a multiprobe grid algorithm with respect to dataset size N and dimensionality d. Our experiments reveal a previously unreported d-scaling cros...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.01283</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MultAttnAttrib: Training-Free Multimodal Attribution in Long Document Question Answering</title>
@@ -134,24 +125,6 @@ LLMs are increasingly used to brainstorm research ideas, but existing evaluation
 Scientific literature search often requires more than retrieving papers from a single query: users' intents are underspecified, preference-dependent, and evolve through interaction. Existing search agents typically rely on fixed pipelines or implicit language-only reasoning, making their search stra...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.00597</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WARP: Weight-Space Analysis for Recovering Training Data Portfolios</title>
-      <link>https://huggingface.co/papers/2607.01686</link>
-      <description>By Tzu-Heng Huang, Aditya Goyal, John Cooper, Frederic Sala
-
-Foundation models are routinely released to the public, yet the data recipes used to train them -- such as domain mixture weights that determine how different sources are sampled -- are rarely disclosed. This creates an access asymmetry: researchers study the resulting models but lack visibility int...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.01686</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Embodied.cpp: A Portable Inference Runtime of Embodied AI Models on Heterogeneous Robots</title>
-      <link>https://huggingface.co/papers/2607.02501</link>
-      <description>By Ling Xu, Chuyu Han, Borui Li, Hao Wu, Shiqi Jiang, et al.
-
-Embodied AI models now span vision-language-action (VLA) models and world-action models (WAMs), but practical deployment remains fragmented across model-specific Python stacks, backend assumptions, and robot-side glue code, especially on heterogeneous edge devices. Existing inference runtimes are de...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.02501</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon</title>
@@ -205,6 +178,15 @@ Evaluating embodied robot foundation models remains a critical bottleneck; unlik
 
 We present EVA-Client, an open-source framework for deployment, data collection, and evaluation of trained manipulation policies on real robots. Sitting between a policy server and the physical hardware, EVA-Client unifies the real-robot stages of the policy iteration loop within a single codebase. ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.02646</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ACID: Action Consistency via Inverse Dynamics for Planning with World Models</title>
+      <link>https://huggingface.co/papers/2607.02403</link>
+      <description>By Gawon Seo, Dongwon Kim, Suha Kwak
+
+Decision-time planning with action-conditioned world models has become a popular paradigm for embodied control. However, the standard planning cost judges a candidate solely by how close its predicted terminal state lies to the goal, leaving the realizability of the intermediate transitions unchecke...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.02403</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -286,6 +268,24 @@ Optimizer selection for large-scale model training has become a system-level des
 
 Concept erasure aims to remove a target concept from a representation while preserving the other information encoded in it. This is difficult because representations encode many concepts that are often correlated with the erasure target, so removing the target risks damaging them. We propose the Man...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.03973</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bridging Interleaved Multi-Modal Reasoning as a Unified Decision Process</title>
+      <link>https://huggingface.co/papers/2607.03748</link>
+      <description>By Zican Hu, Xuyang Hu, Yiming Liu, Zuwei Long, Wei Liu, et al.
+
+Unified multi-modal models (UMMs) have shown promising interleaved text-image reasoning capabilities, yet effectively optimizing such multi-turn generation via reinforcement learning (RL) remains an open challenge. Existing approaches apply RL exclusively to text steps, relegating image generation t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.03748</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Look Before You Leap: Distilling Tree Search into Action Evaluation for Frozen VLA Models</title>
+      <link>https://huggingface.co/papers/2607.03751</link>
+      <description>By Xinyi Xie, Zican Hu, Zhanyu Liu, Yicheng Dong, Wenhao Wu, et al.
+
+Vision-Language-Action (VLA) models acquire broad embodied capabilities through large-scale pretraining, yet their generalization remains far more fragile than that of LLMs and VLMs. The prevailing remedy, post-training via supervised fine-tuning or reinforcement learning, improves task-specific per...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.03751</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

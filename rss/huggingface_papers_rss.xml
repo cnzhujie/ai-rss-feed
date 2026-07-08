@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 07:34:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 10:26:07 +0000</lastBuildDate>
     <item>
       <title>Transition-Aware best-of-N sampling for Longitudinal Chest X-ray Reports</title>
       <link>https://huggingface.co/papers/2606.28393</link>
@@ -80,15 +80,6 @@ Scientific literature search often requires more than retrieving papers from a s
 LLM agents increasingly rely on retrieval buffers to store and reuse past experience, yet the cache management policies governing these buffers remain largely ad-hoc. We formalize this as an online semantic cache replacement problem with switching costs, where items are matched by embedding similari...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.00394</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EVA-Client: A Unified Data Collection, Inference, and Deployment Framework for Embodied Policies on Real Robots</title>
-      <link>https://huggingface.co/papers/2607.02646</link>
-      <description>By Heqing Yang, Yang Yi, Liyao Wang, Linqing Zhong, Donglin Yang, et al.
-
-We present EVA-Client, an open-source framework for deployment, data collection, and evaluation of trained manipulation policies on real robots. Sitting between a policy server and the physical hardware, EVA-Client unifies the real-robot stages of the policy iteration loop within a single codebase. ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.02646</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ACID: Action Consistency via Inverse Dynamics for Planning with World Models</title>
@@ -199,6 +190,15 @@ We introduce MentalThink, a visual-symbolic reasoning paradigm that equips Multi
       <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Bibby AI: An Editor-Native Agentic Platform for Academic Research, Writing, and Publishing</title>
+      <link>https://huggingface.co/papers/2607.05435</link>
+      <description>By Nilesh Jain
+
+Academic output is produced across a fragmented toolchain: literature discovery in one application, reference management in another, writing in a LaTeX editor, formatting against venue templates by hand, and submission through yet another portal. Each boundary between tools forces a context switch, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.05435</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>OmniOpt: Taxonomy, Geometry, and Benchmarking of Modern Optimizers</title>
       <link>https://huggingface.co/papers/2607.04033</link>
       <description>By Siyuan Li, Jiabao Pan, Yumou Liu, Zhuoli Ouyang, Xin Jin, et al.
@@ -260,42 +260,6 @@ Diffusion large language models (dLLMs) generate text by iteratively denoising a
 We present the AI Wizards submission to EXIST 2026 for multimodal sexism identification in memes. The task is composed of three, increasingly harder subtasks. We model them hierarchically as conditional soft-label prediction over empirical annotator distributions. Our system maps fixed Gemini Embedd...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.04410</guid>
       <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Multiplayer Interactive World Models with Representation Autoencoders</title>
-      <link>https://huggingface.co/papers/2607.05352</link>
-      <description>By Anthony Hu, Václav Volhejn, Adrien Ramanana Rahary, Chris Mulder, Aditya Makkar, et al.
-
-We introduce the first multiplayer world model for highly dynamic environments governed by complex physical interactions. Whereas single-player world models treat the other agents as part of the environment, ours conditions on the action streams of multiple agents, learning to attribute changes in t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.05352</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLM-as-a-Verifier: A General-Purpose Verification Framework</title>
-      <link>https://huggingface.co/papers/2607.05391</link>
-      <description>By Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Jiang, et al.
-
-Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.05391</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments</title>
-      <link>https://huggingface.co/papers/2607.05155</link>
-      <description>By Deyao Zhu, Xin Zhou, Shengling Qin, Xuekai Zhu, Hangliang Ding, et al.
-
-Pretraining scaling laws reveal that model capability improves predictably with data and compute. But learning from real world environments after deployment remains far less understood. Analyzing roughly 38,000 hours of agent interaction with the environment across 134 real world tasks, we find, to ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.05155</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization</title>
-      <link>https://huggingface.co/papers/2607.04988</link>
-      <description>By Haoxiang Ma, Junhao Cai, Xiaoxu Xu, Hao Li, Yuyin Yang, et al.
-
-Unified models for robot manipulation aim to equip one policy with both the semantic priors of pretrained VLMs and the physical dynamics learned through future prediction. In practice, existing designs tend to erode the semantics of the pretrained backbone, suffer interference among heterogeneous ob...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.04988</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Do All Visual Tokens Matter Equally? Object-Evidence Preserving Token Merging for Vision-Language Retrieval</title>
@@ -379,6 +343,15 @@ Speculative decoding accelerates Large Language Model (LLM) inference by decoupl
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>CanvasAgent: Enabling Complex Image Creation and Editing via Visual Tool Orchestration</title>
+      <link>https://huggingface.co/papers/2607.05465</link>
+      <description>By Hairui Zhu, Yiying Yang, Tengjin Weng, Ziyu Lu, Xiao Yao, et al.
+
+Complex image creation and editing often require more than a single generation or editing model. A user request may involve synthesizing images, localizing objects, segmenting regions, editing selected content, compositing intermediate assets, reading text, and enhancing the final result. Such tasks...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.05465</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CONFLUX: A Latent Diffusion Model for 3D Chest-CT Synthesis with RL Post-Training</title>
       <link>https://huggingface.co/papers/2607.02998</link>
       <description>By Max Van Puyvelde, Halil Ibrahim Gulluk, Wim Van Criekinge, Olivier Gevaert
@@ -457,6 +430,33 @@ We formulate computer vision as unified multimodal generation, where heterogeneo
 
 On-policy distillation (OPD) trains a student policy by matching a stronger teacher on the student's own trajectories, offering a promising framework for language agent training. However, its application to long-horizon agentic tasks remains insufficiently explored. We identify two key inefficiencie...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.05804</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PluraMath: Extending Mathematical Reasoning Evaluation Beyond High-Resource Languages</title>
+      <link>https://huggingface.co/papers/2607.05992</link>
+      <description>By Daryna Dementieva, Nikolay Babakov, Kathy Hämmerl, Ilseyar Alimova, Jindřich Libovický, et al.
+
+Mathematical reasoning has become a central task for evaluating and tuning reasoning Large Language Models (LLMs), yet existing benchmarks remain heavily biased toward high-resource languages, with English and Chinese dominating both pre-training corpora and evaluation suites. The recently released ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.05992</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Image2Sim: Scaling Embodied Navigation via Generative Neural Simulator</title>
+      <link>https://huggingface.co/papers/2607.05765</link>
+      <description>By Zihan Wang, Seungjun Lee, Yinghao Xu, Gim Hee Lee
+
+Embodied navigation aims to build agents that interpret multimodal goals, reason in 3D space, and reach target destinations reliably in the real world. However, progress remains constrained by the lack of scalable, high-fidelity, and physically grounded interactive environments. Although real-world ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.05765</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Foundation to Application: Improving VLA Models in Practice</title>
+      <link>https://huggingface.co/papers/2607.06403</link>
+      <description>By Wei Wu, Fangjing Wang, Fan Lu, He Sun, Shi Liu, et al.
+
+Despite recent progress of VLA foundation models, the disparity between laboratory conditions and real-world applications continues to impede their practical implementation. To bridge this gap, we present LingBot-VLA 2.0, which advances LingBot-VLA through improvements in three functional domains. (...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.06403</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

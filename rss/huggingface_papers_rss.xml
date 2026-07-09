@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 18:03:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 20:51:51 +0000</lastBuildDate>
     <item>
       <title>MuseBench: Benchmarking Intent-Level Audiovisual Arts Understanding in MLLMs</title>
       <link>https://huggingface.co/papers/2606.30026</link>
@@ -107,15 +107,6 @@ We introduce Rank-Then-Act (RTA), a framework for learning control policies from
 Reinforcement learning (RL) has become a central component of post-training large language models (LLMs), yet little is understood about how RL adaptation is distributed across transformer layers. Existing approaches typically update all model parameters uniformly, implicitly assuming that every lay...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.01232</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SkillOpt-Lite: Better and Faster Agent Self-evolution via One Line of Vibe</title>
-      <link>https://huggingface.co/papers/2607.03451</link>
-      <description>By Yifei Shen, Bo Li, Xinjie Zhang
-
-While skill optimization for autonomous agents has gained traction, existing methods rely on complex pipelines. This leaves a fundamental question unaddressed: What constitutes a minimal viable pipeline for skill optimization, where every component is justified by theory or empirical necessity? We f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.03451</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Parallelized Autoregressive Decoding for Omni-Modal Dense Video Captioning</title>
@@ -217,6 +208,24 @@ Multimodal large language models (MLLMs) generate responses autoregressively, in
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies</title>
+      <link>https://huggingface.co/papers/2607.03723</link>
+      <description>By Kelin Yu, Haode Zhang, Harish Ravichandar, Yunhai Han, Ruohan Gao
+
+Visual policies learned from human videos, teleoperation, and robot demonstrations offer scalable motion priors, but often fail in contact-rich manipulation, where success significantly depends on local force and contact geometry. Tactile sensing provides these complementary signals, yet tactile dat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.03723</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TESSERA v2: Scaling Pixel-wise Earth Foundation Models</title>
+      <link>https://huggingface.co/papers/2607.03949</link>
+      <description>By Zhengpeng Feng, Sadiq Jaffer, Ira Shokar, Jovana Knezevic, Mark Elvers, et al.
+
+Pixel-wise Earth-observation (EO) foundation models are now achieving state-of-the-art performance via generated spatial embeddings. However, how these models scale and how best to spend a pretraining budget remain poorly understood. We present the largest controlled scaling study for EO to date: 39...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.03949</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>SceneFrom3D: Geometry-Conditioned Outdoor 3D Scene Generation via View Scheduling with Object-Level Control</title>
       <link>https://huggingface.co/papers/2607.04540</link>
       <description>By Geonung Kim, Jeongeun Park, Nuri Ryu, Di Liu, Sunghyun Cho
@@ -287,24 +296,6 @@ We present HunyuanOCR-1.5, a lightweight end-to-end OCR-specialized vision-langu
 Large Language Models (LLMs) unlocked new possibilities in automated code writing, becoming the backbone of most code completion tools. While LLMs excel in mainstream languages, they often lack support for the so-called low-resource languages where training data is scarce. As a result, these languag...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.04939</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AlayaWorld: Long-Horizon and Playable Video World Generation</title>
-      <link>https://huggingface.co/papers/2607.06291</link>
-      <description>By AlayaWorld Team, Kaipeng Zhang, Chuanhao Li, Yifan Zhan, Yongtao Ge, et al.
-
-Game worlds have traditionally been built through labor-intensive production pipelines, making them costly to develop, difficult to customization, and expensive to modify after deployment. Recent advances in video world models offer a fundamentally different paradigm. Rather than explicitly authorin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.06291</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models</title>
-      <link>https://huggingface.co/papers/2607.06442</link>
-      <description>By Changti Wu, Bin Yu, Zhaolong Shen, Shijie Lian, Xiaopeng Lin, et al.
-
-Vision-Language-Action (VLA) models are typically trained by imitation learning on large-scale robot demonstration datasets, but more data does not necessarily yield better policies due to redundancy, noise, and uneven coverage. Existing data selection methods often assess demonstrations at either t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.06442</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Quantifying and Expanding the Theoretical Capacity of Late-Interaction Retrieval Models</title>
@@ -403,6 +394,15 @@ Long-horizon failure in world models is conventionally attributed to compounding
 
 We present AgentLens, a production-assessed benchmark for interactive code agents. Most code-agent benchmarks reduce a run to a single bit -- did the task pass? -- but the people who actually use these agents experience the entire trajectory: how the agent follows instructions, uses its tools, verif...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.06624</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Token-Based Dual-view Fusion and Adaptation of Large Vision Models for Breast Cancer Classification</title>
+      <link>https://huggingface.co/papers/2607.06309</link>
+      <description>By Aysan Ghayouri Pirsoltan, Shima Babakordi, Mohammad Reza Mohammadi
+
+Accurate breast cancer classification from mammography requires effective integration of complementary information from craniocaudal (CC) and mediolateral oblique (MLO) views, which provide a more complete characterization of breast abnormalities. However, existing multi-view learning approaches typ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.06309</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

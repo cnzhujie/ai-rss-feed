@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 03:20:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 06:25:16 +0000</lastBuildDate>
     <item>
       <title>EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos</title>
       <link>https://huggingface.co/papers/2607.09701</link>
@@ -44,15 +44,6 @@ Vision-language models (VLMs) have made interactive digital museums increasingly
 Image guardrails are typically trained and evaluated under a fixed safety policy, implicitly treating safety as an intrinsic property of an image. Real deployments are different: the same image may be allowed in one product, restricted in another, and newly disallowed when a policy boundary changes....</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.05910</guid>
       <pubDate>Tue, 07 Jul 2026 07:04:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>KronQ: LLM Quantization via Kronecker-Factored Hessian</title>
-      <link>https://huggingface.co/papers/2607.07964</link>
-      <description>By Donghyun Lee, Yuhang Li, Ruokai Yin, Priyadarshini Panda
-
-Post-training quantization (PTQ) is a widely adopted technique for compressing large language models (LLMs) without retraining. Existing second-order PTQ methods, including GPTQ, construct quantization objectives exclusively from input activation statistics, effectively assuming that all output chan...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.07964</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation</title>
@@ -91,6 +82,15 @@ Starting from the utilization of deep neural networks to approximate the state-a
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization</title>
+      <link>https://huggingface.co/papers/2607.07702</link>
+      <description>By Ying Chang, Jiahang Xu, Xuan Feng, Chenyuan Yang, Peng Cheng, et al.
+
+The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real execution traces are difficult to use directly for optimization: large trace collec...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.07702</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>A Theory of Contrastive Learning with Natural Images</title>
       <link>https://huggingface.co/papers/2607.07470</link>
       <description>By Antonio Torralba, Yair Weiss
@@ -98,24 +98,6 @@ Starting from the utilization of deep neural networks to approximate the state-a
 Why does contrastive learning with simple images and augmentations yield useful representations for downstream tasks? We address this question by analytically computing the optimal representation in terms of a contrastive loss for a range of basic augmentations and any image dataset with stationary ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.07470</guid>
       <pubDate>Wed, 08 Jul 2026 14:32:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models</title>
-      <link>https://huggingface.co/papers/2607.06553</link>
-      <description>By Zanyi Wang, Xin Lin, Haodong Li, Dengyang Jiang, Yijiang Li
-
-Large-scale text-to-image models are attractive backbones for dense prediction because RGB generation pretraining learns rich semantic, structural, and geometric priors. Existing generative and editing approaches reuse these priors by casting dense prediction as target generation: annotations such a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.06553</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading</title>
-      <link>https://huggingface.co/papers/2607.08964</link>
-      <description>By Zongxia Li, Zhongzhi Li, Yucheng Shi, Ruhan Wang, Junyao Yang, et al.
-
-AI agents have become capable of autonomously completing short, well-specified tasks. However, existing terminal benchmarks largely focus on simple problems that finish within minutes and are evaluated only by their final outcome. This setup overlooks intermediate progress and partial solutions, yie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.08964</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models</title>
@@ -152,24 +134,6 @@ Visual generators excel at rendering, but they confidently fabricate what they d
 Large language models fine-tuned for forecasting can be accurate yet poorly calibrated, and their chain-of-thought (CoT) reasoning may not faithfully reflect the evidence behind a forecast. We ask whether internal representations offer a more direct window into both. Working with Eternis-Forecaster ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.08046</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PanoWorld: Real-World Panoramic Generation</title>
-      <link>https://huggingface.co/papers/2607.09661</link>
-      <description>By Haoyuan Li, Dizhe Zhang, Yuemei Zhou, Xiangkai Zhang, Haoran Feng, et al.
-
-In this work, we aim to address the challenge of long-range memory in panoramic world models by exploiting the rotation-equivariant property of omnidirectional representations, where rotation can be treated as an implicit geometric transformation.Building on this insight, we propose PanoWorld, which...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.09661</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Phone Segmentation and Recognition through Phonological Activation Mapping</title>
-      <link>https://huggingface.co/papers/2607.09020</link>
-      <description>By Shikhar Bharadwaj, Kwanghee Choi, Stephen McIntosh, Chin-Jou Li, Eunjung Yeo, et al.
-
-Phone segmentation and recognition are inherently related tasks, yet modern approaches typically model them separately. We argue that phonetic structure is already latent in the representations of self-supervised speech models (S3Ms), and one only needs to steer them to solve both tasks. We leverage...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.09020</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>4D Human-Scene Reconstruction from Low-Overlap Captures</title>
@@ -307,6 +271,15 @@ Post-training is essential for refining the domain-specific capabilities of larg
       <pubDate>Mon, 13 Jul 2026 12:56:21 +0000</pubDate>
     </item>
     <item>
+      <title>Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos</title>
+      <link>https://huggingface.co/papers/2607.11523</link>
+      <description>By Gong Sitong, Tianyu Yan, Caixin Kang, Bo Zheng, Xiang Ruan, et al.
+
+When should an intelligent assistant speak up without being asked? Continuous egocentric video offers rich, evolving context that enables a new form of assistance: one that is proactive rather than merely reactive. Yet existing approaches either wait passively for user queries or treat every detecte...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.11523</guid>
+      <pubDate>Mon, 13 Jul 2026 13:09:45 +0000</pubDate>
+    </item>
+    <item>
       <title>MonkeyOCRv2: A Visual-Text Foundation Model for Document AI</title>
       <link>https://huggingface.co/papers/2607.11562</link>
       <description>By Yuliang Liu, Zhang Li, Ziyang Zhang, Shuo Zhang, Qiang Liu, et al.
@@ -433,6 +406,24 @@ Structured pruning is a hardware-friendly way to compress LLMs, but it is mostly
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Tracing Agentic Failure from the Flow of Success</title>
+      <link>https://huggingface.co/papers/2607.12747</link>
+      <description>By Samuel Yeh, Yiwen Zhu, Shaleen Deep, Sharon Li
+
+Failure attribution for LLM-based agentic systems, i.e., identifying which steps in a failure trajectory caused the task to fail, is critical for debugging and improving these systems. Existing approaches either rely on prompting-based pipelines, which are computationally expensive, or require post-...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.12747</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boogu-Image-0.1: Boosting Open-Source Unified Multimodal Understanding and Generation</title>
+      <link>https://huggingface.co/papers/2607.13125</link>
+      <description>By Guoxuan Chen, Chufeng Xiao, Haoran Yang, Siyue Xie, Binxiao Huang, et al.
+
+We introduce Boogu-Image-0.1, an open-source unified multimodal understanding and generation model family, comprising Base, Turbo, Edit, and Edit-Turbo variants. It delivers competitive performance in high-quality text-to-image generation, fast inference, instruction-based editing, and bilingual (Ch...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.13125</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>OvisOCR2 Technical Report</title>
       <link>https://huggingface.co/papers/2607.13639</link>
       <description>By Shiyin Lu, Yinglun Li, Yu Xia, Yuhui Chen, An-Yang Ji, et al.
@@ -457,6 +448,15 @@ OpenClaw has emerged as a leading agent framework for complex task automation, y
 
 World Action Models (WAMs) improve robot policy learning by jointly modeling actions and future visual observations, using future scene evolution as dense supervision for physically grounded action generation. However, a common design in existing WAMs is to explicitly generate future videos at infer...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.13960</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hallo4D: Multi-Modal Hallucination Mitigation for Consistent Spatio-Temporal Generation</title>
+      <link>https://huggingface.co/papers/2607.12752</link>
+      <description>By Hongbo Wang, Huaibo Huang, Jie Cao, Jin Liu, Haoyang Tong, et al.
+
+While recent advances in 3D generation have enabled impressive visual synthesis, existing methods often rely on 2D diffusion supervision without explicit mechanisms for geometric consistency, leading to spatial hallucinations such as duplicated structures and misaligned geometry. These issues become...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.12752</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

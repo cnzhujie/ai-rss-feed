@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 07:22:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 10:05:26 +0000</lastBuildDate>
     <item>
       <title>Spectral Rewiring for Exploration, Purification, and Model Merging</title>
       <link>https://huggingface.co/papers/2607.03065</link>
@@ -64,33 +64,6 @@ Length-penalized reinforcement learning can shorten chain-of-thought reasoning w
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation</title>
-      <link>https://huggingface.co/papers/2607.05382</link>
-      <description>By Haozhe Wang, Weijia Feng, Jinpeng Yu, Che Liu, Ping Nie, et al.
-
-Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. This world-knowledge bottleneck is structural: generators are trained on fixed c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.05382</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness</title>
-      <link>https://huggingface.co/papers/2607.08046</link>
-      <description>By Raphaël Sarfati, Pratyush Ranjan Tiwari, Siddharth Boppana, Christopher J. Earls, Srikar Varadaraj, et al.
-
-Large language models fine-tuned for forecasting can be accurate yet poorly calibrated, and their chain-of-thought (CoT) reasoning may not faithfully reflect the evidence behind a forecast. We ask whether internal representations offer a more direct window into both. Working with Eternis-Forecaster ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.08046</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SynthDocBench: Controlled Benchmark for Long-Context Visual Document Understanding</title>
-      <link>https://huggingface.co/papers/2607.10400</link>
-      <description>By Abhigya Verma, Khyati Mahajan, Amit Kumar Saha, Shruthan Radhakrishna, Sagar Davasam, et al.
-
-Vision language models (VLMs) have achieved strong performance on visual document understanding benchmarks such as DocVQA, ChartQA, and MMLongBench-Doc. However, real-world documents combine multiple factors such as length, layout complexity, modality, and question difficulty, which makes it difficu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.10400</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>GRASP: GRanularity-Aware Search Policy for Agentic RAG</title>
       <link>https://huggingface.co/papers/2607.10463</link>
       <description>By Varun Gandhi, Jaewook Lee, Shantanu Todmal, Franck Dernoncourt, Ryan Rossi, et al.
@@ -125,6 +98,15 @@ Multi-scene navigation (clearing an objective in one bounded space and then cros
 Current visual generation models are capable of producing high-quality content, yet they lack a coherent perception of the spatial structure. Existing generative novel view synthesis methods typically introduce explicit geometry priors, which enforce spatial consistency but inherently restrict gener...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.12000</guid>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AsySplat: Efficient Asymmetric 3D Gaussian Splatting for Long-Sequence Scene Modeling</title>
+      <link>https://huggingface.co/papers/2607.10995</link>
+      <description>By Yingji Zhong, Dave Zhenyu Chen, Fuzhao Ou, Youyu Chen, Zhihao Li, et al.
+
+Recent generalizable 3D Gaussian Splatting models have advanced long-sequence novel view synthesis (NVS), but at the cost of substantial redundant computation. We identify that the redundancy can be mitigated based on two observations: (i) high-precision geometry is not strictly required for high-qu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.10995</guid>
+      <pubDate>Mon, 13 Jul 2026 01:39:19 +0000</pubDate>
     </item>
     <item>
       <title>Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos</title>
@@ -457,6 +439,24 @@ Recent advances in video understanding have spanned motion, long video, and stre
 
 In-context learning is commonly interpreted as a form of conditional inference, in which the prompt specifies a context and the model's output is treated as an estimate of the corresponding conditional distribution. If this interpretation holds, then LLM estimates should satisfy basic probabilistic ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.15277</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance</title>
+      <link>https://huggingface.co/papers/2607.14660</link>
+      <description>By Yunfeng Liu, Yuandong Yang, Jiarui Han, Zhenpeng Huang, Yuqing Tang, et al.
+
+Visually impaired individuals (VIIs) encounter significant daily challenges due to limited access to visual information. Although Multimodal Large Language Models (MLLMs) have achieved impressive results on general vision and language tasks, their practical utility in real-world blind assistance sti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.14660</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget</title>
+      <link>https://huggingface.co/papers/2607.14952</link>
+      <description>By Changhai Zhou, Kieran Liu, Yuhua Zhou, Qian Qiao, Jun Gao, et al.
+
+A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length generalization at deployment. The gap is especially important for AI agents, whose ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.14952</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

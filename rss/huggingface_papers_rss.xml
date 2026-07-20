@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 20:35:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 22:06:16 +0000</lastBuildDate>
     <item>
       <title>Token Time Continuous Diffusion for Language Modeling</title>
       <link>https://huggingface.co/papers/2607.14106</link>
@@ -118,6 +118,15 @@ Vision-language-action (VLA) models predict robot actions from visual observatio
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SVR-R1: Bootstrapping Multi-modal Reasoning with Self-verification in Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2607.10966</link>
+      <description>By Mingyuan Wu, Jingcheng Yang, Shengyi Qian, Xudong Wang, Jize Jiang, et al.
+
+We introduce Self-Verified Reasoner (SVR-R1), a multi-turn RL framework that turns a model's own verification into a learning signal for multimodal reasoning. For each query, the model proposes an answer using the same weights, and issues a binary self-verdict (Yes/No). A 'No' triggers a second-chan...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.10966</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes</title>
       <link>https://huggingface.co/papers/2607.13188</link>
       <description>By Minh-Quan Le, Armand Comas, Alexandros Lattas, Stylianos Moschoglou, Pedro Vélez, et al.
@@ -152,15 +161,6 @@ We revisit the evaluation of automatic harness evolution for LLM agents. Existin
 Code review helps maintain software quality before code integration, but it also imposes a substantial workload on human reviewers. As generative artificial intelligence becomes part of software development, code review is shifting from a primarily human review process toward AI-supported review pro...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.13196</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Smarter and Cheaper at Once: Byte-Exact KV-Cache Grafting Turns a Frozen Small Model into a Verified-Knowledge Flywheel</title>
-      <link>https://huggingface.co/papers/2607.14431</link>
-      <description>By Sietse Schelpe
-
-We report a way to make a frozen small language model both more capable and dramatically cheaper at once, without changing any weights. Verified knowledge is deposited once as a byte-exact key-value (KV) state artifact and later restored, by graft, into a fresh inference context. The restore is bit-...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.14431</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Demystifying On-Policy Distillation: Roles, Pathologies, and Regulations</title>
@@ -242,15 +242,6 @@ Healthcare spans high-stakes communication, expert reasoning, and workflow execu
 Video generative models commonly rely on latent spaces learned by 3D Variational Autoencoders (3D-VAEs). However, conventional 3D-VAEs are mainly optimized for pixel-level reconstruction, which can limit the semantic and spatio-temporal structure captured by their latents. Meanwhile, Video Foundatio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.14088</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2607.14777</link>
-      <description>By Jinyang Wu, Shuo Yang, Zhengxi Lu, Fan Zhang, Yuhao Shen, et al.
-
-Large language models are increasingly trained as interactive agents for long-horizon tasks involving multi-turn interaction, tool use, and environment feedback. Outcome-based reinforcement learning (RL) provides a practical optimization paradigm, but its sparse trajectory-level rewards offer limite...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.14777</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MeanFlowNFT: Bringing Forward-Process RL to Average-Velocity Generators</title>
@@ -457,6 +448,15 @@ We present S1-Omni, a unified multimodal reasoning model for scientific understa
 
 Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through matched single-seed comparisons with AdamW on ALFWorld using Qwen2.5-0.5B-Instruct. Under Group-in-Group ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.16169</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents</title>
+      <link>https://huggingface.co/papers/2607.15263</link>
+      <description>By Paul Kassianik, Blaine Nelson, Yaron Singer
+
+Security-agent evaluations commonly measure peak offensive capability under generous inference budgets, emphasizing vulnerability discovery, exploit development, penetration testing, and CTF completion. Such measurements are useful but incomplete: in operational security, every reasoning step, tool ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.15263</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 07:36:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 10:30:26 +0000</lastBuildDate>
     <item>
       <title>Benchmarking Sensor Robustness in Plasma Diagnostic Models: A Systematic Evaluation on TokaMark</title>
       <link>https://huggingface.co/papers/2607.11915</link>
@@ -37,13 +37,13 @@ Reinforcement learning from verifiable rewards (e.g. GRPO) is the engine behind 
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>On Locality and Length Generalization in Visual Reasoning</title>
-      <link>https://huggingface.co/papers/2607.09061</link>
-      <description>By Pulkit Madan, Sanjay Haresh, Reza Ebrahimi, Sunny Panchal, Apratim Bhattacharyya, et al.
+      <title>DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment</title>
+      <link>https://huggingface.co/papers/2607.07820</link>
+      <description>By Xinyu Geng, Xuanhua He, Sixiang Chen, Yanjing Xiao, Fan Zhang, et al.
 
-A striking feature of the human visual system is that it ingests visual information through a series of local foveated glimpses, rather than a single global computation. This makes human vision distinctly different from most popular computer vision models in use today, which input images globally an...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.09061</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+Training tool-use agents to improve from their own experience remains challenging, as supervised fine-tuning relies on fixed teacher-distilled trajectories, while sparse-reward reinforcement learning provides weak supervision for long-horizon interactions. We present DeepSearch-Evolve, a self-distil...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.07820</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>REBASE: Reference-Background Subspace Elimination for Training-Free In-Context Segmentation</title>
@@ -62,6 +62,24 @@ Training-free in-context segmentation enables new object categories to be introd
 Scaling robust driving policies is fundamentally bottlenecked by the scarcity of edge cases in curated datasets. While the real world continuously captures these critical events, such long-tail events remain underutilized when collected from heterogeneous sources. Specifically, diverse but valuable ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.09655</guid>
       <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GigaAM Multilingual: Foundation Model for Underrepresented Languages</title>
+      <link>https://huggingface.co/papers/2607.10371</link>
+      <description>By Andrei Kuzmenko, Alexandr Maximenko, Aleksandr Kutsakov, Georgii Gospodinov, Dmitrii Bolotov, et al.
+
+Despite recent scaling successes, multilingual ASR performance remains highly uneven, with long-tail languages suffering from severe data scarcity. This work addresses the challenge of building robust foundation models for underrepresented Central Asian languages (Kazakh, Kyrgyz, Uzbek). We present ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.10371</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GigaChat Audio: Time-aware Large Audio Language Model</title>
+      <link>https://huggingface.co/papers/2607.10387</link>
+      <description>By Aleksandr Kutsakov, Mariia Sadovina, Georgii Gospodinov, Alexandr Maximenko, Oleg Kutuzov, et al.
+
+Temporal grounding in long recordings remains challenging for audio-conditioned LLMs. We present a time-aware audio LLM that answers questions with explicit timestamps over up to 120 minutes of input. Our approach interleaves periodic time markers with continuous audio tokens using large-scale synth...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.10387</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Qwen-Music Technical Report</title>
@@ -100,15 +118,6 @@ We introduce Self-Verified Reasoner (SVR-R1), a multi-turn RL framework that tur
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Rethinking the Evaluation of Harness Evolution for Agents</title>
-      <link>https://huggingface.co/papers/2607.12227</link>
-      <description>By Yike Wang, Huaisheng Zhu, Zhengyu Hu, Yige Yuan, Zhengyu Chen, et al.
-
-We revisit the evaluation of automatic harness evolution for LLM agents. Existing harness evolution methods use unit test cases to search for harness configurations and then report final performance on the same public benchmark. This protocol raises two fundamental concerns. First, harness evolution...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.12227</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality</title>
       <link>https://huggingface.co/papers/2607.13196</link>
       <description>By Suzhen Zhong, Shayan Noei, Bram Adams, Ying Zou
@@ -125,24 +134,6 @@ Code review helps maintain software quality before code integration, but it also
 Building assistants that can continually watch the world, remember what they see, and reason over their accumulated experience is a long-standing goal, and recently multimodal agents equipped with long-term memory over video streams have attracted increasing interest. Unfortunately, existing systems...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.09759</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination</title>
-      <link>https://huggingface.co/papers/2607.14187</link>
-      <description>By Haotian Liang, Mingkang Chen, Yufei Huang, Yuchun Guo, Xiaomeng Zhu, et al.
-
-Embodied cognition requires agents to connect high-level task reasoning with the physical states to be achieved. We introduce Hy-Embodied-RxBrain, an embodied cognition foundation model with joint language-visual reasoning and imagination. Unlike vision-language models that emphasize scene understan...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.14187</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving</title>
-      <link>https://huggingface.co/papers/2607.14387</link>
-      <description>By Yuan Gao, Wenting Miao, Mattia Piccinini, Haoyu Wang, Qunying Song, et al.
-
-Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simulation-based testing, scenarios are defined as executable scripts. Yet automatically generating such scripts from regulatory descriptions remains an open challenge, and existing approaches face fundam...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.14387</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Cura 1T: Specialized Model for Agentic Healthcare</title>
@@ -179,15 +170,6 @@ Serial verification gates are a core reliability primitive in LLM harnesses: a c
 Existing 3D generative models predominantly rely on implicit volumetric representations, which enforce watertight topology and struggle to represent thin-shell and non-manifold geometries such as garments. Geometry image-based approaches offer a surface-centric alternative, but existing methods rely...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.13365</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hierarchical Denoising For Multi-Step Visual Reasoning</title>
-      <link>https://huggingface.co/papers/2607.15278</link>
-      <description>By Zezhong Qian, Xiaowei Chi, Chak-Wing Mak, Tianze Zhou, Ruibin Yuan, et al.
-
-Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to dense frame-level den...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.15278</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>xHC: Expanded Hyper-Connections</title>
@@ -233,15 +215,6 @@ Reinforcement learning with verifiable rewards (RLVR) commonly uses entropy for 
 Skills are a useful abstraction for software agents, turning human and agent experience into reusable procedural knowledge. Yet existing skill libraries are mostly hand-written, text-centric, or derived from agent traces, leaving tutorial videos and other multimodal human resources largely underused...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.29538</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Understanding Reasoning from Pretraining to Post-Training</title>
-      <link>https://huggingface.co/papers/2607.16097</link>
-      <description>By Jingyan Shen, Ang Li, Salman Rahman, Yifan Sun, Micah Goldblum, et al.
-
-Reinforcement learning (RL) has become central to improving large language models (LLMs) on complex reasoning tasks, yet RL post-training is largely studied in isolation from the pretraining that precedes it. As a result, two basic questions remain open: (1) how do pretraining choices (model size, d...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.16097</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RecGPT-V3 Technical Report</title>
@@ -379,6 +352,24 @@ Video multimodal large language models (MLLMs) can describe what happens in a vi
       <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>HarmoHOI: Harmonizing Appearance and 3D Motion for Multi-view Hand-Object Interaction Synthesis</title>
+      <link>https://huggingface.co/papers/2607.17097</link>
+      <description>By Lingwei Dang, Juntong Li, Zonghan Li, Hongwen Zhang, Liang An, et al.
+
+Hand-Object Interaction (HOI) synthesis is a cornerstone for animation production and embodied AI. Despite the strong priors of video foundation models, multi-view consistent HOI synthesis remains challenging due to complex hand motions and occlusions. We present HarmoHOI, a unified diffusion framew...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.17097</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Geometry of Semantic Space: A Continuous Geometric Framework for the Transformer Architecture</title>
+      <link>https://huggingface.co/papers/2607.17146</link>
+      <description>By Zhihua Liang
+
+We present a continuous geometric framework that models the discrete algebraic operations of the Transformer architecture as an integro-differential equation (IDE) on a semantic fiber bundle calE = calM times R^d. Beginning from a single geometric axiom -- that the token sequence forms a discrete 1-...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.17146</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>DiFA: Inference-Time Forward-Process Alignment for Diffusion Models</title>
       <link>https://huggingface.co/papers/2607.17972</link>
       <description>By Shigui Li, Delu Zeng
@@ -457,6 +448,15 @@ In line with the prevailing direction of vision research, we explore the integra
 
 Self-hosted AI agents read and write their own memory and configuration files to function. An agent may get compromised via corruption of its own state -- a compromise realized via legitimate OS system call invocation. We refer to this class of threats as self-state attacks. In this paper, we invest...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.17986</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WorldCupArena: Fine-Grained Evaluation of Language Models and Deep-Research Agents on Football Forecasting</title>
+      <link>https://huggingface.co/papers/2607.18084</link>
+      <description>By Zhaokai Wang, Tianlin Gui, Jiayuan Rao, Shangzhe Di, Yihong Tang, et al.
+
+Predicting a football match before kickoff requires more than knowing past results: a model must use changing information and make a clear prediction before the answer is available. We present WorldCupArena, a dynamic benchmark for language models and deep-research agents. The 2026 FIFA World Cup is...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.18084</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

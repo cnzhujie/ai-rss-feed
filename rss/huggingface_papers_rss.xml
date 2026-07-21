@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 10:30:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:26:41 +0000</lastBuildDate>
     <item>
       <title>Benchmarking Sensor Robustness in Plasma Diagnostic Models: A Systematic Evaluation on TokaMark</title>
       <link>https://huggingface.co/papers/2607.11915</link>
@@ -118,15 +118,6 @@ We introduce Self-Verified Reasoner (SVR-R1), a multi-turn RL framework that tur
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>From Human-Centric to Agentic Code Review: The Impact of Different Generations of Generative AI Technology on Review Quality</title>
-      <link>https://huggingface.co/papers/2607.13196</link>
-      <description>By Suzhen Zhong, Shayan Noei, Bram Adams, Ying Zou
-
-Code review helps maintain software quality before code integration, but it also imposes a substantial workload on human reviewers. As generative artificial intelligence becomes part of software development, code review is shifting from a primarily human review process toward AI-supported review pro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.13196</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ReflectWorld-MM: An Entity-Oriented Multimodal Memory System for Open-Ended Video Streams</title>
       <link>https://huggingface.co/papers/2607.09759</link>
       <description>By Xiaokang Ma, Yifan Sun, Zhihong Jin, Jie Gu, Yudong Luo, et al.
@@ -169,6 +160,15 @@ Serial verification gates are a core reliability primitive in LLM harnesses: a c
 
 Existing 3D generative models predominantly rely on implicit volumetric representations, which enforce watertight topology and struggle to represent thin-shell and non-manifold geometries such as garments. Geometry image-based approaches offer a surface-centric alternative, but existing methods rely...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.13365</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Diagnosing and Calibrating Tool-Call Boundary Drift in Multi-Teacher On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2607.07050</link>
+      <description>By Jiabin Shen, Guang Chen, Chengjun Mao
+
+Agentic language models must learn when to call tools, when to consume tool responses, and when to answer directly. This makes multi-teacher on-policy distillation a natural training strategy: one teacher can specialize in tool calls, another in direct responses, and the student can learn from both ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.07050</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -215,24 +215,6 @@ Reinforcement learning with verifiable rewards (RLVR) commonly uses entropy for 
 Skills are a useful abstraction for software agents, turning human and agent experience into reusable procedural knowledge. Yet existing skill libraries are mostly hand-written, text-centric, or derived from agent traces, leaving tutorial videos and other multimodal human resources largely underused...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.29538</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RecGPT-V3 Technical Report</title>
-      <link>https://huggingface.co/papers/2607.15591</link>
-      <description>By Bowen Zheng, Chao Yi, Dian Chen, Gaoyang Guo, Han Zhu, et al.
-
-Large language models (LLMs) are transforming recommender systems from matching co-occurrence patterns in historical behavior toward reasoning about the intent that drives it. RecGPT-V1 pioneered this paradigm on Taobao by centering user understanding, and RecGPT-V2 scaled it via coordinated multi-a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.15591</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos</title>
-      <link>https://huggingface.co/papers/2607.16107</link>
-      <description>By Sreyan Ghosh, Arushi Goel, Kaousheik Jayakumar, Lasha Koroshinadze, Nishit Anand, et al.
-
-We present Audio-Visual Flamingo (AV-Flamingo), a fully open state-of-the-art audio-visual large language model (AV-LLM) for joint understanding and reasoning over audio, images, and long-form videos. Unlike prior AV-LLMs that primarily focus on short clips, AV-Flamingo is designed for understanding...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.16107</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Loop the Loopies!</title>
@@ -322,6 +304,15 @@ Training API-calling large language model (LLM) agents demands massive amounts o
 
 Entropy control has become an effective tool in reinforcement learning (RL) of large language models (LLMs), helping balance exploration-exploitation trade-off during alignment process. Such RL paradigm is often conducted on mixtures of heterogeneous tasks, which induce distinct entropy regimes unde...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.16850</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can Multimodal Large Language Models Understand OCT?</title>
+      <link>https://huggingface.co/papers/2607.16609</link>
+      <description>By Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, et al.
+
+Optical coherence tomography (OCT) imaging is essential for the diagnosis and treatment of retinal diseases. Although multimodal large language models (MLLMs) have demonstrated considerable potential in medical image analysis, existing benchmarks largely reduce OCT understanding to coarse-grained di...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.16609</guid>
       <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Self-hosted AI agents read and write their own memory and configuration files to
 
 Predicting a football match before kickoff requires more than knowing past results: a model must use changing information and make a clear prediction before the answer is available. We present WorldCupArena, a dynamic benchmark for language models and deep-research agents. The 2026 FIFA World Cup is...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.18084</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ShotPlan: Cinematic Video Generation with Learnable Planning Token</title>
+      <link>https://huggingface.co/papers/2607.17675</link>
+      <description>By Su Guo, Guangce Liu, Haosen Yang, Jiepeng Wang, Cong Liu, et al.
+
+Current video generation models achieve impressive results in single-shot generation, yet remain limited in cinematic video generation, where coherent narratives and effective multi-shot composition require explicit shot planning. To address this challenge, we propose ShotPlan, a framework for expli...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.17675</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

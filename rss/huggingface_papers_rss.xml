@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 12:26:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 15:08:44 +0000</lastBuildDate>
     <item>
       <title>Benchmarking Sensor Robustness in Plasma Diagnostic Models: A Systematic Evaluation on TokaMark</title>
       <link>https://huggingface.co/papers/2607.11915</link>
@@ -127,15 +127,6 @@ Building assistants that can continually watch the world, remember what they see
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cura 1T: Specialized Model for Agentic Healthcare</title>
-      <link>https://huggingface.co/papers/2607.15314</link>
-      <description>By actAVA AI, Haolin Chen, Leon Qi, Steve Brown, Deon Metelski, et al.
-
-Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health re...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.15314</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders</title>
       <link>https://huggingface.co/papers/2607.14088</link>
       <description>By Zhihao Xie, Junfeng Wu, Xinting Hu, Junchao Huang, Li Jiang
@@ -169,6 +160,15 @@ Existing 3D generative models predominantly rely on implicit volumetric represen
 
 Agentic language models must learn when to call tools, when to consume tool responses, and when to answer directly. This makes multi-teacher on-policy distillation a natural training strategy: one teacher can specialize in tool calls, another in direct responses, and the student can learn from both ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.07050</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning</title>
+      <link>https://huggingface.co/papers/2607.14183</link>
+      <description>By Zishuo Li, Bowen Yang, Changtao Miao, Kai Zhu, Hao Chen, et al.
+
+Egocentric videos of human manipulation provide scalable supervision for embodied intelligence, yet existing resources rarely combine low-cost continuous capture, manipulation-level structured annotations, and reusable tools for robot learning. We present Open-AoE, an open, community-oriented egocen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.14183</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -215,24 +215,6 @@ Reinforcement learning with verifiable rewards (RLVR) commonly uses entropy for 
 Skills are a useful abstraction for software agents, turning human and agent experience into reusable procedural knowledge. Yet existing skill libraries are mostly hand-written, text-centric, or derived from agent traces, leaving tutorial videos and other multimodal human resources largely underused...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2606.29538</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Loop the Loopies!</title>
-      <link>https://huggingface.co/papers/2607.16051</link>
-      <description>By Zitian Gao, Yilong Chen, Yihao Xiao, Xinyu Yang, Ran Tao, et al.
-
-We present Loopie, the most powerful looped Transformer to date. The Loopie series consists of two Mixture-of-Experts (MoE) models: a 20B-parameter model with 2B active parameters and a 6Bparameter model with 0.6B active parameters. Looped Transformers have long faced a challenge: given an N-fold in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.16051</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Recursive Harness Self-Improvement</title>
-      <link>https://huggingface.co/papers/2607.15524</link>
-      <description>By Hyunin Lee, Jinglue Xu, Jeffrey Seely, Donghyun Lee, Matei Zaharia, et al.
-
-Under model--harness co-evolution, harnesses are not merely inference-time scaffolds but data-generating components whose execution traces can shape future foundation models. This motivates harness-in-the-loop learning: optimizing harnesses for both immediate agent performance and the quality of tra...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.15524</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DSWorld: A Data Science World Model for Efficient Autonomous Agents</title>
@@ -457,6 +439,24 @@ Predicting a football match before kickoff requires more than knowing past resul
 
 Current video generation models achieve impressive results in single-shot generation, yet remain limited in cinematic video generation, where coherent narratives and effective multi-shot composition require explicit shot planning. To address this challenge, we propose ShotPlan, a framework for expli...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.17675</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints</title>
+      <link>https://huggingface.co/papers/2607.18144</link>
+      <description>By Thomas MacDougall, Maksim Kuznetsov, Roman Schutski, Rim Shayakhmetov, Maxim Malkov, et al.
+
+Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule generation, LLM-based methods are rapid...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.18144</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video</title>
+      <link>https://huggingface.co/papers/2607.17790</link>
+      <description>By Xiaozhong Lyu, Gen Li, Zhiyin Qian, Xucong Zhang, Marc Pollefeys, et al.
+
+Egocentric devices, such as wearable front-facing cameras, provide a unique perspective for capturing the continuous interaction between a human viewer and the surrounding environment. A holistic and efficient multimodal model capable of reconstructing this 4D representation is therefore highly desi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.17790</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

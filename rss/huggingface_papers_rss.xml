@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2026 04:20:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 07:37:52 +0000</lastBuildDate>
     <item>
       <title>Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL</title>
       <link>https://huggingface.co/papers/2607.16204</link>
@@ -26,33 +26,6 @@ Recent growth in reinforcement learning (RL) has surfaced a need for diverse, sp
 Large language models (LLMs) have demonstrated growing competence in web page generation. However, existing text-driven approaches rely on complex prompts that impose substantial demands on users and offer limited expressivity for page layout and cross-page visual coherence. Image-driven paradigms, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.06306</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment</title>
-      <link>https://huggingface.co/papers/2607.07820</link>
-      <description>By Xinyu Geng, Xuanhua He, Sixiang Chen, Yanjing Xiao, Fan Zhang, et al.
-
-Training tool-use agents to improve from their own experience remains challenging, as supervised fine-tuning relies on fixed teacher-distilled trajectories, while sparse-reward reinforcement learning provides weak supervision for long-horizon interactions. We present DeepSearch-Evolve, a self-distil...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.07820</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GigaAM Multilingual: Foundation Model for Underrepresented Languages</title>
-      <link>https://huggingface.co/papers/2607.10371</link>
-      <description>By Andrei Kuzmenko, Alexandr Maximenko, Aleksandr Kutsakov, Georgii Gospodinov, Dmitrii Bolotov, et al.
-
-Despite recent scaling successes, multilingual ASR performance remains highly uneven, with long-tail languages suffering from severe data scarcity. This work addresses the challenge of building robust foundation models for underrepresented Central Asian languages (Kazakh, Kyrgyz, Uzbek). We present ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.10371</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GigaChat Audio: Time-aware Large Audio Language Model</title>
-      <link>https://huggingface.co/papers/2607.10387</link>
-      <description>By Aleksandr Kutsakov, Mariia Sadovina, Georgii Gospodinov, Alexandr Maximenko, Oleg Kutuzov, et al.
-
-Temporal grounding in long recordings remains challenging for audio-conditioned LLMs. We present a time-aware audio LLM that answers questions with explicit timestamps over up to 120 minutes of input. Our approach interleaves periodic time markers with continuous audio tokens using large-scale synth...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.10387</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Beyond Euclidean Clipping: Overcoming Exploration Collapse in LLM RL via Riemannian Isometric Policy Optimization</title>
@@ -118,13 +91,22 @@ Mobile graphical user interface (GUI) agents have demonstrated remarkable capabi
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Can Multimodal Large Language Models Understand OCT?</title>
-      <link>https://huggingface.co/papers/2607.16609</link>
-      <description>By Baochen Fu, Wenzhi Deng, Baihao Jin, Yang Li, Zihan Nie, et al.
+      <title>FVAttn: Adaptive Sparse Attention with Runtime Load Balancing for Video Generation</title>
+      <link>https://huggingface.co/papers/2607.16190</link>
+      <description>By Hao Liu, Chenghuan Huang, Ye Huang, Zhiying Wen, Hao Liu, et al.
 
-Optical coherence tomography (OCT) imaging is essential for the diagnosis and treatment of retinal diseases. Although multimodal large language models (MLLMs) have demonstrated considerable potential in medical image analysis, existing benchmarks largely reduce OCT understanding to coarse-grained di...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.16609</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+Video Diffusion Transformers process long spatio-temporal sequences, making self-attention the main bottleneck in high-resolution video generation. Training-free sparse attention reduces this cost, but adaptive Top-p routing creates uneven per-head workloads under multi-GPU sequence parallelism. The...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.16190</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Exam for Active Observers</title>
+      <link>https://huggingface.co/papers/2607.16165</link>
+      <description>By Jiarui Zhang, Muzi Tao, Shangshang Wang, Ollie Liu, Xuezhe Ma, et al.
+
+Human vision is a closed loop: gaze is continuously redirected by intermediate hypotheses rather than a single snapshot. Decades of psychophysics and cognitive science have argued that this active observation is essential for a wide range of tasks. Whether today's multimodal large language models (M...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.16165</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DataFlow-Harness: A Grounded Code-Agent Platform for Constructing Editable LLM Data Pipelines</title>
@@ -134,15 +116,6 @@ Optical coherence tomography (OCT) imaging is essential for the diagnosis and tr
 Large language models (LLMs) are increasingly used to automate data-processing workflows, yet coding agents typically produce scripts that are not automatically materialized as persistent, editable platform artifacts. We call this disconnect the NL2Pipeline gap. To bridge it, we introduce DataFlow-H...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.16617</guid>
       <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Geometry of Semantic Space: A Continuous Geometric Framework for the Transformer Architecture</title>
-      <link>https://huggingface.co/papers/2607.17146</link>
-      <description>By Zhihua Liang
-
-We present a continuous geometric framework that models the discrete algebraic operations of the Transformer architecture as an integro-differential equation (IDE) on a semantic fiber bundle calE = calM times R^d. Beginning from a single geometric axiom -- that the token sequence forms a discrete 1-...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.17146</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ShotPlan: Cinematic Video Generation with Learnable Planning Token</title>
@@ -352,6 +325,15 @@ We present AutoIndex, a framework for learning representation programs: executab
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models</title>
+      <link>https://huggingface.co/papers/2607.19604</link>
+      <description>By Nischay Dhankhar, Dos Baha, Abulhair Saparov
+
+Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their use in train-time know...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.19604</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Generative World Renderer at the Speed of Play</title>
       <link>https://huggingface.co/papers/2607.18703</link>
       <description>By Guixu Lin, Zheng-Hui Huang, Siqi Yang, Ming-Hsuan Yang, Kaipeng Zhang, et al.
@@ -457,6 +439,24 @@ As large language models and AI agents become the primary consumers of search re
 
 Recent autoregressive video diffusion methods are increasingly built upon Self Forcing, where the student is trained on histories produced by its own rollout rather than ground-truth video contexts. This reduces exposure bias, but the historical key-value cache is still used by future frames only as...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.20368</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trace: A Taxonomy-Guided Environment for Multidomain Visual Reasoning</title>
+      <link>https://huggingface.co/papers/2607.19790</link>
+      <description>By Md Tanvirul Alam
+
+Reinforcement learning with verifiable rewards (RLVR) has substantially improved language-model reasoning, yet its extension to vision-language models remains constrained by the lack of training data that are simultaneously broad, exactly verifiable, and reproducible. We introduce Trace, a taxonomy-...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.19790</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations</title>
+      <link>https://huggingface.co/papers/2607.20379</link>
+      <description>By Hiskias Dingeto
+
+Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.20379</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

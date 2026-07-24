@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 03:26:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 06:32:48 +0000</lastBuildDate>
     <item>
       <title>Beyond Euclidean Clipping: Overcoming Exploration Collapse in LLM RL via Riemannian Isometric Policy Optimization</title>
       <link>https://huggingface.co/papers/2607.10169</link>
@@ -26,6 +26,15 @@ Reinforcement learning (RL) has become a dominant paradigm for enhancing LLMs' r
 Reinforcement learning for large language models (LLMs) typically relies on trust-region masks to stabilize off-policy updates. The dominant PPO-style approach uses the sampled-token importance ratio for two criteria: a proximity criterion, which asks whether the policy has moved too far from the be...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.10848</guid>
       <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Color Pass-Through via Camera-Display Coupling</title>
+      <link>https://huggingface.co/papers/2607.12746</link>
+      <description>By Ruikang Li, Molin Li, Jiarui Wu, Zhe Wei, Pengpeng Liu, et al.
+
+When a real-world scene is captured by a smartphone camera and viewed on its screen, the displayed image often differs noticeably from the original scene in color, brightness, and contrast. This gap persists despite substantial advances in both modern cameras and displays. A key reason is that most ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.12746</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Generalizable VLA Finetuning via Representation Anchoring and Language-Action Alignment</title>
@@ -64,33 +73,6 @@ Human vision is a closed loop: gaze is continuously redirected by intermediate h
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DataFlow-Harness: A Grounded Code-Agent Platform for Constructing Editable LLM Data Pipelines</title>
-      <link>https://huggingface.co/papers/2607.16617</link>
-      <description>By Runming He, Zhen Hao Wong, Hao Liang, Zimo Meng, Chengyu Shen, et al.
-
-Large language models (LLMs) are increasingly used to automate data-processing workflows, yet coding agents typically produce scripts that are not automatically materialized as persistent, editable platform artifacts. We call this disconnect the NL2Pipeline gap. To bridge it, we introduce DataFlow-H...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.16617</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ConsiSpace: Learning Geometric Consistency Matters for Video Spatial Reasoning</title>
-      <link>https://huggingface.co/papers/2607.17599</link>
-      <description>By Ting Huang, Zhenyu Zhang, Wenyuan Huang, Jian Yang, Hao Tang
-
-Video spatial reasoning is essential for navigation-oriented perception and long-video question answering, where models must infer spatial relations across long horizons under changing viewpoints. However, existing multimodal large language models (MLLMs) remain largely semantic-centric, and often f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.17599</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SciForma: Structure-Faithful Generation of Scientific Diagrams</title>
-      <link>https://huggingface.co/papers/2607.18091</link>
-      <description>By Yuxuan Luo, Peng Zhang, Xinjie Zhang, Xun Guo, Zhouhui Lian, et al.
-
-Structural fidelity is essential to scientific methodology diagrams. To communicate research logic, these diagrams must faithfully render components, directional relations, and textual annotations. Since a single error, such as a reversed arrow or an unreadable equation, can invalidate the entire fi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.18091</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>EduPanel: A Three-Agent LLM Judge for Teaching Videos -- Reliability, Complementarity, and Human Trust Calibration</title>
       <link>https://huggingface.co/papers/2607.18529</link>
       <description>By Jia-Kai Dong, Yi-Cheng Lin, Hung-yi Lee
@@ -125,51 +107,6 @@ Simultaneous localization and mapping (SLAM) is one of the fundamental problems 
 Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boolean circuits executable via bitwise CPU o...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.18149</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AlayaWorld: Interactive Long-Horizon World Modeling -- Full Technical Report</title>
-      <link>https://huggingface.co/papers/2607.18367</link>
-      <description>By AlayaWorld Team, Kaipeng Zhang, Chuanhao Li, Yifan Zhan, Yongtao Ge, et al.
-
-Unlike conventional video game development, which relies on labor-intensive pipelines for asset production, animation, physics, and programming, video world models generate interactive environments from user inputs instantly. It enable us to create customized, explorable, and continuously evolving v...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.18367</guid>
-      <pubDate>Mon, 20 Jul 2026 17:15:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Masked Visual Actions for Unified World Modeling</title>
-      <link>https://huggingface.co/papers/2607.19343</link>
-      <description>By Hadi Alzayer, Wenlong Huang, Haonan Chen, Christopher Luey, Lvmin Zhang, et al.
-
-Video models absorb rich priors over how the visual world moves, interacts, and responds to contact, making them promising substrates for robotic world modeling. The central challenge is how to communicate action to such models in a form aligned with the visual space in which they learned these inte...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.19343</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing</title>
-      <link>https://huggingface.co/papers/2607.19064</link>
-      <description>By Xinjie Zhang, Peng Zhang, Shicheng Zheng, Jinghao Guo, Zhaoyang Jia, et al.
-
-Large-scale visual generators are increasingly capable but costly to train, fine-tune, and deploy. We introduce Mage-Flow, a compact 4B-scale generative stack for efficient text-to-image generation and instruction-based image editing. The stack is built from two co-designed components: Mage-VAE, a l...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.19064</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stale but Stable: Staleness-Adaptive Trust Regions for Stabilizing Asynchronous Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2607.18722</link>
-      <description>By Junyao Yang, Yucheng Shi, Zongxia Li, Zhongzhi Li, Ruhan Wang, et al.
-
-Asynchronous reinforcement learning improves throughput by decoupling rollout generation from optimization, but staleness is an inevitable byproduct compounded by policy lag, engine delays, and mixture-of-experts routing. From a trust-region perspective, this mismatch is critical: training-inference...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.18722</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Two-Level Meta-Rubrics for Evaluating Open-Ended Generation: GAMUT, a Benchmark for Factual Completeness</title>
-      <link>https://huggingface.co/papers/2607.19322</link>
-      <description>By Xilun Chen, Zhaleh Feizollahi, Ross Goodwin, Seungwhan Moon, Scott Yih, et al.
-
-Evaluating the factuality of long-form generations has focused predominantly on precision, measuring whether the claims a model makes are correct. The dominant decompose-search-verify pipeline catches incorrect claims well but says little about whether a response contains all the information it shou...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.19322</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HPD-Parsing: Hierarchical Parallel Document Parsing</title>
@@ -406,6 +343,33 @@ Traditional agent development is split across prompt templates, tool schemas, ca
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ReferTrack: Referring Then Tracking for Embodied Visual Tracking</title>
+      <link>https://huggingface.co/papers/2607.20061</link>
+      <description>By Hanjing Ye, Tianle Zeng, Jiazhao Zhang, Shaoan Wang, Zibo Zhang, et al.
+
+Embodied visual tracking (EVT) requires a mobile agent to continuously follow a specific target described in natural language using only onboard vision. While recent vision-language-action (VLA) policies unify target identification and trajectory planning, their chain-of-thought (CoT) reasoning ofte...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.20061</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Robostral Navigate</title>
+      <link>https://huggingface.co/papers/2607.20785</link>
+      <description>By Arjun Majumdar, Avinash Sooriyarachchi, Benjamin Tibi, Chris Bamford, Elliot Chane-Sane, et al.
+
+Deploying navigation systems at scale requires a recipe that minimizes sensor assumptions, generalizes across robot embodiments, and trains efficiently. Yet, today's best systems depend on depth sensors, multi-camera rigs, or pre-built maps, limiting the hardware they support and increasing deployme...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.20785</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMs Get Lost in Evolving User Intent</title>
+      <link>https://huggingface.co/papers/2607.20734</link>
+      <description>By Jihoon Tack, Philippe Laban, Jennifer Neville
+
+As LLMs become more capable, they are increasingly deployed as collaborative agents, taking on user-delegated tasks through iterative interaction. Yet genuine interaction is inherently dynamic: users rarely specify their intent upfront, instead disclosing, revising, and reshaping it as the conversat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.20734</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders</title>
       <link>https://huggingface.co/papers/2607.21217</link>
       <description>By Zhongyuan Peng, Dan Huang, Chuyu Zhang, Caijun Xu, Changyi Xiao, et al.
@@ -457,6 +421,42 @@ Controllable video generation remains challenging due to the difficulty of speci
 
 Deep research requires agents to find answers that jointly satisfy multiple constraints. Discovering such answers is costly, whereas verifying a candidate can often be decomposed into tractable constraint-wise checks. This discovery--verification asymmetry suggests that a research agent should do mo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.21461</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visual Contrastive Self-Distillation</title>
+      <link>https://huggingface.co/papers/2607.21556</link>
+      <description>By Yijun Liang, Yunjie Tian, Yijiang Li, Yuqi Jia, Furong Huang, et al.
+
+On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to ensure that the self-teacher provides a stronger learning signal than the student. Existing methods cr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.21556</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Recurrent Sinusoidal INRs for Efficient High-Fidelity Representation</title>
+      <link>https://huggingface.co/papers/2607.21485</link>
+      <description>By Hyunmin Cho, Jaejun Yoo, Kyong Hwan Jin
+
+We study sinusoidal recurrence as an iterative mechanism for harmonic spectral enrichment in implicit neural representations (INRs). Our analysis reveals that sinusoidal activations induce a harmonic line spectrum, providing a spectral account of how recurrent unrolling enriches the effective spectr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.21485</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text</title>
+      <link>https://huggingface.co/papers/2607.21072</link>
+      <description>By Xu Wang, Kaixiang Yao, Miao Pan, Xiaohe Zhou, Xuanyu Liu, et al.
+
+Spatial intelligence is essential for agents to move from static semantic understanding toward interacting with the physical world. Many spatial tasks are grounded in continuous visual scenes, where locations, regions, and paths are more naturally expressed by pointing, marking, or drawing than by r...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.21072</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sample-Efficient Learning from Agent Experience</title>
+      <link>https://huggingface.co/papers/2607.21051</link>
+      <description>By Chenhui Gou, Haoqin Tu, Yunhao Fang, Jianfei Cai, Hamid Rezatofighi
+
+Real-world agent learning is often constrained by costly environment interactions, such as running time-consuming experiments or obtaining human feedback. In-context learning offers a highly sample-efficient way for agents to learn from their own interaction histories, but its gains disappear once t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.21051</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

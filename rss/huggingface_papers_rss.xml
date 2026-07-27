@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2026 04:42:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 08:37:38 +0000</lastBuildDate>
+    <item>
+      <title>DataPrep-Bench: Benchmarking LLMs as Training Data Preparators</title>
+      <link>https://huggingface.co/papers/2607.20465</link>
+      <description>By Hao Liang, Qifeng Cai, Yibo Lin, Jianzhuo Du, Qifeng Xia, et al.
+
+The quality of training data fundamentally determines the capabilities of large language models (LLMs), yet no unified benchmark exists to measure how well LLMs, agents, and data-centric workflows actually prepare training data end to end. We view LLM-driven data preparation as comprising two comple...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.20465</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Beyond Euclidean Clipping: Overcoming Exploration Collapse in LLM RL via Riemannian Isometric Policy Optimization</title>
       <link>https://huggingface.co/papers/2607.10169</link>
@@ -52,6 +61,15 @@ Vision-language models (VLMs) process large numbers of visual tokens, resulting 
 
 Finetuning a pretrained vision-language model (VLM) on robot demonstrations via behavior cloning (BC) has become the standard recipe for vision-language-action (VLA) policies. However, BC finetuning progressively overwrites the pretrained representations that support visual and semantic generalizati...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.13429</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making</title>
+      <link>https://huggingface.co/papers/2607.14277</link>
+      <description>By Amirhosein Ghasemabadi, Ruichen Chen, Bahador Rashidi, Di Niu
+
+Large language models are increasingly deployed as agents, but reliable agentic behavior requires more than next-token prediction. At inference time, it is preferred that an agent can decide whether to proceed with its current reasoning, defer to a stronger model, request additional information, inv...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.14277</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -109,6 +127,15 @@ Real-time EEG classification on edge devices is bottlenecked by the floating-poi
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Three-Body Scattering for Generative Modeling</title>
+      <link>https://huggingface.co/papers/2607.18198</link>
+      <description>By Peng Sun, Zhenglin Cheng, Deyuan Liu, Jun Xie, Xinyi Shang, et al.
+
+Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision for a one-step generator. Three-Body Sc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.18198</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models</title>
       <link>https://huggingface.co/papers/2607.19604</link>
       <description>By Nischay Dhankhar, Dos Baha, Abulhair Saparov
@@ -134,33 +161,6 @@ Text-to-video generation has advanced significantly over the past five years thr
 Agentic Reasoning has become a transformative force in financial analysis due to its ability to integrate large-scale information and generate reliable and accurate content. However, when handling complex real-world problems, different agents still show significant performance variation. In this wor...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.19238</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SeededGrasp: Language-Guided Grasping in Complex Scenes with Multiple Embodiments</title>
-      <link>https://huggingface.co/papers/2607.20207</link>
-      <description>By Yang Xu, Gurpreet Singh Mukker, Raymond Wang, Jasper Gerigk, Maria Attarian, et al.
-
-Practical robotic grasping in complex scenes requires both 3D spatial reasoning and alignment with task-specific requirements. Vision-language models (VLMs) offer a natural way to specify these requirements using language, but existing approaches either use a VLM to predict the grasp directly with l...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.20207</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>G-MAD: A Game-Based Data Generation Framework for Multi-View RGB-T Aerial Object Detection</title>
-      <link>https://huggingface.co/papers/2607.19942</link>
-      <description>By Yechan Kim, JongHyun Park, Dongho Yoon, Namhoon Jung, Moongu Jeon
-
-This work introduces G-MAD, an open-source framework that uses Arma3 to generate synchronized multi-view RGB-T data for aerial object detection. G-MAD addresses key limitations of real-world aerial dataset construction, including limited viewpoint control, imperfect RGB-T alignment and high annotati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.19942</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SLPO: Scaling Latent Reasoning via a Surrogate Policy</title>
-      <link>https://huggingface.co/papers/2607.19691</link>
-      <description>By Runyang You, Zhiyuan Liu, Yongqi Li, Wenjie Li
-
-Reinforcement learning with verifiable rewards has become the predominant recipe for eliciting test-time scaling in explicit Chain-of-Thought reasoners. Yet this scaling path remains computationally costly, since every intermediate step must be decoded as a language token. Latent reasoning instead c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.19691</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD</title>

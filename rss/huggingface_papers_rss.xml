@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 06:33:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 09:39:52 +0000</lastBuildDate>
     <item>
       <title>DataPrep-Bench: Benchmarking LLMs as Training Data Preparators</title>
       <link>https://huggingface.co/papers/2607.20465</link>
@@ -26,15 +26,6 @@ The quality of training data fundamentally determines the capabilities of large 
 LLM-as-a-judge has become the standard for automated evaluation, but it suffers from high cost, significant latency, and opaque decisions -- limitations that undermine its scalability and reliability. We address these with a simple, efficient alternative: program distillation. Instead of prompting a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.22561</guid>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Color Pass-Through via Camera-Display Coupling</title>
-      <link>https://huggingface.co/papers/2607.12746</link>
-      <description>By Ruikang Li, Molin Li, Jiarui Wu, Zhe Wei, Pengpeng Liu, et al.
-
-When a real-world scene is captured by a smartphone camera and viewed on its screen, the displayed image often differs noticeably from the original scene in color, brightness, and contrast. This gap persists despite substantial advances in both modern cameras and displays. A key reason is that most ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.12746</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>VisCo: Leveraging Large Language Models as Intrinsic Encoders for Visual Token Compression</title>
@@ -109,15 +100,6 @@ Agentic Reasoning has become a transformative force in financial analysis due to
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LLMs Get Lost in Evolving User Intent</title>
-      <link>https://huggingface.co/papers/2607.20734</link>
-      <description>By Jihoon Tack, Philippe Laban, Jennifer Neville
-
-As LLMs become more capable, they are increasingly deployed as collaborative agents, taking on user-delegated tasks through iterative interaction. Yet genuine interaction is inherently dynamic: users rarely specify their intent upfront, instead disclosing, revising, and reshaping it as the conversat...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.20734</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning</title>
       <link>https://huggingface.co/papers/2607.21653</link>
       <description>By Jian Hu, Huiying Li, Hao Zhang, Binfeng Xu, Yifan Zhang, et al.
@@ -143,15 +125,6 @@ Most automatic speaker verification (ASV) systems operate on individual utteranc
 Robotic learning takes place in dynamic environments with large behavior spaces. A terminal success signal only tells the robot whether the task is completed. It does not explain whether the current behavior is making progress, remaining unchanged, or undoing earlier progress. For this reason, recen...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.21655</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text</title>
-      <link>https://huggingface.co/papers/2607.21072</link>
-      <description>By Xu Wang, Kaixiang Yao, Miao Pan, Xiaohe Zhou, Xuanyu Liu, et al.
-
-Spatial intelligence is essential for agents to move from static semantic understanding toward interacting with the physical world. Many spatial tasks are grounded in continuous visual scenes, where locations, regions, and paths are more naturally expressed by pointing, marking, or drawing than by r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.21072</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sample-Efficient Learning from Agent Experience</title>
@@ -307,6 +280,15 @@ Historical documents act as invaluable knowledge archives but often suffer from 
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Reasoning Denoiser: Denoising Reasoning Traces for Hallucination Detection in Large Reasoning Models</title>
+      <link>https://huggingface.co/papers/2607.22098</link>
+      <description>By Junlin Fang, Do Nguyen-Thanh, Xiaogang Xu, Zhen Fang, Sean Du
+
+Large reasoning models (LRMs) generate long reasoning traces before producing final answers. While these traces may contain useful signals for hallucination detection, harnessing them is non-trivial because long trajectories often include noisy steps that obscure the cues relevant to truthfulness as...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.22098</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>dRAE: Representation Autoencoder with Hyper-Spherical Codes</title>
       <link>https://huggingface.co/papers/2607.22148</link>
       <description>By Tianren Ma, Lin Long, Chuyan Chen, Mu Zhang, Junbo Zhao, et al.
@@ -376,6 +358,15 @@ Improving a language model today means retraining it: enormous compute, a new op
 
 The rapid evolution of generative models has unlocked new potentials in protein binder design, a pivotal task in structural biology, by facilitating end-to-end generation via joint sequence-structure modeling or hallucination. However, existing approaches are predominantly implemented under a single...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.23518</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Characterizing Warp Divergence from Pascal to Blackwell</title>
+      <link>https://huggingface.co/papers/2607.23402</link>
+      <description>By Alpin Dale
+
+Since Volta introduced Independent Thread Scheduling (ITS), NVIDIA GPUs have been widely assumed to handle warp divergence in a fixed manner. We test this assumption across Ampere, Hopper, and datacenter and consumer Blackwell GPUs, using pre-ITS Pascal as a baseline. Combining cycle-accurate microb...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.23402</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Reliable visual document understanding requires a model to attribute each answer
 
 Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.24720</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification</title>
+      <link>https://huggingface.co/papers/2607.24027</link>
+      <description>By Haopeng Li, Yitong Li, Junsong Chen, Tian Ye, Haozhe Liu, et al.
+
+Diffusion transformers are essential for high-fidelity video generation, but long token sequences make attention a dominant inference bottleneck. Training-free dynamic sparse attention alleviates this bottleneck by computing only selected key-value blocks, yet existing methods struggle to sparsify a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.24027</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

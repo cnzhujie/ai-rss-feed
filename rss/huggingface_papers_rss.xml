@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 06:38:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 09:43:15 +0000</lastBuildDate>
     <item>
       <title>TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward</title>
       <link>https://huggingface.co/papers/2607.21606</link>
@@ -17,15 +17,6 @@
 Recent advances in powerful text-to-image generation models have made it increasingly important to develop test-time methods that modify the sampling trajectory to produce images more faithful to complex compositional prompts. We present TILT, a training-free framework for compositional text-to-imag...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.21606</guid>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DataPrep-Bench: Benchmarking LLMs as Training Data Preparators</title>
-      <link>https://huggingface.co/papers/2607.20465</link>
-      <description>By Hao Liang, Qifeng Cai, Yibo Lin, Jianzhuo Du, Qifeng Xia, et al.
-
-The quality of training data fundamentally determines the capabilities of large language models (LLMs), yet no unified benchmark exists to measure how well LLMs, agents, and data-centric workflows actually prepare training data end to end. We view LLM-driven data preparation as comprising two comple...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.20465</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Codifying the Judge: Scalable Evaluation via Program Distillation</title>
@@ -55,42 +46,6 @@ We introduce a vocabulary for automated research systems built from one or more 
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Interactive Training 2: Auditable Control Plane for Live Model Training</title>
-      <link>https://huggingface.co/papers/2607.18314</link>
-      <description>By Wentao Zhang, Xuanhe Pan, Han Zhou, Yang Lu, Yuntian Deng
-
-Experiment trackers show how training is progressing, but changing a live run still usually requires trainer-specific code. We present Interactive Training 2, an open-source control plane for steering training through a shared protocol. Training applications declare which settings and actions they e...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.18314</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Three-Body Scattering for Generative Modeling</title>
-      <link>https://huggingface.co/papers/2607.18198</link>
-      <description>By Peng Sun, Zhenglin Cheng, Deyuan Liu, Jun Xie, Xinyi Shang, et al.
-
-Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision for a one-step generator. Three-Body Sc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.18198</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning</title>
-      <link>https://huggingface.co/papers/2607.18142</link>
-      <description>By Mei Yuan, Qi Long, Qifeng Wu, Zhenyang Li, Yizhou Zhao, et al.
-
-Industrial Video Anomaly Detection (IVAD) aims to identify anomalous objects and events in an industrial process, which is crucial for modern manufacturing and quality control systems. Existing VLM-based anomaly reasoning methods are capable of detecting open-ended anomalies in general domains. Howe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.18142</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Multimodal Speaker Verification as a Threat to Speaker Anonymization</title>
-      <link>https://huggingface.co/papers/2607.19636</link>
-      <description>By Ashi Garg, Cristina Aggazzotti, Leibny Paola García-Perera, Nicholas Andrews
-
-Most automatic speaker verification (ASV) systems operate on individual utterances, despite real-world interactions typically consisting of multiple utterances. As speech accumulates, increasingly rich speaker information becomes available through acoustic, prosodic, and linguistic cues, potentially...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.19636</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Progress Reward Modeling for Robotic Learning: A Comprehensive Survey</title>
       <link>https://huggingface.co/papers/2607.21655</link>
       <description>By Jianshu Zhang, Keliang Wu, Haoran Lu, Anbang Liu, Ce Zhang, et al.
@@ -107,24 +62,6 @@ Robotic learning takes place in dynamic environments with large behavior spaces.
 We present Oxygen-TryOn, a unified foundation model for any-item virtual try-on. Rather than repurposing a general-purpose image editor, Oxygen-TryOn is fashion-native, built for try-on through a dedicated data engine and try-on-specific training. Given one or more reference items (clean product sho...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.21694</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Spectral Prior for Reducing Exposure Bias in Diffusion Models</title>
-      <link>https://huggingface.co/papers/2607.22091</link>
-      <description>By Yuya Kobayashi, Masato Ishii, Yuhta Takida, Takashi Shibuya, Yuki Mitsufuji
-
-Diffusion models typically suffer from error accumulation during iterative sampling, commonly referred to as exposure bias. We reveal systematic frequency-dependent discrepancies between training and inference, which can be interpreted as frequency-dependent SNR error. Crucially, the direction of th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.22091</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ID-V2V: Identity-Preserving Video Restylization</title>
-      <link>https://huggingface.co/papers/2607.22830</link>
-      <description>By Yuancheng Xu, Mingming He, Pablo Salamanca, Li Ma, Yash Kant, et al.
-
-In visual storytelling, human performances are central to creative intent and narrative meaning. However, preserving human identity and performance while enabling flexible visual edits remains challenging for generative video models. We formalize this challenge as identity-preserving video restyliza...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.22830</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents</title>
@@ -250,6 +187,15 @@ The rapid evolution of generative models has unlocked new potentials in protein 
 
 Since Volta introduced Independent Thread Scheduling (ITS), NVIDIA GPUs have been widely assumed to handle warp divergence in a fixed manner. We test this assumption across Ampere, Hopper, and datacenter and consumer Blackwell GPUs, using pre-ITS Pascal as a baseline. Combining cycle-accurate microb...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.23402</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Novel Claim or Déjà Vu? Rethinking "Contamination-Free'' Dynamic Evaluation for Multimodal Automated Fact-Checking</title>
+      <link>https://huggingface.co/papers/2607.23514</link>
+      <description>By Haorui He, Xinwen Chen, Dacheng Wen, Reynold Cheng, Francis C. M. Lau, et al.
+
+Multimodal automated fact-checking (MAFC) verifies claims by retrieving and reasoning over external evidence. However, most existing static benchmarks risk contamination: they primarily consist of outdated claims verifiable using an LLM's internal knowledge without external evidence. This can inflat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.23514</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -397,6 +343,15 @@ Standard vision-language models (VLMs) suffer from Moravec's paradox: they excel
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Where Quality Breaks in Compressed Short-Text Generation: Staged Bottleneck Localization</title>
+      <link>https://huggingface.co/papers/2607.24176</link>
+      <description>By Alexey Gavrilov, Alan-Barsag Gazzaev, Sergey Muravyov
+
+Compressed short-text generators can fail in two different places: the codec may discard information before generation starts, or the latent generator may produce weak codes. Without separating these failure modes, researchers can spend compute improving the wrong component. We study this problem in...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.24176</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Shieldstral</title>
       <link>https://huggingface.co/papers/2607.25857</link>
       <description>By Antonia Calvi, Avinash Sooriyarachchi, Giada Pistilli, Guillaume Lample, Maarten Buyl, et al.
@@ -457,6 +412,51 @@ Recovering an editable design file from a raster image is a common and costly bo
 
 We present a reproducible pipeline for mapping Common Vulnerabilities and Exposures (CVEs) to MITRE ATT&amp;CK Enterprise techniques from free-text vulnerability descriptions. Rather than relying on the CWE-&gt;CAPEC-&gt;ATT&amp;CK derivation chain, whose table-expansion artifacts we quantify, we train a multi-la...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.25572</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pass the Baton: Trajectory-Relayed On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2607.26057</link>
+      <description>By Haolei Xu, Xiaowen Xu, Haiwen Hong, Zixuan Ni, Hongxing Li, et al.
+
+On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent generation builds on this deviation, producing misdirected continuations that elicit unreliable super...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.26057</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities</title>
+      <link>https://huggingface.co/papers/2607.25948</link>
+      <description>By Mingqiao Ye, Zhaochong An, Zhitong Gao, Xian Liu, François Fleuret, et al.
+
+Any-to-any models predict any modality from any combination of others within a single network, a formulation used in multimodal vision and vision-language models, and increasingly in scientific domains such as ecology and astronomy. Existing any-to-any models are typically trained from scratch using...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.25948</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Parallel Decoding Distillation for Fast Image and Video Generation</title>
+      <link>https://huggingface.co/papers/2607.26004</link>
+      <description>By Neta Shaul, Chao Liu, Arash Vahdat, Julius Berner
+
+Generation in video diffusion or flow models is computationally expensive due to the slow and iterative sampling process. Current state-of-the-art (SOTA) acceleration methods heavily rely on variational score distillation (VSD) and adversarial losses to distill diffusion models into few-step generat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.26004</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Temporal-Distance JEPA: Plan-Aware Representation Learning for Latent World Model Predictive Control</title>
+      <link>https://huggingface.co/papers/2607.25337</link>
+      <description>By Jiaxin Bai, Jiaxuan Xiong
+
+Joint-Embedding Predictive Architectures (JEPAs) learn world models by predicting in representation space rather than reconstructing pixels, making them a natural backbone for latent model predictive control from offline demonstration logs. JEPA-style training optimizes short-horizon latent predicti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.25337</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VisualPatchWorld: Code World Models as Latent Structured Representations for Planning</title>
+      <link>https://huggingface.co/papers/2607.25236</link>
+      <description>By Jiaxin Bai, Jiaxuan Xiong
+
+Different research lines use the term world model in different ways, yet they share a common aim: to capture how the world evolves under action in a form that supports perception, simulation, and planning. Two prominent realizations are neural predictors that learn dynamics in continuous vector spac...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.25236</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

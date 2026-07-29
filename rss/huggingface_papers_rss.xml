@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 09:43:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 12:06:28 +0000</lastBuildDate>
     <item>
       <title>TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward</title>
       <link>https://huggingface.co/papers/2607.21606</link>
@@ -46,13 +46,13 @@ We introduce a vocabulary for automated research systems built from one or more 
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Progress Reward Modeling for Robotic Learning: A Comprehensive Survey</title>
-      <link>https://huggingface.co/papers/2607.21655</link>
-      <description>By Jianshu Zhang, Keliang Wu, Haoran Lu, Anbang Liu, Ce Zhang, et al.
+      <title>Edge-Aware Thermal Infrared UAV Swarm Tracking</title>
+      <link>https://huggingface.co/papers/2607.12544</link>
+      <description>By Yu-Hsi Chen
 
-Robotic learning takes place in dynamic environments with large behavior spaces. A terminal success signal only tells the robot whether the task is completed. It does not explain whether the current behavior is making progress, remaining unchanged, or undoing earlier progress. For this reason, recen...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.21655</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+Thermal infrared (TIR) imaging is essential for UAV swarm operations in visually degraded environments. However, tracking tiny UAVs remains challenging due to limited appearance cues, frequent occlusions, and rapid maneuvers. Despite significant progress driven by benchmarks such as the Anti-UAV cha...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.12544</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Oxygen-TryOn: Fashion-Native Foundation Model for Any-item Virtual Try-On</title>
@@ -62,15 +62,6 @@ Robotic learning takes place in dynamic environments with large behavior spaces.
 We present Oxygen-TryOn, a unified foundation model for any-item virtual try-on. Rather than repurposing a general-purpose image editor, Oxygen-TryOn is fashion-native, built for try-on through a dedicated data engine and try-on-specific training. Given one or more reference items (clean product sho...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.21694</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents</title>
-      <link>https://huggingface.co/papers/2607.22798</link>
-      <description>By Yan Yang, Xiangru Jian, Ziyang Luo, Zirui Zhao, Yutong Dai, et al.
-
-Computer-use agents are usually improved by strengthening perception: better models for reading a screenshot and choosing where to click. Yet a screenshot is only a lossy rendering of the underlying program state, e.g., the files, application backends, and DOM that hold the task data. Different stat...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.22798</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Leveraging External Knowledge for Historical Document Restoration via Retrieval-Augmented Large Language Models</title>
@@ -88,6 +79,15 @@ Historical documents act as invaluable knowledge archives but often suffer from 
 
 Large reasoning models (LRMs) generate long reasoning traces before producing final answers. While these traces may contain useful signals for hallucination detection, harnessing them is non-trivial because long trajectories often include noisy steps that obscure the cues relevant to truthfulness as...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.22098</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Projection Pursuit CPCANet for Domain Generalization</title>
+      <link>https://huggingface.co/papers/2607.22117</link>
+      <description>By Yu-Hsi Chen, Abd-Krim Seghouane
+
+Domain Generalization (DG) aims to learn representations robust to distribution shifts. Recent geometric alignment methods, such as CPCANet, extract domain-invariant structures through batch-wise Common Principal Component Analysis (CPCA). However, CPCANet suffers from rank-deficient covariance esti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.22117</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -125,15 +125,6 @@ Large Vision-Language Models (LVLMs) remain bottlenecked by massive computationa
 Bitcoin price prediction on sub-daily timescales is a hard open problem in computational finance. Bitcoin exhibits fat-tailed returns, non-stationary dynamics, and a price discovery process influenced by social discourse on Reddit and Twitter. Conventional approaches fuse OHLCV technical features wi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.23370</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DriveDNA: A Large-Scale Multimodal Naturalistic Driving Dataset and Benchmark for Driving Style Identification</title>
-      <link>https://huggingface.co/papers/2607.23822</link>
-      <description>By Yuhang Wang, Lingyao Li, Hao Zhou
-
-Driving style captures stable, driver-specific patterns in how a vehicle is driven. In naturalistic data, however, this signal is hard to isolate because drivers are observed in different vehicles, on different roads, and under different conditions, so models may mistake vehicle- or situation-specif...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.23822</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OmniVAE: An Audio-Video VAE with Cross-Modal Alignment for Joint Generation</title>
@@ -197,15 +188,6 @@ Since Volta introduced Independent Thread Scheduling (ITS), NVIDIA GPUs have bee
 Multimodal automated fact-checking (MAFC) verifies claims by retrieving and reasoning over external evidence. However, most existing static benchmarks risk contamination: they primarily consist of outdated claims verifiable using an LLM's internal knowledge without external evidence. This can inflat...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.23514</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Data Pyramid for Embodied Manipulation</title>
-      <link>https://huggingface.co/papers/2607.24744</link>
-      <description>By Yifan Ye, Yankai Fu, Yaoxu Lv, Bohan Hou, Jun Cen, et al.
-
-Multimodal foundation models learned to see and to speak by consuming the whole internet. Embodied agents admit no such shortcut, since they require data that couple observations with physical states and actions. These signals can be provided, to varying degrees, by multiple data sources. In this wo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.24744</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding</title>
@@ -352,6 +334,15 @@ Compressed short-text generators can fail in two different places: the codec may
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>GLI-AL: A Multi-Modal Glioma MRI Label Resource with Unified Anatomy-Lesion Labels</title>
+      <link>https://huggingface.co/papers/2607.22135</link>
+      <description>By Xingyu Xiang, Shuang Hao, Fan Wang, Jianhua Ma, Chunfeng Lian
+
+Existing BraTS-GLI datasets provide a widely used benchmark for adult glioma MRI segmentation, but their task definition focuses on tumor subregions and does not systematically represent coexisting white matter hyperintensities (WMH). In joint segmentation settings, such unlabeled abnormalities intr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.22135</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Shieldstral</title>
       <link>https://huggingface.co/papers/2607.25857</link>
       <description>By Antonia Calvi, Avinash Sooriyarachchi, Giada Pistilli, Guillaume Lample, Maarten Buyl, et al.
@@ -457,6 +448,15 @@ Joint-Embedding Predictive Architectures (JEPAs) learn world models by predictin
 
 Different research lines use the term world model in different ways, yet they share a common aim: to capture how the world evolves under action in a form that supports perception, simulation, and planning. Two prominent realizations are neural predictors that learn dynamics in continuous vector spac...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.25236</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CodeNib: A Multi-View Data System for Serving Repository Context to Coding Agents</title>
+      <link>https://huggingface.co/papers/2607.25431</link>
+      <description>By Zhongming Yu, Hengjia Yu, Boqin Yuan, Shuting Zhao, Yizhao Chen, et al.
+
+Coding agents repeatedly search, navigate, and retain context from evolving repositories, but disconnected indexes, language servers, and task-local histories force repeated discovery and obscure lifecycle costs. CodeNib builds reusable lexical, dense, and structural views per repository commit, map...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.25431</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

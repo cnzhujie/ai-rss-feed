@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 05:49:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 08:39:44 +0000</lastBuildDate>
     <item>
       <title>TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward</title>
       <link>https://huggingface.co/papers/2607.21606</link>
@@ -64,15 +64,6 @@ In RLHF pipelines, reward scoring blocks policy updates. Slow scoring bottleneck
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reasoning Denoiser: Denoising Reasoning Traces for Hallucination Detection in Large Reasoning Models</title>
-      <link>https://huggingface.co/papers/2607.22098</link>
-      <description>By Junlin Fang, Do Nguyen-Thanh, Xiaogang Xu, Zhen Fang, Sean Du
-
-Large reasoning models (LRMs) generate long reasoning traces before producing final answers. While these traces may contain useful signals for hallucination detection, harnessing them is non-trivial because long trajectories often include noisy steps that obscure the cues relevant to truthfulness as...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.22098</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Projection Pursuit CPCANet for Domain Generalization</title>
       <link>https://huggingface.co/papers/2607.22117</link>
       <description>By Yu-Hsi Chen, Abd-Krim Seghouane
@@ -116,15 +107,6 @@ Since Volta introduced Independent Thread Scheduling (ITS), NVIDIA GPUs have bee
 Multimodal automated fact-checking (MAFC) verifies claims by retrieving and reasoning over external evidence. However, most existing static benchmarks risk contamination: they primarily consist of outdated claims verifiable using an LLM's internal knowledge without external evidence. This can inflat...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.23514</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification</title>
-      <link>https://huggingface.co/papers/2607.24027</link>
-      <description>By Haopeng Li, Yitong Li, Junsong Chen, Tian Ye, Haozhe Liu, et al.
-
-Diffusion transformers are essential for high-fidelity video generation, but long token sequences make attention a dominant inference bottleneck. Training-free dynamic sparse attention alleviates this bottleneck by computing only selected key-value blocks, yet existing methods struggle to sparsify a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.24027</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WorldDiT: A Unified Diffusion Architecture for World and Action Modeling</title>
@@ -214,6 +196,15 @@ Modern coding agents are usually evaluated by whether they eventually produce a 
 
 Biomedical image analysis spans diverse modalities and tasks, yet real-world deployment is hindered by severe distribution shifts across scanners, protocols, and patient populations. High-performing models consequently require repeated domain-specific fine-tuning, which is a costly cycle that become...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.25108</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grading the Narrators: An Isnad-Rijal Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems</title>
+      <link>https://huggingface.co/papers/2607.24117</link>
+      <description>By Ali Zahid Raja
+
+Modern multi-agent knowledge systems increasingly accumulate knowledge through chains of autonomous transformations rather than direct retrieval. Existing provenance work records what happened - execution traces, tool calls, evidence links - and source-reliability estimation is long established (tru...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.24117</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Large language model (LLM) agents are increasingly expected to assist users in c
 
 Large language model agents often encounter related yet distinct tasks that share reusable solution patterns. Yet standard agentic reinforcement learning treats tasks as independent episodes, while existing approaches to skill learning either focus on repeated attempts of one task or use pipelines w...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.26784</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SecRespond: Benchmarking AI Agents for Real-World Post-Compromise Incident Response</title>
+      <link>https://huggingface.co/papers/2607.26791</link>
+      <description>By Lehan Wang, Boli Chen, Ruixue Ding, Pengjun Xie, Jinwei Huang, et al.
+
+Large Language Model (LLM) agents are increasingly adopted in real-world security operations with access to host artifacts and command-line interfaces (CLIs), making it critical to thoroughly assess their security capabilities. However, existing cybersecurity benchmarks focus on pre-compromise setti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.26791</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

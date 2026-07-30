@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 02:53:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 05:49:17 +0000</lastBuildDate>
     <item>
       <title>TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward</title>
       <link>https://huggingface.co/papers/2607.21606</link>
@@ -17,15 +17,6 @@
 Recent advances in powerful text-to-image generation models have made it increasingly important to develop test-time methods that modify the sampling trajectory to produce images more faithful to complex compositional prompts. We present TILT, a training-free framework for compositional text-to-imag...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.21606</guid>
       <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codifying the Judge: Scalable Evaluation via Program Distillation</title>
-      <link>https://huggingface.co/papers/2607.22561</link>
-      <description>By Tzu-Heng Huang, Shengqi Qiu, Frederic Sala
-
-LLM-as-a-judge has become the standard for automated evaluation, but it suffers from high cost, significant latency, and opaque decisions -- limitations that undermine its scalability and reliability. We address these with a simple, efficient alternative: program distillation. Instead of prompting a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.22561</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TRACE: Business Rule-Grounded Reasoning Curriculum for Knowledge-Preserving Parametric Tool Retrieval in Enterprise LLMs</title>
@@ -109,15 +100,6 @@ Bitcoin price prediction on sub-daily timescales is a hard open problem in compu
       <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Chamaileon: Cross-Context Binder Design with Contextualized Modeling and Mixed Sampling</title>
-      <link>https://huggingface.co/papers/2607.23518</link>
-      <description>By Hengyuan Cao, Shizhuo Cheng, Mingxuan Liu, Weicheng Huang, Yunhong Lu, et al.
-
-The rapid evolution of generative models has unlocked new potentials in protein binder design, a pivotal task in structural biology, by facilitating end-to-end generation via joint sequence-structure modeling or hallucination. However, existing approaches are predominantly implemented under a single...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.23518</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Characterizing Warp Divergence from Pascal to Blackwell</title>
       <link>https://huggingface.co/papers/2607.23402</link>
       <description>By Alpin Dale
@@ -134,24 +116,6 @@ Since Volta introduced Independent Thread Scheduling (ITS), NVIDIA GPUs have bee
 Multimodal automated fact-checking (MAFC) verifies claims by retrieving and reasoning over external evidence. However, most existing static benchmarks risk contamination: they primarily consist of outdated claims verifiable using an LLM's internal knowledge without external evidence. This can inflat...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.23514</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Evidence Attribution in Visual Document Understanding without Coordinates or Region Labels</title>
-      <link>https://huggingface.co/papers/2607.24651</link>
-      <description>By Zhuchenyang Liu, Yao Zhang, Yu Xiao
-
-Reliable visual document understanding requires a model to attribute each answer to the evidence regions that support it. Recent benchmarks and systems express this step through a coordinate interface: the model outputs the coordinates of bounding boxes that mark the evidence regions in the document...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.24651</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation</title>
-      <link>https://huggingface.co/papers/2607.24720</link>
-      <description>By Tianyi Men, Zhuoran Jin, Kang Liu, Jun Zhao
-
-Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.24720</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sol-Attn: Accelerating Video Generation Inference via On-the-Fly Attention Sparsification</title>
@@ -424,6 +388,33 @@ Training large language models (LLMs) to act in long-horizon games is a promisin
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>DecoEvo: Score-Decoupled Co-Evolution of Solver and Rubric-Generator Skills in Text Space</title>
+      <link>https://huggingface.co/papers/2607.25675</link>
+      <description>By Jiangwang Chen, Zixin Song, Junlin Liu, Shuaiyu Zhou, Haiyan Wu, et al.
+
+Text-space optimization adapts large language models (LLMs) by editing external natural-language artifacts rather than model weights, so the optimized artifacts remain inspectable and the model can be treated as a black box. However, most existing text-space methods keep evaluation fixed. On open-en...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.25675</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CoRT: Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization</title>
+      <link>https://huggingface.co/papers/2607.25659</link>
+      <description>By Bo-Wen Zhang, Junwei He, Wen Wang, Song-Lin Lv, Wentao Ma, et al.
+
+Rubric-based reinforcement learning enriches language model training by evaluating model outputs against explicit criteria. Yet in GRPO-style pipelines, these structured judgments are reduced to a scalar response-level reward and converted into a response-level advantage, which is broadcast uniforml...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.25659</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CLBench-V: Evaluating Multimodal Context Learning from Grounding to Knowledge Acquisition</title>
+      <link>https://huggingface.co/papers/2607.25294</link>
+      <description>By Lai Wei, Chengqi Li, Jiapeng Li, Ruina Hu, Yue Wang, et al.
+
+Real-world tasks often require models to learn from task-specific context rather than relying only on pre-trained knowledge. While recent work has highlighted this capability as context learning, existing evaluations mainly focus on textual contexts. In many practical settings, however, the context ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.25294</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>HumanCLAW: Can Vision-Language Models Act Through a Body?</title>
       <link>https://huggingface.co/papers/2607.27180</link>
       <description>By Siyao Li, Jiawei Gu, Shuai Liu, Kairui Hu, Zekun Li, et al.
@@ -457,6 +448,15 @@ Forecasts of explosive AI progress hinge on AI agents automating AI research. Bu
 
 Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at a reasonable cost. We introduce OmegaUse-OfficeVal, a benchmark for evaluating L...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.27155</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution</title>
+      <link>https://huggingface.co/papers/2607.26784</link>
+      <description>By Zhiyuan Yao, Yuxin Chen, Zhengxi Lu, Zishan Xu, Yueqing Sun, et al.
+
+Large language model agents often encounter related yet distinct tasks that share reusable solution patterns. Yet standard agentic reinforcement learning treats tasks as independent episodes, while existing approaches to skill learning either focus on repeated attempts of one task or use pipelines w...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.26784</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

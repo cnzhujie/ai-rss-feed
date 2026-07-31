@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 04:28:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 07:55:35 +0000</lastBuildDate>
     <item>
       <title>CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation</title>
       <link>https://huggingface.co/papers/2607.16955</link>
@@ -28,6 +28,24 @@ This paper proposes AI Tour Meeting, a group travel planning framework powered b
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Multi-Head Attention Residuals</title>
+      <link>https://huggingface.co/papers/2607.27230</link>
+      <description>By Cheng Luo, Zefan Cai, Junjie Hu
+
+Transformers propagate information across depth through a single additive residual stream: every sublayer reads only the most recent state. Attention residuals relax this by letting each sublayer attend, through a learned softmax. However, that read uses a single query shared across the entire width...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.27230</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions</title>
+      <link>https://huggingface.co/papers/2607.20891</link>
+      <description>By Pengyu Zhu, Lijun Li, Longju Yang, Sen Su
+
+Deep Research agents extend LLM-based assistants into long-horizon workflows involving planning, retrieval, evidence synthesis, and report generation, yet their reliability in open information environments remains underexplored. A key concern is whether apparently credible but factually misleading k...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.20891</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Grading the Narrators: An Isnad-Rijal Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems</title>
       <link>https://huggingface.co/papers/2607.24117</link>
       <description>By Ali Zahid Raja
@@ -35,33 +53,6 @@ This paper proposes AI Tour Meeting, a group travel planning framework powered b
 Modern multi-agent knowledge systems increasingly accumulate knowledge through chains of autonomous transformations rather than direct retrieval. Existing provenance work records what happened - execution traces, tool calls, evidence links - and source-reliability estimation is long established (tru...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.24117</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Human-in-the-Loop Signature Bootstrapping for UAV Hyperspectral PFM-1 Mine Detection</title>
-      <link>https://huggingface.co/papers/2607.25310</link>
-      <description>By Sagar Lekhak, Prasanna Reddy Pulakurthi, Emmett J. Ientilucci
-
-Hyperspectral imaging (HSI) is useful for material discrimination, but operational mine screening also depends on how many false alarms must be inspected before targets are found. This paper studies PFM-1 landmine detection in unmanned aerial vehicle (UAV) visible and near-infrared (VNIR) HSI using ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.25310</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Explicit Layer Modeling for Video Object Insertion and Layer Decomposition</title>
-      <link>https://huggingface.co/papers/2607.25802</link>
-      <description>By Kyujin Han, Seungjoo Shin, Sunghyun Cho
-
-Most video editing systems still lack explicit layered video representations, limiting their ability to perform realistic compositing, object reuse, and consistent manipulation. This limitation is especially pronounced in video object insertion and video layer decomposition, where existing methods r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.25802</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GPT-Red: Automated Red Teaming via Self-Play at Scale</title>
-      <link>https://huggingface.co/papers/2607.26115</link>
-      <description>By Eric Wallace, Christopher A. Choquette-Choo, Nikhil Kandpal, Sam Toyer, Dylan Hunn, et al.
-
-We introduce GPT-Red, an automated red-teaming agent that is trained to discover novel prompt injection attacks against frontier LLMs. The goal of this model is to evaluate and improve the robustness of our production systems. To this end, we use it to adversarially train GPT-5.6, our most robust mo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.26115</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents</title>
@@ -136,13 +127,13 @@ Forward latent world models predict how actions change a scene, but recover acti
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HumanCLAW: Can Vision-Language Models Act Through a Body?</title>
-      <link>https://huggingface.co/papers/2607.27180</link>
-      <description>By Siyao Li, Jiawei Gu, Shuai Liu, Kairui Hu, Zekun Li, et al.
+      <title>AMRD: Adaptive Multi-Teacher Relational Distillation for Lightweight Speech Emotion Recognition</title>
+      <link>https://huggingface.co/papers/2607.25289</link>
+      <description>By Yuqi Li, Yi-Cheng Lin, Xianglong Wang, Kuo Yang, Xiaoqin Feng, et al.
 
-Evaluating whether a vision-language model (VLM) can act through a physical body is challenging. The outcome of an action couples the VLM's decision with motor control. When a task fails, it is hard to tell whether the VLM made a bad choice or the motor controller simply failed to execute it, e.g., ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27180</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+On-device speech emotion recognition (SER) is critical for real-time applications, yet large self-supervised models that excel at SER are too costly for edge devices. Multi-teacher knowledge distillation can compress them into a lightweight student, but two challenges remain: teacher reliability var...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.25289</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with &lt;1 GB VRAM</title>
@@ -457,6 +448,15 @@ Role-playing agents (RPAs) have become one of the most important consumer applic
 
 Multimodal agents for visual question answering increasingly operate as multi-step trajectories that interleave perception, retrieval, and reasoning, yet evaluation still largely reduces to final-answer accuracy. This aggregate signal cannot tell whether a correct answer was reached through grounded...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.28374</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ShadowDancer: Teaching Video World Models Any Action by Learning Unified Dynamics Representations from a Video and Its Shadow</title>
+      <link>https://huggingface.co/papers/2607.28362</link>
+      <description>By Jin Cao, Zian Meng, Kaipeng Zhang
+
+We present ShadowDancer, a novel approach to any-action, frame-level control of interactive video world models. The obstacle is representational: existing interfaces either encode an action loosely, leaving how it unfolds for the model to improvise, or encode it exactly through structured signals th...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28362</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

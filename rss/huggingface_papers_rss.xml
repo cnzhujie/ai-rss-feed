@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 07:55:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 10:46:57 +0000</lastBuildDate>
     <item>
       <title>CADENCE: Closing the Reasoning Gap via Coverage-Adaptive On-Policy Distillation</title>
       <link>https://huggingface.co/papers/2607.16955</link>
@@ -16,6 +16,15 @@
 
 On-policy knowledge distillation transfers reasoning from large teachers to compact students, but existing approaches suffer three compounding failure modes: (i) cold-start collapse, where a fresh student assigns near-zero mass to teacher-preferred tokens; (ii) state-agnostic divergence scheduling, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.16955</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing</title>
+      <link>https://huggingface.co/papers/2607.16922</link>
+      <description>By Taorui Huang, Namita Gaidhani, Ritvik Bansal, S M Jubaer, Regina Lim, et al.
+
+In our prior work, Pedestrian Archetypes, we defined pedestrian archetypes as collections of behaviors that uniquely identify a specific type of pedestrian. The first paper proposed 12 pedestrian archetypes, including the Wanderer, Drunk, Distracted, Flash, Indecisive, Blind, Flock, Jaywalker, Elder...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.16922</guid>
       <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -53,24 +62,6 @@ Deep Research agents extend LLM-based assistants into long-horizon workflows inv
 Modern multi-agent knowledge systems increasingly accumulate knowledge through chains of autonomous transformations rather than direct retrieval. Existing provenance work records what happened - execution traces, tool calls, evidence links - and source-reliability estimation is long established (tru...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.24117</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents</title>
-      <link>https://huggingface.co/papers/2607.26314</link>
-      <description>By Ads Dawson, Adrian Wood
-
-Stealth, the discipline of achieving an objective without revealing your presence, capabilities, or collected intelligence, is what separates sophisticated operators from detectable ones. Elite security researchers and advanced persistent threats achieve their objectives unnoticed; autonomous agents...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.26314</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CAST: Game Solvers as Turn-Level Teachers for LLM Agents</title>
-      <link>https://huggingface.co/papers/2607.25308</link>
-      <description>By Yu Wang, Yi-Kai Zhang, Wentao Shi, Ziang Ye, Yuchun Miao, et al.
-
-Training large language models (LLMs) to act in long-horizon games is a promising step toward generalist decision-making, yet reinforcement learning with verifiable rewards (RLVR) relies on sparse final rewards that reveal little about which decisions determine success. Denser process signals could ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.25308</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DecoEvo: Score-Decoupled Co-Evolution of Solver and Rubric-Generator Skills in Text Space</title>
@@ -134,33 +125,6 @@ Forward latent world models predict how actions change a scene, but recover acti
 On-device speech emotion recognition (SER) is critical for real-time applications, yet large self-supervised models that excel at SER are too costly for edge devices. Multi-teacher knowledge distillation can compress them into a lightweight student, but two challenges remain: teacher reliability var...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.25289</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with &lt;1 GB VRAM</title>
-      <link>https://huggingface.co/papers/2607.27205</link>
-      <description>By Hengyi Xie, Chenfei Yao, Xianjin Wu, Xuanyang Xi, Yiping Tang, et al.
-
-Vision-language-action (VLA) models commonly adopt an LLM-centric V to L to A pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this design incurs substantial computation and memory ov...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27205</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can AI agents conduct open-ended AI research? Early evidence from two case studies</title>
-      <link>https://huggingface.co/papers/2607.27191</link>
-      <description>By Peter Kirgis, Sayash Kapoor, Andrew Schwartz, Stephan Rabanser, David Africa, et al.
-
-Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on narrow, verifiable tasks, which excludes open-ended research, or submit AI-generated papers to blind pe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27191</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding</title>
-      <link>https://huggingface.co/papers/2607.27155</link>
-      <description>By Jingbo Zhou, Yusai Zhao, Qi Bao, Jingjia Cao, Zhenghai Chen, et al.
-
-Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at a reasonable cost. We introduce OmegaUse-OfficeVal, a benchmark for evaluating L...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27155</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution</title>
@@ -268,6 +232,24 @@ Speculative Decoding (SD) accelerates large language model inference by allowing
 
 The deep learning revolution, kicked off by AlexNet, taught us that end-to-end training beats decomposing a problem into hand-designed stages. Generative modeling, however, has remained the exception-despite generative models being remarkably capable, they are still not trained end-to-end. This is b...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.27372</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability</title>
+      <link>https://huggingface.co/papers/2607.26637</link>
+      <description>By Sizhe Zhou, Sheldon Yu, Hui Wei, Junda Wu, Siru Ouyang, et al.
+
+Deployed LLM agents increasingly keep their long-term memory as a filesystem: a directory tree of markdown files that the agent itself reads, writes, and reorganizes through generic file tools. Yet research has largely passed over this medium: prior systems design bespoke memory representations and ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.26637</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>See2Think: Do Multimodal Models Really Use Intermediate Visual States?</title>
+      <link>https://huggingface.co/papers/2607.26769</link>
+      <description>By Siyu Yan, Zhuoran Yan, Haiying Xu, Panhao Zhou, Jingyu Chen, et al.
+
+Multimodal large language models increasingly use sketches, annotations, tools, and intermediate images during reasoning, but it remains unclear whether they truly rely on these visual states. Existing benchmarks are limited both by task collections with narrow coverage or partially text-solvable sa...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.26769</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Multimodal agents for visual question answering increasingly operate as multi-st
 
 We present ShadowDancer, a novel approach to any-action, frame-level control of interactive video world models. The obstacle is representational: existing interfaces either encode an action loosely, leaving how it unfolds for the model to improvise, or encode it exactly through structured signals th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.28362</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Σ-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems</title>
+      <link>https://huggingface.co/papers/2607.27958</link>
+      <description>By Peilin Feng, Suorong Yang, Soujanya Poria
+
+Memory is central to long-horizon LLM agents, yet existing memory systems primarily preserve interaction content rather than modeling which agents can be trusted and under what conditions. This limitation is particularly important in multi-agent systems, where a central model may be unable to direct...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.27958</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations</title>
+      <link>https://huggingface.co/papers/2607.28319</link>
+      <description>By Pere Martra, Eugenio Martínez Cámara, Alfonso Ureña López
+
+This work presents Fairness Pruning, a lightweight structural intervention method designed for the management and future mitigation of demographic bias in large language models (LLMs). As a foundational empirical validation of this method, this work focuses on causal bias localization. Using minimal...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28319</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

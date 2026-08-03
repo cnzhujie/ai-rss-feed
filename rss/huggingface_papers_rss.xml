@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 04:35:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 08:34:43 +0000</lastBuildDate>
     <item>
       <title>Pedestrian Archetypes Extension -- More Pedestrian Models for Autonomous Vehicle Safety Testing</title>
       <link>https://huggingface.co/papers/2607.16922</link>
@@ -73,6 +73,15 @@ We present N_0-VTLA, a vision-tactile-language-action (VTLA) foundation model ca
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>N_0-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation</title>
+      <link>https://huggingface.co/papers/2607.23783</link>
+      <description>By NeoteAI Team, Fudan TEAI Team
+
+We present N_0-TWAM, a tactile-native world-action model for contact-rich manipulation that predicts both future vision and future contact. To our knowledge, it is the first tactile world-action model trained at large scale, and it shows strong capability on contact-rich tasks. We pre-train N_0-TWAM...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.23783</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models</title>
       <link>https://huggingface.co/papers/2607.26056</link>
       <description>By Junhan Sun, Hao Zhao, Guofeng Zhang
@@ -107,33 +116,6 @@ Existing token compression methods for omnimodal large language models typically
 Polygonal meshes are the standard surface representation of modern 3D pipelines, and generating high-quality meshes with artist-style topology is essential for film, gaming, and interactive 3D applications. Mainstream approaches serialize a mesh into a token sequence and decode it autoregressively, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.28675</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis</title>
-      <link>https://huggingface.co/papers/2607.27146</link>
-      <description>By Yihao Chen, Shi Chang, Khaled Chawa, Feng Lin, Boyuan Chen, et al.
-
-Coding agents have made substantial progress on software engineering tasks that modify existing codebases, including bug fixing and feature implementation. However, constructing a complete program from scratch remains a major challenge: even the frontier models evaluated on ProgramBench fully resolv...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27146</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch</title>
-      <link>https://huggingface.co/papers/2607.27167</link>
-      <description>By Yihao Chen, Shi Chang, Feng Lin, Khaled Chawa, Boyuan Chen, et al.
-
-LLM-based agents excel at software engineering tasks where an existing codebase provides context, but constructing a program from scratch remains fundamentally harder. Recent benchmarks such as ProgramBench quantify this gap: given only natural-language documentation and an execute-only binary as a ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27167</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OVEarth-Bench: Evaluating Category Breadth and Query Diversity for Open-Vocabulary Earth Observation</title>
-      <link>https://huggingface.co/papers/2607.27278</link>
-      <description>By Kaiyu Li, Zepeng Xin, Zixuan Jiang, Jing Fu, Lanxuan Xue, et al.
-
-Open-vocabulary Earth observation (EO) aims to localize geospatial concepts specified in natural language rather than a fixed label set. Existing benchmarks, however, usually cover narrow category vocabularies or limited query forms. To fill this gap, we introduce OVEarth-Bench, which extends existi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27278</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System</title>
@@ -188,33 +170,6 @@ Deployed LLM agents increasingly keep their long-term memory as a filesystem: a 
 Multimodal large language models increasingly use sketches, annotations, tools, and intermediate images during reasoning, but it remains unclear whether they truly rely on these visual states. Existing benchmarks are limited both by task collections with narrow coverage or partially text-solvable sa...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.26769</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them</title>
-      <link>https://huggingface.co/papers/2607.27703</link>
-      <description>By Yang Zhou, Zixuan Huang, Sunzhu Li, Zhuo Yang, Chen Zhang, et al.
-
-Vision-language models (VLMs) are increasingly used in embodied agents to interpret visual inputs, reason about spatial relationships, and make task-level decisions based on that reasoning. However, a fundamental capability mismatch remains: general VLMs can reason about the overall task but often m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27703</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MemHarness: Memory Is Reconstructed, Not Replayed</title>
-      <link>https://huggingface.co/papers/2607.28272</link>
-      <description>By Rong Wu, Daocheng Fu, Licheng Wen, Xuemeng Yang, Shu Zou, et al.
-
-Retrieving past experiences has become a common strategy to enhance large language model agents. However, most existing memory-augmented agents treat retrieved experiences as static records to be replayed verbatim, injecting them into the context regardless of whether they align with the agent's cur...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.28272</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PhiZero: A World Model Built Around Physical Language</title>
-      <link>https://huggingface.co/papers/2607.28624</link>
-      <description>By Shuyao Shang, Yuqi Wang, Ruopeng Gao, Xu Chen, Tieniu Tan, et al.
-
-We introduce PhiZero, a physical world model built around physical language, a compact discrete representation of world-state transitions. Existing physical world models typically predict future videos directly in pixel space, leaving the underlying world dynamics implicit within high-dimensional vi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.28624</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine</title>
@@ -433,6 +388,42 @@ Latent world models enable efficient planning by predicting future states in a c
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Safeguards Based on Copyable Context Cannot Provide Reliable Safety for LLMs</title>
+      <link>https://huggingface.co/papers/2607.27951</link>
+      <description>By Pingyu Wu, Lingyao Zhu, Weiming Zhang, Nenghai Yu
+
+Large language model safeguards decide whether to answer before seeing how an answer will be used. This creates a basic problem for dual-use tasks: the same answer can help an authorized professional or an attacker, while an attacker can imitate a benign request and interaction history. We separate ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.27951</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Would You Walk to the Car Wash? Revealing the Salience Bias of Large Language Models in Commonsense Reasoning</title>
+      <link>https://huggingface.co/papers/2607.28478</link>
+      <description>By Zheng Wu, Chenhao Xue, Shijie Zheng, Yijie Lu, Cheng Yang, et al.
+
+As large language models (LLMs) continue to advance in complex reasoning tasks, they have learned to heavily prioritize explicit conditions provided in the input. However, in everyday commonsense reasoning, this mechanism exposes a critical vulnerability which we term Salience Bias: models become ea...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28478</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ODEWorld: A Continuous Predictive Architecture via Physical-Time Flow</title>
+      <link>https://huggingface.co/papers/2607.27924</link>
+      <description>By Dongxiu Liu, Haoyi Niu, Peng Cheng, Yuan Gao, Xirui Kang, et al.
+
+In the physical world we inhabit, space and time are fundamentally continuous. However, existing machine learning paradigms for world modeling are largely confined to discrete-time prediction, thereby exhibiting significant inefficiency in capturing the dynamics of physical world. We introduce Physi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.27924</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Future, Every Robot: Label-Efficient Collective-State Prediction with Decentralized JEPA</title>
+      <link>https://huggingface.co/papers/2607.28443</link>
+      <description>By Alan-Barsag Gazzaev, Alexey Garvilov, Sergey Muravyov
+
+Can every robot in a swarm predict the same future collective state from only local observations and bandwidth-limited messages? We formulate this as decentralized shared-state prediction and introduce Collective-State JEPA (CS-JEPA), a recurrent joint-embedding predictive architecture whose output ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28443</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Scaling Properties of Text Conditioning in Visual Generation</title>
       <link>https://huggingface.co/papers/2607.29679</link>
       <description>By Zilong Chen, Chaorui Deng, Kunchang Li, Hongyi Yuan, Haoqi Fan
@@ -457,6 +448,15 @@ Enterprise workflows increasingly rely on agents for schema-guided extraction: g
 
 While recent image editing models have made rapid progress, multi-reference editing remains challenging, particularly in maintaining visual consistency across references and ensuring overall visual harmony. Reinforcement learning has proven highly effective for text-to-image generation and single-im...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.29025</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SULAND v2: A Refined RGB Dataset and Deep Learning Object Detection Benchmark for UAV/UGV-Based SUrface LANDmine Detection Under Domain Shift</title>
+      <link>https://huggingface.co/papers/2607.28996</link>
+      <description>By Sagar Lekhak, Prasanna Reddy Pulakurthi, Lalit Joshi, Ramesh Bhatta, Emmett J. Ientilucci
+
+RGB imagery offers a practical, low-cost option for Unmanned Aerial/Ground Vehicle (UAV/UGV) survey support in surface-landmine detection, but object detectors remain underexplored in this safety-critical domain. Limited cross-architecture benchmarking and insufficient out-of-distribution (OOD) anal...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28996</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

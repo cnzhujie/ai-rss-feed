@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 09:40:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 12:03:23 +0000</lastBuildDate>
+    <item>
+      <title>Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements</title>
+      <link>https://huggingface.co/papers/2607.28661</link>
+      <description>By Xinke Tong, Xuanming Zhang, Tianyi Tang, An Yang, Jiatu Hu, et al.
+
+Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching? The financial domain, demanding numerical precision and multi-step logic over long contexts, is an ideal testbed. Existing benchmarks fail to capture real-world industrial complexi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28661</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV</title>
       <link>https://huggingface.co/papers/2607.23693</link>
@@ -80,15 +89,6 @@ Existing evaluations often reduce agent failures to system-level outcomes, obscu
 Large language models increasingly write and repair production code, yet evidence is mounting that their test-passing patches leave codebases harder to maintain. We identify one concrete source: deletion avoidance, the systematic tendency to retain code that an intended edit requires removing. Acros...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.28887</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DiffusionGemma Technical Report</title>
-      <link>https://huggingface.co/papers/2608.00146</link>
-      <description>By DiffusionGemma Team, Adrien Ali Taïga, James Assiene, Daniele Calandriello, Rahma Chaabouni, et al.
-
-We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text at exceptionally high speed. Rather than decoding one token at a time, DiffusionGemma iteratively refines blocks of 256 tokens in parallel, avoiding the sequential decoding bottlenec...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.00146</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems</title>
@@ -215,24 +215,6 @@ World Action Models (WAMs) couple action generation with prediction of future st
 Video world models predict future observations conditioned on historical observations and control signals, enabling long-horizon generation through autoregressive state transitions. Unlike conventional video generation models that primarily capture visual appearance and motion, video world models le...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.01127</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks</title>
-      <link>https://huggingface.co/papers/2608.01964</link>
-      <description>By Ziyu Ma, Hailang Huang, Shun Zou, Yong Wang, Shidong Yang, et al.
-
-Large language model (LLM) agents increasingly undertake long-horizon tasks that require sustained reasoning, tool use, and revision across many interdependent steps. However, existing agent harnesses maintain task execution, task state, and completion assessment within a growing context, making the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01964</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DAPD: Dual-Anchored Policy Distillation</title>
-      <link>https://huggingface.co/papers/2608.01735</link>
-      <description>By Jianyu Wu, Yizhou Wang, Encheng Su, Chen Tang, Shixiang Tang
-
-On-policy (self) distillation (OPSD) is increasingly adopted for language-model post-training. It strengthens the teacher with privileged information but can induce a privilege illusion: the student learns privilege-dependent behavior it cannot reproduce from its inference-time context, yet behaves ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01735</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Motion Beyond Morphology: Bootstrapping Cross-Category Motion Transfer from Abstract Motion Representations</title>
@@ -457,6 +439,24 @@ Diffusion language models (dLLMs) offer an alternative to autoregressive (AR) la
 
 Modern agent frameworks equip large language models with external skill libraries to solve complex tasks. However, it remains unclear whether these systems can effectively evolve their skills and whether the resulting skills improve task-solving capabilities. To bridge this gap, we introduce Continu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.03874</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-Task Multi-Frame Visual Piano Transcription</title>
+      <link>https://huggingface.co/papers/2608.03419</link>
+      <description>By Yonghyun Kim, Hoyeol Sohn, Juhan Nam, Alexander Lerch
+
+Audio-based piano transcription performs well on onset, pitch, and velocity, but the sustain pedal lets sound persist long after key release, so audio systems predict pedal-extended offsets rather than physical key release. Yet existing Visual Piano Transcription (VPT) systems focus on onset detecti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03419</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings</title>
+      <link>https://huggingface.co/papers/2608.03994</link>
+      <description>By Christopher Schröder, Lukas Gienapp, Ferdinand Schlatt, Martin Potthast, Gerhard Heyer
+
+We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and renders the affected attention heads partially blind. We analyze this failure mode, characterize its ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03994</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

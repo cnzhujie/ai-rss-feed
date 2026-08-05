@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 12:03:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 15:19:46 +0000</lastBuildDate>
     <item>
       <title>Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements</title>
       <link>https://huggingface.co/papers/2607.28661</link>
@@ -145,15 +145,6 @@ World Action Models (WAMs) have emerged as a promising paradigm by jointly model
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Relax Within, Balance Across: Geometry-Guided Load Balancing for Vision-Language Mixture-of-Experts</title>
-      <link>https://huggingface.co/papers/2608.00574</link>
-      <description>By Ziang Wu, Peng Jin, Qishen Yin, Munan Ning, Hao Li, et al.
-
-Vision-language MoE batches contain different numbers of image and text tokens. Image resolution, image count, tiling, and prompt length all change this token mix. We call the standard token-level Switch auxiliary loss Std-Aux. Std-Aux balances only the mixed load, so large image and text load error...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.00574</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents</title>
       <link>https://huggingface.co/papers/2608.00486</link>
       <description>By Tongsheng Ding, Zhen Luo, Yixuan Yang, Boyu Wang, Luyang Xie, et al.
@@ -179,15 +170,6 @@ Viscous stains, characterized by high viscosity and complex rheological properti
 We introduce a new problem domain for human action recognition: the fine-grained analysis of children's gait behaviors from standard RGB video. We specifically target the ambulatory patterns of children aged 3-17 years. Such behaviors arise naturally in the diagnosis and treatment of several critica...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.00371</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>3DZip: Spatial-Aware Feature Diversity-Guided Token Compression for 3D Question Answering</title>
-      <link>https://huggingface.co/papers/2608.01185</link>
-      <description>By Changwoo Baek, Kyeongbo Kong
-
-Recent 3D vision-language models (3D VLMs) construct geometry aware tokens by projecting 2D visual features into world coordinates, enabling spatial reasoning for tasks such as 3D question answering. However, this design generates thousands of tokens per scene, resulting in substantial computational...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01185</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Loud or Silent? A Reusable Framework for Per-Modality Failure Analysis in Multimodal Clinical AI</title>
@@ -217,22 +199,13 @@ Video world models predict future observations conditioned on historical observa
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Motion Beyond Morphology: Bootstrapping Cross-Category Motion Transfer from Abstract Motion Representations</title>
-      <link>https://huggingface.co/papers/2608.01628</link>
-      <description>By Zhixue Fang, Zhimin Zhang, Bi'an Du, Zijie Meng, Yan Zhou, et al.
+      <title>RestoreKV: Recovering Full-Cache Behavior Under Aggressive Query-Agnostic KV Cache Eviction</title>
+      <link>https://huggingface.co/papers/2608.01247</link>
+      <description>By Changwoo Baek, Seungjun Shin, Kyeongbo Kong
 
-Video motion transfer aims to animate a target object using dynamics from a reference video. Existing formulations largely rely on fixed structural correspondence, which becomes ill-defined when reference and target objects differ substantially in morphology, articulation, or deformation mechanisms....</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01628</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepVoyager-VL: Incentivizing Vision-in-the-Loop Search for Long-Horizon Multimodal Agents</title>
-      <link>https://huggingface.co/papers/2608.01827</link>
-      <description>By Huanyao Zhang, Jiepeng Zhou, Runhao Zhao, Yanzhe Shan, Jiaoyang Chen, et al.
-
-Multimodal large language models (MLLMs) have advanced visual understanding and reasoning, yet their static parametric knowledge limits their ability to address knowledge-intensive and dynamically evolving open-world problems. To move beyond this limitation, multimodal deep search has emerged as a k...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01827</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries, but performance can collapse under tight budgets. Existing methods primarily improve which original KV pairs are retained. We introduce RestoreKV, which complements this selection-...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.01247</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning</title>
@@ -340,6 +313,24 @@ Continually improving agents require dynamic interaction feedback beyond static 
 
 Scientific poster construction compresses a long multimodal paper into a readable, editable canvas. Existing systems hide request-level failures by scoring only completed outputs; direct image generation is not element-editable, while coding-agent workflows are costly. PosterMELD is a template-condi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.02218</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation</title>
+      <link>https://huggingface.co/papers/2608.02791</link>
+      <description>By Jiazhen Liu, Mingkuan Feng, Long Chen
+
+MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, and fast inference. Embedding-prediction methods may disrupt language modeling through pixel-level objectives, whereas next-token generation is inefficient for dense masks. We propo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02791</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CURV: Enhancing Chart Understanding Through Curriculum Visual Grounded Reasoning</title>
+      <link>https://huggingface.co/papers/2608.02833</link>
+      <description>By Xuehang Guo, Pingyue Zhang, Ruiyi Zhang, Zhenhailong Wang, Hanrui Lyu, et al.
+
+Chart question answering (CQA) requires multimodal large language models (MLLMs) to integrate visual comprehension with logical reasoning, yet current models struggle with accurate visual grounding and coherent reasoning chains. While extrinsic chain-of-thought prompting and visual cues significantl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02833</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Audio-based piano transcription performs well on onset, pitch, and velocity, but
 
 We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and renders the affected attention heads partially blind. We analyze this failure mode, characterize its ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.03994</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ChronoLens: Measuring Language Change Across Time, Languages, and Linguistic Levels</title>
+      <link>https://huggingface.co/papers/2608.03507</link>
+      <description>By Gagan Bhatia, Julian Schlenker, Simone Paolo Ponzetto, Steffen Eger
+
+Historical language change affects morphology, syntax, semantics, and pragmatics, yet computational studies typically examine these levels with incompatible representations and therefore cannot determine whether they evolve together across languages. We address this problem by asking how the magnitu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03507</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

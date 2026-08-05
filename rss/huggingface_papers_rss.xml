@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 03:16:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 06:34:04 +0000</lastBuildDate>
     <item>
       <title>Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV</title>
       <link>https://huggingface.co/papers/2607.23693</link>
@@ -64,6 +64,15 @@ Scientific figure comprehension and reasoning using multimodal AI requires integ
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ExplainBench: Evaluating Code Explanations from Agents</title>
+      <link>https://huggingface.co/papers/2607.26451</link>
+      <description>By Zhiyuan Pan, Sungmin Kang, Imam Nur Bani Yusuf, Abhik Roychoudhury
+
+Large Language Model (LLM) agents have seen rapid adoption in software engineering. As agents take a greater role in the actual generation of code, they are making larger changes, spanning tens to hundreds of lines. This makes manual review of agent results increasingly infeasible, leading developer...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.26451</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures</title>
       <link>https://huggingface.co/papers/2607.28802</link>
       <description>By Harsh Raj, Vipul Gupta, Anas Mahmoud, Razvan-Gabriel Dumitru, Darvin Yi, et al.
@@ -80,15 +89,6 @@ Existing evaluations often reduce agent failures to system-level outcomes, obscu
 Large language models increasingly write and repair production code, yet evidence is mounting that their test-passing patches leave codebases harder to maintain. We identify one concrete source: deletion avoidance, the systematic tendency to retain code that an intended edit requires removing. Acros...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.28887</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2607.29613</link>
-      <description>By Senyu Fei, Xiaopeng Yu, Siyin Wang, Xianzhong Zhao, Jingjing Gong, et al.
-
-Reinforcement learning (RL) post-training of Vision-Language-Action (VLA) models has shown strong promise for robotic manipulation. Among RL methods, critic-based approaches rely on a value estimator that predominantly operates on single-frame observations or single-frame VLM backbone latents, which...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.29613</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DiffusionGemma Technical Report</title>
@@ -145,13 +145,13 @@ Large language model agents are increasingly evaluated as autonomous tool users,
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Poplar: A Scalable Pipeline for Human-Centric Image Dataset Synthesis</title>
-      <link>https://huggingface.co/papers/2608.00440</link>
-      <description>By Zhishan Zou
+      <title>ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts</title>
+      <link>https://huggingface.co/papers/2607.28993</link>
+      <description>By Mingxin Wang, Bin Hu, Bin Qian, Kaitao Jiang, Haoning Wu, et al.
 
-Recent image generators can synthesize convincing human-centric images, yet producing a useful collection remains different from producing a single successful image. A human-centric dataset must cover varied people and contexts, avoid implausible attribute combinations, preserve an everyday photogra...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.00440</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+World Action Models (WAMs) have emerged as a promising paradigm by jointly modeling robot actions and future visual dynamics. However, their reliance on pixel-generative future supervision can entangle action-relevant state transitions with task-irrelevant visual content, limiting robustness under v...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28993</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CADENA: Stepwise CAD Reverse Engineering</title>
@@ -181,6 +181,15 @@ Accurate prediction of object trajectories during manipulation is essential for 
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Push-Wiper: Toward General-Purpose Robotic Cleaning across Varied Stains and Surfaces with Segmented Pushing Trajectories</title>
+      <link>https://huggingface.co/papers/2608.00730</link>
+      <description>By Renhao Lu, Mingxin Wang, Chenyang Cao, Yang Yang, Guoping Pan, et al.
+
+Viscous stains, characterized by high viscosity and complex rheological properties, remain a major challenge for robotic surface cleaning. Conventional wiping often spreads the stain, while scrubbing provides stronger friction but risks damaging the surface. In this paper, we propose Push-Wiper, a f...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.00730</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>3DZip: Spatial-Aware Feature Diversity-Guided Token Compression for 3D Question Answering</title>
       <link>https://huggingface.co/papers/2608.01185</link>
       <description>By Changwoo Baek, Kyeongbo Kong
@@ -206,60 +215,6 @@ Multimodal clinical models are usually judged on accuracy with every modality pr
 World Action Models (WAMs) couple action generation with prediction of future states. Their effectiveness depends on whether future dynamics are modeled in a space that is both aligned with action generation and sufficiently geometry-aware to capture where and how actions change the scene. Existing ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.01397</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Roomer: Reflective Object-Grounded Model Editing and Repair for 3D Indoor Layout Synthesis</title>
-      <link>https://huggingface.co/papers/2608.01973</link>
-      <description>By Lingwei Dang, Ziyan Qiu, Jiajia Cheng, Shishuo Shang, Zhenhao Zhang, et al.
-
-Existing indoor layout generators produce globally plausible layouts yet may retain local violations such as collisions, out-of-bounds placements, obstructed openings, and blocked circulation. Most prior work focuses on full-scene synthesis or scene-level optimization, with limited support for ident...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01973</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ScrambleToolBench: Agents Search Exhaustively Even When Their Own Map Points to the Next Step</title>
-      <link>https://huggingface.co/papers/2608.02358</link>
-      <description>By Vernon Toh, Navonil Majumder, Zhengyuan Liu, Nancy F. Chen, Soujanya Poria
-
-To operate robustly in open-world environments, autonomous agents should be able to infer the behavior of unfamiliar systems through interaction alone, even in the absence of documentation. However, existing tool-use benchmarks expose semantic tool schemas in static environments, allowing agents to ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02358</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StyleForge: Indoor Furniture Styling by Counterfactual Reasoning in a Hypergraph Field</title>
-      <link>https://huggingface.co/papers/2608.01954</link>
-      <description>By Lingwei Dang, Shishuo Shang, Pan Liu, Jiajia Cheng, Ziyan Qiu, et al.
-
-Fixed-layout indoor furniture styling requires selecting assets that form a coherent room without changing the prescribed furniture categories, positions, orientations, or scales. Existing approaches typically retrieve each asset independently or rely on static local relations, making them prone to ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01954</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks</title>
-      <link>https://huggingface.co/papers/2608.02023</link>
-      <description>By Yu Zhang, Ruiqi Li, Changhao Pan, Ke Lei, Xiang Yin, et al.
-
-Speech and audio generation is often needed in animation dubbing, audio drama, movies, advertising, games, podcasts, and short-video production. In these scenarios, creators may need to design voices without reference recordings, control speaker styles with natural language, support acoustic scenes ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02023</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UEmbed: Unified Sparse and Dense Multimodal Embeddings</title>
-      <link>https://huggingface.co/papers/2608.02583</link>
-      <description>By Tingyu Song, Mingxin Li, Yanzhao Zhang, Dingkun Long, Pengjun Xie, et al.
-
-Sparse retrieval underpins modern search systems, from web search to retrieval-augmented generation. Existing work has introduced Learned Sparse Retrieval (LSR) to push beyond exact lexical matching toward richer semantics. Yet LSR has so far remained tied to encoder-style bidirectional architecture...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02583</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWE-Touch: Benchmarking Coding Agents When Users Touch the Code</title>
-      <link>https://huggingface.co/papers/2608.02499</link>
-      <description>By Yuqiao Tan, Jinxiang Meng, Fangyu Lei, Minzheng Wang, Shizhu He, et al.
-
-Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modify code during an ongoing task, yet existing repository-level benchmarks typically evaluate agents working alone or restrict user participation to messages. This leads us to ask: ho...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02499</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity</title>
@@ -406,6 +361,24 @@ Large language model agents have shown strong potential in complex interactive t
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Knowledge-Geometry Decoupling: Refreshable Pretrained Transfer for Streaming Recommendation</title>
+      <link>https://huggingface.co/papers/2608.02738</link>
+      <description>By Zixuan Wang, Yuhong Chen, Yuxuan Zhu, Guidong Lei, Zhiluohan Guo, et al.
+
+Industrial recommenders increasingly adopt the pretrain-then-transfer paradigm, yet behavioral distribution drift raises two questions: what to learn from behavior sequences, and how to transfer the learned knowledge while the pretrained model is continually refreshed. To resolve them, we propose Kn...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02738</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quo Vadis, World Modeling?</title>
+      <link>https://huggingface.co/papers/2608.02713</link>
+      <description>By Yu Yang, Xuemeng Yang, Licheng Wen, Lingdong Kong, Xiaobin Hu, et al.
+
+Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environment interaction is costly, slow, unsafe, and hard to parallelize. World modeling offers a natural intermediate proxy that allows agents to query lower-cost, more controllable feedback...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02713</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Any-OPD: Heterogeneous On-Policy Distillation for Flow-Matching Models via Representation-Space Bridging</title>
       <link>https://huggingface.co/papers/2608.03316</link>
       <description>By Siming Fu, Zheming Fu, Ruizhe He, Hualiang Wang, Jie Huang, et al.
@@ -457,6 +430,33 @@ Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iter
 
 Omni-modal large language models (Omni-LLMs) have achieved remarkable performance on audio-visual understanding tasks, but processing long and highly redundant visual and audio token sequences incurs substantial computational overhead, demanding aggressive token compression for efficient deployment....</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.03812</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents</title>
+      <link>https://huggingface.co/papers/2608.04003</link>
+      <description>By Shuhan Xue, Zixin Ding, Yichen Shen, Yinjie Wang, Zhenfei Yin, et al.
+
+Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained exp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04003</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent</title>
+      <link>https://huggingface.co/papers/2608.03979</link>
+      <description>By Zhen Fang, Yu Zeng, Wenxuan Huang, Yiming Zhao, Shiting Huang, et al.
+
+We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary evaluations reveal two critical bottlenecks in current models: (1) modality bia...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03979</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills</title>
+      <link>https://huggingface.co/papers/2608.03700</link>
+      <description>By Yongli Xiang, Zhifang Zhang, Bojun Yang, Ziming Hong, Lei Feng, et al.
+
+Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. While enabling flexible personalization, this process concentrates fragmented personal signals, amplifies their impact through reuse, and challenges defenses designed for individual re...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03700</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 15:19:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 17:47:41 +0000</lastBuildDate>
     <item>
       <title>Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements</title>
       <link>https://huggingface.co/papers/2607.28661</link>
@@ -46,15 +46,6 @@ Adapting Large Language Models (LLMs) to specialized domains often incurs an ali
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GPTQ-2D: Cubic-Time Two-Sided Adaptive Rounding</title>
-      <link>https://huggingface.co/papers/2607.27042</link>
-      <description>By Jiale Chen, Torsten Hoefler, Dan Alistarh
-
-Adaptive rounding methods such as GPTQ, or equivalently Babai's nearest plane algorithm, round a real matrix to integers under a quadratic metric. They process the entries in a fixed order, one at a time, propagating each rounding error to the entries not yet processed through a triangular feedback ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27042</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures</title>
       <link>https://huggingface.co/papers/2607.26848</link>
       <description>By Fahad Ahmed, Sören Auer, Jennifer D'Souza
@@ -89,15 +80,6 @@ Existing evaluations often reduce agent failures to system-level outcomes, obscu
 Large language models increasingly write and repair production code, yet evidence is mounting that their test-passing patches leave codebases harder to maintain. We identify one concrete source: deletion avoidance, the systematic tendency to retain code that an intended edit requires removing. Acros...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.28887</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems</title>
-      <link>https://huggingface.co/papers/2607.29241</link>
-      <description>By Haoran Ling, Yuecheng Li, Zeyu Song, Jing Yao, Shuwen Kang, et al.
-
-Optimizing modern recommender models still depends heavily on engineers manually iterating over architectural, objective, and training-strategy changes. While LLM-based agents can automate this trial-and-error process, allowing the LLM to both select modification directions and generate concrete hyp...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.29241</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>A Frozen Pixel-Space Diffusion Model Can Guide Itself with Its Own Samples</title>
@@ -143,15 +125,6 @@ Large language model agents are increasingly evaluated as autonomous tool users,
 World Action Models (WAMs) have emerged as a promising paradigm by jointly modeling robot actions and future visual dynamics. However, their reliance on pixel-generative future supervision can entangle action-relevant state transitions with task-irrelevant visual content, limiting robustness under v...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.28993</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DreamTraj: Generating 6-DoF Object Trajectories by Reading Unrendered Video Diffusion Latents</title>
-      <link>https://huggingface.co/papers/2608.00486</link>
-      <description>By Tongsheng Ding, Zhen Luo, Yixuan Yang, Boyu Wang, Luyang Xie, et al.
-
-Accurate prediction of object trajectories during manipulation is essential for closing the perception-action loop. Progress is limited on two fronts: available datasets lack fine-grained language-to-motion annotations, and existing predictors either rely on privileged inputs such as video, depth, o...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.00486</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Push-Wiper: Toward General-Purpose Robotic Cleaning across Varied Stains and Surfaces with Segmented Pushing Trajectories</title>
@@ -206,15 +179,6 @@ Video world models predict future observations conditioned on historical observa
 Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries, but performance can collapse under tight budgets. Existing methods primarily improve which original KV pairs are retained. We introduce RestoreKV, which complements this selection-...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.01247</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning</title>
-      <link>https://huggingface.co/papers/2608.02585</link>
-      <description>By Zhaoxin Yu, Qi Shen, Hengli Li, Zhaowei Zhang, Song-Chun Zhu, et al.
-
-Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequenc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02585</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation</title>
@@ -331,6 +295,15 @@ MLLM-based segmentation faces a core segmentation trilemma: high segmentation pe
 
 Chart question answering (CQA) requires multimodal large language models (MLLMs) to integrate visual comprehension with logical reasoning, yet current models struggle with accurate visual grounding and coherent reasoning chains. While extrinsic chain-of-thought prompting and visual cues significantl...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.02833</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads</title>
+      <link>https://huggingface.co/papers/2608.02703</link>
+      <description>By Şuayp Talha Kocabay, Talha Rüzgar Akkuş, Kamer Ali Yuksel
+
+Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16 or FP16. Quantizing this projection naively can strongly perturb the vocabulary-logit distribution. We p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02703</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +430,33 @@ We identify a previously overlooked failure mode of ALiBi positional encoding: i
 
 Historical language change affects morphology, syntax, semantics, and pragmatics, yet computational studies typically examine these levels with incompatible representations and therefore cannot determine whether they evolve together across languages. We address this problem by asking how the magnitu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.03507</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning</title>
+      <link>https://huggingface.co/papers/2608.03972</link>
+      <description>By Jinhe Bi, Chennan Zhou, Zengjie Jin, Aniri, Shuo Lu, et al.
+
+On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models. However, when the expert fails on harder problems, existing trajectory-guided methods lose ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03972</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LegalPincite: Multi-level Legal Information Retrieval Dataset</title>
+      <link>https://huggingface.co/papers/2608.03756</link>
+      <description>By Theresia Veronika Rampisela, Henrik Palmer Olsen, Giovanni Colavizza
+
+A common task in legal Information Retrieval (IR) is to find relevant legal sources from case-law collections. While legal practice often requires pinpoint citations (pincites) to specific case paragraphs, most existing public legal IR datasets lack paragraph-level citation annotations. Yet, publicl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03756</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs</title>
+      <link>https://huggingface.co/papers/2608.03506</link>
+      <description>By Omatharv Bharat Vaidya, Connor Thomas Jerzak, Zayne Rea Sprague, Fangcong Yin, Nhat Ho
+
+Self-consistency assumes the most frequent answer among sampled reasoning traces is the most reliable, but this can fail in causal reasoning: samples often repeat the same confounding error, and votes fragment across multiple valid answers, letting an invalid answer win despite a valid minority trac...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03506</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

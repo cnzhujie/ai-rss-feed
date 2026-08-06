@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2026 03:19:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 06:37:20 +0000</lastBuildDate>
+    <item>
+      <title>AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities</title>
+      <link>https://huggingface.co/papers/2607.24821</link>
+      <description>By Yuqing Wen, Yukai Huang, Qianqian Xie, Jiangtao Wu, Yibin Lin, et al.
+
+While instruction-based video editing has advanced rapidly, real-world videos contain tightly coupled audio and visual signals, and editing one modality often requires coordinated changes in the other. Existing benchmarks primarily evaluate visual transformations on silent clips or isolated audio ed...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.24821</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements</title>
       <link>https://huggingface.co/papers/2607.28661</link>
@@ -80,24 +89,6 @@ Video world models predict future observations conditioned on historical observa
 Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries, but performance can collapse under tight budgets. Existing methods primarily improve which original KV pairs are retained. We introduce RestoreKV, which complements this selection-...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.01247</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CAPEval: A Decoupled Caption Evaluation across Understanding and Generation</title>
-      <link>https://huggingface.co/papers/2608.02589</link>
-      <description>By Zhipeng Liu, Haochen Wang, Zhaoxiang Zhang
-
-Captions serve as a primary supervision signal for both multimodal understanding and text-to-image generation. However, previous evaluations treat the caption quality as a single scalar objective, which conflates two distinct properties: (1) how much visual information a caption covers and (2) how r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02589</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling</title>
-      <link>https://huggingface.co/papers/2608.02602</link>
-      <description>By Jiajun Liang, Yucheng Liao, Yukang Cao, Jiazhe Wei, Ken Li, et al.
-
-Language remains an outlier in generative modeling: while images, video, and audio are increasingly modeled in continuous latent spaces, text generation still relies predominantly on discrete tokens. Existing continuous language models either inherit embedding spaces not designed for joint generatio...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02602</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PCSD: Persistent Consistency for Self-Distillation in Agentic Reinforcement Learning</title>
@@ -179,15 +170,6 @@ Existing deep-research agents use a search-visit workflow that retrieves and rea
 Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric human manipulation videos offer rich scene and task diversity, and prior work has shown that retargeting and rendering such videos into robot-format data can yield effective per-task po...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.02580</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning</title>
-      <link>https://huggingface.co/papers/2608.04007</link>
-      <description>By Changle Qu, Sunhao Dai, Hengyi Cai, Yuqi Zhou, Xinran Chen, et al.
-
-Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation off...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.04007</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OmniPack: Unified Token Compression for Efficient Omni-modal Large Language Models</title>
@@ -457,6 +439,24 @@ Leveraging pre-trained vision-language models (VLMs) to construct vision-languag
 
 This technical report presents K-EXAONE 2.0, an open-weight multilingual foundation model developed by LG AI Research as a step in our effort toward global frontier-scale foundation models. Rather than training from scratch, we upcycle K-EXAONE and expand its architecture, yielding a Mixture-of-Expe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.04505</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Consistency-Driven Co-Evolution for Self-Supervised Cross-Representation Learning</title>
+      <link>https://huggingface.co/papers/2608.04926</link>
+      <description>By Xuehang Guo, Pengyuan Li, Tom Hope, Tirthankar Ghosal, Manling Li, et al.
+
+As chart images, tabular data, and visualization code play increasingly important roles across diverse domains, cross-representation understanding across these modalities poses fundamental challenges for AI systems: the relationships across representations are inherently one-to-many, supervision is ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04926</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming</title>
+      <link>https://huggingface.co/papers/2608.05108</link>
+      <description>By Yanting Wang, Chenlong Yin, Runpeng Geng, Jinyuan Jia
+
+Prompt injection poses significant security risks to LLM agents. Efficient and effective red-teaming is therefore critical, both for evaluating these risks and for collecting training data to improve defenses. Existing state-of-the-art prompt injection red-teaming methods primarily rely on reinforce...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05108</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

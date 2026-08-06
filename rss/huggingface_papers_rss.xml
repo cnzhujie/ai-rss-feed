@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 23:07:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 03:19:53 +0000</lastBuildDate>
     <item>
       <title>Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements</title>
       <link>https://huggingface.co/papers/2607.28661</link>
@@ -19,42 +19,6 @@ Do Large Language Models (LLMs) possess genuine structural reasoning, or merely 
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Compute Globally, Materialize Locally: The Memory Contract of Sparse Event-KV</title>
-      <link>https://huggingface.co/papers/2607.23693</link>
-      <description>By Zefeng Cai, Zerui Cai
-
-Long-horizon agents increasingly reuse their KV cache as memory: a serving system keeps a subset of cached entries and drops the rest. Eviction and episodic-memory schemes therefore rest on a premise rarely tested directly, that a retained event is still informative once the observations that produc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.23693</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models</title>
-      <link>https://huggingface.co/papers/2607.26326</link>
-      <description>By Jiaang Li, Chengzu Li, Zhaochong An, Yifei Yuan, Xi Liu, et al.
-
-Multimodal Large Language Models (MLLMs) achieve strong performance by integrating visual inputs with the rich priors of pretrained language models. However, they often fail on vision-centric tasks, especially when visual evidence conflicts with pretrained knowledge. We explore these failures separa...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.26326</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MemSFT: Mitigating Alignment Tax with an External Parametric Memory</title>
-      <link>https://huggingface.co/papers/2607.25614</link>
-      <description>By Jiarui Wang, Xiang Shi, Jiaqi Cao, Rubin Wei, Xiquan Wang, et al.
-
-Adapting Large Language Models (LLMs) to specialized domains often incurs an alignment tax, as fine-tuning on domain-specific tasks can cause catastrophic forgetting and substantially degrade performance on general tasks. We propose MemSFT, which mitigates the alignment tax by decoupling domain spec...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.25614</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ICDAR 2026 Competition on Information Extraction from Atomic Layer Deposition/Etching (ALD/E) Scientific Figures</title>
-      <link>https://huggingface.co/papers/2607.26848</link>
-      <description>By Fahad Ahmed, Sören Auer, Jennifer D'Souza
-
-Scientific figure comprehension and reasoning using multimodal AI requires integrating visual perception with domain-specific reasoning to extract meaningful knowledge, often not presented in the text of a research publication. The Sci-ImageMiner benchmark dataset, accompanied by a community-driven ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.26848</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ExplainBench: Evaluating Code Explanations from Agents</title>
       <link>https://huggingface.co/papers/2607.26451</link>
       <description>By Zhiyuan Pan, Sungmin Kang, Imam Nur Bani Yusuf, Abhik Roychoudhury
@@ -62,51 +26,6 @@ Scientific figure comprehension and reasoning using multimodal AI requires integ
 Large Language Model (LLM) agents have seen rapid adoption in software engineering. As agents take a greater role in the actual generation of code, they are making larger changes, spanning tens to hundreds of lines. This makes manual review of agent results increasingly infeasible, leading developer...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.26451</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>To Add Is Machine, To Delete Is Human: Measuring and Mitigating Deletion Avoidance in LLM Code Editing</title>
-      <link>https://huggingface.co/papers/2607.28887</link>
-      <description>By Amir M. Ebrahimi, Mohammed Mehedi Hasan, Aaditya Bhatia, Gopi Krishnan Rajbahadur, Ahmed E. Hassan
-
-Large language models increasingly write and repair production code, yet evidence is mounting that their test-passing patches leave codebases harder to maintain. We identify one concrete source: deletion avoidance, the systematic tendency to retain code that an intended edit requires removing. Acros...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.28887</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Frozen Pixel-Space Diffusion Model Can Guide Itself with Its Own Samples</title>
-      <link>https://huggingface.co/papers/2607.29122</link>
-      <description>By Zixuan Fu, Chong Wang, Lanqing Guo, Kailai Zhou, Jiahao Nie, et al.
-
-Pixel-space diffusion models aim to learn an end-to-end generator directly over raw pixels. This is challenging because a single model must capture both global structure and local texture in the same high-dimensional space. While recent work improves pixel diffusion through alternative prediction ta...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.29122</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zero-Mem: Zero-Token Memory Operations for LLM Agents</title>
-      <link>https://huggingface.co/papers/2607.29377</link>
-      <description>By Yilin Xiao, Zhehan Zhu, Yujing Zhang, Jin Chen, Zijin Hong, et al.
-
-LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate that memory. Generating intermediate records and mediating their retrieval adds recurring token and time costs, while omitted or merged details can obscure the original evidence. W...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.29377</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?</title>
-      <link>https://huggingface.co/papers/2608.00155</link>
-      <description>By Dong Yan, Jian Liang, Dapeng Hu, Ran He, Nicholas Jing Yuan, et al.
-
-Large language model (LLM) agents can self-evolve by continually improving from their own accumulated experience. However, existing studies predominantly adopt independent evaluation. Consequently, the behavior of self-evolving agents in realistic streaming settings, where agents adapt to diverse an...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.00155</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations</title>
-      <link>https://huggingface.co/papers/2607.28956</link>
-      <description>By Qiming Shi, Yulong Tao, Linbo Jin, Zhaolu Kang, Yibo Dou, et al.
-
-Large language model agents are increasingly evaluated as autonomous tool users, yet most benchmarks focus on bounded tasks with immediate success criteria. Real-world deployments often require Long-Term Coherence, the capacity to preserve purposeful behavior across extended horizons while adapting ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.28956</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ST-WAM: Semantic-Temporal World Action Model for Robust Manipulation under Visual Distribution Shifts</title>
@@ -136,22 +55,13 @@ We introduce a new problem domain for human action recognition: the fine-grained
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Loud or Silent? A Reusable Framework for Per-Modality Failure Analysis in Multimodal Clinical AI</title>
-      <link>https://huggingface.co/papers/2608.01462</link>
-      <description>By Quang Bui, Shlok Jaiswal, Samuel Paik-Heintz, Kevin Zhou, Kaushik Madapati, et al.
+      <title>Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance</title>
+      <link>https://huggingface.co/papers/2608.00782</link>
+      <description>By Zhuowen Han, Jinwei Xiao, Zhengxi Lu, Renren Jin, Zhiyuan Yao, et al.
 
-Multimodal clinical models are usually judged on accuracy with every modality present, but deployment removes modalities; an echocardiogram is often unavailable where an ECG is routine. Two questions then matter beyond the size of the accuracy loss: which modality was responsible, and whether the mo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01462</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space</title>
-      <link>https://huggingface.co/papers/2608.01397</link>
-      <description>By Ruiteng Zhao, Zhengshen Zhang, Yue Su, Wenshuo Wang, Jiahui Li, et al.
-
-World Action Models (WAMs) couple action generation with prediction of future states. Their effectiveness depends on whether future dynamics are modeled in a space that is both aligned with action generation and sufficiently geometry-aware to capture where and how actions change the scene. Existing ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01397</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models (LLMs). While Group Relative Policy Optimization (GRPO) is widely adopted, it suffers from sparse reward signals and loses gradients entirely when all responses within a group...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.00782</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MiniWorld: Democratizing the Training of Video World Models from Scratch</title>
@@ -170,51 +80,6 @@ Video world models predict future observations conditioned on historical observa
 Query-agnostic KV cache eviction compresses a context once and reuses the resulting cache for arbitrary future queries, but performance can collapse under tight budgets. Existing methods primarily improve which original KV pairs are retained. We introduce RestoreKV, which complements this selection-...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.01247</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation</title>
-      <link>https://huggingface.co/papers/2608.02315</link>
-      <description>By Gaetano Chiriaco, Luca Barco, Andrea Bragagnolo, Claudio Rossi, Edoardo Arnaudo
-
-Geospatial foundation models aim to learn representations that transfer across regions and sensors, yet evaluating them on specific tasks requires large, high-quality, multi-modal benchmarks that measure how well such models extract value from data. Concerning flood mapping, existing datasets rarely...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02315</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wnuan: Staged Post-Training for Question Answering over Proprietary Enterprise Knowledge</title>
-      <link>https://huggingface.co/papers/2608.01862</link>
-      <description>By Xiaofeng Shi, Xiaosong Qiu, Wenxin Ma, Qian Kou, Yiming Pan, et al.
-
-Enterprise question answering requires models to acquire proprietary knowledge without discarding general capabilities. We present Wnuan, a three-stage pipeline that constructs task-oriented supervision from documents, performs supervised fine-tuning with general-data replay, and applies reinforceme...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01862</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>InfiniSplat: Implicit Gaussian Decoding for Large-Baseline Monocular View Synthesis</title>
-      <link>https://huggingface.co/papers/2608.02437</link>
-      <description>By Jiawei Wang, Hao Yu, Yongzhen Hu, Xinyi Yang, Tao Ni, et al.
-
-Single-image feed-forward 3D Gaussian Splatting (3DGS) aims to directly generate a renderable 3D scene representation from one input image, avoiding the cost of multi-view capture and per-scene optimization. However, existing methods are often constrained by a pixel-aligned representation, where Gau...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02437</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GROVE: Growing and Reasoning over Temporally Stratified Memory from Streaming Video Experience</title>
-      <link>https://huggingface.co/papers/2608.02392</link>
-      <description>By Sitong Gong, Caixin Kang, Tianyu Yan, Guo Chen, Bo Zheng, et al.
-
-A wearable assistant should both answer questions about its visual history and recognize when that history is useful to the present situation. Existing video-memory systems primarily support question-conditioned recall, whereas proactive assistants typically use separate memory and control mechanism...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02392</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing</title>
-      <link>https://huggingface.co/papers/2608.02711</link>
-      <description>By Junliang Ye, Kenkun Liu, Guocun Wang, Yang Li, Yansong Qu, et al.
-
-Recent advances in image generation have demonstrated the potential of unified multimodal models that integrate understanding, generation, and editing. However, unified 3D modeling remains constrained by scarce multimodal data, particularly the lack of large-scale and geometrically consistent editin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02711</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CAPEval: A Decoupled Caption Evaluation across Understanding and Generation</title>
@@ -298,40 +163,22 @@ Weight-only quantization substantially reduces the storage of large language mod
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Any-OPD: Heterogeneous On-Policy Distillation for Flow-Matching Models via Representation-Space Bridging</title>
-      <link>https://huggingface.co/papers/2608.03316</link>
-      <description>By Siming Fu, Zheming Fu, Ruizhe He, Hualiang Wang, Jie Huang, et al.
+      <title>Search, Inspect, Fetch: Exploiting Boolean Retrieval for Deep-Research Agents</title>
+      <link>https://huggingface.co/papers/2608.02751</link>
+      <description>By Shuai Wang, Haodong Chen, Yu Yin, Shengyao Zhuang, Bevan Koopman, et al.
 
-On-policy distillation, in which a teacher corrects samples that the student itself generates, presupposes that the two models speak the same language: identical VAE latents, matching architectures, and a common timestep grid. We ask what happens when none of this holds, as when the strongest teache...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03316</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+Existing deep-research agents use a search-visit workflow that retrieves and reads whole pages, without considering the addressable structure that web sources expose through titles, headings, sections, and metadata. This prevents agents from directly constraining retrieval to document fields and oft...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02751</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UniWorld-Design: From Pixel Generation to Layer-Native Design</title>
-      <link>https://huggingface.co/papers/2608.03971</link>
-      <description>By Zongjian Li, Zhiyuan Yan, Chenxu Bai, Chen Chen, Haoxiang Sun, et al.
+      <title>Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data</title>
+      <link>https://huggingface.co/papers/2608.02580</link>
+      <description>By Ye Wang, Pei Lin, Xiong-Hui Chen, Haoqi Yuan, Zhixuan Liang, et al.
 
-We introduce UniWorld-Design, a framework that redefines image generation from flat pixel synthesis to structured visual composition, with semantic RGBA layers as the atomic units of generation, understanding, and editing. Our key insight is that pixels define how an image is rendered, whereas layer...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03971</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SkillJack: Persistent Skill Backdoors in Self-Evolving Agents</title>
-      <link>https://huggingface.co/papers/2608.03509</link>
-      <description>By Zonghao Ying, Xiangfan Wu, Huiyu Wu, Xing Zheng, Huangsheng Cheng, et al.
-
-Self-evolving agents increasingly convert interaction histories into reusable skills that persist beyond individual tasks. While prior work studies memory and retrieval poisoning, such attacks only affect agents when poisoned records are retrieved as context. We uncover a new and more fundamental ri...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03509</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion</title>
-      <link>https://huggingface.co/papers/2608.03974</link>
-      <description>By Yicheng Xiao, Wenxun Dai, Xinran Qin, Lin Song, Maoquan Zhang, et al.
-
-Real-time video editing requires low-latency causal generation with bounded computational resources while preserving source fidelity and long-term temporal consistency. We present JoyAI-Video-Edit, a 16B-parameter autoregressive diffusion framework for real-time, open-ended video editing without acc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03974</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+Learning generalizable robot manipulation policies requires large-scale and diverse demonstration data. Egocentric human manipulation videos offer rich scene and task diversity, and prior work has shown that retargeting and rendering such videos into robot-format data can yield effective per-task po...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02580</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning</title>
@@ -458,6 +305,159 @@ Self-consistency assumes the most frequent answer among sampled reasoning traces
 Reasoning language models frequently overthink: generating extended chains of behaviors such as hedging, approach abandonment, and self contradiction that consume tokens without improving answers. We show that these behaviors are not merely a consequence of length; even when controlling for response...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.00482</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TriGlue: a Biology-Inspired Generative Model for Generating Molecular Glue-Induced Ternary Complex</title>
+      <link>https://huggingface.co/papers/2607.22143</link>
+      <description>By Yuliang Yan, Shuo Yan, Haochun Tang, Yiqin Sun, Enyan Dai
+
+Molecular glue degraders have emerged as a promising strategy for targeted protein degradation by inducing ternary complex formation between an E3 ubiquitin ligase and a target protein. Despite their therapeutic potential, computational design of molecular glues remains largely unexplored. Unlike co...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.22143</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SKILL-KD: Contrastive Skill Distillation for LLM Agents</title>
+      <link>https://huggingface.co/papers/2607.28048</link>
+      <description>By Qiming Shi, Yibo Dou, Jiawen Zhu, Yulong Tao, Linbo Jin, et al.
+
+Skill-based prompting has become a practical mechanism for improving large language model (LLM) agents, yet existing skill acquisition methods often treat skills as experience summaries, memory entries, or direct summaries of successful demonstrations. This creates a mismatch for weaker student agen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28048</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Teachers Mislead: Spurious-Signal-Aware On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2608.03632</link>
+      <description>By Yinuo Jiang, Yongjie Ye, Zhou Tao, Xiang Zhuang, Qiang Zhang, et al.
+
+On-Policy distillation (OPD) transfers teacher capabilities by supervising student-sampled trajectories with dense token-level teacher signals. Recent selective OPD methods improve this process by prioritizing signals that are confident, informative, or learnable. However, the assumptions overlook a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03632</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents</title>
+      <link>https://huggingface.co/papers/2608.05013</link>
+      <description>By Jingsheng Zheng, Xinyuan Fang, Jintian Zhang, Zhengke Gui, Huajun Chen, et al.
+
+LLM agents are increasingly applied to open-ended everyday requests that span work, study, and life. These tasks are long-horizon, cross-environment, and multimodal, forcing the agent to preserve goals and constraints across many steps while navigating heterogeneous tools and attachments. While prio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05013</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OPD-V: Visual On-Policy Self-Distillation with Modality Balance</title>
+      <link>https://huggingface.co/papers/2608.05131</link>
+      <description>By Aniri, Jinhe Bi, Peng Liao, Zengjie Jin, Volker Tresp, et al.
+
+On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalanc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05131</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HelloWorld: Enabling Socially Interactive Characters in Video World Models</title>
+      <link>https://huggingface.co/papers/2608.05070</link>
+      <description>By Liangyang Ouyang, Ruicong Liu, Xuangeng Chu, Kaipeng Zhang, Yoichi Sato
+
+Despite the remarkable recent progress of video world models, social interaction between users and the characters within these worlds remains unsupported. To fill this gap, we present HelloWorld, a video world model that enables social interaction with in-world characters. With a single button press...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05070</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Poly-OPD: Heterogeneous Multi-Teacher On-Policy Distillation for Capability-Selectable Flow Models</title>
+      <link>https://huggingface.co/papers/2608.04349</link>
+      <description>By Siming Fu, Haojun Xu, Ruizhe He, Zheming Fu, Hualiang Wang, et al.
+
+Leading open text-to-image models often carry complementary strengths: one may lead on preference-aligned aesthetics while another follows compositional instructions more faithfully. However, differences in their autoencoders and noise schedules make it difficult to transfer these strengths across m...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04349</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes</title>
+      <link>https://huggingface.co/papers/2608.05000</link>
+      <description>By Junlin Han, Shengbang Tong, David Fan, Minghao Chen, Philip Torr, et al.
+
+Vision offers a critical axis for advancing foundation models, driving a shift towards natively unified multimodal pretraining. Despite this momentum, the design space and the fundamental mechanisms of how modalities interact during unified training remain underexplored. We provide empirical clarity...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05000</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ToolArtist: Tool-Using Unified Multimodal Models for Agentic Image Generation</title>
+      <link>https://huggingface.co/papers/2608.04436</link>
+      <description>By Jiahao Zhao, Xiaomin Yu, Zhongxiang Sun, Fengwei Teng, Chengwei Qin, et al.
+
+Text-to-image (T2I) models can produce visually compelling images, yet they remain limited on open-world tasks that require complex semantic understanding, multi-step reasoning, and the integration of external world knowledge. Existing efforts introduce agent capabilities into image generation, but ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04436</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UniWorld-View: Large-Baseline View Synthesis via Video Diffusion Models</title>
+      <link>https://huggingface.co/papers/2608.04701</link>
+      <description>By Haiyang Zhou, Wangbo Yu, Chaoran Feng, Xunyu Zhou, Yonghong Tian, et al.
+
+The abundance of casually captured monocular videos and images on social media provides a valuable source for immersive content creation, where generating novel views from such sparse observations can greatly enhance user experiences. However, producing photorealistic and geometrically consistent vi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04701</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap</title>
+      <link>https://huggingface.co/papers/2608.04397</link>
+      <description>By Dasol Choi, Joonyong Park, Daegon Yu, Soo Yong Kim, Youngsook Song, et al.
+
+We introduce NOLLI, a procedurally generated English-Korean puzzle benchmark designed to diagnose where Korean performance gaps arise. It comprises 15 puzzle types (25 tasks; 7,500 items), with every instance seed-regenerable, verified to have a unique solution, and scored deterministically. Rather ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04397</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Memory Lies: An Empirical Study of Spatial Memory Staleness in VLM Agents</title>
+      <link>https://huggingface.co/papers/2608.04574</link>
+      <description>By Yushi Sun, Yanjie Zhang
+
+Memory-augmented VLM agents act on persistent spatial knowledge, yet that knowledge silently goes stale as the environment changes. We ask what happens when an agent must reconcile a confident memory claim with a contradicting observation, and whether current models can catch the conflict before it ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04574</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning</title>
+      <link>https://huggingface.co/papers/2608.05139</link>
+      <description>By Yinghui He, Ling Yang, Jiarui Liu, Yongjin Yang, Lechen Zhang, et al.
+
+Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05139</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads</title>
+      <link>https://huggingface.co/papers/2608.04570</link>
+      <description>By Yushi Sun, Yanjie Zhang, Rui Sheng
+
+Personalized LLMs with persistent memory are increasingly deployed, yet the faithfulness of their user models remains unexamined. We study over-inference (OI): the phenomenon where LLMs fabricate user attributes beyond what evidence supports. We introduce MirageBench, comprising 150 personas balance...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04570</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models</title>
+      <link>https://huggingface.co/papers/2608.04964</link>
+      <description>By Bohai Gu, Yueyang Yuan, Taiyi Wu, Dazhao Du, Jian Liu, et al.
+
+Interactive video world models are essential for long-horizon planning and exploration, yet they suffer from compounding errors. Post-training methods such as reinforcement learning (RL) can improve these models, but they hit a verification bottleneck: for arbitrary action sequences, no ground-truth...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04964</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation</title>
+      <link>https://huggingface.co/papers/2608.05042</link>
+      <description>By Peiyan Li, Yuze Zhu, Yixiang Chen, Qisen Ma, Yuan Xu, et al.
+
+Leveraging pre-trained vision-language models (VLMs) to construct vision-language-action (VLA) models has emerged as a promising paradigm for 3D robot manipulation. However, existing 3D VLA methods remain data-hungry, exhibit limited generalization under distribution shifts, and lack explicit memory...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05042</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>K-EXAONE 2.0 Technical Report</title>
+      <link>https://huggingface.co/papers/2608.04505</link>
+      <description>By Eunbi Choi, Kibong Choi, Sehyun Chun, Seokhee Hong, Junwon Hwang, et al.
+
+This technical report presents K-EXAONE 2.0, an open-weight multilingual foundation model developed by LG AI Research as a step in our effort toward global frontier-scale foundation models. Rather than training from scratch, we upcycle K-EXAONE and expand its architecture, yielding a Mixture-of-Expe...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04505</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

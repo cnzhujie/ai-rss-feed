@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 05:45:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 07:26:28 +0000</lastBuildDate>
     <item>
       <title>AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities</title>
       <link>https://huggingface.co/papers/2607.24821</link>
@@ -55,15 +55,6 @@ Reinforcement learning with verifiable rewards (RLVR) has become a standard para
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Search, Inspect, Fetch: Exploiting Boolean Retrieval for Deep-Research Agents</title>
-      <link>https://huggingface.co/papers/2608.02751</link>
-      <description>By Shuai Wang, Haodong Chen, Yu Yin, Shengyao Zhuang, Bevan Koopman, et al.
-
-Existing deep-research agents use a search-visit workflow that retrieves and reads whole pages, without considering the addressable structure that web sources expose through titles, headings, sections, and metadata. This prevents agents from directly constraining retrieval to document fields and oft...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02751</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data</title>
       <link>https://huggingface.co/papers/2608.02580</link>
       <description>By Ye Wang, Pei Lin, Xiong-Hui Chen, Haoqi Yuan, Zhixuan Liang, et al.
@@ -80,15 +71,6 @@ Learning generalizable robot manipulation policies requires large-scale and dive
 Model checkpoints are growing in both number and size, which makes archival, transfer, and deployment increasingly costly. General-purpose compressors can reduce storage requirements but ignore tensor structure, whereas existing tensor-specific compressors rely on fixed and format-specific pipelines...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.02162</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TriGlue: a Biology-Inspired Generative Model for Generating Molecular Glue-Induced Ternary Complex</title>
-      <link>https://huggingface.co/papers/2607.22143</link>
-      <description>By Yuliang Yan, Shuo Yan, Haochun Tang, Yiqin Sun, Enyan Dai
-
-Molecular glue degraders have emerged as a promising strategy for targeted protein degradation by inducing ternary complex formation between an E3 ubiquitin ligase and a target protein. Despite their therapeutic potential, computational design of molecular glues remains largely unexplored. Unlike co...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.22143</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SKILL-KD: Contrastive Skill Distillation for LLM Agents</title>
@@ -161,15 +143,6 @@ A framework that persists execution state so a run can be interrupted, survive a
 Multimodal large language models (MLLMs) make grounded predictions in real-world scenes by combining visual and textual cues, yet existing benchmarks rarely reveal how they arbitrate between these evidence sources when they conflict. We introduce SIGNPOST-Bench, a controlled counterfactual benchmark...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.04244</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OPD-V: Visual On-Policy Self-Distillation with Modality Balance</title>
-      <link>https://huggingface.co/papers/2608.05131</link>
-      <description>By Aniri, Jinhe Bi, Peng Liao, Zengjie Jin, Volker Tresp, et al.
-
-On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalanc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05131</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HelloWorld: Enabling Socially Interactive Characters in Video World Models</title>
@@ -370,6 +343,15 @@ Deep vision models exploit shortcuts, relying on cues that correlate with superv
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing</title>
+      <link>https://huggingface.co/papers/2608.04956</link>
+      <description>By Xu Guo, Zhengxuan Wei, Xinghui Li, Hanzhuo Huang, Xinyu Liu, et al.
+
+Recent video models increasingly support generation, reference conditioning, and editing within a single model, yet typically expose them as separate operations over fixed inputs. Practical creation unfolds across multiple shots, requiring one model to generate from text, follow a reference, or edit...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04956</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation</title>
       <link>https://huggingface.co/papers/2608.06374</link>
       <description>By Junfeng Li, Junjie He, Zhide Zhong, Yangyang Zheng, Pingyue Sheng, et al.
@@ -457,6 +439,24 @@ Training large language model agents for long-horizon tool use typically relies 
 
 End-to-end document parsers provide a unified interface, but serialize page layouts and regional contents into one autoregressive sequence. This formulation forces independent regions onto a decoding path whose length grows with the total content, whereas crop-based two-stage parsers expose region-l...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.06146</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EffectLearner: World-Aware Object-Effect Reasoning for Real-World Video Object Removal</title>
+      <link>https://huggingface.co/papers/2608.05565</link>
+      <description>By Feier Wu, Wanke Xia, Xu He, Zilang Zhou, Si Chen, et al.
+
+Video object removal must eliminate not only the target object but also its induced effects while maintaining high-fidelity and spatiotemporally coherent restoration. Existing methods mainly learn object-effect correspondences implicitly from predefined effect categories and fixed data distributions...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05565</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MASS: Multiplayer World Models with Authoritative Shared State</title>
+      <link>https://huggingface.co/papers/2608.06257</link>
+      <description>By Ziqi Cai, Siqi Yang, Yimu Wang, Zixian Gao, Yunheng Liu, et al.
+
+Current video world models struggle in multiplayer environments because they entangle world state with view-dependent visual latents, leading to redundant compute, view inconsistencies, and poor scalability. We propose MAS (Multiplayer world models with Authoritative Shared State) to resolve this li...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.06257</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

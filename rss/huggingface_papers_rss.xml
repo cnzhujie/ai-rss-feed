@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 03:54:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 05:45:31 +0000</lastBuildDate>
     <item>
       <title>AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities</title>
       <link>https://huggingface.co/papers/2607.24821</link>
@@ -37,6 +37,15 @@ Powered by advances in LLMs and autonomous agents, deep research has become one 
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models</title>
+      <link>https://huggingface.co/papers/2607.28609</link>
+      <description>By Qiushi Sun, Kanzhi Cheng, Yian Wang, Bowen Yang, Hang Yan, et al.
+
+Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA evaluation, data curation, and reinforcement learning. Neither human-written verifie...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.28609</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance</title>
       <link>https://huggingface.co/papers/2608.00782</link>
       <description>By Zhuowen Han, Jinwei Xiao, Zhengxi Lu, Renren Jin, Zhiyuan Yao, et al.
@@ -44,15 +53,6 @@ Powered by advances in LLMs and autonomous agents, deep research has become one 
 Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models (LLMs). While Group Relative Policy Optimization (GRPO) is widely adopted, it suffers from sparse reward signals and loses gradients entirely when all responses within a group...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.00782</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads</title>
-      <link>https://huggingface.co/papers/2608.02703</link>
-      <description>By Şuayp Talha Kocabay, Talha Rüzgar Akkuş, Kamer Ali Yuksel
-
-Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16 or FP16. Quantizing this projection naively can strongly perturb the vocabulary-logit distribution. We p...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02703</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Search, Inspect, Fetch: Exploiting Boolean Retrieval for Deep-Research Agents</title>
@@ -80,24 +80,6 @@ Learning generalizable robot manipulation policies requires large-scale and dive
 Model checkpoints are growing in both number and size, which makes archival, transfer, and deployment increasingly costly. General-purpose compressors can reduce storage requirements but ignore tensor structure, whereas existing tensor-specific compressors rely on fixed and format-specific pipelines...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.02162</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs</title>
-      <link>https://huggingface.co/papers/2608.03506</link>
-      <description>By Omatharv Bharat Vaidya, Connor Thomas Jerzak, Zayne Rea Sprague, Fangcong Yin, Nhat Ho
-
-Self-consistency assumes the most frequent answer among sampled reasoning traces is the most reliable, but this can fail in causal reasoning: samples often repeat the same confounding error, and votes fragment across multiple valid answers, letting an invalid answer win despite a valid minority trac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03506</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Know When to Stop: Segment-Level Credit Assignment for Reducing Overthinking</title>
-      <link>https://huggingface.co/papers/2607.00482</link>
-      <description>By Chia-Hsuan Lee, Sihui Dai, Mingyang Zhou, Isha Slavin, Hsuan Su, et al.
-
-Reasoning language models frequently overthink: generating extended chains of behaviors such as hedging, approach abandonment, and self contradiction that consume tokens without improving answers. We show that these behaviors are not merely a consequence of length; even when controlling for response...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.00482</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TriGlue: a Biology-Inspired Generative Model for Generating Molecular Glue-Induced Ternary Complex</title>
@@ -379,6 +361,15 @@ Vision-language-action (VLA) models often treat main-view and wrist-view observa
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Invisible Shortcuts: Why Vision Encoders Know Your Camera</title>
+      <link>https://huggingface.co/papers/2608.05424</link>
+      <description>By Vladan Stojnić, Ryan Ramos, Giorgos Kordopatis-Zilos, Noa Garcia, Giorgos Tolias
+
+Deep vision models exploit shortcuts, relying on cues that correlate with supervision signals. Prior work has focused on visible biases, such as object-background or texture correlations. We identify a different source of shortcut learning: invisible metadata traces embedded at the pixel level, for ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05424</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation</title>
       <link>https://huggingface.co/papers/2608.06374</link>
       <description>By Junfeng Li, Junjie He, Zhide Zhong, Yangyang Zheng, Pingyue Sheng, et al.
@@ -457,6 +448,15 @@ Training terminal agents requires executable and verifiable tasks that are not m
 
 Training large language model agents for long-horizon tool use typically relies on interactions with real or synthesized executable environments, whose construction and verification are costly, or on external simulators that are difficult to ground. We introduce EnvACE, an agentic reinforcement lear...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.06197</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PaDoc: Layout-Grounded Parallel Decoding for Document Parsing</title>
+      <link>https://huggingface.co/papers/2608.06146</link>
+      <description>By Hao Yu, Jiabo Zhan, Kang Liu, Linnan Zhao, Dongxu Yue, et al.
+
+End-to-end document parsers provide a unified interface, but serialize page layouts and regional contents into one autoregressive sequence. This formulation forces independent regions onto a decoding path whose length grows with the total content, whereas crop-based two-stage parsers expose region-l...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.06146</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

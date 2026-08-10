@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Aug 2026 23:37:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 02:20:47 +0000</lastBuildDate>
     <item>
       <title>AVE-Compass: Towards Holistic Evaluation for Audio-Video Editing Abilities</title>
       <link>https://huggingface.co/papers/2607.24821</link>
@@ -44,15 +44,6 @@ Powered by advances in LLMs and autonomous agents, deep research has become one 
 Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA evaluation, data curation, and reinforcement learning. Neither human-written verifie...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2607.28609</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Distill Where You Fail: Recovering Learning Signals of Negative RL-Groups from Adaptive Teacher Guidance</title>
-      <link>https://huggingface.co/papers/2608.00782</link>
-      <description>By Zhuowen Han, Jinwei Xiao, Zhengxi Lu, Renren Jin, Zhiyuan Yao, et al.
-
-Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models (LLMs). While Group Relative Policy Optimization (GRPO) is widely adopted, it suffers from sparse reward signals and loses gradients entirely when all responses within a group...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.00782</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the Stimulus Features That Drive Retrieval</title>
@@ -162,24 +153,6 @@ Multimodal large language models (MLLMs) make grounded predictions in real-world
 Data agents enable natural-language analytics over organizational workspaces, where relevant evidence may be scattered across databases, structured files, long documents, and multimedia. Existing benchmarks largely isolate structured querying, retrieval, or open-ended analysis, leaving heterogeneous...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.03451</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WorldCycle: Self-Verifiable Reinforcement Learning for Long-Horizon Video World Models</title>
-      <link>https://huggingface.co/papers/2608.04964</link>
-      <description>By Bohai Gu, Yueyang Yuan, Taiyi Wu, Dazhao Du, Jian Liu, et al.
-
-Interactive video world models are essential for long-horizon planning and exploration, yet they suffer from compounding errors. Post-training methods such as reinforcement learning (RL) can improve these models, but they hit a verification bottleneck: for arbitrary action sequences, no ground-truth...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.04964</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation</title>
-      <link>https://huggingface.co/papers/2608.05042</link>
-      <description>By Peiyan Li, Yuze Zhu, Yixiang Chen, Qisen Ma, Yuan Xu, et al.
-
-Leveraging pre-trained vision-language models (VLMs) to construct vision-language-action (VLA) models has emerged as a promising paradigm for 3D robot manipulation. However, existing 3D VLA methods remain data-hungry, exhibit limited generalization under distribution shifts, and lack explicit memory...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05042</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>K-EXAONE 2.0 Technical Report</title>
@@ -459,6 +432,33 @@ Computer-use agents pay full frontier inference to re-derive routines their user
 Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representation. This dependency positions tokenizer as an integral part of generation process itself, since it affects learning speed, quality of synthesized samples and lay foundation for la...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.05798</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Addressable Memory for Video World Models</title>
+      <link>https://huggingface.co/papers/2608.07408</link>
+      <description>By Xindi Wu, Sven Elflein, James Lucas, Olga Russakovsky, Laura Leal-Taixé, et al.
+
+We study visual persistence in interactive video world models. These models rely on a Key-Value (KV) cache as a growing visual memory to carry forward previously generated frames. However, we find that models can no longer reliably address stored content once rollouts extend beyond the training hori...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.07408</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Skaling: Chinchilla's Exponents Meet Kaplan's Coupling</title>
+      <link>https://huggingface.co/papers/2608.07222</link>
+      <description>By Mathurin Videau, Badr Youbi-Idrissi, David Lopez-Paz, Kartik Ahuja
+
+Neural scaling laws are foundational for language model development, yet standard formulations systematically under- and overestimate loss at data-scarce and overtraining extremes. This failure originates in the underlying assumption that model size and training data impact the loss independently. T...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.07222</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modular TTT: Rethinking Test-Time Training as Composable Modules</title>
+      <link>https://huggingface.co/papers/2608.07110</link>
+      <description>By Bohao Tang, Zhen Qin, Yuqi Pan, Zheng Li, Pengfei Liu, et al.
+
+Test-time training (TTT) views sequence modeling as an online learning problem in which fast weights are updated by an internal learning rule. Despite the growing number of TTT variants, existing approaches typically hard-code each variant separately, which makes it difficult to design new TTT metho...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.07110</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

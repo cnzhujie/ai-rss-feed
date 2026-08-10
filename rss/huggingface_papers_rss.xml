@@ -8,25 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 06:15:11 +0000</lastBuildDate>
-    <item>
-      <title>What AI Red-Team Evaluations Can and Cannot Prove</title>
-      <link>https://huggingface.co/papers/2607.21735</link>
-      <description>By Bandana Kaur
-
-Red-team evaluations of AI models support some claims and not others, and the boundary between the two is calculable rather than merely a matter of judgment. We define the evidential ceiling of an evaluation as the largest factor by which one result can move belief under a fixed testing budget, deri...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.21735</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FinanceHarness: Autonomous Financial Deep Research Framework</title>
-      <link>https://huggingface.co/papers/2607.27853</link>
-      <description>By Yijia Xiao, Rujun Han, Yanfei Chen, Zifeng Wang, Ke Jiang, et al.
-
-Powered by advances in LLMs and autonomous agents, deep research has become one of the most widely adopted agentic products. However, most deep research systems write general-purpose reports, which are inadequate for financial deep research. Financial research demands specialized knowledge to analyz...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27853</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 10 Aug 2026 08:44:24 +0000</lastBuildDate>
     <item>
       <title>OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models</title>
       <link>https://huggingface.co/papers/2607.28609</link>
@@ -110,22 +92,13 @@ Data agents enable natural-language analytics over organizational workspaces, wh
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Helping Music Co-Creation Agents 'Listen' Well: Hierarchical Self-Supervised World Models for Understanding and Generation</title>
-      <link>https://huggingface.co/papers/2608.04378</link>
-      <description>By Scott H. Hawley
+      <title>Towards Interpretable Foundation Models for Retinal Fundus Images</title>
+      <link>https://huggingface.co/papers/2603.18846</link>
+      <description>By Samuel Ofosu Mensah, Camila Roa, Kerol Djoumessi, Philipp Berens
 
-Collaborative music agents need internal representations rich enough to support both understanding and generation, yet flexible enough for a workflow where the human retains agency. We present a hierarchical self-supervised ``world model'' for symbolic music: a 2.55M-parameter Swin V2 encoder traine...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.04378</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Recursive Synthesis for Long-Horizon Terminal Tasks</title>
-      <link>https://huggingface.co/papers/2608.05466</link>
-      <description>By Zhongzhi Li, Yucheng Shi, Zongxia Li, Ruhan Wang, Anhao Li, et al.
-
-High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution, and verifier mutually consistent. Human authoring does not scale, and direct gen...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05466</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+Foundation models are used to extract transferable representations from large amounts of unlabeled data, typically via self-supervised learning (SSL). However, many of these models rely on architectures that offer limited interpretability, a critical issue in high-stakes domains such as medical imag...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.18846</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WorldClaw: Agentic 3D Open-World Generation at Scale</title>
@@ -407,6 +380,24 @@ Creative capabilities of MLLMs matter in design, communication, education, and h
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs</title>
+      <link>https://huggingface.co/papers/2608.03573</link>
+      <description>By Kejian Zhu, Zhuoran Jin, Shangqing Tu, Hongbang Yuan, Yushi Bai, et al.
+
+Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing multi-task reasoning for large language models (LLMs). Our preliminary experiments revealed a phenomenon: SFT suffers from severe task conflicts under multi-stage training, whereas RL ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03573</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning</title>
+      <link>https://huggingface.co/papers/2608.03571</link>
+      <description>By Kejian Zhu, Zhuoran Jin, Dongqi Huang, Hongbang Yuan, Yupu Hao, et al.
+
+Recent works train agents by constructing large-scale multimodal environment pools. However, we find that simply increasing the number of multimodal environments does not always benefit. We further analyze the limitations in current multimodal environment distributions through a series of experiment...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03571</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Addressable Memory for Video World Models</title>
       <link>https://huggingface.co/papers/2608.07408</link>
       <description>By Xindi Wu, Sven Elflein, James Lucas, Olga Russakovsky, Laura Leal-Taixé, et al.
@@ -458,6 +449,15 @@ World-Action Models (WAMs) improve end-to-end autonomous driving by transferring
 
 Generic parameter-efficient fine-tuning (PEFT) methods transferred from language models can fail silently on real-time detectors, whose heterogeneous operators and detection-specific components impose placement constraints absent from regular Transformer stacks. We propose YOLO-PEFT, a structure-awa...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.07051</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation and Step-wise Mitigation of Benchmark Contamination</title>
+      <link>https://huggingface.co/papers/2608.07341</link>
+      <description>By Ruijie Hou, Yueyang Jiao, Zhao Wang, Yingming Li
+
+Test data from public benchmarks inevitably leaks into pretraining corpora, inflating evaluation scores once memorized. Contamination mitigation evaluation intervenes in the decoding process to suppress memorization and restore a contaminated model's genuine capability, but its prevailing metric, th...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.07341</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

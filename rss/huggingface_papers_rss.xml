@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 10:23:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 11:52:58 +0000</lastBuildDate>
+    <item>
+      <title>When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles</title>
+      <link>https://huggingface.co/papers/2607.23379</link>
+      <description>By Tobias Bersia, Tatiana Gaintseva
+
+Activation Oracles (AOs) are language models trained to answer natural-language questions about another model's internal activations. They offer a flexible interface for reading hidden information from model states, especially when relevant information is internally represented but absent or incompl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.23379</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models</title>
       <link>https://huggingface.co/papers/2607.28609</link>
@@ -56,6 +65,15 @@ Selecting a complete 3D object from a reconstructed scene with minimal user effo
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>FATE: Frame-Level Audio-Visual Temporal Embedding</title>
+      <link>https://huggingface.co/papers/2608.01310</link>
+      <description>By Kaisi Guan, Bingzi Zhang, Xihua Wang, Ying Ba, Xin Cheng, et al.
+
+When a dog opens its mouth and barks, humans naturally recognize what the sound is and when it occurs. Building audio-visual models with this same ability requires representations that capture both semantic and temporal alignment. Current approaches fall short on one side or the other: embedding mod...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.01310</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills</title>
       <link>https://huggingface.co/papers/2608.01851</link>
       <description>By Gaytri Jena, Kapil Wanaskar, Vinija Jain, Aman Chadha, Vasu Sharma, et al.
@@ -98,6 +116,15 @@ Data agents enable natural-language analytics over organizational workspaces, wh
 
 Foundation models are used to extract transferable representations from large amounts of unlabeled data, typically via self-supervised learning (SSL). However, many of these models rely on architectures that offer limited interpretability, a critical issue in high-stakes domains such as medical imag...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2603.18846</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss</title>
+      <link>https://huggingface.co/papers/2608.03796</link>
+      <description>By Bakbergen Ryskulov, Iker García-Ferrero, David Montero, David Jansen, Ali Hashemi, et al.
+
+Small language models are often the only option for deployment under tight latency, cost, and on-premises constraints, but they are rarely trained from scratch: a compressed model is usually recovered through knowledge distillation (KD). This recovery step largely decides the final quality, yet it i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.03796</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -164,40 +191,13 @@ Privileged on-policy distillation provides dense supervision for multi-turn agen
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ChronoVision: Temporal Reasoning via Latent State Reconstruction</title>
-      <link>https://huggingface.co/papers/2608.05631</link>
-      <description>By Yifan Shen, Jian Xu, Boyi Li, Yuner Zhang, Tianjiao Yu, et al.
+      <title>Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle</title>
+      <link>https://huggingface.co/papers/2608.04314</link>
+      <description>By Jiaming Zhang, Boyang Chen, Zherui Li, Fuyao Zhang, Xinyu Yan, et al.
 
-Multimodal large language models excel at passive perception but struggle with complex visual cognitive tasks requiring multi-step temporal reasoning. This degradation largely stems from the inherent ambiguity of language-based reasoning, which often fails to accurately articulate continuous visual ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05631</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval</title>
-      <link>https://huggingface.co/papers/2608.06060</link>
-      <description>By Zelong Sun, Jun Wang, Kaicheng Yang, Tiancheng Gu, Ziyong Feng, et al.
-
-Unified multimodal retrieval aims to identify candidates that satisfy complex user intent expressed through heterogeneous inputs. Although Large Vision-Language Model (LVLM)-based retrievers are efficient and scalable, directly encoding raw multimodal inputs often misses fine-grained discriminative ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.06060</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On-Policy Delta Distillation for Multilingual Math Reasoning</title>
-      <link>https://huggingface.co/papers/2608.05802</link>
-      <description>By Byeongho Heo, Jaehui Hwang, Sangdoo Yun, Dongyoon Han
-
-On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, yet its effectiveness in multilingual settings remains underexplored. We study OPD and its advanced variant, On-Policy Delta Distillation (OPD^2), for mathematical reasoning in Englis...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05802</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?</title>
-      <link>https://huggingface.co/papers/2608.05747</link>
-      <description>By Qifeng Zhang, Kaixiang Huang, Heng Dong, Huang Fang, Junting Chen, et al.
-
-Spatial intelligence is fundamental to embodied agents, yet existing benchmarks focus on local spatial perception from single or few viewpoints, overlooking global spatial awareness over continuous, long-horizon visual streams. To address this limitation, we introduce the Global-Spatial-Temporal Ben...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05747</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+Once visual content enters an AI pipeline, its owner often retains little technical control over how it is used. Legal and regulatory remedies can address misuse, but many technical interventions must be applied earlier, when content is released or accessed. This survey examines the protective parad...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04314</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learning</title>

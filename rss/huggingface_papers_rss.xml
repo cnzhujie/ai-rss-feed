@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 02:11:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 04:24:58 +0000</lastBuildDate>
     <item>
       <title>When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles</title>
       <link>https://huggingface.co/papers/2607.23379</link>
@@ -44,15 +44,6 @@ Sequence models must decide what to write into memory and what to retain. In qua
 Autoregressive models accumulate error over long rollouts, yet at deployment there is no ground truth to measure it against. We train a single conditional latent diffusion model that steps a dynamical system forward or backward in time via a direction flag, and show that this bidirectionality suppli...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.00675</guid>
       <pubDate>Sat, 01 Aug 2026 13:49:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Interpretable MEG Decoding of Perceived Speech: Cortical Sources and the Stimulus Features That Drive Retrieval</title>
-      <link>https://huggingface.co/papers/2608.01481</link>
-      <description>By Ilia Semenkov, Daria Kleeva, Ivan Dakhtin, Zarina Maksudova, Alex Ossadtchi
-
-Short segments of perceived speech can be retrieved from non-invasive magnetoencephalographic (MEG) recordings by deep networks trained with a CLIP-style objective against wav2vec 2.0 audio embeddings. Yet their weights do not map onto electrophysiological quantities, and it remains unclear which sp...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.01481</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FactorJEPA: Factorizing Monolithic Futures into Layout-Agent-Interaction Channels for Crowded and Chaotic Global South Urban Worlds</title>
@@ -110,15 +101,6 @@ Audio reasoning is essential for machine understanding of the acoustic world. Re
       <pubDate>Mon, 03 Aug 2026 19:46:13 +0000</pubDate>
     </item>
     <item>
-      <title>DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces</title>
-      <link>https://huggingface.co/papers/2608.03451</link>
-      <description>By Boyan Li, Zhuowen Liang, Yupeng Xie, Xiaotian Lin, Tianqi Luo, et al.
-
-Data agents enable natural-language analytics over organizational workspaces, where relevant evidence may be scattered across databases, structured files, long documents, and multimedia. Existing benchmarks largely isolate structured querying, retrieval, or open-ended analysis, leaving heterogeneous...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03451</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Towards Interpretable Foundation Models for Retinal Fundus Images</title>
       <link>https://huggingface.co/papers/2603.18846</link>
       <description>By Samuel Ofosu Mensah, Camila Roa, Kerol Djoumessi, Philipp Berens
@@ -146,22 +128,13 @@ Human evaluation of AI systems and digital products is costly, slow, and difficu
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing</title>
-      <link>https://huggingface.co/papers/2608.04956</link>
-      <description>By Xu Guo, Zhengxuan Wei, Xinghui Li, Hanzhuo Huang, Xinyu Liu, et al.
+      <title>RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States</title>
+      <link>https://huggingface.co/papers/2608.02508</link>
+      <description>By Yi Yang, Zhennan Chen, Yihong Zhuang, Tiehan Fan, Yinan Chen, et al.
 
-Recent video models increasingly support generation, reference conditioning, and editing within a single model, yet typically expose them as separate operations over fixed inputs. Practical creation unfolds across multiple shots, requiring one model to generate from text, follow a reference, or edit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.04956</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains</title>
-      <link>https://huggingface.co/papers/2608.05138</link>
-      <description>By Ayoub Kirouane, Christos Petrocheilos
-
-Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05138</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+Learning-based memory systems for self-evolving LLM agents face two tightly coupled challenges. First, trajectory-indexed utilities grow with the interaction history, thereby dispersing limited feedback over an ever-expanding state space. Second, because trajectory-level rewards are jointly assigned...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02508</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents</title>
@@ -209,58 +182,13 @@ Benchmarking video-language models has largely focused on short clips and single
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MASS: Multiplayer World Models with Authoritative Shared State</title>
-      <link>https://huggingface.co/papers/2608.06257</link>
-      <description>By Ziqi Cai, Siqi Yang, Yimu Wang, Zixian Gao, Yunheng Liu, et al.
+      <title>SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2608.04419</link>
+      <description>By Zikun Qu, Min Zhang, Mingze Kong, Zhiwei Shang, Yikun Ban, et al.
 
-Current video world models struggle in multiplayer environments because they entangle world state with view-dependent visual latents, leading to redundant compute, view inconsistencies, and poor scalability. We propose MAS (Multiplayer world models with Authoritative Shared State) to resolve this li...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.06257</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models</title>
-      <link>https://huggingface.co/papers/2608.06020</link>
-      <description>By Jiale Han, Xiang Li, Jing Qian, Wenyuan Gu, Pin Gao, et al.
-
-Economic World Models (EWMs) are generative economic models that simulate how economies evolve from within by modeling heterogeneous agents, their beliefs and actions, and the market and institutional mechanisms through which their interactions produce aggregate outcomes. This paper develops an impl...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.06020</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation</title>
-      <link>https://huggingface.co/papers/2608.05785</link>
-      <description>By Tirth Bhatt, Naren Kumar S, Mayank Singh
-
-Multilingual text embedding models are commonly adapted using a single training objective across diverse tasks, despite different tasks requiring fundamentally different optimization strategies. We introduce Task-Conditional Flow Matching (TCFM), a multilingual embedding adaptation framework that se...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05785</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Continual Learning in Transition</title>
-      <link>https://huggingface.co/papers/2608.06216</link>
-      <description>By Zhiyan Hou, Dan Zhang, Tao Feng, Liyuan Wang, Wei Li, et al.
-
-Classical continual learning (CL) has primarily focused on enabling models to update and retain knowledge through parameter-centric mechanisms, e.g., training strategies, architectural designs, and weight adaptation. However, emerging paradigms are reshaping the scope of CL beyond this traditional m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.06216</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MameLoshnLM: Yiddish Language Model and Evaluation Benchmark</title>
-      <link>https://huggingface.co/papers/2608.05850</link>
-      <description>By Uri Katz, Omer Goldman, Tomasz Limisiewicz, Reut Tsarfaty, Noah A. Smith
-
-We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation resources have constrained progress in Yiddish language modeling. Existing multilin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05850</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay</title>
-      <link>https://huggingface.co/papers/2608.05784</link>
-      <description>By Nossa Iyamu
-
-Computer-use agents pay full frontier inference to re-derive routines their user has already performed, because an agent's memory today records what the user said, not what the user did. We compile passively captured screen activity into agent memory with a deterministic, zero-model pipeline: it seg...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05784</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+On-policy distillation (OPD) provides dense teacher supervision on student-generated trajectories, but standard reverse-KL training can assign insufficient probability to other plausible continuations. Teacher entropy alone does not reveal whether uncertainty is concentrated among a few plausible ne...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.04419</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>KVAE: Family of Tokenizers for Multimodal Generative Models</title>
@@ -371,6 +299,15 @@ World generative models are typically used through what they produce: a rendered
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval</title>
+      <link>https://huggingface.co/papers/2608.06614</link>
+      <description>By Linhai Ma, Ethan F. Wei, Xueqing Peng, Yan Wang, Lingfei Qian, et al.
+
+Large-taxonomy retrieval often assumes that the input already expresses the target concept. In many settings, however, the input is indirect evidence, such as a table cell whose meaning depends on its row, column, datatype, and context. We call this mismatch the retrieval readiness gap. Our analysis...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.06614</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Addressable Memory for Video World Models</title>
       <link>https://huggingface.co/papers/2608.07408</link>
       <description>By Xindi Wu, Sven Elflein, James Lucas, Olga Russakovsky, Laura Leal-Taixé, et al.
@@ -459,6 +396,69 @@ The malicious use of generative artificial intelligence to create highly realist
 Vision-Language Models (VLMs) should answer from concrete image evidence rather than language priors, dataset shortcuts, or irrelevant visual context. Existing perception-aware post-training methods encourage image use through global perturbations or attention proxies, but they do not test whether a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.08021</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution</title>
+      <link>https://huggingface.co/papers/2608.08311</link>
+      <description>By Anton Razzhigaev, Andrei Gritsaev, Andrei Kaznacheev, Nikita Dragunov, Roman Yampolskiy, et al.
+
+We present Ouroboros, a self-developing agent harness whose tools, prompts, context assembly, and core implementation improve through reviewed commits that become the runtime for later work. Core evolution proceeds in two modes. In recursive free evolution, improvement is itself a task, and completi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08311</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Video Generation in Science Domains</title>
+      <link>https://huggingface.co/papers/2608.09873</link>
+      <description>By Diandian Zhang, Tingyu Song, Lin Fu, Zheyuan Yang, Yilun Zhao
+
+We introduce Sci-VBench, a comprehensive benchmark for evaluating knowledge- and reasoning-intensive video generation across scientific domains. It contains 1,253 expert-annotated examples spanning 60 subjects across four core disciplines: Natural Science, Healthcare, Humanities &amp; Social Sciences, a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09873</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Motif 3: Technical Report</title>
+      <link>https://huggingface.co/papers/2608.09119</link>
+      <description>By Junghwan Lim, Joon Son Chung, Sungmin Lee, Wai Ting Cheung, Gihun Cho, et al.
+
+We introduce Motif 3, a decoder-only Mixture-of-Experts language model with 314 billion total parameters and 13.2 billion activated per token. Each sparse MoE layer contains 384 routed experts, with eight selected per token. This fine-grained sparsity provides substantial expert capacity while limit...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09119</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring</title>
+      <link>https://huggingface.co/papers/2608.09802</link>
+      <description>By Yuling Shi, Jinghan Xu, Kelin Fu, Wenhao Zeng, Shilin He, et al.
+
+As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a recent audit found that nearly 60% of unsolved SWE-bench Verified instances contain flawed tests -- ei...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09802</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA</title>
+      <link>https://huggingface.co/papers/2608.09819</link>
+      <description>By Mind Lab, Vin Bo, Asher Cai, Jingwei Cao, Song Cao, et al.
+
+Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after deployment. It is organized around two system goals. Adaptation is pursued through recursive improvement of versioned model-harness pairs, where experie...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09819</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intent Speaks Louder: Controllable User Simulation Beyond Response Imitation</title>
+      <link>https://huggingface.co/papers/2608.09420</link>
+      <description>By Bo Wang, Ruixing Zhang, Yunqi Liu, Yang Zhang, Liangzhe Han, et al.
+
+User simulators are widely used as scalable environments for training and evaluating interactive assistants. Generating the next user turn is inherently one-to-many: the same profile and dialogue context may support multiple plausible continuations with different local interaction intents. A fluent ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09420</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evo-Bench: Can Language Models Improve Agent Harness?</title>
+      <link>https://huggingface.co/papers/2608.09096</link>
+      <description>By Lisheng Huang, Chen Yang, Hao Zhou, Huatong Song, Zongchao Chen, et al.
+
+Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined to static task solving. An emerging frontier is harness evolution---the agent's capacity to autonomously optimize its own operating harness. However, systematically benchmarking thi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09096</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

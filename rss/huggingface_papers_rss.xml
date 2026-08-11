@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 19:10:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 20:54:24 +0000</lastBuildDate>
     <item>
       <title>When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles</title>
       <link>https://huggingface.co/papers/2607.23379</link>
@@ -152,15 +152,6 @@ On-policy distillation (OPD) provides dense teacher supervision on student-gener
 Gradient descent on a factored model W = UV^top is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under (U, V) mapsto (UQ, VQ). Gradient flow's low-rank mechanism ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.05136</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond Simply Environment Scaling: Designing Effective Environment Distributions for Multimodal Agent Learning</title>
-      <link>https://huggingface.co/papers/2608.03571</link>
-      <description>By Kejian Zhu, Zhuoran Jin, Dongqi Huang, Hongbang Yuan, Yupu Hao, et al.
-
-Recent works train agents by constructing large-scale multimodal environment pools. However, we find that simply increasing the number of multimodal environments does not always benefit. We further analyze the limitations in current multimodal environment distributions through a series of experiment...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03571</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction</title>
@@ -457,6 +448,15 @@ We introduce BDH-CQ, a reasoning model that combines in-context learning with re
 
 Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context to be interpreted on its own. We formalize this setting as streaming dialogue summarization, where a system must summarize a current window using selective memory from an unbounded h...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.09043</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness</title>
+      <link>https://huggingface.co/papers/2608.09766</link>
+      <description>By Pinzhen Chen, Koel Dutta Chowdhury, Xiaoya Xu, David Tan, Doreen Osmelak, et al.
+
+Multilingual translation benchmarks are typically sourced in English and translated into other languages, treating language pairs as the unit of evaluation---a design that is prone to contamination over time and overlooks locale and cultural considerations. We therefore advocate for source-contrasti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09766</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

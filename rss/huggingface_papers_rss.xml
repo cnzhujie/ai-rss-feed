@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 10:55:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 11:49:53 +0000</lastBuildDate>
     <item>
       <title>When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles</title>
       <link>https://huggingface.co/papers/2607.23379</link>
@@ -154,6 +154,15 @@ On-policy distillation (OPD) provides dense teacher supervision on student-gener
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The Loss Does Not See the Basis, but Adam Does</title>
+      <link>https://huggingface.co/papers/2608.05136</link>
+      <description>By Devender Singh
+
+Gradient descent on a factored model W = UV^top is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under (U, V) mapsto (UQ, VQ). Gradient flow's low-rank mechanism ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05136</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>PrivacyPeek: Auditing What LLM-Based Agents Acquire, Not Just What They Say</title>
       <link>https://huggingface.co/papers/2606.00152</link>
       <description>By Mingxuan Zhang, Jiahui Han, Dadi Guo, Songze Li, Guanchu Wang, et al.
@@ -242,15 +251,6 @@ Large-taxonomy retrieval often assumes that the input already expresses the targ
 Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained after the fact, with methods whose reliability is difficult to establish. In this work, we challenge this premise. Rather than reverse-engineering a model, we make interpretability...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.07594</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SimWAM: A Simple World Action Model for End-to-End Autonomous Driving</title>
-      <link>https://huggingface.co/papers/2608.07468</link>
-      <description>By Zongchuang Zhao, Xin Zhou, Tianyang Xu, Zhengyang Sun, Kaixuan Zhou, et al.
-
-World-Action Models (WAMs) improve end-to-end autonomous driving by transferring video dynamics priors to action prediction, but existing methods require costly future generation at inference. We present SimWAM, a simple yet effective WAM that uses video generation purely as a training signal. It co...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.07468</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family</title>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 13:19:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 15:04:27 +0000</lastBuildDate>
     <item>
       <title>When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles</title>
       <link>https://huggingface.co/papers/2607.23379</link>
@@ -46,15 +46,6 @@ Multimodal Large Language Models (MLLMs) have achieved strong performance on a w
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Round-Trip Consistency: Bidirectional Diffusion Models Can Predict Their Own Rollout Errors</title>
-      <link>https://huggingface.co/papers/2608.00675</link>
-      <description>By Alexander Scheinker
-
-Autoregressive models accumulate error over long rollouts, yet at deployment there is no ground truth to measure it against. We train a single conditional latent diffusion model that steps a dynamical system forward or backward in time via a direction flag, and show that this bidirectionality suppli...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.00675</guid>
-      <pubDate>Sat, 01 Aug 2026 13:49:46 +0000</pubDate>
-    </item>
-    <item>
       <title>FATE: Frame-Level Audio-Visual Temporal Embedding</title>
       <link>https://huggingface.co/papers/2608.01310</link>
       <description>By Kaisi Guan, Bingzi Zhang, Xihua Wang, Ying Ba, Xin Cheng, et al.
@@ -62,15 +53,6 @@ Autoregressive models accumulate error over long rollouts, yet at deployment the
 When a dog opens its mouth and barks, humans naturally recognize what the sound is and when it occurs. Building audio-visual models with this same ability requires representations that capture both semantic and temporal alignment. Current approaches fall short on one side or the other: embedding mod...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.01310</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reinforcement Learning with Evolving Rubrics as Rewards for Audio Reasoning</title>
-      <link>https://huggingface.co/papers/2608.02831</link>
-      <description>By Fangxu Yu, Tao Feng, Dehai Min, Zinan Lin, Weijia Xu, et al.
-
-Audio reasoning is essential for machine understanding of the acoustic world. Reinforcement learning with verifiable rewards can elicit such reasoning, yet existing reward designs are complementary in their limitations: outcome-based rewards supervise only the final answer and let the model reach it...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.02831</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems</title>
@@ -163,15 +145,6 @@ Gradient descent on a factored model W = UV^top is implicitly biased toward low-
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PrivacyPeek: Auditing What LLM-Based Agents Acquire, Not Just What They Say</title>
-      <link>https://huggingface.co/papers/2606.00152</link>
-      <description>By Mingxuan Zhang, Jiahui Han, Dadi Guo, Songze Li, Guanchu Wang, et al.
-
-LLM-based agents are rapidly advancing, autonomously invoking external tools to complete multi-step tasks for users. However, agents often acquire more sensitive information than the task requires. Existing privacy benchmarks audit what the agent's response or outgoing actions disclose, but overlook...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2606.00152</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events</title>
       <link>https://huggingface.co/papers/2608.06485</link>
       <description>By Ming Wang, Peidong Wang, Xiaocui Yang, Daling Wang, Shi Feng, et al.
@@ -251,15 +224,6 @@ Large-taxonomy retrieval often assumes that the input already expresses the targ
 Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained after the fact, with methods whose reliability is difficult to establish. In this work, we challenge this premise. Rather than reverse-engineering a model, we make interpretability...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.07594</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>YOLO-PEFT: Parameter-Efficient Fine-Tuning on YOLO Family</title>
-      <link>https://huggingface.co/papers/2608.07051</link>
-      <description>By Xu Lin, WenJie Nie, Jinlong Peng, Weifu Fu, YueXiao Ma, et al.
-
-Generic parameter-efficient fine-tuning (PEFT) methods transferred from language models can fail silently on real-time detectors, whose heterogeneous operators and detection-specific components impose placement constraints absent from regular Transformer stacks. We propose YOLO-PEFT, a structure-awa...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.07051</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation and Step-wise Mitigation of Benchmark Contamination</title>
@@ -343,12 +307,39 @@ We present Ego-OSCAR, an open-hardware, low-cost, head-mounted stereo-inertial c
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A Hybrid Nested Harness for Decoupling Structure and Parameters in LLM-Driven Optimization</title>
+      <link>https://huggingface.co/papers/2608.08156</link>
+      <description>By Víctor Gallego
+
+In evolutionary algorithms powered by language models, the LLM acts as a single operator that simultaneously updates structural components (like control flow) and continuous parameters. While LLMs can be good at the first, they are not efficient at the second, wasting tokens taking discrete jumps in...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08156</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Small Foundation Models of Human Cognition and Behaviour</title>
       <link>https://huggingface.co/papers/2608.05224</link>
       <description>By Nick Oh, Fernand Gobet
 
 Large language models fine-tuned on human behavioural data have emerged as general-purpose cognitive proxies, but the scale this requires, and whether these models process task structure or exploit statistical shortcuts, remain open questions. We train fourteen models from 135M to 14B parameters acr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.05224</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification</title>
+      <link>https://huggingface.co/papers/2608.08786</link>
+      <description>By Wenyao Cui, Huaping Zhang, Yongyi Huang, Qiuchi Li, Jian Xu, et al.
+
+Large language models (LLMs) increasingly serve as data-driven reasoners, yet their chains-of-thought (CoT) can be unfaithful even when final answers are correct. Most existing ``verification'' signals are not diagnostic: answer matching observes only the outcome, LLM-as-judge provides subjective an...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08786</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gaming Without an Attacker: Benchmark Fingerprinting in LLM-Driven Search Under Selection Pressure</title>
+      <link>https://huggingface.co/papers/2608.08722</link>
+      <description>By Víctor Gallego
+
+Benchmarks for systems that are optimized against the evaluation signal measure something different from what they claim. We document this concretely in two GPU-kernel-optimization suites with held-out generalization gates: Metal-Sci (10 scientific-compute tasks) and Metal-ZK (12 zero-knowledge/cryp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08722</guid>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ The development of embodied Intelligent Virtual Agents (IVAs) that have cognitiv
 
 We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model then solves a query through iterative computation in a high-dimensional latent space, without verba...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.09888</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization</title>
+      <link>https://huggingface.co/papers/2608.09043</link>
+      <description>By Hyangsuk Min, Hwanjun Song
+
+Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context to be interpreted on its own. We formalize this setting as streaming dialogue summarization, where a system must summarize a current window using selective memory from an unbounded h...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09043</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

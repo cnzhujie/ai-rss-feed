@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 22:49:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 23:49:46 +0000</lastBuildDate>
     <item>
       <title>Articulated Object Reconstruction from Rest-State Observation</title>
       <link>https://huggingface.co/papers/2607.27749</link>
@@ -71,15 +71,6 @@ Jigsaw puzzle solving requires jointly reasoning about visual content and geomet
 Gradient descent on a factored model W = UV^top is implicitly biased toward low-rank solutions, while Adam, starting from the same small initialization, is not. We trace the difference to the gauge symmetry of the loss, its invariance under (U, V) mapsto (UQ, VQ). Gradient flow's low-rank mechanism ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.05136</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval</title>
-      <link>https://huggingface.co/papers/2608.06614</link>
-      <description>By Linhai Ma, Ethan F. Wei, Xueqing Peng, Yan Wang, Lingfei Qian, et al.
-
-Large-taxonomy retrieval often assumes that the input already expresses the target concept. In many settings, however, the input is indirect evidence, such as a table cell whose meaning depends on its row, column, datatype, and context. We call this mismatch the retrieval readiness gap. Our analysis...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.06614</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Scaling Inherently Interpretable Language Models</title>
@@ -151,6 +142,15 @@ Self-improving coding agents that iteratively rewrite their own source code have
 
 Query-based mask transformers assemble segmentation outputs through pixel-wise competition among query predictions of the final layer, yet this inference process is not explicitly optimized during training. We identify two key mismatches: the query with the highest probability-mask score does not ne...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.03216</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG</title>
+      <link>https://huggingface.co/papers/2608.07458</link>
+      <description>By Gyuwan Kim, Cheoneum Park, Tao Yang
+
+Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pare...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.07458</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

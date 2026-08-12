@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 06:19:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 08:23:27 +0000</lastBuildDate>
     <item>
       <title>Articulated Object Reconstruction from Rest-State Observation</title>
       <link>https://huggingface.co/papers/2607.27749</link>
@@ -262,31 +262,22 @@ Long-horizon research agents solve open-ended tasks through iterative retrieval,
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring</title>
-      <link>https://huggingface.co/papers/2608.09802</link>
-      <description>By Yuling Shi, Jinghan Xu, Kelin Fu, Wenhao Zeng, Shilin He, et al.
+      <title>UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models</title>
+      <link>https://huggingface.co/papers/2608.08627</link>
+      <description>By Lei Xin, Bin Gu, Peize Li, Zitong Wang, Jianbo Zhao, et al.
 
-As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their evaluation quality has come under serious scrutiny: a recent audit found that nearly 60% of unsolved SWE-bench Verified instances contain flawed tests -- ei...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.09802</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank. We study a deployment problem: convert that checkpoint to a smaller standard MoE under an explicit expert budget, without...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08627</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA</title>
-      <link>https://huggingface.co/papers/2608.09819</link>
-      <description>By Mind Lab, Vin Bo, Asher Cai, Jingwei Cao, Song Cao, et al.
+      <title>360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents</title>
+      <link>https://huggingface.co/papers/2608.08814</link>
+      <description>By Kenta Watanabe, Atsuyuki Miyai, Mizuki Takenawa, Kiyoharu Aizawa, Toshihiko Yamasaki
 
-Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after deployment. It is organized around two system goals. Adaptation is pursued through recursive improvement of versioned model-harness pairs, where experie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.09819</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intent Speaks Louder: Controllable User Simulation Beyond Response Imitation</title>
-      <link>https://huggingface.co/papers/2608.09420</link>
-      <description>By Bo Wang, Ruixing Zhang, Yunqi Liu, Yang Zhang, Liangzhe Han, et al.
-
-User simulators are widely used as scalable environments for training and evaluating interactive assistants. Generating the next user turn is inherently one-to-many: the same profile and dialogue context may support multiple plausible continuations with different local interaction intents. A fluent ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.09420</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a photorealistic environment constructed from 360-degree videos. Existing outdoor benchmarks either lack sufficient photorealism or complexity, resulting in a considerable gap from real-w...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08814</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Evo-Bench: Can Language Models Improve Agent Harness?</title>
@@ -367,6 +358,15 @@ Multilingual translation benchmarks are typically sourced in English and transla
 
 Agentic systems are increasingly expected to improve after deployment, yet single-entity self-evolution is often bounded by a static learning context, such as fixed tasks and feedback. This survey focuses on co-evolution in agentic systems, a multi-component form of self-evolution in which multiple ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.10299</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness</title>
+      <link>https://huggingface.co/papers/2608.09900</link>
+      <description>By Tadanobu Chuyo Kamijo, Ori Rottenstreich, Javier Conde, Gonzalo Martínez, Pedro Reviriego
+
+Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world deployments, however, complex system prompts, safety guardrails, and structural con...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09900</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

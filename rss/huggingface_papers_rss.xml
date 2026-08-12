@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 23:49:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 02:29:17 +0000</lastBuildDate>
     <item>
       <title>When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles</title>
       <link>https://huggingface.co/papers/2607.23379</link>
@@ -62,15 +62,6 @@ When a dog opens its mouth and barks, humans naturally recognize what the sound 
 Conversational assistants increasingly recommend follow-up edits to help users continue a task. Existing systems primarily target text-only interactions, leaving image-creation conversations underexplored. In image-creation tasks, useful follow-up edit suggestions must reflect user preferences, offe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.07565</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss</title>
-      <link>https://huggingface.co/papers/2608.03796</link>
-      <description>By Bakbergen Ryskulov, Iker García-Ferrero, David Montero, David Jansen, Ali Hashemi, et al.
-
-Small language models are often the only option for deployment under tight latency, cost, and on-premises constraints, but they are rarely trained from scratch: a compressed model is usually recovered through knowledge distillation (KD). This recovery step largely decides the final quality, yet it i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03796</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MatrAIx: Simulating the World with 8.3 Billion Persona Agents</title>
@@ -145,15 +136,6 @@ Gradient descent on a factored model W = UV^top is implicitly biased toward low-
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction</title>
-      <link>https://huggingface.co/papers/2608.06013</link>
-      <description>By Jiahao Huang, Zheng Lian, Jingyi Zhang, Zhide Chen, Xiaojiang Peng, et al.
-
-Multimodal Large Language Models (MLLMs) have demonstrated remarkable capabilities in emotional intelligence. However, prevailing research predominantly focuses on task-specific specialization, often neglecting inter-task synergy and leaving latent reasoning potential underexplored. To bridge this g...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.06013</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds</title>
       <link>https://huggingface.co/papers/2608.06113</link>
       <description>By Kishanthan Thangarajah, Boyuan Chen, Ahmed E. Hassan
@@ -190,13 +172,22 @@ Interpretability is often treated as a tax on capability: language models are tr
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence</title>
-      <link>https://huggingface.co/papers/2608.06756</link>
-      <description>By Ying Chen, Weizhen Li, Zhe Hu, Zhenjiang Li, Rui Jiang, et al.
+      <title>Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers</title>
+      <link>https://huggingface.co/papers/2608.06111</link>
+      <description>By Haris Riaz, Hyungji Kim, Mihai Surdeanu
 
-Vision-language models are increasingly serving as the reasoning core of embodied agents. Robot execution is inherently iterative: each action reshapes the scene and physical state, continually renewing what must be perceived, reasoned about, and verified. Meeting these demands requires complementar...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.06756</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+Positional embeddings (PE) in Transformers encode token distance and order but are largely agnostic to syntactic structure. We introduce Syntax-informed Positional Embeddings (SiPE), which learns a lightweight syntactic prior from dependency parses during pretraining and injects it across all three ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.06111</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Next Screenshot Knows: Gated Hindsight Distillation for Mobile GUI Agents</title>
+      <link>https://huggingface.co/papers/2608.06065</link>
+      <description>By Weiwei Li, Junzhuo Liu, Tong Chu, Hengfu Yu, Wen Li
+
+GUI agents are commonly trained offline from successful interaction trajectories. Standard training decomposes each trajectory into prefix-action pairs: the agent predicts an action from the current screen and interaction history, while the subsequent observation is discarded. This removes the ratio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.06065</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection</title>
@@ -331,6 +322,15 @@ Running a business is a challenging form of intelligent work. Operators must inf
 
 On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods still rely heavily on external supervision, including ground-truth signals, environmental feedback, or guidance from larger models, and therefore fall short...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.06296</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VectraYX-Vision-1B: A Sub-2B Spanish/LATAM Cybersecurity Vision-Language Model with Structured Visual Reasoning and Native Tool Use</title>
+      <link>https://huggingface.co/papers/2608.08477</link>
+      <description>By Juan S. Santillana
+
+We present VectraYX-Vision-1B, a sub-2B vision-language model (VLM) for Spanish/LATAM cybersecurity imagery, coupling a frozen SigLIP-so400m encoder to a 1.04B Spanish/LATAM security decoder via an MLP. To our knowledge, it is the first sub-2B VLM specialized for cyber UI (IDA, Ghidra, Wireshark, Nm...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08477</guid>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

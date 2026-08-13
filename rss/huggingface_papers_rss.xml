@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 06:23:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 08:25:45 +0000</lastBuildDate>
+    <item>
+      <title>Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop</title>
+      <link>https://huggingface.co/papers/2608.11215</link>
+      <description>By Igor Itkin
+
+Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents N, not the cognition of any single agent. We turn a statistical-physics observation...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.11215</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research</title>
       <link>https://huggingface.co/papers/2608.11216</link>
@@ -35,15 +44,6 @@ Building interactive digital twins requires recovering both 3D geometry and the 
 AI agents operate in persistent environments where early state changes can influence decisions far into the future. Unlike conventional language-model interactions, agent behavior is mediated through a shared state that is repeatedly modified and reused across long-horizon workflows. Current safety ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.00677</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Omega-S: A Functional Resilience Index for LLM Fine-Tuning</title>
-      <link>https://huggingface.co/papers/2608.03887</link>
-      <description>By Alberto Acedo
-
-Fine-tuning a large language model on new data degrades what it previously learned. We present Omega-S, a drop-in penalty computed from the weight matrix alone: it needs no previous-task data, no Fisher matrix and no stored copy of the old weights. It is three lines in an existing training loop and ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.03887</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>JigShape: Evaluating Visual-Geometric Reasoning in VLMs through Jigsaw Puzzles</title>
@@ -80,15 +80,6 @@ GUI agents are commonly trained offline from successful interaction trajectories
 The "thinking-with-images" paradigm equips multimodal LLMs with active visual operations such as crop-and-zoom. However, models using these operations often achieve only marginal or negative gains over direct inference at substantially higher token cost. They may also repeatedly crop irrelevant regi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.06270</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation</title>
-      <link>https://huggingface.co/papers/2608.07463</link>
-      <description>By Youjun Zhao, Alex Warren, Gary K. L. Tam, Rynson W. H. Lau
-
-Recent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challenging because the content within a mirror must remain consistent with the surrounding scene. Existing VDMs are not specifically designed to model scene-to...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.07463</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Beyond Starry Night: Shortcut-Aware Control-State Planning for Artist-Grounded Text to Image Generation</title>
@@ -136,15 +127,6 @@ While Vision-Language-Action (VLA) models have advanced embodied AI, their funda
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A Hybrid Nested Harness for Decoupling Structure and Parameters in LLM-Driven Optimization</title>
-      <link>https://huggingface.co/papers/2608.08156</link>
-      <description>By Víctor Gallego
-
-In evolutionary algorithms powered by language models, the LLM acts as a single operator that simultaneously updates structural components (like control flow) and continuous parameters. While LLMs can be good at the first, they are not efficient at the second, wasting tokens taking discrete jumps in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.08156</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>TSDS-Toolbox: A Toolbox for Measuring Time-Series Dataset Similarity</title>
       <link>https://huggingface.co/papers/2608.08119</link>
       <description>By Yen-Ku Liu, Hongjie Chen, Ryan A. Rossi, Franck Dernoncourt
@@ -170,15 +152,6 @@ Multimodal expansion of large language models (LLMs) enables new perceptual capa
 The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for Games by enabling open-ended and fluid interactive storytelling. However, existing research has largely overlooked the critical challenge of maintaining long-horizon logical consistency and narrative integrity against un...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.08160</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gaming Without an Attacker: Benchmark Fingerprinting in LLM-Driven Search Under Selection Pressure</title>
-      <link>https://huggingface.co/papers/2608.08722</link>
-      <description>By Víctor Gallego
-
-Benchmarks for systems that are optimized against the evaluation signal measure something different from what they claim. We document this concretely in two GPU-kernel-optimization suites with held-out generalization gates: Metal-Sci (10 scientific-compute tasks) and Metal-ZK (12 zero-knowledge/cryp...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.08722</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Business Arena: Benchmarking LLM Agents in a Realistic Marketplace</title>
@@ -388,6 +361,24 @@ Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap 
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Simplex Relaxation for Discrete Diffusion</title>
+      <link>https://huggingface.co/papers/2608.10615</link>
+      <description>By Jinya Sakurai, Patrick Pynadath, Satoshi Hayakawa, Jaehong Yoon, Xulei Yang, et al.
+
+Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermediate state space and the associated reverse prediction problem. We study uniform discrete diffusion and ask whether its training objective and reverse transitions can be enriched wit...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.10615</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Evolving Embodied Agents via Skill-Harness Evolution</title>
+      <link>https://huggingface.co/papers/2608.11350</link>
+      <description>By Peidong Wang, Zhiming Ma, Ying Chang, Xufang Luo, Xiaocui Yang, et al.
+
+Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model weights but also on the skills, context, action interfaces, and execution harness surrounding the model. While supervised fine-tuning and reinforcement learning can adapt agents to...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.11350</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents</title>
       <link>https://huggingface.co/papers/2608.11878</link>
       <description>By Yutao Mou, Pengfei Yang, Zhe Yin, Zhangchi Xue, Xiaotian Luan, et al.
@@ -457,6 +448,15 @@ Recent work on distillation transfers the capabilities of large models to smalle
 
 Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic software systems preserve continuity through persistent sessions, memories, managers or shared context. We introduce EvoX Genesis (hereafter, Genesis), which instead makes the softw...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.10450</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands</title>
+      <link>https://huggingface.co/papers/2608.11574</link>
+      <description>By Ryosei Hara, Masashi Hatano, Rintaro Yanagi, Atsushi Hashimoto, Takuma Yagi, et al.
+
+Hand Pose Estimation (HPE) is a fundamental technology for various applications such as AR/VR and robotics. In these applications, the visibility of each hand joint in the image is crucial for assessing the reliability of estimation results under occlusion. However, most existing HPE methods output ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.11574</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

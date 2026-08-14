@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 06:18:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 08:21:07 +0000</lastBuildDate>
     <item>
       <title>Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop</title>
       <link>https://huggingface.co/papers/2608.11215</link>
@@ -34,6 +34,15 @@ World modeling is an unsettled field: architectures, training objectives, and st
 
 An LLM agent's capability depends not only on model weights but on its harness: prompts, tools, skills, and control flow. Self-improvement loops already edit harnesses, yet single-lineage search is path-dependent and local wins often regress other tasks. We introduce DarwinX, which treats self-evolu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.07545</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning</title>
+      <link>https://huggingface.co/papers/2607.29211</link>
+      <description>By Xinyan Guan, Jiali Zeng, Chunlei Xin, Yaojie Lu, Hongyu Lin, et al.
+
+Large language models generate computationally expensive yet semantically void reasoning on beyond-capability tasks, creating risks where plausible-sounding but incorrect derivations mislead users. We characterize this futile reasoning phenomenon through systematic analysis, revealing universal capa...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.29211</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -91,6 +100,15 @@ No single large language model (LLM) is optimal across all queries and budget co
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>An AI4AI Framework for Visual Token Pruning</title>
+      <link>https://huggingface.co/papers/2608.07193</link>
+      <description>By Zhen Liu, Wenli Huang, Wei Song, Yuhan Liu, Zhiqin Yang, et al.
+
+Visual-token pruning can substantially reduce the inference cost of multimodal large language models (MLLMs), yet existing methods largely rely on fixed, handcrafted heuristics and costly expert trial and error. As pruning objectives, budgets, and model architectures diversify, manually navigating t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.07193</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs</title>
       <link>https://huggingface.co/papers/2608.08107</link>
       <description>By Jiayue Jin, Jingwei Zhang, Chen Wang, Jing Liu, Longteng Guo
@@ -109,15 +127,6 @@ The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for 
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents</title>
-      <link>https://huggingface.co/papers/2608.08814</link>
-      <description>By Kenta Watanabe, Atsuyuki Miyai, Mizuki Takenawa, Kiyoharu Aizawa, Toshihiko Yamasaki
-
-We present 360CityArena, a benchmark for evaluating the urban exploration capabilities of embodied agents within a photorealistic environment constructed from 360-degree videos. Existing outdoor benchmarks either lack sufficient photorealism or complexity, resulting in a considerable gap from real-w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.08814</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Full-bandwidth transformer</title>
       <link>https://huggingface.co/papers/2608.08888</link>
       <description>By Xi Wang, Ziyang Cai, Zheng Zhan, Harry Dong, Ying Fan, et al.
@@ -125,15 +134,6 @@ We present 360CityArena, a benchmark for evaluating the urban exploration capabi
 Autoregressive transformers compute along two axes: horizontally across generated tokens, and vertically through model depth. Dense attention gives each token broad horizontal access to the past, but the vertical feedback channel between decoding steps remains narrow: only the sampled token returns ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.08888</guid>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness</title>
-      <link>https://huggingface.co/papers/2608.09900</link>
-      <description>By Tadanobu Chuyo Kamijo, Ori Rottenstreich, Javier Conde, Gonzalo Martínez, Pedro Reviriego
-
-Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimized generation corridor. In real-world deployments, however, complex system prompts, safety guardrails, and structural con...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.09900</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference</title>

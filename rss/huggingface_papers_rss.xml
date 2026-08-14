@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 08:21:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 10:10:35 +0000</lastBuildDate>
     <item>
       <title>Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop</title>
       <link>https://huggingface.co/papers/2608.11215</link>
@@ -73,15 +73,6 @@ Large Language Models (LLMs) increasingly act as agents whose procedural knowled
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG</title>
-      <link>https://huggingface.co/papers/2608.07458</link>
-      <description>By Gyuwan Kim, Cheoneum Park, Tao Yang
-
-Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pare...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.07458</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>AtlasVLA: Persistent World-Ego State Modeling for Vision-Language-Action Models</title>
       <link>https://huggingface.co/papers/2608.06729</link>
       <description>By Guiyu Zhao, Longteng Guo, Yanghong Mei, Zilin Zhu, Yu Zhang, et al.
@@ -136,15 +127,6 @@ Autoregressive transformers compute along two axes: horizontally across generate
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference</title>
-      <link>https://huggingface.co/papers/2608.10288</link>
-      <description>By Burc Gokden
-
-The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention (PLGA), replace the fixed bilinear form of scaled dot-product attention (SDPA) with a learned, input-generated bilinear operator G_{LM}, built from a positive tensor A_{LM} by elem...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.10288</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning</title>
       <link>https://huggingface.co/papers/2608.09926</link>
       <description>By Haodong Li, Shaoteng Liu, Tianyu Wang, Chongjian Ge, Sihui Ji, et al.
@@ -170,15 +152,6 @@ As large language models increasingly participate in scientific evaluation, we i
 Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evidence that it is also an important ingredient in LLM reinforcement learning recipes that can significantly impact downstream performance. Many existing methods control exploration in ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.09805</guid>
       <pubDate>Mon, 10 Aug 2026 16:28:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>InSight-doc: Agentic Visual Perception for Long-Document Understanding</title>
-      <link>https://huggingface.co/papers/2608.10628</link>
-      <description>By Kaican Li, Weiyan Xie, Lewei Yao, Jiannan Wu, Lanqing Hong, et al.
-
-Long-document understanding often requires reasoning over many visually rich pages, making inference costly and prone to context rot. In this work, we propose InSight-doc, an agentic visual perception framework that treats visual resolution as an adaptive reasoning-time resource. InSight-doc starts ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.10628</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agent Safety Should Be a Runtime Contract</title>
@@ -243,15 +216,6 @@ ReRound (Reconstructive Rounding) is a post-training quantization method that ad
 Agent skills represent a standardized format for packaging procedural knowledge and domain expertise, serving within agent harness systems as an essential mechanism to continually constrain a language model's behavior space for repeatable, high-quality task execution. However, because strong closed-...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.10538</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents</title>
-      <link>https://huggingface.co/papers/2608.11878</link>
-      <description>By Yutao Mou, Pengfei Yang, Zhe Yin, Zhangchi Xue, Xiaotian Luan, et al.
-
-Large language model (LLM) agents integrated with external tools are vulnerable to indirect prompt injections embedded in environmental states. However, existing studies largely rely on manually implemented or reused environments, stochastic LLM-based tool simulation, and predefined injection locati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.11878</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Spark-to-Paper: End-to-End Research Paper Generation as a Composable Skill</title>
@@ -341,6 +305,24 @@ AI models have achieved remarkable success across diverse domains, yet the mecha
 
 We present the first systematic study of Massive activations (MAs) in layer-interleaved HLA LLMs and uncover two architecture-aligned morphologies: MAs consistently spike immediately before full attention layers, forming pre-attention spikes (PAS), and can persist through intervening linear attentio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.12149</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement</title>
+      <link>https://huggingface.co/papers/2608.11951</link>
+      <description>By Karim Aly, Alexei Sharpanskykh, Jacco Hoekstra
+
+Extreme events in air transport, such as severe arrival delays and abnormal air times, cause cascading network disruptions with substantial operational, economic, and safety costs. Such events are rare in historical records, leaving insufficient training signal for machine learning models. Synthetic...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.11951</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AVA-Encoder: Towards Agent-Native Video Representation Learning</title>
+      <link>https://huggingface.co/papers/2608.12313</link>
+      <description>By Chuyue Li, Jinpeng Yu, Haozhe Wang, Tian Xueyun, Zhijing Zhang, et al.
+
+Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.12313</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -458,6 +440,24 @@ Pose-driven human animation synthesizes a video of a target person from a single
 
 Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source motion, scene, linguistic content, and audio-video timing. Existing methods use separately optimized models for the two modalities, making audio-visual consistency difficult to enfor...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.11752</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity</title>
+      <link>https://huggingface.co/papers/2608.13430</link>
+      <description>By Irina Proskurina, Mayank Kumar, Oyindolapo O. Komolafe
+
+Instruction-tuned language models achieve strong performance across a range of generation tasks, but have also recently been shown to exhibit verbalized overconfidence. In question answering, verbalized model overconfidence may be associated with the consistency of the generated supporting rationale...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.13430</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PixSDS: Why Latent SDS Makes Noisy Pixels</title>
+      <link>https://huggingface.co/papers/2608.12997</link>
+      <description>By Vsevolod Skorokhodov
+
+Score Distillation Sampling (SDS) enables text-to-3D generation by optimizing rendered images with a pretrained diffusion prior, but latent SDS often produces structured color artifacts and high-frequency texture noise. We identify a failure mode of latent SDS caused by VAE-induced pixel drift: the ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.12997</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

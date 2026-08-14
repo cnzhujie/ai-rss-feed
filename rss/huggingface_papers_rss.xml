@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 04:54:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 06:18:54 +0000</lastBuildDate>
     <item>
       <title>Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop</title>
       <link>https://huggingface.co/papers/2608.11215</link>
@@ -26,15 +26,6 @@ Simulating societies of many large language model (LLM) agents is expensive, yet
 World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous researchers--a setting in which the improvement d...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.11216</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Articulated Object Reconstruction from Rest-State Observation</title>
-      <link>https://huggingface.co/papers/2607.27749</link>
-      <description>By Daeun Lee, Jaeah Lee, Woosung Kim, Haebeom Jung, Jaesik Park
-
-Building interactive digital twins requires recovering both 3D geometry and the kinematic structures that govern how objects articulate. Yet existing methods for articulated object reconstruction require explicitly observable motion from multiple articulation states. We introduce a rest-state formul...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.27749</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DarwinX: Evolving Agent Harnesses Through Natural Selection</title>
@@ -118,15 +109,6 @@ The rapid advancement of Large Language Models (LLMs) is revolutionizing AI for 
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UniMoMo: Expert Merging-Based MoE Acceleration for Large Recommendation Models</title>
-      <link>https://huggingface.co/papers/2608.08627</link>
-      <description>By Lei Xin, Bin Gu, Peize Li, Zitong Wang, Jianbo Zhao, et al.
-
-Sparse mixture-of-experts (MoE) layers expand recommendation capacity through conditional computation, yet a trained checkpoint still stores and routes over its full expert bank. We study a deployment problem: convert that checkpoint to a smaller standard MoE under an explicit expert budget, without...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.08627</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents</title>
       <link>https://huggingface.co/papers/2608.08814</link>
       <description>By Kenta Watanabe, Atsuyuki Miyai, Mizuki Takenawa, Kiyoharu Aizawa, Toshihiko Yamasaki
@@ -190,15 +172,6 @@ Exploration has been a focus of reinforcement learning research for a long time.
       <pubDate>Mon, 10 Aug 2026 16:28:07 +0000</pubDate>
     </item>
     <item>
-      <title>DistilVDR: A Compact End-to-End Visual Document Retriever via Dual-Student Distillation</title>
-      <link>https://huggingface.co/papers/2608.10636</link>
-      <description>By Zhuchenyang Liu, Ziyi Wang, Yao Zhang, Yu Xiao
-
-Visual document retrieval (VDR) is dominated by multi-billion-parameter models that are slow to index at full corpus scale and expensive to serve. Prior compression routes either train a smaller multi-vector encoder from scratch or distil only the query side; neither yields a compact single-vector r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.10636</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>InSight-doc: Agentic Visual Perception for Long-Document Understanding</title>
       <link>https://huggingface.co/papers/2608.10628</link>
       <description>By Kaican Li, Weiyan Xie, Lewei Yao, Jiannan Wu, Lanqing Hong, et al.
@@ -260,6 +233,15 @@ Estimating human gaze targets from images in-the-wild is an important and formid
 ReRound (Reconstructive Rounding) is a post-training quantization method that addresses the midpoint ambiguity inherent in standard round-to-nearest (RTN) schemes when quantizing weights near the centers of quantization intervals.
   Starting from a pretrained LLM, ReRound trains a conditional diffus...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.11045</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SKILLER: Language-Level Reinforcement Learning for Reusable Skill Extraction in Small Language Models</title>
+      <link>https://huggingface.co/papers/2608.10538</link>
+      <description>By Chenhao Dang, Siyuan Xiong, Conghui He, Weijia Li
+
+Agent skills represent a standardized format for packaging procedural knowledge and domain expertise, serving within agent harness systems as an essential mechanism to continually constrain a language model's behavior space for repeatable, high-quality task execution. However, because strong closed-...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.10538</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -458,6 +440,24 @@ Large-scale manipulation data is essential for robot learning, yet collecting ro
 
 Semi-supervised semantic segmentation has long turned on one question, which pseudo-labels to trust, and a generation of selection rules, dynamic thresholds, per-class curricula, soft confidence weights, answered it for the noisy, under-confident ResNet teachers of their day. Self-supervised foundat...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.12773</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time</title>
+      <link>https://huggingface.co/papers/2608.11745</link>
+      <description>By Yuxuan Zhang, Haozhong Xiong, Yubo Huang, Jiayi Song, Jinpeng Yu, et al.
+
+Pose-driven human animation synthesizes a video of a target person from a single reference image and a driving pose stream. Real-time generation is essential for interactive applications such as live streaming, telepresence, and virtual avatars, yet diffusion-based systems require minutes to hours p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.11745</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos</title>
+      <link>https://huggingface.co/papers/2608.11752</link>
+      <description>By Yuxuan Zhang, Haozhong Xiong, Jiayi Song, Jinpeng Yu, Yang Shi, et al.
+
+Talking-video character replacement requires coordinated transfer of appearance and voice while preserving the source motion, scene, linguistic content, and audio-video timing. Existing methods use separately optimized models for the two modalities, making audio-visual consistency difficult to enfor...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.11752</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

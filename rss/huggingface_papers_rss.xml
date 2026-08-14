@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 14:57:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 15:59:31 +0000</lastBuildDate>
     <item>
       <title>Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop</title>
       <link>https://huggingface.co/papers/2608.11215</link>
@@ -17,15 +17,6 @@
 Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents N, not the cognition of any single agent. We turn a statistical-physics observation...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.11215</guid>
       <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research</title>
-      <link>https://huggingface.co/papers/2608.11216</link>
-      <description>By Marjan Moodi, Xuankang Zhu, Fernando De Mesentier Silva, Harold Chaput, Mohammad Reza Taesiri
-
-World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous researchers--a setting in which the improvement d...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.11216</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DarwinX: Evolving Agent Harnesses Through Natural Selection</title>
@@ -127,6 +118,15 @@ Autoregressive transformers compute along two axes: horizontally across generate
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Mitigating Gender Bias in English to Romanian Machine Translation</title>
+      <link>https://huggingface.co/papers/2608.08606</link>
+      <description>By Ioana Grigore, Sergiu Nisioi
+
+Machine translation (MT) systems often fail to correctly translate gender, especially when converting from a gender-neutral language like English to a gendered target language such as Romanian. This bias results in translations that default to masculine forms or reinforce gender stereotypes. We prop...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08606</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning</title>
       <link>https://huggingface.co/papers/2608.09926</link>
       <description>By Haodong Li, Shaoteng Liu, Tianyu Wang, Chongjian Ge, Sihui Ji, et al.
@@ -145,6 +145,15 @@ As large language models increasingly participate in scientific evaluation, we i
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs</title>
+      <link>https://huggingface.co/papers/2608.09158</link>
+      <description>By Yuanhe Zhang, Weiliu Wang, Jie Ren, Liang Lin, Zhenhong Zhou, et al.
+
+Large audio-language models (LALMs) have demonstrated strong capabilities in understanding diverse audio inputs. This diversity includes low-frequency signals that are inaudible to humans but can still enter the model and influence its generation. However, the practical impact of such low-frequency ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09158</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Parameter Exploration for RLVR via Variational Learning</title>
       <link>https://huggingface.co/papers/2608.09805</link>
       <description>By Vatsal Venkatkrishna, Nico Daheim, Iryna Gurevych
@@ -152,15 +161,6 @@ As large language models increasingly participate in scientific evaluation, we i
 Exploration has been a focus of reinforcement learning research for a long time. Recently, there has been growing evidence that it is also an important ingredient in LLM reinforcement learning recipes that can significantly impact downstream performance. Many existing methods control exploration in ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.09805</guid>
       <pubDate>Mon, 10 Aug 2026 16:28:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent Safety Should Be a Runtime Contract</title>
-      <link>https://huggingface.co/papers/2608.11274</link>
-      <description>By Albus W. Ng, Yi Han, Jusheng Zhang, Wenhao Wang
-
-The dominant paradigm treats AI safety as a property to be instilled during model training via RLHF, DPO, or Constitutional AI. We argue this is structurally insufficient for autonomous agents that execute code, mutate files, send messages, and modify databases. Agent safety should be a runtime cont...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.11274</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models</title>
@@ -216,15 +216,6 @@ ReRound (Reconstructive Rounding) is a post-training quantization method that ad
 Agent skills represent a standardized format for packaging procedural knowledge and domain expertise, serving within agent harness systems as an essential mechanism to continually constrain a language model's behavior space for repeatable, high-quality task execution. However, because strong closed-...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.10538</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization</title>
-      <link>https://huggingface.co/papers/2608.12314</link>
-      <description>By Yuyang Yin, Zixiang Li, Longxuan Deng, Hongkai Li, Shifang Zhao, et al.
-
-Previsualization is an intermediate layer between ideas and production in film, games, architecture, and urban design. It lets creators iteratively refine scenes, actions, cameras, and spatial-temporal dynamics. Yet existing generative methods rely on simple prompts to jointly control all of these f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.12314</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MBA: Multimodal Benchmark and Agents for Real-World Business Ideation</title>
@@ -323,6 +314,15 @@ Creative agents still lack an effective way to learn from high-quality human fil
 
 This paper reports a single, fully instrumented case study of a large-scale architectural refactoring by an AI coding agent under a specification-first protocol, with no human review of the generated code and no pre-existing oracle to validate the target behaviour. The task, dismantling a central in...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.12440</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hybrid-Policy Self-Editing for Composable Unstructured Knowledge Editing</title>
+      <link>https://huggingface.co/papers/2608.11660</link>
+      <description>By Tianci Liu, Zihan Dong, Tianchun Li, Yi-Chung Chen, Qiming Cao, et al.
+
+Large language models (LLMs) achieve remarkable performance across natural language tasks, yet they are trained on static corpora and their knowledge quickly becomes outdated in a fast-changing world. This motivates knowledge editing (KE), which updates specific knowledge in an LLM without changing ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.11660</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

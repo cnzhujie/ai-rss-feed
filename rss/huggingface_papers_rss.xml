@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 23:27:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 01:39:23 +0000</lastBuildDate>
     <item>
       <title>Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop</title>
       <link>https://huggingface.co/papers/2608.11215</link>
@@ -44,6 +44,15 @@ Large language models generate computationally expensive yet semantically void r
 AI agents operate in persistent environments where early state changes can influence decisions far into the future. Unlike conventional language-model interactions, agent behavior is mediated through a shared state that is repeatedly modified and reused across long-horizon workflows. Current safety ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.00677</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Maglev: Sliding Recurrent Memory</title>
+      <link>https://huggingface.co/papers/2608.02870</link>
+      <description>By Bo Liu, Qiang Liu
+
+We introduce , a recurrent Transformer architecture with fixed-size memory that generalizes sliding-window attention while remaining parallelizable during training.  consists of two coupled models: a prefiller Q, which leverages full attentionIn practice, we use interleaved full and sliding-window a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.02870</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images</title>
@@ -89,15 +98,6 @@ No single large language model (LLM) is optimal across all queries and budget co
 Visual-token pruning can substantially reduce the inference cost of multimodal large language models (MLLMs), yet existing methods largely rely on fixed, handcrafted heuristics and costly expert trial and error. As pruning objectives, budgets, and model architectures diversify, manually navigating t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.07193</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs</title>
-      <link>https://huggingface.co/papers/2608.08107</link>
-      <description>By Jiayue Jin, Jingwei Zhang, Chen Wang, Jing Liu, Longteng Guo
-
-Multimodal expansion of large language models (LLMs) enables new perceptual capabilities but often compromises the language intelligence acquired during pretraining. In this work, we investigate this phenomenon from the perspective of internal adaptation dynamics and discover that neurons in pretrai...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.08107</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives</title>

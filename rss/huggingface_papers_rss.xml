@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 07:07:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 08:51:40 +0000</lastBuildDate>
     <item>
       <title>DarwinX: Evolving Agent Harnesses Through Natural Selection</title>
       <link>https://huggingface.co/papers/2608.07545</link>
@@ -64,15 +64,6 @@ Visual-token pruning can substantially reduce the inference cost of multimodal l
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Full-bandwidth transformer</title>
-      <link>https://huggingface.co/papers/2608.08888</link>
-      <description>By Xi Wang, Ziyang Cai, Zheng Zhan, Harry Dong, Ying Fan, et al.
-
-Autoregressive transformers compute along two axes: horizontally across generated tokens, and vertically through model depth. Dense attention gives each token broad horizontal access to the past, but the vertical feedback channel between decoding steps remains narrow: only the sampled token returns ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.08888</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Mitigating Gender Bias in English to Romanian Machine Translation</title>
       <link>https://huggingface.co/papers/2608.08606</link>
       <description>By Ioana Grigore, Sergiu Nisioi
@@ -80,15 +71,6 @@ Autoregressive transformers compute along two axes: horizontally across generate
 Machine translation (MT) systems often fail to correctly translate gender, especially when converting from a gender-neutral language like English to a gendered target language such as Romanian. This bias results in translations that default to masculine forms or reinforce gender stereotypes. We prop...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.08606</guid>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review</title>
-      <link>https://huggingface.co/papers/2608.08975</link>
-      <description>By Ming Li, Chenguang Wang, Xirui Li, Xinyue Zeng, Dianqi Li, et al.
-
-As large language models increasingly participate in scientific evaluation, we investigate a potential form of reward hacking: how rhetorical choices shape AI-review judgments when reported scientific content is preserved and how these effects vary across evaluation conditions. We construct a contro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.08975</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs</title>
@@ -115,6 +97,15 @@ Rib fractures are common and time-consuming to localize on computed tomography (
 
 Multimodal Large Language Models (MLLMs) exhibit strong visual understanding, yet the internal features that cause these behaviors remain difficult to identify, audit, or control. While applicable to post-hoc inspection, hidden states that are decomposed into interpretable feature directions using s...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.09928</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UNMASK: Discovering and Causally Verifying Spurious Shortcuts in Text Classifiers</title>
+      <link>https://huggingface.co/papers/2608.09209</link>
+      <description>By Chidaksh Ravuru, Shashank Srivastava
+
+Neural language models trained on large crowdsourced corpora frequently exploit spurious surface patterns tied to target labels without true linguistic or causal relevance, boosting benchmark performance while failing on adversarial or out-of-distribution inputs. Existing approaches either require m...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.09209</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -224,15 +215,6 @@ We propose claim-level falsification as a principle for test-time scaling and in
 While Multimodal Large Language Models (MLLMs) have achieved remarkable progress, visual understanding and generation are typically treated as divergent objectives. Existing unified frameworks often rely on discrete visual tokenization or diffusion objectives whose generative targets differ from the...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.12209</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alaya-EVOKE: From Linear-Scaling Supervision to Endless World</title>
-      <link>https://huggingface.co/papers/2608.13546</link>
-      <description>By Yuanyang Yin, Gongxuan Wang, Yifan Zhan, Chuanhao Li, Kaipeng Zhang, et al.
-
-Interactive world models must support persistent memory, responsive interaction, and long-horizon generation, yet these requirements place conflicting demands on the model. Maintaining history in the denoiser context or key-value cache incurs growing cost, forcing a trade-off between session length ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.13546</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives</title>
@@ -457,6 +439,24 @@ Fine-grained robotic evaluation matters for understanding embodied models, going
 
 When forecasting hourly returns for 1,000 US equities, we observe an unexpected phenomenon: predictions become nearly flat and show poor stock ranking, as measured by cross-sectional correlation. We call this forecast collapse. Surprisingly, the phenomenon largely disappears when forecasting trading...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14106</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning</title>
+      <link>https://huggingface.co/papers/2608.14277</link>
+      <description>By Haonan He, Haodi Lei, Yun Luo, Haoran Zhang, Shunkai Zhang, et al.
+
+On-policy distillation (OPD) offers a promising way to transfer reasoning capabilities from stronger teacher models, but applying it to long-context reasoning teachers and short-context students introduces practical challenges, including tokenizer mismatch, teacher-student distribution mismatch, res...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.14277</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Supervised Visual On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2608.14144</link>
+      <description>By Yijiang Li, Yijun Liang, Yunjie Tian, Bingyang Wang, Ke Zhang, et al.
+
+Visual on-policy distillation relies heavily on an informative teacher-student asymmetry, through either a larger, stronger teacher or privileged supervision, such as reference answers or ground-truth regions of interest. This raises a fundamental question: where can informative asymmetry come from ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.14144</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

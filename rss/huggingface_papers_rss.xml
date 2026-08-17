@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 16:34:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 17:32:43 +0000</lastBuildDate>
     <item>
       <title>Modular Cognitive Architecture Emerges in Large Language Models</title>
       <link>https://huggingface.co/papers/2608.13567</link>
@@ -53,15 +53,6 @@ Clinical decision support is moving toward committees of language-model agents d
 We introduce , a recurrent Transformer architecture with fixed-size memory that generalizes sliding-window attention while remaining parallelizable during training.  consists of two coupled models: a prefiller Q, which leverages full attentionIn practice, we use interleaved full and sliding-window a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.02870</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers</title>
-      <link>https://huggingface.co/papers/2608.06867</link>
-      <description>By Tao Feng, Fangxu Yu, Haozhen Zhang, Zhongjie Dai, Liangqi Yuan, et al.
-
-No single large language model (LLM) is optimal across all queries and budget constraints, making model routing essential for cost-effective deployment. Existing routers adopt diverse formulations and implementations, making fair comparison and extension difficult. We present a unified formulation o...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.06867</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An AI4AI Framework for Visual Token Pruning</title>
@@ -448,6 +439,15 @@ On-policy distillation (OPD) offers a promising way to transfer reasoning capabi
 
 Visual on-policy distillation relies heavily on an informative teacher-student asymmetry, through either a larger, stronger teacher or privileged supervision, such as reference answers or ground-truth regions of interest. This raises a fundamental question: where can informative asymmetry come from ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14144</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead</title>
+      <link>https://huggingface.co/papers/2608.13987</link>
+      <description>By John T. Halloran
+
+Nanbeige4.2-3B is a 3B-parameter agentic model built around a Looped Transformer (LT) that reuses one stack of layers for a second forward pass, adding effective depth without additional parameters. Evaluated on Apple Silicon (MPS), we identify five independent bugs which prevent the released checkp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.13987</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

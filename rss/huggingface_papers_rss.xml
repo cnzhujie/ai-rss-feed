@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 05:35:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 06:54:12 +0000</lastBuildDate>
     <item>
       <title>Modular Cognitive Architecture Emerges in Large Language Models</title>
       <link>https://huggingface.co/papers/2608.13567</link>
@@ -17,6 +17,15 @@
 The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this modular organization a fundamental principle of how intelligent systems must be built, o...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.13567</guid>
       <pubDate>Sat, 27 Jun 2026 01:56:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs</title>
+      <link>https://huggingface.co/papers/2608.14614</link>
+      <description>By Zeyu Cao, Xuan Guo, Cheng Zhang, Cheuk Hang Lau, Ilia Shumailov, et al.
+
+As AI datacenters retire functional GPUs, vast quantities of still capable accelerators enter secondary markets. This paper investigates whether these retired GPUs can find a productive afterlife to form a DumpsterCluster that can serve modern LLM inference, and under what conditions such repurposin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.14614</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Verifier-Induced Support Reshaping in On-Policy Optimization</title>
@@ -109,15 +118,6 @@ Large Vision-Language Models (LVLMs) achieve impressive visual reasoning and dia
       <pubDate>Tue, 11 Aug 2026 12:01:59 +0000</pubDate>
     </item>
     <item>
-      <title>Claim-Level Reliability Assessment for Efficient Test-Time Reasoning</title>
-      <link>https://huggingface.co/papers/2608.11994</link>
-      <description>By Sen Xu, Wei Wang, Shixi Liu, Jixin Min, Yingwei Dai, et al.
-
-We propose claim-level falsification as a principle for test-time scaling and instantiate it through Claim-Level Reliability Assessment (CLR), a training-free framework that reallocates test-time compute from additional solution sampling to targeted verification. Since whole-trace evaluation often o...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.11994</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Generation as Auxiliary Supervision: Enhancing Visual Understanding at Zero Inference Overhead via Decoupled Embedding Prediction</title>
       <link>https://huggingface.co/papers/2608.12209</link>
       <description>By Zhongbin Guo, Jiahao Xie, Dongling Xiao, Qianle Wang, Ruiqi Lu, et al.
@@ -143,15 +143,6 @@ In 2023, a New York judge sanctioned two attorneys in Mata v. Avianca for filing
 Video understanding is a fundamental task for evaluating the capabilities of multimodal large language models (MLLMs). However, existing leading models have already achieved approximately 90% accuracy on the Video-MME leaderboard, suggesting that conventional single-turn video understanding tasks ar...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14718</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark</title>
-      <link>https://huggingface.co/papers/2608.13555</link>
-      <description>By Dairu Liu, Zekun Qi, Jiayu Zeng, Ruixi Yu, Yu Guan, et al.
-
-Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contact...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.13555</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Latent On-Policy Self-Distillation</title>
@@ -215,24 +206,6 @@ Document parsing aims to transform unstructured documents into structured and ma
 LLM agents in the ReAct paradigm alternate between reasoning, acting, and observing, but deliberate reasoning is confined to the Thought phase: while the agent serializes an action and waits for the environment, its reasoning is frozen. We identify this recurring interval for Action and Observation ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.13667</guid>
       <pubDate>Thu, 13 Aug 2026 18:04:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination</title>
-      <link>https://huggingface.co/papers/2608.14391</link>
-      <description>By Shuo Liang, Yixing Ma, Pengfei Zhou, Xingyan Chen, Zihan Mei, et al.
-
-Recent video generators can fabricate realistic depictions of wars, disasters, public emergencies, and other real-world crises, creating substantial risks of misinformation. Existing benchmarks, however, provide limited evidence on detector and generator behavior in such settings, including how dete...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14391</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Scaling Domain Data Repetition in LLM Pretraining</title>
-      <link>https://huggingface.co/papers/2608.14071</link>
-      <description>By Jingwei Li, Xinran Gu, Rui Dai, Xintong Hao, Chengyin Xu, et al.
-
-As large language models scale, their training-token budgets must also increase to maintain an appropriate tokens-per-parameter ratio (\(TPP\)). However, high-quality domain data is much harder to scale than general web data. As model size and the training-token budget increase, its fraction in the ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14071</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPI-Bench: A Comprehensive,Practical and Intelligent Benchmark for Real-World Image Editing</title>
@@ -352,6 +325,15 @@ Language models hold latent quantities in a form they can report on, and more of
       <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift</title>
+      <link>https://huggingface.co/papers/2608.15037</link>
+      <description>By Ashish Anand Shukla, Rini Smita Thakur, Aryan Das, Vinod K. Kurmi
+
+Audio-Text Foundation Models (ATMs) fail catastrophically under severe acoustic noise, yet existing adaptation strategies either rely on gradient-based Test-Time Adaptation (TTA), which reinforces noise rather than signal, or on prompt tuning that requires privileged noise annotations unavailable at...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.15037</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval</title>
       <link>https://huggingface.co/papers/2608.15698</link>
       <description>By Peng Chunyi, Xu Zhipeng, Yan Yukun, Liu Zhenghao, Yu Shi, et al.
@@ -457,6 +439,24 @@ We present AnyTalk, a novel method for generating 3D speech animations for arbit
 
 In collection operations, accumulating payload progressively slows the vehicle, imposing a cumulative penalty on routing efficiency. An onboard drone can offset this penalty by retrieving outlying items, thereby shortening the makespan and increasing operational profit. However, travel time remains ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.16435</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HiFi-BRep: High-Fidelity Latent Representation for Robust B-Rep Generation</title>
+      <link>https://huggingface.co/papers/2608.16485</link>
+      <description>By Junhao Hou, Chenqi Luo, Pufan Wang, Jiaying Lu, Yusheng Liu, et al.
+
+Boundary representation (B-Rep) generation is a fundamental task in computer-aided design, yet the direct synthesis of high-fidelity and structurally valid B-Reps remains a major challenge. Existing deep generative methods suffer from two forms of brittleness: representation brittleness, caused by p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.16485</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization</title>
+      <link>https://huggingface.co/papers/2608.16072</link>
+      <description>By Yixuan Wang, Yifei Chen, Haichao Zhang, Haozheng Luo, Xander Wu, et al.
+
+Reinforcement learning (RL) with group-relative advantages has become the de facto standard for post-training language model reasoners. However, when optimizing multiple reward objectives, existing methods typically scalarize the reward vector with a fixed weighted sum before group-wise standardizat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.16072</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

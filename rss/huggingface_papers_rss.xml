@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 07:44:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 08:45:45 +0000</lastBuildDate>
     <item>
       <title>HarmProfile: Characterizing Harmful Distributions in Frontier LLMs</title>
       <link>https://huggingface.co/papers/2608.14577</link>
@@ -73,15 +73,6 @@ Creative agents still lack an effective way to learn from high-quality human fil
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments</title>
-      <link>https://huggingface.co/papers/2608.14441</link>
-      <description>By Yuhao Zhan, Bingxiang He, Zecong Tang, Chaojun Xiao
-
-Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize under fixed execution conditions and do not test recovery after those conditions change. To address this gap, we introduce PACE-Bench (Physics Adaptation via Code Evolution), a simul...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14441</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks</title>
       <link>https://huggingface.co/papers/2608.14905</link>
       <description>By Yanlin Fei, Nazhou Liu, Xinmiao Yu, Shaolong Chen, Lei Li, et al.
@@ -97,6 +88,15 @@ AI has long assisted scientific research, but the rapid advance of LLMs and agen
 
 AI co-scientists that generate hypotheses, retrieve related work, design experiments, execute code, and draft full papers are beginning to change how research is carried out. Despite this rapid progress, state-of-the-art systems remain researcher-agnostic: given a research goal, they optimize novelt...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14881</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Demystifying Agent Skills: Why They Work-Until They Don't</title>
+      <link>https://huggingface.co/papers/2608.14036</link>
+      <description>By Zhiyuan Jiang, Fangrui Huang, Hanwen Xing, Xander Wu, Yipeng Gao, et al.
+
+Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured packages of knowledge. However, existing evaluations largely measure whether skills improve aggregated task success, leaving a more fundamental question underexplored: \textbf{When...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.14036</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -188,24 +188,6 @@ Multimodal large language models increasingly use visual chain-of-thought (Visua
 Byte-level hierarchical language models (LMs) have recently emerged as a robust alternative to their popular counterparts that use subword tokenization. However, generating one byte at a time remains a bottleneck for inference speed. To address this, we introduce multi-byte prediction (MBP), which g...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15454</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Improving the matrix multiplication exponent with modern optimization and AlphaEvolve</title>
-      <link>https://huggingface.co/papers/2608.16884</link>
-      <description>By Emilien Dupont, Marvin Eisenberger, Borislav Kozlovskii, Abbas Mehrabian, Francisco J. R. Ruiz, et al.
-
-The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and pr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16884</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models</title>
-      <link>https://huggingface.co/papers/2608.16887</link>
-      <description>By Dengyang Jiang, Ruoyi Du, Zhennan Chen, Dongyang Liu, Zanyi Wang, et al.
-
-This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models. Although numerous studies have explored this topic, most focus on small-scale or class-conditional settings. Consequently, a practical recipe for training pixel-space models that rival or ex...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16887</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HarnessEval-W: Agentifying the Evaluation of Visual Worlds</title>
@@ -343,6 +325,15 @@ Methods for improving knowledge use in large language models typically fall into
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>PixRestore: Unified Image Restoration via Pixel Diffusion Transformer</title>
+      <link>https://huggingface.co/papers/2608.16793</link>
+      <description>By Lingchen Sun, Rongyuan Wu, Xiangtao Kong, Jixin Zhao, Qiaosi Yi, et al.
+
+Unified image restoration (UIR) aims to recover high-quality (HQ) content from low-quality (LQ) images with different degradations using a single model. Most recent methods adapt large pretrained text-to-image (T2I) latent diffusion models for their strong capacity and generative priors. However, th...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.16793</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements</title>
       <link>https://huggingface.co/papers/2608.17310</link>
       <description>By Zhi Zheng, Rongsheng Chen, Yunpeng Ba, Zhenkun Wang, Yee Whye Teh, et al.
@@ -457,6 +448,15 @@ The quality and diversity of instruction-based video editing datasets are steadi
 
 High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models remain constrained to resolutions below 1K due to quadratic attention complexity and prohibitive memory requirements. A prevalent workaround employs a two-stage pipeline: editing at ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.18063</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding</title>
+      <link>https://huggingface.co/papers/2608.17402</link>
+      <description>By Bonan Zhang, Shiyu Dong, Quan Hung Tran, Katharina Gschwind, Shuqi Yang, et al.
+
+Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves performance. However, dense scaling increases compute cost and inference latency. Mixture-of-Experts (MoE) architectures offer a compelling alternative, having enabled efficient scalin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.17402</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

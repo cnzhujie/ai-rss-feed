@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 14:40:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 15:37:18 +0000</lastBuildDate>
     <item>
       <title>HarmProfile: Characterizing Harmful Distributions in Frontier LLMs</title>
       <link>https://huggingface.co/papers/2608.14577</link>
@@ -197,15 +197,6 @@ Multimodal large language models increasingly use visual chain-of-thought (Visua
 Byte-level hierarchical language models (LMs) have recently emerged as a robust alternative to their popular counterparts that use subword tokenization. However, generating one byte at a time remains a bottleneck for inference speed. To address this, we introduce multi-byte prediction (MBP), which g...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15454</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AnyTalk: Speech Animation for Arbitrary Characters Leveraging a Video Generation Model</title>
-      <link>https://huggingface.co/papers/2608.16143</link>
-      <description>By Kwan Yun, Serin Yoon, Sunjin Jung, Jung Eun Yoo, Inyup Lee, et al.
-
-We present AnyTalk, a novel method for generating 3D speech animations for arbitrary characters without requiring any animation data. While existing audio-driven 3D speech animation methods rely on character-specific training data or laborious rigging/re-meshing, AnyTalk circumvents these limitation...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16143</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Drive, Pack, Fly: The Travelling Thief Problem with Drone</title>
@@ -457,6 +448,15 @@ High-resolution image editing is increasingly demanded in professional workflows
 
 Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves performance. However, dense scaling increases compute cost and inference latency. Mixture-of-Experts (MoE) architectures offer a compelling alternative, having enabled efficient scalin...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.17402</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX</title>
+      <link>https://huggingface.co/papers/2608.17379</link>
+      <description>By Genghan Zhang, Yixin Dong, Chengze Fan, Zhichen Zeng, Yueming Yuan, et al.
+
+We introduce PTXBench, a benchmark for evaluating and adapting large language models (LLMs) to use architecture-specific PTX for GPU kernel optimization. PTXBench measures functional correctness, whether selected target instructions execute at runtime, and speedup over frontier libraries across GEMM...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.17379</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

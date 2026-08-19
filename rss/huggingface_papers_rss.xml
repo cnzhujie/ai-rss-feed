@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 06:54:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 07:44:19 +0000</lastBuildDate>
     <item>
       <title>HarmProfile: Characterizing Harmful Distributions in Frontier LLMs</title>
       <link>https://huggingface.co/papers/2608.14577</link>
@@ -53,15 +53,6 @@ Per-field accept/review with selective risk at most alpha -- accept a field only
 Pixel-space generative models bypass lossy latent compression, yet necessitate joint learning of global structure and fine-grained details in a high-dimensional space. Standard flow matching interpolates noise toward a fixed clean-image endpoint, leaving the spectral evolution to be learned implicit...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.05811</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VideoGAIA: A Benchmark for General AI Assistants on Agentic Video Understanding</title>
-      <link>https://huggingface.co/papers/2608.14718</link>
-      <description>By Fan Zhang, Guangming Yao, Jinyang Wu, Hao Wu, Zheng Lian, et al.
-
-Video understanding is a fundamental task for evaluating the capabilities of multimodal large language models (MLLMs). However, existing leading models have already achieved approximately 90% accuracy on the Video-MME leaderboard, suggesting that conventional single-turn video understanding tasks ar...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14718</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Accuracy and Order Sensitivity Diverge Under Label-Free Strategies</title>
@@ -161,15 +152,6 @@ Long-horizon agents can fail even when their underlying models can solve the con
 Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on which memory substrate, namely the underlying medium in which memory is represented and stored, should be used under different operating regimes. We present a controlled harness eva...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15008</guid>
       <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations</title>
-      <link>https://huggingface.co/papers/2608.15930</link>
-      <description>By Zihan Ding, Longxu Dou, Qi Gao, Xiangwu Guo, Shengchao Hu, et al.
-
-Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data, ambiguous prompts, and unreliable execution. Routine workflows rely on user-specific tools and tacit conventions, so unstated instructions can produce arbitrary variations across ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.15930</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WorldRover: A Scalable Synthetic Video Data Engine for World Exploration with Rich Annotations</title>
@@ -352,6 +334,15 @@ Graph neural networks are commonly described through family-specific equations w
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Cross-Model Memory Transfer via Target-Side Reader Adaptation</title>
+      <link>https://huggingface.co/papers/2608.17050</link>
+      <description>By Mingyuan Li, Guangsheng Yu, Xu Wang, Shaoxiong Ji
+
+Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval offers flexible access to external knowledge, but adds retrieval latency, context overhead, and only shallow integration with the backbone. Parametric adaptation is efficient at inf...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.17050</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements</title>
       <link>https://huggingface.co/papers/2608.17310</link>
       <description>By Zhi Zheng, Rongsheng Chen, Yunpeng Ba, Zhenkun Wang, Yee Whye Teh, et al.
@@ -457,6 +448,15 @@ Modern agents operate inside agent harnesses that manage tools, context, and con
 
 The quality and diversity of instruction-based video editing datasets are steadily improving, yet existing datasets mainly focus on single editing operations and fall short in supporting compositional instruction-guided video editing. In particular, multiple editing intents must be jointly understoo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.17566</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EDITBRIDGE: Towards Faithful and Efficient Ultra-High-Resolution Image Editing</title>
+      <link>https://huggingface.co/papers/2608.18063</link>
+      <description>By Jiayi Song, Shijie Huang, Fangtai Wu, Yubo Huang, Zhenxiong Tan, et al.
+
+High-resolution image editing is increasingly demanded in professional workflows, yet existing diffusion-based models remain constrained to resolutions below 1K due to quadratic attention complexity and prohibitive memory requirements. A prevalent workaround employs a two-stage pipeline: editing at ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.18063</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

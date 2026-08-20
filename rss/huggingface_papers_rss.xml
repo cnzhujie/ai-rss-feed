@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 05:36:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 06:55:42 +0000</lastBuildDate>
     <item>
       <title>HarmProfile: Characterizing Harmful Distributions in Frontier LLMs</title>
       <link>https://huggingface.co/papers/2608.14577</link>
@@ -17,6 +17,15 @@
 Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rather than as an object of analysis. Consequently, little is known about the harmful outputs produced during model misbehavior, partly because large-scale, high-quality collections of...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14577</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Temporal Multi-Signal Fusion for Token-Level Hallucination Detection</title>
+      <link>https://huggingface.co/papers/2608.18115</link>
+      <description>By Igor Itkin
+
+Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong. This paper instead treats hallucination as a temporally extended span and detects it by sequence labeling: each token is scored from a 33-dimensio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.18115</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Energy-Guided Flow Matching</title>
@@ -126,15 +135,6 @@ Autoformalization is commonly framed as translating natural-language mathematica
 Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on which memory substrate, namely the underlying medium in which memory is represented and stored, should be used under different operating regimes. We present a controlled harness eva...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15008</guid>
       <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning</title>
-      <link>https://huggingface.co/papers/2608.15869</link>
-      <description>By Xiaoyu Zhu, Xinke Deng, Suresh Taddewadikar, Arnab Kumar Mondal, Zhongyu Jiang, et al.
-
-Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an intuitive mechanism for visual foresight but introduces substantial inference overh...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.15869</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Dynamic Multi-Byte Prediction With Hierarchical Language Models</title>

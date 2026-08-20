@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 23:28:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 01:40:10 +0000</lastBuildDate>
     <item>
       <title>HarmProfile: Characterizing Harmful Distributions in Frontier LLMs</title>
       <link>https://huggingface.co/papers/2608.14577</link>
@@ -26,15 +26,6 @@ Frontier large language models (LLMs) safety evaluation has largely treated harm
 Large language models (LLMs) are increasingly used as synthetic survey respondents, but existing evaluations ask whether answers look plausible at the individual level. We argue the right question is psychometric: do LLMs preserve the joint distribution, latent structure, reliability, mediation path...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14606</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DumpsterCluster: From Dumpster Diving to Serving LLaMA-70B on $60 GPUs</title>
-      <link>https://huggingface.co/papers/2608.14614</link>
-      <description>By Zeyu Cao, Xuan Guo, Cheng Zhang, Cheuk Hang Lau, Ilia Shumailov, et al.
-
-As AI datacenters retire functional GPUs, vast quantities of still capable accelerators enter secondary markets. This paper investigates whether these retired GPUs can find a productive afterlife to form a DumpsterCluster that can serve modern LLM inference, and under what conditions such repurposin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14614</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Valid Per-Field Selective Risk Control for Document Extraction: Three Failure Modes, a Validity Ladder, and When Conditioning Pays</title>
@@ -197,15 +188,6 @@ Multimodal large language models increasingly use visual chain-of-thought (Visua
 Byte-level hierarchical language models (LMs) have recently emerged as a robust alternative to their popular counterparts that use subword tokenization. However, generating one byte at a time remains a bottleneck for inference speed. To address this, we introduce multi-byte prediction (MBP), which g...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15454</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learn What's Left, Not What's Mastered: Saturation Aware Advantage Reweighting for Multi-Reward Policy Optimization</title>
-      <link>https://huggingface.co/papers/2608.16072</link>
-      <description>By Yixuan Wang, Yifei Chen, Haichao Zhang, Haozheng Luo, Xander Wu, et al.
-
-Reinforcement learning (RL) with group-relative advantages has become the de facto standard for post-training language model reasoners. However, when optimizing multiple reward objectives, existing methods typically scalarize the reward vector with a fixed weighted sum before group-wise standardizat...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16072</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TRACE-Bench: Decomposing and Diagnosing Multi-Reference Image Generation</title>
@@ -458,6 +440,24 @@ We introduce PTXBench, a benchmark for evaluating and adapting large language mo
 Reinforcement learning for coding agents increasingly relies on long-running agent harnesses to manage tool integration, repository contexts, and execution feedback. However, the native execution environments of these harnesses are inherently misaligned with policy-gradient training: environmental c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.17393</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis</title>
+      <link>https://huggingface.co/papers/2608.18580</link>
+      <description>By Kou Shi, Zun Wang, Qisheng Su, Shiting Huang, Ziao Zhang, et al.
+
+Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.18580</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution</title>
+      <link>https://huggingface.co/papers/2608.18933</link>
+      <description>By Silin Chen, Han Li, Xiaodong Gu, Yuling Shi, Haibing Guan
+
+Large language model (LLM) based agents have demonstrated remarkable proficiency in automated software issue resolution, yet they often struggle to resolve issues in a specific repository because they lack project-specific knowledge. Existing self-evolving approaches acquire such knowledge from repo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.18933</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

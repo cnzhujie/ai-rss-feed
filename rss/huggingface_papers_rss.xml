@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 03:03:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 04:43:05 +0000</lastBuildDate>
     <item>
       <title>HarmProfile: Characterizing Harmful Distributions in Frontier LLMs</title>
       <link>https://huggingface.co/papers/2608.14577</link>
@@ -17,24 +17,6 @@
 Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rather than as an object of analysis. Consequently, little is known about the harmful outputs produced during model misbehavior, partly because large-scale, high-quality collections of...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14577</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Plausible but Not Valid: A Psychometric Audit of LLMs as Synthetic Survey Respondents</title>
-      <link>https://huggingface.co/papers/2608.14606</link>
-      <description>By Mantas Lukauskas, Viktorija Šarkauskaitė
-
-Large language models (LLMs) are increasingly used as synthetic survey respondents, but existing evaluations ask whether answers look plausible at the individual level. We argue the right question is psychometric: do LLMs preserve the joint distribution, latent structure, reliability, mediation path...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14606</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Valid Per-Field Selective Risk Control for Document Extraction: Three Failure Modes, a Validity Ladder, and When Conditioning Pays</title>
-      <link>https://huggingface.co/papers/2608.14639</link>
-      <description>By Bhaskar Gurram
-
-Per-field accept/review with selective risk at most alpha -- accept a field only if the error rate among accepted fields is controlled -- is the trust contract document-extraction systems need, and the natural procedure silently violates it on real documents. On 13,859 genuine claude-sonnet-5 fields...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14639</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Energy-Guided Flow Matching</title>
@@ -82,6 +64,15 @@ Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PC
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>OmniScientist: An Omni-Modal Omni-Discipline AI Scientist</title>
+      <link>https://huggingface.co/papers/2608.13558</link>
+      <description>By Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
+
+Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depend...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.13558</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Personalized Auto-Research: Towards a True AI Co-Scientist</title>
       <link>https://huggingface.co/papers/2608.14881</link>
       <description>By Bo Ni, Franck Dernoncourt, Hongjie Chen, Yu Wang, Nesreen K. Ahmed, et al.
@@ -100,6 +91,25 @@ Skills have emerged as a practical and effective approach for enhancing LLM agen
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification</title>
+      <link>https://huggingface.co/papers/2608.14929</link>
+      <description>By Aman Singh Thakur, Rayan Khoury
+
+Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented. We study data-free white-box lineage verification: can weights alone reveal whether two compatible model checkpoints share ancestry?
+  Residual training produces a shared identity-a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.14929</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion</title>
+      <link>https://huggingface.co/papers/2608.13947</link>
+      <description>By Hwan Chang, Yongil Kim, Heuiyeen Yeen, Yireun Kim, Jinsik Lee, et al.
+
+High-quality creative writing data for large language models (LLMs) remains dominated by story-centric data, limiting models' ability to follow the structural and functional conventions of diverse creative formats. We propose an attribute-guided genre expansion framework for scaling creative writing...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.13947</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement</title>
       <link>https://huggingface.co/papers/2608.14221</link>
       <description>By Lushi Pu, Weiming Zhang, Xinheng Xie, Zixuan Fu, Bingxiang He, et al.
@@ -107,24 +117,6 @@ Skills have emerged as a practical and effective approach for enhancing LLM agen
 Autoformalization is commonly framed as translating natural-language mathematical statements into machine-verifiable formal languages such as Lean 4. However, faithful formalization requires more than translation. Models must map mathematical concepts to the complex hierarchy of types and definition...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14221</guid>
       <pubDate>Fri, 14 Aug 2026 11:51:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>MOSS-VL Technical Report</title>
-      <link>https://huggingface.co/papers/2608.15045</link>
-      <description>By Pengyu Wang, Chenkun Tan, Shaojun Zhou, Qirui Zhou, Yanxin Chen, et al.
-
-We present MOSS-VL, an open vision-language model family that treats real-time interaction -- perceiving while it speaks -- as a first-class capability. It is co-designed across the stack: the language decoder attends to vision only through gated cross-attention, so the model can naturally see incom...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.15045</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StateM: Reaching 95.3% Raw Accuracy, or a \$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling</title>
-      <link>https://huggingface.co/papers/2608.15089</link>
-      <description>By Ziheng Qin, Yaxin Lu, Zhangyang Atlas Wang, Kai Wang
-
-Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of mutable state, fail to reactivate lessons from earlier executions, skip known procedures, or stop prematurely. We bet on harness scaling to improve the execution system around an ag...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.15089</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</title>
@@ -152,42 +144,6 @@ Multimodal large language models increasingly use visual chain-of-thought (Visua
 Byte-level hierarchical language models (LMs) have recently emerged as a robust alternative to their popular counterparts that use subword tokenization. However, generating one byte at a time remains a bottleneck for inference speed. To address this, we introduce multi-byte prediction (MBP), which g...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15454</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models</title>
-      <link>https://huggingface.co/papers/2608.15984</link>
-      <description>By Kaname Yokoyama, Norimichi Ukita
-
-Motion Language Models (MoLMs) typically understand human motions by tokenizing 3D motion and processing the resulting tokens using a language model. However, obtaining accurate 3D motions from monocular videos is challenging, limiting their real-world applicability. To address this issue, we introd...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.15984</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GRNEdit: Efficient General Video Editing from a New Binary-Evidence Perspective in Generative Refinement Networks</title>
-      <link>https://huggingface.co/papers/2608.16328</link>
-      <description>By Feng Xie, Jiagao Hu, Fuhao Li, Zepeng Wang, Yuxuan Chen, et al.
-
-Instruction-based general video editing seeks to unify diverse editing operations within a single, intuitive interface. Existing approaches often rely on resource-intensive conditioning, using either heavyweight branches or costly source concatenation. Is there any efficient way to model editing int...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16328</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Advancing Open and Reproducible Relational Learning: RelArena-α, TabPFN-Rel and RPI</title>
-      <link>https://huggingface.co/papers/2608.16319</link>
-      <description>By Adrian Hayler, Klemens Flöge, Alan Arazi, Rishabh Ranjan, Jure Leskovec, et al.
-
-This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful real-world impact. We aim to steer further development based on feedback from, and in ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16319</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding</title>
-      <link>https://huggingface.co/papers/2608.16320</link>
-      <description>By Keming Wu, Baoyi Wang, Kaichen Zhang, Xiang An, Zuhao Yang, et al.
-
-Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. Existing systems add inference-time memory, retrieval, and compression, yet a training-free sliding-window baseline already matches them. We therefore fix a memory-free recent-window proto...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16320</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents</title>
@@ -259,6 +215,15 @@ AI systems are increasingly capable of contributing to mathematical research. In
 
 Looped language models have shown promising results on reasoning benchmarks, yet their potential for agentic tool use remains largely unexplored. We study this question in compositional tool-calling settings, where models must coordinate multiple API calls, maintain intermediate state, and preserve ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.18171</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence</title>
+      <link>https://huggingface.co/papers/2608.16590</link>
+      <description>By Xin Ding, Liang Mi, Mingzhe Huang, Zixuan Wang, Chao Zhang, et al.
+
+Embodied agents are increasingly used to close the gap left by end-to-end policy models. Yet the agentic path has not realized closed-loop learning in physical execution: existing harnesses remain largely open-loop, following fixed skills during rollout and reflecting only after an episode completes...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.16590</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -406,6 +371,15 @@ Reinforcement learning for coding agents increasingly relies on long-running age
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SemComp-Bench: Benchmarking Semantic Task Completion in Video Generation</title>
+      <link>https://huggingface.co/papers/2608.17426</link>
+      <description>By Keyu Tu, Zhuowei Chen, Mengqi Huang, Yuxin Wang, Jiahao Zhu, et al.
+
+We introduce Semantic Task Completion Video Generation, an outcome-oriented video generation task. Under this formulation, success requires both achievement of the intended outcome and semantic grounding. Semantic grounding characterizes the correspondence between the reference image and the generat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.17426</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis</title>
       <link>https://huggingface.co/papers/2608.18580</link>
       <description>By Kou Shi, Zun Wang, Qisheng Su, Shiting Huang, Ziao Zhang, et al.
@@ -457,6 +431,33 @@ Programmable logic controllers (PLCs) run industrial plants, and large language 
 
 Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-many nature is poorly captured by single-answer evaluation and benchmarking protocols. To address this, we introduce Top-K prompting as a robust training and inference paradigm to bet...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.18940</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SoftVTBench: A Deformation-Aware Visuo-Tactile Dataset and Benchmark for Deformable-Object Manipulation</title>
+      <link>https://huggingface.co/papers/2608.18701</link>
+      <description>By Bowen Jing, Mingxin Wang, Ruiyang Hao, Chenchen Ge, Hanwen Shen, et al.
+
+Physical interaction quality is central to deformable-object manipulation, yet most benchmarks evaluate task success alone. A policy may complete the task while allowing slip or causing excessive compression. A primary bottleneck is the absence of visuo-tactile datasets that pair policy-visible cont...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.18701</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Decision-Metric Alignment in Latent World Models: Diagnostics and Action-Conditioned Objectives for MPC Planning</title>
+      <link>https://huggingface.co/papers/2608.18746</link>
+      <description>By Jiawei Wang, Ke Rui, Yushen Zuo, Yichun Feng, Minglei Li
+
+JEPA-style latent world models can use Euclidean distance to a goal latent as the cost for model-predictive control (MPC). Strong decoding of task variables, however, does not guarantee that this particular cost ranks candidate action sequences by real task progress. We call the latter property deci...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.18746</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Co-RL: Unsupervised Reasoning Emerges from Diverse Cohort in Multi-agent RL</title>
+      <link>https://huggingface.co/papers/2608.17253</link>
+      <description>By Yunhao Yang, Yuexin Bian, Yunjie Tian, Di Fu, Tianjin Huang, et al.
+
+Reinforcement learning (RL) has emerged as a powerful approach for improving reasoning in language and vision-language models, yet its strongest successes still depend heavily on ground-truth supervision (e.g., verifiable reward). Such annotations are costly to obtain and become increasingly scarce ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.17253</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

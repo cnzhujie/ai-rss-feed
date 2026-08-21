@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 01:45:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 03:09:16 +0000</lastBuildDate>
     <item>
       <title>Temporal Multi-Signal Fusion for Token-Level Hallucination Detection</title>
       <link>https://huggingface.co/papers/2608.18115</link>
@@ -17,24 +17,6 @@
 Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong. This paper instead treats hallucination as a temporally extended span and detects it by sequence labeling: each token is scored from a 33-dimensio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.18115</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Energy-Guided Flow Matching</title>
-      <link>https://huggingface.co/papers/2608.05811</link>
-      <description>By Haoyang Tong, Yu He, Fang Li, Lichen Ma, Jingling Fu, et al.
-
-Pixel-space generative models bypass lossy latent compression, yet necessitate joint learning of global structure and fine-grained details in a high-dimensional space. Standard flow matching interpolates noise toward a fixed clean-image endpoint, leaving the spectral evolution to be learned implicit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.05811</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AVA-Encoder: Towards Agent-Native Video Representation Learning</title>
-      <link>https://huggingface.co/papers/2608.12313</link>
-      <description>By Chuyue Li, Jinpeng Yu, Haozhe Wang, Tian Xueyun, Zhijing Zhang, et al.
-
-Creative agents still lack an effective way to learn from high-quality human films, limiting their ability to produce cinematic-grade videos. A key challenge is the absence of a structured video representation that is both faithful to film content and directly usable for agentic reasoning and manipu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.12313</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>V-RAE: Rethinking Video Latent Spaces for Generation</title>
@@ -110,6 +92,15 @@ Popular facts are memorised more deeply during pretraining and resist removal lo
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models</title>
+      <link>https://huggingface.co/papers/2608.14022</link>
+      <description>By Xinye Li, Lingshuai Lin, Lei Wang, Liuzhou Zhang, Jialin Cui, et al.
+
+Action-conditioned video world models require low-latency causal generation and reliable responses to game-native controls. Although causal distillation enables one- or few-step video synthesis, extending it to interactive world models remains challenging, as discrete keyboard states and continuous ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.14022</guid>
+      <pubDate>Fri, 14 Aug 2026 07:13:34 +0000</pubDate>
+    </item>
+    <item>
       <title>MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement</title>
       <link>https://huggingface.co/papers/2608.14221</link>
       <description>By Lushi Pu, Weiming Zhang, Xinheng Xie, Zixuan Fu, Bingxiang He, et al.
@@ -117,15 +108,6 @@ Popular facts are memorised more deeply during pretraining and resist removal lo
 Autoformalization is commonly framed as translating natural-language mathematical statements into machine-verifiable formal languages such as Lean 4. However, faithful formalization requires more than translation. Models must map mathematical concepts to the complex hierarchy of types and definition...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.14221</guid>
       <pubDate>Fri, 14 Aug 2026 11:51:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</title>
-      <link>https://huggingface.co/papers/2608.15008</link>
-      <description>By Wei-Chieh Huang, Weizhi Zhang, Yuchen Wu, Yankai Chen, Eric Hanchen Jiang, et al.
-
-Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on which memory substrate, namely the underlying medium in which memory is represented and stored, should be used under different operating regimes. We present a controlled harness eva...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.15008</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bounded Agents: Delegation Security for Multi-Agent AI Systems</title>
@@ -144,15 +126,6 @@ LLM-based agents can act on behalf of a user to access cloud services, call tool
 Language-specific competency (LSC) is the phenomenon of a language model performing better or worse depending on the language of the prompt. In other words, a language model outputs different (and potentially incorrect) responses to the same semantic query when prompted in different languages. Prior...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15964</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution</title>
-      <link>https://huggingface.co/papers/2608.16157</link>
-      <description>By Shuo Yang, Xiaoze Fan, Melissa Pan, Haocheng Xi, Zhe Wang, et al.
-
-Frontier open-weight models are increasingly available, but serving them still largely assumes datacenter infrastructure. We present FreeToken, an edge-native MoE serving system that treats a personal machine not as a small GPU, but as a unified, elastic inference platform. FreeToken co-designs the ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16157</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Unifying Graph Neural Networks Through a Common Layer Equation</title>
@@ -225,60 +198,6 @@ Embodied agents are increasingly used to close the gap left by end-to-end policy
 LiDAR scene completion is a key component of 3D perception in autonomous driving, where the scene must be completed in real time to be usable in downstream tasks. Existing approaches typically follow an initialize-and-refine paradigm, in which a coarse initialization of the scene is first constructe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.16490</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Abra: Scaling Diffusion Image Training</title>
-      <link>https://huggingface.co/papers/2608.17286</link>
-      <description>By Kyle Chickering, Wei-An Lin, Swayam Bhanded, Dan Saunders, Akshat Tripathi, et al.
-
-Compute-optimal scaling laws guide the training of frontier language models yet remain largely unexplored for visual generation. We present a systematic scaling law study for text-to-image diffusion models using Abra, a controlled family of flow-matching transformers trained across three orders of m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.17286</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ASI-Bench: At the Dawn of Artificial Superintelligence</title>
-      <link>https://huggingface.co/papers/2608.17271</link>
-      <description>By Junwei Zhou, Zhen Sun, Binyu Li, Jiangyu Zhou, Yuexi Pan, et al.
-
-Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown, creating new knowledge, and turning new ideas into verifiable results. However, the capabilities of today's AI systems are still largely built on learning, compressing, and applyi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.17271</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection</title>
-      <link>https://huggingface.co/papers/2608.16393</link>
-      <description>By Zonghao Ying, Xiangfan Wu, Huiyu Wu, Xing Zheng, Huangsheng Cheng, et al.
-
-We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver controlled taint, execute DSH, collect traces, and judge outcomes. The study covers 14,560 controlled executions over 16 indirect-content channels, text and file carrier modes, 35 ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16393</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GS-Voxel: Fitting-Free Structured Latents for Large-Scale 3DGS Generation</title>
-      <link>https://huggingface.co/papers/2608.17988</link>
-      <description>By Ming Qian, Zijian Wang, Minchao Sun, Jincheng Xiong, Hang Zhang, et al.
-
-Many scalable latent 3D generators operate on structured tensors, whereas pre-optimized 3D Gaussian Splatting (3DGS) reconstructions are unordered, spatially irregular, and vary widely in primitive count. We present GS-Voxel, a fitting-free structured latent framework, and evaluate it for large-scal...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.17988</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation</title>
-      <link>https://huggingface.co/papers/2608.18076</link>
-      <description>By Xingjian Wang, Zhao Wang, Taihang Hu, Jun Zheng, Qing Jin, et al.
-
-Large-scale image generation has benefited from advances in data scale, quality, rebalancing, and recaptioning, yet conventional pipelines typically optimize task-specific datasets in isolation. A central challenge is not only how to curate each task-specific corpus, but also how to organize heterog...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.18076</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation</title>
-      <link>https://huggingface.co/papers/2608.17512</link>
-      <description>By Hongyan Feng, Sunlai Chen, Xuanyu Liu, Miao Pan, Yangfan Xie, et al.
-
-Although Large Vision-Language Models (VLMs) have significantly advanced embodied navigation, their direct deployment remains challenging, as existing methods often force VLMs into unnatural action spaces that misalign with their 2D pre-training priors, compounded by rigid reasoning schedules and in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.17512</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety</title>
@@ -459,6 +378,87 @@ Object detectors often produce over-confident predictions for objects outside th
 Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing methods construct this reward by combining metrics for individual quality dimensions, including audio quality, visual fidelity, and synchronization. However, these metrics evaluate perce...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.18607</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis</title>
+      <link>https://huggingface.co/papers/2608.18580</link>
+      <description>By Kou Shi, Zun Wang, Qisheng Su, Shiting Huang, Ziao Zhang, et al.
+
+Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.18580</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents</title>
+      <link>https://huggingface.co/papers/2608.19861</link>
+      <description>By Seongjae Kang, Taehyung Yu, Sung Ju Hwang
+
+Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene o...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19861</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EXIMO: VLM Guided Exploration of VLA Policies</title>
+      <link>https://huggingface.co/papers/2608.19891</link>
+      <description>By Bhavya Sukhija, Oliver Groth, Mohit Shridhar, Tim Hertweck, Michael Bloesch, et al.
+
+How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policies are based on behaviour cloning of large vision-language-action (VLA) models with billions of parameters on huge teleoperation datasets. While this simple approach has enabled sign...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19891</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EnvHarness: Awakening Static Worlds for Agent Learning</title>
+      <link>https://huggingface.co/papers/2608.19880</link>
+      <description>By Chengsong Huang, Zifeng Wang, Rujun Han, Jun Yan, Yanfei Chen, et al.
+
+LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19880</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WithEveryone: Unified Planning and Identity Grounding for Group Image Generation</title>
+      <link>https://huggingface.co/papers/2608.20336</link>
+      <description>By Hengyuan Xu, Qixun Wang, Yiji Cheng, Miles Yang, Zhao Zhong, et al.
+
+Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20336</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use</title>
+      <link>https://huggingface.co/papers/2608.20202</link>
+      <description>By Mengru Wang, Haozhe Luo, Zhenqian Xu, Zhixiang Cui, Haoming Xu, et al.
+
+Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved memori...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20202</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>4DAnyone: Create Anyone in 4D from a Casual Monocular Video</title>
+      <link>https://huggingface.co/papers/2608.20335</link>
+      <description>By Yudong Jin, Tao Xie, Qihang Zhang, Zehong Shen, Zhen Xu, et al.
+
+We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view vide...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20335</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization</title>
+      <link>https://huggingface.co/papers/2608.20281</link>
+      <description>By Qian Kou, Xiaofeng Shi, Xiaosong Qiu, Hua Zhou
+
+Large language models often fail to answer questions about a bounded document collection when the source documents are not retrieved at inference time. We study this setting as document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free question ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20281</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Repo0: Design-Driven Zero-to-All Code Generation</title>
+      <link>https://huggingface.co/papers/2608.19854</link>
+      <description>By Silin Chen, Haoyi Teng, Xiaodong Gu, Yuling Shi, Jiale Huang, et al.
+
+Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19854</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

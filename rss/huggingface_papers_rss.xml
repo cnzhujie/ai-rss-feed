@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 13:00:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 13:53:43 +0000</lastBuildDate>
     <item>
       <title>Temporal Multi-Signal Fusion for Token-Level Hallucination Detection</title>
       <link>https://huggingface.co/papers/2608.18115</link>
@@ -17,6 +17,15 @@
 Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong. This paper instead treats hallucination as a temporally extended span and detects it by sequence labeling: each token is scored from a 33-dimensio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.18115</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses</title>
+      <link>https://huggingface.co/papers/2608.08466</link>
+      <description>By Tailin Zhou
+
+Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is task-specific and continuously...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.08466</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>V-RAE: Rethinking Video Latent Spaces for Generation</title>
@@ -62,15 +71,6 @@ Agent Skills are today either hand-authored or produced in a single LLM generati
 Long-form video understanding encompasses tasks that go beyond retrieving isolated events, including tracking an evolving narrative and interpreting social meaning that may remain implicit. However, existing benchmarks rarely evaluate these capabilities jointly, particularly in high-context, non-Eng...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.13210</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Demystifying Agent Skills: Why They Work-Until They Don't</title>
-      <link>https://huggingface.co/papers/2608.14036</link>
-      <description>By Zhiyuan Jiang, Fangrui Huang, Hanwen Xing, Xander Wu, Yipeng Gao, et al.
-
-Skills have emerged as a practical and effective approach for enhancing LLM agents at inference time through structured packages of knowledge. However, existing evaluations largely measure whether skills improve aggregated task success, leaving a more fundamental question underexplored: \textbf{When...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14036</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification</title>
@@ -128,15 +128,6 @@ Language-specific competency (LSC) is the phenomenon of a language model perform
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PixRestore: Unified Image Restoration via Pixel Diffusion Transformer</title>
-      <link>https://huggingface.co/papers/2608.16793</link>
-      <description>By Lingchen Sun, Rongyuan Wu, Xiangtao Kong, Jixin Zhao, Qiaosi Yi, et al.
-
-Unified image restoration (UIR) aims to recover high-quality (HQ) content from low-quality (LQ) images with different degradations using a single model. Most recent methods adapt large pretrained text-to-image (T2I) latent diffusion models for their strong capacity and generative priors. However, th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16793</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization</title>
       <link>https://huggingface.co/papers/2608.17067</link>
       <description>By Tong Zhang, Motasem Alfarra, Carlos Hinojosa, Christos Louizos, Bernard Ghanem
@@ -180,15 +171,6 @@ Embodied agents are increasingly used to close the gap left by end-to-end policy
 LiDAR scene completion is a key component of 3D perception in autonomous driving, where the scene must be completed in real time to be usable in downstream tasks. Existing approaches typically follow an initialize-and-refine paradigm, in which a coarse initialization of the scene is first constructe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.16490</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MoE-ViE: Mixture of Experts Vision Encoder for Efficient Image and Video Understanding</title>
-      <link>https://huggingface.co/papers/2608.17402</link>
-      <description>By Bonan Zhang, Shiyu Dong, Quan Hung Tran, Katharina Gschwind, Shuqi Yang, et al.
-
-Vision encoders are a critical component of vision-language models, and scaling their capacity effectively improves performance. However, dense scaling increases compute cost and inference latency. Mixture-of-Experts (MoE) architectures offer a compelling alternative, having enabled efficient scalin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.17402</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX</title>
@@ -449,6 +431,24 @@ Public benchmarks are important measures of Automatic Speech Recognition (ASR) m
 
 Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing methods have increasingly relied on elaborate pre-training recipes to reach competitive performance. A markedly different pre-training philosophy underpins the most influential progress i...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.19863</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning</title>
+      <link>https://huggingface.co/papers/2608.19776</link>
+      <description>By Julien Merand, Boris Meden, Liming Chen, Mathieu Grossard
+
+Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp synthesis on specific human grasp taxonomies typically requires prohibitiv...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19776</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation</title>
+      <link>https://huggingface.co/papers/2608.19759</link>
+      <description>By Julien Merand, Boris Meden, Mathieu Grossard, Liming Chen
+
+Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generalize to new objects because they are trained on limited, object-specific datasets. We introduce a fundamentally different approach, grounded in the observation that the gripper and the...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19759</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

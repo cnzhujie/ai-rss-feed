@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 03:09:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 04:45:35 +0000</lastBuildDate>
     <item>
       <title>Temporal Multi-Signal Fusion for Token-Level Hallucination Detection</title>
       <link>https://huggingface.co/papers/2608.18115</link>
@@ -46,13 +46,13 @@ Recent advances in foundation models have enabled AI scientists to automate incr
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Personalized Auto-Research: Towards a True AI Co-Scientist</title>
-      <link>https://huggingface.co/papers/2608.14881</link>
-      <description>By Bo Ni, Franck Dernoncourt, Hongjie Chen, Yu Wang, Nesreen K. Ahmed, et al.
+      <title>SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback</title>
+      <link>https://huggingface.co/papers/2608.13120</link>
+      <description>By Qianxi Yan, Chunrong Chen, Jiuzhou Zhao, Min Zhang, Yongzhou Xu, et al.
 
-AI co-scientists that generate hypotheses, retrieve related work, design experiments, execute code, and draft full papers are beginning to change how research is carried out. Despite this rapid progress, state-of-the-art systems remain researcher-agnostic: given a research goal, they optimize novelt...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14881</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+Agent Skills are today either hand-authored or produced in a single LLM generation pass, and consequently possess no closed loop through which they might improve from the interaction failures they actually cause. Recent work does close this loop, but derives its feedback from single-turn question-an...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.13120</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Demystifying Agent Skills: Why They Work-Until They Don't</title>
@@ -126,15 +126,6 @@ LLM-based agents can act on behalf of a user to access cloud services, call tool
 Language-specific competency (LSC) is the phenomenon of a language model performing better or worse depending on the language of the prompt. In other words, a language model outputs different (and potentially incorrect) responses to the same semantic query when prompted in different languages. Prior...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15964</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unifying Graph Neural Networks Through a Common Layer Equation</title>
-      <link>https://huggingface.co/papers/2608.16097</link>
-      <description>By Sai Karthik Navuluru, Siddhartha Shankar Das, Bo Ni, Hongjie Chen, Yu Wang, et al.
-
-Graph neural networks are commonly described through family-specific equations whose notation obscures shared computations and structural differences. We introduce a common layer equation that represents covered architectures through seven components: an update domain, channel set, propagation bank,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.16097</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Cross-Model Memory Transfer via Target-Side Reader Adaptation</title>
@@ -459,6 +450,15 @@ Large language models often fail to answer questions about a bounded document co
 Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.19854</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving</title>
+      <link>https://huggingface.co/papers/2608.19758</link>
+      <description>By Qihang Fan, Huaibo Huang, Zhiying Wu, Bingning Wang, Ran He
+
+Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. Our previous work, FlashPrefill, mitigates this cost through instantaneous pattern discovery a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19758</guid>
+      <pubDate>Thu, 20 Aug 2026 08:02:55 +0000</pubDate>
     </item>
   </channel>
 </rss>

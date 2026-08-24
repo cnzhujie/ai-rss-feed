@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 10:43:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 11:35:02 +0000</lastBuildDate>
     <item>
       <title>Hadith computational science in the age of large language models: a critical narrative review</title>
       <link>https://huggingface.co/papers/2608.20364</link>
@@ -17,15 +17,6 @@
 We examine how hadith computational science is being reshaped by transformer models, retrieval-grounded pipelines, and large language models (LLMs). Recent reviews document growth in the literature, but they do not yet provide a critical account of which advances are methodologically robust, which r...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.20364</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Temporal Multi-Signal Fusion for Token-Level Hallucination Detection</title>
-      <link>https://huggingface.co/papers/2608.18115</link>
-      <description>By Igor Itkin
-
-Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong. This paper instead treats hallucination as a temporally extended span and detects it by sequence labeling: each token is scored from a 33-dimensio...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.18115</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses</title>
@@ -80,15 +71,6 @@ LLM coding agents issue Bash commands through interfaces that may serialize, wra
 Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity (STS), clustering, pa...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.12875</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning</title>
-      <link>https://huggingface.co/papers/2608.14229</link>
-      <description>By Anna Borisiuk, Andrey Savchenko, Alexander Panchenko, Elena Tutubalina
-
-Popular facts are memorised more deeply during pretraining and resist removal longer than rare ones, yet existing LLM unlearning methods apply uniform gradient pressure regardless of training-data frequency. We propose the AdaPop (Adaptive Popularity) method, which combines local token confidence wi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14229</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models</title>
@@ -161,6 +143,15 @@ Hybrid-thinking multimodal large language models (MLLMs) allow a single model to
 On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own policy, yet its generalization behavior remains poorly understood, as most studies evaluate OPD on a single domain and on benchmarks close to the training data. We present a control...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.16647</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ParaTempo: Efficient Parallel Reasoning via Temporal Confidence</title>
+      <link>https://huggingface.co/papers/2608.16425</link>
+      <description>By Xuteng Zhang, Wenhao Zeng, Xiaodong Gu, Chao Hu, Haotian Lin, et al.
+
+Parallel reasoning improves the accuracy and robustness of large reasoning models by exploring multiple solution paths, but its computational cost grows with reasoning depth and branch count. Existing methods for managing these parallel paths typically rely on final-answer consensus, local token con...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.16425</guid>
+      <pubDate>Mon, 17 Aug 2026 11:24:46 +0000</pubDate>
     </item>
     <item>
       <title>Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems</title>
@@ -367,6 +358,15 @@ Large language model agents can adapt to complex tasks by constructing workflows
 
 Small language models are usually built like large ones and then squeezed onto a CPU afterwards. We did the opposite: we fixed the target first, one user, one token at a time, 4-bit weights, ordinary CPU, and chose the architecture to suit it. The result keeps full attention in only 6 of its 18 bloc...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.20210</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FlavourBench: Ranking Frontier Language Models with Executable Culinary Ground Truth</title>
+      <link>https://huggingface.co/papers/2608.20574</link>
+      <description>By Josef Chen, Erim Hayretci
+
+Open-ended language-model benchmarks usually inherit a judge: a human preference panel, another model, or a brittle exact-match key. We introduce FlavourBench, an automated benchmark in which a versioned culinary system supplies dense, executable ground truth. Each task presents eight ingredients an...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20574</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

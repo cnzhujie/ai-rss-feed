@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 08:50:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 09:41:37 +0000</lastBuildDate>
     <item>
       <title>Hadith computational science in the age of large language models: a critical narrative review</title>
       <link>https://huggingface.co/papers/2608.20364</link>
@@ -19,15 +19,6 @@ We examine how hadith computational science is being reshaped by transformer mod
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses</title>
-      <link>https://huggingface.co/papers/2608.08466</link>
-      <description>By Tailin Zhou
-
-Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the harness---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is task-specific and continuously...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.08466</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>UniSpace: Unified Visual Representation and Scalable Multimodal Modeling</title>
       <link>https://huggingface.co/papers/2608.08676</link>
       <description>By Jinbo Yan, Limeng Qiao, Jie Qin, Junyan He, Feize Wu, et al.
@@ -35,15 +26,6 @@ Modern LLM agents are often improved by modifying prompts, tools, or workflows m
 Semantic vision encoders have become a central visual interface for multimodal understanding and semantic conditioning in image generation. However, their final tokens discard fine-grained visual details, leading to poor pixel reconstruction and limiting their use in reconstruction-sensitive tasks s...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.08676</guid>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>QuoteBench: How Matched Scores Can Hide Command-Path Failures</title>
-      <link>https://huggingface.co/papers/2608.13547</link>
-      <description>By Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang
-
-LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 5...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.13547</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Embedder's Dilemma: LLMs Are Better, but at What Cost?</title>
@@ -62,6 +44,15 @@ Should you replace your text-embedding pipeline with a large language model? We 
 Open-ended real-world interaction admits multiple valid behaviors: an agent may answer directly, ask for clarification, provide progress updates, or confirm before acting. This flexibility breaks a core assumption behind group-based RL: rollouts compared within a group are no longer guaranteed to be...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.13622</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hybrid Quantum-inspired Kolmogorov-Arnold Networks for Privacy-Aware Federated Biosignal Learning</title>
+      <link>https://huggingface.co/papers/2608.13914</link>
+      <description>By Chun-Hua Lin, Samuel Yen-Chi Chen, Yu-Chao Hsu, Kuo-Chung Peng, Jiun-Cheng Jiang, et al.
+
+Electrocardiogram (ECG) recordings are sensitive biomedical data, limiting the ability of hospitals and wearable devices to share raw signals for centralized model training. Federated learning addresses this practical privacy constraint by enabling collaborative model training while keeping raw bios...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.13914</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity</title>
@@ -170,15 +161,6 @@ Training-free block-sparse attention can accelerate video transformers, but row-
 On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student-generated trajectories with dense token-level supervision from a teacher. However, OPD implicitly assumes that teacher-derived rewards are an appropriate proxy for reasoning progre...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.19408</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation</title>
-      <link>https://huggingface.co/papers/2608.19759</link>
-      <description>By Julien Merand, Boris Meden, Mathieu Grossard, Liming Chen
-
-Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generalize to new objects because they are trained on limited, object-specific datasets. We introduce a fundamentally different approach, grounded in the observation that the gripper and the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.19759</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills</title>
@@ -457,6 +439,24 @@ Full-length RNAs, particularly messenger RNAs, often exceed the context lengths 
 
 With the rapid progress of diffusion models and large-scale video generation, generative world models are increasingly expected to replace traditional simulators, including physics engines, game engines, and reinforcement-learning environments. Yet the remaining distance from generation to simulatio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.23070</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Industrial-Instruction: An End-to-End Framework for Building Instruction-Tuning and Benchmark Datasets from Industrial Technical Reports</title>
+      <link>https://huggingface.co/papers/2608.22817</link>
+      <description>By Parsa Bakhtiari, Hassan Bashiri, Alireza Khalilipour, Masoud Nasiripour, Moharram Challenger
+
+Industrial technical reports contain high-value knowledge for maintenance, troubleshooting, and product engineering, but their heterogeneous structure (dense prose, specifications, tables) makes them difficult to index and reason over with standard retrieval and QA pipelines, and no public instructi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.22817</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards a Densing Law for User Representation Learning at Billion-Scale Capacity</title>
+      <link>https://huggingface.co/papers/2608.23392</link>
+      <description>By Bin Dou, Junru Zhang, Zhaoyi Yuan, Wuliang Huang, Letian Gong, et al.
+
+User representation learning in real-world industrial scenarios is commonly scaled by increasing user amount, behavioral sequence length and model size. However, existing methods face two challenges: (i) Bottleneck for raw data scaling at billion-scale capacity, as performance exhibit diminishing pe...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23392</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 11:34:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 12:59:02 +0000</lastBuildDate>
     <item>
       <title>Hadith computational science in the age of large language models: a critical narrative review</title>
       <link>https://huggingface.co/papers/2608.20364</link>
@@ -44,15 +44,6 @@ Open-ended real-world interaction admits multiple valid behaviors: an agent may 
 Electrocardiogram (ECG) recordings are sensitive biomedical data, limiting the ability of hospitals and wearable devices to share raw signals for centralized model training. Federated learning addresses this practical privacy constraint by enabling collaborative model training while keeping raw bios...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.13914</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond Correctness: Benchmarking and Aligning Response Behaviors in Hybrid-Thinking MLLMs</title>
-      <link>https://huggingface.co/papers/2608.12781</link>
-      <description>By Xinming Wang, Weinong Wang, Hongming Yang, Yansong Lin, Zheng Ruan, et al.
-
-Hybrid-thinking multimodal large language models (MLLMs) allow a single model to alternate between deliberative thinking and latency-efficient non-thinking inference. Although these modes differ in reasoning budget, their delivered responses should satisfy the same user-facing standard. Correctness ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.12781</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models</title>
@@ -136,15 +127,6 @@ On-policy distillation (OPD) has emerged as an effective framework for post-trai
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills</title>
-      <link>https://huggingface.co/papers/2607.21596</link>
-      <description>By Zeyu Ren, Ling Yue, Ran Li, Yishu Wang, Shengxiang Xu, et al.
-
-Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline and do not grow from ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.21596</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference</title>
       <link>https://huggingface.co/papers/2608.20210</link>
       <description>By Christos Koutsiaris
@@ -215,15 +197,6 @@ Face presentation attack detection (PAD) is traditionally formulated as a face-s
 Mixture-of-Experts (MoE) architectures significantly expand model capacity without a proportional increase in computational cost. However, optimizing their hyperparameters---particularly the learning rate---at extreme scales of both model size and token budget via sweeping remains computationally pr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.20061</guid>
       <pubDate>Thu, 20 Aug 2026 13:57:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs</title>
-      <link>https://huggingface.co/papers/2608.21134</link>
-      <description>By Luka Ribar, Jeevan Bhoot, Douglas Orr
-
-Deploying vision-language models (VLMs) on mobile devices is challenging due to their significant memory and compute requirements. We present a framework for quantizing VLMs for efficient inference on resource-constrained hardware. Our approach combines a quantization pipeline that uses the model it...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.21134</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>InfinityEdit: Infinite Video Editing with a Lightweight Edit-Ignition Adapter</title>
@@ -316,6 +289,15 @@ Deep face recognition (FR) models reach near-saturated accuracy but remain opaqu
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs</title>
+      <link>https://huggingface.co/papers/2608.20953</link>
+      <description>By Bakbergen Ryskulov, Iker García-Ferrero, David Montero, David Jansen, Ali Hashemi, et al.
+
+Serving large language models cheaply increasingly means shipping models that are both structurally compressed to a fraction of their parameters and quantized to 4 bits. Together these steps degrade reasoning, mathematics, coding, and long-context behavior enough to require a recovery, or healing, s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20953</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?</title>
       <link>https://huggingface.co/papers/2608.21833</link>
       <description>By Kun Chen, Haorong Hong, Peizhong Gao, Jianfeng Lin, Tongxu Luo, et al.
@@ -331,6 +313,15 @@ Recent large language models (LLMs) can operate as coding agents that build comp
 
 Robot policies receive heterogeneous observations at each decision step, yet sequence models differ in how they organize these inputs over time. We introduce WorldToken, a time-first policy instantiation that fuses multiview images, proprioception, and task conditioning within each policy timestep i...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.22591</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AutoResearch: Insight In, Hallucination Out</title>
+      <link>https://huggingface.co/papers/2608.17906</link>
+      <description>By Yiming Ren, Xiang Liu, Qumeng Sun, Xiao Zhang, Jiahao Li, et al.
+
+Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting process remains scientifically grounded. We introduce AutoResearch, a two-stage system that connects Idea Generation with Idea Execution to address both ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.17906</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Industrial technical reports contain high-value knowledge for maintenance, troub
 
 User representation learning in real-world industrial scenarios is commonly scaled by increasing user amount, behavioral sequence length and model size. However, existing methods face two challenges: (i) Bottleneck for raw data scaling at billion-scale capacity, as performance exhibit diminishing pe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.23392</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks</title>
+      <link>https://huggingface.co/papers/2608.23200</link>
+      <description>By Xiao Zhang, Qumeng Sun, Jihao Li, Yiming Ren, Xiang Liu, et al.
+
+Large language models are increasingly expected to execute complex workflows whose success depends on maintaining interdependent constraints and producing artifacts that satisfy strict end-to-end verification. Yet successful execution experience is typically lost after a single run, forcing subseque...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23200</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

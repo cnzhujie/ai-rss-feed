@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 01:40:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 03:05:14 +0000</lastBuildDate>
     <item>
       <title>Hadith computational science in the age of large language models: a critical narrative review</title>
       <link>https://huggingface.co/papers/2608.20364</link>
@@ -127,15 +127,6 @@ Parallel reasoning improves the accuracy and robustness of large reasoning model
       <pubDate>Mon, 17 Aug 2026 11:24:46 +0000</pubDate>
     </item>
     <item>
-      <title>Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems</title>
-      <link>https://huggingface.co/papers/2512.14629</link>
-      <description>By Yash Vishe, Eric Xue, Xunyi Jiang, Zachary Novack, Junda Wu, et al.
-
-Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game development. Recent advances in music editing systems have enabled diverse editing tasks such as timbre transfer, instrument substitution, and genre transformation. However, many existing w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2512.14629</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Chain-of-Experience for Continual LLM Improvement</title>
       <link>https://huggingface.co/papers/2608.18027</link>
       <description>By Haoqin Tu, Yunhao Fang, Yizhong Wang, Cihang Xie, Shen Yan
@@ -163,6 +154,15 @@ Game world models have recently demonstrated promising capabilities in generatin
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration</title>
+      <link>https://huggingface.co/papers/2608.17336</link>
+      <description>By Hanzhi Zhang, Qiao Zhang, Qinglei Cao, Heng Fan, Yan Huang, et al.
+
+Long-context prefill in large language models (LLMs) incurs substantial computation and memory traffic because dense self-attention computes quadratic query-key scores. Existing methods either use a uniform low-precision path or select token interactions, leaving spatial precision routing over hardw...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.17336</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Thinking in a Low-Resource Language: What SFT Builds, What RL Fixes, What Accuracy Cannot See</title>
       <link>https://huggingface.co/papers/2608.17744</link>
       <description>By Ayoub Kirouane, Christos Petrocheilos
@@ -181,24 +181,6 @@ We introduce Hydra-0, a generalist world model conditioned on action flow, which
       <pubDate>Tue, 18 Aug 2026 17:59:30 +0000</pubDate>
     </item>
     <item>
-      <title>VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation</title>
-      <link>https://huggingface.co/papers/2608.18607</link>
-      <description>By Yinming Huang, Shuyuan Tu, Xi Yan, Zihan Yang, Jianhua Han, et al.
-
-Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing methods construct this reward by combining metrics for individual quality dimensions, including audio quality, visual fidelity, and synchronization. However, these metrics evaluate perce...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.18607</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis</title>
-      <link>https://huggingface.co/papers/2608.18580</link>
-      <description>By Kou Shi, Zun Wang, Qisheng Su, Shiting Huang, Ziao Zhang, et al.
-
-Training terminal agents requires scalable executable supervision, yet synthesizing high-quality terminal tasks remains challenging. Each task couples an instruction, an initialized environment, a reference solution, and an executable verifier; if these artifacts are generated from inconsistent assu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.18580</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models</title>
       <link>https://huggingface.co/papers/2608.18484</link>
       <description>By Pardis Taghavi, Reza Langari, Gaurav Pandey
@@ -208,31 +190,13 @@ Training-free block-sparse attention can accelerate video transformers, but row-
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents</title>
-      <link>https://huggingface.co/papers/2608.19861</link>
-      <description>By Seongjae Kang, Taehyung Yu, Sung Ju Hwang
+      <title>Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress</title>
+      <link>https://huggingface.co/papers/2608.19408</link>
+      <description>By Chen Yang, Haiyuan Wan, Rengrong Xiong, Yize Chen, Danny H. K. Tsang
 
-Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene o...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.19861</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EXIMO: VLM Guided Exploration of VLA Policies</title>
-      <link>https://huggingface.co/papers/2608.19891</link>
-      <description>By Bhavya Sukhija, Oliver Groth, Mohit Shridhar, Tim Hertweck, Michael Bloesch, et al.
-
-How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policies are based on behaviour cloning of large vision-language-action (VLA) models with billions of parameters on huge teleoperation datasets. While this simple approach has enabled sign...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.19891</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EnvHarness: Awakening Static Worlds for Agent Learning</title>
-      <link>https://huggingface.co/papers/2608.19880</link>
-      <description>By Chengsong Huang, Zifeng Wang, Rujun Han, Jun Yan, Yanfei Chen, et al.
-
-LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.19880</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student-generated trajectories with dense token-level supervision from a teacher. However, OPD implicitly assumes that teacher-derived rewards are an appropriate proxy for reasoning progre...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19408</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WithEveryone: Unified Planning and Identity Grounding for Group Image Generation</title>
@@ -361,6 +325,15 @@ Population-level behavior in large-language-model (LLM) agents cannot be charact
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>RISE: Adaptive Imagination for World Action Models</title>
+      <link>https://huggingface.co/papers/2608.20430</link>
+      <description>By Hongbo Lu, Liang Yao, Chenghao He, Hao Han, Fan Liu, et al.
+
+World Action Models (WAMs) improve planning by incorporating future world evolution into action generation, yet existing methods allocate a fixed imagination budget to every scene. We propose RISE (Refining Imagination through SElective Rollout), a system-level adaptive imagination framework that ma...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20430</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving</title>
       <link>https://huggingface.co/papers/2608.19758</link>
       <description>By Qihang Fan, Huaibo Huang, Zhiying Wu, Bingning Wang, Ran He
@@ -458,6 +431,33 @@ Real-world image search queries are multimodal and compositional: ``find this sh
 We present PhysCaP, a Physics-Informed Code-as-Policy agent for active perception in robotic manipulation. While vision-language-action policies excel at imitating demonstrations, they rely on passive observation and fail to infer latent physical properties critical for manipulation. PhysCaP augment...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.21031</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TLive-Omni: An Omni-Modal Understanding Model for E-Commerce Live Streaming</title>
+      <link>https://huggingface.co/papers/2608.20958</link>
+      <description>By Yibo Hu, Yu Qian, Mao Gu, Yingfan Tao, Yuhao Chen, et al.
+
+E-commerce live streaming requires omni-modal understanding of noisy, temporally extended streams, where product facts are distributed across speech, video frames, product images, overlaid text, and user queries. We present TLive-Omni, an omni-modal understanding model tailored to live-commerce scen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20958</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apodex 1.1: Scaling Agentic Intelligence for Complex Work</title>
+      <link>https://huggingface.co/papers/2608.23283</link>
+      <description>By Apodex Team, B. An, B. Li, B. Wang, B. Zhang, et al.
+
+General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interaction with files, information sources, and executable code, together with state maintenance, failure recovery, and verifiable delivery. We call this working capability: sustained, veri...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23283</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Same Agent, Different Answers: A Repeat-Aware Audit of Corpus-Induced Answer Churn in Retrieval-Augmented QA</title>
+      <link>https://huggingface.co/papers/2608.22856</link>
+      <description>By Jingjie Ning, Xueqi Li
+
+A retrieval-augmented QA system can return different answers after an index expansion even when its requested model identifier, prompt, retrieval policy, evidence depth, rendering, and exposed generation controls are held fixed. Aggregate accuracy may hide these changes when gains and losses cancel,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.22856</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

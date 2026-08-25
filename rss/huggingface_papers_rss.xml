@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 05:37:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 06:58:19 +0000</lastBuildDate>
     <item>
       <title>Hadith computational science in the age of large language models: a critical narrative review</title>
       <link>https://huggingface.co/papers/2608.20364</link>
@@ -127,15 +127,6 @@ Parallel reasoning improves the accuracy and robustness of large reasoning model
       <pubDate>Mon, 17 Aug 2026 11:24:46 +0000</pubDate>
     </item>
     <item>
-      <title>Chain-of-Experience for Continual LLM Improvement</title>
-      <link>https://huggingface.co/papers/2608.18027</link>
-      <description>By Haoqin Tu, Yunhao Fang, Yizhong Wang, Cihang Xie, Shen Yan
-
-Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.18027</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Human-Centric Intelligence in the Era of Foundation Models: A Survey</title>
       <link>https://huggingface.co/papers/2608.18184</link>
       <description>By Yang Chen, Tianqi Wang, Xiaorui Jiang, Yilei Man, Yihua Shao, et al.
@@ -197,15 +188,6 @@ Training-free block-sparse attention can accelerate video transformers, but row-
 On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student-generated trajectories with dense token-level supervision from a teacher. However, OPD implicitly assumes that teacher-derived rewards are an appropriate proxy for reasoning progre...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.19408</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?</title>
-      <link>https://huggingface.co/papers/2608.19799</link>
-      <description>By Zhipeng Xu, Jiahao Lu, Yining Zheng, Yuxin Wang, Xipeng Qiu
-
-Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only program behavior but also the evidence underlying scientific conclusions. Yet existing evaluations of coding agents largely emphasize aggregate task succes...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.19799</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Towards Quantifying Benchmark Optimization in ASR Models</title>
@@ -289,13 +271,13 @@ World Action Models (WAMs) improve planning by incorporating future world evolut
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving</title>
-      <link>https://huggingface.co/papers/2608.19758</link>
-      <description>By Qihang Fan, Huaibo Huang, Zhiying Wu, Bingning Wang, Ran He
+      <title>Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion</title>
+      <link>https://huggingface.co/papers/2608.19567</link>
+      <description>By Bowen Cui, Weijie Wang, Zeyu Zhang, Yefei He, Mingda Lin, et al.
 
-Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. Our previous work, FlashPrefill, mitigates this cost through instantaneous pattern discovery a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.19758</guid>
-      <pubDate>Thu, 20 Aug 2026 08:02:55 +0000</pubDate>
+While text-to-3D generation has advanced rapidly, achieving high geometric fidelity at low inference cost remains challenging. Existing text-to-3D methods either decode discrete shape tokens autoregressively or iteratively refine global 3D representations with diffusion or flow models. However, auto...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.19567</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts</title>
@@ -457,6 +439,24 @@ We present a novel approach to efficient LLM harness optimization through adapti
 
 Speech-based applications pass spoken queries through automatic speech recognition (ASR) before any retrieval module, so ASR errors enter the pipeline as a fixed upstream constraint. We empirically test whether two extensions to standard retrieval-augmented generation (RAG), entity-graph linking and...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.22872</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks</title>
+      <link>https://huggingface.co/papers/2608.23035</link>
+      <description>By Yi Zhu, Xiongwei Wu, Qiyi Wang, Tingyu Qu, Jiajun Liu, et al.
+
+As on-device LLM agents evolve into personal copilots, the mobile operating system has become a key testbed for this paradigm, making rigorous capability evaluation essential. Yet existing benchmarks fall into two camps, each with a critical blind spot: GUI-centric benchmarks test surface-level scre...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23035</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One Polluted Page Is Enough: Evaluating Web Content Pollution in LLM Recommenders</title>
+      <link>https://huggingface.co/papers/2606.13610</link>
+      <description>By Minghao Luo, Liang Chen
+
+Search-augmented LLMs increasingly mediate everyday consumer recommendations by retrieving live web content. This creates a new risk: LLM recommenders may consume web content that Generative Engine Optimization (GEO) operators have polluted to mislead them. We ask: to what extent do they become unwi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2606.13610</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

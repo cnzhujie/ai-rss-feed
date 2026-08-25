@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 03:05:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 04:45:49 +0000</lastBuildDate>
     <item>
       <title>Hadith computational science in the age of large language models: a critical narrative review</title>
       <link>https://huggingface.co/papers/2608.20364</link>
@@ -73,13 +73,13 @@ Should you replace your text-embedding pipeline with a large language model? We 
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models</title>
-      <link>https://huggingface.co/papers/2608.14022</link>
-      <description>By Xinye Li, Lingshuai Lin, Lei Wang, Liuzhou Zhang, Jialin Cui, et al.
+      <title>ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction</title>
+      <link>https://huggingface.co/papers/2608.13622</link>
+      <description>By Yongqi Tong, Tan Li Hui Faith, Choy Zhen Wen Marcus, Zhou Jin, Kewei Fu, et al.
 
-Action-conditioned video world models require low-latency causal generation and reliable responses to game-native controls. Although causal distillation enables one- or few-step video synthesis, extending it to interactive world models remains challenging, as discrete keyboard states and continuous ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.14022</guid>
-      <pubDate>Fri, 14 Aug 2026 07:13:34 +0000</pubDate>
+Open-ended real-world interaction admits multiple valid behaviors: an agent may answer directly, ask for clarification, provide progress updates, or confirm before acting. This flexibility breaks a core assumption behind group-based RL: rollouts compared within a group are no longer guaranteed to be...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.13622</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity</title>
@@ -115,6 +115,15 @@ Hybrid-thinking multimodal large language models (MLLMs) allow a single model to
 
 On-policy distillation (OPD) transfers teacher capabilities by supervising trajectories sampled from the student's own policy, yet its generalization behavior remains poorly understood, as most studies evaluate OPD on a single domain and on benchmarks close to the training data. We present a control...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.16647</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlocking the Potential of Image Editing via Concept Scaling and Dense Supervision</title>
+      <link>https://huggingface.co/papers/2608.16812</link>
+      <description>By Long Cui, Xiaoqian Liu, Qi Qin, Yi Xin, Tao Lin, et al.
+
+Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However, extending this paradigm to image editing highlights two inherent discrepancies, specifically, the insufficient attention to edit concept granularity and the training inefficiency ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.16812</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -197,51 +206,6 @@ Training-free block-sparse attention can accelerate video transformers, but row-
 On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student-generated trajectories with dense token-level supervision from a teacher. However, OPD implicitly assumes that teacher-derived rewards are an appropriate proxy for reasoning progre...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.19408</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WithEveryone: Unified Planning and Identity Grounding for Group Image Generation</title>
-      <link>https://huggingface.co/papers/2608.20336</link>
-      <description>By Hengyuan Xu, Qixun Wang, Yiji Cheng, Miles Yang, Zhao Zhong, et al.
-
-Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.20336</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use</title>
-      <link>https://huggingface.co/papers/2608.20202</link>
-      <description>By Mengru Wang, Haozhe Luo, Zhenqian Xu, Zhixiang Cui, Haoming Xu, et al.
-
-Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved memori...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.20202</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>4DAnyone: Create Anyone in 4D from a Casual Monocular Video</title>
-      <link>https://huggingface.co/papers/2608.20335</link>
-      <description>By Yudong Jin, Tao Xie, Qihang Zhang, Zehong Shen, Zhen Xu, et al.
-
-We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view vide...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.20335</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization</title>
-      <link>https://huggingface.co/papers/2608.20281</link>
-      <description>By Qian Kou, Xiaofeng Shi, Xiaosong Qiu, Hua Zhou
-
-Large language models often fail to answer questions about a bounded document collection when the source documents are not retrieved at inference time. We study this setting as document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free question ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.20281</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Repo0: Design-Driven Zero-to-All Code Generation</title>
-      <link>https://huggingface.co/papers/2608.19854</link>
-      <description>By Silin Chen, Haoyi Teng, Xiaodong Gu, Yuling Shi, Jiale Huang, et al.
-
-Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.19854</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?</title>
@@ -442,6 +406,15 @@ E-commerce live streaming requires omni-modal understanding of noisy, temporally
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?</title>
+      <link>https://huggingface.co/papers/2608.21833</link>
+      <description>By Kun Chen, Haorong Hong, Peizhong Gao, Jianfeng Lin, Tongxu Luo, et al.
+
+Recent large language models (LLMs) can operate as coding agents that build complete games from natural language requests. Game development is especially demanding because program logic, visual and audio content, interfaces, interaction and playability must function together in one executable artifa...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.21833</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Apodex 1.1: Scaling Agentic Intelligence for Complex Work</title>
       <link>https://huggingface.co/papers/2608.23283</link>
       <description>By Apodex Team, B. An, B. Li, B. Wang, B. Zhang, et al.
@@ -457,6 +430,33 @@ General-purpose language models can reason and synthesize knowledge, but complex
 
 A retrieval-augmented QA system can return different answers after an index expansion even when its requested model identifier, prompt, retrieval policy, evidence depth, rendering, and exposed generation controls are held fixed. Aggregate accuracy may hide these changes when gains and losses cancel,...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.22856</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prime Agent: A Self-Improving RLM Harness</title>
+      <link>https://huggingface.co/papers/2608.23552</link>
+      <description>By Seth Karten, Alex L. Zhang, Kevin Thomas, Sebastian Müller, Elie Bakouch, et al.
+
+Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Lang...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23552</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReWorld: An Interactive World Model with Long-Horizon Memory</title>
+      <link>https://huggingface.co/papers/2608.23565</link>
+      <description>By Zhifei Chen, Luozhou Wang, Guibao Shen, Dongyu Yan, Shuai Yang, et al.
+
+An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attent...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23565</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection</title>
+      <link>https://huggingface.co/papers/2608.20169</link>
+      <description>By Atsuyuki Miyai, Kiyoharu Aizawa, Toshihiko Yamasaki
+
+We present a novel approach to efficient LLM harness optimization through adaptive validation task selection. Harness optimization iteratively rewrites the harness code based on validation performance, enabling substantial performance gains without updating the underlying model weights. Existing app...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.20169</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

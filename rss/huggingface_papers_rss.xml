@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 14:50:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 16:22:38 +0000</lastBuildDate>
     <item>
       <title>ARC: Fair Relative Advantage Comparison in Open-Ended Real-World Interaction</title>
       <link>https://huggingface.co/papers/2608.13622</link>
@@ -62,24 +62,6 @@ Vision-language-action (VLA) models have become a dominant paradigm for generali
 Existing image editing frameworks predominantly follow the training paradigm of text-to-image diffusion models. However, extending this paradigm to image editing highlights two inherent discrepancies, specifically, the insufficient attention to edit concept granularity and the training inefficiency ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.16812</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration</title>
-      <link>https://huggingface.co/papers/2608.17336</link>
-      <description>By Hanzhi Zhang, Qiao Zhang, Qinglei Cao, Heng Fan, Yan Huang, et al.
-
-Long-context prefill in large language models (LLMs) incurs substantial computation and memory traffic because dense self-attention computes quadratic query-key scores. Existing methods either use a uniform low-precision path or select token interactions, leaving spatial precision routing over hardw...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.17336</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress</title>
-      <link>https://huggingface.co/papers/2608.19408</link>
-      <description>By Chen Yang, Haiyuan Wan, Rengrong Xiong, Yize Chen, Danny H. K. Tsang
-
-On-policy distillation (OPD) has emerged as an effective framework for post-training language models by pairing student-generated trajectories with dense token-level supervision from a teacher. However, OPD implicitly assumes that teacher-derived rewards are an appropriate proxy for reasoning progre...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.19408</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Block3D: Efficient Text-to-3D Generation via Block-Wise Diffusion</title>
@@ -136,6 +118,15 @@ Serving large language models cheaply increasingly means shipping models that ar
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2608.21500</link>
+      <description>By Yibo Peng, Long Lian, David Wagner, Sizhe Chen
+
+Prompt injection is listed as the \#1 threat to AI agents. When an agent accesses external data from websites, files, or emails, an attacker may inject a prompt into the data, saying, "Ignore all prior instructions and perform &lt;an attacker's task&gt;." To prevent arbitrary manipulation of agents, defen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.21500</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?</title>
       <link>https://huggingface.co/papers/2608.21833</link>
       <description>By Kun Chen, Haorong Hong, Peizhong Gao, Jianfeng Lin, Tongxu Luo, et al.
@@ -188,15 +179,6 @@ Interpretability research increasingly asks when concepts emerge during training
 Machine translation tests masked diffusion language models (dLLMs) because every source token must be rendered faithfully, while fixed canvas decoding must choose target length before denoising. Existing masked diffusion decoding work mainly studies token unmasking order, leaving this length decisio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.22274</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prime Agent: A Self-Improving RLM Harness</title>
-      <link>https://huggingface.co/papers/2608.23552</link>
-      <description>By Seth Karten, Alex L. Zhang, Kevin Thomas, Sebastian Müller, Elie Bakouch, et al.
-
-Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Lang...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.23552</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ReWorld: An Interactive World Model with Long-Horizon Memory</title>
@@ -341,6 +323,24 @@ LLM agents remain unreliable on long-horizon tasks, where small local failures c
 
 As large language models (LLMs) continue to advance in coding capabilities, their potential in cybersecurity has drawn increasing research attention, with closed-source LLMs (e.g., Mythos) delivering advanced cybersecurity capabilities. However, existing open-source efforts remain limited: frontier ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.23181</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automata from Agent Traces: Failure and Next-Step Prediction</title>
+      <link>https://huggingface.co/papers/2608.23670</link>
+      <description>By Seonglae Cho, Franklin Cardenoso Fernandez, Umar Mohammed, Zekun Wu, Kleyton Da Costa, et al.
+
+LLM-based agents execute multi-step tasks, but their behavioral structure remains opaque: long unstructured traces resist the safety auditing and runtime monitoring that deployment requires. Existing approaches operate per-trace or success-only, so they miss the cross-run topology that links next-st...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23670</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AgentRoom: Concurrent Multi-Agent Coding in a CRDT-Backed Shared Workspace</title>
+      <link>https://huggingface.co/papers/2608.23740</link>
+      <description>By Seonglae Cho, Donghyun Lee
+
+Concurrent multi-agent coding promises division of labor across modules, robustness through redundancy, and parallel exploration at the natural granularity of multi-file projects. Realtime collaborative editing protocols solve this coordination problem for human teams via Conflict-free Replicated Da...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23740</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

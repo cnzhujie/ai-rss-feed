@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 08:49:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 19:45:48 +0000</lastBuildDate>
     <item>
       <title>Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans</title>
       <link>https://huggingface.co/papers/2608.24909</link>
@@ -17,6 +17,15 @@
 Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech segments. However, interactive digital humans in real-world scenarios are required to generate speech-synchronous gestures online, using only currently ava...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.24909</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pushing the Limits of High-Resolution Weather Forecasting through Data Scaling</title>
+      <link>https://huggingface.co/papers/2608.14652</link>
+      <description>By Yang Zhao, Peisong Niu, Tian Zhou, Ziqing Ma, Guanlong Ma, et al.
+
+The development of 0.1^{circ} global weather forecasting models based on machine learning (ML) is constrained by the limited availability of high-resolution data, as decades of reanalysis are only available at 0.25^{circ} resolution. While existing approaches fine-tune 0.25^{circ} forecast models on...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.14652</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DREAM Technical Report</title>
@@ -82,6 +91,15 @@ Prompt injection is listed as the \#1 threat to AI agents. When an agent accesse
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A Modular Agent for Reliable and Auditable Spatial Relation Verification in CT Scans</title>
+      <link>https://huggingface.co/papers/2608.21140</link>
+      <description>By Simon Vincent Abel, Heiko Hillenhagen, Michael Götz, Timo Ropinski, Ayhan Can Erdur, et al.
+
+Reliable spatial understanding is an important prerequisite for future medical vision-language systems that aim to support radiological report generation and structured image understanding. While modern vision-language models (VLMs) show promising performance on many medical imaging tasks, recent ev...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.21140</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>FIRM-Video: Check Before You Score for Reliable Text-to-Video Reward Modeling</title>
       <link>https://huggingface.co/papers/2608.21839</link>
       <description>By Peiyuan Zhang, Xiangyu Zhao, Hongbo Liu, Xiaoxing Hu, Mingxin Liu, et al.
@@ -98,24 +116,6 @@ Reliable reward models are essential for text-to-video evaluation and alignment.
 Turn-taking is a basic organizational feature of human conversation and remains difficult to model in natural, synchronous dialog systems. While existing research has explored multimodal approaches and large language models for turn-ending prediction, there is a lack of naturalistic conversational c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.22071</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Length-Adaptive Decoding for Masked Diffusion Machine Translation</title>
-      <link>https://huggingface.co/papers/2608.22274</link>
-      <description>By Yan Zhan, Mengkai Hou, Wanting Zhang, Zhijun Gao
-
-Machine translation tests masked diffusion language models (dLLMs) because every source token must be rendered faithfully, while fixed canvas decoding must choose target length before denoising. Existing masked diffusion decoding work mainly studies token unmasking order, leaving this length decisio...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.22274</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces</title>
-      <link>https://huggingface.co/papers/2608.23041</link>
-      <description>By Sungho Park, Wonjoong Kim, Rongyuan Tan, Jue Zhang, Wook-Shin Han, et al.
-
-LLM agents remain unreliable on long-horizon tasks, where small local failures can compound over extended interactions and lead to overall task failure. Although external harnesses can substantially improve robustness, harness design remains a manual and expensive process that requires searching ove...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.23041</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CyberFactory: Scaling Cyber Security Capabilities with Instances from the Wild</title>
@@ -190,40 +190,13 @@ Recent work proposes next-chunk reasoning RL for leveraging no-CoT data---corpor
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses</title>
-      <link>https://huggingface.co/papers/2608.24876</link>
-      <description>By Zhaochen Yu, Yingcheng Wu, Zhenfei Yin, Kaiyuan Chen, Zhe Zhao, et al.
+      <title>SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?</title>
+      <link>https://huggingface.co/papers/2608.23564</link>
+      <description>By Deyao Hong, Yizhe Chi, Wenyi Li, Xiaoqiu Wang, Mingju Gao, et al.
 
-Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.24876</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On-Policy Self-Distillation in Diffusion Models</title>
-      <link>https://huggingface.co/papers/2608.24646</link>
-      <description>By Wei Zhou, Xiongwei Zhu, Lingdong Kong, Bo Chen, Lei Zhang, et al.
-
-Reinforcement learning can align diffusion models with human preferences and task-specific objectives, but endpoint rewards do not specify how an intermediate denoising prediction should change. We introduce DiffusionOPSD as an on-policy self-distillation framework that converts image-level reward g...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.24646</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On-policy Distillation with Verifiable Reward</title>
-      <link>https://huggingface.co/papers/2608.24696</link>
-      <description>By Wenze Lin, Jiale Zhao, Xitai Jiang, Songde Rao, Yining Li, et al.
-
-Reinforcement Learning with Verifiable Rewards (RLVR) and on-policy distillation (OPD) have become two widely adopted paradigms for post-training large language models. However, RLVR suffers from sparse task-level feedback, while OPD provides dense token-level guidance but ignores trajectory correct...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.24696</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Best Practice Critic Optimization</title>
-      <link>https://huggingface.co/papers/2608.23566</link>
-      <description>By Penghui Qi, Xiangxin Zhou, Wee Sun Lee
-
-Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could instead estimate token-level advantages from one response, but standard critic-based training recipes are often unstable. ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.23566</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents become increasingly capable at bug fixing, can they autonomously perform such migrations? Existing benchmarks cannot answer this question because they e...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.23564</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TorchMorph: CUDA-accelerated Morphological Transforms</title>
@@ -343,15 +316,6 @@ Massively parallel simulation changes the data regime in which off-policy reinfo
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation in Transformers</title>
-      <link>https://huggingface.co/papers/2608.15062</link>
-      <description>By Amr Hegazy, Amr Alanwar, Mostafa Elhoushi
-
-Scaling transformer language models creates an inherent tension between expressivity and memory efficiency. While unique weights across layers preserve functional specialization---from input-grounding to abstract refinement---they incur a substantial memory footprint. Conversely, standard depth-shar...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.15062</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Rubrics as Visual-Repair Context for Self-Evolving UI-to-Code Generation</title>
       <link>https://huggingface.co/papers/2608.24138</link>
       <description>By Tianyi Xiong, Zhengyuan Yang, Xiaofei Wang, Chung-Ching Lin, Ruichun Ma, et al.
@@ -367,6 +331,15 @@ Large vision-language models have shown strong progress in UI-to-code generation
 
 Coding agents perform long-running tasks spanning dozens of model calls, tool uses, and code edits. As these runs unfold, users face a practical cost-quality trade-off: escalating to a stronger model when a cheaper one struggles, or downshifting once the hard reasoning is complete. Each switch requi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.24358</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LibriBrain100: One Hundred Hours of Broad and Deep MEG Data for Neural Speech Decoding at Scale</title>
+      <link>https://huggingface.co/papers/2608.25204</link>
+      <description>By Francesco Mantegna, Dulhan Jayalath, Gereon Elvers, Tasha Kim, Benjamin Ballyk, et al.
+
+We introduce LibriBrain100, a large-scale MEG dataset for speech decoding designed from the ground up for reproducible, standardised evaluation. LibriBrain100 more than doubles the size of the original LibriBrain release, resulting in over 100 hours of high-quality MEG acquired while subjects listen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.25204</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -433,6 +406,15 @@ Multi-arm collaboration is becoming a core capability in embodied manipulation. 
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation</title>
+      <link>https://huggingface.co/papers/2608.15062</link>
+      <description>By Amr Hegazy, Amr Alanwar, Mostafa Elhoushi
+
+Scaling transformer language models creates an inherent tension between expressivity and memory efficiency. While unique weights across layers preserve functional specialization---from input-grounding to abstract refinement---they incur a substantial memory footprint. Conversely, standard depth-shar...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.15062</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction</title>
       <link>https://huggingface.co/papers/2608.26005</link>
       <description>By Zhifei Xie, Jiaqi Lang, Ze An, Yifan Zhao, Dongchao Yang, et al.
@@ -457,6 +439,24 @@ Multimodal Large Language Models (MLLMs) have shown strong performance in video 
 
 Document retrieval increasingly supports high-stakes information access in finance, healthcare, and law. Modern retrieval pipelines vary both in modality (text or multimodal) and in retrieval architecture (dense or late-interaction). These choices impose a hard compromise: the most effective pipelin...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.25625</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prefix Sliding for efficient test-time scaling</title>
+      <link>https://huggingface.co/papers/2608.26070</link>
+      <description>By Niklas Muennighoff, Zhengyang Wang, Zeyi Chen, Weijia Shi, Binyuan Hui, et al.
+
+Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As models keep the entire reasoning trace in memory via full attention, hard tasks that need long thinking can be prohibitively expensive. However, we find mos...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.26070</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Skill Issue: Are Skills Language-Invariant in LLMs?</title>
+      <link>https://huggingface.co/papers/2608.25832</link>
+      <description>By Bobby Cheng, Adam Gaber, Zhengyuan Liu, Catherine Arnett, Omer Goldman, et al.
+
+Large language models access knowledge inconsistently across languages, but to what extent do they differ in their skill sets when interacting with different languages? This work quantifies cross-lingual skill inconsistency orthogonally from knowledge and general benchmark performance. We do this vi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.25832</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

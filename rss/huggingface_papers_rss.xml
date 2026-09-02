@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 14:15:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 18:31:13 +0000</lastBuildDate>
     <item>
       <title>SHAPE of Chain-of-Thought in Math Reasoning</title>
       <link>https://huggingface.co/papers/2608.28600</link>
@@ -172,33 +172,6 @@ Multimodal misinformation on social media is highly prevalent, potent, and harmf
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling</title>
-      <link>https://huggingface.co/papers/2608.30821</link>
-      <description>By Minghan Qin, Yuang Wang, Xiuyu Yang, Yushi Long, Yujian Zhang, et al.
-
-Composable scene modeling aims to recover a real indoor scene as complete, editable object assets arranged as observed, giving robot simulation and embodied AI a simulation-ready replica of the real environment whose objects can be manipulated individually. Existing pipelines decompose the task into...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.30821</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability</title>
-      <link>https://huggingface.co/papers/2608.30320</link>
-      <description>By Zihan Qiu, Zekun Wang, Xiao Li, Yanpeng Li, Yang Xu, et al.
-
-We describe the architecture and ablations of Qwen3.8-Flash-Next, a sparse mixture-of-experts model with 125B parameters, 6B activated per token, and additional 51B parameters of n-gram embedding tables held off the accelerator. On fourteen pre-training benchmarks the model leads the 397B-A17B prede...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.30320</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PaperBanana-Interact: Scientific Diagram Refinement with Multi-Turn Human Feedback</title>
-      <link>https://huggingface.co/papers/2608.30241</link>
-      <description>By Xueqing Wu, Ashwin Balasubramanian, Bingxuan Li, Dawei Zhu, Kai-Wei Chang, et al.
-
-Recent efforts have aimed to automate scientific diagram generation from paper content (Lin et al., 2026; Zhu et al., 2026a). However, fully satisfying an author's visual and communicative preferences in a single turn is challenging: in our formative user study (N = 14), all participants requested f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.30241</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Normalized Low-Rank Adaptation</title>
       <link>https://huggingface.co/papers/2608.31036</link>
       <description>By Jiale Kang, Ziyin Yue, Zheng Zhan, Yangyi Huang, Weiyang Liu
@@ -352,6 +325,24 @@ Multimodal geometry reasoning requires VLMs to extract precise visual relations 
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Adapting Without Gradients: Affine Statistics Transport and What Its Certificate Can Tell You</title>
+      <link>https://huggingface.co/papers/2609.00374</link>
+      <description>By Salim Khazem, Ibrahim Mohamed Serouis
+
+Test-time adaptation (TTA) typically assumes that model parameters can be updated at inference time. This assumption is restrictive for inference-only accelerators, frozen or third-party models, and memory-constrained deployments, and standard BatchNorm-based TTA configurations may also become inact...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.00374</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data</title>
+      <link>https://huggingface.co/papers/2608.31082</link>
+      <description>By Milad Rezaei Hajidehi, Qitong Wang, Stratos Idreos
+
+Valuable data remains embedded in unstructured sources: web pages, reports, contracts, filings, earnings calls, and PDFs. The big bet in enterprise AI is deploying LLM agents that reason over this data to answer complex questions for every knowledge worker. Agents can do this today, but at prohibiti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.31082</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The Safeguard Worked. Is the LLM System Safer?</title>
       <link>https://huggingface.co/papers/2609.00519</link>
       <description>By Pingyu Wu, Weiming Zhang, Nenghai Yu
@@ -457,6 +448,15 @@ Self-play is an effective paradigm for language-model self-evolution, but withou
 
 Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate traffic from over 200 internal applications onto a single model by closing quali...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.01572</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DramaChain Bench: An End-to-End Benchmark for Short-Drama Generation</title>
+      <link>https://huggingface.co/papers/2609.00646</link>
+      <description>By Haoyuan Shi, Mingtao Chen, Shuo Jiang, Ziyan Chen, Xuyi Sheng, et al.
+
+Commercial short-drama production follows a multi-stage chain: script, storyboard, keyframe imagery, shot-level video, and the finished short drama. Most existing benchmarks evaluate solely the video-generation stage using pre-authored inputs instead of real upstream pipeline outputs. This leaves tw...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.00646</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 21:41:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 23:58:30 +0000</lastBuildDate>
     <item>
       <title>SHAPE of Chain-of-Thought in Math Reasoning</title>
       <link>https://huggingface.co/papers/2608.28600</link>
@@ -80,15 +80,6 @@ LLM judges are widely used to evaluate agentic tool-calling systems, yet their r
 While Large language models (LLMs) incorporate user personalization signals to improve usability and helpfulness, they increasingly shift from providing balanced, informative responses toward optimizing for user satisfaction when conditioned on personal context such as conversation history, inferred...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.28833</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dynamic Important Example Mining for Reinforcement Finetuning</title>
-      <link>https://huggingface.co/papers/2608.29252</link>
-      <description>By Haoru Tan, Sitong Wu, Yanfeng Chen, Shizhen Zhao, Yang-Tian Sun, et al.
-
-Reinforcement fine-tuning (RFT) is increasingly used to strengthen the reasoning abilities of large models, yet its effectiveness is bound by how training data are selected and used. Most data-centric RFT methods rely on static or heuristic sample selection, implicitly assuming a sample's value is f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.29252</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SafeAtlas-VL: Beyond Binary Multimodal Safety with Large-Scale Data and Guard Models</title>
@@ -170,15 +161,6 @@ Detecting hallucinations in Large Vision-Language Models (LVLMs) requires both a
 Multimodal misinformation on social media is highly prevalent, potent, and harmful, yet difficult to detect and counter, and still poorly understood compared to its text-only counterpart. Research on the properties and deceptive strategies of multimodal misinformation is hindered by a lack of taxono...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.29681</guid>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Normalized Low-Rank Adaptation</title>
-      <link>https://huggingface.co/papers/2608.31036</link>
-      <description>By Jiale Kang, Ziyin Yue, Zheng Zhan, Yangyi Huang, Weiyang Liu
-
-While low-rank adaptation (LoRA) is widely used for parameter-efficient model adaptation, how to regularize its training dynamics for stable and effective optimization remains underexplored. Because LoRA initializes the up-projection to zero, its early optimization dynamics are largely governed by t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.31036</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Verification-Aware Training for Speculative Decoding</title>
@@ -457,6 +439,24 @@ Data-residency constraints force enterprises to self-host LLMs, but continuous a
 
 Commercial short-drama production follows a multi-stage chain: script, storyboard, keyframe imagery, shot-level video, and the finished short drama. Most existing benchmarks evaluate solely the video-generation stage using pre-authored inputs instead of real upstream pipeline outputs. This leaves tw...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.00646</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall</title>
+      <link>https://huggingface.co/papers/2609.01532</link>
+      <description>By Jacqueline He, Howard Yen, Shuyue Stella Li, Margaret Li, Hanqing Zeng, et al.
+
+Logit-based knowledge distillation (KD) is used to train smaller language models (LMs) via supervision from stronger teachers, but whether its benefits are consistent across training stages remains unclear. Through controlled experiments, we find that forward Kullback-Leibler (KL) distillation--the ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.01532</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does Imitation Learning Preserve Temporal Robustness in Dexterous Manipulation? An Expert-Learner Comparison Across Task Execution Speeds</title>
+      <link>https://huggingface.co/papers/2609.01453</link>
+      <description>By Clinton Enwerem, John S. Baras, Calin Belta
+
+Dexterous manipulation policies learned by imitation are typically evaluated for robustness to variation in scenes, objects, or instructions, but their performance across task execution speeds is less often examined. This leaves open how much temporal robustness a learner retains relative to the exp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.01453</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

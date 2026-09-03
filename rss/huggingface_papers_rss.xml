@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 09:34:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 14:19:30 +0000</lastBuildDate>
     <item>
       <title>Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers</title>
       <link>https://huggingface.co/papers/2608.18972</link>
@@ -64,22 +64,22 @@ Mobile AI acts as a visual oracle, empowering users to snap a picture of somethi
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering</title>
-      <link>https://huggingface.co/papers/2608.30468</link>
-      <description>By Jueun Kim, Sungho Park, Wook-Shin Han
+      <title>Wasserstein-Barycentric Interaction Fields for Spatial Factor Models: Evidence from Language-Model Representations</title>
+      <link>https://huggingface.co/papers/2608.29669</link>
+      <description>By Marcus Gawronsky, Chun-Sung Huang
 
-A central bottleneck in multi-hop Question Answering (QA) is that the granularity at which a question is expressed often differs from the granularity at which corpus evidence is retrievable. Existing methods address this mismatch by imposing fixed graph structures over the corpus, by iteratively ref...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.30468</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+Spatial return models take the interaction matrix as given and leave feedback uninterpreted. We construct a bandwidth-free field from firms' language-model article embedding distributions using target-anchored Wasserstein barycentric reconstruction. A quadratic exposure-adjustment problem maps feedb...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.29669</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation</title>
-      <link>https://huggingface.co/papers/2608.30730</link>
-      <description>By Wei Fan, Xinjie Shen, Xudong Guo, Jianhong Tu, Yang Su, et al.
+      <title>Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations</title>
+      <link>https://huggingface.co/papers/2608.29692</link>
+      <description>By Marcus Gawronsky, Chun-Sung Huang
 
-Long-horizon agentic tasks go beyond chaining short tasks over more interaction turns. Their evolving dynamic environments and long-range dependencies require Large Language Models (LLMs) to continually explore, learn from experience, and adapt their policies over thousands of steps. We introduce E-...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.30730</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficult to obtain in short, high-dimensional panels. We show that firm-level distribution-valued characteristics can instead provide one-sided certificates of portfolio risk. Under mainta...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.29692</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training</title>
@@ -190,49 +190,31 @@ Many important forms of human learning begin with a vague goal, such as "become 
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Uncovering Understanding-Generation Synergy in Native Unified Multimodal Models: From Representation, Task to System</title>
-      <link>https://huggingface.co/papers/2609.01607</link>
-      <description>By Penghao Wu, Haiwen Diao, Weichen Fan, Lewei Lu, Dahua Lin, et al.
+      <title>Ignorance or Incompetence? Constructing Knowledge-Gated, Verifiable Tasks for LLM Agents</title>
+      <link>https://huggingface.co/papers/2608.30322</link>
+      <description>By Hanlin Tian, Minhao Li, Yu Mi, Sihan Zhu, Zhao Yang, et al.
 
-While unified multimodal models (UMMs) jointly perform visual understanding and generation within a single model, functional unification does not guarantee learning synergy: the two objectives may reinforce each other, compete for capacity, or merely coexist. We investigate their relationship at the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01607</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+Professional agent tasks often depend on conventions that are absent from public corpora, yet benchmarks rarely control whether an agent has access to those conventions. We introduce a knowledge-gated task-construction protocol that separates a task instruction from a compact artefact containing pri...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.30322</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Control-Data Flow Separation: Stable Prompt Optimization in Multi-Agent LLMs</title>
-      <link>https://huggingface.co/papers/2609.00621</link>
-      <description>By Wentao Zhang, Syed Shariyar Murtaza, Junaid Ahmad Bhatti, Utkarsh Soni, Yifan Nie, et al.
+      <title>FoldingAgent: Inferring Parametric Origami Procedures from Demonstration Videos</title>
+      <link>https://huggingface.co/papers/2609.00377</link>
+      <description>By Maya Moriya, Sigal Raab, Yael Vinker, Tali Dekel
 
-Prompt optimization can improve multi-agent LLM systems, but the prompts being optimized often serve two entangled roles: generating task-relevant content and specifying execution-critical protocols, such as message routing, output formatting, and termination signals, on which the underlying code re...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.00621</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+We present FoldingAgent, an agentic framework for inferring explicit parametric folding programs directly from origami demonstration videos. Our framework leverages the reasoning power of a pre-trained Vision-Language Model (VLM) equipped with a suite of specialized tools that enable the agent to si...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.00377</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching</title>
-      <link>https://huggingface.co/papers/2609.01404</link>
-      <description>By Jaewoo Park, Minyoung Lee, Sukmin Seo, Moonbin Yim, Hyunwook Yoon, et al.
+      <title>NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference</title>
+      <link>https://huggingface.co/papers/2609.01657</link>
+      <description>By Aurélien Lac, Tony Wu
 
-Multimodal Large Language Models (MLLMs) are strong perceivers of images and video. We ask how far that reach extends into acting: dropping an MLLM directly into a drone's control loop, with its entire action space declared solely in the prompt. Recent systems approach this setting but increasingly ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01404</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StudentSim: Training LLM-based Student Simulators</title>
-      <link>https://huggingface.co/papers/2609.01591</link>
-      <description>By Ke Yang, Chenglong Wang, Michel Galley, Chandan Singh, Jeevana Priya Inala, et al.
-
-AI tutors are most useful when they adapt to each student's strengths, weaknesses, and preferred guidance, but evidence about which guidance works for which student is sparse, slow, and costly to collect from real learners. Student simulators can provide this signal as a proxy, yet existing approach...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01591</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>H3-World: Turning Language Understanding into World Control</title>
-      <link>https://huggingface.co/papers/2609.01560</link>
-      <description>By Danze Chen, Zeqing Wang, Ziyue Lin, Xingyi Yang, Yeying Jin
-
-We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model. Our key finding is that, as large video generators become more capable, language is emerging as a natural interface for control. MiniMax-H3, for example, already supports zero-s...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01560</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models. Visual document retrievers such as ColPali repurpose these models as encoders, carrying over the parameter and compu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.01657</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement</title>
@@ -457,6 +439,24 @@ Autonomous agents are beginning to carry out machine-learning (ML) research end 
 
 Traditional speaker-attributed ASR systems treated ASR and speaker diarization as two separate tasks. Recently, end-to-end models such as VibeVoice-ASR have unified the two tasks within a single model. However, existing unified models still mainly support offline recognition, making it difficult to ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.02812</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploring Collaboration between a language and a non-language agent</title>
+      <link>https://huggingface.co/papers/2609.00474</link>
+      <description>By Harini S I, Somesh Singh, Yaman K Singla, Rajiv Ratn Shah, David Doermann, et al.
+
+LLMs are increasingly deployed as orchestrators that coordinate specialized subagents to solve complex tasks through natural language. However, in many important domains like game playing and robotics, the strongest available agents are not language models. Integrating non-language agents with LLMs ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.00474</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Debias-SparseGPT: Bias-Aware Pruning for Large Language Models</title>
+      <link>https://huggingface.co/papers/2609.02496</link>
+      <description>By Irina Proskurina, Guillaume Metzler, Antoine Gourru, Julien Velcin
+
+Model compression techniques such as pruning and quantization facilitate the efficient deployment and acceleration of Large Language Models (LLMs). However, recent studies show that weight sparsification methods, such as SparseGPT, can amplify existing biases in models, with outputs varying signific...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.02496</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

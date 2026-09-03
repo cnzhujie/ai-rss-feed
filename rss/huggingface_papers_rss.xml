@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 18:27:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 21:36:57 +0000</lastBuildDate>
     <item>
       <title>Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers</title>
       <link>https://huggingface.co/papers/2608.18972</link>
@@ -82,22 +82,13 @@ Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training</title>
-      <link>https://huggingface.co/papers/2609.00188</link>
-      <description>By Xionghao Wu, Yijun Yang, Shiyang Zhou, Haoze Sun, Jianhui Liu, et al.
+      <title>Small Language Models as Judges for Rubric-Based Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2608.30005</link>
+      <description>By Fengyu Xie, Yilun Zhao, Bingsen Chen, Arman Cohan, Chen Zhao
 
-Robotic manipulation faces a fundamental scaling challenge: robust generalization demands broad physical experience, yet action-labeled robot trajectories are expensive to collect and inherently limited in diversity. Egocentric videos offer a far more scalable source of embodied experience, capturin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.00188</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen-Drive-1.0: An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving</title>
-      <link>https://huggingface.co/papers/2609.00111</link>
-      <description>By Xin Zhou, Zongchuang Zhao, Zhibo Yang, Mingsheng Li, Humen Zhong, et al.
-
-We present Qwen-Drive-1.0, an initial step towards a vision-language foundation model for autonomous driving. Qwen-Drive-1.0 retains the architecture of the pretrained vision-language model (VLM) and integrates 3D perception, visual question answering, and motion planning within a unified framework....</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.00111</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+Rubric-based reinforcement learning extends RL beyond tasks with exact answers or rule-based verifiers by scoring responses against instance-specific criteria. However, this makes reward computation expensive: training requires repeated rubric judging, often with proprietary APIs or local generative...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.30005</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Safin-1: Safety from Within through Memory-Native State Evolution</title>
@@ -154,15 +145,6 @@ Valuable data remains embedded in unstructured sources: web pages, reports, cont
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests</title>
-      <link>https://huggingface.co/papers/2608.27831</link>
-      <description>By Gyuhyeong Kim, Hyojung Gwon, Jeonghyeon Kim, Kyuhong Shim, Sunjae Lee
-
-Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitHub issues: long, structured, and information-rich. Real user requests, however, are typically far shorter and less structured. To characterize this gap, we define a six-category inf...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.27831</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>MULTI3IR: A Benchmark for Multi-perspective Multi-domain Multi-modal Information Retrieval</title>
       <link>https://huggingface.co/papers/2608.30949</link>
       <description>By Seokwon Song, Sohyeon Kim, Gunhee Kim
@@ -214,6 +196,15 @@ We present FoldingAgent, an agentic framework for inferring explicit parametric 
 
 Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models. Visual document retrievers such as ColPali repurpose these models as encoders, carrying over the parameter and compu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.01657</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WHALE: A Simple Recipe for Joint Harness-Weight Optimization</title>
+      <link>https://huggingface.co/papers/2609.00196</link>
+      <description>By Haechan Kim, Yoonho Lee, Gisang Lee, Chelsea Finn, Kangwook Lee
+
+Agent performance depends jointly on the model parameters and the executable harness code that manages context and control flow. Optimizing either component in isolation can leave the system bottlenecked by its frozen counterpart: weight updates can change which harness is effective, while harness u...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.00196</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -367,6 +358,15 @@ Compact token sequences are essential for efficient 3D generation. However, exis
 
 Large language models (LLMs) trained only on text and code can sometimes generate programs that draw recognizable images. However, it is unclear whether this reflects an internal representation of 2D spatial layout or simply the ability to translate spatial descriptions into code. We introduce Autor...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.30751</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sparse Readout Prism: Explaining Logit-Lens Scores in Features Instead of Tokens</title>
+      <link>https://huggingface.co/papers/2609.01936</link>
+      <description>By Matteo He, William F. Shen, Xinchi Qiu, Nicholas D. Lane
+
+A language model's prediction of its next token develops across layers, and lens methods track this process by decoding intermediate hidden states into tokens. But a lens reading reflects both the hidden state and the readout (the unembedding matrix) used to decode it. Many lenses are fit on a corpu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.01936</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

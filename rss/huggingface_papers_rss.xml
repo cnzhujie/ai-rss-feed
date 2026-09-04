@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 09:26:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 14:08:31 +0000</lastBuildDate>
     <item>
       <title>Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers</title>
       <link>https://huggingface.co/papers/2608.18972</link>
@@ -44,6 +44,15 @@ Large language models offer broad capabilities, but adapting them to evolving do
 Conversational Recommender Systems (CRS) typically require domain-specific dialogue data, which is costly, scarce, and often unavailable in new domains. We conduct a systematic empirical study of zero-data CRS bootstrapping: generating synthetic conversational supervision from non-conversational sig...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2504.15476</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QCell: Recombining and Aligning Cell Queries for Overlapping Instance Segmentation</title>
+      <link>https://huggingface.co/papers/2608.29253</link>
+      <description>By Yaroslav Prytula, Anton Popov, Dmytro Fishman
+
+Instance segmentation of overlapping cells in microscopy remains challenging due to semi-transparent structures that produce weak boundaries and mixed visual evidence in overlap regions. Existing methods address this through local regions of interest or shape priors but lack global reasoning across ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.29253</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SnapBench: Benchmarking Snap-and-Ask Multimodal Retrieval for Mobile Interactions</title>
@@ -154,15 +163,6 @@ Understanding agent behavior requires methods that scale to thousands of traject
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>On the Design Fundamentals of Pixel Text Representation Learning</title>
-      <link>https://huggingface.co/papers/2609.01147</link>
-      <description>By Chaohao Yuan, Ruifeng Yuan, Zhuoxu Huang, Yu Rong, Hong Cheng, et al.
-
-Text-rich visual inputs require models that can read, retrieve, and compress language directly in pixel space, yet existing pixel-text encoders struggle with fixed resolution pretraining, visual shortcut learning, weak visual grounding, and multilingual visual text understanding. In this work, we in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01147</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?</title>
       <link>https://huggingface.co/papers/2609.01437</link>
       <description>By Yuhao Wu, Jingyuan Zhang, Jiajun Shi, Xinping Lei, Qingshui Gu, et al.
@@ -233,15 +233,6 @@ Modern Text-to-SQL systems often follow generate-execute-select pipelines, gener
 Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its consumer is a language model. We introduce LatentPress, which writes conversational histories and long documents into a third representation: continuous memory tokens that a frozen ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.01507</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Language Models Can Control Their Own Attention</title>
-      <link>https://huggingface.co/papers/2609.02737</link>
-      <description>By Namgyu Ho, Huzama Ahmad, Woosung Koh, Se-Young Yun, Tal Schuster, et al.
-
-Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find the few tokens that matter. If the user asks about a previous detail in a 1M-token conversation, global attention layers must scan the full context to generate each token of the re...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02737</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction</title>
@@ -457,6 +448,15 @@ Many recurring text functions are easy to describe but difficult to implement wi
 
 Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.04201</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs</title>
+      <link>https://huggingface.co/papers/2609.03820</link>
+      <description>By Prakhar Khatri
+
+Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system keeps only a small fixed slice of that pool. Which frames survive that slice is usually treated as a preprocessing detail; we test whether it should be. Published selectors make the c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03820</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

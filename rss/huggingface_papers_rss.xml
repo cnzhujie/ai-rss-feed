@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 04:07:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 09:26:46 +0000</lastBuildDate>
     <item>
       <title>Institutional Newspapers Pipeline: Deriving billions of high quality tokens from historical newspapers</title>
       <link>https://huggingface.co/papers/2608.18972</link>
@@ -28,6 +28,15 @@ Knowledge-Based Visual Question Answering (KB-VQA) relies on retrieving external
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training</title>
+      <link>https://huggingface.co/papers/2608.26730</link>
+      <description>By Tingyun Li, Wenfeng Feng, Weiqing Li, Abudukelimu Wuerkaixi, Guohua Liu, et al.
+
+Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often entails repeated post-training. Autonomous systems automate parts of this process by proposing updates, training candidates, and using evaluation feedback to select subsequent proposa...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.26730</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>An Empirical Study on Zero-Data Bootstrapping for Conversational Recommender Systems</title>
       <link>https://huggingface.co/papers/2504.15476</link>
       <description>By Rohan Surana, Junda Wu, Zhouhang Xie, Yu Xia, Nathan Kallus, et al.
@@ -35,15 +44,6 @@ Knowledge-Based Visual Question Answering (KB-VQA) relies on retrieving external
 Conversational Recommender Systems (CRS) typically require domain-specific dialogue data, which is costly, scarce, and often unavailable in new domains. We conduct a systematic empirical study of zero-data CRS bootstrapping: generating synthetic conversational supervision from non-conversational sig...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2504.15476</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Influence-Directed Distillation: Solving the Diversity Bottleneck in Sampled-Token On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2608.29846</link>
-      <description>By Run Yang, Runpeng Dai, Jie Sun, Jielei Zhang, Fan Zhou, et al.
-
-Sampled-token on-policy distillation (OPD) efficiently transfers capabilities from teacher to student using student-generated tokens, requiring teacher probabilities only for sampled tokens. Yet it frequently suffers from diversity distillation failure: the student's pass@1 improves while its pass@k...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.29846</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SnapBench: Benchmarking Snap-and-Ask Multimodal Retrieval for Mobile Interactions</title>
@@ -80,15 +80,6 @@ Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset
 Rubric-based reinforcement learning extends RL beyond tasks with exact answers or rule-based verifiers by scoring responses against instance-specific criteria. However, this makes reward computation expensive: training requires repeated rubric judging, often with proprietary APIs or local generative...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.30005</guid>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MULTI3IR: A Benchmark for Multi-perspective Multi-domain Multi-modal Information Retrieval</title>
-      <link>https://huggingface.co/papers/2608.30949</link>
-      <description>By Seokwon Song, Sohyeon Kim, Gunhee Kim
-
-Information retrieval (IR) increasingly targets open-ended queries that admit diverse perspectives. Existing IR benchmarks, however, focus primarily on closed-ended queries, while even open-ended benchmarks largely consist of queries whose supporting documents span a single subject domain and modali...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.30949</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?</title>
@@ -154,22 +145,13 @@ Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, 
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval</title>
-      <link>https://huggingface.co/papers/2609.01865</link>
-      <description>By Aaryan Kapoor, Md Abdullah Al Hafiz Khan
+      <title>Using Grounded Theory for Agent Behavior Analysis at Scale</title>
+      <link>https://huggingface.co/papers/2608.30391</link>
+      <description>By Zhuoran Lu, Yangyang Yu, Zhuoyan Li, Yibo Meng, Nan Jiang, et al.
 
-Embedding-based code retrieval is a core component of coding agents and retrieval-augmented code generation, where retrieving correct code matters more than retrieving lexically similar code. Existing code-retrieval benchmarks do not plant controlled, execution-verified single-edit variants of each ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01865</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kirin: Animal Motion Generation from In-the-Wild Video</title>
-      <link>https://huggingface.co/papers/2609.01823</link>
-      <description>By Brian Nlong Zhao, Zhuoyang Pan, James M. Rehg, Jiajun Wu, Shangzhe Wu
-
-Understanding animal motion is fundamental to modeling animal behavior and biomechanics, yet progress in this area lags far behind human motion research due to the scarcity of high-quality motion data. While human motion can be captured in controlled environments, it is impractical for most animal s...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01823</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long, often unfamiliar tasks where pre-built classifiers fall short. We propose to bring grounded theory into agent trajectory analysis: a six-decade-old qualitative method from the soci...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.30391</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>On the Design Fundamentals of Pixel Text Representation Learning</title>
@@ -253,42 +235,6 @@ Compressed context is usually carried as human-readable text or as rendered imag
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models</title>
-      <link>https://huggingface.co/papers/2609.02886</link>
-      <description>By Junchao Huang, Guian Fang, Shengju Qian, Xianghao Kong, Zhuoran Zhao, et al.
-
-We introduce SolarWM, a fully open foundation for building interactive video world models from data preparation through long-horizon inference. Training across heterogeneous data sources and video backbones is challenging: datasets differ in temporal scale, camera geometry, visual quality, motion, a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02886</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PaperCompiler: Faithful Paper-to-Code Generation via Repository-Level Specification Compilation</title>
-      <link>https://huggingface.co/papers/2609.02272</link>
-      <description>By Yunhao Liu, Hong Phuc Pham, Jaehong Yoon
-
-Faithfully translating research papers into repository-level implementations remains challenging because papers often describe methods at a high level, leave implementation assumptions implicit, and require generated repositories to preserve method logic, evaluation protocols, and cross-file consist...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02272</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cliff: Learning Process Rewards from the First Mistake</title>
-      <link>https://huggingface.co/papers/2609.02817</link>
-      <description>By Peixuan Han, Runhui Wang, Ketan Ramaneti, Jie Hao, Gerald Friedland, et al.
-
-Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM) post-training, but its reliance on coarse outcome rewards leads to limited guidance on intermediate reasoning processes. Existing approaches such as process reward modeling and on-...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02817</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Post-Training Language Models for Gold-Medal Performance in Coding Competitions</title>
-      <link>https://huggingface.co/papers/2609.02849</link>
-      <description>By Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi, Somshubra Majumdar, Boris Ginsburg
-
-Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-end specialization pipeline combining large-scale problem curation, synthetic reasoning traces, super...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02849</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Language Models Can Control Their Own Attention</title>
       <link>https://huggingface.co/papers/2609.02737</link>
       <description>By Namgyu Ho, Huzama Ahmad, Woosung Koh, Se-Young Yun, Tal Schuster, et al.
@@ -349,6 +295,24 @@ Model compression techniques such as pruning and quantization facilitate the eff
 
 Joint audio-video generation models have made substantial progress in visual quality and audio-visual synchronization. However, they still provide limited control over when shot transitions occur and dialogue is spoken. This limitation constrains their application in script-driven content creation, ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.02367</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance</title>
+      <link>https://huggingface.co/papers/2609.02373</link>
+      <description>By Sai Niranjan Ramachandran, Suvrit Sra
+
+We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invariant sets that correspond to simpler subnetworks. How this steering unfolds over time remains poorly understood. We answer this by modeling the stochastic gradient flow (SGF) as a per...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.02373</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration</title>
+      <link>https://huggingface.co/papers/2609.01072</link>
+      <description>By Daehwan Kim, Haejun Chung, Ikbeom Jang
+
+Post-hoc calibration corrects reported confidence, yet a multiclass calibrator can also change the associated top-1 prediction. Accuracy captures only the net effect of these changes on correctness, not how often predictions change; the Top-1 Prediction Change Rate (TPCR) instead measures this frequ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.01072</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +421,42 @@ We present FlashRender, a few-step generative rendering framework that retakes a
 
 Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and respond to user queries under strict causality and bounded memory. Existing approaches typically compress historical observations into an external memory bank and retrieve query-re...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.04131</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States</title>
+      <link>https://huggingface.co/papers/2609.04196</link>
+      <description>By Kang Liao, Yihang Luo, Xiao-Ming Wu, Linyi Jin, Size Wu, et al.
+
+We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, and 3D world generation and reconstruction without relying on external offline modules. To reliably construct and interact with 3D worlds, our framework jointly models three native ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04196</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PACE: Towards Surfacing Hidden Conflicts in User Requests</title>
+      <link>https://huggingface.co/papers/2609.03293</link>
+      <description>By Yoojin Kim, Jihyoung Jang, Hyounghun Kim
+
+Personalized assistants should not only comply with user requests but also assess whether those requests are appropriate given the user's current circumstances. However, prior work has primarily focused on accurately executing requests, overlooking the need for assistants to account for context and ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03293</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compile by Training: Turning Natural-Language Specifications into Local Neural Functions</title>
+      <link>https://huggingface.co/papers/2609.04199</link>
+      <description>By Yuntian Deng, Pengyu Nie, Stuart Shieber
+
+Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specification into a reusable n...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04199</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction</title>
+      <link>https://huggingface.co/papers/2609.04201</link>
+      <description>By Chin-Yang Lin, Yang-Che Sun, Cheng Sun, Fu-En Yang, Min-Hung Chen, et al.
+
+Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04201</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

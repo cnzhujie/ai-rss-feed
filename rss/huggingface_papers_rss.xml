@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Sep 2026 04:10:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 10:05:00 +0000</lastBuildDate>
+    <item>
+      <title>Training-Free Speech-Centric Omni Understanding with Frozen VLMs</title>
+      <link>https://huggingface.co/papers/2609.04242</link>
+      <description>By Ankan Deria, Hanoona Rasheed, Xilin He, Fahad Shahbaz Khan, Salman Khan
+
+Audio-visual understanding remains challenging because models must jointly interpret spoken content, visual events, and their temporal relationships. Existing omni models typically introduce dedicated audio encoders and rely on expensive audio-video-text training, tightly coupling omni capability to...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04242</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training</title>
       <link>https://huggingface.co/papers/2608.26730</link>
@@ -17,15 +26,6 @@
 Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often entails repeated post-training. Autonomous systems automate parts of this process by proposing updates, training candidates, and using evaluation feedback to select subsequent proposa...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.26730</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An Empirical Study on Zero-Data Bootstrapping for Conversational Recommender Systems</title>
-      <link>https://huggingface.co/papers/2504.15476</link>
-      <description>By Rohan Surana, Junda Wu, Zhouhang Xie, Yu Xia, Nathan Kallus, et al.
-
-Conversational Recommender Systems (CRS) typically require domain-specific dialogue data, which is costly, scarce, and often unavailable in new domains. We conduct a systematic empirical study of zero-data CRS bootstrapping: generating synthetic conversational supervision from non-conversational sig...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2504.15476</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue</title>
@@ -55,49 +55,13 @@ Reinforcement learning with verifiable rewards (RLVR) substantially improves sin
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wasserstein-Barycentric Interaction Fields for Spatial Factor Models: Evidence from Language-Model Representations</title>
-      <link>https://huggingface.co/papers/2608.29669</link>
-      <description>By Marcus Gawronsky, Chun-Sung Huang
+      <title>To See a World in a Living Context: Unified Indoor-Outdoor Urban World Generation</title>
+      <link>https://huggingface.co/papers/2608.05879</link>
+      <description>By Xiaobin Huang, Zilong Huang, Yang Luo, Hongchao Fan, Yiping Chen, et al.
 
-Spatial return models take the interaction matrix as given and leave feedback uninterpreted. We construct a bandwidth-free field from firms' language-model article embedding distributions using target-anchored Wasserstein barycentric reconstruction. A quadratic exposure-adjustment problem maps feedb...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.29669</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations</title>
-      <link>https://huggingface.co/papers/2608.29692</link>
-      <description>By Marcus Gawronsky, Chun-Sung Huang
-
-Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficult to obtain in short, high-dimensional panels. We show that firm-level distribution-valued characteristics can instead provide one-sided certificates of portfolio risk. Under mainta...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.29692</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Small Language Models as Judges for Rubric-Based Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2608.30005</link>
-      <description>By Fengyu Xie, Yilun Zhao, Bingsen Chen, Arman Cohan, Chen Zhao
-
-Rubric-based reinforcement learning extends RL beyond tasks with exact answers or rule-based verifiers by scoring responses against instance-specific criteria. However, this makes reward computation expensive: training requires repeated rubric judging, often with proprietary APIs or local generative...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.30005</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NeoMME: A Single-Tower Multimodal-Native Multilingual Foundation Encoder for Efficient Fine-Tuning and Inference</title>
-      <link>https://huggingface.co/papers/2609.01657</link>
-      <description>By Aurélien Lac, Tony Wu
-
-Multimodal models often build on architectures designed for generative vision-language modeling, typically combining separately pretrained vision encoders with causal language models. Visual document retrievers such as ColPali repurpose these models as encoders, carrying over the parameter and compu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01657</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WHALE: A Simple Recipe for Joint Harness-Weight Optimization</title>
-      <link>https://huggingface.co/papers/2609.00196</link>
-      <description>By Haechan Kim, Yoonho Lee, Gisang Lee, Chelsea Finn, Kangwook Lee
-
-Agent performance depends jointly on the model parameters and the executable harness code that manages context and control flow. Optimizing either component in isolation can leave the system bottlenecked by its frozen counterpart: weight updates can change which harness is effective, while harness u...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.00196</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+Text-driven 3D generation has advanced rapidly in creating large-scale outdoor environments and detailed indoor scenes, but these domains are usually synthesized independently, lacking the correspondence required for a coherent urban world. We present HoloWorld, a unified indoor-outdoor urban world ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.05879</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests</title>
@@ -127,24 +91,6 @@ Group relative policy optimization for reinforcement learning with verifiable re
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Sparse Readout Prism: Explaining Logit-Lens Scores in Features Instead of Tokens</title>
-      <link>https://huggingface.co/papers/2609.01936</link>
-      <description>By Matteo He, William F. Shen, Xinchi Qiu, Nicholas D. Lane
-
-A language model's prediction of its next token develops across layers, and lens methods track this process by decoding intermediate hidden states into tokens. But a lens reading reflects both the hidden state and the readout (the unembedding matrix) used to decode it. Many lenses are fit on a corpu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01936</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Replacing Training with Memory: Listwise Selection for Text-to-SQL</title>
-      <link>https://huggingface.co/papers/2609.00834</link>
-      <description>By Yeonseok Jeong, Soyoung Yoon, Seongjun Lee, Seung-won Hwang
-
-Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then selecting the best one. Listwise selection, by jointly comparing multiple candidates, has been widely adopted, but fine-tuning listwise selectors is costly. We thus propose a fine-tu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.00834</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>LatentPress: Context Compression Beyond Text and Vision</title>
       <link>https://huggingface.co/papers/2609.01507</link>
       <description>By Zhengze Zhou, Hejian Sang
@@ -154,13 +100,13 @@ Compressed context is usually carried as human-readable text or as rendered imag
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Debias-SparseGPT: Bias-Aware Pruning for Large Language Models</title>
-      <link>https://huggingface.co/papers/2609.02496</link>
-      <description>By Irina Proskurina, Guillaume Metzler, Antoine Gourru, Julien Velcin
+      <title>Enoki: Efficient Multi-Level Hallucination Detection</title>
+      <link>https://huggingface.co/papers/2609.00581</link>
+      <description>By Elisei Rykov, Timur Ionov, Nikolay Ivanov, Maksim Savkin, Maksim Makarenko, et al.
 
-Model compression techniques such as pruning and quantization facilitate the efficient deployment and acceleration of Large Language Models (LLMs). However, recent studies show that weight sparsification methods, such as SparseGPT, can amplify existing biases in models, with outputs varying signific...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02496</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+Ensuring factuality remains a critical challenge for deploying LLMs in high-stakes settings. Existing hallucination detectors usually operate at a single level: claim-level methods provide interpretable factual units, while span-level methods localize unsupported text. Bridging these views is costly...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.00581</guid>
+      <pubDate>Tue, 01 Sep 2026 02:21:28 +0000</pubDate>
     </item>
     <item>
       <title>The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation</title>
@@ -214,6 +160,24 @@ Speech brain-computer interfaces (speech BCIs) translate neural activity into la
 
 Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introduce RoboTok, an internet-scale data engine that, given a query human manipulation...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.03199</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding</title>
+      <link>https://huggingface.co/papers/2609.02780</link>
+      <description>By Jitai Hao, Ke Yang, Qiang Huang, Jun Yu
+
+Streaming video understanding is a critical capability for real-world applications, including embodied intelligence, autonomous driving, industrial monitoring, surveillance and early warning, and wearable assistants. However, processing continuous video streams with multimodal large language models ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.02780</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems</title>
+      <link>https://huggingface.co/papers/2609.02750</link>
+      <description>By Yihang Chen, Yuxiang Chen, Yuxuan Huang, Meng Fang, Weilin Luo, et al.
+
+Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection. Despite strong empirical results, these systems lack a unified account of coordination, memory improvement, and the role of external verification. We model orch...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.02750</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -424,6 +388,24 @@ Large language models (LLMs) are increasingly used to edit existing code, but co
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition</title>
+      <link>https://huggingface.co/papers/2609.04369</link>
+      <description>By Shunpeng Chen, Jingyi Zhang, Changwei Wang, Shengpeng Xu, Yukun Song, et al.
+
+Visual Place Recognition (VPR) localizes a query image by retrieving database images of the same or nearby place, yet its robustness is often degraded by domain shifts arising from illumination, weather, seasonal changes, and dynamic occlusions. One contributing factor is the limited appearance dive...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04369</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Attention Triangle in Audio-Video Models</title>
+      <link>https://huggingface.co/papers/2609.03586</link>
+      <description>By Sagi Polaczek, Noa Kraicer, Gal Metzer, Zhuo Ning, Ali Mahdavi-Amiri, et al.
+
+Audio-video diffusion models rely on cross-modal attention to coordinate text, sound, and visual content, yet this same mechanism can introduce subtle and systematic semantic leakage. We study these models by probing and analyzing the ``attention triangle,'' comprising the three cross-attention edge...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03586</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>WorldSculpt: Generating Compositional Worlds from Grounded Videos</title>
       <link>https://huggingface.co/papers/2609.05416</link>
       <description>By Muyao Niu, Jixuan He, Ruihan Yu, Lian Fu, Yonghao Yu, et al.
@@ -457,6 +439,24 @@ On-policy distillation (OPD) provides dense, per-token supervision for language 
 
 Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descriptions, yet realistic operations research (OR) requests are often incomplete: missing objectives, constraints, or business rules can change the resulting mathematical program. Exis...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.05258</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>τ^τ-Bench: An Environment for End-To-End, Realistic Agent Construction</title>
+      <link>https://huggingface.co/papers/2609.04611</link>
+      <description>By Quan Shi, Keshav Dhandhania, Karthik Narasimhan, Victor Barres
+
+LLM agents are rapidly becoming production software, deployed to handle customer service, adjudicate disputes, and operate internal systems. Notably, the work of building them is increasingly handed to coding agents, yet existing benchmarks say little about whether an AI system can deliver one under...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04611</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs</title>
+      <link>https://huggingface.co/papers/2609.04753</link>
+      <description>By Seogyeong Jeong, Jaehui Hwang, Dongyoon Han, Geonmo Gu, Alice Oh, et al.
+
+Reasoning in large language models unfolds through diverse functional operations, such as problem formulation, goal decomposition, and deduction. Although these operations are explicitly distinguished in text, little is known about how they are geometrically organized in representation spaces. To th...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04753</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

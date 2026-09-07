@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Sep 2026 10:05:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 16:21:43 +0000</lastBuildDate>
     <item>
       <title>Training-Free Speech-Centric Omni Understanding with Frozen VLMs</title>
       <link>https://huggingface.co/papers/2609.04242</link>
@@ -91,15 +91,6 @@ Group relative policy optimization for reinforcement learning with verifiable re
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LatentPress: Context Compression Beyond Text and Vision</title>
-      <link>https://huggingface.co/papers/2609.01507</link>
-      <description>By Zhengze Zhou, Hejian Sang
-
-Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its consumer is a language model. We introduce LatentPress, which writes conversational histories and long documents into a third representation: continuous memory tokens that a frozen ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01507</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Enoki: Efficient Multi-Level Hallucination Detection</title>
       <link>https://huggingface.co/papers/2609.00581</link>
       <description>By Elisei Rykov, Timur Ionov, Nikolay Ivanov, Maksim Savkin, Maksim Makarenko, et al.
@@ -179,42 +170,6 @@ Streaming video understanding is a critical capability for real-world applicatio
 Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection. Despite strong empirical results, these systems lack a unified account of coordination, memory improvement, and the role of external verification. We model orch...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.02750</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM</title>
-      <link>https://huggingface.co/papers/2609.04098</link>
-      <description>By Sergii Kozyrev, Davyd Maiboroda
-
-Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed size. Early community 4-bit quantizations of Qwen3.8-27B (48 GDN layers, 16 attention layers) left the GDN block in 8- or 16-bit precision -- especially...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04098</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes</title>
-      <link>https://huggingface.co/papers/2609.03796</link>
-      <description>By Chuyan Chen, Haoxing Chen, Kun Chen, Zhenglin Cheng, Long Cui, et al.
-
-We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.03796</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments</title>
-      <link>https://huggingface.co/papers/2609.04148</link>
-      <description>By Jie Wu, Zhenru Zhang, Beichen Zhang, Xuwu Wang, Yuhui Su, et al.
-
-As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarce. However, environments are what agent post-training actually requires: each can be re-queried into many verifiable tasks and provides execution feedbac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04148</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Principia: Relational Physics Tests for Video Models</title>
-      <link>https://huggingface.co/papers/2609.04200</link>
-      <description>By Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan, Anand Bhattad
-
-Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04200</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Environment Evolution for Terminal Agents</title>
@@ -406,6 +361,24 @@ Audio-video diffusion models rely on cross-modal attention to coordinate text, s
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing</title>
+      <link>https://huggingface.co/papers/2609.04190</link>
+      <description>By Adheesh Sunil Juvekar, Onkar Kishor Susladkar, Kiet A. Nguyen, Muntasir Wahed, Nabeel Bashir, et al.
+
+Video editing spans diverse editing paradigms, yet achieving high-quality instruction-guided and subject-guided editing within a single unified framework remains challenging. We introduce EditVid, a training-free framework combining sparse causal memory for local coherence, correspondence-based post...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04190</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The 2026 PNPL Competition: Word Classification and Efficient Cross-Subject Generalisation in LibriBrain100</title>
+      <link>https://huggingface.co/papers/2609.03231</link>
+      <description>By Francesco Mantegna, Gereon Elvers, Dulhan Jayalath, Gilad Landau, Tasha Kim, et al.
+
+The ambition of the 2025 PNPL competition (Landau et al., 2025) was to launch a multi-year curriculum for non-invasive speech decoding. Designed to progress from foundational tasks toward the linguistic complexity required for a practical brain-computer interface (BCI), it set the stage with speech ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03231</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>WorldSculpt: Generating Compositional Worlds from Grounded Videos</title>
       <link>https://huggingface.co/papers/2609.05416</link>
       <description>By Muyao Niu, Jixuan He, Ruihan Yu, Lian Fu, Yonghao Yu, et al.
@@ -457,6 +430,33 @@ LLM agents are rapidly becoming production software, deployed to handle customer
 
 Reasoning in large language models unfolds through diverse functional operations, such as problem formulation, goal decomposition, and deduction. Although these operations are explicitly distinguished in text, little is known about how they are geometrically organized in representation spaces. To th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.04753</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UniMate: One Unified Model to Animate Diverse Skeletons</title>
+      <link>https://huggingface.co/papers/2609.05415</link>
+      <description>By Linzhan Mou, Jiahui Lei, Zhiyang Dou, Chenyue Cai, Chaoyue Song, et al.
+
+Recent advances in automatic rigging now deliver animation-ready 3D assets at scale, yet generating the motion to drive them remains a bottleneck. Existing learned animators are topology-constrained: they rely on category-specific templates or require per-skeleton fine-tuning and reference motions a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.05415</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Refuse without Refusal: A Structural Analysis of Safety-Tuning Responses for Reducing False Refusals in Language Models</title>
+      <link>https://huggingface.co/papers/2609.04714</link>
+      <description>By Minji Kim, Hyounghun Kim
+
+Striking a balance between helpfulness and safety remains a fundamental challenge in aligning large language models. To achieve this balance, models should refuse harmful queries (e.g., "How do I shoot someone?") while remaining responsive to benign inputs, even those superficially resembling harmfu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04714</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2609.04720</link>
+      <description>By Minji Kim, Jihyoung Jang, Hyounghun Kim
+
+Vision-language models (VLMs) are expected to respond helpfully to appropriate requests while withholding compliance with requests that are incorrect, unsafe, infeasible, or unanswerable. However, existing benchmarks predominantly evaluate non-compliance at the level of the query as a whole, assumin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04720</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

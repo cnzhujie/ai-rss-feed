@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 14:19:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 18:27:48 +0000</lastBuildDate>
     <item>
       <title>Training-Free Speech-Centric Omni Understanding with Frozen VLMs</title>
       <link>https://huggingface.co/papers/2609.04242</link>
@@ -35,15 +35,6 @@ Change data synthesis provides a cost-effective solution for expanding training 
 On-policy distillation trains a language model on its own generations while a teacher scores them token by token. It combines the dense supervision of imitation learning with the on-policy sampling of reinforcement learning. But it requires a second, larger model to act as teacher. On-Policy Self-Di...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.25936</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training</title>
-      <link>https://huggingface.co/papers/2608.26730</link>
-      <description>By Tingyun Li, Wenfeng Feng, Weiqing Li, Abudukelimu Wuerkaixi, Guohua Liu, et al.
-
-Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often entails repeated post-training. Autonomous systems automate parts of this process by proposing updates, training candidates, and using evaluation feedback to select subsequent proposa...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.26730</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue</title>
@@ -127,15 +118,6 @@ Ensuring factuality remains a critical challenge for deploying LLMs in high-stak
       <pubDate>Tue, 01 Sep 2026 02:21:28 +0000</pubDate>
     </item>
     <item>
-      <title>Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance</title>
-      <link>https://huggingface.co/papers/2609.02373</link>
-      <description>By Sai Niranjan Ramachandran, Suvrit Sra
-
-We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invariant sets that correspond to simpler subnetworks. How this steering unfolds over time remains poorly understood. We answer this by modeling the stochastic gradient flow (SGF) as a per...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02373</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration</title>
       <link>https://huggingface.co/papers/2609.01072</link>
       <description>By Daehwan Kim, Haejun Chung, Ikbeom Jang
@@ -199,13 +181,22 @@ On-policy distillation (OPD) accelerates post-training by providing dense token-
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PACE: Towards Surfacing Hidden Conflicts in User Requests</title>
-      <link>https://huggingface.co/papers/2609.03293</link>
-      <description>By Yoojin Kim, Jihyoung Jang, Hyounghun Kim
+      <title>Causal Foundation Models</title>
+      <link>https://huggingface.co/papers/2609.03003</link>
+      <description>By Christopher Stith, Hossein Rahmani, Jesse C. Cresswell
 
-Personalized assistants should not only comply with user requests but also assess whether those requests are appropriate given the user's current circumstances. However, prior work has primarily focused on accurately executing requests, overlooking the need for assistants to account for context and ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.03293</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+Causal inference is the practice of estimating the effect of a treatment or intervention from data. It traditionally requires a bespoke pipeline for every new problem: first proposing a causal mechanism, selecting a compatible estimator, and finally training it. Meanwhile, across diverse settings an...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03003</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unifying Conformal Language Tasks with In-Context Ensembles</title>
+      <link>https://huggingface.co/papers/2609.03005</link>
+      <description>By Xiao Shi Huang, Chen-Yuan Lin, Bruce Kuwahara, Kin Kwan Leung, Jesse C. Cresswell
+
+Many NLP tasks, such as summarization and extractive question answering, reduce to retrieving relevant content from documents under two constraints: coverage, retaining enough pertinent information to achieve some goal, and conciseness, removing as much irrelevant information as possible. Conformal ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03005</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Compile by Training: Turning Natural-Language Specifications into Local Neural Functions</title>
@@ -376,6 +367,15 @@ Large Language Models (LLMs) owe much of their success to next-token prediction 
 
 We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segmentation models, including the latest foundation models such as SAM 3, still suffer from temporal hallucinations, spatial fragmentation, and semantic misclassification: they fail to ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.03756</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal</title>
+      <link>https://huggingface.co/papers/2609.04482</link>
+      <description>By Alejo López-Ávila, Iker García-Ferrero, Jezabel Garcia, Antonio Tiene, Román Orús
+
+Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one. A civics tutor and a public-sector assistant may share a base model yet need different boundaries inside the same topic, refusing targeted political manipulation while still answerin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04482</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Sep 2026 23:23:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 04:11:46 +0000</lastBuildDate>
     <item>
       <title>Training-Free Speech-Centric Omni Understanding with Frozen VLMs</title>
       <link>https://huggingface.co/papers/2609.04242</link>
@@ -17,6 +17,15 @@
 Audio-visual understanding remains challenging because models must jointly interpret spoken content, visual events, and their temporal relationships. Existing omni models typically introduce dedicated audio encoders and rely on expensive audio-video-text training, tightly coupling omni capability to...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.04242</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing</title>
+      <link>https://huggingface.co/papers/2608.24263</link>
+      <description>By Yaoyi Qi, Xingxing Weng, Chao Pang, Yongkang Cui, Xiangyu Hao, et al.
+
+Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of change detection models. However, existing synthesis methods typically rely on handcrafted rules to simulate changes, where limited coverage of class transitions restricts the divers...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.24263</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training</title>
@@ -62,15 +71,6 @@ Reinforcement learning with verifiable rewards (RLVR) substantially improves sin
 Text-driven 3D generation has advanced rapidly in creating large-scale outdoor environments and detailed indoor scenes, but these domains are usually synthesized independently, lacking the correspondence required for a coherent urban world. We present HoloWorld, a unified indoor-outdoor urban world ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.05879</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests</title>
-      <link>https://huggingface.co/papers/2608.27831</link>
-      <description>By Gyuhyeong Kim, Hyojung Gwon, Jeonghyeon Kim, Kyuhong Shim, Sunjae Lee
-
-Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitHub issues: long, structured, and information-rich. Real user requests, however, are typically far shorter and less structured. To characterize this gap, we define a six-category inf...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.27831</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Using Grounded Theory for Agent Behavior Analysis at Scale</title>
@@ -181,31 +181,13 @@ Multi-agent LLM systems commonly use an orchestrator to decompose a task for a t
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation</title>
-      <link>https://huggingface.co/papers/2609.04083</link>
-      <description>By Tingyu Song, Mingxin Li, Yanzhao Zhang, Dingkun Long, Chu Liu, et al.
+      <title>Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2609.02998</link>
+      <description>By Zhiwei Zhang, Zechen Sun, Fei Zhao, Kang Peng, Bin Liang, et al.
 
-MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing the same concepts but different attribute-object bindings. Yet the same backbone can resolve such distinctions when used as a cross-attentive reranker, motivating us to distill its c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04083</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking On-Policy Distillation of Large Language Models II: One Training Example</title>
-      <link>https://huggingface.co/papers/2609.04172</link>
-      <description>By Zixuan Fu, Bingxiang He, Yuxin Zuo, Haohuan Huang, Jinqian Zhang, et al.
-
-On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leaving the role of training data unclear. We examine this role at the data-minimal limit by training on a single query. One-...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04172</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning</title>
-      <link>https://huggingface.co/papers/2609.03430</link>
-      <description>By Heng Wang, Jielin Qiu, Wenting Zhao, Cheng Qian, Liangwei Yang, et al.
-
-Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe memory bottleneck. Existing KV cache compression methods share one paradigm: score each cached token by some estimate of how much it will matter later, a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.03430</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher on the student's own rollouts. Vanilla OPD applies this supervision uniformly across prompts, without checking whether the teacher is reliable for each prompt. Because reverse KL i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.02998</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WorldReward: Reward Modeling for Camera-Conditioned World Models</title>
@@ -376,6 +358,24 @@ The ambition of the 2025 PNPL competition (Landau et al., 2025) was to launch a 
 
 Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents drive a crew of two tractors through a cooperative c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.04444</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning</title>
+      <link>https://huggingface.co/papers/2609.03729</link>
+      <description>By Yijun Yang, Shenghe Zheng, Wenbo Li, Jianhui Liu, Haoze Sun, et al.
+
+Despite the remarkable prowess of Vision-Language Models (VLMs) in general multimodal tasks, they remain fundamentally ``flat'' when reasoning about the physical world. We argue that this spatial bottleneck stems from a profound dimensional mismatch: while VLMs are trained to interpret 2D projection...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03729</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation</title>
+      <link>https://huggingface.co/papers/2609.03254</link>
+      <description>By Daisuke Kikuta
+
+Large Language Models (LLMs) often help users generate artifacts through iterative cycles of generation and revision in conversation. A challenge here is that, when users specify only a local change during revision, LLMs must instead identify the relevant dependencies and propagate the revision to a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03254</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

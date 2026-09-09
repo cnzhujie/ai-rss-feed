@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 18:27:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 21:36:14 +0000</lastBuildDate>
     <item>
       <title>Recognition-Refusal Misalignment in LLMs: Why Models Answer Structurally Unanswerable Questions</title>
       <link>https://huggingface.co/papers/2608.29109</link>
@@ -55,39 +55,21 @@ We study a governed approach to enterprise analytics: a language model interpret
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Unlocking Lossless Speedups in LLMs via Discrete Diffusion</title>
-      <link>https://huggingface.co/papers/2609.04010</link>
-      <description>By Subham Sekhar Sahoo, Lingjie Chen, Khiem Pham, Jonathan Geuter, Chaitanya Dwivedi, et al.
-
-Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow, sequential token generation. To overcome this bottleneck, we introduce diffusion-augmented LLMs, a new class of models that defines an AR model distribution w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04010</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation</title>
-      <link>https://huggingface.co/papers/2609.03756</link>
-      <description>By Javier del Pino, Salvador Rodríguez, Alejandro Garabito, Javier Álvarez, Chema Garabito
-
-We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segmentation models, including the latest foundation models such as SAM 3, still suffer from temporal hallucinations, spatial fragmentation, and semantic misclassification: they fail to ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.03756</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal</title>
-      <link>https://huggingface.co/papers/2609.04482</link>
-      <description>By Alejo López-Ávila, Iker García-Ferrero, Jezabel Garcia, Antonio Tiene, Román Orús
-
-Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one. A civics tutor and a public-sector assistant may share a base model yet need different boundaries inside the same topic, refusing targeted political manipulation while still answerin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04482</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys</title>
       <link>https://huggingface.co/papers/2609.04382</link>
       <description>By Georgios Politis, Evangelos Pappas
 
 We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while leaving an observable channel untested. The Trusted Local Node (TLN) sends protected activations to the Untrusted Cloud Node (UCN), the UCN returns its output, and TLN, holding the ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.04382</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EVOHARNESSBENCH: Can Your Agents Keep Pace with an Evolving Harness?</title>
+      <link>https://huggingface.co/papers/2609.04280</link>
+      <description>By Zixuan Ke, Vaidehi Patil, Haizhou Shi, Yang Li, Ye Liu, et al.
+
+Modern LLM-based agents operate through a harness of tools, reusable skills, and specialist agents that shapes what they observe and what they can do. In practice, this harness continually evolves as new capabilities are added. We introduce EVOHARNESSBENCH, a benchmark for evaluating agents under co...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04280</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -154,6 +136,15 @@ Instruction-guided 3D editing is essential for interactive content creation, yet
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>RenderFormer-V2: Neural Rendering with Heterogeneous Scene Primitives</title>
+      <link>https://huggingface.co/papers/2609.05738</link>
+      <description>By Chong Zeng, Yue Dong, Pieter Peers, Lvmin Zhang, Maneesh Agrawala
+
+We present 'RenderFormer-V2', a unified learned transformer-based neural rendering model, complementary to modern physics-based rendering systems, that can handle diverse light-transport effects such as caustics, volumetric scattering, environment lighting, textured and displaced surfaces and out-of...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.05738</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>DriveZero: End-to-End Driving Beyond Human Demonstrations</title>
       <link>https://huggingface.co/papers/2609.06055</link>
       <description>By Hao He, Chengcheng Hu, Zirun Su, Heng Zhang, Haisong Liu, et al.
@@ -187,6 +178,15 @@ We present Cadence, an error-bounded lossy compressor for numeric time series pa
 
 Agents can turn shared infrastructure into a channel for coordinated intrusion. The Hugging Face incident and a separate public-wiki investigation show why a security assessment may need evidence from several executions and the artifacts they leave behind. We argue that the operational unit of defen...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.06140</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VDiff-Bench: A Challenging Benchmark for Fine-Grained Image Difference Identification</title>
+      <link>https://huggingface.co/papers/2609.06245</link>
+      <description>By Yixin Wan, Tianle Zheng, Kai-Wei Chang
+
+Multimodal Large Language Models (MLLMs) perform strongly on general visual understanding tasks such as visual question answering, yet they often struggle with a basic comparative skill: identifying what has changed between two similar images. We introduce VDiff-Bench, a challenging multiple-choice ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.06245</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

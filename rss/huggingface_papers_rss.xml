@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 14:20:37 +0000</lastBuildDate>
-    <item>
-      <title>One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation</title>
-      <link>https://huggingface.co/papers/2608.25936</link>
-      <description>By Justin Robert, Raheel Qader
-
-On-policy distillation trains a language model on its own generations while a teacher scores them token by token. It combines the dense supervision of imitation learning with the on-policy sampling of reinforcement learning. But it requires a second, larger model to act as teacher. On-Policy Self-Di...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.25936</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 09 Sep 2026 18:27:12 +0000</lastBuildDate>
     <item>
       <title>Recognition-Refusal Misalignment in LLMs: Why Models Answer Structurally Unanswerable Questions</title>
       <link>https://huggingface.co/papers/2608.29109</link>
@@ -26,15 +17,6 @@ On-policy distillation trains a language model on its own generations while a te
 Large language models often answer structurally unanswerable questions, such as computing cot(-540°) or evaluating (1).startswith("1"), instead of abstaining. We ask whether this failure reflects missing recognition or failed routing from recognition to abstention. Across instruction-tuned models fr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.29109</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents</title>
-      <link>https://huggingface.co/papers/2609.01281</link>
-      <description>By Wei Wang, Wenqiao Zhang, Yutong Lin, Yuqian Yuan, Tianwei Lin, et al.
-
-Vision-language-action (VLA) models map visual observations and language instructions directly to robot actions, but long-horizon tasks require more than action prediction. An agent must coordinate perception, planning, execution, progress verification, and recovery as the physical state evolves. An...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01281</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Causal Foundation Models</title>
@@ -61,6 +43,15 @@ Many NLP tasks, such as summarization and extractive question answering, reduce 
 
 Long-horizon manipulation is partially observable: the information needed to choose the next action may appear only in observations from minutes earlier. Existing memory mechanisms: retrieval banks, learned compressors, recurrent states must decide what to keep from the past before knowing what a fu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.05533</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MasterControl Seventeen Every Time</title>
+      <link>https://huggingface.co/papers/2609.03209</link>
+      <description>By MasterControl AI Lab
+
+We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approved analytical program that returns both results and evidence. We show that this restriction can remain expressive within a defined analytical class,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03209</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision 
 
 Accurate estimation of clinically meaningful gait parameters from monocular video is important for scalable mobility assessment, yet progress is limited by the small scale, restricted viewpoints, and limited visual diversity of existing datasets. We introduce SynthGait-19k, a physically grounded syn...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.08108</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting</title>
+      <link>https://huggingface.co/papers/2609.09140</link>
+      <description>By Tobias Susetzky, Raphael Rehms, Dmitrii Seletkov, Özgün Turgut, Michelle Espranita Liman, et al.
+
+The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular tempor...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.09140</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

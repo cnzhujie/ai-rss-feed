@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 09:32:30 +0000</lastBuildDate>
-    <item>
-      <title>Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing</title>
-      <link>https://huggingface.co/papers/2608.24263</link>
-      <description>By Yaoyi Qi, Xingxing Weng, Chao Pang, Yongkang Cui, Xiangyu Hao, et al.
-
-Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of change detection models. However, existing synthesis methods typically rely on handcrafted rules to simulate changes, where limited coverage of class transitions restricts the divers...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.24263</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 09 Sep 2026 14:20:37 +0000</lastBuildDate>
     <item>
       <title>One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation</title>
       <link>https://huggingface.co/papers/2608.25936</link>
@@ -46,15 +37,6 @@ Vision-language-action (VLA) models map visual observations and language instruc
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Verify Before You Distill: Prompt-Level Teacher Gating for On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2609.02998</link>
-      <description>By Zhiwei Zhang, Zechen Sun, Fei Zhao, Kang Peng, Bin Liang, et al.
-
-On-policy distillation (OPD) accelerates post-training by providing dense token-level supervision from a frozen teacher on the student's own rollouts. Vanilla OPD applies this supervision uniformly across prompts, without checking whether the teacher is reliable for each prompt. Because reverse KL i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02998</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Causal Foundation Models</title>
       <link>https://huggingface.co/papers/2609.03003</link>
       <description>By Christopher Stith, Hossein Rahmani, Jesse C. Cresswell
@@ -80,24 +62,6 @@ Many NLP tasks, such as summarization and extractive question answering, reduce 
 Long-horizon manipulation is partially observable: the information needed to choose the next action may appear only in observations from minutes earlier. Existing memory mechanisms: retrieval banks, learned compressors, recurrent states must decide what to keep from the past before knowing what a fu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.05533</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation</title>
-      <link>https://huggingface.co/papers/2609.03254</link>
-      <description>By Daisuke Kikuta
-
-Large Language Models (LLMs) often help users generate artifacts through iterative cycles of generation and revision in conversation. A challenge here is that, when users specify only a local change during revision, LLMs must instead identify the relevant dependencies and propagate the revision to a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.03254</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience</title>
-      <link>https://huggingface.co/papers/2609.03241</link>
-      <description>By Zixun Huang, Kishan Panaganti, Haitao Mi, Leowei Liang
-
-A reasoning model can improve from its own on-policy experience, but this inner loop is fragile: terminal verifiers provide reliable yet sparse supervision, while dense same-model guidance can reinforce false confidence or overconcentrate learning on a narrow solution mode. We introduce FlowBalance,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.03241</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Unlocking Lossless Speedups in LLMs via Discrete Diffusion</title>
@@ -181,6 +145,24 @@ Vision-Language-Action (VLA) models have shown promising progress in language-co
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>What Did I Just Say? Self-Listening for Full-Duplex Speech Models</title>
+      <link>https://huggingface.co/papers/2609.05592</link>
+      <description>By Xuanning Zhou, Junyi Ao, Xiaotong Liu, Tom Ko, Benyou Wang, et al.
+
+Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backchannels in human conversation. However, text generation, speech synthesis, and audio playback proceed asynchronously. As a result, what a model believes it has said may not match wh...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.05592</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning 3D Editing without Paired Supervision via Generative Prior Distillation</title>
+      <link>https://huggingface.co/papers/2609.04942</link>
+      <description>By Hao Wen, Weibin Yun, Hongxing Fan, Haotian Lu, Rui Chen, et al.
+
+Instruction-guided 3D editing is essential for interactive content creation, yet it faces a significant bottleneck: the severe scarcity of high-quality paired training data. Existing approaches attempt to bypass this by either relying on slow test-time optimization or training on pseudo-pairs constr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.04942</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>DriveZero: End-to-End Driving Beyond Human Demonstrations</title>
       <link>https://huggingface.co/papers/2609.06055</link>
       <description>By Hao He, Chengcheng Hu, Zirun Su, Heng Zhang, Haisong Liu, et al.
@@ -205,6 +187,15 @@ As large language models (LLMs) are increasingly deployed in alignment-sensitive
 
 We present Cadence, an error-bounded lossy compressor for numeric time series pairing a 330M-parameter time-series foundation model (Google TimesFM-3) with an adaptive arithmetic coder, guaranteeing |x_t-x_t|leτ on every sample. One negative result constrains the design space: for lossless coding a ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.06008</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Counter-Swarm Doctrine: Containing Coordinated Agent Intrusions</title>
+      <link>https://huggingface.co/papers/2609.06140</link>
+      <description>By Gregory N Frank
+
+Agents can turn shared infrastructure into a channel for coordinated intrusion. The Hugging Face incident and a separate public-wiki investigation show why a security assessment may need evidence from several executions and the artifacts they leave behind. We argue that the operational unit of defen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.06140</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Representing a 3D scene as multi-view images allows 2D VLMs to reason in 3D by r
 
 Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in scene reconstruction, computational photography, and robotics, among others. Despite the field's maturity, recent models still struggle to generalize to out-of-distribution inputs an...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.08084</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SynthGait-19K: A Physically Grounded Synthetic Video Dataset for Gait Parameter Estimation</title>
+      <link>https://huggingface.co/papers/2609.08108</link>
+      <description>By Soroush Mehraban, Xin Lei Lin, Vida Adeli, Majid Mirmehdi, Amirhossein Dadashzadeh, et al.
+
+Accurate estimation of clinically meaningful gait parameters from monocular video is important for scalable mobility assessment, yet progress is limited by the small scale, restricted viewpoints, and limited visual diversity of existing datasets. We introduce SynthGait-19k, a physically grounded syn...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.08108</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

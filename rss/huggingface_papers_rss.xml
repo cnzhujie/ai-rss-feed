@@ -8,15 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 11:03:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 16:14:02 +0000</lastBuildDate>
     <item>
-      <title>Recognition-Refusal Misalignment in LLMs: Why Models Answer Structurally Unanswerable Questions</title>
-      <link>https://huggingface.co/papers/2608.29109</link>
-      <description>By Yucheng Du, Xiyang Hu
+      <title>A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware</title>
+      <link>https://huggingface.co/papers/2609.05463</link>
+      <description>By Ayushman Bhattacharya, Nihal Gazi
 
-Large language models often answer structurally unanswerable questions, such as computing cot(-540°) or evaluating (1).startswith("1"), instead of abstaining. We ask whether this failure reflects missing recognition or failed routing from recognition to abstention. Across instruction-tuned models fr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.29109</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+AI-powered search products such as ChatGPT search, Google's AI Overviews, and Perplexity provide LLM-synthesized answers grounded in live web results. We developed OreoLook (formerly lixSearch), an open-source answer engine using automated browser agents and provider-routed LLM inference. Its local ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.05463</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AgenticGen: Reward-Guided Agentic Video Generation for Advertising</title>
@@ -64,6 +64,15 @@ We introduce the Graph Machine (GM), an architecture that maintains an O(n)-size
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution</title>
+      <link>https://huggingface.co/papers/2609.02771</link>
+      <description>By Yuzhang Luo, Chenpeng Wang, Jianhui Chen, Liangming Pan
+
+Training data attribution (TDA) aims to identify training examples that shape model behavior, but its intervention value depends on both which examples are selected and how they are modified. Influence functions (IF) estimate behavioral changes under infinitesimal reweighting, yet IF-selected exampl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.02771</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>EVOHARNESSBENCH: Can Your Agents Keep Pace with an Evolving Harness?</title>
       <link>https://huggingface.co/papers/2609.04280</link>
       <description>By Zixuan Ke, Vaidehi Patil, Haizhou Shi, Yang Li, Ye Liu, et al.
@@ -71,24 +80,6 @@ We introduce the Graph Machine (GM), an architecture that maintains an O(n)-size
 Modern LLM-based agents operate through a harness of tools, reusable skills, and specialist agents that shapes what they observe and what they can do. In practice, this harness continually evolves as new capabilities are added. We introduce EVOHARNESSBENCH, a benchmark for evaluating agents under co...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.04280</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference</title>
-      <link>https://huggingface.co/papers/2609.04971</link>
-      <description>By Janghyeon Kim, Minsoo Kim, Kyuhong Shim, Jungwook Choi
-
-Large Reasoning Models (LRMs) achieve superior problem-solving through extended Chain-of-Thought (CoT) generation, but the resulting key-value (KV) cache grows linearly with sequence length and creates severe memory bottlenecks, often exceeding GPU capacity for long reasoning traces. Existing KV cac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04971</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?</title>
-      <link>https://huggingface.co/papers/2609.05324</link>
-      <description>By Zhenxuan Fan, Bo Zhang, Yutong Lin, Yuqian Yuan, Juekai Lin, et al.
-
-Vision-Language-Action (VLA) models have shown promising progress in language-conditioned robotic manipulation. However, existing datasets and benchmarks mainly evaluate task completion under predefined settings, offering limited insight into model reasoning under increasing spatial and procedural c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.05324</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What Did I Just Say? Self-Listening for Full-Duplex Speech Models</title>
@@ -161,15 +152,6 @@ Multimodal Large Language Models (MLLMs) perform strongly on general visual unde
 Large language models used for code editing can be trained and deployed in at least two output regimes: direct generation, where the model emits the entire modified file in one shot, and iterative diff-based generation ("steps"), where the model emits a sequence of localized search/replace edits app...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.05779</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation</title>
-      <link>https://huggingface.co/papers/2609.06665</link>
-      <description>By Mingwei Li, Yi Yang, Hehe Fan
-
-Diffusion-based models enable monocular geometry estimation, yet their pixel-space precision is limited by a shared, under-studied error source: VAE reconstruction degradation. The 8x spatial compression in the VAE encoder-decoder degrades surface normals at object boundaries; even encoding and deco...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.06665</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DianShi-RxnDB: A Large-Scale, Fine-Grained Organic Reaction Data Platform Built via a Fully Automated Pipeline for Researchers and AI Agents</title>
@@ -298,33 +280,6 @@ Chain-of-Thought (CoT) improves the reasoning ability of Large Language Models (
       <pubDate>Mon, 07 Sep 2026 17:56:20 +0000</pubDate>
     </item>
     <item>
-      <title>Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout</title>
-      <link>https://huggingface.co/papers/2609.09123</link>
-      <description>By Zhuoran Zhao, Shengju Qian, Tongtong Liang, Xianghao Kong, Songchun Zhang, et al.
-
-Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but the generated videos often suffer from over-satura...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.09123</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing</title>
-      <link>https://huggingface.co/papers/2609.08936</link>
-      <description>By Ziyang Ma, Zhikang Niu, Wenming Tu, Tianrui Wang, Ruiqi Yan, et al.
-
-We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To support this broad capability set, we construct approximately 3.03 billion instruction--audio instances and 1.95 million ho...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.08936</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CoVeR: Coverage-Based Token Pruning for Multi-View 3D Reasoning in VLMs</title>
-      <link>https://huggingface.co/papers/2609.08345</link>
-      <description>By Nhat-Tan Bui, Varshini Elangovan, Arun Reddy Anugu, Sreyas Mohan, Wei Ye, et al.
-
-Representing a 3D scene as multi-view images allows 2D VLMs to reason in 3D by reusing priors from pre-training, sidestepping the scarcity of annotated 3D data. However, it produces thousands of redundant visual tokens whose cost grows with every view. Existing visual token pruners fall into two fam...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.08345</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation</title>
       <link>https://huggingface.co/papers/2609.08084</link>
       <description>By Igor Pavlovic, Thiemo Wandel, Anton Obukhov, Luca Bartolomei, Andrey Davydov, et al.
@@ -406,6 +361,42 @@ Ensuring the safety of autonomous driving is a critical challenge. Scenario-base
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems</title>
+      <link>https://huggingface.co/papers/2609.08572</link>
+      <description>By Jaewon Chu, Jinwoo Seo, Jaewon Cho, Jeehye Na, Yunyang Xiong, et al.
+
+Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple agents, yet their performance depends on the prompt design of each agent. For MAS prompt optimization, textual gradient methods that guide prompt updates using natural-language fee...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.08572</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean</title>
+      <link>https://huggingface.co/papers/2609.09264</link>
+      <description>By Idan Davidovich, Debargha Ganguly, Vikash Singh, Vipin Chaudhary
+
+Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition math, such as the IMO and Putnam, that poorly represent field-specific applications. We introduce StochBench, a Lean 4 benchmark of 450 graduate stochastic-processes problems at vary...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.09264</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements</title>
+      <link>https://huggingface.co/papers/2509.01809</link>
+      <description>By Youssef Chaabouni, David Gamarnik
+
+We consider the problem of support recovery for sparse binary signals from noisy linear measurements. For sparse Gaussian measurement matrices we identify sufficient conditions on the minimal sample size for maximum-likelihood recovery in the high-SNR regime ds/p to infty, where p denotes the signal...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2509.01809</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SchemeArena: Factorized Stress Testing of Scheming in LLM Agents</title>
+      <link>https://huggingface.co/papers/2609.08126</link>
+      <description>By Jie Ruan, Inderjeet Nair, Amy Liu, Muhammad Khalifa, Yusheng Zhou, et al.
+
+We study scheming in LLM agents, in which agents covertly pursue misaligned goals. Our focus is to understand how scheming arises from the interaction of key factors, such as instrumental goals, environmental affordances, oversight conditions, and perceived consequences. Prior work examines only a s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.08126</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Programmable World Model</title>
       <link>https://huggingface.co/papers/2609.10540</link>
       <description>By Zheng-Hui Huang, Guixu Lin, Jiacheng Lin, Yi-Chuan Huang, Ruihan Yu, et al.
@@ -457,6 +448,15 @@ Existing bias auditing methods typically rely on model outputs, requiring costly
 
 Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt. Their strong performance on captioning, question answering, retrieval and temporal gro...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.10355</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Semantic Bottleneck: Leveraging Semantic Representations for Non-Invasive Speech Decoding</title>
+      <link>https://huggingface.co/papers/2609.10296</link>
+      <description>By Gilad D. Landau, Dulhan Jayalath, Oiwi Parker Jones
+
+Non-invasive speech decoding remains constrained by the low signal-to-noise ratio of neural recordings, which makes fine-grained reconstruction of phonemes or individual words difficult. Motivated by neuroscientific evidence that high-level semantic representations are distributed across cortical re...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.10296</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

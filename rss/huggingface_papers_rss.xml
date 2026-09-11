@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 05:45:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 11:02:00 +0000</lastBuildDate>
     <item>
       <title>A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware</title>
       <link>https://huggingface.co/papers/2609.05463</link>
@@ -64,22 +64,13 @@ Humans need to study only a handful of well-written textbooks to master a discip
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MasterControl Seventeen Every Time</title>
-      <link>https://huggingface.co/papers/2609.03209</link>
-      <description>By MasterControl AI Lab
+      <title>TempCloze: Can Video-LLMs Identify the Missing Middle?</title>
+      <link>https://huggingface.co/papers/2609.01515</link>
+      <description>By Wenqi Pei, Henry Hengyuan Zhao, Yilai Liu, Jiahao Meng, Han Chen, et al.
 
-We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approved analytical program that returns both results and evidence. We show that this restriction can remain expressive within a defined analytical class,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.03209</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Graph Machine: Towards Better Pretraining via Edges</title>
-      <link>https://huggingface.co/papers/2609.02881</link>
-      <description>By Lintai Hou
-
-We introduce the Graph Machine (GM), an architecture that maintains an O(n)-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves O(n) complexity in its sparse layers without restricting the potentially accessibl...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.02881</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors. To reduce such shortcuts, we introduce TempCloze, a video cloze benchmark for evaluating visual temporal reasoning in Video...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.01515</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution</title>
@@ -91,33 +82,6 @@ Training data attribution (TDA) aims to identify training examples that shape mo
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EVOHARNESSBENCH: Can Your Agents Keep Pace with an Evolving Harness?</title>
-      <link>https://huggingface.co/papers/2609.04280</link>
-      <description>By Zixuan Ke, Vaidehi Patil, Haizhou Shi, Yang Li, Ye Liu, et al.
-
-Modern LLM-based agents operate through a harness of tools, reusable skills, and specialist agents that shapes what they observe and what they can do. In practice, this harness continually evolves as new capabilities are added. We introduce EVOHARNESSBENCH, a benchmark for evaluating agents under co...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04280</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning 3D Editing without Paired Supervision via Generative Prior Distillation</title>
-      <link>https://huggingface.co/papers/2609.04942</link>
-      <description>By Hao Wen, Weibin Yun, Hongxing Fan, Haotian Lu, Rui Chen, et al.
-
-Instruction-guided 3D editing is essential for interactive content creation, yet it faces a significant bottleneck: the severe scarcity of high-quality paired training data. Existing approaches attempt to bypass this by either relying on slow test-time optimization or training on pseudo-pairs constr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.04942</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RenderFormer-V2: Neural Rendering with Heterogeneous Scene Primitives</title>
-      <link>https://huggingface.co/papers/2609.05738</link>
-      <description>By Chong Zeng, Yue Dong, Pieter Peers, Lvmin Zhang, Maneesh Agrawala
-
-We present 'RenderFormer-V2', a unified learned transformer-based neural rendering model, complementary to modern physics-based rendering systems, that can handle diverse light-transport effects such as caustics, volumetric scattering, environment lighting, textured and displaced surfaces and out-of...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.05738</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data</title>
       <link>https://huggingface.co/papers/2609.05405</link>
       <description>By Ji Soo Lee, Xilun Chen, Pierce Chuang, Ashish Shenoy, Jason Wei, et al.
@@ -125,24 +89,6 @@ We present 'RenderFormer-V2', a unified learned transformer-based neural renderi
 Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-ch...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.05405</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Counter-Swarm Doctrine: Containing Coordinated Agent Intrusions</title>
-      <link>https://huggingface.co/papers/2609.06140</link>
-      <description>By Gregory N Frank
-
-Agents can turn shared infrastructure into a channel for coordinated intrusion. The Hugging Face incident and a separate public-wiki investigation show why a security assessment may need evidence from several executions and the artifacts they leave behind. We argue that the operational unit of defen...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.06140</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VDiff-Bench: A Challenging Benchmark for Fine-Grained Image Difference Identification</title>
-      <link>https://huggingface.co/papers/2609.06245</link>
-      <description>By Yixin Wan, Tianle Zheng, Kai-Wei Chang
-
-Multimodal Large Language Models (MLLMs) perform strongly on general visual understanding tasks such as visual question answering, yet they often struggle with a basic comparative skill: identifying what has changed between two similar images. We introduce VDiff-Bench, a challenging multiple-choice ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.06245</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Diffs vs. Whole Files: An Empirical Comparison of Iterative Edit-Based and Direct Generation for Flutter/Dart Code Models</title>
@@ -242,15 +188,6 @@ Invasive coronary angiography (CAG) is the gold standard for diagnosing coronary
 Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to reconstruct and reason about the 3D structure of the scene depicted in 2D images -- referred to as spatial intelligence -- remains limited. Existing approaches attempt to address this ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.07064</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting</title>
-      <link>https://huggingface.co/papers/2609.09140</link>
-      <description>By Tobias Susetzky, Raphael Rehms, Dmitrii Seletkov, Özgün Turgut, Michelle Espranita Liman, et al.
-
-The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular tempor...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.09140</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR</title>
@@ -424,6 +361,15 @@ We study how model post-training and test-time inference design affect natural-l
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes</title>
+      <link>https://huggingface.co/papers/2609.10016</link>
+      <description>By Remco Hendriks
+
+We introduce MetroLLM-Bench, a 955-case benchmark for testing language models as the policy layer of a transit kiosk. It covers six real metro systems, ranging from 37 to 414 stations, and eleven categories that include routing, fare calculation, disruptions, accessibility, and adversarial input. In...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.10016</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks</title>
       <link>https://huggingface.co/papers/2609.11042</link>
       <description>By Junyao Yang, Yucheng Shi, Zhongzhi Li, Ruhan Wang, Zongxia Li, et al.
@@ -457,6 +403,60 @@ Autoregressive video world models enable interactive, long-horizon exploration, 
 
 Code world models represent worlds as executable programs, but this representation alone does not determine how to construct a complex world. We introduce Recursive Code World Models (RCWM), a framework for reconstructing complex 3D worlds in code from a single reference image. RCWM couples a Recurs...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.11499</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generative Late-Interaction Embeddings For Visual Document Retrieval</title>
+      <link>https://huggingface.co/papers/2609.11808</link>
+      <description>By Mohamed Eltahir, Talal Aloushan, Rose Khairoalsendi, Jana Shata, Mohammed Alhassan, et al.
+
+Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage. Existing compression methods retain a subset or local average of the N~1,000 vectors per page. Under aggressive storage budgets, however, these methods degrade sharply, and alterna...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11808</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation</title>
+      <link>https://huggingface.co/papers/2609.11412</link>
+      <description>By Haojun Zhang, Yi Zou, Min Chen, Qize Yu, Lianrui Fan, et al.
+
+Reducing audio-encoder depth lowers the inference cost of speech large language models, but removing complete blocks perturbs the embeddings consumed by the decoder and can cause deletion and premature end-of-sequence errors. We introduce X-AuT, a progressive framework that selects layer combination...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11412</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration</title>
+      <link>https://huggingface.co/papers/2609.11156</link>
+      <description>By Zhiwen Yang, Jiayin Li, Chengyu Liu, Hui Zhang, Bingzheng Wei, et al.
+
+All-in-One medical image restoration (MedIR) aims to address diverse tasks across modalities and degradation types using a single universal model. Existing methods typically prioritize modeling inter-task heterogeneity (e.g., distinct data distributions and degradation types). However, they largely ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11156</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat</title>
+      <link>https://huggingface.co/papers/2609.11155</link>
+      <description>By Junlin Liu, Chengwei Li, Yang Gao, Hui Chang, Xinchen Zhang, et al.
+
+Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous systems and air combat. While MARL has demonstrated significant potential in air combat, achieving sophisticated tactical coordination remains a non-trivial challenge. This difficult...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11155</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mi-Ripple: Restoring Images Degraded by Iterative AI Editing</title>
+      <link>https://huggingface.co/papers/2609.11317</link>
+      <description>By Jiayin Chen, Yicheng Xu, Muting Wang
+
+Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digital ripple. We present Mi-Ripple, a diagnosis-guided restoration workflow that suppresses this digital ripple while protecting image structure. Mi-Ripple separates periodic lattice ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11317</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation</title>
+      <link>https://huggingface.co/papers/2609.11486</link>
+      <description>By Vladislav Bargatin, Alexander Yakovenko, Khaled Abud, Dmitriy Vatolin
+
+Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, and iterative refinement, among others, to reach high accuracy. While effective, such biases constrain the model to predefined heuristics, which can limit its expressivity and lead to...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11486</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

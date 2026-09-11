@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 16:17:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 19:30:52 +0000</lastBuildDate>
     <item>
       <title>A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware</title>
       <link>https://huggingface.co/papers/2609.05463</link>
@@ -35,24 +35,6 @@ Quantization has been widely adopted in LLM training and inference to reduce cos
 Automating empirical research is a long-standing direction of AI. Recent automatic research (AutoResearch) agents bring this goal within reach, as modern LLMs show the capability to independently implement solutions and learn from the execution outcomes. Behind these gains, post-training (especially...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.12564</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AgenticGen: Reward-Guided Agentic Video Generation for Advertising</title>
-      <link>https://huggingface.co/papers/2609.09187</link>
-      <description>By Xingyuan Bu, Chengru Song, Hao Zhou, Tao Zhou, Dong Li, et al.
-
-Advertising video generation is not only a video synthesis task, but also a product-conditioned reasoning problem whose success is measured by online business metrics. Recent video foundation models can generate realistic clips from multimodal conditions, yet they do not optimize how a product shoul...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.09187</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation</title>
-      <link>https://huggingface.co/papers/2609.00369</link>
-      <description>By Vida Adeli, Soroush Mehraban, Jacob Rommann, Harrison Sanborn, Cole Clifford, et al.
-
-Generating co-speech gestures that are temporally coherent, semantically aligned with speech, and grounded with surrounding objects remains challenging. Prior speech-driven gesture models emphasize audio-gesture alignment but do not explicitly account for posture constraints or surrounding objects, ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.00369</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TempCloze: Can Video-LLMs Identify the Missing Middle?</title>
@@ -136,6 +118,15 @@ Sequential memory agents process long documents by reading chunks one after anot
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2</title>
+      <link>https://huggingface.co/papers/2608.15380</link>
+      <description>By Kaushalraj Puwar, B. Thangaraju
+
+In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical ones sharing the publ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.15380</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents</title>
       <link>https://huggingface.co/papers/2609.09219</link>
       <description>By Jingjie Ning, Shanshan Zhong, Xiaochuan Li, Ji Zeng
@@ -170,15 +161,6 @@ Invasive coronary angiography (CAG) is the gold standard for diagnosing coronary
 Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to reconstruct and reason about the 3D structure of the scene depicted in 2D images -- referred to as spatial intelligence -- remains limited. Existing approaches attempt to address this ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.07064</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR</title>
-      <link>https://huggingface.co/papers/2609.08650</link>
-      <description>By Youngjun Yu, Sanghwan Jang, Hwanjo Yu
-
-Reinforcement Learning with Verifiable Rewards (RLVR) has been central to the recent success of Large Reasoning Models. However, while RLVR significantly improves single-sample accuracy, it often fails to expand the model's intrinsic reasoning coverage (pass@k) due to limited exploration during trai...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.08650</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails</title>
@@ -340,6 +322,24 @@ We introduce MetroLLM-Bench, a 955-case benchmark for testing language models as
 
 A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient metho...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.10539</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning</title>
+      <link>https://huggingface.co/papers/2609.10445</link>
+      <description>By Mehrnaz Mofakhami, Ananya Sahu, Alejandro R. Salamanca, Daniel D&amp;#39;souza, Alexandre Berard, et al.
+
+Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking users, risks losing ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.10445</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking</title>
+      <link>https://huggingface.co/papers/2609.10745</link>
+      <description>By Parinthapat Pengpun, Simran Khanuja, Graham Neubig
+
+Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pageviews. We broaden this view using knowledge-graph structural metrics that capt...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.10745</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 00:52:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 05:59:55 +0000</lastBuildDate>
     <item>
       <title>A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware</title>
       <link>https://huggingface.co/papers/2609.05463</link>
@@ -37,6 +37,15 @@ Automating empirical research is a long-standing direction of AI. Recent automat
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization</title>
+      <link>https://huggingface.co/papers/2608.30597</link>
+      <description>By Boryeong Cho, Sumyeong Ahn, Se-Young Yun
+
+Direct Preference Optimization (DPO) simplifies alignment through pairwise comparisons but assumes all observed preferences are reliable. Real data often violates this assumption, leading to reversed, weak, or ambiguous labels that cause harmful policy updates. To address this, we propose Posterior ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.30597</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>TempCloze: Can Video-LLMs Identify the Missing Middle?</title>
       <link>https://huggingface.co/papers/2609.01515</link>
       <description>By Wenqi Pei, Henry Hengyuan Zhao, Yilai Liu, Jiahao Meng, Han Chen, et al.
@@ -55,24 +64,6 @@ Training data attribution (TDA) aims to identify training examples that shape mo
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data</title>
-      <link>https://huggingface.co/papers/2609.05405</link>
-      <description>By Ji Soo Lee, Xilun Chen, Pierce Chuang, Ashish Shenoy, Jason Wei, et al.
-
-Recent advances in wearable sensing enable continuous monitoring of physiological and behavioral signals, yet existing benchmarks rarely evaluate whether AI systems can reason over a real user's longitudinal wearable record. We introduce WearableQA, a benchmark comprising 4,084 10-option multiple-ch...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.05405</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Diffs vs. Whole Files: An Empirical Comparison of Iterative Edit-Based and Direct Generation for Flutter/Dart Code Models</title>
-      <link>https://huggingface.co/papers/2609.05779</link>
-      <description>By Andrej Andrejev
-
-Large language models used for code editing can be trained and deployed in at least two output regimes: direct generation, where the model emits the entire modified file in one shot, and iterative diff-based generation ("steps"), where the model emits a sequence of localized search/replace edits app...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.05779</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents</title>
       <link>https://huggingface.co/papers/2609.05903</link>
       <description>By Nanxi Li, Yingzi Ma, Yulong Cao, Edward Suh, Bo Li, et al.
@@ -80,15 +71,6 @@ Large language models used for code editing can be trained and deployed in at le
 Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both indirect prompt injections and direct harmful requests. System-level safety harnesses add an enforcement layer beyond model-level defenses, but existing harnesses are usually designed...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.05903</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DianShi-RxnDB: A Large-Scale, Fine-Grained Organic Reaction Data Platform Built via a Fully Automated Pipeline for Researchers and AI Agents</title>
-      <link>https://huggingface.co/papers/2609.06703</link>
-      <description>By Yubin Wang, Xingjian Wei, Jiang Wu, Yinfan Wang, Boyu Zhu, et al.
-
-High-quality structured organic reaction data are essential for developing artificial intelligence for chemistry (AI4Chem), yet much of this knowledge remains dispersed across patent text, images, and reaction schemes. We present DianShi-RxnDB, a large-scale, fine-grained organic reaction data platf...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.06703</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Train Smarter, Not Harder: Switching Signal-Guided Training in Active Learning</title>
@@ -127,15 +109,6 @@ In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents</title>
-      <link>https://huggingface.co/papers/2609.09219</link>
-      <description>By Jingjie Ning, Shanshan Zhong, Xiaochuan Li, Ji Zeng
-
-AI research agents combine prior knowledge, public sources, and experimental feedback to produce useful results. The Discovery Certification Protocol (DCP) turns claims about these results into executable recovery and feedback tests. Gate 1 validates useful improvement on sealed evaluation. Gate 2 g...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.09219</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DF26: We Cannot Tell Fake From Real Anymore</title>
       <link>https://huggingface.co/papers/2609.07369</link>
       <description>By Severyn Shykula, Andrii Yermakov, Ivan Samarskyi, Dmytro Mishkin, Jan Cech, et al.
@@ -161,24 +134,6 @@ Invasive coronary angiography (CAG) is the gold standard for diagnosing coronary
 Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to reconstruct and reason about the 3D structure of the scene depicted in 2D images -- referred to as spatial intelligence -- remains limited. Existing approaches attempt to address this ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.07064</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails</title>
-      <link>https://huggingface.co/papers/2609.09134</link>
-      <description>By Zhou Yu, Bin Bi, Shiva Kumar Pentyala, Shubham Mehrotra, Sougata Chaudhuri, et al.
-
-Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. S...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.09134</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?</title>
-      <link>https://huggingface.co/papers/2609.09113</link>
-      <description>By Yuqiao Tan, Shizhu He, Jun Zhao, Kang Liu
-
-While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essent...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.09113</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators</title>
@@ -458,6 +413,51 @@ Mainstream robotic policies often adopt a Markovian formulation, but many comple
 Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization. We formalize this vulnerability as Verdict-Preserving-Unfaithfulness (VPU):...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.11085</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization</title>
+      <link>https://huggingface.co/papers/2609.11682</link>
+      <description>By Pingchen Lu, Xiangyi Wang, Xiang Li, Jie Mao, Zikun Qu, et al.
+
+Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing skill optimization methods often rely on costly execution-based evaluation and substantial task data. We introduce COBRA-Skills, an efficient framework that formulates skill optimiza...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11682</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation</title>
+      <link>https://huggingface.co/papers/2609.11115</link>
+      <description>By Koutian Wu, Junjie Zhou, Ergan Shang, Jiayu Wang, Pengqian Han, et al.
+
+Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. We present Benchmark Radar, a living database and search engine for retrieval and...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11115</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking</title>
+      <link>https://huggingface.co/papers/2609.13141</link>
+      <description>By Zhiwei Li, Lei Zhu, Hao Gu, Xiang Hu, Yan Wang, et al.
+
+Post-training attention sparsification reduces the quadratic cumulative attention cost of pretrained Transformers by selecting a small set of context units (tokens or blocks) for each query. Existing trainable methods usually use a lightweight selector to score context units, followed by hard Top-K ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.13141</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SNAP3D: Physically Grounded 3D Parts for Assembly from a Single Image</title>
+      <link>https://huggingface.co/papers/2609.13146</link>
+      <description>By Yu-Rou Tuan, Hao-Tang Tsui, Nicolas Ugrinovic, Kris Kitani, Xiaoxuan Ma
+
+Part-aware 3D asset generation enables applications such as editing, articulation, simulation, and fabrication, yet existing methods can generate visually complete individual parts without ensuring that they form a valid physical assembly. Consequently, generated neighboring parts may interpenetrate...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.13146</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models</title>
+      <link>https://huggingface.co/papers/2609.12641</link>
+      <description>By Jianman Lin, Shailesh Shailesh, Zhongyi Luo, Jiafei Duan
+
+Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. When learning to generate actions from pretrained visual representations, models may exploit task-irrelevant visual cues that correlate with demonstrated actions within the training...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.12641</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

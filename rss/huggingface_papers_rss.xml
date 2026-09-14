@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 05:59:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 12:35:48 +0000</lastBuildDate>
     <item>
       <title>A Three-Layer Caching Architecture for Low-Latency LLM Web Search on Commodity CPU Hardware</title>
       <link>https://huggingface.co/papers/2609.05463</link>
@@ -64,6 +64,24 @@ Training data attribution (TDA) aims to identify training examples that shape mo
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>How Far Can Synthetic Data Take Thai OCR?</title>
+      <link>https://huggingface.co/papers/2609.03595</link>
+      <description>By Kunat Pipatanakul
+
+We investigate what makes synthetic OCR supervision transfer to real Thai documents and use the resulting insights to build Wayu-Paxa-OCR-Zero, a Thai OCR model adapted without OCR labels from real Thai document pages. Synthetic data provide exact labels at scale, but "realism" conflates source doma...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03595</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech</title>
+      <link>https://huggingface.co/papers/2609.03502</link>
+      <description>By Kunat Pipatanakul, Potsawee Manakul, Warit Sirichotedumrong, Sittipong Sripaisarnmongkol, Pakorn Nathong, et al.
+
+In low-resource settings, deploying TTS typically requires choosing between a large voice-cloning model with costly inference or a compact fixed-voice system that requires a speaker-specific corpus. We study a third route: using a large voice-cloning model as a programmable data source to turn a sho...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.03502</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents</title>
       <link>https://huggingface.co/papers/2609.05903</link>
       <description>By Nanxi Li, Yingzi Ma, Yulong Cao, Edward Suh, Bo Li, et al.
@@ -73,13 +91,31 @@ Large Language Model (LLM) agents are turning language into real-world effects, 
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Train Smarter, Not Harder: Switching Signal-Guided Training in Active Learning</title>
-      <link>https://huggingface.co/papers/2609.06806</link>
-      <description>By Nagham Omar, Maya Rozenshtein, Evgeny Mishlyakov, Avigdor Gal
+      <title>Online Learning with LLM Experts from Limited Feedback</title>
+      <link>https://huggingface.co/papers/2609.05820</link>
+      <description>By Wang Wei, Soumyabrata Pal, Koyel Mukherjee, Franck Dernoncourt, Ryan A. Rossi, et al.
 
-Training strategy, namely whether to retrain from scratch or fine-tune from the previous checkpoint, is an overlooked decision variable in active learning. We show that this choice has exploitable structure: retraining is most useful in early rounds, when each batch can substantially reshape the lab...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.06806</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+We study adaptive routing of prompts to large language model (LLM) experts to maximize response quality in an online setting with limited feedback. We formulate it as a bandit problem with K actions that represent experts and d features that encode prompts, over a horizon of T rounds. We propose alg...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.05820</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond Top-k Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents</title>
+      <link>https://huggingface.co/papers/2609.05824</link>
+      <description>By Wang Wei, Tiankai Yang, Samyadeep Basu, Hongjie Chen, Yue Zhao, et al.
+
+Large language model (LLM) agents increasingly rely on external skills, but routing user requests over large skill registries is difficult because many skills are functionally redundant while complex tasks often require complementary skill sets. Existing skill routers typically rank candidates indep...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.05824</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DataFlex-RL: An Evaluation Platform for RLVR Data Policies</title>
+      <link>https://huggingface.co/papers/2609.06107</link>
+      <description>By Hao Liang, Mingrui Chen, Hengyi Feng, Meiyi Qiang, Wentao Zhang
+
+Data policies for reinforcement learning with verifiable rewards (RLVR) determine which rollouts are used, how strongly they are weighted, and which domains contribute to subsequent training batches. We introduce DataFlex-RL, an evaluation platform for comparing these choices under a common GRPO rec...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.06107</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution</title>
@@ -109,15 +145,6 @@ In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DF26: We Cannot Tell Fake From Real Anymore</title>
-      <link>https://huggingface.co/papers/2609.07369</link>
-      <description>By Severyn Shykula, Andrii Yermakov, Ivan Samarskyi, Dmytro Mishkin, Jan Cech, et al.
-
-We introduce DF26, a novel benchmark for detecting AI-generated videos containing fully synthetic clips produced by recent text-to-video and image-to-video models. The videos capture single-person public-speaking scenarios, spanning direct-to-camera recordings, official statements, and studio interv...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.07369</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation</title>
       <link>https://huggingface.co/papers/2609.06931</link>
       <description>By Jia-Jen Lee, Shih-Yen Hou, Kee Koon Ng, Wei-Chun Wang, Shih-Sheng Chang
@@ -134,33 +161,6 @@ Invasive coronary angiography (CAG) is the gold standard for diagnosing coronary
 Large Vision-Language Models (LVLMs) have achieved strong performance on diverse visual tasks, yet their ability to reconstruct and reason about the 3D structure of the scene depicted in 2D images -- referred to as spatial intelligence -- remains limited. Existing approaches attempt to address this ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.07064</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators</title>
-      <link>https://huggingface.co/papers/2609.09155</link>
-      <description>By Yuncong Yang, Zhengtao Han, Furkan Ozyurt, Zeyuan Yang, Han Yang, et al.
-
-World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions. A key obstacle to scaling such models in robotics is that actions are not a universal language in pixel space: chan...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.09155</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents</title>
-      <link>https://huggingface.co/papers/2609.08149</link>
-      <description>By Pujun Zheng, Zixin Shang, Shufan Jiang, Wenhui Tian, Dongsheng Zhu, et al.
-
-SWE-Bench Pro has emerged as a standard benchmark for evaluating software engineering agents on challenging repository-level tasks. However, our analysis work show that its evaluation is undermined by two sources of unreliability: reward hacking, enabled by leakage of gold solutions or hidden evalua...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.08149</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving</title>
-      <link>https://huggingface.co/papers/2609.08965</link>
-      <description>By Yuan Gao, Sebastian Müller, Mattia Piccinini, Marc Kaufeld, Yuchen Zhang, et al.
-
-Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains a fragmented modular pipeline in which scenario generation, retrieval, modification, ADS execution, and results analysi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.08965</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems</title>
@@ -217,22 +217,13 @@ Image tokenizers define the ``visual language'' of unified multimodal models, ye
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States</title>
-      <link>https://huggingface.co/papers/2609.10060</link>
-      <description>By Marek Jeliński, Jan Dubiński, Maciej Chrabaszcz, Sebastian Cygert
+      <title>Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models</title>
+      <link>https://huggingface.co/papers/2609.08418</link>
+      <description>By Zongjie Li, Alan Z. W, John Nicolas J, Walter H. F, Scott Donald L, et al.
 
-Existing bias auditing methods typically rely on model outputs, requiring costly benchmarks or judge models and potentially missing internal shifts that never appear in generated text. We propose a reference-based method that audits bias in hidden-state representations across related model variants,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.10060</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs</title>
-      <link>https://huggingface.co/papers/2609.10355</link>
-      <description>By Killian Steunou, Yannis Tevissen, Mounîm A. El Yacoubi
-
-Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and condition generation on a textual prompt. Their strong performance on captioning, question answering, retrieval and temporal gro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.10355</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+Training capable cyber agents is often treated primarily as a problem of model scale, yet open-weight post-training is constrained more directly by the cost of executable environments, reliable multi-turn supervision, and access to strong teachers. We present a data-centric framework that addresses ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.08418</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Semantic Bottleneck: Leveraging Semantic Representations for Non-Invasive Speech Decoding</title>
@@ -457,6 +448,15 @@ Part-aware 3D asset generation enables applications such as editing, articulatio
 
 Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. When learning to generate actions from pretrained visual representations, models may exploit task-irrelevant visual cues that correlate with demonstrated actions within the training...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.12641</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>StepAudio 3 Gen Technical Report</title>
+      <link>https://huggingface.co/papers/2609.12945</link>
+      <description>By Bin Lin, Bo Zhao, Boyang Wang, Boyang Zhang, Boyong Wu, et al.
+
+We introduce StepAudio 3 Gen, a general-purpose audio generation model that supports zero-shot text-to-speech (TTS), voice design, vocal generation, sound effects, music, vibe speech, and mixtures of multiple audio types within a unified framework. At its core, StepAudio 3 Gen is a discrete autoregr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.12945</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

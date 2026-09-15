@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 22:23:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 01:19:52 +0000</lastBuildDate>
     <item>
       <title>HyQuant: Hybrid-Precision Quantization for LLM Attention</title>
       <link>https://huggingface.co/papers/2608.27875</link>
@@ -17,15 +17,6 @@
 Quantization has been widely adopted in LLM training and inference to reduce cost and improve efficiency. However, low-bit quantization of the attention module often introduces large errors at very low bit-widths, causing performance degradation. Existing methods mainly rely on smoothing techniques ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.27875</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Scaling Automatic Research Agents via World Models</title>
-      <link>https://huggingface.co/papers/2608.12564</link>
-      <description>By Xiyuan Yang, Sheikh Sarwar, Jingru Cheng, Zhan Shi, Duanshun Li, et al.
-
-Automating empirical research is a long-standing direction of AI. Recent automatic research (AutoResearch) agents bring this goal within reach, as modern LLMs show the capability to independently implement solutions and learn from the execution outcomes. Behind these gains, post-training (especially...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2608.12564</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization</title>
@@ -64,6 +55,15 @@ In low-resource settings, deploying TTS typically requires choosing between a la
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work</title>
+      <link>https://huggingface.co/papers/2609.11977</link>
+      <description>By Wenhui Chen, Shiwen Cheng, Hao Dong, Chenda Duan, Ruixiang Feng, et al.
+
+Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations. Because cost and latency accumulate over the full episode, their practical value depends not only on peak capability but also on how efficiently that ca...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.11977</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents</title>
       <link>https://huggingface.co/papers/2609.05903</link>
       <description>By Nanxi Li, Yingzi Ma, Yulong Cao, Edward Suh, Bo Li, et al.
@@ -100,13 +100,13 @@ Data policies for reinforcement learning with verifiable rewards (RLVR) determin
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents</title>
-      <link>https://huggingface.co/papers/2609.06702</link>
-      <description>By Kun Li, Zexuan Qiu, Tianhua Zhang, Irwin King, Helen Meng
+      <title>MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control</title>
+      <link>https://huggingface.co/papers/2609.06251</link>
+      <description>By Ting Huang, Yue Huang, Zeyu Zhang, Shuicheng Yan, Hao Tang
 
-Sequential memory agents process long documents by reading chunks one after another while maintaining a compact memory state, coupling document traversal to reasoning depth. This coupling introduces sensitivity to evidence placement and ties inference latency linearly to document length. We introduc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.06702</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+Grounding natural-language instructions into reliable and executable actions remains a fundamental challenge for vision-language-action (VLA) systems on mobile robots, due to the persistent gap between high-level semantic reasoning and low-level locomotion and manipulation control. Existing approach...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.06251</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2</title>
@@ -116,15 +116,6 @@ Sequential memory agents process long documents by reading chunks one after anot
 In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical ones sharing the publ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.15380</guid>
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CARDEA: Auditable Reasoning Grounded in Spatial Evidence for End-to-End Coronary Angiography Interpretation</title>
-      <link>https://huggingface.co/papers/2609.06931</link>
-      <description>By Jia-Jen Lee, Shih-Yen Hou, Kee Koon Ng, Wei-Chun Wang, Shih-Sheng Chang
-
-Invasive coronary angiography (CAG) is the gold standard for diagnosing coronary artery disease, but interpretation varies substantially among observers. Existing AI systems can improve consistency but lack auditable decision processes and are limited in comprehensive open-ended assessment, undermin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.06931</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem</title>
@@ -169,6 +160,15 @@ Training capable cyber agents is often treated primarily as a problem of model s
 
 Chunk-autoregressive video world models typically condition each generated chunk on one action. An action received during sampling must therefore wait for the next chunk, condition future solver evaluations on a state produced under the previous action, or trigger rollback that repeats completed eva...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.08230</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReMoMask-2: Latent Retrieval-Augmented Masked Motion Generation</title>
+      <link>https://huggingface.co/papers/2609.08365</link>
+      <description>By Yiran Wang, Zeyu Zhang, Ling Shao, Hao Tang
+
+Text-to-motion (T2M) generation maps natural language to human joint movements, aiding gaming, VR, and robotics. Retrieval-Augmented Text-to-Motion (RAG-T2M) improves generation on complex descriptions by conditioning on retrieved motion-text pairs. However, existing RAG-T2M models face two challeng...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.08365</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -253,22 +253,13 @@ Large language models are unreliable at arithmetic, which is a problem for clini
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks</title>
-      <link>https://huggingface.co/papers/2609.11042</link>
-      <description>By Junyao Yang, Yucheng Shi, Zhongzhi Li, Ruhan Wang, Zongxia Li, et al.
+      <title>ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs</title>
+      <link>https://huggingface.co/papers/2609.10895</link>
+      <description>By Yizhan Li, Jianxin You, Mengyang Xiong, Yinhuan Chen, Zicheng Zhao, et al.
 
-Agent usage is shifting toward long-horizon tasks such as coding and scientific discovery, among which terminal tasks are especially important. We introduce T1, a Mixture-of-Experts model of 122B total trained with reinforcement learning, operating a real shell in a cloud sandbox for up to 300+ tool...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.11042</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SenseNova-U1.5: Towards Native Unified Visual Intelligence</title>
-      <link>https://huggingface.co/papers/2609.11929</link>
-      <description>By Haiwen Diao, Jiahao Wang, Chenjing Ding, Hanming Deng, Jiangnan Chen, et al.
-
-We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.11929</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+Reacting to sudden physical hazards (catching a slipping plate, dodging a falling knife) is both a meaningful test of embodied intelligence and a hard requirement for deploying multimodal large language models (MLLMs) as the decision coreof household robots. Existing evaluations, however, probe intu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.10895</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>World in World: Explore the World with World Models</title>
@@ -421,6 +412,15 @@ Objects in post-fire environments often undergo irreversible physical transforma
 
 In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, crowd, or statistical forecast and must decide whether the model adds useful information or should be ignored. The relevant target is therefore not standalone model accuracy, but re...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.12101</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pelican-Sim 1.0: A General World Model Simulator for Embodied Intelligence</title>
+      <link>https://huggingface.co/papers/2609.12036</link>
+      <description>By Shilong Zou, Shilin Zhang, Yingji Zhang, Yuhang Huang, Yi Zhang, et al.
+
+In this technical report, we propose Pelican-Sim 1.0, a general world model simulator for embodied intelligence that predicts future observations from visual context and robot actions to support downstream learning and decision making. The model incorporates four key design features: (1) Unified act...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.12036</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

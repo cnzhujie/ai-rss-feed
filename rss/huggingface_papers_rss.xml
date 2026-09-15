@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 13:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 18:04:54 +0000</lastBuildDate>
+    <item>
+      <title>Learning Sparse Decision Trees via Transformer Variational Auto-Encoders</title>
+      <link>https://huggingface.co/papers/2609.01430</link>
+      <description>By Giacomo Fidone, Alessio Cascione, Riccardo Guidotti
+
+Decision trees are among the most widely used models in machine learning, largely due to their transparent decision logic, making them well-suited for high-stakes decision-making contexts. However, most existing learning algorithms focus on predictive performance, overlooking the joint optimization ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.01430</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Far Can Synthetic Data Take Thai OCR?</title>
       <link>https://huggingface.co/papers/2609.03595</link>
@@ -71,15 +80,6 @@ Data policies for reinforcement learning with verifiable rewards (RLVR) determin
 Grounding natural-language instructions into reliable and executable actions remains a fundamental challenge for vision-language-action (VLA) systems on mobile robots, due to the persistent gap between high-level semantic reasoning and low-level locomotion and manipulation control. Existing approach...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.06251</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models</title>
-      <link>https://huggingface.co/papers/2609.08418</link>
-      <description>By Zongjie Li, Alan Z. W, John Nicolas J, Walter H. F, Scott Donald L, et al.
-
-Training capable cyber agents is often treated primarily as a problem of model scale, yet open-weight post-training is constrained more directly by the cost of executable environments, reliable multi-turn supervision, and access to strong teachers. We present a data-centric framework that addresses ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.08418</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ActionSplice: In-Flight Action Editing for Interactive World Models</title>
@@ -154,24 +154,6 @@ Diffusion large language models (dLLMs) achieve high decoding efficiency through
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization</title>
-      <link>https://huggingface.co/papers/2609.11682</link>
-      <description>By Pingchen Lu, Xiangyi Wang, Xiang Li, Jie Mao, Zikun Qu, et al.
-
-Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing skill optimization methods often rely on costly execution-based evaluation and substantial task data. We introduce COBRA-Skills, an efficient framework that formulates skill optimiza...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.11682</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation</title>
-      <link>https://huggingface.co/papers/2609.11115</link>
-      <description>By Koutian Wu, Junjie Zhou, Ergan Shang, Jiayu Wang, Pengqian Han, et al.
-
-Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. We present Benchmark Radar, a living database and search engine for retrieval and...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.11115</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Ambient @ EgoLongQA 2026: Distilling Long-Video perception into a Sub-2B Model</title>
       <link>https://huggingface.co/papers/2609.07154</link>
       <description>By Logesh Kumar Umapathi
@@ -233,15 +215,6 @@ In this technical report, we propose Pelican-Sim 1.0, a general world model simu
 We present Vidu S2, which comprises Vidu S2-Avatar, a real-time interactive digital-character model, and Vidu S2-Editing, a real-time video editing model. Moreover, we explore the feasibility of real-time spatial video generation for both Vidu S2-Avatar and Vidu S2-Editing. Compared with Vidu S1, Vi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.11638</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Breaking the Vision-Action Shortcut: Latent Interface Training for Generalizable Robotics Foundation Models</title>
-      <link>https://huggingface.co/papers/2609.12641</link>
-      <description>By Jianman Lin, Shailesh Shailesh, Zhongyi Luo, Jiafei Duan
-
-Robot foundation models achieve strong in-distribution performance but often degrade under visual distribution shifts. When learning to generate actions from pretrained visual representations, models may exploit task-irrelevant visual cues that correlate with demonstrated actions within the training...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.12641</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>StepAudio 3 Gen Technical Report</title>
@@ -307,12 +280,39 @@ Visual goal and dynamics prediction can provide language-conditioned robot polic
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures</title>
+      <link>https://huggingface.co/papers/2609.13463</link>
+      <description>By Harsh Raj, David Lee, Anas Mahmoud, Renxiong Wang, Razvan-Gabriel Dumitru, et al.
+
+The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. The sheer scale of the data renders human review impractical, driving...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.13463</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thought without systematicity? Evaluating reasoning models on rule induction tasks</title>
+      <link>https://huggingface.co/papers/2609.13948</link>
+      <description>By Simon Schug, Brenden M. Lake
+
+A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to understanding close variations of that concept. Do reasoning models robustly exhibit such systematicity? If so, we would expect consistent performance on structurally equivalent va...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.13948</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video</title>
       <link>https://huggingface.co/papers/2609.14462</link>
       <description>By Jiaming Tan, Mingliang Zhai, Zhen Li, Yuwei Wu, Chuanhao Li, et al.
 
 Interactive video world models must maintain broad scene context under camera motion while producing high-fidelity observations with low latency. Existing approaches face a representation trade-off: perspective models operate on local views and must preserve off-screen content over long rollouts, wh...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.14462</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning</title>
+      <link>https://huggingface.co/papers/2609.14302</link>
+      <description>By Xiaoya Wang, Yutong Xu, Junjie Wang
+
+Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated statements are supported, but not whether evidence remains traceable through rationale, confidence, and fin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.14302</guid>
       <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

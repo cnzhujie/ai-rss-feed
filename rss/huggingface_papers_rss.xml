@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 13:22:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 18:05:08 +0000</lastBuildDate>
     <item>
       <title>Learning Sparse Decision Trees via Transformer Variational Auto-Encoders</title>
       <link>https://huggingface.co/papers/2609.01430</link>
@@ -35,24 +35,6 @@ Language models may need to internalize information that arrives over time and r
 The KV cache is a primary bottleneck for Transformer decoding: its memory footprint and cache-read traffic grow with sequence length. Grouped-query attention (GQA) reduces this cost by sharing key-value heads, but still stores both a key and a value at every step. We introduce Grouped Value Attentio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.13285</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attention-DP3: Spatially Object-aware 3D Diffusion Policy via Geometry-aligned Attentional Conditioning</title>
-      <link>https://huggingface.co/papers/2609.13318</link>
-      <description>By Changbo Yan, Zhongbo Zhang, Zaibin Zhang, Yifan Wang, Lijun Wang, et al.
-
-3D point-cloud observations are inherently ambiguous in complex, cluttered manipulation scenes, where target objects may be partially occluded or tightly intermingled with visually similar distractors. As a result, standard 3D diffusion policies often struggle to localize and exploit task-relevant g...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.13318</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation</title>
-      <link>https://huggingface.co/papers/2609.11638</link>
-      <description>By Jintao Zhang, Kai Jiang, Jintao Chen, Xu Wang, Deyuan Liu, et al.
-
-We present Vidu S2, which comprises Vidu S2-Avatar, a real-time interactive digital-character model, and Vidu S2-Editing, a real-time video editing model. Moreover, we explore the feasibility of real-time spatial video generation for both Vidu S2-Avatar and Vidu S2-Editing. Compared with Vidu S1, Vi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.11638</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement</title>
@@ -145,6 +127,24 @@ We introduce StepAudio 3 Music, a large-scale, long-form music generation model 
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement</title>
+      <link>https://huggingface.co/papers/2609.13406</link>
+      <description>By Hongyao Tang, Yi Ma, Pengyi Li, Yifu Yuan
+
+When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists. Its counterpart in the...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.13406</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs</title>
+      <link>https://huggingface.co/papers/2609.12552</link>
+      <description>By Maëlic Neau
+
+Open-vocabulary detection accepts any class list at inference, and promptable segmentation returns regions without class names: the taxonomy has left the model and become an input. Relation prediction has not. Scene-graph models are still trained and evaluated on the 50 or 56 predicates of one annot...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.12552</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Thought without systematicity? Evaluating reasoning models on rule induction tasks</title>
       <link>https://huggingface.co/papers/2609.13948</link>
       <description>By Simon Schug, Brenden M. Lake
@@ -226,22 +226,13 @@ This paper reports experiments across six frontier model types from OpenAI, Anth
       <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>BVB: Benchmarking Agentic Video Understanding via Programmatic Reconstruction in Blender</title>
-      <link>https://huggingface.co/papers/2609.15478</link>
-      <description>By Yolo Y. Tang, Daiki Shimada, Jiayue Meng, Jing Bi, Pinxin Liu, et al.
+      <title>OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning</title>
+      <link>https://huggingface.co/papers/2609.16057</link>
+      <description>By Xu Xu, Jinxiu Liu, Zhangbo Qiao, Jiaxing Lu, Xiangyu Zhang, et al.
 
-Multimodal agents can create complex videos in software such as Blender by coding without relying on diffusion models. Yet video understanding benchmarks still evaluate models mainly through question answering. If an agent truly understands a video, it can reconstruct it programmatically. We introdu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.15478</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Discovery Foundation Models: Toward Open-Ended Discovery Intelligence</title>
-      <link>https://huggingface.co/papers/2609.15973</link>
-      <description>By Ling Yang, Zhenfei Yin, Yingcheng Wu
-
-Foundation models have progressed from learning and reasoning over existing knowledge, to increasingly learning through action, tool use, and outcome feedback. We argue that the next frontier is a further transition: from solving and acting within problems specified by humans to participating in the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.15973</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation. However, three limitations remain. (1) Existing methods often distill task-specific experience with limited generalizability. (2) Reflection is often deferred until task completion. (3) Knowledg...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.16057</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training</title>
@@ -457,6 +448,15 @@ As AI agents move from bounded tasks to persistent deployments, failures can pro
 
 Language model-generated rubrics are increasingly used as reward signals for rubric-based reinforcement learning, LLM-as-a-judge evaluation, and automated grading. Such rubrics are reliable only if they reward honest answers over adversarial answers optimized to exploit them. Yet their robustness to...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.16816</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FLAT: Resampling Image and Text into 1D Flexible-Length Aligned Transmodal Tokens for Retrieval and Generation</title>
+      <link>https://huggingface.co/papers/2609.16591</link>
+      <description>By Guangyu Sun, Shlok Kumar Mishra, Wentao Bao, Robert Zhenheng Yang, Xiao Wang, et al.
+
+Traditional multimodal representation learning and generation are two stages: a contrastive or self-supervised visual encoder is trained first, followed by a separate downstream generative model. This setup bottlenecks generative performance behind frozen embeddings. To bridge this gap, we revisit j...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.16591</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

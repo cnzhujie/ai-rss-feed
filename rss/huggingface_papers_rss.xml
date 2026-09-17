@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 07:28:50 +0000</lastBuildDate>
-    <item>
-      <title>Learning Sparse Decision Trees via Transformer Variational Auto-Encoders</title>
-      <link>https://huggingface.co/papers/2609.01430</link>
-      <description>By Giacomo Fidone, Alessio Cascione, Riccardo Guidotti
-
-Decision trees are among the most widely used models in machine learning, largely due to their transparent decision logic, making them well-suited for high-stakes decision-making contexts. However, most existing learning algorithms focus on predictive performance, overlooking the joint optimization ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.01430</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 17 Sep 2026 13:18:00 +0000</lastBuildDate>
     <item>
       <title>Continual Learning Mechanisms Compose for Long-Horizon Memorization</title>
       <link>https://huggingface.co/papers/2609.06986</link>
@@ -82,15 +73,6 @@ Open-vocabulary detection accepts any class list at inference, and promptable se
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Thought without systematicity? Evaluating reasoning models on rule induction tasks</title>
-      <link>https://huggingface.co/papers/2609.13948</link>
-      <description>By Simon Schug, Brenden M. Lake
-
-A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to understanding close variations of that concept. Do reasoning models robustly exhibit such systematicity? If so, we would expect consistent performance on structurally equivalent va...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.13948</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Training Specialist Models without Reasoning Trajectories for Domain Expert Distillation</title>
       <link>https://huggingface.co/papers/2609.13770</link>
       <description>By Yilei Tu, Zihao Li, Shaoxiong Ji, Jörg Tiedemann, Fei Yuan
@@ -125,15 +107,6 @@ Realtime spoken interaction demands deep reasoning, prompt responses, and fluid 
 Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provided in its prompt and apply them to new inputs, has been extensively studied in large language models trained for next-token prediction on human text. Recently, few-shot ICL has bee...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.14011</guid>
       <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning</title>
-      <link>https://huggingface.co/papers/2609.14302</link>
-      <description>By Xiaoya Wang, Yutong Xu, Junjie Wang
-
-Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated statements are supported, but not whether evidence remains traceable through rationale, confidence, and fin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.14302</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition</title>
@@ -179,24 +152,6 @@ Recently, linear attention layers have been increasingly adopted to replace soft
 Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak allocation exceeds device memory, so the target is every peak at once, not the average footprint. Four are left unbounded by the parallelism plans in common use, and each grows dif...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.14306</guid>
       <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs</title>
-      <link>https://huggingface.co/papers/2609.15635</link>
-      <description>By Sebastián Andrés Cajas Ordóñez, Maximin Lange, Quang Bui, Anqi Peter Li, Felipe Ocampo Osorio, et al.
-
-A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also uses the image. ModaLens, a paired image-swap audit, measures how report availability changes image sensitivity: MedGemma-27B on 3,199 paired MIMIC-CXR cases from 293 patients, all 1...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.15635</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Lossless Is Lossless Speculative Decoding? The Role of Numerical Precision in Orthrus</title>
-      <link>https://huggingface.co/papers/2609.15504</link>
-      <description>By Ilya Koziev, Leonid Sinev, Ivan Oseledets
-
-Orthrus is a hybrid autoregressive-diffusion architecture that accelerates autoregressive language-model inference by generating multiple tokens in parallel while using a frozen autoregressive backbone. Its central claim is that an intra-model consensus mechanism enables lossless speculative decodin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.15504</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Router Within: Eliciting Native Skill Routing from a Frozen LLM</title>
@@ -280,6 +235,15 @@ Scientific agents contribute to hypothesis discovery by synthesizing evidence, a
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Assessing nnU-Net Generalization across Brain Tumor Populations in BraTS-GoAT 2026</title>
+      <link>https://huggingface.co/papers/2609.15524</link>
+      <description>By Tristan Kirscher, Vivian Metzger, Philippe Meyer, Xavier Coubez
+
+BraTS-GoAT evaluates tumor segmentation across heterogeneous populations. We trained a conventional 3D nnU-Net on 1,351 labeled cases using five-fold cross-validation and 1,000 epochs per fold. The final predictor averaged all folds and applied test-time mirroring. On pooled official validation, glo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.15524</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents</title>
       <link>https://huggingface.co/papers/2609.17523</link>
       <description>By Shuhan Xue, Jianyuan Zhong, Ziyuan Nan, Wenbin Li, Zhaochen Yu, et al.
@@ -343,15 +307,6 @@ Traditional multimodal representation learning and generation are two stages: a 
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence</title>
-      <link>https://huggingface.co/papers/2609.17488</link>
-      <description>By Xingxuan Zhang, Gang Ren, Hao Yuan, Hao Zou, Hongze Tan, et al.
-
-We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is pretrained with Context-Conditional Masked Modeling (CCMM). CMNs shifts the organ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.17488</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset</title>
       <link>https://huggingface.co/papers/2609.17189</link>
       <description>By Ryosei Hara, Wataru Ikeda, Masashi Hatano, Mariko Isogawa
@@ -385,6 +340,24 @@ We introduce Zing-0.5, a 5B autoregressive world model designed for playability:
 
 Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated estimate of the probability that an output is correct decides what to ship, what to escalate, and what to retry. Existing confidence estimators, however, share one design premise: th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.17708</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence</title>
+      <link>https://huggingface.co/papers/2609.17488</link>
+      <description>By Xingxuan Zhang, Gang Ren, Hao Yuan, Hao Zou, Hongze Tan, et al.
+
+We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is pretrained with Context-Conditional Masked Modeling (CCMM). CMNs shifts the organ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.17488</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches</title>
+      <link>https://huggingface.co/papers/2609.17652</link>
+      <description>By Vivek Kalyanarangan
+
+When agentic sessions run to a million tokens with many sessions resident at once, the KV cache and the index that ranks it live in host memory, and the scan that ranks all n keys for a top-k step becomes the traffic that bounds decoding. We present Fathom, a key scan in which each query decides how...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.17652</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +430,33 @@ In reinforcement learning for large language models, Proximal Policy Optimizatio
 
 Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Existing methods that c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.19143</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction</title>
+      <link>https://huggingface.co/papers/2609.18063</link>
+      <description>By Yu Lin, Yiming Wang, Runyuan Cai, Hanze Liu, Xiaodong Zeng
+
+Mixture-of-experts (MoE) inference on consumer hardware is bounded by weight memory: a 35B-class model is 19.5GB at 4-bit, and sparsity shrinks the compute per token, not the bytes that must be held. Naive offloading to SSD does not help on its own, because layer N+1's experts must be chosen before ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.18063</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>In-Context Robot Learning with VLM Agents</title>
+      <link>https://huggingface.co/papers/2609.19138</link>
+      <description>By Dongzhou Cheng, Taoran Yi, Ye Fang, Xingwu Zhang, Fan Feng, et al.
+
+Enabling robots to adapt to unfamiliar environments as readily as humans remains a moonshot goal of embodied AI. No finite collection of demonstrations can cover every task and situation a robot will encounter, making the ability to learn from context at deployment essential for generalization. Such...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.19138</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents</title>
+      <link>https://huggingface.co/papers/2609.18779</link>
+      <description>By Jiaxuan Jiang, Liyuan He, Zhixuan Fang
+
+Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, limiting their ability to respond to evolving agent capabilities. This disconnect prevents routing strategies from adapting to evolving agent capabilities during post-training and pre...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.18779</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

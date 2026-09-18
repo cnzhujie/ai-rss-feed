@@ -8,15 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Sep 2026 07:17:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 12:52:32 +0000</lastBuildDate>
     <item>
-      <title>StepAudio 3 Music Technical Report</title>
-      <link>https://huggingface.co/papers/2609.16034</link>
-      <description>By Chengli Feng, Zhiyue Wu, Jiahao Song, Zheqi Dai, Boyang Wang, et al.
+      <title>Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts</title>
+      <link>https://huggingface.co/papers/2609.05661</link>
+      <description>By Anil Pai
 
-We introduce StepAudio 3 Music, a large-scale, long-form music generation model that supports explicit musical planning and open-domain text-controlled generation. The StepAudio Music Tokenizer represents audio as a 50-Hz stream from a 65536-entry single codebook, using semantically informed self-su...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.16034</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Bengali, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, and Odia. Rather than generating fonts from scratch, Srijika restyles glyph outlines from shaping-complete template fonts. It pr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.05661</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement</title>
@@ -35,33 +35,6 @@ When we speak of recursive self-improvement (RSI), are we speaking of a phenomen
 Open-vocabulary detection accepts any class list at inference, and promptable segmentation returns regions without class names: the taxonomy has left the model and become an input. Relation prediction has not. Scene-graph models are still trained and evaluated on the 50 or 56 predicates of one annot...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.12552</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>StepAudio 3 Realtime Technical Report</title>
-      <link>https://huggingface.co/papers/2609.14005</link>
-      <description>By Bin Lin, Bo Zhao, Boyang Zhang, Boyong Wu, Chao Yan, et al.
-
-Realtime spoken interaction demands deep reasoning, prompt responses, and fluid turn-taking. We present StepAudio 3 Realtime, an audio-language foundation model organized around a continuous listen-converse-think-act loop. Deep Perception captures rich acoustic cues to interpret user intent, while S...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.14005</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Convergent Emergence of In-Context Learning Across Modalities</title>
-      <link>https://huggingface.co/papers/2609.14011</link>
-      <description>By Nathan Breslow, Seungwook Han, Daniel Hyunsoo Lee, Aayush Mishra, Anqi Liu, et al.
-
-Few-shot in-context learning (ICL), the capacity of a model to infer abstract patterns from input-output examples provided in its prompt and apply them to new inputs, has been extensively studied in large language models trained for next-token prediction on human text. Recently, few-shot ICL has bee...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.14011</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Another Blueprint In The Wall: How to Ask Frontier AI Like a Kid?</title>
-      <link>https://huggingface.co/papers/2609.14803</link>
-      <description>By Afshin Khadangi
-
-This paper reports experiments across six frontier model types from OpenAI, Anthropic, xAI, and Google DeepMind. Ten independent sessions per model type used the same three stage prompt sequence, progressing from architectural preference to a full ASCII backbone. Under the school audience framing, r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.14803</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning</title>
@@ -89,24 +62,6 @@ Recently, linear attention layers have been increasingly adopted to replace soft
 Training a Mixture-of-Experts (MoE) model at long context or large batch size fails as soon as any one component's peak allocation exceeds device memory, so the target is every peak at once, not the average footprint. Four are left unbounded by the parallelism plans in common use, and each grows dif...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.14306</guid>
       <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HarnessVLN: Unifying Training-Free Embodied Navigation through an Agent Harness</title>
-      <link>https://huggingface.co/papers/2609.15195</link>
-      <description>By Yang Chen, Lirong Che, Zhenyu Huang, Wenbo Fu, Chuang Wang, et al.
-
-Embodied navigation requires agents to interpret visual observations, accumulate spatial knowledge, and execute actions to follow instructions or locate objects. Training-based methods face generalization challenges, while training-free methods exploit multimodal large language models (MLLMs) but of...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.15195</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement</title>
-      <link>https://huggingface.co/papers/2609.14857</link>
-      <description>By Siwei Wu, Jincheng Ren, Yizhi Li, Haau-Sing Li, Chengran Yang, et al.
-
-Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from experience. However, generalizable harness RSI remains challenging. First, evolving harnesses on evaluation benchmarks or their sub...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.14857</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Register Tokens for Bounded-State Reasoning in Diffusion Language Models</title>
@@ -352,6 +307,15 @@ As corporate AI adoption continues to grow, enterprise-grade LLM agents are bein
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model</title>
+      <link>https://huggingface.co/papers/2609.18323</link>
+      <description>By Haoyu Zhao, Zihao Zhao, Tianyu Deng, Ziqin Xu, Zihao Zhang, et al.
+
+Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unif...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.18323</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>An Empirical Study of Harness Design for Coding Agents</title>
       <link>https://huggingface.co/papers/2609.20804</link>
       <description>By Run-Ze Fan, Zihao Zhang, Simin Ma, Yebowen Hu, Shouju Wang, et al.
@@ -457,6 +421,42 @@ Multi-turn agents trained with reinforcement learning (RL) receive a single scal
 
 Document parsing converts document images into structured content and requires reliable performance across diverse layouts and acquisition conditions. Yet training corpora are biased toward common document types and clean digital pages, while expanding coverage alone does not specify how to address ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.20423</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2609.20511</link>
+      <description>By Yuxiao Yang, Tianrun Yu, Shangzhe Li, Kaixiang Zhao, Xuchao Zhang, et al.
+
+We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget. We identify termination-token mismatch between base students and post-trained teachers as an important source of this behavior. Across Qwen3, Llama, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.20511</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations</title>
+      <link>https://huggingface.co/papers/2609.20817</link>
+      <description>By Kevin Qu, Tao Sun, Massimiliano Viola, Liyuan Zhu, Zhizhuo Zhou, et al.
+
+Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAM...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.20817</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL</title>
+      <link>https://huggingface.co/papers/2609.20715</link>
+      <description>By Juzheng Zhang, Disha Makhija, Manoj Ghuhan Arivazhagan, Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah
+
+Agent trajectories record what an agent does and what happens next. Yet standard supervised fine-tuning (SFT) applies loss only to agent-authored action tokens, using environment observations as context but not as prediction targets. We ask whether this convention provides the best initialization fo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.20715</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering</title>
+      <link>https://huggingface.co/papers/2609.19879</link>
+      <description>By Bhavana Akkiraju, Ravi Sastry Kolluru, Sri Charan D, Srihari Bandarupalli, Santosh Kesiraju, et al.
+
+Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in both text and spoken settings. Spoken question answering (SQA) benchmark for Telugu remains unexplored, and the reliability of automatic evaluation in this setting remains unquantifi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.19879</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

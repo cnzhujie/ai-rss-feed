@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 13:51:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 19:13:42 +0000</lastBuildDate>
     <item>
       <title>Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts</title>
       <link>https://huggingface.co/papers/2609.05661</link>
@@ -37,6 +37,15 @@ Multimodal Large Language Models (MLLMs) often struggle with hallucinations, thu
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SiliconBench: Speed, Memory, and Fidelity for LLM Serving on Unified-Memory Desktops</title>
+      <link>https://huggingface.co/papers/2609.19169</link>
+      <description>By Ranran Haoran Zhang, Aysa Xuemo Fan, David Munhá Correia, Alex Cheema, Rui Zhang
+
+Concurrent local LLM serving on unified-memory desktops must preserve memory headroom and output fidelity, which speed-only rankings overlook. We introduce SiliconBench, which evaluates nine Apple Silicon serving engines through three lenses: speed, memory, and fidelity. We evaluate chat and agent s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.19169</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>EvoOntology: A Self-Evolving Ontology Layer for Data Agents</title>
       <link>https://huggingface.co/papers/2609.15779</link>
       <description>By Meiduo Chong, Shaolei Zhang, Ju Fan, Xiaoyong Du
@@ -55,13 +64,13 @@ Scaling large language models efficiently has motivated sparse capacity mechanis
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Fingers as Legs: Learning Self-Supported Locomotion and Manipulation with an Anthropomorphic Hand</title>
-      <link>https://huggingface.co/papers/2609.17172</link>
-      <description>By Amirhossein Kazemipour, Hehui Zheng, Robert Katzschmann
+      <title>CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design</title>
+      <link>https://huggingface.co/papers/2609.16251</link>
+      <description>By Zihan Dong, Yuanzhe Liu, Zhiyuan Ma, Qishi Zhan, Dehan Kong, et al.
 
-A walking robotic hand must use the same fingers to move its body, support its weight, and interact with the environment. We show how an anthropomorphic hand can learn these skills while retaining its finger design and position controller. Onboard power and computation make the platform self-contain...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.17172</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limited coverage of professional engineering workflows whose outputs are persistent, structured artifacts. Mechanical computer-aided design (CAD) is a particularly demanding setting: an ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.16251</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation</title>
@@ -89,15 +98,6 @@ GUI agents execute long-horizon tasks on dynamic graphical user interfaces, wher
 LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others'...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.17496</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents</title>
-      <link>https://huggingface.co/papers/2609.18779</link>
-      <description>By Jiaxuan Jiang, Liyuan He, Zhixuan Fang
-
-Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, limiting their ability to respond to evolving agent capabilities. This disconnect prevents routing strategies from adapting to evolving agent capabilities during post-training and pre...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.18779</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?</title>
@@ -145,40 +145,13 @@ Large language models (LLMs) provide a flexible interface for long-horizon robot
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>An Empirical Study of Harness Design for Coding Agents</title>
-      <link>https://huggingface.co/papers/2609.20804</link>
-      <description>By Run-Ze Fan, Zihao Zhang, Simin Ma, Yebowen Hu, Shouju Wang, et al.
+      <title>BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence</title>
+      <link>https://huggingface.co/papers/2609.20886</link>
+      <description>By Chuxuan Hu, Yeye He, Penny Zhou, Wee Hyong Tok, Daniel Kang, et al.
 
-Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparison...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.20804</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness</title>
-      <link>https://huggingface.co/papers/2609.20519</link>
-      <description>By Haozhe Liu, Tian Ye, Sensen Gao, Qihang Cao, Yitong Li, et al.
-
-As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.20519</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Region-Level Policy Optimization for Fine-grained MLLM Perception</title>
-      <link>https://huggingface.co/papers/2609.19745</link>
-      <description>By Yuheng Shi, Xiaohuan Pei, Minjing Dong, Chang Xu
-
-Fine-grained visual perception in MLLMs is commonly improved by raising the resolution, but the added visual tokens inflate vision-encoding and language-model prefilling costs. We show that the two operations underlying fine-grained perception, localizing the region of interest (RoI) and recognizing...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.19745</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control</title>
-      <link>https://huggingface.co/papers/2609.19554</link>
-      <description>By Zhongbo Zhang, Jiayi Jin, Yifan Wang, Zaibin Zhang, Haiwen Diao, et al.
-
-Spatial intelligence requires more than describing object locations. Under incomplete observation, models must identify and acquire missing evidence, interpret it in a common spatial frame, and act on it. We introduce VA-Bench to evaluate the complete observe-reason-act-revise loop. General-purpose ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.19554</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau. In traditional BI workflows, users need to prepare data by (1) identifying relevant tables, (2) performing data transformations, and (3) building...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.20886</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>JEPA-Anything: Learning Predictive Models across Different Worlds</title>
@@ -457,6 +430,33 @@ Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three 
 
 APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by humans against a live payment agent during a public capture-the-flag event, across 14 models from 8 labs, five policy configurations and two replay tracks, with and without a determinist...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.22076</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gricea: An Open Science Platform for Conversational AI Research</title>
+      <link>https://huggingface.co/papers/2609.22039</link>
+      <description>By Nikhil Sharma, Yunlin Gong, Xinyang Cheng, Ziang Xiao
+
+We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design. However, fragmented reporting of systems and study configurations hinders replication, extension, and knowledge accumulation. We present Gricea, an open-science platform representing studies as con...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.22039</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design</title>
+      <link>https://huggingface.co/papers/2609.22086</link>
+      <description>By Hongyang Du, Lan Yan, Christian Flores, Asim Kadav
+
+Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.22086</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention</title>
+      <link>https://huggingface.co/papers/2609.21788</link>
+      <description>By Sichang Su, Benjamin Yang, Zhiyun Deng, Boyuan Liang, Yip Fun Yeung, et al.
+
+A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subtasks. Collecting additional full-task demonstrations for supervised fine-tuning (SFT) requires operators to repeat behaviors the policy already performs well. Reinforcement learning...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.21788</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

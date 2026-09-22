@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 04:28:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 09:47:34 +0000</lastBuildDate>
     <item>
       <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
       <link>https://huggingface.co/papers/2609.22220</link>
@@ -17,15 +17,6 @@
 Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point tolerance, and their verdicts now feed leaderboards and reinforcement-learning rewards. Recent work agrees these checkers are weak and patches them by hand---extra input distributions, fuz...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.22220</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts</title>
-      <link>https://huggingface.co/papers/2609.05661</link>
-      <description>By Anil Pai
-
-We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Bengali, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, and Odia. Rather than generating fonts from scratch, Srijika restyles glyph outlines from shaping-complete template fonts. It pr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.05661</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Grounded Skill Synthesis from Code at Scale for Agentic Intelligence</title>
@@ -44,6 +35,15 @@ Reusable skills give agents transferable procedural knowledge, making scalable a
 Multimodal Large Language Models (MLLMs) often struggle with hallucinations, thus hindering their reliable practical applications. Existing attention-based mitigation methods mainly rely on indirect signals (e.g., attention weights) that fail to accurately reflect the actual information shift underl...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.09206</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations</title>
+      <link>https://huggingface.co/papers/2609.22255</link>
+      <description>By Rotem Dror, Zohar Elyoseph, Yuval Haber, Elad Refoua, Oshrat Ayalon, et al.
+
+Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptions that fail to sustain coherent character behavior across extended interactions. We introduce Deep Persona, a psychologically grounded, three-layered architecture that organizes pe...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.22255</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SteerDuplex: Steerable Duplex Speech Dialogue Models</title>
@@ -91,24 +91,6 @@ Computer-use agents are increasingly evaluated in realistic desktop environments
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Verifiable Social Reasoning for LLM Assistants</title>
-      <link>https://huggingface.co/papers/2609.17496</link>
-      <description>By Amir Taubenfeld, Zorik Gekhman, Avigail Grinstein-Dabush, Itay Laish, Ariel Goldstein, et al.
-
-LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others'...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.17496</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling</title>
-      <link>https://huggingface.co/papers/2609.19499</link>
-      <description>By Mobina Kashaniyan, Ali Jannesari
-
-Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses. In sampling-based methods, the inference budget is often described by the number of generated candidates, N. However, N tells us how many candidates are generated, not how they are ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.19499</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection</title>
       <link>https://huggingface.co/papers/2609.18766</link>
       <description>By Chengxian Hu, Zhiming Ma, Mingjun Pan, Yifan Wang, Shun Zhang, et al.
@@ -134,51 +116,6 @@ Large language models (LLMs) provide a flexible interface for long-horizon robot
 Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau. In traditional BI workflows, users need to prepare data by (1) identifying relevant tables, (2) performing data transformations, and (3) building...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.20886</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL</title>
-      <link>https://huggingface.co/papers/2609.20715</link>
-      <description>By Juzheng Zhang, Disha Makhija, Manoj Ghuhan Arivazhagan, Vinayshekhar Bannihatti Kumar, Rashmi Gangadharaiah
-
-Agent trajectories record what an agent does and what happens next. Yet standard supervised fine-tuning (SFT) applies loss only to agent-authored action tokens, using environment observations as context but not as prediction targets. We ask whether this convention provides the best initialization fo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.20715</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering</title>
-      <link>https://huggingface.co/papers/2609.19879</link>
-      <description>By Bhavana Akkiraju, Ravi Sastry Kolluru, Sri Charan D, Srihari Bandarupalli, Santosh Kesiraju, et al.
-
-Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in both text and spoken settings. Spoken question answering (SQA) benchmark for Telugu remains unexplored, and the reliability of automatic evaluation in this setting remains unquantifi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.19879</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Self-Evolving Search Index</title>
-      <link>https://huggingface.co/papers/2609.19656</link>
-      <description>By Sangam Lee, Wonjae Lee, Sunghwan Kim, Deogyong Kim, Jaehoon Kim, et al.
-
-Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs. Because retrieval relies on an index that represents each document through index keys, retrieval quality depends heavily on how effectively these keys expose the knowledge containe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.19656</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning Foresight without Explicit Trajectories for 3D Diffusion Policies</title>
-      <link>https://huggingface.co/papers/2609.20669</link>
-      <description>By Zhongbo Zhang, Zaibin Zhang, Yifan Wang, Changbo Yan, Lijun Wang, et al.
-
-3D diffusion policies are strong at generating geometrically grounded actions from current observations, but successful manipulation requires not only knowing what motion is feasible now, but also anticipating where the interaction is heading. Existing policies largely leave such foresight to emerge...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.20669</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>When AI Reviews Train AI Reviewers: Scientific-Judgment Collapse and Mitigation</title>
-      <link>https://huggingface.co/papers/2609.20942</link>
-      <description>By Sy-Tuyen Ho, Minghui Liu, Furong Huang
-
-Large language models (LLMs) increasingly participate in scientific evaluation, both as automated reviewers and as assistants to human reviewers. As model-generated reviews enter public data and future training corpora, AI peer review can become recursive: later reviewers learn from judgments produc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.20942</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation</title>
@@ -370,6 +307,15 @@ Humans can seamlessly adapt to both physical and digital worlds, suggesting that
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>OmniEdu: Open Foundation Models for Learning and Teaching</title>
+      <link>https://huggingface.co/papers/2609.23088</link>
+      <description>By Hao Liang, Qihan Lin, Meiyi Qiang, Linzhuang Sun, Hengyi Feng, et al.
+
+Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.23088</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents</title>
       <link>https://huggingface.co/papers/2609.23377</link>
       <description>By Jie Zhao, Ziyu Jiang, Suhang Zheng, Minghui Shan, Xiaoxiao Xu, et al.
@@ -394,6 +340,15 @@ Despite impressive visual quality, state-of-the-art video diffusion models often
 
 Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding,...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.23863</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene</title>
+      <link>https://huggingface.co/papers/2609.23796</link>
+      <description>By Yang-Tian Sun, Tianjia Liu, Zehuan Huang, Yi-Hua Huang, Xiaoyang Lyu, et al.
+
+Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generation process, sacrific...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.23796</guid>
       <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +412,51 @@ Modern video games provide a measurable testbed for AI models, combining abiliti
 
 Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle f...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.24974</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction</title>
+      <link>https://huggingface.co/papers/2609.24983</link>
+      <description>By Lei Yang, Mengyin Liu, Jia Wang, Hangyu Guo, Liang Zhao, et al.
+
+We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the mode...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24983</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2609.24432</link>
+      <description>By Huanxin Sheng, Zhiling Ye, Haonan Wang, Jian Wang, Jinjie Gu, et al.
+
+Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories. However, useful teacher guidance can yield a noisy update when its gradient is estimated from a sampled next token. We study this estimation problem at a fixed prefix in i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24432</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies</title>
+      <link>https://huggingface.co/papers/2609.24118</link>
+      <description>By Junlan Xiao, Junwei Jiang, Zaibin Zhang, Yifan Wang, Zhongbo Zhang, et al.
+
+Vision-Language-Action (VLA) policies achieve strong performance in robotic manipulation but remain brittle once execution deviates from nominal trajectories. We propose CARE (Corrective Atomic Robotic Execution), a framework that improves recovery by learning from failures encountered during execut...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24118</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion</title>
+      <link>https://huggingface.co/papers/2609.24220</link>
+      <description>By Uday Allu, Abhivanth Sivaprakash, Pratik Singh, Aman Manocha
+
+Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR dest...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24220</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Streaming Video Editing with Easy Adaptation</title>
+      <link>https://huggingface.co/papers/2609.24788</link>
+      <description>By Yujia Hu, Jiajun Li, Zihao He, Songhua Liu
+
+In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusion model but supports high-quality streaming video editing in an auto-regressive fashion. To tackle this problem, we first systematically revisit existing video-to-video diffusion ap...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24788</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 14:36:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 18:42:05 +0000</lastBuildDate>
     <item>
       <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
       <link>https://huggingface.co/papers/2609.22220</link>
@@ -34,6 +34,15 @@ Vision-Language-Action (VLA) models demonstrate strong generalization in robotic
 
 Multimodal Large Language Models (MLLMs) often struggle with hallucinations, thus hindering their reliable practical applications. Existing attention-based mitigation methods mainly rely on indirect signals (e.g., attention weights) that fail to accurately reflect the actual information shift underl...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.09206</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness</title>
+      <link>https://huggingface.co/papers/2609.06052</link>
+      <description>By Yizhuo Zhang, Bo Kang, Yi Yang, Zhiyu Duan, Zhouteng Ye, et al.
+
+Autonomous agent systems increasingly depend on reusable skill abstractions for consolidating experiential knowledge and domain expertise. These artifacts typically bundle free-form instructions with heterogeneous resources. However, ensuring their correctness remains challenging. Their failure mode...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.06052</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -64,13 +73,13 @@ Concurrent local LLM serving on unified-memory desktops must preserve memory hea
       <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EvoOntology: A Self-Evolving Ontology Layer for Data Agents</title>
-      <link>https://huggingface.co/papers/2609.15779</link>
-      <description>By Meiduo Chong, Shaolei Zhang, Ju Fan, Xiaoyong Du
+      <title>Realtime-Venus: A full-duplex interaction system with asynchronous delegation</title>
+      <link>https://huggingface.co/papers/2609.13814</link>
+      <description>By Ruixiang Zhao, Hualei Wang, Renhe Sun, Enzhi Zhou, Jincenzi Wu, et al.
 
-Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases. However, data agents face a challenging agent-data gap: heterogeneous data resides outside the agent, while the agent can access it (e.g., column names and file paths) only throu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.15779</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+Natural interaction in digital and physical environments requires continuous perception and timely responses. Spoken dialogue relies on acoustic and linguistic cues, while video interaction also requires grounding the conversation in evolving visual context. We present Realtime-Venus, a proactive fu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.13814</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup</title>
@@ -127,24 +136,6 @@ Business intelligence (BI) is a cornerstone of enterprise decision-making and is
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DeformSmith: Physics Harness-Guided Hierarchical Generation of Deformable Assets for Robot Manipulation</title>
-      <link>https://huggingface.co/papers/2609.18620</link>
-      <description>By Can Li, Jie Gu, Zishun Deng, Jingmin Chen, Lei Sun
-
-Creating deformable assets for robot manipulation requires jointly specifying their geometry, appearance, and physical properties. This is especially challenging for deformable objects, since text and images provide limited evidence about how they deform and respond to contact, yet these responses d...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.18620</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Paint-Anything: Unified Any-Color Control for Image Generation and Editing</title>
-      <link>https://huggingface.co/papers/2609.20816</link>
-      <description>By Ji Xie, Dewei Zhou, Xinyu Huang, Zhennan Chen, Xun Wang
-
-Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inferenc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.20816</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Training-Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Representation</title>
       <link>https://huggingface.co/papers/2609.19122</link>
       <description>By Meng&amp;#39;en Qin, Yinchen Liu, Mingxuan Cui, Youlu Xing
@@ -197,24 +188,6 @@ Text-guided image editing must introduce the requested changes while preserving 
 Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of labeled units. We treat the evaluation set as a finite population...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.20758</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CodeMidas: Scaling Agentic Coding RL Environments from Code Itself</title>
-      <link>https://huggingface.co/papers/2609.22068</link>
-      <description>By Bowen Ye, Lei Li, Shicheng Li, Zihao Yue, Linghao Zhang, et al.
-
-Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be e...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22068</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Calibrating Teacher--Student Discrepancy for On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2609.21619</link>
-      <description>By Qiangqiang He, Jin Li, MingCai Chen
-
-On-policy distillation (OPD) improves reasoning models by learning the token-level discrepancy between a stronger teacher and an on-policy student. However, this discrepancy does not purely reflect the capability gap between the teacher and the student: it also contains deviations arising from the t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.21619</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue</title>
@@ -280,6 +253,24 @@ Human video datasets offer an abundant and diverse source of interaction data th
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal</title>
+      <link>https://huggingface.co/papers/2609.21996</link>
+      <description>By Hiskias Dingeto
+
+Large language models can hold knowledge they do not report. A model may sandbag on a capability evaluation, or answer against what it internally knows, and its outputs alone cannot tell whether it is hiding an answer or simply does not have one. We borrow the Concealed Information Test, a forensic ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.21996</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Functionalizer: Lossless Functional Decomposition for Subword Tokenization</title>
+      <link>https://huggingface.co/papers/2609.15991</link>
+      <description>By Connor Makowski, Willem Guter
+
+Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization. We present the Functionalizer, a lossless pre-tokenize...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.15991</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Transferring the Intelligence of VLMs to Robotic Control</title>
       <link>https://huggingface.co/papers/2609.22966</link>
       <description>By Meng-Hao Guo, Zhe-Han Mo, Jia-Jun Wang, Yi Zhang, Kejin Wang, et al.
@@ -295,6 +286,15 @@ Humans can seamlessly adapt to both physical and digital worlds, suggesting that
 
 Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.23088</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing</title>
+      <link>https://huggingface.co/papers/2609.23169</link>
+      <description>By Yibo Zhang, Ze Yuan, Nan Cao, Li Zhang, Yan-Pei Cao, et al.
+
+High-quality texture generation is essential for creating realistic and production-ready 3D assets. Recent multi-view diffusion methods have shown promising results for image-guided 3D texturing, but they are typically constrained to low operating resolutions such as 512 or 768, making it difficult ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.23169</guid>
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

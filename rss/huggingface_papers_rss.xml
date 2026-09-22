@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 09:47:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 14:36:31 +0000</lastBuildDate>
     <item>
       <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
       <link>https://huggingface.co/papers/2609.22220</link>
@@ -19,13 +19,13 @@ Benchmarks for LLM-generated GPU kernels decide correctness with a few random in
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grounded Skill Synthesis from Code at Scale for Agentic Intelligence</title>
-      <link>https://huggingface.co/papers/2609.05571</link>
-      <description>By Yongqi Tong, Pan Wang, Hang Wang, Jianshe Li, Xin Zhang, et al.
+      <title>ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2609.13231</link>
+      <description>By Manan Tayal, Akshay Nambi
 
-Reusable skills give agents transferable procedural knowledge, making scalable acquisition essential for extending agents beyond prior experience. Existing methods face two limitations: trajectory-based synthesis requires interactions with specific environments, while document-derived skills may lac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.05571</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+Vision-Language-Action (VLA) models demonstrate strong generalization in robotic manipulation and navigation, but existing fine-tuning methods provide limited safety guarantees. Current approaches primarily rely on Lagrangian optimization that enforces safety through soft penalties on expected cumul...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.13231</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MLLMs Hallucinate when Information Distribution Drifts in Synergy Heads</title>
@@ -89,6 +89,15 @@ Scaling large language models efficiently has motivated sparse capacity mechanis
 Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limited coverage of professional engineering workflows whose outputs are persistent, structured artifacts. Mechanical computer-aided design (CAD) is a particularly demanding setting: an ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.16251</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision</title>
+      <link>https://huggingface.co/papers/2609.20869</link>
+      <description>By Sergey Kurinov, Alexey Upatov
+
+We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of Active Perception), a structured representation that encodes relations among perceptual elements before recognition. Instead of operating directly on pixel tensors, the system uses a shared TAPe representation and a mod...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.20869</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection</title>
@@ -181,40 +190,13 @@ Text-guided image editing must introduce the requested changes while preserving 
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MintAct: A Unified Visual Agent for Digital Environments</title>
-      <link>https://huggingface.co/papers/2609.22083</link>
-      <description>By Mingfei Gao, Rui Tian, Haiming Gang, Bohan Zhai, Le Zhang, et al.
+      <title>Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation</title>
+      <link>https://huggingface.co/papers/2609.20758</link>
+      <description>By Sho Kawano, Zehang Richard Li, Paul A. Parker
 
-We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22083</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OmniVBench: A Benchmark and Large-Scale Dataset for Omni Reference-to-Video Generation</title>
-      <link>https://huggingface.co/papers/2609.22069</link>
-      <description>By Wenxue Li, Peiyan Guan, Haoyang Jiang, Junxian Cai, Hualuo Liu, et al.
-
-Reference-to-video (R2V) generation is evolving toward increasingly general and versatile reference control, giving rise to the emerging paradigm of omni R2V generation. However, existing benchmarks fall short of these emerging capabilities: their test cases cover limited reference types and composi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22069</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents</title>
-      <link>https://huggingface.co/papers/2609.22000</link>
-      <description>By Shuai Bai, Jiayong Deng, Yikun Fu, Chang Gao, Xuhao Hu, et al.
-
-Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22000</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills</title>
-      <link>https://huggingface.co/papers/2609.21749</link>
-      <description>By Rui Sun, Zhi Zheng, Zhenkun Wang, Zhichao Lu
-
-Skills can improve the performance of Large Language Model (LLM) agents by providing task-specific procedural guidance, while skill optimization further improves their effectiveness through iterative refinement. However, existing skill optimization methods typically represent skills as unstructured ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.21749</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of labeled units. We treat the evaluation set as a finite population...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.20758</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CodeMidas: Scaling Agentic Coding RL Environments from Code Itself</title>
@@ -457,6 +439,24 @@ Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases mus
 
 In this paper, we propose SVEET, a framework that requires merely training on a pretrained bidirectional video diffusion model but supports high-quality streaming video editing in an auto-regressive fashion. To tackle this problem, we first systematically revisit existing video-to-video diffusion ap...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.24788</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention</title>
+      <link>https://huggingface.co/papers/2609.24797</link>
+      <description>By Julien Siems, Riccardo Grazzi, Korbinian Pöppel, Jaisidh Singh, Arber Zela, et al.
+
+Linear RNNs based on the delta-rule enable efficient sequence modeling, but their linear updates with a low-rank correction constrain their expressivity. Prior work has shown that composing two delta-rule transitions in a single recurrent update can model a 2D rotation, but this increases the rank a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24797</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation</title>
+      <link>https://huggingface.co/papers/2609.24115</link>
+      <description>By Harshavardhan Abichandani, Penny Chong, Jiyuan Shen, Gunraj Singh, Ashutosh Hathidara, et al.
+
+Tool-calling LLM agents are increasingly deployed in enterprise applications. However, effective evaluation and optimization require high-quality, diverse task datasets that are often difficult to obtain due to privacy and other constraints. Existing synthetic task generation methods often produce g...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24115</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

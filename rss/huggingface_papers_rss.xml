@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 11:17:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 16:39:44 +0000</lastBuildDate>
     <item>
       <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
       <link>https://huggingface.co/papers/2609.22220</link>
@@ -37,6 +37,15 @@ Autonomous agent systems increasingly depend on reusable skill abstractions for 
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Tri-PvP: Exposing Modality Bias in Omni-Modal Large Language Models through Perceptual-Propositional Evidence Conflicts</title>
+      <link>https://huggingface.co/papers/2609.06011</link>
+      <description>By Yen-Ting Piao, Shu-Yun Chen, Chin-Hui Chu, Chun-Wei Chen, Shih-Yun Shan Kuan, et al.
+
+Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-modal conflict remains underexplored. Existing benchmarks conflate two distinct forms of evidence within a single modality: perceptual signals (e.g., a photograph or recording of a d...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.06011</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations</title>
       <link>https://huggingface.co/papers/2609.22255</link>
       <description>By Rotem Dror, Zohar Elyoseph, Yuval Haber, Elad Refoua, Oshrat Ayalon, et al.
@@ -44,6 +53,15 @@ Autonomous agent systems increasingly depend on reusable skill abstractions for 
 Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptions that fail to sustain coherent character behavior across extended interactions. We introduce Deep Persona, a psychologically grounded, three-layered architecture that organizes pe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.22255</guid>
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay</title>
+      <link>https://huggingface.co/papers/2609.25053</link>
+      <description>By Simon P. Villani
+
+Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate useful persistent hybrid-state transfer across one architecture-matched Qwen3.5 4B-to-9B sibling pair. To our knowledge, this is the first demonstrated cross-model handoff of persistent ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.25053</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The information geometry of large language models is shared, learned, and controllable</title>
@@ -82,6 +100,15 @@ We present TAPe+ML v3, a compact computer vision system based on TAPe (Theory of
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Embedding Physics Priors in Robot Learning: A Survey</title>
+      <link>https://huggingface.co/papers/2609.22319</link>
+      <description>By Mattia Piccinini, Lucas Schulze, Alice Plebe, Matteo Saveriano, Thomas Beckers, et al.
+
+The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based approaches. While purely data-driven methods have achieved remarkable success in computer vision and natural language processing, robotics remains constrained by limited data, complex ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.22319</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ALPINE: Adaptive Localization for Parameter- and Sample-Efficient Few-Shot Learning</title>
       <link>https://huggingface.co/papers/2609.22323</link>
       <description>By Neeraj Yadav
@@ -100,15 +127,6 @@ Evaluating an AI system requires disaggregated assessment, as performance varies
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HuRo: Robotizing Human Videos for Scalable VLA Pretraining</title>
-      <link>https://huggingface.co/papers/2609.10706</link>
-      <description>By Jinho Jeong, Se June Joo, Jaehyun Kang, Dongyun Kim, Yena Kim, et al.
-
-Human video datasets offer an abundant and diverse source of interaction data that can complement expensive real-robot data. To bridge the human-to-robot embodiment gap, existing approaches either robotize videos in task-matched settings or address observation and action alignment separately at scal...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.10706</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal</title>
       <link>https://huggingface.co/papers/2609.21996</link>
       <description>By Hiskias Dingeto
@@ -125,15 +143,6 @@ Large language models can hold knowledge they do not report. A model may sandbag
 Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization. We present the Functionalizer, a lossless pre-tokenize...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.15991</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Transferring the Intelligence of VLMs to Robotic Control</title>
-      <link>https://huggingface.co/papers/2609.22966</link>
-      <description>By Meng-Hao Guo, Zhe-Han Mo, Jia-Jun Wang, Yi Zhang, Kejin Wang, et al.
-
-Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language model...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22966</guid>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OmniEdu: Open Foundation Models for Learning and Teaching</title>
@@ -179,33 +188,6 @@ Manipulation policies must know which objects matter and where they are, yet the
 Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generation process, sacrific...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.23796</guid>
       <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory</title>
-      <link>https://huggingface.co/papers/2609.24984</link>
-      <description>By Wangbo Yu, Kunhao Liu, Wenbo Hu, Shenghai Yuan, Chaoran Feng, et al.
-
-Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.24984</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RRSI: Regularized Recursive Self-Improvement of Agent Harnesses</title>
-      <link>https://huggingface.co/papers/2609.24972</link>
-      <description>By Peng Xia, Rujun Han, Zifeng Wang, Yanfei Chen, Yufan Zhang, et al.
-
-An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent ha...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.24972</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies</title>
-      <link>https://huggingface.co/papers/2609.24682</link>
-      <description>By Trung Dao, Sankalp Yamsani, Jaden Park, Joohyung Kim, Yong Jae Lee
-
-Vision-Language-Action (VLA) models map observations to actions with no objective that accounts for how the world responds, so their robustness is bounded primarily by data coverage. World models carry precisely that missing objective and are better grounded for it, yet rolling the future forward co...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.24682</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>VideoGen-Agent: Reinforcing Video Generation Agents</title>
@@ -457,6 +439,24 @@ Political discourse is widely perceived to be growing more hostile, yet robust e
 
 Modern embodied agents achieve impressive success rates, yet their actual instruction-following ability is far weaker than these numbers suggest. We trace this illusion to a structural property we term low scene entropy: when a visual scene admits only one valid task, language becomes redundant and ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.25636</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JEV-as-a-Judge: Accept When Confident, Escalate When Unsure</title>
+      <link>https://huggingface.co/papers/2609.26550</link>
+      <description>By Yubo Li, Yidi Miao, Ramayya Krishnan, Rema Padman
+
+LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generativ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26550</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agensh: Scaling Organizational Intelligence to 1,024 Agents</title>
+      <link>https://huggingface.co/papers/2609.26781</link>
+      <description>By Zhihao Zhan, Ting Song, Li Dong, Shaohan Huang, Jianxun Lian, et al.
+
+A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26781</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

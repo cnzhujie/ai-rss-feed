@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 05:45:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 11:17:41 +0000</lastBuildDate>
     <item>
       <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
       <link>https://huggingface.co/papers/2609.22220</link>
@@ -55,15 +55,6 @@ Large language models learn similar behaviours, yet it remains unclear what stru
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SteerDuplex: Steerable Duplex Speech Dialogue Models</title>
-      <link>https://huggingface.co/papers/2609.12623</link>
-      <description>By Utkarsh Tyagi, Ramaneswaran Selvakumar, Advait Gosai, Sonal Kumar, Nikhil Barhate, et al.
-
-Full-duplex spoken dialogue models support low-latency turn taking, interruption handling, and backchanneling, yet a key capability remains underexplored: steerability, the ability to reliably shift conversational behavior along attributes such as tone, persona, speaking rate, and voice style in res...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.12623</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Realtime-Venus: A full-duplex interaction system with asynchronous delegation</title>
       <link>https://huggingface.co/papers/2609.13814</link>
       <description>By Ruixiang Zhao, Hualei Wang, Renhe Sun, Enzhi Zhou, Jincenzi Wu, et al.
@@ -107,15 +98,6 @@ Few-shot learning research is predominantly evaluated on accuracy alone, with li
 Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of labeled units. We treat the evaluation set as a finite population...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.20758</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention</title>
-      <link>https://huggingface.co/papers/2609.21788</link>
-      <description>By Sichang Su, Benjamin Yang, Zhiyun Deng, Boyuan Liang, Yip Fun Yeung, et al.
-
-A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subtasks. Collecting additional full-task demonstrations for supervised fine-tuning (SFT) requires operators to repeat behaviors the policy already performs well. Reinforcement learning...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.21788</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HuRo: Robotizing Human Videos for Scalable VLA Pretraining</title>
@@ -179,24 +161,6 @@ High-quality texture generation is essential for creating realistic and producti
 Reinforcement learning (RL) has become a key technique for improving the reasoning and agentic abilities of large language models (LLMs). Although FP8 quantization can accelerate RL training, maintaining stability throughout an FP8 RL pipeline remains challenging. While previous works have focused o...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.22870</guid>
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents</title>
-      <link>https://huggingface.co/papers/2609.23377</link>
-      <description>By Jie Zhao, Ziyu Jiang, Suhang Zheng, Minghui Shan, Xiaoxiao Xu, et al.
-
-Repository-level software engineering (SWE) comprises heterogeneous task categories, whose progress under pooled agentic reinforcement learning can be uneven: gains in some categories coincide with regressions in others, while aggregate resolution obscures these changes. Motivated by this category s...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.23377</guid>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Do Video Diffusion Models Violate Physics? Unveiling the Flaws in Attention Mechanisms</title>
-      <link>https://huggingface.co/papers/2609.23658</link>
-      <description>By Yueyan Li, Haibo Wang, Caixia Yuan, Xiaojie Wang
-
-Despite impressive visual quality, state-of-the-art video diffusion models often generate content that violates real-world physical laws. While existing solutions rely on external priors or specialized data, we investigate the root cause by exploring the internal mechanisms of these models. Specific...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.23658</guid>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Grounded Action Model: 3D Grounding as a Foundation for Robotics</title>
@@ -424,6 +388,24 @@ Lean Pool is a repository of formalized mathematics. It is grown, maintained and
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Emergent Collusion in Long-Horizon LLM Agent Interaction</title>
+      <link>https://huggingface.co/papers/2609.24967</link>
+      <description>By Xinrui Shi, Yanzhe Zhang, Diyi Yang
+
+LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's wo...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24967</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ImIR: Image-Instruction Tuning for All-in-One Image Restoration</title>
+      <link>https://huggingface.co/papers/2609.25267</link>
+      <description>By Süleyman Aslan, Görkay Aydemir, Mısra Yavuz, Yunus Bilge Kurt, Nasrin Rahimi, et al.
+
+Degradations vary widely across images, so a practical restoration system has to handle many degradation types with one model. A recent and effective recipe adapts a large pretrained image-editing model to restoration using a small low-rank adapter with a text prompt. We replace that prompt with an ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.25267</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs</title>
       <link>https://huggingface.co/papers/2609.26796</link>
       <description>By Quan Nguyen-Tri, Mukul Ranjan, Zhiqiang Shen
@@ -457,6 +439,24 @@ Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power
 
 LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agen...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.25804</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament</title>
+      <link>https://huggingface.co/papers/2609.26346</link>
+      <description>By Markus Lundsfryd Jensen, Rune Egeskov Trust, Kenneth Christian Enevoldsen, Sara Kolding
+
+Political discourse is widely perceived to be growing more hostile, yet robust evidence remains scarce. This study examines blame attribution in the Danish Parliament from 1997 to 2026, combining a purpose-built classifier, BlameBERT (F1: 0.80), with multilevel statistical modeling. The classifier i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26346</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents</title>
+      <link>https://huggingface.co/papers/2609.25636</link>
+      <description>By Chang Guo, Yukun Xie, Bohan Tan, Zheng Chang, Zhaokai Yin, et al.
+
+Modern embodied agents achieve impressive success rates, yet their actual instruction-following ability is far weaker than these numbers suggest. We trace this illusion to a structural property we term low scene entropy: when a visual scene admits only one valid task, language becomes redundant and ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.25636</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 09:50:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 14:50:16 +0000</lastBuildDate>
     <item>
       <title>Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?</title>
       <link>https://huggingface.co/papers/2609.27891</link>
@@ -35,15 +35,6 @@ Omni-modal large language models (OLLMs) jointly process vision, audio, and text
 Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate useful persistent hybrid-state transfer across one architecture-matched Qwen3.5 4B-to-9B sibling pair. To our knowledge, this is the first demonstrated cross-model handoff of persistent ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.25053</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The information geometry of large language models is shared, learned, and controllable</title>
-      <link>https://huggingface.co/papers/2609.11063</link>
-      <description>By Dario Picozzi
-
-Large language models learn similar behaviours, yet it remains unclear what structure they share or how to change one behaviour without disturbing others. The Fisher-Rao geometry of next-token probabilities connects these questions: behaviour determines this geometry up to output-preserving symmetri...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.11063</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Bellman Policy Optimization</title>
@@ -73,15 +64,6 @@ Few-shot learning research is predominantly evaluated on accuracy alone, with li
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards Full Pipeline FP8 Reinforcement Learning for LLMs</title>
-      <link>https://huggingface.co/papers/2609.22870</link>
-      <description>By Fanchao Chen, Ziheng Jiang, Ziyun Wei, Zheng Zhong, Du Li, et al.
-
-Reinforcement learning (RL) has become a key technique for improving the reasoning and agentic abilities of large language models (LLMs). Although FP8 quantization can accelerate RL training, maintaining stability throughout an FP8 RL pipeline remains challenging. While previous works have focused o...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22870</guid>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling</title>
       <link>https://huggingface.co/papers/2609.22947</link>
       <description>By Zhenchen Tang, Yang Li, Songlin Yang, Bo Peng, Xiaotong Zhao, et al.
@@ -107,15 +89,6 @@ Spatial reasoning is essential for vision-language models (VLMs) to understand a
 Robotic bin packing requires long-horizon sequential decision-making, as each object placement affects the available space for subsequent packing. Existing methods primarily rely on hand-crafted geometric heuristics that optimize predefined objectives or reinforcement learning policies learned throu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.23784</guid>
       <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RULER: Instance-aware Rubric Rewards for SVG Generation</title>
-      <link>https://huggingface.co/papers/2609.25270</link>
-      <description>By Hangyu Ran, Yuhao Zheng, Yingying Zhang, Kevin Qinghong Lin, Han Peng
-
-Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to st...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.25270</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings</title>
@@ -208,13 +181,13 @@ Evaluating world models requires assessing both the quality of the worlds they g
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs</title>
-      <link>https://huggingface.co/papers/2609.26796</link>
-      <description>By Quan Nguyen-Tri, Mukul Ranjan, Zhiqiang Shen
+      <title>X-Planner: Event-Structured Task Planning for Embodied Intelligence</title>
+      <link>https://huggingface.co/papers/2609.25187</link>
+      <description>By Howard Lu, Shalfun Li, Porter Pan, Cris, Lumen, et al.
 
-Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.26796</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to rely on coarse task-level annotations or seriali...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.25187</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Recursive self-improvement of AI research agents</title>
@@ -331,6 +304,33 @@ Transformer architectures exhibit cross-layer redundancies, yet post-training co
 
 Calibration of language models -- the alignment between expressed or implicit confidence and empirical correctness -- is a well-studied subfield within NLP. Methods to measure it already exist. The problem is adoption: outside this subfield, NLP research regularly introduces new models, datasets, an...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.26489</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models</title>
+      <link>https://huggingface.co/papers/2609.26637</link>
+      <description>By Xiaoyu Luo, Tao Ren, Wenrui Yu, Xiao Li, Qiongxiu Li, et al.
+
+The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple custom tool through a standard API feature, we induce frontier models to externaliz...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26637</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Knowledge Pull Requests for Continual Document Authoring</title>
+      <link>https://huggingface.co/papers/2609.26634</link>
+      <description>By Alexander Martin, Benjamin Van Durme
+
+We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interpretable. Documents require ongoing revision as new knowledge surfaces from other sources, languages, or times, but existing approaches either edit with no account of what knowledge ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26634</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Linear Representation Hypothesis Needs a Group Action</title>
+      <link>https://huggingface.co/papers/2609.27158</link>
+      <description>By Louie Hong Yao, Yuhao Li, Shengchao Liu
+
+To make claims about representations that generalize beyond a particular trained model, we need to specify when two representations should count as equivalent. The Linear Representation Hypothesis is often discussed without making this equivalence explicit. Different notions of equivalence preserve ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.27158</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

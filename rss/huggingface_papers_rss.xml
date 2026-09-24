@@ -8,15 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 23:32:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 04:22:29 +0000</lastBuildDate>
     <item>
-      <title>Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles</title>
-      <link>https://huggingface.co/papers/2609.22220</link>
-      <description>By Mingzhe Du, Anh Tuan Luu, Dong Huang, See-Kiong Ng
+      <title>Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?</title>
+      <link>https://huggingface.co/papers/2609.27891</link>
+      <description>By Silin Chen, Yufei Yang, Xiaodong Gu, Yuling Shi, Chengcheng Wan, et al.
 
-Benchmarks for LLM-generated GPU kernels decide correctness with a few random inputs and a loose floating-point tolerance, and their verdicts now feed leaderboards and reinforcement-learning rewards. Recent work agrees these checkers are weak and patches them by hand---extra input distributions, fuz...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22220</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+Repository-level coding benchmarks have become the standard for evaluating coding agents, yet they inherently suffer from data leakage because they are built upon popular open-source repositories repeatedly used for training. Consequently, strong performance may reflect memorization of canonical rep...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.27891</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ShieldVLA: Feasibility-Aware Safety Alignment for Vision-Language-Action Models</title>
@@ -44,15 +44,6 @@ Autonomous agent systems increasingly depend on reusable skill abstractions for 
 Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-modal conflict remains underexplored. Existing benchmarks conflate two distinct forms of evidence within a single modality: perceptual signals (e.g., a photograph or recording of a d...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.06011</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations</title>
-      <link>https://huggingface.co/papers/2609.22255</link>
-      <description>By Rotem Dror, Zohar Elyoseph, Yuval Haber, Elad Refoua, Oshrat Ayalon, et al.
-
-Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptions that fail to sustain coherent character behavior across extended interactions. We introduce Deep Persona, a psychologically grounded, three-layered architecture that organizes pe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22255</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay</title>
@@ -145,15 +136,6 @@ Standard subword tokenizers either treat every orthographic variation of a word 
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OmniEdu: Open Foundation Models for Learning and Teaching</title>
-      <link>https://huggingface.co/papers/2609.23088</link>
-      <description>By Hao Liang, Qihan Lin, Meiyi Qiang, Linzhuang Sun, Hengyi Feng, et al.
-
-Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.23088</guid>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>UltraTex: Unleashing 2K Multi-View Diffusion for 3D Texturing</title>
       <link>https://huggingface.co/papers/2609.23169</link>
       <description>By Yibo Zhang, Ze Yuan, Nan Cao, Li Zhang, Yan-Pei Cao, et al.
@@ -172,13 +154,13 @@ Reinforcement learning (RL) has become a key technique for improving the reasoni
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grounded Action Model: 3D Grounding as a Foundation for Robotics</title>
-      <link>https://huggingface.co/papers/2609.23863</link>
-      <description>By Gehao Zhang, Weikai Huang, Shailesh Shailesh, Yiyan Peng, Jiafei Duan, et al.
+      <title>RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling</title>
+      <link>https://huggingface.co/papers/2609.22947</link>
+      <description>By Zhenchen Tang, Yang Li, Songlin Yang, Bo Peng, Xiaotong Zhao, et al.
 
-Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.23863</guid>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+Reinforcement learning (RL) is vital for optimizing video generation models, with a robust reward model (RM) serving as the cornerstone. However, existing video reward models often produce unstable scalar scores because they directly map complex, subjective video quality into a single score without ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.22947</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mira-Scene: Pixel-Aligned Layouts for Generative 3D Scene</title>
@@ -188,69 +170,6 @@ Manipulation policies must know which objects matter and where they are, yet the
 Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generation process, sacrific...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.23796</guid>
       <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VideoGen-Agent: Reinforcing Video Generation Agents</title>
-      <link>https://huggingface.co/papers/2609.24997</link>
-      <description>By Binxu Li, Haoyi Duan, Yuhui Zhang, Yaohui Zhang, Zihao Lin, et al.
-
-Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.24997</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents</title>
-      <link>https://huggingface.co/papers/2609.23986</link>
-      <description>By Dongming Jiang, Yi Li, Bingzhe Li
-
-Agentic memory is becoming essential for long-horizon AI agents, yet many existing systems rely on autoregressive LLMs to control how memories are organized, retrieved, and used, placing expensive generation on the critical path of memory operations. We introduce \method, a new agentic memory archit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.23986</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay</title>
-      <link>https://huggingface.co/papers/2609.25001</link>
-      <description>By Yiran Wang, Xingyilang Yin, Junfu Pu, Guangzhi Wang, Kaifeng Li, et al.
-
-Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack lang...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.25001</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Harness-Zero: Harness Distillation via Agent-as-Harness</title>
-      <link>https://huggingface.co/papers/2609.24974</link>
-      <description>By Haoran Ye, Yuxing Lu, Haonan Dong, Zhaochen Su, Guojie Song
-
-Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.24974</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction</title>
-      <link>https://huggingface.co/papers/2609.24983</link>
-      <description>By Lei Yang, Mengyin Liu, Jia Wang, Hangyu Guo, Liang Zhao, et al.
-
-We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the mode...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.24983</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2609.24432</link>
-      <description>By Huanxin Sheng, Zhiling Ye, Haonan Wang, Jian Wang, Jinjie Gu, et al.
-
-Sparse on-policy distillation (OPD) allocates teacher supervision to a small subset of tokens in student-generated trajectories. However, useful teacher guidance can yield a noisy update when its gradient is estimated from a sampled next token. We study this estimation problem at a fixed prefix in i...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.24432</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies</title>
-      <link>https://huggingface.co/papers/2609.24118</link>
-      <description>By Junlan Xiao, Junwei Jiang, Zaibin Zhang, Yifan Wang, Zhongbo Zhang, et al.
-
-Vision-Language-Action (VLA) policies achieve strong performance in robotic manipulation but remain brittle once execution deviates from nominal trajectories. We propose CARE (Corrective Atomic Robotic Execution), a framework that improves recovery by learning from failures encountered during execut...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.24118</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion</title>
@@ -458,6 +377,87 @@ LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and c
 A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.26781</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis</title>
+      <link>https://huggingface.co/papers/2609.26793</link>
+      <description>By Shufan Sun, Chen Wang, Enxin Song, Jiatao Gu, Lingjie Liu
+
+Compositional 3D scene reconstruction has recently been explored from two directions: agentic reasoning that provides semantic understanding of spatial relationships but lacks precise alignment with input images; and visual geometry foundation models that predict dense point maps from input images b...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26793</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PACT: From Credit Assignment to Critic Alignment</title>
+      <link>https://huggingface.co/papers/2609.26355</link>
+      <description>By Jiayan Fu, Hang Xu, Yong Zhang, Zhaokai Luo, Yao Hu, et al.
+
+Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used training signals unclear. We formulate three regularity conditions, namely Completen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26355</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue</title>
+      <link>https://huggingface.co/papers/2609.26780</link>
+      <description>By Haobo Zheng, Tan Tang, Yan Chen, Weijie Wang, Yingcai Wu
+
+Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change o...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26780</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Past Frames the Future: Memory for Autoregressive Video Generation</title>
+      <link>https://huggingface.co/papers/2609.28466</link>
+      <description>By Harold Haodong Chen, Rongjin Guo, Disen Lan, Wen-Jie Shu, Hongfei Zhang, et al.
+
+Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.28466</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>InternW0: A Foundational Physical World Model for Efficient Real-World Interactions</title>
+      <link>https://huggingface.co/papers/2609.27656</link>
+      <description>By Jisong Cai, Yao Mu, Ganlin Yang, Zhe Cao, Zhangzheng Tu, et al.
+
+Physical intelligence requires more than predicting how the world may evolve: predictions must remain actionable as the world continues to change. We introduce InternW0, the first instantiation of the InternW physical world model series from Shanghai AI Laboratory, built around omnimodal interfaces,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.27656</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents</title>
+      <link>https://huggingface.co/papers/2609.27490</link>
+      <description>By Jingjie Ning, Xueqi Li, Yibo Kong, Dongting Li
+
+AI research agents need reliable knowledge of how their experiments change outcomes. We introduce WhatWorkedBench to measure experimental understanding, the accuracy of predictions about component changes after budgeted experimentation. Agents inspect code, select measurements, and submit a response...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.27490</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms</title>
+      <link>https://huggingface.co/papers/2609.27321</link>
+      <description>By Xinjie Shen, Wei Fan, Xudong Guo, Jianhong Tu, Yang Su, et al.
+
+Language-model agents increasingly face long-horizon tasks with evolving state, interdependent decisions, and delayed outcomes. Scaling their training requires diverse agentic environments, dependable outcome signals, and low extension cost. Existing generation pipelines commonly construct an enviro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.27321</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hunyuan-A13B Technical Report</title>
+      <link>https://huggingface.co/papers/2609.27284</link>
+      <description>By Tencent Hunyuan Team, Ao Liu, Botong Zhou, Can Xu, Chayse Zhou, et al.
+
+We present Hunyuan-A13B, an open-source large language model based on a Mixture-of-Experts architecture. It contains 80 billion total parameters but activates only 13 billion during inference, balancing model capability, computational efficiency, and deployment cost. The model is pretrained on a rig...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.27284</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MemBodied: Recurrent Associative Memory for Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2609.28256</link>
+      <description>By Tej Deep Pala, Navonil Majumder, Bryce Goh, Raphael Yee, Jianfei Yang, et al.
+
+Vision-Language-Action models provide a strong foundation for general-purpose robot control, yet a vast majority of policies do not preserve and leverage episode-level information beyond the current observation. This limitation is consequential in history-dependent manipulation tasks that depend on ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.28256</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

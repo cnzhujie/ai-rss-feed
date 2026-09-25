@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 07:32:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 13:33:30 +0000</lastBuildDate>
     <item>
       <title>Schrödinger's Code Repository: Have LLMs Learned SWE-bench or Memorized It?</title>
       <link>https://huggingface.co/papers/2609.27891</link>
@@ -35,24 +35,6 @@ Modern AI agents routinely cross trust boundaries: they ingest untrusted content
 Omni-modal large language models (OLLMs) jointly process vision, audio, and text, yet their modality bias under cross-modal conflict remains underexplored. Existing benchmarks conflate two distinct forms of evidence within a single modality: perceptual signals (e.g., a photograph or recording of a d...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.06011</guid>
       <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay</title>
-      <link>https://huggingface.co/papers/2609.25053</link>
-      <description>By Simon P. Villani
-
-Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate useful persistent hybrid-state transfer across one architecture-matched Qwen3.5 4B-to-9B sibling pair. To our knowledge, this is the first demonstrated cross-model handoff of persistent ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.25053</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Embedding Physics Priors in Robot Learning: A Survey</title>
-      <link>https://huggingface.co/papers/2609.22319</link>
-      <description>By Mattia Piccinini, Lucas Schulze, Alice Plebe, Matteo Saveriano, Thomas Beckers, et al.
-
-The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of learning-based approaches. While purely data-driven methods have achieved remarkable success in computer vision and natural language processing, robotics remains constrained by limited data, complex ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.22319</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RewardVerse: Rubric-Guided Policy Optimization for Video Reward Modeling</title>
@@ -125,24 +107,6 @@ Evaluating world models requires assessing both the quality of the worlds they g
 Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to rely on coarse task-level annotations or seriali...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.25187</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>JEV-as-a-Judge: Accept When Confident, Escalate When Unsure</title>
-      <link>https://huggingface.co/papers/2609.26550</link>
-      <description>By Yubo Li, Yidi Miao, Ramayya Krishnan, Rema Padman
-
-LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generativ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.26550</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agensh: Scaling Organizational Intelligence to 1,024 Agents</title>
-      <link>https://huggingface.co/papers/2609.26781</link>
-      <description>By Zhihao Zhan, Ting Song, Li Dong, Shaohan Huang, Jianxun Lian, et al.
-
-A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.26781</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>HARMONY: Hierarchical Agentic Reasoning for MONocular Image-to-Scene Synthesis</title>
@@ -457,6 +421,42 @@ Deep search requires LLM agents to decompose complex queries, search for evidenc
 
 Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.29421</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coding Agents for Generalized Task and Motion Planning Problems</title>
+      <link>https://huggingface.co/papers/2609.30233</link>
+      <description>By Matteo Merler, Bowen Li, Josh Roy, Yichao Liang, Qianwei Wang, et al.
+
+Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem insta...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.30233</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Parts-of-Speech as Emergent Categories in SAE Latent Space</title>
+      <link>https://huggingface.co/papers/2609.29362</link>
+      <description>By Alessandro Bondielli, Lucia Passaro, Serena Auriemma, Alessandro Lenci
+
+Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose. We use part-of-speech (PoS) categories as a controlled test case to study whether morpho-syntactic information is encoded by ind...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.29362</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures</title>
+      <link>https://huggingface.co/papers/2609.29429</link>
+      <description>By Ruoqi Guo, Yi Liu, Gelei Deng, Yuekang Li, Lida Zhao, et al.
+
+Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev, a model trained wit...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.29429</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs</title>
+      <link>https://huggingface.co/papers/2609.29845</link>
+      <description>By Pavel Tikhonov, Anton Korznikov, Matvey Mikhalchuk, Nikita Dragunov, Temurbek Rahmatullaev, et al.
+
+While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the S...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.29845</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

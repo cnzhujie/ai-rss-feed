@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 17:33:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 23:08:42 +0000</lastBuildDate>
     <item>
       <title>AgentKernel: The Trust-Native Agentic Operating System</title>
       <link>https://huggingface.co/papers/2609.29647</link>
@@ -17,6 +17,15 @@
 Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and invoke privileged tools. This creates an attack surface in which malicious payloads can enter through model inputs and caus...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.29647</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks</title>
+      <link>https://huggingface.co/papers/2609.22237</link>
+      <description>By Avinash Amballa, Yashas Malur Saidutta, Wenbo Li, Lazar Valkov, Srinivas Chappidi
+
+Merging low-rank adapters (LoRAs) promises to eliminate the overhead of swapping task-specific weights at inference time. However, existing merging methods assume every layer needs the same rank budget. Further, some methods assume that rank budget needs to be split equally among the tasks too. We s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.22237</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation</title>
@@ -100,6 +109,15 @@ Tactile sensing is an essential modality for robots performing contact-rich, dex
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>D-JEPA: A Decision-Aligned Latent World Model</title>
+      <link>https://huggingface.co/papers/2609.24749</link>
+      <description>By Shuaijun Liu, Chengyu Wu, Qifu Wen, Feiyang You, Chenglong Zhang, et al.
+
+Latent world models predict the consequences of actions, but accurate prediction does not guarantee that latent distance reflects which candidate will execute successfully. We identify a decision-local prediction gap: among the few futures competing for execution, a candidate predicted closer to the...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.24749</guid>
+      <pubDate>Mon, 21 Sep 2026 15:17:32 +0000</pubDate>
+    </item>
+    <item>
       <title>FoMo: Forking Moment in Generative Trajectory as a Perceptual Distance</title>
       <link>https://huggingface.co/papers/2609.25716</link>
       <description>By Jaihyun Lew, Mingi Jung, Minjun Park, Wooseok Song, Sungroh Yoon
@@ -109,13 +127,13 @@ Reference-based image quality assessment (IQA) metrics aim to reflect how humans
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Agent-Editing World Model: Rethinking World Modeling for LLM Agents</title>
-      <link>https://huggingface.co/papers/2609.28416</link>
-      <description>By Shuang Sun, Guoxin Chen, Fanzhe Meng, Jia Deng, Huatong Song, et al.
+      <title>Disaggregated Quantization: Specializing LLM Prefill and Decode</title>
+      <link>https://huggingface.co/papers/2609.26333</link>
+      <description>By Andrei Panferov, Maximilian Kleinegger, Sweta Priyadarshi, Tijmen Blankevoort, Dan Alistarh
 
-Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool res...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.28416</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing, while compact weights reduce memory traffic during generation. We propose "disaggregated quantization" (DQ), which specializes computation formats, weights and storage placement to...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.26333</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Training Object Permanence in World Models</title>
@@ -152,24 +170,6 @@ Recently, Large Language Models (LLMs) have been increasingly able to solve adva
 Human hand-object interactions (HOIs) provide a rich source of demonstrations for dexterous manipulation, but learning directly from them presents challenges in bridging morphology gaps, ensuring dynamical feasibility, and sim-to-real deployment. We present Morphometric Imitation, a three-stage fram...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.28660</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents</title>
-      <link>https://huggingface.co/papers/2609.29892</link>
-      <description>By Tingyu Qu, Weigao Sun, Yuecheng Liu, Yucheng Zhao, Yi Zhu, et al.
-
-The rapid progression of large language models is extending AI from passive content generation into the active workflows of engineering and scientific discovery. This shift raises a compelling question: can AI be both the object of development and an active participant in building next-generation AI...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.29892</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates</title>
-      <link>https://huggingface.co/papers/2609.30077</link>
-      <description>By Samuel Fernández-Menduiña, Eduardo Pavez, Antonio Ortega
-
-Block-based video codecs select coding parameters based on the input by optimizing a rate-distortion trade-off. The conventional distortion choice, the sum of squared errors (SSE), simplifies parameter selection: the SSE is the sum of block-wise SSEs, so rate-distortion optimization (RDO) can treat ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.30077</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds</title>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 18:32:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 22:54:01 +0000</lastBuildDate>
     <item>
       <title>Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation</title>
       <link>https://huggingface.co/papers/2609.16145</link>
@@ -115,6 +115,24 @@ Reinforcement learning (RL) for code agents often uses executable tests to provi
 
 A quadrilateral block decomposition of a planar domain is judged by whether it is complete, whether its elements are well shaped, and how many of its vertices are irregular. The last has a provable floor: the discrete Gauss-Bonnet identity enforces a lower bound on the total vertex irregularity of a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.32146</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Allspark: Weak to Strong Transfer via Alternating Chain of Thought</title>
+      <link>https://huggingface.co/papers/2609.32913</link>
+      <description>By Kaizhao Liang, Junxiong Wang, Chen Liang, Zhendong Wang, Qiang Liu
+
+Recent progress in frontier models has renewed interest in large-scale reinforcement learning (RL), but the cost of generating large-model rollouts makes even testing RL recipes expensive. We ask whether reasoning improvements learned by a small, weak model can benefit a larger, stronger model witho...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.32913</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ExpVoyager: Direct Experience Navigation for Dynamic Agent Skill Synthesis</title>
+      <link>https://huggingface.co/papers/2609.32630</link>
+      <description>By Kwangwook Seo, Dongha Lee
+
+Learning from experience in LLM agents has become a key paradigm for developing self-evolving agents that continuously learn and expand their capabilities. Within this paradigm, synthesizing the agent skill has emerged as a promising solution for transforming accumulated experience into reusable pro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.32630</guid>
       <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -235,40 +253,13 @@ Visual backbones have evolved from Convolutional Neural Networks (CNNs) with loc
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon</title>
-      <link>https://huggingface.co/papers/2609.35560</link>
-      <description>By Haiyu Zhang, Wenqiang Sun, Tengfei Wang, Junta Wu, Jun Zhang, et al.
+      <title>WhiteMatter: All-to-All Cross-Layer Connections via KV Source Mixing</title>
+      <link>https://huggingface.co/papers/2608.18486</link>
+      <description>By Wenbo Zhang, Xiang Ren
 
-Interactive world models require responding in real time to versatile controls and maintaining long-horizon consistency. However, modeling heterogeneous controls remains difficult, while explosive contexts and unstable distillation impede achieving both long-horizon consistency and real-time respons...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.35560</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Measuring Collapse and Correction in Homogeneous-Panel LLM Debate</title>
-      <link>https://huggingface.co/papers/2609.35279</link>
-      <description>By Xin Li, Mengbing Liu, Chau Yuen
-
-Multi-agent large language model (LLM) debate is often evaluated by whether final answers improve, but movement is not necessarily improvement: the same discussion can rescue an initially wrong majority or destroy an initially correct one. Standard final-accuracy evaluations conflate these opposing ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.35279</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Draft-KV: Learning Useful Latent Communication Between Language Models</title>
-      <link>https://huggingface.co/papers/2609.34754</link>
-      <description>By Linquan Wu, Shichang Meng, Tianxiang Jiang, Haoyu Yang, Peng Zhong, et al.
-
-Latent communication passes internal states between language models instead of decoded text, but higher receiver accuracy does not show that the receiver used the message content. Across five method-dataset pairs, replacing each message with one from an unrelated question changes accuracy by at most...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.34754</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond Teacher Assignment: Domain-Normalized Multi-Teacher On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2609.35347</link>
-      <description>By Xin Li, Hao Jiang, Xin Gao, Annan Wang, Yuchen Xie, et al.
-
-Reinforcement learning can turn one language model into several specialists, each excellent at a single skill such as mathematics, coding or following instructions, but users need one model with all of these skills. Multi-teacher on-policy distillation (MOPD) merges them by letting the specialists t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.35347</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+When generating text, a Transformer produces representations of past tokens at every layer, but each layer can normally use only representations from the same depth. This restriction prevents the model from fully reusing information it has already computed. We introduce WhiteMatter, which allows eve...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2608.18486</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RenderRank: Learning to Rerank Text with Compressed Visual Tokens</title>
@@ -457,6 +448,15 @@ Names are personal identifiers, but they also carry social meaning and are widel
 
 Vision-language (VL) pretraining using paired chest X-ray (CXR) images and radiology reports has shown strong potential for medical image understanding. However, existing methods often remain dependent on task-specific finetuning because radiology reports are lengthy, clinically dense, and difficult...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.34479</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can We Trust the Teacher? Decoupled Credit Direction-Magnitude for Self-Distillation</title>
+      <link>https://huggingface.co/papers/2609.34848</link>
+      <description>By Yugu Li, Zehong Cao, Peizhen Li, Yang Zhang, Siyi Hu, et al.
+
+RLVR provides reliable trajectory-level credit, while OPSD offers dense supervision for token-level credit. This exposes a fundamental coupling when updating step-level credit direction and magnitude with teacher supervision, preventing steps from receiving reliable credit directions and contributio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.34848</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

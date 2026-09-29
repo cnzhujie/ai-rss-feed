@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 12:35:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 18:32:32 +0000</lastBuildDate>
     <item>
       <title>Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation</title>
       <link>https://huggingface.co/papers/2609.16145</link>
@@ -55,15 +55,6 @@ Evaluations of LLM systems routinely average over small prompt sets and report m
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue</title>
-      <link>https://huggingface.co/papers/2609.31948</link>
-      <description>By Chengqian Ma, Wenhao Feng, Weixuan Jin, Gaole Dai, Tianyu Xie, et al.
-
-Real-time full-duplex speech models can listen while speaking, enabling natural interaction without rigid turn boundaries. Existing benchmarks evaluate turn-taking, interruption handling and multi-round dialogue, but largely centre on a designated user rather than an assistant participating in a sha...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.31948</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation</title>
       <link>https://huggingface.co/papers/2609.31009</link>
       <description>By Ruikang Liu, Haoli Bai, Yuxuan Sun, Qian Zhang, Wenzheng Cai, et al.
@@ -71,24 +62,6 @@ Real-time full-duplex speech models can listen while speaking, enabling natural 
 Post-training quantization (PTQ) is a practical approach to reducing the memory and computational footprint of large language models (LLMs) without retraining. GPTQ-based methods have become the de facto standard, yet they suffer from two complementary limitations. Methods with local, layer-wise obj...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.31009</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SkillDRE: Dual-Stage Red-Team Evolution of Agent Skills via Pre-Execution and Runtime Feedback</title>
-      <link>https://huggingface.co/papers/2609.32400</link>
-      <description>By Pengyu Zhu, Jingyi Yang, Yi Liu, Li Sun, Sen Su
-
-Agent skills package instructions, executable code, and task-specific resources into reusable artifacts that agents can improve using execution feedback. The same mechanism also enables attackers to evolve malicious skills, making them more effective and less detectable. However, a candidate skill m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.32400</guid>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DepthBench: Measuring How Residual Connections Enable More Computational Depth</title>
-      <link>https://huggingface.co/papers/2609.32534</link>
-      <description>By Keyu Wang, Yangyi Huang, Jiale Kang, David González-Martínez, Weiyang Liu, et al.
-
-Depth is a natural way to increase the computational capacity in Transformers, yet the contribution of deeper layers can diminish as depth grows larger. Recent approaches enhance normalization (e.g., LayerNorm Scaling) or residual connections (e.g., mHC, AttnRes) to enable better information flow an...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.32534</guid>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Residual Transferability in Neural Image Watermarking</title>
@@ -244,67 +217,22 @@ While Large Language Models (LLMs) advertise million-token context windows, reas
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>KVCMAS: Efficient KV cache Correction for Shared Context in Multi-Agent Systems</title>
-      <link>https://huggingface.co/papers/2609.34060</link>
-      <description>By Hyesung Jeon, Hyeongju Ha, Seoyoung Lee, Beomseok Kang, Jae-Joon Kim
+      <title>Pruned CTC for Memory-Efficient Large-Vocabulary ASR Training</title>
+      <link>https://huggingface.co/papers/2609.33645</link>
+      <description>By Yifan Yang, Xiaoyu Yang, Zengrui Jin, Xian Shi, Yuxuan Wang, et al.
 
-Prompt-specialized multi-agent systems enable multiple agents to share a model while performing complementary roles to solve complex tasks. However, agent-specific prefixes change the KV cache generated for the same shared context, causing each agent to repeatedly prefill the growing context and con...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.34060</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+Connectionist temporal classification (CTC) naturally supports offline and streaming speech recognition with utterance-level supervision, but conventional implementations materialize frame-by-vocabulary activations in memory, making CTC training with native LLM vocabularies prohibitively memory-inte...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.33645</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge</title>
-      <link>https://huggingface.co/papers/2609.34327</link>
-      <description>By Chanuk Lee, Minki Kang, Sangwoo Park, Woongyeong Yeo, Jinheon Baek, et al.
+      <title>VisionHOPE: Visual Backbones as Self-Modifying Learning Systems</title>
+      <link>https://huggingface.co/papers/2609.33325</link>
+      <description>By Siran Peng, Tianshuo Zhang, Tianyu Fu, Weisong Zhao, Haoyuan Zhang, et al.
 
-Scaling test-time computation is a powerful way to improve language-model reasoning, and is particularly appealing for small reasoning models (sRMs) that are cheap to serve. However, is additional thinking always the right operation? By intervening at intermediate reasoning states across two model f...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.34327</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold</title>
-      <link>https://huggingface.co/papers/2609.35616</link>
-      <description>By Junjie Chen, Fei Wang, Kun Li, Yiqi Nie, Xun Yang, et al.
-
-Interactive 3D head generation requires coordinated speaking and listening motion that responds to an evolving conversation. Existing generators use incoming observations as context but keep their parameters fixed, leaving conversational patterns unused as a learning signal. We introduce EvolvingAva...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.35616</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Does "English (US)" Become the Default? Triangulating Structural Bias Towards American English Across the LLM Pipeline</title>
-      <link>https://huggingface.co/papers/2604.04204</link>
-      <description>By Mir Tafseer Nayeem, Davood Rafiei
-
-Large language models (LLMs) are increasingly embedded in educational, professional, and public infrastructure, yet widely used platforms expose "English (US)" as a primary English setting despite the global diversity of English. We ask: How does "English (US)" become the default? We study this ques...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2604.04204</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TokenCast: Forecasting Token Consumption During LLM Agent Execution</title>
-      <link>https://huggingface.co/papers/2609.35760</link>
-      <description>By Chaoqian Ouyang, Ling Yue, Libin Zheng, Huanghui Guo, Shengxiang Xu, et al.
-
-When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call....</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.35760</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Training and Inference Dynamics of PLDR-LLMs: Row-Map Collapse, Renormalization, and Predictive Reduction</title>
-      <link>https://huggingface.co/papers/2609.34130</link>
-      <description>By Burc Gokden
-
-This monograph develops a unified account of training and inference in Power Law Decoder Representation language models (PLDR-LLMs). Exact finite work identities decompose changes in the absolute energy of the row-centered learned map into parameter contributions, signed interactions, and numerical ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.34130</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Deterministic PRM Guidance Underperforms in Discrete Diffusion Reasoning</title>
-      <link>https://huggingface.co/papers/2609.35472</link>
-      <description>By Yan Zhan, Shaobo Liu, Zhijun Gao
-
-Discrete diffusion language models (dLLMs) expose a denoised solution at every step, which makes process reward model (PRM) guidance look like a way to spend compute at test time. We show that once denoising, PRM scoring, and outcome reward model (ORM) scoring are charged in the same budget of forwa...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.35472</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (ViTs) with global interactions, State-Space Models (SSMs) with input-dependent state transitions, and Test-Time Training (TTT) layers that adapt an inner learner while processing an...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.33325</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon</title>
@@ -457,6 +385,78 @@ Reinforcement learning (RL) post-training for large language models (LLMs) coord
 
 Frontier general-purpose systems are rapidly expanding beyond visual understanding into capabilities traditionally handled by dedicated computer-vision models. As these capabilities expand, a central question for the computer-vision community is how far this reach extends, and what remains hard. We ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.35718</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FactorEngram: Factorized N-gram Memory with Basis-Level Gating for Language Models</title>
+      <link>https://huggingface.co/papers/2609.35578</link>
+      <description>By Bowen Yang, Jingbo Zhou, Qinghong Miao, Hua Wu
+
+Lookup-based memory has been a promising way to scale the parameters of large language models (LLMs). It retrieves learned representations of local token patterns, such as n-grams, instead of reconstructing them through successive layers of computation. However, existing designs such as Engram treat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.35578</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Distillation Defenses Easily Break After Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2609.35699</link>
+      <description>By Shidan Javaheri, Alexander Panfilov, Oliver Britton, Yarin Gal, Yonatan Gideoni
+
+Distillation attacks copy the reasoning capabilities of closed-source large language models, allowing bad actors to replicate state-of-the-art performance at low cost. Attackers systematically collect a large volume of frontier model reasoning traces and then train (i.e., "distill") their own models...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.35699</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AnswerMap: Faithful Spatial Interpretability of VLMs from Answer Posteriors</title>
+      <link>https://huggingface.co/papers/2609.35247</link>
+      <description>By Mohamed Eltahir, Fardows Adam, Duaa M. Tahir, Lama Alamoudi, Sana Ammar, et al.
+
+When a VLM answers a visual query, current interpretability tools rely on text rationales, which use a mismatched modality, or on internal read-outs, which originate too early to reflect the final output and require white-box access to the model. We introduce AnswerMap, a training-free, task-agnosti...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.35247</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SCOPD: Sparse-Context On-Policy Self-Distillation for Efficient Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2609.34044</link>
+      <description>By Ahmadreza Jeddi, Enming Zhang, Jasper Gerigk, Hakki Karaimer, Mozhgan Nasr Azadani, et al.
+
+Reasoning vision-language models (VLMs) process images and videos as long sequences of visual tokens, making inference expensive. Training-free token pruning reduces this cost, but aggressive compression can sharply degrade performance, often attributed to irreversible loss of task-relevant visual i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.34044</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation</title>
+      <link>https://huggingface.co/papers/2609.34722</link>
+      <description>By Zesong Yang, Weikai Chen, Liyuan Cui, Lutao Jiang, Runze Zhang, et al.
+
+Long-horizon camera-controlled video generation requires recovering previously observed content from an ever-growing visual history. Existing approaches either search historical context implicitly or reconstruct it into persistent 3D memory, facing inefficient memory access or accumulated geometric ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.34722</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reinforcing Agentic Creativity in Scientific Ideation with Night Science</title>
+      <link>https://huggingface.co/papers/2609.35706</link>
+      <description>By Priyanka Kargupta, Silviu Cucerzan, Shweti Mahajan, Allen Herring, Jiawei Han, et al.
+
+Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ended scientific ideation. Effective discovery, however, spans a broader creative spectrum: from structured day science to l...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.35706</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who Gets a Token, and What Does It Carry? Unequal Name Support and Concept Access in Large Language Models</title>
+      <link>https://huggingface.co/papers/2609.34065</link>
+      <description>By Mir Tafseer Nayeem, Davood Rafiei
+
+Names are personal identifiers, but they also carry social meaning and are widely used to evaluate how language models treat different people. Such evaluations typically assume that matched names are comparable model inputs. We show that this assumption often fails at the lexical interface: matched ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.34065</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SentZero: An Enhanced Sentence-Centric Vision-Language Pretraining for Multi-Task Zero-Shot Chest X-Ray Analysis</title>
+      <link>https://huggingface.co/papers/2609.34479</link>
+      <description>By Hangyul Yoon, Hyungyung Lee, Edward Choi, Eunho Yang
+
+Vision-language (VL) pretraining using paired chest X-ray (CXR) images and radiology reports has shown strong potential for medical image understanding. However, existing methods often remain dependent on task-specific finetuning because radiology reports are lengthy, clinically dense, and difficult...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.34479</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

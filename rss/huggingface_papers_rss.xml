@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 15:19:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 20:56:33 +0000</lastBuildDate>
+    <item>
+      <title>Aligning One-Step Generative Models with Reward-Weighted Transport Distillation</title>
+      <link>https://huggingface.co/papers/2609.30840</link>
+      <description>By Austin Wang, Ziheng Cheng, Lexing Ying
+
+One-step generators enable high-quality visual generation with a single network evaluation, but their post-training is difficult: general implicit generators provide neither tractable likelihoods nor denoising trajectories, and many rewards are non-differentiable. We introduce Reward-Weighted Transp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.30840</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>LANTERN: Illuminating Hidden Mathematical Knowledge in Language Models</title>
       <link>https://huggingface.co/papers/2609.32264</link>
@@ -25,6 +34,15 @@ Language models can now prove theorems, but people still decide which problems t
 
 Software development requires more than editing code: developers repeatedly run software, interact with its interfaces, visually inspect its behavior, and use these observations to decide what to change next and whether a change works. Existing coding agents and computer-use agents are largely studi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.32600</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiasReducer: Adaptive Bias Mitigation for Reward Models</title>
+      <link>https://huggingface.co/papers/2609.32720</link>
+      <description>By Shuang Liu, Yongliang Miao, Yanguang Liu, Haoyi Xiong, Mengnan Du
+
+Reward models score responses from large language models (LLMs) and guide LLM training toward human preferences. However, reward models can favor superficial attributes such as length or confidence, leading LLMs to produce higher-scoring but not more correct responses. Existing mitigation methods ei...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.32720</guid>
       <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -118,31 +136,31 @@ Large language model (LLM) routing aims to select the most suitable model for ea
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI</title>
-      <link>https://huggingface.co/papers/2609.38143</link>
-      <description>By Cheng Qian, Kunlun Zhu, Beibin Li, Zhenhailong Wang, Heng Ji
+      <title>Rubric Rewards from Item Response Theory</title>
+      <link>https://huggingface.co/papers/2609.35646</link>
+      <description>By Milad Yazdani, Yaser Souri, Xiren Zhou, Pranit Chawla, Dena Shahriari, et al.
 
-Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introd...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.38143</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+Many language tasks have no single answer that can be checked automatically. Rubrics provide criteria for judging responses to these tasks. For reinforcement learning, the resulting verdicts must be combined into a scalar reward. A common approach sums the points assigned to satisfied criteria. Dist...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.35646</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation</title>
-      <link>https://huggingface.co/papers/2609.38142</link>
-      <description>By Rishabh Agrawal, Hejie Cui, Shasha Li, Shanchan Wu, Sercan Ö. Arık
+      <title>Prompted Identity Degrades Cooperation in Multi-Agent LLM Systems</title>
+      <link>https://huggingface.co/papers/2609.35928</link>
+      <description>By Xavier Del Giudice, Alessio Palma, Matteo Migliarini, Fabio Galasso, Indro Spinelli
 
-A small trainable advisor can steer a frozen language-model executor using natural-language advice. In addition to learning from task rewards, the advisor can use feedback from completed interactions to improve its advice. However, a plausible correction need not change execution, yet learning from ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.38142</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+Multi-agent LLM systems increasingly mix models from several providers, yet exposing each agent's underlying model identity to its peers significantly impairs cooperation. We show that when agents are aware of each other's model family, the group splits into clusters, where agents prefer interacting...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.35928</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks</title>
-      <link>https://huggingface.co/papers/2609.38288</link>
-      <description>By Hongjin Qian, Chaofan Li, Kun Luo, Wenqing Wei, Jianlyu Chen, et al.
+      <title>BIABench: Evaluating AI agents on real-world bioimage analysis tasks</title>
+      <link>https://huggingface.co/papers/2609.34274</link>
+      <description>By Zixuan Pan, Davide Panzeri, Lukas Johanns, Marilin Moor, Yu Zhou, et al.
 
-We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.38288</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+Artificial-intelligence (AI) agents hold promise for automating bioimage analysis, yet no benchmark evaluates whether they can carry out real-world analyses end to end. Such analyses are hard for agents because 2D images, 3D volumes and time-lapse sequences are often too large to read as context, so...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.34274</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation</title>
@@ -235,76 +253,22 @@ Recent advances in musculoskeletal modeling and reinforcement learning have enab
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PatchHolmes: Agentic Patch Retrieval via Listwise Selection</title>
-      <link>https://huggingface.co/papers/2609.38807</link>
-      <description>By Guanqun Yang, Yingming Zhou, Jiangrui Zheng, Shudong Hao, Xueqing Liu
+      <title>MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution</title>
+      <link>https://huggingface.co/papers/2609.38349</link>
+      <description>By Prithwish Jana, Mononito Goswami, Hao Liu, Xinyu Li, Langlin Huang, et al.
 
-Patch retrieval, the task of finding the commit that fixes a known vulnerability, is the foundation of vulnerability management workflows, yet 60% to 63% of CVEs in the major advisory databases lack a patch link. We present PatchHolmes, a two-phase patch retrieval system that pairs a hybrid first-st...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.38807</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+Modern agentic systems combine an AI model with a harness that controls execution and environmental interactions. Harness design strongly affects long-horizon performance, yet its combinatorial search space demands substantial human effort that must be repeated as models change. Existing automated m...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.38349</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale</title>
-      <link>https://huggingface.co/papers/2609.38822</link>
-      <description>By Guanqun Yang, Wenlong Zhang, Tian Shi, Ping Wang
+      <title>Tacit-TTS: From Autoregressive Decoding to Masked Prediction for Efficient Transcript-Free Voice Cloning</title>
+      <link>https://huggingface.co/papers/2609.38658</link>
+      <description>By Jian Chen, You Zhang, Mark Vinton
 
-Anthropic's Agent Skills package reusable procedural know-how for an LLM agent into SKILL.md directories, and open-source aggregations have grown past 230,000 skills, making selection rather than authoring the bottleneck. The standing answer in the literature outsources selection to the agent itself...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.38822</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively?</title>
-      <link>https://huggingface.co/papers/2609.39578</link>
-      <description>By Minghan Wang, Boyuan Wang, Jinhang Zuo, Yuxin Tao, Fang kong
-
-Agent harnesses often improve language models with human-designed workflows, but as models grow more capable, unreliable guidance can increasingly constrain their execution. We call the ability to benefit from useful guidance while overriding unreliable guidance thinking outside the box. We introduc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.39578</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training</title>
-      <link>https://huggingface.co/papers/2609.40111</link>
-      <description>By Kunlun Zhu, Xuyan Ye, Yibo Li, Cheng Qian, Beibin Li, et al.
-
-An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the agent, the actions it chose, and the environment's responses. Reusing this experience for learning requires identifying a decision to revise and testing a concrete alternative. We int...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.40111</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Decision-Oriented Recommendation Reranking: An Empirical Study of Jev</title>
-      <link>https://huggingface.co/papers/2609.40241</link>
-      <description>By Hanjia Lyu, Yinglong Xia
-
-Large language models (LLMs) have shown promise for recommendation reranking, but their use introduces an important tradeoff between recommendation quality and serving efficiency. We investigate whether a decision-oriented model provides a useful alternative when the reranking task is fundamentally ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.40241</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Working Around the Compute Ceiling: Byte-Exact Memory in Galahad Makes LLM Reading a One-Time Cost LLM Reading a One-Time Cost</title>
-      <link>https://huggingface.co/papers/2609.39358</link>
-      <description>By Sietse Schelpe
-
-A transformer language model performs a bounded amount of computation per token, and recent work by Vishal Sikka, former CEO of Infosys, argues that this bound limits which tasks a model can carry out or verify (arXiv:2507.07505). We ask how much of the budget beneath that ceiling is spent on work t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.39358</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents</title>
-      <link>https://huggingface.co/papers/2609.40285</link>
-      <description>By Yinghui He, Yapei Chang, Khushi Bhardwaj, Daniele Molinari, Tugrul Konuk, et al.
-
-On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision on student-generated trajectories. However, in multi-turn interaction, an incorrect action changes the states the student encounters later, so errors compound across turns. In preli...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.40285</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement</title>
-      <link>https://huggingface.co/papers/2609.38721</link>
-      <description>By Fang Wu, Da Xing, Yanjie Huang, Junxi Wang, Ji Wang, et al.
-
-Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.38721</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+TTS systems with autoregressive semantic modeling have demonstrated strong zero-shot voice cloning performance and rich expressive variation, but their sequential decoding incurs substantial latency. Non-autoregressive alternatives offer much faster generation, yet often rely on more restrictive ref...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.38658</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Scaling Laws for Looped Mixture of Experts</title>
@@ -457,6 +421,42 @@ Large Vision-Language Models (LVLMs) commonly perform spatial reasoning through 
 
 Large Vision-Language Models (LVLMs) have made remarkable progress across visual perception tasks, yet spatial reasoning remains a persistent weakness, especially for questions that require reasoning over visual space. Recent spatial-reasoning methods incorporate generated grounding, where models pr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.38716</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories</title>
+      <link>https://huggingface.co/papers/2609.40195</link>
+      <description>By Guangzhi Xiong, Xinyuan Zhang, Xiao Yang, Hyokun Yun, Kai Zhang, et al.
+
+Long-term egocentric video enables personalized AI assistants to reason about daily life. However, as video histories grow to hundreds of hours spanning months or years, reprocessing raw clips for every query becomes computationally prohibitive. Memory systems offer a scalable alternative by compact...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.40195</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who Said What, and Will It Be Remembered? Evaluating Persistent Speaker Attribution Across Meetings</title>
+      <link>https://huggingface.co/papers/2609.39344</link>
+      <description>By Shantanu Vispute, Aditya Mishra, Siddhartha Saxena
+
+Speech transcripts used as long-term memory must preserve both words and stable speaker identities. Existing meeting-transcription metrics either ignore speakers or remap anonymous speakers independently in each recording, so they cannot measure whether the same person retains one identity across me...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.39344</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DAGent: Evaluate-then-Grow Planning for Deep Research Agents</title>
+      <link>https://huggingface.co/papers/2609.39154</link>
+      <description>By Hanwen Liu, Yuanfu Sun, Qiaoyu Tan
+
+Deep research tasks require agents to navigate large knowledge spaces, synthesize evidence across many sources, and adapt their plans as findings emerge. Directed acyclic graph (DAG)-based multi-agent systems suit this setting because they support parallel execution and isolate each sub-task within ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.39154</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training LLM Judges from Language Feedback via Position-Selective Self-Distillation</title>
+      <link>https://huggingface.co/papers/2609.38792</link>
+      <description>By Ilgee Hong, Changlong Yu, Zhenghao Xu, Xin Liu, Yuwei Zhang, et al.
+
+We study training LLM judges from natural language feedback, especially for subjective tasks where the verdict depends strongly on which evaluation criteria the judge invokes and how it weighs them. The dominant approach, outcome-supervised RL (e.g., GRPO), credits every token in the rollout with a ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.38792</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

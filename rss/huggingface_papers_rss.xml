@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 20:42:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:27:22 +0000</lastBuildDate>
     <item>
       <title>Reasoning with Image Generation</title>
       <link>https://huggingface.co/papers/2609.16409</link>
@@ -73,6 +73,15 @@ Long-term memory enables agents to accumulate information and reason across sess
       <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents</title>
+      <link>https://huggingface.co/papers/2609.32915</link>
+      <description>By Asif Shahriar, Md Nafiu Rahman, Sadif Ahmed, Farig Sadeque, Md Rizwan Parvez
+
+Browser-use agents often carry information in their context as they move between websites. While it may be necessary for task completion, it also creates a privacy risk, especially when the information contains a private fact regarding the user. For example, an agent may learn a user's affiliation a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.32915</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Pretraining Transformers with Quantized Softmax in Attention</title>
       <link>https://huggingface.co/papers/2609.33591</link>
       <description>By Shangzhen Zhu, Muyan Hu, Tomasz Kozlowski
@@ -107,15 +116,6 @@ World-action models (WAMs) couple predictive visual modeling with action generat
 Modern language models are likely to be updated throughout their lifetime rather than trained once and frozen. Each update therefore participates in a recurring cycle: decide which experience to learn from, understand what that update changes, and remain capable of learning from what comes next. We ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.33620</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PlaylistEval: Can Video-Language Judges Be Trusted at Day Scale and Beyond?</title>
-      <link>https://huggingface.co/papers/2609.34314</link>
-      <description>By Shayekh Bin Islam, Hwanjun Song
-
-Video-language models are increasingly used as judges of video understanding, both for evaluating model outputs and for training reward models. Whether their judgments remain reliable when the evidence is buried in day-long videos has yet to be established. Existing benchmarks cannot answer this. Th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.34314</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Language Models Are "Insecure" Reporters</title>
@@ -262,22 +262,13 @@ State Space Models (SSMs) compress sequence history into a bounded recurrent sta
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>TabFM: A Zero-Shot Foundation Model for Tabular Data</title>
-      <link>https://huggingface.co/papers/2609.37959</link>
-      <description>By Weihao Kong, Erez Louidor Ilan, Shuxin Nie, Taman Narayan, Rajat Sen, et al.
+      <title>PreviewDiff: Multimodal Critic-Guided Search over Diffusion Latents</title>
+      <link>https://huggingface.co/papers/2609.36199</link>
+      <description>By Vighnesh Subramaniam, Boris Katz, Brian Cheung, Chun-Liang Li, Tomas Pfister, et al.
 
-Tabular machine learning typically relies on per-dataset workflows, fitting tree ensembles or running AutoML searches from scratch for every task. We present TabFM, a 400M-parameter tabular foundation model that formulates supervised tabular prediction as in-context learning. TabFM produces calibrat...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.37959</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TabFM-Auto: Self-Evolving Pipelines for Tabular Foundation Models</title>
-      <link>https://huggingface.co/papers/2609.37989</link>
-      <description>By Deqing Fu, Huangyuan Su, Rajat Sen, Taman Narayan, Sujay Sanghavi, et al.
-
-Tabular foundation models achieve strong zero-shot accuracy on structured data by pretraining on synthetic tables, but they ignore the column names, task descriptions, and auxiliary files that carry dataset semantics. Meanwhile, self-evolving machine learning engineering (MLE) agents train models fr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.37989</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+Diffusion models can produce striking images and videos, but they still struggle with the compositional details that make a generation faithful to a prompt, such as object counts, attribute binding, spatial relations, and temporally grounded actions. A common way to improve prompt satisfaction is to...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.36199</guid>
+      <pubDate>Mon, 28 Sep 2026 20:00:41 +0000</pubDate>
     </item>
     <item>
       <title>EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?</title>
@@ -457,6 +448,15 @@ Recurrent reasoning models have attracted growing attention for scaling test-tim
 
 Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebases later agents must work in. To measure how well agents design libraries for other agents, we introduce LibraryDesignBench, a two-phase benchmark in which an agent implements a full...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.36730</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Makes Recurrence Effective in Looped Language Models?</title>
+      <link>https://huggingface.co/papers/2609.36636</link>
+      <description>By Xinlin Zhuang, Siyuan Wang, Imran Razzak, Weiyang Liu
+
+Looped language models (LoopLMs) increase computational depth through parameter sharing, offering a path to scale inference computation without adding parameters. However, it remains unclear when additional recurrence is beneficial and how architectural choices affect its effectiveness. Through cont...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.36636</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

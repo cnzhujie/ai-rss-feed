@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 19:07:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 23:40:21 +0000</lastBuildDate>
     <item>
       <title>Decentralized Master-Mind: Joint Action Refinement through Iterative Intent Denoising in Multi-Agent Pathfinding</title>
       <link>https://huggingface.co/papers/2609.32019</link>
@@ -163,22 +163,13 @@ Pretrained transformers use little of their depth to follow references in contex
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Personalized Image Generation with Reasoning and Reflection</title>
-      <link>https://huggingface.co/papers/2610.00737</link>
-      <description>By Bo Ni, Ngoc N. Tran, Qinwen Ge, Franck Dernoncourt, Seunghyun Yoon, et al.
+      <title>MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization</title>
+      <link>https://huggingface.co/papers/2609.36435</link>
+      <description>By Jingxuan Wu, Yuzhe Yang, Yiqiao Huang, Chengzhi Liu, Qingni Wang, et al.
 
-Personalized image generation has remained narrowly focused on conditional synthesis from curated visual exemplars, rather than capturing who a user is. In practice, however, a user's personal context is much richer, comprising reviews, posts, images, captions, and metadata accumulated over time. A ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.00737</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Missing Piece for Trustworthy AI Reviewers: From Benchmarking Rhetorical Robustness to SciCore Review</title>
-      <link>https://huggingface.co/papers/2609.39027</link>
-      <description>By Chenguang Wang, Ming Li, Chengrui Fan, Jianpeng Chen, Han Chen, et al.
-
-AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and dis...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.39027</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+An assistant that serves the same user over a long horizon has to answer from what that user has revealed: which preferences still hold, which were revised, and which constraints apply now. Retaining that information is not the same as acting on it, and the two are usually optimized as if they were....</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.36435</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL</title>
@@ -289,6 +280,15 @@ Video world models require persistent scene memory to maintain consistency durin
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Video Generation Models: A Survey of Post-Training and Alignment</title>
+      <link>https://huggingface.co/papers/2610.00812</link>
+      <description>By Chaoyu Li, Xiaoyi Gu, Yogesh Kulkarni, Eun Woo Im, Mohammadmahdi Honarmand, et al.
+
+Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics. Despite strong generative priors learned through large-scale pretraining, pretrained video models often fail to reliably follow human intent, mainta...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.00812</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>LOCI: Spatial Linear Memory for Streaming World Models</title>
       <link>https://huggingface.co/papers/2609.40222</link>
       <description>By Ji Xia, Tingting Liao, Xuezhi Liang, Hao Li, Guangyi Liu
@@ -296,15 +296,6 @@ Video world models require persistent scene memory to maintain consistency durin
 When a camera revisits a previously observed region, a video world model should reproduce what was there before. This requires both remembering past observations and retrieving the right one for the current viewpoint. Key-value caches preserve visual detail but grow with video length; recurrent memo...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.40222</guid>
       <pubDate>Wed, 30 Sep 2026 17:27:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>World Observer: Joint Actor-Observer Generation for Persistent World Modeling</title>
-      <link>https://huggingface.co/papers/2610.02162</link>
-      <description>By Hyunwook Choi, Dahyun Chung, Hyunsung Kim, Siyoon Jin, Jinhyeok Choi, et al.
-
-How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.02162</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Pay for the Fault, Not the Flow: Label-Free In-Flow Multi-Agent Workflow Optimization</title>
@@ -457,6 +448,15 @@ What makes great scientists great? Even as AI systems start to make progress on 
 
 Keyword-matching benchmarks can credit small models for tool use they never perform. We document such a false positive in a matched-architecture pair of Spanish security language models and propose a ladder of strict, cheap diagnostics. A 661.6M parameter model (approx. 65% code/technical text; no d...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.02142</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation</title>
+      <link>https://huggingface.co/papers/2610.01092</link>
+      <description>By Patrick Amadeus Irawan, Iskandar Muda Rizky Parlambang, Rava Maulana, Qinrong Cui, Erland Hilman Fuadi, et al.
+
+Video generation models are increasingly being explored as world simulators for embodied planning and learning. To do so effectively, these models must not only generate visually appealing frames, but also predict how environments dynamically evolve when executing goal-directed actions. While evalua...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.01092</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

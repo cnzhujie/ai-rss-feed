@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 21:10:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 01:43:26 +0000</lastBuildDate>
     <item>
       <title>Accent Analogy Guidance: More Speaker Similarity at Equal Accent in Cross-Lingual Voice Cloning</title>
       <link>https://huggingface.co/papers/2609.29123</link>
@@ -16,6 +16,15 @@
 
 In cross-lingual zero-shot text-to-speech, the accent of the reference leaks into the target speech. We propose accent analogy guidance (AAG), a training-free sampler term that subtracts an accent direction estimated from the model's own predictions for one synthetic voice rendered in both languages...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.29123</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TimeBraid: Unifying Time Series and Language for Understanding and Forecasting</title>
+      <link>https://huggingface.co/papers/2609.29792</link>
+      <description>By Xinyue Wang, Jiacheng Pang, Kun Zhou, Kexin Zhang, Defu Cao, et al.
+
+We present TimeBraid, a series of unified time-series and language models that align pretrained language models and pretrained time-series foundation models through interleaved global residual attention layers. Each model inherits knowledge, instruction following, and reasoning from one side, contin...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.29792</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -109,15 +118,6 @@ Distribution Matching Distillation (DMD) trains a few-step student from the diff
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>World Action Learning via Interaction-Centric Spectral Latent Guidance</title>
-      <link>https://huggingface.co/papers/2610.03607</link>
-      <description>By Zhiming Liu, Yikun Miao, Ying Chen, Hongrui Yin, Fangqi Zhu, et al.
-
-Learning general-purpose robot policies requires large-scale real-world interaction data, yet collecting robot demonstrations remains expensive and difficult to scale. Egocentric videos offer abundant human interaction experience with task-relevant semantics for robotic manipulation, but direct tran...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.03607</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Harness-Aware Distillation for Small Language Model Agents</title>
       <link>https://huggingface.co/papers/2610.02858</link>
       <description>By Moonseok Choi, Taehong Moon, Giung Nam, Juho Lee
@@ -199,22 +199,13 @@ On-policy distillation (OPD) has emerged as a widely used paradigm for post-trai
       <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HuatuoGPT-3: RL-Only Domain Adaptation from Base Models</title>
-      <link>https://huggingface.co/papers/2610.05966</link>
-      <description>By Junying Chen, Xinyuan Xie, Ziniu Li, Wenyuan Gu, Jianquan Li, et al.
+      <title>Questioning the Questions: Sustaining Self-Evolution in Reasoning Models</title>
+      <link>https://huggingface.co/papers/2610.04299</link>
+      <description>By Jinyuan Li, Chengsong Huang, Langlin Huang, Donghong Cai, Shiping Gao, et al.
 
-Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While the dominant SFT+RL pipeline offers a convenient cold start, it may reduce exploration diversity and introduces additional complexity through multi-stage optimization. These limitati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.05966</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training</title>
-      <link>https://huggingface.co/papers/2610.07510</link>
-      <description>By Qiusi Zhan, Nian Lyu, Stephanie Ding, Arnav Mehta, Xander Davies, et al.
-
-Developers can build LLM agents by adapting third-party models through benign post-training. We study a supply-chain threat in which an attacker supplies a model with a backdoor: hidden behavior that produces malicious outputs when a particular input pattern appears. Focusing on software-engineering...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.07510</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+Self-evolving reasoning models learn from their own generated questions, yet repeated self-training can lead to performance collapse. In this paper, we investigate why performance deteriorates over successive rounds and how to sustain self-evolution. Our analysis identifies two recurring quality pro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.04299</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>JLD: Perceptual Distance Through A Jacobian Lens</title>
@@ -316,6 +307,33 @@ Autoregressive video diffusion supports streaming generation and interactive con
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>TRIAGE: Direction-Aware Mismatch Stabilization of Native NVFP4 Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2610.07043</link>
+      <description>By Zhen Li, Shuai Zhang, Yanggan Gu, Yiming Zhang, Yang Yu, et al.
+
+Low-precision execution can substantially accelerate reinforcement learning (RL) for large language models, but discrepancies between learner and sampler execution can destabilize policy optimization. In this paper, we characterize the interaction between mismatch and the policy-gradient direction, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.07043</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Structuring MoE Expert Selection for Agentic Reinforcement Learning</title>
+      <link>https://huggingface.co/papers/2610.07332</link>
+      <description>By Bolian Li, Ting-Yao Hu, Cheng-Yu Hsieh, Sanjoy Chowdhury, Oncel Tuzel, et al.
+
+Long-horizon LLM agents are frequently implemented using sparse mixture-of-experts (MoE) models, yet the co-design of agentic behavior and MoE structures remains underexplored. In this work, we comprehensively study the connections between agentic post-training and MoE expert selection. In off-the-s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.07332</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Technical Report on the Turba Fertilizer Machine Learning Stack in Morocco</title>
+      <link>https://huggingface.co/papers/2610.05949</link>
+      <description>By Abdelghani Belgaid, Zakaria Mahmoud, Fahd Chibani, Oumnia Ennaji, Younes Boudoul, et al.
+
+Site-specific fertilizer recommendation systems adapt nutrient advice to location, soil properties, crop type, and production targets, but scientific reuse is constrained when recommendation functions remain accessible mainly through interactive interfaces, outputs are not versioned, and trained app...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.05949</guid>
+      <pubDate>Mon, 05 Oct 2026 08:04:09 +0000</pubDate>
+    </item>
+    <item>
       <title>MEND: RL For Flow Models via Proximal Velocity Matching</title>
       <link>https://huggingface.co/papers/2610.05954</link>
       <description>By Shreshth Saini, Neil Birkbeck, Yilin Wang, Balu Adsumilli, Alan C. Bovik
@@ -323,51 +341,6 @@ Autoregressive video diffusion supports streaming generation and interactive con
 Reward post-training of flow models either reweights the model's own samples under a KL penalty or a frozen reference, often for thousands of updates, or backpropagates the reward and moves every sample without checking that the move is worth its size. We introduce MEND, a reinforcement learning met...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.05954</guid>
       <pubDate>Mon, 05 Oct 2026 08:07:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Personal-Agent Mediated Recommendation with Cross-Platform User History</title>
-      <link>https://huggingface.co/papers/2610.07588</link>
-      <description>By Yu Xia, Jiangfan Zhang, Jun Xiao, Julian McAuley, Xiangjun Fan
-
-Modern recommendation is shifting from platform-centric personalization toward user-governed personalization, where a personal LLM agent can act on the user's behalf across services. We formalize this emerging paradigm as Personal-Agent Mediated Recommendation: a platform recommender ranks a candida...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.07588</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attacca: Goal-Directed Control under State Continuity for Long-Horizon Embodied Agents</title>
-      <link>https://huggingface.co/papers/2610.07785</link>
-      <description>By Gyusik Seo, Jaehong Yoon
-
-A central capability of embodied agents is to accomplish complex objectives through sequences of interdependent tasks. Yet existing visual goal-conditioned policies underlying these agents are typically evaluated on isolated interactions where the target is already visible, and thus do not capture t...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.07785</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models</title>
-      <link>https://huggingface.co/papers/2610.07767</link>
-      <description>By Xin Wang, Hao Yu, Zhengyang Zhuge, Bochao Mao, Zheng Li, et al.
-
-Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily opti...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.07767</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability</title>
-      <link>https://huggingface.co/papers/2610.08448</link>
-      <description>By Bingxi Hou, Guochao Jiang, Guofeng Quan, Weiqing Li, Wenfeng Feng, et al.
-
-On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves le...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.08448</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Evidence to Action: How Tool-Using Agents Fail</title>
-      <link>https://huggingface.co/papers/2610.07753</link>
-      <description>By Hongzhan Lin, Shidong Cao, Ziyang Luo, Wenhao Chai, Mong-Li Lee, et al.
-
-Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.07753</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Towards In-Parameter Memory Augmentation for Large Language Models</title>
@@ -451,13 +424,40 @@ Sensors are useful not only for understanding the world but also for deciding wh
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model</title>
-      <link>https://huggingface.co/papers/2610.08773</link>
-      <description>By Sarim Hashmi, Mukul Ranjan, Kshitij Mishra, Mikhail Kuznetsov, Praneeth Vepakomma, et al.
+      <title>nanoMuse: An Open-Source Personal Agent for Every Device You Own</title>
+      <link>https://huggingface.co/papers/2610.08699</link>
+      <description>By Guangyi Liu, Yong Liu, Jiangning Zhang
 
-Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current def...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.08773</guid>
-      <pubDate>Tue, 06 Oct 2026 17:56:43 +0000</pubDate>
+Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.08699</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>We Query, Therefore We Compute: On Oracle Computation beyond the Machine, with an Application to Agents</title>
+      <link>https://huggingface.co/papers/2610.09243</link>
+      <description>By Kefan Liu, Fengning Ou, Yelin Luo, Jingdi Lei
+
+Agentic systems use large language models (LLMs) to carry out concrete tasks. Prior work often borrows abstractions such as scheduling, caching or isolation piecemeal from operating systems, so the mechanisms it builds share little common ground, and the shared view of the two forms of agentic syste...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.09243</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RLHND: Video Foundation Models as Physically Grounded Hand Trackers for Robot Learning</title>
+      <link>https://huggingface.co/papers/2610.09455</link>
+      <description>By Seungjun Moon, Subin Jeon, Sangwoo Kim, Hanbyul Joo, Jinwoo Shin
+
+Recently, approaches that leverage human video datasets for robot policy training have become increasingly prevalent. However, most existing hand trackers regress pose from cropped frames with limited priors on hand motion and object interaction, resulting in inaccurate and physically inconsistent e...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.09455</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on Live Websites</title>
+      <link>https://huggingface.co/papers/2610.03036</link>
+      <description>By Jiangang Han
+
+We present WebFovea, a vision-based web agent that placed 2nd in the WebRetriever Challenge 2026 with a final score of 57.0 out of 100. The challenge evaluates agents end to end on Protocol III of the WebRetriever benchmark (arXiv:2607.06118): starting from an entry URL on a live website, the agent ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.03036</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

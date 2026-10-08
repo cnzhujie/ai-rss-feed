@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 16:19:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 21:57:18 +0000</lastBuildDate>
     <item>
       <title>Learning Multimodal Embeddings with Evidence-Aligned Readout</title>
       <link>https://huggingface.co/papers/2609.33659</link>
@@ -44,15 +44,6 @@ Few-step streaming audio--video generation requires both causal modeling and ste
 Text-conditioned full-body human-object interaction (HOI) generation requires synthesizing human motion and object trajectories that match the input text while remaining precisely coordinated over time. Most methods represent the human and object as separate trajectories and predict the global human...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.38466</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Semifactual Credit-Augmented Policy Optimization</title>
-      <link>https://huggingface.co/papers/2609.40360</link>
-      <description>By Junshu Pan, Zhizhang Fu, Shulin Huang, Yiran Ding, Zifan Cheng, et al.
-
-Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underly...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2609.40360</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>VIEScore2: Unified Image Evaluation with Spatially Grounded Explanations</title>
@@ -91,6 +82,15 @@ Recovering executable CAD programs from 3D meshes is challenging due to the comp
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Inherit-MAS: Test-Time Evolution of Multi-Agent Systems through Workflow and Execution Inheritance</title>
+      <link>https://huggingface.co/papers/2610.02396</link>
+      <description>By Songtao Wei, Yi Li, Zhichun Guo, Bingzhe Li
+
+Multi-agent systems (MAS) built from large language models coordinate specialized agents to tackle complex tasks, but effective workflows are difficult to design in advance. Test-time evolution refines workflows using execution feedback, yet broad revisions can disturb useful components, while re-ex...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.02396</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Gains and Collapse in On-Policy Distillation:A Reinforcement Learning Perspective</title>
       <link>https://huggingface.co/papers/2610.03185</link>
       <description>By Han Cui, Jianhao Yan, Yun Luo, Hongbo Zhang, Zhizhang Fu, et al.
@@ -109,6 +109,15 @@ Vision-Language-Action (VLA) foundation models have scaled rapidly to enhance ma
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Beyond the Parameter Monolith: Reconstructive Memories, Executable Skills, and Residual Assembly for Language Models</title>
+      <link>https://huggingface.co/papers/2610.04012</link>
+      <description>By A. Bochkov
+
+Language-model systems can separate contextual computation, persistent storage, and exact execution instead of updating all capabilities through one shared parameter system. We investigate FEM-ASM, a finite-element-method-inspired organization in which independently constructed document states and d...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.04012</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>NAMVIS: Next-Scale Autoregressive Multi-View Image Synthesis</title>
       <link>https://huggingface.co/papers/2610.04722</link>
       <description>By Ramil Khafizov, Ilya Statsenko, Ruslan Rakhimov, Artem Komarichev, Peter Wonka, et al.
@@ -116,15 +125,6 @@ Vision-Language-Action (VLA) foundation models have scaled rapidly to enhance ma
 Sparse-view novel view synthesis is a central problem in 3D content creation, but diffusion-based approaches remain limited by iterative denoising, making multi-view generation expensive at inference time. We introduce NAMVIS, a diffusion-free framework that reformulates multi-view image synthesis a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.04722</guid>
       <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agentic RAG Evaluation: Budget Allocation Across Questions, Trajectories, and Reads</title>
-      <link>https://huggingface.co/papers/2610.05034</link>
-      <description>By Jingjie Ning, Xueqi Li, Yibo Kong
-
-Evaluation budgets in agentic retrieval-augmented generation span questions, search trajectories, and repeated answers. We measure allocation precision, reading efficiency, and cost boundaries using a retrieval-feedback comparison on HotpotQA and MuSiQue. At 34.14--34.39M model tokens, broader quest...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.05034</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SheetSage2: Coherent Lead-Sheet Transcription with Synthetic Supervision</title>
@@ -145,13 +145,13 @@ Partnered human-humanoid interaction couples locomotion with continuous physical
       <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Minimal Witness Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.07226</link>
-      <description>By T. Y. Tsui, Zihao Ye, Pengxiang Cai, Yanchao Li, Yuqiang Li, et al.
+      <title>How corner is a corner case? Percentile control for highway scenario generation</title>
+      <link>https://huggingface.co/papers/2610.05003</link>
+      <description>By Jiaxi Liu, Hang Zhou, Hangyu Li, Yifan Wang, Keke Long, et al.
 
-``What are the irreducible conditions that are sufficient to produce an outcome?'' is one of the most common questions that recur across computation and science. Its answers, the minimal sufficient witnesses, are what we mean by explanations, mechanisms and reasons. These problems usually ask for mu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.07226</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+Generating corner-case scenarios with appropriate adversity in a simulation environment is critical for testing an autonomous vehicle (AV) software stack's safety performance before deployment. Existing autonomous-driving scenario generators can enforce specific behavior, adversity, or feasibility c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.05003</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction</title>
@@ -188,33 +188,6 @@ Selective state space models (SSMs), such as Mamba, achieve strong per-token exp
 Enterprise AI agents that share a memory store face two unaddressed risks: sensitive data can leak through legitimately computed results the requester could not derive, and departments can silently compute a same-named key performance indicator (KPI) through conflicting logic. Existing agent-memory ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.07258</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DecepEval: A Benchmark for Evaluating Deception in LLM Agents</title>
-      <link>https://huggingface.co/papers/2610.07967</link>
-      <description>By Yiming Xu, Hongyue Yu, Beihua Yang, Zihan Chen, Yixin Liu, et al.
-
-As large language model (LLM) agents become increasingly autonomous, they may pursue task performance through deception, raising concerns about their reliable deployment. Existing evaluations show that LLM agents can deceive, but often examine isolated scenarios or narrowly defined conditions, limit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.07967</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WorldSonus: Bringing Sound to Worlds</title>
-      <link>https://huggingface.co/papers/2610.08760</link>
-      <description>By Pengjun Fang, Jingyi Fa, Kam Man Wu, Jiaming Wang, Haoyuan Huang, et al.
-
-Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time generation to keep pace with interactive video streams, interactive control to resp...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.08760</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness</title>
-      <link>https://huggingface.co/papers/2610.08621</link>
-      <description>By Jiajun Chen, Haoyu Wu, Mingda Jia, Xihui Liu
-
-Recent game design agents have made substantial progress in generating playable games. However, program correctness does not ensure an enjoyable experience for players. We present Recursive Game Creator, an experience-oriented harness to advance agentic game development from rough game prototypes in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.08621</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>On-Policy Distillation with Negative-Policy Rollouts</title>
@@ -289,22 +262,13 @@ A central challenge for scientific agents is to turn analytical experience into 
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AdSpark: A Large-Scale Dataset and Benchmark for Product-Centric Advertisement Video Generation</title>
-      <link>https://huggingface.co/papers/2610.10047</link>
-      <description>By Zhifei Yang, Zhao Jiang, Keyang Lu, Honghe Zhu, Zheng Zhang, et al.
+      <title>Agent Plasticity: Measuring Self-Improvement Through Experience</title>
+      <link>https://huggingface.co/papers/2610.08902</link>
+      <description>By Harman Singh, Anton Bakhtin, Rulin Shao, Gabriel Synnaeve, Ilia Kulikov, et al.
 
-Product-centric advertisement video generation aims to create promotional videos that preserve fine-grained product identity while presenting selling points through coherent multi-shot narratives. However, this emerging task remains underexplored due to the lack of large-scale advertisement-specific...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.10047</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SGF+: Decoupling Gradient Flows for Autoregressive Video Generation</title>
-      <link>https://huggingface.co/papers/2610.10429</link>
-      <description>By Zihan Su, Junhao Zhuang, Yaowei Li, Siwen Lu, Haoran Li, et al.
-
-Autoregressive video generation requires denoising the current frames while writing their key-value representations as context for future predictions. However, these two roles typically share parameters, and we find that their gradients exhibit distinct patterns and systematic negative alignment, hi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.10429</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+AI agents increasingly operate in environments where they can diagnose failures and improve through experience, yet existing evaluations largely measure what an agent can do at a fixed point in time rather than how effectively it learns. Evaluating self-improvement requires answering three questions...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.08902</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Inverting Multi-Vector Visual Document Indices</title>
@@ -457,6 +421,42 @@ Dual-process agents pair a fast policy with a slow deliberative model. In real-t
 
 Multi-teacher on-policy distillation (MOPD) is used in two settings. In common-domain composition, several teachers score each student rollout from one prompt domain and their signals form a single target; in routed-domain distillation, prompts from different domains are assigned to the correspondin...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.10460</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning</title>
+      <link>https://huggingface.co/papers/2610.09450</link>
+      <description>By Hanqiu Li Cai, Chema Garabito
+
+Pixel-space diffusion models avoid the lossy VAE of latent models, which suggests an advantage on downstream tasks where fine-grained detail matters. We test this claim along both routes to a pixel-space backbone. We pretrain Iris-3B, a 3B-parameter pixel-space text-to-image transformer, from scratc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.09450</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MIMESIS: Learning User Simulators as Training Environments for Interactive Agents</title>
+      <link>https://huggingface.co/papers/2610.09484</link>
+      <description>By Hoang Phan, Dat Huynh, Andrey Zhmoginov, Qi Zeng, Wancen Mu, et al.
+
+Training and evaluating interactive language agents typically requires rich user interactions, yet collecting human feedback is expensive and difficult to scale. Simulated users offer a scalable alternative, but they must both resemble real user behavior and provide useful learning experiences for a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.09484</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DSReg: Provably Recovering Individual World Latents without Reconstruction</title>
+      <link>https://huggingface.co/papers/2610.09457</link>
+      <description>By Yujia Zheng, David Klindt, Randall Balestriero, Bernhard Schölkopf
+
+Methods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal representation learning, anchor the latents to observations through reconstruction, auxiliary supervision, or distributional asymmetries such as non-Gaussianity. Methods without these ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.09457</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RoboJEPA: Scaling Robotic Latent World Models</title>
+      <link>https://huggingface.co/papers/2610.10515</link>
+      <description>By Artem Zholus, Nicolas Beltran-Velez, Jianhao Yuan, Sarath Chandar, Tushar Nagarajan, et al.
+
+Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we pr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.10515</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

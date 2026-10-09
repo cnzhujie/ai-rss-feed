@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 21:57:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 01:58:58 +0000</lastBuildDate>
+    <item>
+      <title>AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework</title>
+      <link>https://huggingface.co/papers/2609.30541</link>
+      <description>By Aparajith Chandran, Juwon Kim, Saurav Jha, Pablo Castells, Florian Hottier
+
+Optimizing embedding systems for production recommendation pipelines demands systematic exploration that consumes disproportionate engineering effort at scale. We apply Andrej Karpathy's AutoResearch paradigm -- a large language model that iteratively edits a training script and retains modification...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.30541</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Learning Multimodal Embeddings with Evidence-Aligned Readout</title>
       <link>https://huggingface.co/papers/2609.33659</link>
@@ -46,13 +55,22 @@ Text-conditioned full-body human-object interaction (HOI) generation requires sy
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>VIEScore2: Unified Image Evaluation with Spatially Grounded Explanations</title>
-      <link>https://huggingface.co/papers/2610.00994</link>
-      <description>By Xianda Du, Max Ku, Weiming Ren, Zhi Rui Tam, Chunlin Ren, et al.
+      <title>LongTake: Learning to Sustain Dynamics in Long-Horizon Video Generation</title>
+      <link>https://huggingface.co/papers/2609.38562</link>
+      <description>By Byoungwoo Park, Jaemoo Choi, Juho Lee, Yongxin Chen
 
-Existing synthetic image evaluators typically provide only a scalar quality score and do not identify the image regions that support it. We introduce VIEScore2, a unified evaluator for image generation and editing tasks with optional conditioning images. VIEScore2 represents an image as an N x N gri...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.00994</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+World models, game simulators, and long-take video creation require coherent scene evolution and sustained dynamics over extended durations. Autoregressive (AR) video diffusion provides a natural framework for long-horizon generation, yet extended rollouts often become near-static or lose visual qua...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.38562</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReGain: Restoring Subject Fidelity in Personalization on Synthetic Images</title>
+      <link>https://huggingface.co/papers/2609.38680</link>
+      <description>By Shubhang Bhatnagar, Ishan Bhatnagar, Viraj Shah, Narendra Ahuja
+
+Text-to-image diffusion models are personalized to a subject by DreamBooth fine-tuning on a handful of its images. Increasingly, these images come from a diffusion model rather than a camera. We show that fine-tuning on such synthetic images degrades subject fidelity, producing oversaturated color a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.38680</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>UniWAM: Unified World-Action Model</title>
@@ -190,15 +208,6 @@ Enterprise AI agents that share a memory store face two unaddressed risks: sensi
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>On-Policy Distillation with Negative-Policy Rollouts</title>
-      <link>https://huggingface.co/papers/2610.07874</link>
-      <description>By Jaehui Hwang, Dongyoon Han, Sangdoo Yun, Byeongho Heo
-
-On-policy distillation (OPD) has been widely studied as a post-training method in which a student model obtains token-level supervision from a stronger teacher on its own rollouts. Recent studies have improved OPD through alternative distillation reward formulations and teacher configurations, while...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.07874</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Improving Proactive AI Assistance with Hierarchical Procedural Understanding</title>
       <link>https://huggingface.co/papers/2610.06505</link>
       <description>By Jin-Seop Lee, TaeYeon Won, SeongJun Jung, JungHoon Kim, Boyang Albert Li, et al.
@@ -271,40 +280,13 @@ AI agents increasingly operate in environments where they can diagnose failures 
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Inverting Multi-Vector Visual Document Indices</title>
-      <link>https://huggingface.co/papers/2610.09920</link>
-      <description>By Zhuchenyang Liu, Yao Zhang, Yu Xiao
+      <title>Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight</title>
+      <link>https://huggingface.co/papers/2610.08077</link>
+      <description>By Haoxiang Zhang, Qinglin Chen, Hiroaki Hayashi, Zhuofeng Li, Siming Zhang, et al.
 
-Prevailing multi-vector visual document retrievers store each page as about a thousand patch vectors, often in vector databases run by a third party. Since no one can read a page from its vectors, this index is easily treated as less sensitive than the page. However, because the index keeps one vect...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.09920</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Long-WAM: Scaling the Context of World-Action Models</title>
-      <link>https://huggingface.co/papers/2610.10528</link>
-      <description>By Wei Huang, Bohan Zhang, Chenzhi Liu, Isabella Liu, Shuai Yang, et al.
-
-Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.10528</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GRACE: Generation-aware latent compression for efficient video generation</title>
-      <link>https://huggingface.co/papers/2610.10524</link>
-      <description>By Jiyoung Kim, Paul Hyunbin Cho, Jisu Nam, Donghoon Lee, Hyunsung Go, et al.
-
-Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it r...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.10524</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation</title>
-      <link>https://huggingface.co/papers/2610.09823</link>
-      <description>By Deyuan Liu, Yihao Hu, Jingxuan Zhang, Xingying Li, Jun Xie, et al.
-
-Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for pr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.09823</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may re...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.08077</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RoboQuest: Generalist Physical Agents that Search, Inspect and Test</title>
@@ -458,6 +440,24 @@ Methods that recover individual latent variables of the world, from nonlinear IC
 Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we pr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.10515</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute</title>
+      <link>https://huggingface.co/papers/2610.10845</link>
+      <description>By Sietse Schelpe
+
+A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer, the public package galahad-kv, that saves the KV state of each block of about 16,000 tokens to encrypt...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.10845</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>V-CoLA: Vision Token Compression with Linear Attention</title>
+      <link>https://huggingface.co/papers/2610.11251</link>
+      <description>By Hao Jiang, Yiru Mao, Tianpeng Bu, Hao Zhou, Hongtao Duan, et al.
+
+Vision-language models (VLMs) have demonstrated impressive capabilities but suffer from substantial computational overhead, as vision tokens dominate the input sequence. This motivates vision token compression as a key direction to alleviate the burden. However, with the emergence of hybrid architec...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.11251</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

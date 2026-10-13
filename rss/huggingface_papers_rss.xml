@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 09:13:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 17:29:47 +0000</lastBuildDate>
     <item>
       <title>Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents</title>
       <link>https://huggingface.co/papers/2609.33304</link>
@@ -73,6 +73,15 @@ Autoregressive (AR) grounding models serialize spatial predictions, introducing 
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Initialization Improves LLM-Driven Discovery</title>
+      <link>https://huggingface.co/papers/2610.00707</link>
+      <description>By Mansi Sakarvadia, Marco Ciccone, Colin Raffel
+
+Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through the use of harnesses that prompt an LLM to iteratively optimize an objective. In this work, we study the relationship between the population of previous iterates and eventual disco...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.00707</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>When Do Biological Reasoning Models Use Their Biological Inputs?</title>
       <link>https://huggingface.co/papers/2610.00898</link>
       <description>By Ada Fang, Nikitha Thoduguli, Lukas Fesser, Hanlin Zhang, Sham M. Kakade, et al.
@@ -88,6 +97,15 @@ Biological reasoning models use post-training to connect LLMs to biological foun
 
 We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales ranging from single objects to large outdoor scenes. Per-scene optimization methods lack the learned 3D prior needed when observations are sparse or surfaces are glossy or transpar...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.03308</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score</title>
+      <link>https://huggingface.co/papers/2610.03825</link>
+      <description>By Parth Kulshreshtha, Shivali Dalmia, Abhishek Mukherji
+
+A benchmark score compares a system output against a reference, and methodological attention falls almost entirely on the first term. We measure the second. The retained annotation record of a six-language benchmark for personally identifiable information contains two independent annotator labelling...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.03825</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -206,15 +224,6 @@ As text-to-SQL systems move beyond demonstrations toward real-world deployment, 
 Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered video state. These depe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.09326</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments</title>
-      <link>https://huggingface.co/papers/2610.12611</link>
-      <description>By Tian Jin, Wenhao Wang, Jing Kang, Haoting Shi, Rui Ye, et al.
-
-Computer-use agents (CUAs) are rapidly improving, yet synthesizing diverse and reliable software environments at scale remains challenging. Native application environments require substantial construction and integration effort, which limits application coverage and increases the risk of application...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.12611</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition</title>
@@ -361,24 +370,6 @@ While learning dexterous manipulation from a single human video offers a promisi
       <pubDate>Thu, 08 Oct 2026 17:59:58 +0000</pubDate>
     </item>
     <item>
-      <title>The value of information and the emergence of communication in evolved e-puck robots</title>
-      <link>https://huggingface.co/papers/2610.13118</link>
-      <description>By Fernando Montes-Gonzalez
-
-We study when communication emerges between autonomous agents and what role an innate action selection architecture plays. Two e-puck robots, reconstructed in PyBullet from their Webots model and validated against it, must find a feeding zone that can only be detected when a robot passes over it. Ea...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.13118</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding</title>
-      <link>https://huggingface.co/papers/2610.12939</link>
-      <description>By Raghavv Goel, Sudhanshu Agrawal, Mukul Gagrani, Risheek Garrepalli, Mingu Lee
-
-Decoder hidden states from different layers of large language models (LLMs) often encode complementary information. However, existing speculative decoding methods typically rely on a small set of target-model layers chosen using fixed, position-based heuristics. Selecting an optimal subset of layers...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.12939</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction</title>
       <link>https://huggingface.co/papers/2610.12984</link>
       <description>By Yuqi Huang, Hui Li, Yifei Cao, Zikun Cai, Tianci Xie, et al.
@@ -448,6 +439,15 @@ As the production of software passes into the hands of software itself, coding a
 
 Large language models have achieved remarkable advances in complex reasoning. However, scaling reasoning post-training with ever-larger corpora can substantially increase training cost without proportional performance gains. In this study, we therefore ask: how far can reasoning supervision be compr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.12933</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Branching On-Policy Distillation</title>
+      <link>https://huggingface.co/papers/2610.13481</link>
+      <description>By Dongyang Chen, Shudong Liu, Shubo Li, Duoxun Tang, Jinwei Liang, et al.
+
+On-policy distillation (OPD) provides teacher supervision on student-generated trajectories, but a single trajectory realizes only one continuation at each decision, limiting supervision coverage under a finite sampling budget. We propose BranchOPD (Branching On-Policy Distillation), which selects i...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.13481</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

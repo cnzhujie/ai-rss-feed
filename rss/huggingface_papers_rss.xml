@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 13:32:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 18:27:43 +0000</lastBuildDate>
     <item>
       <title>PsyBer-Agent: A Psychology-Driven User Agent for Recommender Systems</title>
       <link>https://huggingface.co/papers/2610.13989</link>
@@ -44,6 +44,24 @@ Improving embodied agents often focuses on optimizing the underlying model throu
 Multiplayer world models must generate independently controlled views with consistent representations of both players and their shared environment. Most existing approaches coordinate multiple players through joint multi-view generation, whose cost grows with each additional player. We present World...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.12412</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Verifiable Environments for Long-horizon Work Agents</title>
+      <link>https://huggingface.co/papers/2610.04906</link>
+      <description>By Jiazheng Zhang, Long Ma, Yunxian Yang, Zhiheng Xi, Zhikai Lei, et al.
+
+Work agents operate over digital artifacts to execute professional knowledge-intensive work, requiring training environments that support long-horizon interaction and trustworthy verification. However, hand-crafted environments incur prohibitive engineering overhead that prevents environment scaling...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.04906</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pristine Models</title>
+      <link>https://huggingface.co/papers/2610.14091</link>
+      <description>By Anirudh Sundara Rajan, Krishna Kumar Singh, Richard Zhang, Yong Jae Lee
+
+Training on broad, unfiltered data enables high-quality image generation, but can also teach models concepts that should not be generated; restricting the training data ensures safety, but reduces quality because examples containing unsafe concepts also provide useful knowledge that is not itself un...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.14091</guid>
+      <pubDate>Thu, 08 Oct 2026 17:58:41 +0000</pubDate>
     </item>
     <item>
       <title>Latent World Action Model for GUI Agents</title>
@@ -82,22 +100,13 @@ Understanding and tracking a dynamic world are fundamental to visual intelligenc
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling</title>
-      <link>https://huggingface.co/papers/2610.15166</link>
-      <description>By Xinge Peng, Zhen Fang, Ruibing Wang, Yongxuan Lv, Haodong Li, et al.
+      <title>Privacy-Preserving Intent Fulfilment and Assurance for 6G RAN</title>
+      <link>https://huggingface.co/papers/2607.08809</link>
+      <description>By Joss Armstrong
 
-Coding agents are increasingly evolving beyond reproducing what a world looks like toward constructing executable worlds that capture how a world works. This shift calls for executable world modeling, which integrates two core capabilities: world understanding, reasoning about the underlying structu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.15166</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Probable but Not Valid: A Psychometric Audit of Decision Models as Synthetic Survey Respondents</title>
-      <link>https://huggingface.co/papers/2610.14912</link>
-      <description>By Mantas Lukauskas, Viktorija Šarkauskaitė
-
-Language models are increasingly used to create synthetic survey samples, also called silicon samples. Decision models are a new class of language models that return a probability for each point of a rating scale instead of text. We ask whether these models, or the newest generative LLMs, can stand ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.14912</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+Intent-based network management automates 6G service lifecycles, but existing fulfilment and assurance approaches require traffic inspection, per-flow tracking, or vendor-internal telemetry. These requirements conflict with privacy constraints in multi-tenant networks and vendor opacity in O-RAN dep...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2607.08809</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>LightVAE: Towards Compact and Efficient Video Autoencoders</title>
@@ -136,13 +145,13 @@ AI coding agents now write much of the code that ships, yet whether that code is
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A Decade in a Day: Synthesizing Agent-Native Interfaces from Human-Oriented Software Evolution</title>
-      <link>https://huggingface.co/papers/2610.15765</link>
-      <description>By Alan Wu, Wei Tao, Yiwen Guo
+      <title>Words to World: Benchmarking LLMs in Interactive Physical Environments</title>
+      <link>https://huggingface.co/papers/2610.15228</link>
+      <description>By Xinnan Dai, Kaiqi Yang, Yaxin Li, Cheng Luo, Wanli Li, et al.
 
-Large language model agents are emerging as an important new class of users of desktop applications. However, existing desktop interfaces were designed for human end users or application developers, leaving agents to interpret visual controls or discover and compose low-level software operations. Th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.15765</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+Words are increasingly becoming an interface for action: large language models (LLMs) can now invoke tools, operate devices, and make decisions that affect the physical world. However, current benchmarks largely evaluate LLMs through static text responses, offline tool calls, or simulated tasks, lea...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.15228</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Data-Centric Recursive Self-Improvement for Navigation via Policy-Synchronized Language-Action Dual Bootstrapping</title>
@@ -161,15 +170,6 @@ Vision-language navigation requires agents to follow natural-language instructio
 We study pretraining when compute is abundant but unique training data are finite, requiring repeated training on the same data. We first revisit infinite-compute pretraining (Kim et al. 2026) and show that its frontier depends critically on choices previously fixed or studied only in isolation. In ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.15965</guid>
       <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VEDJE: Video-Efficient Discriminative Joint Encoder for Scalable Video-Text Retrieval</title>
-      <link>https://huggingface.co/papers/2610.11850</link>
-      <description>By Shahaf Wagner, Gabriele Serussi, Dan Ben Ami, Tomer Galanti, Chaim Baskin
-
-Finding the right video often requires distinguishing similar scenes in which different events occur. Joint matching improves retrieval, but processing rich video representations for each query is costly. VEDJE compresses features within sampled frames while keeping their representations separate in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.11850</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Multics: Generative Multi-Player World Model with Hierarchical Communication</title>
@@ -244,67 +244,13 @@ Omni-modal large language models (Omni-LLMs) extend LLMs to process heterogeneou
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ</title>
-      <link>https://huggingface.co/papers/2610.18872</link>
-      <description>By Yunsong Zhou, Xuekun Jiang, Haiqi Shen, Hangxu Liu, Chaojian Shi, et al.
+      <title>Image Tokenizers Should Be Trained Between Images</title>
+      <link>https://huggingface.co/papers/2610.16759</link>
+      <description>By Ole Beißwenger, Jan-Niklas Dihlmann, Hendrik Lensch
 
-Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18872</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rubrics from the Task, Verdicts from Evidence: Pointwise Rubric Rewards with Tool-Augmented Judges</title>
-      <link>https://huggingface.co/papers/2610.18766</link>
-      <description>By Tianci Liu, Haoyu Wang
-
-Rubric-based reward models (RMs) evaluate responses against explicit criteria. However, existing methods often derive criteria from observed response candidates, introducing response-induced bias that may limit rubric generalizability. Their judges also struggle with mechanical constraints when rely...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18766</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>JevGPT: Thinking Fast and Slow in Autonomous Research</title>
-      <link>https://huggingface.co/papers/2610.18272</link>
-      <description>By Yasheng Sun, Yanning Dai, Yimeng Chen, Nanbo Li, Firas Laakom, et al.
-
-Autonomous research agents must acquire and reason over evidence within a limited budget. Yet relevant sources can remain uninspected or unused, leaving a gap between retrieval coverage and the evidence that informs research. The challenge is to align fast local judgments with changing evidence need...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18272</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TacitVLA: Reasoning Vision-Language-Action Models Without Reasoning Latency</title>
-      <link>https://huggingface.co/papers/2610.17540</link>
-      <description>By Jack Lu, Yurong You, Boyi Li, Yulong Cao, Thomas Tian, et al.
-
-Textual reasoning before acting has improved vision-language-action (VLA) models, but at the cost of latency: every action conditioned on the reasoning text must wait for autoregressive decoding. We show that actions do not need to wait for or condition on the generated reasoning to benefit from it,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.17540</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fish Audio Drama 3 Technical Report</title>
-      <link>https://huggingface.co/papers/2610.18010</link>
-      <description>By Dawei Han, Shidong Li, Shijia Liao, Jiahua Liu, Songting Liu, et al.
-
-We introduce Fish Audio Drama 3, an open-source speech generation model that turns text into directed performances, built on a 35B-parameter mixture-of-experts backbone that activates 3B parameters per token. It clones voices from multiple references, follows natural-language direction, revises a ta...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18010</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VideoJev: System One Model for Video Understanding and Interaction</title>
-      <link>https://huggingface.co/papers/2610.18615</link>
-      <description>By Yuhan Zhu, Xiangyu Zeng, Qingyi Si, Chenxu Yang, Yifei Li, et al.
-
-Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18615</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards</title>
-      <link>https://huggingface.co/papers/2610.18860</link>
-      <description>By Xin Gao, Yifan Yang, Xin Li, Pan Wang, Yan Li, et al.
-
-Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and ae...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18860</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+Latent diffusion models generate images as codes of an image tokenizer, whose decoder turns them into the pixel image. Recent tokenizers improve how well these codes reconstruct an image and how easily a generator learns them. Yet a generator does not reproduce the codes of training images, and when...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.16759</guid>
+      <pubDate>Mon, 12 Oct 2026 13:23:25 +0000</pubDate>
     </item>
     <item>
       <title>Learning How to Remember: Memory Modality Selection for GUI Agents</title>
@@ -457,6 +403,60 @@ Recent video super-resolution (VSR) models achieve efficient one-step generation
 
 A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both role...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.18774</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon Robotic Manipulation</title>
+      <link>https://huggingface.co/papers/2610.18352</link>
+      <description>By Youpeng Wen, Gang Wang, Tianyu Huang, Weiwei Zhang, Zhijian Huang, et al.
+
+A robot following a multi-step instruction needs to act on the right objects in the right order, even as the scene changes. It must also maintain awareness of task progress and determine when to advance. To address these challenges, we introduce Orchestra, an agent harness that separates task planni...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18352</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents</title>
+      <link>https://huggingface.co/papers/2610.18614</link>
+      <description>By Ashutosh Hathidara
+
+Controlling an acting LLM agent means deciding, at each step of a long-horizon task, whether to trust its next action, abstain, or hand off to a human. That decision needs a per-step confidence signal predicting whether the current rollout will eventually succeed. The agent's own self-reported verba...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18614</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops</title>
+      <link>https://huggingface.co/papers/2610.18579</link>
+      <description>By Yubo Li, Ramayya Krishnan, Rema Padman
+
+System One models choose an agent's next action by scoring a supplied set of options in a single pass. This makes them fast and cheap, but when they choose wrongly there is nothing to inspect: did the model misread what the agent has seen, or read it correctly and still act wrongly? We answer behavi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18579</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enabling Token-wise Importance Sampling in Off-Policy RLVR with Proximal KL Regularization</title>
+      <link>https://huggingface.co/papers/2610.18738</link>
+      <description>By Hao Bai, Jiarui Yao, Tong Zhang
+
+Off-policy data in reinforcement learning with verifiable rewards (RLVR) can arise from asynchronous generation, rollout-training mismatch, and response reuse. Token-wise importance weighting avoids multiplying likelihood ratios across a response but generally biases policy gradients. We prove that,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18738</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models</title>
+      <link>https://huggingface.co/papers/2610.18596</link>
+      <description>By Changyeon Kim, Kimin Lee, Yashraj Narang, Yijie Guo
+
+Reinforcement learning (RL) post-training improves robot foundation models (RFMs) beyond their demonstrations, but real-world deployment demands more: learning new tasks efficiently while retaining previously acquired behaviors. Existing continual RL methods on top of VLAs mitigate forgetting but re...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18596</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond the Verdict: Agentic Code Judging with Verifiable Feedback</title>
+      <link>https://huggingface.co/papers/2610.18760</link>
+      <description>By Zheye Deng, Sha Li, Changlong Yu, Xin Liu, Qin Lu, et al.
+
+Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier attempt. To guide selection and revision, we need a verifier that can estimate candidate correctness and provide evidence of failure. In competitive programming...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18760</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

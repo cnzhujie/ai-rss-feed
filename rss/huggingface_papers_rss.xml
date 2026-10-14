@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 22:32:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 01:45:07 +0000</lastBuildDate>
     <item>
       <title>Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents</title>
       <link>https://huggingface.co/papers/2609.33304</link>
@@ -17,6 +17,15 @@
 Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines. Existing approaches retrieve task-relevant history and append it to the policy's context, implicitly assuming that experience releva...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.33304</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment</title>
+      <link>https://huggingface.co/papers/2609.35291</link>
+      <description>By Shunchang Liu, Lukas Fluri, Xin Chen, Francesco Croce
+
+Modern AI models are aligned through post-training to adapt them to downstream tasks. Recent work shows that fine-tuning language models on narrow tasks can induce emergent misalignment (EM), causing broadly harmful behaviors beyond the training task. However, EM has been studied almost entirely in ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.35291</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation</title>
@@ -34,6 +43,15 @@ Historical street-view imagery records urban evolution, but uneven coverage leav
 
 Language-model agents are usually trained by reinforcement learning from one reward per episode, and privileged self-distillation enriches it by letting the same policy, given a skill, teach its skill-free self through token probabilities. However, we identify two phenomena that question this channe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.36642</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PhyProbe: Rethinking Physical Consistency Evaluation in Generated Videos</title>
+      <link>https://huggingface.co/papers/2609.38377</link>
+      <description>By Max Ku, Jiaojiao Fan, Zekun Hao, Francesco Ferroni, Heng Wang, et al.
+
+Evaluating the physical consistency of generated videos remains a fundamental challenge. Existing approaches rely on off-the-shelf vision-language models, which can often be myopic to physical dynamics, or fine-tuned evaluators trained on human annotations, which overfit to dataset-specific cues and...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2609.38377</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -118,6 +136,15 @@ Reinforcement learning for long-horizon agents relies on purely retrospective tr
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>HyperThink: Text-to-Parameter Hypernetworks for Efficient Reasoning</title>
+      <link>https://huggingface.co/papers/2610.03039</link>
+      <description>By Donggyun Kim, Jack Lu, Chanwoo Kim, Mengye Ren, Seunghoon Hong
+
+Long-form thinking traces can substantially improve the multi-step reasoning performance of large language models (LLMs), but they introduce high inference-time overhead, with latency dominated by sequential decoding. We propose HyperThink, a text-to-parameter approach that amortizes this reasoning ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.03039</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>MetaKernelBench: Measuring GPU Kernel Knowledge Transfer Beyond Code</title>
       <link>https://huggingface.co/papers/2610.05014</link>
       <description>By Xueyi Chen, Shiyu Liu, Xin Jin, Yuhua Zheng, Xin Li, et al.
@@ -172,15 +199,6 @@ The rapid growth of 3D Gaussian Splatting (3DGS) research demands significant ef
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning</title>
-      <link>https://huggingface.co/papers/2610.09607</link>
-      <description>By HyeonSeok Lim, SeungWoo Song, Inho Won, Hoyun Song, Jihyo Kim, et al.
-
-Skeleton-based reasoning prompting is a promising training-free approach for structuring LLM reasoning, but prior work largely assumes an English-centric setting. We propose the Language-Aware Skeleton Exploration Framework (LASEF) to study skeleton-language choice in multilingual mathematical reaso...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.09607</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Less from More: Reinforcing Sparse Video Reasoning from Dense References</title>
       <link>https://huggingface.co/papers/2610.10893</link>
       <description>By Wenfang Sun, Yingjun Du, Cees G. M. Snoek
@@ -233,24 +251,6 @@ As text-to-SQL systems move beyond demonstrations toward real-world deployment, 
 Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered video state. These depe...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.09326</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DataVista: Diagnosing Multimodal LLMs on Data Video Understanding</title>
-      <link>https://huggingface.co/papers/2610.11993</link>
-      <description>By Yupeng Xie, Zhenyang Wang, Jiayi Zhu, Yinghao Tang, Zhouan Shen, et al.
-
-Data video is a media form that integrates data visualization with video narrative, widely adopted in news reporting and business analysis. Compared with general video understanding, data video understanding places greater emphasis on accurately reading data from animated charts, integrating evidenc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.11993</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Contextual Correction of Parallel Drafts for Speculative Decoding</title>
-      <link>https://huggingface.co/papers/2610.12570</link>
-      <description>By Roy Eisenstadt, Harel Lidar, Tal Gonen, Omer Luxembourg, Itamar Zimerman, et al.
-
-Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent diffusion-based drafters make this paradigm particularly attractive: deep attention-based neural backbones ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.12570</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Universal Textual Teaching for LLMs</title>
@@ -352,6 +352,15 @@ World action models (WAMs) aim to answer a coupled physical question: given a ta
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>WOVEN: Weaving Visual World Modeling into Multimodal LLMs</title>
+      <link>https://huggingface.co/papers/2610.12417</link>
+      <description>By Zheyu Fan, Yue Zhang, Mingkai Deng, Kangrui Wang, Qineng Wang, et al.
+
+Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one that different models...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.12417</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images</title>
       <link>https://huggingface.co/papers/2610.11215</link>
       <description>By Qirui Wu, Stan Birchfield, Hesam Rabeti, Angel X. Chang, Bowen Wen
@@ -377,15 +386,6 @@ On-policy distillation (OPD) has become increasingly popular for transferring te
 While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not s...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.12470</guid>
       <pubDate>Thu, 08 Oct 2026 17:59:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>ThinkDrag: Semantic Drag-Based Image Editing with Visual Reasoning</title>
-      <link>https://huggingface.co/papers/2610.13316</link>
-      <description>By Armando Fortes, Tianyi Wei, Chindanai Trakantannarong, Shangchen Zhou, Xingang Pan
-
-Drag-based image editing provides an intuitive interface for spatially controlled image manipulation by allowing users to specify handle and target points. Existing methods have made substantial progress through optimization-based, one-step, and feed-forward formulations, but they often interpret dr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.13316</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Multi-Stream Attention Residuals</title>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 22:10:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 01:21:18 +0000</lastBuildDate>
     <item>
       <title>PsyBer-Agent: A Psychology-Driven User Agent for Recommender Systems</title>
       <link>https://huggingface.co/papers/2610.13989</link>
@@ -26,6 +26,15 @@ Evaluating recommender systems before deployment requires simulators that remain
 On-policy distillation (OPD) trains students using teacher feedback on their own sampled responses, yet how prompt choice shapes transfer across teacher-student pairs remains poorly understood. We systematically study prompt quantity, source, and selection across RL- and SFT-continuation pairs and c...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2609.37377</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Batched Speech Decisions Without Decoding: Single-Token Supervision Lets a Frozen LLM Hear Beyond the Transcript</title>
+      <link>https://huggingface.co/papers/2610.02638</link>
+      <description>By Jie Jin, Ziyin Ma, Min Yin, Jinyu Chen, Haigang Song, et al.
+
+Full-duplex voice agents make many small, closed decisions, which current systems answer by slow autoregressive decoding. We propose DuplexJev, which feeds ASR-encoder hidden states through a small connector into a frozen LLM and reads each question as a single-token distribution over its options. N...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.02638</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>EMHO: EMbodied Agent Harness Optimization via Experience Traces</title>
@@ -253,33 +262,6 @@ Latent diffusion models generate images as codes of an image tokenizer, whose de
       <pubDate>Mon, 12 Oct 2026 13:23:25 +0000</pubDate>
     </item>
     <item>
-      <title>DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning</title>
-      <link>https://huggingface.co/papers/2610.18862</link>
-      <description>By Minghao Luo, Liang Chen
-
-Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heurist...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18862</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards</title>
-      <link>https://huggingface.co/papers/2610.18868</link>
-      <description>By Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh, Nanyun Peng, Kai-Wei Chang, et al.
-
-Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely fo...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18868</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open-o3-Video-v2: Seek, Ground, and Reason with Verifiable Spatio-Temporal Evidence</title>
-      <link>https://huggingface.co/papers/2610.17656</link>
-      <description>By Jiahao Meng, Zhongyuan Bao, Yue Tan, Haiquan Wen, Renrui Zhang, et al.
-
-Reliable video reasoning requires models to produce correct answers and expose supporting visual evidence. Open-o3-Video enables verifiable reasoning by embedding timestamps and object-level bounding boxes into reasoning traces, but is restricted to frames from an initial sparse sampler. We introduc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.17656</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ReTerm: Recovery Training for Self-Improving Terminal Agents</title>
       <link>https://huggingface.co/papers/2610.18484</link>
       <description>By Wei Xie, Kaituo Feng, Shiming Fu, Yong Liu, Xiangyu Yue, et al.
@@ -457,6 +439,24 @@ Test-time scaling for large language models (LLMs) can involve generating multip
 
 Tool-call judges evaluate argument values proposed by LLM agents. We find that they accept a correct value less often when their input holds no reference for it, that is, no text that says what the value should be. This happens when the value is a default value from the function schema that the user...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.18497</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Model-Based Online Decision Making via Generative Trajectory Planning</title>
+      <link>https://huggingface.co/papers/2610.18677</link>
+      <description>By Haldun Balim, Yilun Du, Na Li
+
+Online decision-making faces a tension between efficient inference and long-horizon reasoning. Value-based methods rely on short-horizon bootstrapping that limits the propagation of long-term information, while trajectory optimization methods plan explicitly but must solve a high-dimensional optimiz...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18677</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simplifying and Improving On-Policy Distillation for Few-Step Diffusion</title>
+      <link>https://huggingface.co/papers/2610.18472</link>
+      <description>By Jiawei Zhang, Ziyu Wan, Nanye Ma, Long Zhao, Dong Chen, et al.
+
+Few-step distillation reduces the sampling cost of diffusion and flow models, but existing approaches often require auxiliary score models or specialized architectures. We show that simple on-policy velocity regression already provides a strong foundation for 4-NFE generation. To represent teacher v...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18472</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

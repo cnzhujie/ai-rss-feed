@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 18:09:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 22:05:05 +0000</lastBuildDate>
     <item>
       <title>LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures</title>
       <link>https://huggingface.co/papers/2610.14020</link>
@@ -26,15 +26,6 @@ Self-driving laboratories (SDLs) aim to automate the full experimental loop, fro
 Most vision-language-action models represent future motion as fixed-rate action chunks, tying temporal resolution and prediction horizon to a fixed output budget. This pointwise representation wastes capacity on highly correlated neighboring actions, leaves temporal continuity and smoothness to be l...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.05230</guid>
       <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MimicX: Policy-in-the-Loop Supervision Refinement for Video-Driven Humanoid Motion Tracking</title>
-      <link>https://huggingface.co/papers/2610.09055</link>
-      <description>By Shuaijun Liu, Chenglong Zhang, Xuhao Liu, Feiyang You, Yifan Liao, et al.
-
-Human videos provide rich motion targets for humanoid learning, yet visually plausible references can still produce persistent failures under physics-based execution. These failures reveal where training supervision should change. We present MimicX, a policy-in-the-loop framework that uses execution...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.09055</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>NavGPT-3: Harnessing Context in a Hierarchical Navigation Runtime</title>
@@ -118,15 +109,6 @@ Diffusion language models (DLMs) offer parallel sampling for faster generation t
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization</title>
-      <link>https://huggingface.co/papers/2610.14448</link>
-      <description>By Sihwan Park, Sung-Yub Kim, Doohyuk Jang, Eunho Yang
-
-Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.14448</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ProgAgent: Learning Tool Orchestration through Programmatic Training</title>
       <link>https://huggingface.co/papers/2610.14774</link>
       <description>By Hao Li, Keqing He, Longtao Zheng, Junlong Li, Weihao Zeng, et al.
@@ -143,15 +125,6 @@ Large language models (LLMs) are increasingly expected to orchestrate diverse to
 High-fidelity closed-loop simulation for autonomous driving increasingly relies on dense multi-view 3D reconstruction. While recent feed-forward geometric foundation models have revolutionized per-scene optimization, applying them to continuous, long-horizon driving sequences is computationally intr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.15112</guid>
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SkillMarker: A KGW-Based Watermarking Method for Agent Skill Ownership Verification</title>
-      <link>https://huggingface.co/papers/2610.15725</link>
-      <description>By Alan Tang, Lifeng Wang, Gang Wu, Tao Zhang, Yantao Jia, et al.
-
-Agent skills encode operational procedures and domain expertise as reusable knowledge assets, yet their distribution in plaintext exposes them to unauthorized copying and leakage. However, practical mechanisms for skill ownership verification and leakage tracing remain underdeveloped. Watermark embe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.15725</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Apertus 1.5: From Open Text Models to Open Multimodal Reasoners</title>
@@ -214,6 +187,15 @@ Knowledge-based Visual Question Answering (VQA) requires reasoning that extends 
 
 We introduce StartLux-Decision, decision models from 0.8B to 27B parameters that combine efficient single-pass prediction with adaptive, confidence-guided reasoning. The Instant models use bidirectional attention in full-attention layers to improve decision accuracy while keeping single-pass inferen...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.17309</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Left Is Right? Camera-Motion Understanding beyond Screen</title>
+      <link>https://huggingface.co/papers/2610.17242</link>
+      <description>By Chong Cheng, Ran Zhang, Xinyuan Li, Alan Zhao, Hao Wang, et al.
+
+Can a vision-language model tell left from right? Modern VLMs solve visual puzzles and follow hour-long videos, yet when asked whether the camera moved left or right, most do no better than a coin flip. Adding camera-motion data or geometric representations has been tried, separately, and neither cl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.17242</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -289,13 +271,22 @@ Vision-language models (VLMs) are increasingly deployed in multi-agent systems t
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ActionOPD: Distilling Decisions, Not Tokens</title>
-      <link>https://huggingface.co/papers/2610.19820</link>
-      <description>By Huining Yuan, Xiangmin Yi, Zelai Xu, Zixu Wang, Xinlei Chen, et al.
+      <title>PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards</title>
+      <link>https://huggingface.co/papers/2610.18755</link>
+      <description>By Yunkai Zhan, Miaosen Chai, Shangshang Wang, Jike Zhong, Yuqing Yang, et al.
 
-Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher's. This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision an...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.19820</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+Reinforcement learning (RL) from unit tests is the common recipe for post-training code models, but a unit test only asks whether the final program passes. We analyze what this unit-test-only reward teaches a model during debugging and find that, while it raises pass rates, it also teaches the model...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18755</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports</title>
+      <link>https://huggingface.co/papers/2610.18762</link>
+      <description>By Sachin Kumar
+
+Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative content analysis, the...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.18762</guid>
+      <pubDate>Tue, 13 Oct 2026 17:23:19 +0000</pubDate>
     </item>
     <item>
       <title>SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving</title>
@@ -439,6 +430,15 @@ Embodied visual tracking requires a robot to identify a designated target from v
 
 Recent work has explored visual reasoning through image generation, where models solve visual-reasoning problems by directly generating solution images. Intuitively, iterative samplers such as flow matching are well suited to this task, since each sampling step may resemble one reasoning step. Howev...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.19628</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lluna: Collaborative Unimodal Models for Missing-Modality Inference</title>
+      <link>https://huggingface.co/papers/2610.20526</link>
+      <description>By Haoyue Bai, Yinyi Luo, Heqing Huang, Xiaoyuan Yi, James Evans, et al.
+
+Pretrained unimodal models offer a flexible route to multimodal prediction through collaboration, but this collaboration can become less accurate than a surviving unimodal model when modalities are missing. We study this setting using fixed surviving-model anchors and find that collaborative gains c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.20526</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 17:17:07 +0000</lastBuildDate>
-    <item>
-      <title>CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling</title>
-      <link>https://huggingface.co/papers/2610.06829</link>
-      <description>By Yifan Zhang, Yutong Dai, Viraj Prabhu, Zhiyuan Hu, Ran Xu, et al.
-
-Open-source web agents are now strong enough to execute realistic browser tasks, but training them with reinforcement learning still depends on weak supervision: binary task success is too sparse for credit assignment, while frontier-language-model judges are too expensive to call at every step and ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.06829</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 16 Oct 2026 20:50:51 +0000</lastBuildDate>
     <item>
       <title>SimForcing: Distilling Simulation Motion Priors into Real-Domain Robot World Models</title>
       <link>https://huggingface.co/papers/2610.06598</link>
@@ -62,6 +53,15 @@ Autoregressive video diffusion models have become a leading approach to real-tim
 Automatic speech recognition produces words but drops the non-verbal content of a recording: the breaths, coughs, sighs and laughter of the speaker, and the horns, music or barking around them. We describe Speech Event Detector, a 5.8-million-parameter convolutional-Transformer model that outputs pr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.14232</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scalable Weak-to-Strong Verifier Hardening for Agent Environments</title>
+      <link>https://huggingface.co/papers/2610.15924</link>
+      <description>By Chong Zeng, Ziqian Zhong, Kexun Zhang, Ivan Bercovich, Ivgeni Segal, et al.
+
+Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn complex outcomes into rewards. Verifiers can be attacked into awarding full credit to cheating agents without completing the intended task, causing inaccurate evaluation and misalignm...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.15924</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Recursive Environment Scaling for General Long-Horizon Agents</title>
@@ -154,22 +154,13 @@ Transformers are intuitively considered to be efficient at copying from their in
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation</title>
-      <link>https://huggingface.co/papers/2610.20603</link>
-      <description>By Xiaoli Xu, Zhengtao Wu, Zhengze Xu, Tao Liu, Yongchao Du, et al.
+      <title>LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification</title>
+      <link>https://huggingface.co/papers/2610.17697</link>
+      <description>By Rodney Lafuente-Mercado, Salman Rahman, Jingyan Shen, James Shiffer, Saadia Gabriel, et al.
 
-We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20603</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views</title>
-      <link>https://huggingface.co/papers/2610.20341</link>
-      <description>By Yongzhen Hu, Hao Yu, Jiawei Wang, Xianming Zeng, Jianyun Xu, et al.
-
-Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20341</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bottleneck. A learned verifier could check proofs cheaply, but training one requires a correctness label on every step, and such labels are hard to obtain for open-ended proofs. Existi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.17697</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment</title>
@@ -244,13 +235,13 @@ Character Error Rate (CER), the standard metric for OCR and vision-language mode
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2610.22217</link>
-      <description>By Yuqi Xiong, Chunyi Peng, Zhipeng Xu, Qing Yang, Zhenghao Liu, et al.
+      <title>Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility</title>
+      <link>https://huggingface.co/papers/2610.20680</link>
+      <description>By Sambit Ghosh, Madelyn Mathai, R. Venkatesh Babu, Chirag Agarwal
 
-Reinforcement learning (RL) can elicit specialized visual capabilities in vision-language models (VLMs), yet jointly optimizing heterogeneous objectives often introduces cross-capability gradient conflicts. Training experts independently mitigates this interference, but direct reward optimization ma...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.22217</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little work has tested whether this scale is necessary. We study how much activation data SAEs need by training four SAE architectures on three language models with budgets ranging from 5M ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.20680</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment</title>
@@ -449,6 +440,15 @@ Personalization of Large Language Models (LLMs) is increasingly important for us
 
 Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulati...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.22358</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents</title>
+      <link>https://huggingface.co/papers/2610.22280</link>
+      <description>By Qingni Wang, Changdae Oh, Yuzhe Yang, Sharon Li, Jiachen Yang, et al.
+
+Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails. Weak-to-strong escalation offers a middle ground where a weak agent acts by default and hands control to a strong one only when neede...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22280</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

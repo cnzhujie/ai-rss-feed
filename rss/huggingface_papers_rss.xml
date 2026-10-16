@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 12:16:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 17:17:07 +0000</lastBuildDate>
     <item>
       <title>CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling</title>
       <link>https://huggingface.co/papers/2610.06829</link>
@@ -26,6 +26,15 @@ Open-source web agents are now strong enough to execute realistic browser tasks,
 Action-conditioned robot world models must respond precisely to robot trajectories while preserving realistic visual dynamics, yet learning both from heterogeneous robot videos remains challenging. Simulation offers structured motion supervision, but appearance differences hinder direct transfer, an...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.06598</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PAIR: Bridging Perception and Action in Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2610.09016</link>
+      <description>By Kaixi Feng, Guoheng Sun, Ang Li
+
+Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This task requires a transition from representations that describe the scene and instruction to representations that support action generation. Many continuous-action VLAs leave this tr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.09016</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI-Driven, Timing-Aware Power Optimization</title>
@@ -53,33 +62,6 @@ Autoregressive video diffusion models have become a leading approach to real-tim
 Automatic speech recognition produces words but drops the non-verbal content of a recording: the breaths, coughs, sighs and laughter of the speaker, and the horns, music or barking around them. We describe Speech Event Detector, a 5.8-million-parameter convolutional-Transformer model that outputs pr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.14232</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning Where to Split: Dynamic Band Splitting for Audio Source Separation</title>
-      <link>https://huggingface.co/papers/2610.14993</link>
-      <description>By Bingzhe Zhang, Kai Li, Xiaolin Hu
-
-Audio source separation models must preserve fine spectral structure while keeping the cost of the separator tractable. Band-split architectures reduce this cost by manually partitioning the spectrum into predefined frequency bands and encoding each band as a token, but the same boundaries are used ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.14993</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ANTE: Anticipate, Then Execute -- Learning Internal World Models for Coding Agents from Verified Beliefs</title>
-      <link>https://huggingface.co/papers/2610.15368</link>
-      <description>By Yi Ge, Kangrui Ruan, Jifan Chen, Manish Prajapat, Christian Bock, et al.
-
-Rapid advances in large language models have made software engineering agents capable of tackling complex coding tasks. Within a containerized environment, a coding agent receives tool responses or execution results, and determines its later actions by those earlier results. However, most existing c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.15368</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>InfoVis: Unified Slide Image Generation and Editing</title>
-      <link>https://huggingface.co/papers/2610.16784</link>
-      <description>By Jiahao Wang, Xiyan Jiang, Chenyuan Wu, Haoqiang Zhang, Xin Luo, et al.
-
-Generating and editing presentation slides requires models to combine accurate text rendering, instruction following, visual grounding, aesthetic design, and precise editing within one canvas. Existing work covers only subsets of these capabilities and lacks large-scale slide-native supervision and ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.16784</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Recursive Environment Scaling for General Long-Horizon Agents</title>
@@ -163,13 +145,13 @@ The design of attention mechanisms in long-context large language models faces a
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DeltaStreamer: Towards Human-Like Agentic Streaming Video Understanding</title>
-      <link>https://huggingface.co/papers/2610.19849</link>
-      <description>By Boyuan Sun, Deshui Miao, Wenzhao Gao, Shaoyong Jia, Shaohui Jiao, et al.
+      <title>Copy-Paste Language Models</title>
+      <link>https://huggingface.co/papers/2610.19247</link>
+      <description>By Nathan Godey, Yoav Artzi
 
-We propose DeltaStreamer, a novel agentic framework for streaming video understanding inspired by how humans observe, remember, and investigate. Streaming video understanding requires a system to retain evidence before knowing which details future queries will need. Existing approaches often obscure...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.19849</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability of LLMs to copy in context can be improved through explicit modeling. We propose Copy-Paste Language Models (CPLMs), which add a lightweight Copy-Paste head to the conventional lan...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.19247</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation</title>
@@ -244,22 +226,22 @@ Reordering multiple-choice options can change a model's answer, an effect studie
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Velox: Spatial Memory Makes World Models Efficient</title>
-      <link>https://huggingface.co/papers/2610.22311</link>
-      <description>By Qiuhong Shen, Shizun Wang, Xinchao Wang
+      <title>Learning to Read Out: Unembedding Dynamics in Language Model Pretraining</title>
+      <link>https://huggingface.co/papers/2610.21025</link>
+      <description>By Matteo He, William F. Shen, Alex Iacob, Andrej Jovanovic, Xinchi Qiu, et al.
 
-Video world models turn actions and camera motion into long visual rollouts, making video a natural interface for interactive simulation. Such interaction requires responsive generation, yet coherent rollouts must retain visual memory of what has already been generated. Chunked video diffusion model...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.22311</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token. But that prediction passes through the unembedding matrix, or readout, which is itself still being learned during pretraining. We show that a model's ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.21025</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Routing Policy Optimization for Online Diffusion Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.22282</link>
-      <description>By Qiuhong Shen, Yiding Yang, Yuxin Zhang, Xinwei Huang, Minxuan Lin, et al.
+      <title>Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR</title>
+      <link>https://huggingface.co/papers/2610.20461</link>
+      <description>By Nguyen Nguyen, Yongyi Zang
 
-Reinforcement learning can align visual generators with reward signals beyond their pretraining objectives, but existing score-function methods typically introduce stochasticity by perturbing the reverse denoising trajectory, leading to costly rollout-based optimization. We instead ask whether stoch...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.22282</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a wrong name. We introduce semCER, which keeps CER's alignment and denominator and charges each grapheme edit a severity from an LLM judge, with no word segmentation. Normalized CER k...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.20461</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Skill-Decoupled On-Policy Expert Distillation for Unified Vision-Language Models</title>
@@ -449,6 +431,24 @@ Reusing the attention KV cache across requests is a standard way to cut prefill 
 
 We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a singl...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.22371</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization</title>
+      <link>https://huggingface.co/papers/2610.22127</link>
+      <description>By Sekh Mainul Islam, Pepa Atanasova, Isabelle Augenstein
+
+Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22127</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PathFM: Fast Generative Forecasting of Multivariate Trajectories</title>
+      <link>https://huggingface.co/papers/2610.22358</link>
+      <description>By Jiachen Yao, Xiyuan Zhang, Annan Yu, Boran Han, Abdul Fatir Ansari, et al.
+
+Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulati...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22358</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

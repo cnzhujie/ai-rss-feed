@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 22:05:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 01:07:11 +0000</lastBuildDate>
     <item>
       <title>LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures</title>
       <link>https://huggingface.co/papers/2610.14020</link>
@@ -35,15 +35,6 @@ Most vision-language-action models represent future motion as fixed-rate action 
 Language models trained with long-horizon agentic reinforcement learning can generalize knowledge through reasoning, express precise actions, and pursue goals over many steps, raising the ceiling on what an embodied agent can understand and decide. Physical interaction, however, remains the domain o...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.10787</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?</title>
-      <link>https://huggingface.co/papers/2610.14096</link>
-      <description>By Yang Yao, Haozhe Chen, Bingyi Kang, Karthik R Narasimhan, Zhuang Liu
-
-Coding agents increasingly interact with users by generating interactive software on the fly rather than replying in text, yet many bugs in such software reveal themselves only after multi-step interactions. Today, users must discover these bugs and wait for fixes, making the development loop slow a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.14096</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Super-Resolution in The Right Latent Space: A Frozen Vision-Foundation Substrate</title>
@@ -199,6 +190,15 @@ Can a vision-language model tell left from right? Modern VLMs solve visual puzzl
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation</title>
+      <link>https://huggingface.co/papers/2610.17191</link>
+      <description>By Zekun Shi, Alastair James Arthur Price
+
+Linear-time sequence models typically store long-context information in a recurrent state. A fixed-size state limits how much information can be stored, while hybrid architectures that add full attention for better recall incur quadratic sequence cost. Alternatively, sparse attention with continued ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.17191</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow</title>
       <link>https://huggingface.co/papers/2610.17301</link>
       <description>By Arya Fayyazi, Mehdi Kamal, Massoud Pedram
@@ -280,6 +280,15 @@ Reinforcement learning (RL) from unit tests is the common recipe for post-traini
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming</title>
+      <link>https://huggingface.co/papers/2610.19121</link>
+      <description>By Woosang Lim, Haneul Yoo, Vincent-Daniel Yun, Sungjoo Yoo
+
+Structured pruning reduces LLM inference costs by removing model components to produce smaller dense models. However, existing methods can cause reasoning performance to collapse on long-form reasoning tasks such as AIME. We propose LayerTrim, a training-free structured pruning method that identifie...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.19121</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports</title>
       <link>https://huggingface.co/papers/2610.18762</link>
       <description>By Sachin Kumar
@@ -287,24 +296,6 @@ Reinforcement learning (RL) from unit tests is the common recipe for post-traini
 Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative content analysis, the...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.18762</guid>
       <pubDate>Tue, 13 Oct 2026 17:23:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving</title>
-      <link>https://huggingface.co/papers/2610.20609</link>
-      <description>By Shaoyuan Xie, Zihan Zhang, Jingxuan Wang, Jiashu Qu, Xiaoqing Liang, et al.
-
-Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20609</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VITAL: From Visual Motion to Precise Action</title>
-      <link>https://huggingface.co/papers/2610.20604</link>
-      <description>By Ao Liang, Youquan Liu, Mingxiao Li, Wei Chow, Lingdong Kong, et al.
-
-World-action models aim to turn visual anticipation into driving decisions, yet typically train action experts on trajectory representations defined independently of visual dynamics. This motivates deriving action targets directly from visual motion. We first examine a simpler setting in which traje...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20604</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Cortex: Consolidating Context into Parametric Memory</title>
@@ -442,13 +433,22 @@ Pretrained unimodal models offer a flexible route to multimodal prediction throu
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>τ-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions</title>
-      <link>https://huggingface.co/papers/2610.19560</link>
-      <description>By Rishitosh Kumar Singh, Amir Saeidi, Shamanthak Hegde, Shrinidhi Kumbhar, Chitta Baral
+      <title>Speculative Sampling in Interactive Video Generation</title>
+      <link>https://huggingface.co/papers/2610.20556</link>
+      <description>By Yubo Huang, Yuxuan Zhang, Jiaming Liu, Sirui Zhao, Enhong Chen
 
-In long-horizon tool-calling tasks, LLM agents can fail not only because of tool-use errors, but also because of ineffective interaction with users. Yet existing benchmarks largely assume cooperative and behaviorally stable users, leaving the effect of emotional variation on agent reliability undere...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.19560</guid>
-      <pubDate>Wed, 14 Oct 2026 04:19:15 +0000</pubDate>
+Interactive video generation commonly relies on small bidirectional chunks to reduce response latency. Yet our preliminary experiments show that larger chunks improve video quality and better utilize GPU parallelism, allowing more latents to be sampled with only a modest increase in sampling time. M...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.20556</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CoTranslator: Reverse to Forward Chain-of-Thought Translator for Reasoning Distillation</title>
+      <link>https://huggingface.co/papers/2610.20828</link>
+      <description>By Zinan Tang, Zhuoshi Pan, Kairui Chen, Ze Yan, Shaomian Zheng, et al.
+
+Reasoning distillation requires chain-of-thought (CoT) data with correct answers, but obtaining such data efficiently remains challenging. Forward CoT generation (FCG) followed by rejection sampling (RS) produces verified, question-only responses, yet may require many teacher calls for difficult pro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.20828</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Share the Symbol, Not the Vector: Training-Free Fact Communication Across Language Models</title>

@@ -8,16 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 07:35:43 +0000</lastBuildDate>
-    <item>
-      <title>PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design</title>
-      <link>https://huggingface.co/papers/2610.20628</link>
-      <description>By Phuong Tuan Dat, Qi Li, Xinchao Wang
-
-Multi-agent systems (MAS) based on large language models (LLMs) have become a powerful way to address complex problems, and their effectiveness depends critically on the collaboration topology that decides which agents participate and how they communicate. Recent work learns to generate this topolog...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20628</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 19 Oct 2026 15:28:03 +0000</lastBuildDate>
     <item>
       <title>OPMD: On-Policy Mechanism Distillation Beyond Output Supervision</title>
       <link>https://huggingface.co/papers/2610.14022</link>
@@ -53,6 +44,15 @@ Repository-level software engineering (SWE) is a challenging long-horizon settin
 Flow and diffusion models suffer from slow inference due to computationally expensive numerical integration. Distillation provides a promising way for a student model to learn from a teacher's dynamics, enabling one-step or few-step generation. However, existing methods often depend on curated disti...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.09221</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets</title>
+      <link>https://huggingface.co/papers/2610.09872</link>
+      <description>By Jun Zhao, Leiming Fu, Yanbo Wen, Yiding Wang, Xuantong Liu, et al.
+
+Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware be...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.09872</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenMobile-2: Building Versatile Mobile Agents with Scalable Environments and App-Native Tools</title>
@@ -91,22 +91,13 @@ Reliable deployment of LLM-based multi-agent systems calls for runtime auditors 
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Into the Unknown: Benchmarking AI agents on open scientific research problems</title>
-      <link>https://huggingface.co/papers/2610.19159</link>
-      <description>By Seungone Kim, Jiayi Geng, Young-Jun Lee, Bo Liu, Juyoung Suk, et al.
+      <title>Relational Learning as World Modeling</title>
+      <link>https://huggingface.co/papers/2610.16763</link>
+      <description>By Zheyu Zhang, Gjergji Kasneci
 
-Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national la...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.19159</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Game2Real-Bench: Do Toy Games Reveal and Transfer to Real-World Visual Reasoning?</title>
-      <link>https://huggingface.co/papers/2610.18834</link>
-      <description>By Qingan Liu, Juntong Feng, Yue Zhu, Yujie Cheng, Xinzhe Han, et al.
-
-Visual reasoning is an important capability for vision-language models (VLMs) to understand visual evidence, spatial structure, constraints, and state changes. Existing evaluations mainly rely on real-world data or procedurally generated tasks. Real-world data preserve natural complexity, while proc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18834</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+Relational learning typically predicts from a database state, but decision making asks a different question: how will that state change under an action? In operational systems, the answer depends on system-specific dynamics that may not be visible in the database itself. We view each such system as ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.16763</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Failure Recovery via Belief Updates and World Modeling for Long-Horizon Agents</title>
@@ -116,15 +107,6 @@ Visual reasoning is an important capability for vision-language models (VLMs) to
 Long-horizon agents often struggle to recover from failures whose causes lie several steps earlier, beyond what local reflection or backtracking can resolve. We introduce BELIEFWEAVER, a framework that combines persistent evidence across attempts with prospective reasoning over repair directions. It...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.18082</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents</title>
-      <link>https://huggingface.co/papers/2610.18784</link>
-      <description>By Yuchen Lu, Julian McAuley, Lei Zhang
-
-Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? I...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.18784</guid>
-      <pubDate>Tue, 13 Oct 2026 17:35:27 +0000</pubDate>
     </item>
     <item>
       <title>BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business</title>
@@ -188,24 +170,6 @@ Decision models answer typed questions about an input with one probability per o
 Progress toward general intelligence in the physical world requires scaling robot learning across diverse environments and interactions. However, existing robot policies use shared parameters that remain fixed across interaction contexts. When different operations favor competing parameter adjustmen...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.20019</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Behavioral Compositionality of Sparse Autoencoder Representations</title>
-      <link>https://huggingface.co/papers/2610.21261</link>
-      <description>By Haotian Ma, Ziye Mei, Frederic Sala
-
-Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction ord...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.21261</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models</title>
-      <link>https://huggingface.co/papers/2610.21185</link>
-      <description>By Kostas Triaridis, Morris E. Sharp, Nebojsa Jojic
-
-Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly instructed to do so. We introduce MINE-SAMPLE-RENDER (MSR), a test-time approach that externalizes the diversity into an explicit, corpus-derived sampling procedure. Our pipeline (...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.21185</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents</title>
@@ -361,22 +325,31 @@ In a small language model the vocabulary is the single largest part. In Gemma 3 
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses</title>
-      <link>https://huggingface.co/papers/2610.23839</link>
-      <description>By Jianyuan Zhong, Chenwei Wu, Zhaochen Yu, Xixian Jiang, Xuewei Li, et al.
+      <title>AI-Driven Disaster Response and Displacement Monitoring</title>
+      <link>https://huggingface.co/papers/2610.21482</link>
+      <description>By Noora Al-Emadi, Muhammad Imran, Yin Yang, Ingmar Weber, Fabjan Lashi, et al.
 
-Scientific discovery requires developing worthwhile hypotheses into practical investigations, yet learning from this evolving research process remains challenging. We introduce an operational definition of valuable and testable research hypotheses: evidence-grounded claims about consequential uncert...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.23839</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+ARTIFICIAL INTELLIGENCE (AI) has demonstrated its potential across a wide range of humanitarian tasks, offering scalable and data-driven solutions to some of the world's most pressing challenges. For instance, in addressing climate change, AI-powered models are being used for faster and more accurat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.21482</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning</title>
-      <link>https://huggingface.co/papers/2610.23181</link>
-      <description>By Heming Zou, Qi Wang, Yixiu Mao, Yun Qu, Yuyi Guo, et al.
+      <title>ARC-SORT: Adaptive, Robust, Compensated Multi-Object Tracking with Interacting Multiple Models</title>
+      <link>https://huggingface.co/papers/2610.22306</link>
+      <description>By Girish Kumar Adari
 
-Reinforcement learning with verifiable rewards has become a scalable post-training paradigm for large language models. However, training agents over long-horizon interactions presents two challenges: using only terminal rewards makes turn-level credit assignment sparse and high-variance, while seque...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.23181</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+Multi-object tracking in sports broadcasts is hard for two reasons: athletes move fast and change direction abruptly, and the camera pans and zooms at the same time. We present ARC-SORT (Adaptive, Robust, Compensated SORT), a tracking-by-detection tracker that trains nothing and runs in real time. I...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22306</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What It Is, Not What It Says: Securing Agentic Browsing Interactions with Web Semantics</title>
+      <link>https://huggingface.co/papers/2610.22697</link>
+      <description>By Umar Iqbal
+
+AI agents increasingly browse the web on users' behalf, yet they consume webpages as screenshots or text, exposing their LLMs to unvetted third-party content. Browsers enforce semantics under which what an element can do depends on what it is and where it comes from, not on what it says. Agents flat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22697</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Persistent Planar Memory for Video World Models</title>
@@ -457,6 +430,33 @@ AI agents increasingly use files and software tools to produce professional deli
 
 Making a conference poster is visual coding in miniature: an entire paper must be compressed onto a single page, which exercises summarization, visual design, and code implementation at once, using nothing beyond the paper itself. Yet benchmarks for this task in the context of visual coding remain s...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.23230</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation</title>
+      <link>https://huggingface.co/papers/2610.23121</link>
+      <description>By Xuanyu Liu, Hongyan Feng, Miao Pan, Sunlai Chen, Lizhou Liang, et al.
+
+Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: the ability to design high-quality scenes and critique their quality. However, existing approaches either rely on general-purpose models lacking domain-specific design experience or ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.23121</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing</title>
+      <link>https://huggingface.co/papers/2610.23751</link>
+      <description>By Houyuan Chen, Fanzhou Wang, Xiangyu Fan, Songlin Yang, Zhitao Yang, et al.
+
+Multi-turn image editing aims to modify an image according to a sequence of instructions, making it better aligned with human-AI collaborative creation than single-turn editing. However, constructing high-quality multi-turn training data remains challenging, as conventional sequential rollout accumu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.23751</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Xiaomi-Lens-0 Technical Report</title>
+      <link>https://huggingface.co/papers/2610.23279</link>
+      <description>By Pei Fu, Yike Liu, Yue Sun, Hanmo Wang, Xiuwen Xi, et al.
+
+Multimodal large language models (MLLMs) answer questions about whole images well, yet they still struggle with fine-grained region understanding. A key reason is that text-only supervision never specifies which regions support an answer. To close this gap, we present Xiaomi-Lens-0, a 4B MLLM built ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.23279</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

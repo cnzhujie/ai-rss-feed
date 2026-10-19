@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 15:28:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 20:57:36 +0000</lastBuildDate>
     <item>
       <title>OPMD: On-Policy Mechanism Distillation Beyond Output Supervision</title>
       <link>https://huggingface.co/papers/2610.14022</link>
@@ -26,6 +26,15 @@ On-policy distillation (OPD) improves language-model by supervising a student on
 Large language models (LLMs) progressively revise their predictions across Transformer layers, yet we typically observe only the final output, discarding the trajectory through which it is formed. We introduce Belief-Trajectory Energy(BTE), a model-grounded measure that characterizes an input throug...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.05114</guid>
       <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BRACE: Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking</title>
+      <link>https://huggingface.co/papers/2610.07052</link>
+      <description>By Sudarshan Harithas, Chen Yu, Juan Borbon, Shubhankar Mondal, Winston Zha, et al.
+
+Whole-body tracking has become the interface through which operators drive humanoid robots, yet the references it consumes are recorded on level ground and carrying nothing, so the tracker is aware of neither the forces the robot must exchange with objects nor the terrain it must stand on. Existing ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.07052</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FC-SWE: Failure-Conditioned RL for Long-Horizon Software Engineering Agents</title>
@@ -100,6 +109,15 @@ Relational learning typically predicts from a database state, but decision makin
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications</title>
+      <link>https://huggingface.co/papers/2610.16402</link>
+      <description>By David Nukrai, Bar Alon, Nativ Levy, Ido Andrew Atad, Ido Cohen, et al.
+
+Web application development often proceeds through successive requests that extend an existing implementation. Yet web-generation benchmarks primarily evaluate development toward fixed specifications. We introduce EvoWeb, a novel benchmark comprising 320 cumulative requests over 32 web applications,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.16402</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Failure Recovery via Belief Updates and World Modeling for Long-Horizon Agents</title>
       <link>https://huggingface.co/papers/2610.18082</link>
       <description>By Xiyang Wu, Zhichao Liu, Shengxin zhang, Zongxia Li, Ming Li, et al.
@@ -109,13 +127,13 @@ Long-horizon agents often struggle to recover from failures whose causes lie sev
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business</title>
-      <link>https://huggingface.co/papers/2610.20424</link>
-      <description>By Enhan Zhao, Yongqi Tong, Xuejun Yu, Hang Wang, Pan Wang, et al.
+      <title>DisaggKD: Efficient Knowledge Distillation through Teacher-Student Disaggregation and a Fused Loss</title>
+      <link>https://huggingface.co/papers/2610.17644</link>
+      <description>By Ruixuan Tu, Yuyang Dong
 
-Existing long-horizon agent benchmarks often emphasize final task success while providing limited assessment of intermediate execution validity. Yet real-world business operations require agents to navigate extensive, potentially outdated or conflicting policies while satisfying critical constraints...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.20424</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+Knowledge distillation (KD) frameworks place teacher and student on the same GPUs, so per-GPU memory limits the teachers that fit. DisaggKD separates them across nodes: teacher replicas stream hidden states to the student, a KD loss over row windows and vocabulary shards equals the full-vocabulary l...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.17644</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Speculative Sampling in Interactive Video Generation</title>
@@ -172,31 +190,13 @@ Progress toward general intelligence in the physical world requires scaling robo
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents</title>
-      <link>https://huggingface.co/papers/2610.22234</link>
-      <description>By Bowen Yang, Kaiming Jin, Zichen Ding, Zhenyu Wu, Zehao Li, et al.
+      <title>Recognition Is Not Grounding: Benchmarking Multilingual Financial Evidence Extraction</title>
+      <link>https://huggingface.co/papers/2610.19432</link>
+      <description>By Lingfei Qian, Yan Wang, Xueqing Peng, Polydoros Giannouris, Nadhem Zmandar, et al.
 
-Real desktop automation is neither purely visual nor purely programmatic. Agents must understand user-facing interfaces while efficiently manipulating files, scripts, and system state. However, native GUI/code coordination cannot be obtained by prompt-level tool composition. In our preliminary exper...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.22234</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Has GPT-6-Astra Achieved Embodied Intelligence?</title>
-      <link>https://huggingface.co/papers/2610.22471</link>
-      <description>By SenseNova, Joint Research Team, Zhongang Cai, Ziang Cao, Tailai Chen, et al.
-
-GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the fie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.22471</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GeoState: Learning View-Decoupled Geometry States for 3D World Modeling</title>
-      <link>https://huggingface.co/papers/2610.22343</link>
-      <description>By Hongchang Liu, Jian Liu, Yujuan Ding, Liang Peng, Xun Jiang, et al.
-
-Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.22343</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+Comparing financial disclosures across languages requires identifying shared accounting concepts and recovering all numerical facts that express them. Existing benchmarks evaluate aspects of these capabilities, but provide limited insight into whether both succeed on the same multilingual evidence. ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.19432</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research</title>
@@ -352,40 +352,40 @@ AI agents increasingly browse the web on users' behalf, yet they consume webpage
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Persistent Planar Memory for Video World Models</title>
-      <link>https://huggingface.co/papers/2610.23795</link>
-      <description>By Yuze He, Bin Tan, Zelin Gao, Yujun Shen, Yong-Jin Liu, et al.
+      <title>GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations</title>
+      <link>https://huggingface.co/papers/2610.22708</link>
+      <description>By Nicholas Saban, Charvi Bannur, Mariya Vasileva, Darshan Deshpande
 
-Video world models that generate and explore environments at scale need a persistent 3D memory of what they have produced. Plane primitives offer a natural candidate: a compact set of oriented planes captures the dominant structural elements (e.g., walls, floors, facades) of indoor and outdoor scene...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.23795</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+Text-based world models have recently shown potential to simulate complex RL environment state transitions for a diverse set of use cases. However, no standardized benchmark exists to compare, study and improve these models. Through this paper, we attempt to solve this problem by building GlobeBench...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22708</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>StopWatch: Goal Grounding for Object-goal Navigation</title>
-      <link>https://huggingface.co/papers/2610.23841</link>
-      <description>By Xinhao Liu, Yunsheng Tian, Yuheng Qiu, Pieter Abbeel, Xi Chen, et al.
+      <title>Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries</title>
+      <link>https://huggingface.co/papers/2610.22273</link>
+      <description>By Anikait Singh, Teresa Zhang, Yoonho Lee, Roshen Sanjay Nair, Aviral Kumar, et al.
 
-Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis ident...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.23841</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+Reasoning over long document contexts remains a challenge for large language models (LLMs). Standard retrieval methods are inherently reactive, bottlenecking agents with complex, cross-document reasoning at inference time, while precomputed structures like knowledge graphs often fall short because t...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22273</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DLite: History-free Speculative Decoding for Agentic AI</title>
-      <link>https://huggingface.co/papers/2610.23787</link>
-      <description>By Jiaming Xu, Hanzhen Wang, Tianlang Zhao, Jiewen Xiao, Chengze Yuan, et al.
+      <title>OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing</title>
+      <link>https://huggingface.co/papers/2610.22744</link>
+      <description>By Xiaoyan Cong, Tianyu Wang, Hyeonho Jeong, Zhifei Zhang, Yuqian Zhou, et al.
 
-Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. However, agentic workloads introduce long and continuously evolving context...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.23787</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+Creative intent in video editing can be expressed through text instructions (e.g., "remove the people"), image references (e.g., subject appearance), video references (e.g., camera movement), or a combination of the above. We introduce OmniXRef, a unified framework for multimodal multi-reference vid...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22744</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents</title>
-      <link>https://huggingface.co/papers/2610.23479</link>
-      <description>By Hongcheng Gao, Alex Zhou, Jay Zhu, Zelin Zheng, Shijia Ge, et al.
+      <title>Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards</title>
+      <link>https://huggingface.co/papers/2610.22448</link>
+      <description>By Ruida Wang, Gerald Friedland, Tong Zhang, Chris Kong
 
-Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's comman...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.23479</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+Enhancing the agentic capabilities of Large Language Models (LLMs) to tackle complex software engineering (SWE) and general terminal-usage problems is a pressing challenge. Current state-of-the-art LLMs often go through large-scale agentic Reinforcement Learning (RL). However, they mostly rely on hi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22448</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Execution Before Memory: Diagnosing Memory Failures in Video World Models</title>

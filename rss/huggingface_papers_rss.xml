@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 20:23:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 23:44:11 +0000</lastBuildDate>
     <item>
       <title>MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents</title>
       <link>https://huggingface.co/papers/2610.06830</link>
@@ -26,15 +26,6 @@ Memory has become integral to the LLM agent ecosystem, supporting information re
 Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often fail to recognize when tasks are infeasible and no valid solution exists. Recent work has formalized this reliability gap as the problem of agentic abstention, and existing approache...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.06563</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Factorization-Guided Training and Inference for Diffusion-Drafted Speculative Decoding</title>
-      <link>https://huggingface.co/papers/2610.23935</link>
-      <description>By Jiakun Fan, Min Xiao, Qiang Wang, Neiwen Ling, Zhichao Liu, et al.
-
-Speculative decoding accelerates large language model inference through parallel verification of tokens proposed by a drafter. Diffusion drafters further parallelize proposal generation, but greater proposal capacity or higher mean accepted tokens (MAT) need not yield higher throughput. Because veri...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.23935</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models</title>
@@ -151,6 +142,15 @@ On-policy self-distillation (OPSD) enables large language models (LLMs) to learn
 
 Augmenting softmax attention with forget gates typically relies on summing decay contributions along the key--query path. Because such accumulation is monotonic, these mechanisms cannot selectively erase intermediate context while preserving older, structurally relevant tokens. We propose First Pass...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.22714</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harness-Delta Attribution: Dissecting Gains From Harness Evolution</title>
+      <link>https://huggingface.co/papers/2610.22466</link>
+      <description>By Wenxuan Ding, Qin Lu, Changlong Yu, Sha Li, Shuowei Jin, et al.
+
+Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the search set. But how much...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22466</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -287,15 +287,6 @@ People ask conversational AI models about their legal rights, obligations, proce
 Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplored. During interactions with a robot, its onboard state information may be unavailable due to privacy, ownership, or communication constraints. Meanwhile, online and AI-generated r...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.25288</guid>
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning</title>
-      <link>https://huggingface.co/papers/2610.26851</link>
-      <description>By Sheng-Wei Zhang, Hsi-An Chen, Yan-Ting Liou, Chih-Hsuan Chen, Shih-Chen Tseng, et al.
-
-Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.26851</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>State World Models: Execute the Rules, Generate the Pixels</title>
@@ -457,6 +448,15 @@ We set out to reproduce a recent hallucination-mitigation result on the POPE ben
 
 Scene-level 3D generation has long been dominated by 2D multi-view or video diffusion models. Typically, these 2D-based approaches perform scene generation in a 2D latent space, which introduces two fundamental issues: (i) representing 3D scenes via 2D views leads to significant representation redun...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2604.11331</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning</title>
+      <link>https://huggingface.co/papers/2610.26754</link>
+      <description>By Liana Patel, Rishabh Ranjan, Ion Stoica, Matei Zaharia, Carlos Guestrin
+
+Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only what matters. On the other hand, language models process all input tokens through each model layer, resulting in significant processing costs for long-context inputs. We introduce ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.26754</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

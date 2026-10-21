@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:58:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 15:04:30 +0000</lastBuildDate>
     <item>
       <title>FlowState: Execution State as Memory for Long-Horizon LLM Agents</title>
       <link>https://huggingface.co/papers/2609.34565</link>
@@ -71,15 +71,6 @@ MLLM-based detectors formulate vision-language grounding as autoregressive coord
 Agentic capabilities are increasingly important for modern LLMs, yet remain difficult to evaluate during pretraining. Existing approaches typically rely on static trajectory-derived tasks or likelihood-based proxies, which are lightweight but provide limited visibility into how base models behave in...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.19425</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Harness-Delta Attribution: Dissecting Gains From Harness Evolution</title>
-      <link>https://huggingface.co/papers/2610.22466</link>
-      <description>By Wenxuan Ding, Qin Lu, Changlong Yu, Sha Li, Shuowei Jin, et al.
-
-Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the search set. But how much...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.22466</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization</title>
@@ -190,33 +181,6 @@ Neural simulation of high-fidelity deformable bodies is a foundational challenge
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning</title>
-      <link>https://huggingface.co/papers/2610.26754</link>
-      <description>By Liana Patel, Rishabh Ranjan, Ion Stoica, Matei Zaharia, Carlos Guestrin
-
-Expert human readers process large inputs (e.g., code repositories and long documents) by skimming to closely read only what matters. On the other hand, language models process all input tokens through each model layer, resulting in significant processing costs for long-context inputs. We introduce ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.26754</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TRACE: Tracking Multimodal Clinical Trajectories for Inpatient Risk Prediction</title>
-      <link>https://huggingface.co/papers/2610.25765</link>
-      <description>By Minjun Kim, Jong Hak Moon
-
-Accurate inpatient risk prediction requires modeling heterogeneous clinical evidence that accumulates irregularly over time. This challenge spans in-hospital mortality, prolonged length of stay, and readmission, each with task-specific observation windows. Existing multimodal approaches combine stru...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.25765</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EMBER: Predicting TCR--pMHC Binding Without a Docked Complex</title>
-      <link>https://huggingface.co/papers/2610.27334</link>
-      <description>By Lin Ha, Chen Zhou, Haozheng Luo, Han Liu, Xiaoyu Zhang, et al.
-
-We propose EMBER, a structure-based framework for TCR--pMHC binding prediction that eliminates the need for a predicted docked complex, and with it the placement error that dominates such predictions. Traditional structure-based predictors utilize the co-folded complex structure of the receptor and ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.27334</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning</title>
       <link>https://huggingface.co/papers/2610.26067</link>
       <description>By Yuanhang Lei, Baofei Liu, Xingxuan Li, Tao Cheng, Zixuan Wang, et al.
@@ -325,13 +289,22 @@ Recent video generation models produce visually compelling outputs, yet their ph
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records</title>
-      <link>https://huggingface.co/papers/2610.27911</link>
-      <description>By Seohyun Lee, Jongha Kim, Dohwan Ko, Ji Soo Lee, Seoung Choi, et al.
+      <title>On the Fragility of Tasks under Composition: Implicit Budgeting in Language Models</title>
+      <link>https://huggingface.co/papers/2610.27190</link>
+      <description>By Chenpan Li, Thies Brockmoeller, Stefanie Jegelka, Sharut Gupta, Nikolaos Karalias
 
-Enterprise agents answer questions over workplace records that evolve through team collaboration. As information is shared, corrected, and revised across documents, chats, and figures, multiple versions of the same information accumulate in the workspace. Reliable question answering therefore requir...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.27911</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+Modern language models are increasingly asked to handle several tasks within a single prompt. Doing so requires solving each task correctly while integrating the resulting answers into a coherent response. In this paper, we identify a fundamental limitation in this process, where models make substan...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.27190</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VideoMaMa++: Temporally Consistent Video Matting via Preserve-and-Refine Token</title>
+      <link>https://huggingface.co/papers/2610.26857</link>
+      <description>By Sangbeom Lim, Seoung Wug Oh, Heeji Yoon, Seungryong Kim, Joon-Young Lee
+
+Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data. However, the heavy compute of these diffusion backbones limits inference to a short chun...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.26857</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SolarRenderer: Few-Step Generative Reference Rendering</title>
@@ -457,6 +430,33 @@ Computer-use agents are limited by the interfaces humans give them. An agent may
 
 Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.28632</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OverSeer: Multi-Agent World Models Beyond What Agents See</title>
+      <link>https://huggingface.co/papers/2610.28554</link>
+      <description>By Runjia Li, Kam Woh Ng, Minghao Chen, Junlin Han, Jianyuan Wang, et al.
+
+Despite the success of video world models, extending them to multiple agents is difficult because it requires generating several agent-specific video streams that are consistent in time and between agents. To address this gap, we introduce OverSeer, a multi-agent world model that augments egocentric...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.28554</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HRoPE: Homography Relative Positional Encoding</title>
+      <link>https://huggingface.co/papers/2610.28284</link>
+      <description>By Huachen Gao, Yang Yang, Xiaoqian Liang, Xingyu Chen, Youjia Zhang, et al.
+
+Geometric Relative Positional Encoding has become the primary mechanism for injecting spatial inductive biases into multi-view transformers. Existing designs condition attention on camera-level frustums or ray-marched depth, associating cross-view tokens through the sensor geometry. Such sensor-cent...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.28284</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Slot-JEPA: Object-Structured Prediction Interfaces for Latent World Models</title>
+      <link>https://huggingface.co/papers/2610.28074</link>
+      <description>By Peisong Wen, Qianqian Xu, Minye Lei, Siran Dai, Yang Liu, et al.
+
+As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic representations. However, dense patch representations expose a redundant interface to downstream predictors, which must implicitly infer spatial organization and temporal correspondence, pr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.28074</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

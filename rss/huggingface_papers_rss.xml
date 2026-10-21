@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 20:00:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 23:57:14 +0000</lastBuildDate>
     <item>
       <title>FlowState: Execution State as Memory for Long-Horizon LLM Agents</title>
       <link>https://huggingface.co/papers/2609.34565</link>
@@ -109,6 +109,15 @@ Large language models often answer factual questions incorrectly in closed-book 
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?</title>
+      <link>https://huggingface.co/papers/2610.23010</link>
+      <description>By Yiyuan Pan, Changliu Liu, Jiayuan Mao
+
+The physical world has continuous state and action spaces, yet robot planning often benefits from hybrid discrete-continuous formulations that explicitly expose combinatorial structure, such as contact modes or discrete primitive actions. Existing methods typically rely on human-defined symbol sets ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.23010</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success</title>
       <link>https://huggingface.co/papers/2610.24649</link>
       <description>By Naman Vats
@@ -134,15 +143,6 @@ We introduce Muse Glimmer, an open-source 30B parameter causal language model wi
 Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or execution, but in modeling the world being reasoned about. Models often silently alter given quantities, fabricate laws, or inject unstated assumptions to force a problem into familiar pat...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.24519</guid>
       <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse</title>
-      <link>https://huggingface.co/papers/2610.25043</link>
-      <description>By Sicheng He, Yi Pan, Qiuting Yu, Jiaming Huang, Qi Lu, et al.
-
-Flow-matching vision-language-action (VLA) models generate an action chunk by iteratively denoising Gaussian noise, but typically execute only a short prefix before replanning with updated observations. Under this receding-horizon paradigm, the unexecuted remainder---the action tail---is discarded, ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.25043</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?</title>
@@ -190,22 +190,13 @@ Bimanual manipulation with dexterous hands has attracted growing attention in re
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping</title>
-      <link>https://huggingface.co/papers/2610.26681</link>
-      <description>By Zekai Luo, Yuwei Liang, Ruiqi Ma, Haoyu Huang, Xuehao Wang, et al.
+      <title>ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference</title>
+      <link>https://huggingface.co/papers/2610.25519</link>
+      <description>By Mobina Kashaniyan, Ali Jannesari
 
-Video face swapping transfers the reference identity to a target video while preserving its other attributes and motion. Despite recent progress in reference-guided flow-based methods, jointly achieving faithful identity transfer, high fidelity, and real-time generation over long video streams remai...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.26681</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation</title>
-      <link>https://huggingface.co/papers/2610.25844</link>
-      <description>By Yanjin He, Cuifeng Shen, Wanzhou Lei, Maohua Li, Tao Lan, et al.
-
-Training high-quality diffusion models is computationally expensive, and inference-time guidance often adds further sampling cost. In this work, we introduce Swift, a simple yet effective self-guided training method that uses a frozen weak denoiser to improve a stronger model without adding inferenc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.25844</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+Test-time scaling (TTS) improves large language model (LLM) reasoning by sampling multiple answers, but fixed sampling budgets ignore both query difficulty and the changing energy cost of inference under GPU contention. We measure up to a 4.1-fold increase in energy for the same four-sample query as...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.25519</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience</title>
@@ -457,6 +448,15 @@ Real-world observations are noisy and often contain excessive task-irrelevant in
 
 Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reveal flawed repair strategies and interaction problems that vary across tasks and change as the policy learns. We introduce HarnessAdapt-RL, which trains the policy and adapts its har...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.28069</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models</title>
+      <link>https://huggingface.co/papers/2603.19233</link>
+      <description>By Bryce Grant, Xijia Zhao, Peng Wang
+
+A fine-tuned Vision-Language-Action (VLA) policy can easily place the alphabet soup in the basket on command, just as it saw during fine-tuning. However, if the basket is shifted five centimeters to the left, it drops the soup off the table. We developed an interpretability pipeline to investigate w...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2603.19233</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

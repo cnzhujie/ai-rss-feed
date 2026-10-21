@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 15:04:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 20:00:51 +0000</lastBuildDate>
     <item>
       <title>FlowState: Execution State as Memory for Long-Horizon LLM Agents</title>
       <link>https://huggingface.co/papers/2609.34565</link>
@@ -26,6 +26,15 @@ Long-horizon tasks require LLM agents to continually draw on information from ea
 Camera trajectories control viewpoint changes in video generation, scene reconstruction, and robotic perception. Generating them from language requires both scene geometry and target-aware framing. We introduce OmniCam, an autoregressive model that generates camera pose sequences from a single panor...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.09513</guid>
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents</title>
+      <link>https://huggingface.co/papers/2610.16523</link>
+      <description>By Min Cai, Dan Zhang, Gao Xing, Libin Ma, Zhaohui Xu, et al.
+
+Training LLM agents to interact with users over multiple turns is challenging because the learning signal depends not only on the agent, but also on the user simulator and environment, which jointly shape the agent's experience. Simulated users can be stochastic or inconsistent, while environments m...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.16523</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>λ_0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation</title>
@@ -91,31 +100,13 @@ Spatio-Temporal Video Grounding (STVG) aims to jointly localize a target in spac
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time</title>
-      <link>https://huggingface.co/papers/2610.24452</link>
-      <description>By unsu Kim, Naeun Kim, Dongyoon Han, Seungryul Baek
+      <title>On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs</title>
+      <link>https://huggingface.co/papers/2610.23400</link>
+      <description>By Jaewon Sok, Jewon Yeom, Seonghyeon Park, Jeongjae Park, Hwiyeong Lee, et al.
 
-We introduce avatar referring segmentation, which selects regions of animatable Gaussian avatars from language queries. A query can also specify a pose or motion to select matching intervals. This lets users interact with avatars for local editing and motion inspection. However, making these selecti...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.24452</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HybridResearcher: Bridging the Structured-Unstructured Boundary for Deep Research Agents</title>
-      <link>https://huggingface.co/papers/2610.24899</link>
-      <description>By Soyoung Yoon, Peiran Xu, Han Wang, Ruofan Wu, Xiaodong Yu, et al.
-
-While LLM agents are increasingly capable of gathering and synthesizing evidence from a single homogeneous source, such as structured tables or unstructured data, real-world analytical questions frequently span heterogeneous sources. For example, answering one enterprise question may require both a ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.24899</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EdgeKernelBench: Unified LLM-Driven Kernel Generation for Edge Backends</title>
-      <link>https://huggingface.co/papers/2610.24648</link>
-      <description>By Yuhua Zheng, Xueyi Chen, Xinze Zou, Xin Li, Haoji Hu, et al.
-
-Recent works show that LLMs can generate kernels with strong performance on server GPUs. Edge deployment presents distinct challenges because the hardware is heterogeneous, the software stacks are fragmented, and the resource budgets are tight. LLM kernel generation across diverse edge backends has ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.24648</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+Large language models often answer factual questions incorrectly in closed-book settings, and such errors are usually attributed to missing knowledge. Yet models often encode answers they fail to produce. We show that many closed-book errors are first-token recall failures: the model commits to a wr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.23400</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success</title>
@@ -133,6 +124,15 @@ Agent scaffolds increasingly delegate small decisions (whether to stop, verify, 
 
 We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consum...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.24628</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Axiomatic World Modeling for Physics Reasoning</title>
+      <link>https://huggingface.co/papers/2610.24519</link>
+      <description>By Xinye Yang, Zhenyang Liu, Yuxuan Wang, Yuanyuan Lei
+
+Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or execution, but in modeling the world being reasoned about. Models often silently alter given quantities, fabricate laws, or inject unstated assumptions to force a problem into familiar pat...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.24519</guid>
       <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -181,22 +181,13 @@ Neural simulation of high-fidelity deformable bodies is a foundational challenge
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning</title>
-      <link>https://huggingface.co/papers/2610.26067</link>
-      <description>By Yuanhang Lei, Baofei Liu, Xingxuan Li, Tao Cheng, Zixuan Wang, et al.
+      <title>BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks</title>
+      <link>https://huggingface.co/papers/2610.25459</link>
+      <description>By Yong Wang, Kecheng Zheng, Xing Zhu, Chao Xu, Yujun Shen, et al.
 
-Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact deformation subspace...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.26067</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Focused Omni-Modal GUI Agents</title>
-      <link>https://huggingface.co/papers/2610.26203</link>
-      <description>By Fuyao Zhang, Wenwen He, Jiaming Zhang, Yurong Hao, Xuan Wang, et al.
-
-Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.26203</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models. However, few studies have developed benchmarks specifically tailored for dexterous manipulation, leaving the dexterous manipulation capabilities of existing models insufficiently characte...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.25459</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping</title>
@@ -305,24 +296,6 @@ Modern language models are increasingly asked to handle several tasks within a s
 Diffusion-based video matting has recently emerged as a leading approach, leveraging video diffusion priors from internet-scale pretraining to achieve strong zero-shot generalization from limited synthetic data. However, the heavy compute of these diffusion backbones limits inference to a short chun...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.26857</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SolarRenderer: Few-Step Generative Reference Rendering</title>
-      <link>https://huggingface.co/papers/2610.28630</link>
-      <description>By Guian Fang, Shengju Qian, Dongyue Lu, Junchao Huang, Lutao Jiang, et al.
-
-Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, ne...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.28630</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition</title>
-      <link>https://huggingface.co/papers/2610.28578</link>
-      <description>By Wenjie Lou, Tianshuo Peng, Shiyang Feng, Shengji Tang, Runmin Ma, et al.
-
-In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach d...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.28578</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds</title>
@@ -457,6 +430,33 @@ Geometric Relative Positional Encoding has become the primary mechanism for inje
 
 As a prototypical latent world model, Joint-Embedding Predictive Architectures (JEPAs) provide strong semantic representations. However, dense patch representations expose a redundant interface to downstream predictors, which must implicitly infer spatial organization and temporal correspondence, pr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.28074</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling</title>
+      <link>https://huggingface.co/papers/2610.28388</link>
+      <description>By Fangcong Yin, Ming Yin, Tanvi Bhandarkar, Aashu Singh, Eryk Helenowski, et al.
+
+LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challenging, especially for long-horizon tasks. We propose Self-Credit, an end-to-end agentic RL method that creates dense supervision signals from sparse outcome rewards using self-gener...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.28388</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>World Models with Configurable Perception</title>
+      <link>https://huggingface.co/papers/2610.27914</link>
+      <description>By Yijun Shen, Delong Chen, Xianming Hu, Kai Zhang, Pascale Fung
+
+Real-world observations are noisy and often contain excessive task-irrelevant information. Effective world modeling and planning need to abstract observations into world state representations while filtering out irrelevant information. However, encoders in existing world models are typically non-ada...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.27914</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training the Whole Agent, Not Just the Model</title>
+      <link>https://huggingface.co/papers/2610.28069</link>
+      <description>By Lingxiao Tang, Wei Tao, Yiwen Guo, Lingfeng Bao
+
+Training coding agents typically updates the policy while keeping the harness fixed. During training, trajectories reveal flawed repair strategies and interaction problems that vary across tasks and change as the policy learns. We introduce HarnessAdapt-RL, which trains the policy and adapts its har...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.28069</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

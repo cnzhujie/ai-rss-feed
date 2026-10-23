@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:53:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 14:50:54 +0000</lastBuildDate>
+    <item>
+      <title>Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective</title>
+      <link>https://huggingface.co/papers/2610.12586</link>
+      <description>By Dmitry Osin, Egor Surkov, Petr Mokrov, Igor Udovichenko, Ivan Karpukhin, et al.
+
+Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The problem of event sequence forecasting occurs in finance, healthcare, business process intelligence, and other fields. In this work, we study multi-horizon forecasting of event seque...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.12586</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>MolLean: A Process-Verifiable Language for Chemical Reasoning</title>
       <link>https://huggingface.co/papers/2610.20459</link>
@@ -35,15 +44,6 @@ Fine-grained visual understanding requires distinguishing subtle differences in 
 Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires accounting for both the persistence of object identities and abrupt changes in relationships. Existing methods aggregate information across frames to exploit temporal context, but ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.20091</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exploring The Empirical Privacy Landscape of Synthetic Data</title>
-      <link>https://huggingface.co/papers/2610.22659</link>
-      <description>By Zihao Zhao, Avi Schwarzschild, Casey Meehan, Katherine Lee, Zhili Feng, et al.
-
-Methods for training language models on sensitive data differ in how they balance capability gains against the risk of leaking private information. In this paper, we present a controlled comparison of data-level and training-level interventions for navigating the capability-privacy tradeoff on synth...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.22659</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Language Models Learn to Improve Language Models</title>
@@ -154,6 +154,15 @@ LLM routing dynamically selects and coordinates heterogeneous language models ac
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans</title>
+      <link>https://huggingface.co/papers/2610.27148</link>
+      <description>By Weien Li, Haochen Liu, Zeyu Li, Rui Song, Zixuan Dong, et al.
+
+As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling reliance on a human partner is easy to read as a failure of collaboration when it may instead be a correct division of labor, and the rate of human involvement alone cannot tell the two ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.27148</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Bridged Self-Distillation for On-Policy Learning</title>
       <link>https://huggingface.co/papers/2610.26397</link>
       <description>By Runsheng Chen, Yihong Liu, Raoyuan Zhao, Michael A. Hedderich, Hinrich Schütze, et al.
@@ -161,24 +170,6 @@ LLM routing dynamically selects and coordinates heterogeneous language models ac
 On-policy distillation can transfer the reasoning capabilities of a strong teacher to a smaller student. However, distillation from a stronger teacher model faces two mismatches: its solutions may be difficult for a smaller student to imitate, and its token-level probabilities may be incompatible wi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.26397</guid>
       <pubDate>Mon, 19 Oct 2026 13:40:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>DiffResearch: Accelerating Deep Research with Diffusion Language Models</title>
-      <link>https://huggingface.co/papers/2610.28909</link>
-      <description>By Alan-Barsag Gazzaev, Alexey Gavrilov, Mikhail Mozikov, Sergey Muravyov
-
-Deep research systems iteratively plan, gather evidence, synthesize, and revise, making end-to-end latency a key bottleneck for interactive use. Almost all production systems are built on autoregressive (AR) language models and inherit left-to-right decoding in planning and long-form writing. We pre...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.28909</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication</title>
-      <link>https://huggingface.co/papers/2610.28905</link>
-      <description>By Alan-Barsag Gazzaev, Alexey Gavrilov, Sergey Muravyov, Ilya Makarov
-
-Diffusion language models form answers through a sequence of revisable continuous states, but multi-agent systems usually discard those states and make agents communicate only after decoding text. We ask whether one independent diffusion trajectory can pass a compact hidden message into another and,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.28905</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation</title>
@@ -242,15 +233,6 @@ Selecting intermediate features from a frozen diffusion model for discriminative
 Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets. To further improve its practicality, recent budget-controllable FF3DGS methods allow the number of Gaussia...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.27712</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research</title>
-      <link>https://huggingface.co/papers/2610.30113</link>
-      <description>By Houde Qian, Zheng Jiang, Wenyi Li, Chenxi Xu, Xinjie Lin, et al.
-
-Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.30113</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Looped Uniform Diffusion Language Models</title>
@@ -430,6 +412,24 @@ Existing vision-language models (VLMs) remain unreliable for fine-grained visual
 
 We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.30949</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention</title>
+      <link>https://huggingface.co/papers/2610.31372</link>
+      <description>By Jiening Siow, Amy Xin, Junjie Wang, Ziyu Tang, Zijun Yao, et al.
+
+Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for automate...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.31372</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FilmFlow: Agentic System for 3D Virtual Film Cinematography</title>
+      <link>https://huggingface.co/papers/2610.30753</link>
+      <description>By Yiming Zhang, Jiarui Guo, Haojia Wei, Yifei Liu, Yifan Yang, et al.
+
+Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera traj...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.30753</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 19:01:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 22:22:41 +0000</lastBuildDate>
     <item>
       <title>Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective</title>
       <link>https://huggingface.co/papers/2610.12586</link>
@@ -46,12 +46,30 @@ Video scene graph generation (VidSGG) aims to capture objects and their evolving
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems</title>
+      <link>https://huggingface.co/papers/2610.22722</link>
+      <description>By Georgios Politis, Evangelos Pappas
+
+Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22722</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models</title>
       <link>https://huggingface.co/papers/2610.22951</link>
       <description>By Khuyen Pham, Tran Nguyen Le, Edoardo Fazzari, Cesare Stefanini
 
 Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control. This limitation is especially pronounced in flow-matching VLAs such as π_{0.5}, where the action expert is evaluated repeatedl...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.22951</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?</title>
+      <link>https://huggingface.co/papers/2610.04184</link>
+      <description>By Yaolun Zhang, Tianyi Xu, Yujie Zhao, Jishen Zhao, Qingyun Wu, et al.
+
+Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents c...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.04184</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -98,15 +116,6 @@ Large language models need effective ways to acquire and use external knowledge 
 Large-scale action pretraining equips Embodied Foundation Models (EFMs) with strong manipulation capabilities, with particular strengths in generalization and closed-loop robustness, but reproducing such pretraining requires substantial robot data and computation. To transfer these capabilities from...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.25376</guid>
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy</title>
-      <link>https://huggingface.co/papers/2610.26836</link>
-      <description>By Ke Zhang, Sahchit Chundur, Jerry Peprah Owusu, Mohammad Javad Abdolhosseini Qomi, Maziar Raissi
-
-LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask where this costs accuracy with a real scientific tool: PHREEQC, a widely used geoc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.26836</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>MMedAgent-Plus: Scaling Multimodal Medical Agents across Modalities, Tasks and Workflows</title>
@@ -163,31 +172,13 @@ As language-model agents grow more capable, they can carry more of a task withou
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bridged Self-Distillation for On-Policy Learning</title>
-      <link>https://huggingface.co/papers/2610.26397</link>
-      <description>By Runsheng Chen, Yihong Liu, Raoyuan Zhao, Michael A. Hedderich, Hinrich Schütze, et al.
+      <title>Diffusion Language Models Change Speed Across Tasks and Languages</title>
+      <link>https://huggingface.co/papers/2610.25835</link>
+      <description>By Mohsen Fayyaz, Ali Modarressi, Daniel Israel, Lucas Bandarkar, Nanyun Peng
 
-On-policy distillation can transfer the reasoning capabilities of a strong teacher to a smaller student. However, distillation from a stronger teacher model faces two mismatches: its solutions may be difficult for a smaller student to imitate, and its token-level probabilities may be incompatible wi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.26397</guid>
-      <pubDate>Mon, 19 Oct 2026 13:40:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion</title>
-      <link>https://huggingface.co/papers/2610.28940</link>
-      <description>By Yisi Liu, Nicholas Lee, Gopala K. Anumanchipalli
-
-Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target voice while preserving linguistic content. StyleStream 1.0 introduced the first streamable zero-shot VSC system with state-of-the-art conversion quality, but remained limited in two...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.28940</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity</title>
-      <link>https://huggingface.co/papers/2610.28441</link>
-      <description>By Sahil Joshi, Prithvi Dixit, Aryan Katiyar, Agniva Chowdhury, Joseph E. Gonzalez, et al.
-
-Large Language Model inference over long contexts is increasingly bottlenecked by the cost of attending to a growing Key-Value (KV) cache. Sparse attention reduces this cost by accessing only a fraction of the cache, but existing methods face a trade-off between deterministic retrieval, which captur...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.28441</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models acro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.25835</guid>
+      <pubDate>Mon, 19 Oct 2026 05:47:58 +0000</pubDate>
     </item>
     <item>
       <title>Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V</title>
@@ -289,13 +280,13 @@ Modern LLM agents can retrieve information from accessible documents, and then d
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reading, Writing, Sharing, and Interacting with the World through Video</title>
-      <link>https://huggingface.co/papers/2610.31668</link>
-      <description>By Shengqiong Wu, Meng Luo, Bobo Li, Ziwei Liu, Shuicheng Yan, et al.
+      <title>TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments</title>
+      <link>https://huggingface.co/papers/2610.30043</link>
+      <description>By Yicheng Xu, Zhikai Xu, Ziyuan Chen, Yuhang Dong, Tao Zhang, et al.
 
-Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving worl...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.31668</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce TARSphere, a robot-...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.30043</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs</title>
@@ -430,6 +421,15 @@ Complex camera motion is central to visual storytelling, yet translating cinemat
 
 Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.31651</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models</title>
+      <link>https://huggingface.co/papers/2610.31198</link>
+      <description>By Ofek Avivi, Eliron Rahimi, Avi Mendelson, Chaim Baskin
+
+Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps....</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.31198</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

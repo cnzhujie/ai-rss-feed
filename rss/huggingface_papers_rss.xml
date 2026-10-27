@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 16:21:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 21:10:18 +0000</lastBuildDate>
     <item>
       <title>miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning</title>
       <link>https://huggingface.co/papers/2610.23928</link>
@@ -26,6 +26,15 @@ Native NVFP4 promises to accelerate reinforcement learning (RL) for large langua
 Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters. Its effectiveness depends on whether models can successfully act on the guidance provided by their harnesses. However, we find that harness benefits are not uniform ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.33024</guid>
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations</title>
+      <link>https://huggingface.co/papers/2610.17117</link>
+      <description>By Bryce Grant, Peng Wang
+
+Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing changes. We treat each paraphrase pair as a local witness that two activations should agree and build a cellular sheaf over the paraphrase graph; its Laplacian L_F answers the question ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.17117</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents</title>
@@ -53,24 +62,6 @@ The rise of large language models (LLMs) has opened a path toward generalist emb
 Recent advances in general-purpose AI models and agentic systems have enabled them to perform some CAD tasks. A systematic assessment is now needed to establish what these systems can accomplish and how well their outputs meet engineering requirements. This paper presents an empirical study of GPT-6...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.24451</guid>
       <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WORTH Benchmark: Evidence Discovery under Not-Fully-Cooperative Information -- A Two-Episode Pilot</title>
-      <link>https://huggingface.co/papers/2610.27597</link>
-      <description>By Bo Zou, Chao Xu
-
-Existing reasoning evaluations typically provide task-relevant information to models as available premises, rarely examining concurrently how models discover evidence autonomously and how information presentation within narratives guides or obscures judgment. This paper proposes the WORTH Benchmark:...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.27597</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model</title>
-      <link>https://huggingface.co/papers/2610.29139</link>
-      <description>By Jiongxiao Wang, Han Ding, Youzhi Luo, Yawei Wang, Yun Zhou, et al.
-
-Frontier black-box Large Language Model (LLM) agents are proficient at long-horizon reasoning and precise action generation. However, when it comes to a specific agentic task, they have no internalized knowledge of how that particular environment unfolds. A world model offers a natural remedy, provi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.29139</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Rethinking Video Storage for AI Training: Breaking Cross-Frame Dependencies for Efficient Random Access</title>
@@ -136,24 +127,6 @@ Many language-model pipelines end in a closed-set decision, such as selecting a 
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control</title>
-      <link>https://huggingface.co/papers/2610.33135</link>
-      <description>By Lei Cao, Yu Liu, Wenhua Liao, Peng Zhang, Fei Wang, et al.
-
-Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint changes also reveal character regions unseen in the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.33135</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution</title>
-      <link>https://huggingface.co/papers/2610.32285</link>
-      <description>By Zhiyong Cao, Hengjie Zhu, Yongxin Wang, Xuchen Li, Jintao Li, et al.
-
-LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the eval...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.32285</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>World-in-Context: Interactive Video World Modeling with In-Context Conditioning</title>
       <link>https://huggingface.co/papers/2610.33169</link>
       <description>By Harold Haodong Chen, Rui Peng, Rongjin Guo, Lingteng Qiu, Kejie Qiu, et al.
@@ -169,6 +142,15 @@ Interactive video world models require coordinated control over viewing perspect
 
 Scientific discovery requires identifying the scientific principles underlying observed phenomena to guide further investigation. As these empirical principles are often unknown in complex discovery processes, they are constructed via a hypotheses-to-principle pipeline to obtain recurring causalitie...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.32195</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments</title>
+      <link>https://huggingface.co/papers/2610.32004</link>
+      <description>By Monojit Banerjee, Zhujun Lan, Defu Cao
+
+Deploying language agents in real applications demands more than the right answer: an agent must execute a multi-step business process correctly, follow domain-specific rules, and interact with a user across a dialogue, where the gap between saying and doing is the gap between a satisfied customer a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.32004</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -262,13 +244,13 @@ Catastrophic forgetting in continual learning (CL) manifests not only as accurac
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents</title>
-      <link>https://huggingface.co/papers/2610.33956</link>
-      <description>By Haoyu Zhao, Sitian Tu, Yuxuan Huang, Huichi Zhou, Zhangyue Yin, et al.
+      <title>ReGE: Stronger Agents through Experience Synthesis</title>
+      <link>https://huggingface.co/papers/2610.33861</link>
+      <description>By Jiarong Liang, Yubo Wang, Zijie Liu, Yuxuan Zhang, Ping Nie, et al.
 
-Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.33956</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+Repeated attempts at interactive tasks uncover facts, useful operations, and failures that can inform subsequent execution. We introduce ReGE, a framework for turning this recorded experience into guidance for a fresh attempt. Its main implementation, ReGE-Syn, uses a single coach call to jointly sy...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.33861</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants</title>
@@ -358,6 +340,15 @@ Making an open-weight language model generate text is not the same as making it 
 
 Animals have a remarkable capacity for autonomy---driven by intrinsic motivation---without external sensory cues or extrinsic objectives, yet the computational mechanisms behind this ability largely remain a mystery. We combine whole-brain recordings in the fruit fly (Drosophila melanogaster), which...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.34638</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking Verification in Agent Harnesses</title>
+      <link>https://huggingface.co/papers/2610.34577</link>
+      <description>By Zhengxin Zhang, Erkang Zhu, Yin Lin, Claire Cardie, Bolin Ding, et al.
+
+Agent harnesses enable large language models to act through tools, observe the results, and iteratively work toward a task goal. Verification checks and revises agents' work to improve output quality. Yet there is limited guidance on how harnesses should organize this effort. We study verification a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.34577</guid>
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +448,15 @@ Referring expression grounding in overhead imagery requires oriented bounding bo
 
 An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-use agents bring this promise within reach by capably executing fully specified tasks across apps. However, real-world user requests are often underspecified. To act correctly for the...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.34735</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning</title>
+      <link>https://huggingface.co/papers/2610.34886</link>
+      <description>By Rhea Sanjay Sukthanker, Pashmina Cameron
+
+Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth, so storing weights in two bits instead of bfloat16 can potentially make inference 8times cheaper. Two-bit methods are usually judged by perplexity and multiple-choice question-answ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.34886</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

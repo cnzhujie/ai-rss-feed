@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 21:10:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 01:05:25 +0000</lastBuildDate>
     <item>
       <title>miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning</title>
       <link>https://huggingface.co/papers/2610.23928</link>
@@ -37,12 +37,30 @@ Existing interpretability tools do not test whether a representation keeps the s
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>How Far Can Coding Agents Go in Visual Generation?</title>
+      <link>https://huggingface.co/papers/2610.19025</link>
+      <description>By Hengguang Zhou, Yuanhao Ban, Jiaqi Feng, Xiaohuan Pei, Justin Cui, et al.
+
+Modern image generation largely relies on specialized generative models that leave the process of image construction implicit in learned parameters. We explore an alternative: general-purpose coding agents that construct images through executable programs. Our study of zero-shot drawing on AgentDraw...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.19025</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents</title>
       <link>https://huggingface.co/papers/2610.21561</link>
       <description>By Sergio Burdisso, Esaú Villatoro-Tello, Dairazalia Sánchez-Cortés, Yanis Labrak, Jordi Luque, et al.
 
 Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. While factual hallucination has received extensive attention, a different failure mode has been overlooked: procedural hallucination, in which an agent produces individually fluent an...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.21561</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Representation Redistribution in Sparse Autoencoders</title>
+      <link>https://huggingface.co/papers/2610.21240</link>
+      <description>By Ziye Mei, Haotian Ma
+
+Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.21240</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -91,15 +109,6 @@ Online scene change detection requires integrating incoming observations to dete
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization</title>
-      <link>https://huggingface.co/papers/2610.31309</link>
-      <description>By Jiacheng Liu, Yaxin Luo, Xiaohan Zhao, Peng Sun, Xinyi Shang, et al.
-
-Scaling embedding capacity alongside Transformer computation is an emerging trend in language models. This trend makes high compression rates increasingly useful. Hence, we study extreme compression of Per-Layer Embeddings (PLE), which follow this trend and account for 35.2% of the parameters of Gem...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.31309</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction</title>
       <link>https://huggingface.co/papers/2610.31635</link>
       <description>By Zunnan Xu, Shangchen Zhou, Yihang Luo, Chen Change Loy
@@ -127,22 +136,13 @@ Many language-model pipelines end in a closed-set decision, such as selecting a 
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>World-in-Context: Interactive Video World Modeling with In-Context Conditioning</title>
-      <link>https://huggingface.co/papers/2610.33169</link>
-      <description>By Harold Haodong Chen, Rui Peng, Rongjin Guo, Lingteng Qiu, Kejie Qiu, et al.
+      <title>CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models</title>
+      <link>https://huggingface.co/papers/2610.31566</link>
+      <description>By Ilan Theodoro, Jordão Bragantini, Loïc A. Royer
 
-Interactive video world models require coordinated control over viewing perspectives, character actions, and camera motion. Existing methods typically leave view modes implicit in text captions, conflate action with camera motion, and inject controls through fragmented architectural pathways that ca...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.33169</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery</title>
-      <link>https://huggingface.co/papers/2610.32195</link>
-      <description>By Dongki Kim, Sangwoo Park, Jinheon Baek, Soyeong Jeong, Sung Ju Hwang
-
-Scientific discovery requires identifying the scientific principles underlying observed phenomena to guide further investigation. As these empirical principles are often unknown in complex discovery processes, they are constructed via a hypotheses-to-principle pipeline to obtain recurring causalitie...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.32195</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. Howe...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.31566</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments</title>
@@ -154,22 +154,13 @@ Deploying language agents in real applications demands more than the right answe
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents</title>
-      <link>https://huggingface.co/papers/2610.33568</link>
-      <description>By Yihao Hu, Zhihao Wen, Yitong Lin, Siyuan Lu, Pan Wang, et al.
+      <title>Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model</title>
+      <link>https://huggingface.co/papers/2610.32177</link>
+      <description>By Khai Loong Aw, Klemen Kotar, Baihan Zhang, Yifan Liu, Lilian Chen, et al.
 
-Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajec...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.33568</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement</title>
-      <link>https://huggingface.co/papers/2610.33472</link>
-      <description>By Zekai Zhang, Yanran Zhang, Shengming Yin, Yan Shu, Zhening Liu, et al.
-
-Learning visual design is essential for prompt enhancement (PE) to turn underspecified user requests into coherent visual specifications for text-to-image (T2I) generation. Existing methods preserve user intent and improve overall visual appeal, with less explicit emphasis on fine-grained design dim...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.33472</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds. Achieving this flexibility is a major open challenge in AI: capabilities often remain separated across specialized models, limiting how they can be composed and jointly adapted to a task. ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.32177</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination</title>
@@ -253,13 +244,13 @@ Repeated attempts at interactive tasks uncover facts, useful operations, and fai
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants</title>
-      <link>https://huggingface.co/papers/2610.33966</link>
-      <description>By Qinsi Wang, Wei Wen, Chong Zhou, Saksham Suri, Zechun Liu, et al.
+      <title>EnvLunch: The Environment as a Free Lunch for Learning to Interact</title>
+      <link>https://huggingface.co/papers/2610.33817</link>
+      <description>By Wei Liu, Min Gao, Yali Du, Yulan He
 
-People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.33966</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+For agentic data analysis, language-model agents often require a large number of annotated tasks to learn how to interact effectively with executable environments (i.e., databases). While high-quality annotated tasks require heavy manual effort, an executable environment already provides rich intera...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.33817</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning</title>
@@ -352,22 +343,13 @@ Agent harnesses enable large language models to act through tools, observe the r
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>StreamVibe: Proactive Video Agents for Evolving User Intent</title>
-      <link>https://huggingface.co/papers/2610.34662</link>
-      <description>By Chengzhi Liu, Yuxiang Lai, Yuzhe Yang, Yanqing Liu, Jiheng Hou, et al.
+      <title>ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?</title>
+      <link>https://huggingface.co/papers/2610.34386</link>
+      <description>By Haojin Wang, Yangzhen Wu, Zeyi Chen, Jian Xie, Jiaying Ye, et al.
 
-Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., "where should I click next?" while a user navigate a website), meanwhile fail to update...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.34662</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Work Agents: Systems, Capabilities, and Optimization</title>
-      <link>https://huggingface.co/papers/2610.35845</link>
-      <description>By Zishan Xu, Enjun Du, Mingqi Gao, Cheng Yang, Junhao Shen, et al.
-
-As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To addres...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.35845</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+Recursive self-improvement (RSI) requires an agentic system to design, train, and evaluate its own successor. Data-driven post-training is a central part of that loop, yet existing evaluations measure it on a single benchmark, where an agent selects from a static pool or distills a stronger model to...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.34386</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges</title>
@@ -458,6 +440,24 @@ An agent that truly knows and acts on behalf of its user has been a long-standin
 Reasoning language models generate thousands of tokens per answer, and generation speed is limited by memory bandwidth, so storing weights in two bits instead of bfloat16 can potentially make inference 8times cheaper. Two-bit methods are usually judged by perplexity and multiple-choice question-answ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.34886</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Did the Model Use That? Counterfactual Training Boosts Self-Attribution in Language Models</title>
+      <link>https://huggingface.co/papers/2610.35295</link>
+      <description>By Zikai Zhou, Jiacheng Sang, Yilin Xu, Yufei Jin, Monica S. Lam
+
+A fundamental challenge for explainable and accountable language models is revealing how external information influences their answers. This paper examines whether models are self-attributive: that is, whether they indicate when -- and only when -- their responses to questions are influenced by info...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.35295</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SO-101 Bench: Accessible Spatial Manipulation</title>
+      <link>https://huggingface.co/papers/2610.36420</link>
+      <description>By Truman Hickok
+
+Low-cost arms such as the SO-101 have become the most common entry point to robot learning, yet no released policy performs spatially constrained, language-conditioned tasks on them out of the box, and existing SO-101 benchmarks run only on physical hardware with simple tasks and few held-out object...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.36420</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

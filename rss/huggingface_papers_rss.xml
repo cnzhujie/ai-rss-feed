@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 15:52:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 20:54:34 +0000</lastBuildDate>
     <item>
       <title>OpenESM: Energy-Steered Models Are Scalable Foundation Learners</title>
       <link>https://huggingface.co/papers/2610.33005</link>
@@ -19,21 +19,12 @@ Energy-based models have shown promising properties for domain-specific tasks bu
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Far Can Coding Agents Go in Visual Generation?</title>
-      <link>https://huggingface.co/papers/2610.19025</link>
-      <description>By Hengguang Zhou, Yuanhao Ban, Jiaqi Feng, Xiaohuan Pei, Justin Cui, et al.
+      <title>AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents</title>
+      <link>https://huggingface.co/papers/2610.22684</link>
+      <description>By Liqin Ye, Rongzhi Zhang, Xin Liu, Zheng Li, Yuan He, et al.
 
-Modern image generation largely relies on specialized generative models that leave the process of image construction implicit in learned parameters. We explore an alternative: general-purpose coding agents that construct images through executable programs. Our study of zero-shot drawing on AgentDraw...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.19025</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Representation Redistribution in Sparse Autoencoders</title>
-      <link>https://huggingface.co/papers/2610.21240</link>
-      <description>By Ziye Mei, Haotian Ma
-
-Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need not...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.21240</guid>
+Forecasting an unresolved event requires finding relevant evidence and deciding how strongly it supports each outcome. Yet outcome-based training of Large Language Model (LLM) forecasters often begins with preassembled evidence at a single prediction date, leaving evidence acquisition outside the le...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22684</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -73,22 +64,13 @@ Text-to-image (T2I) platforms typically return several images per prompt so user
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models</title>
-      <link>https://huggingface.co/papers/2610.31566</link>
-      <description>By Ilan Theodoro, Jordão Bragantini, Loïc A. Royer
+      <title>Sub-monolayer tracking of molecular states at buried interfaces</title>
+      <link>https://huggingface.co/papers/2610.31924</link>
+      <description>By Harlan Heilman, Em Biegler, Sushil Adhikari, Victor Murcia, Tanner Melody, et al.
 
-Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. Howe...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.31566</guid>
+Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantitatively resolving these features is out of reach in most cases. Resonant scattering has demonstrated sensitivity to these local states but is limited due to a lack of accurate inter...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.31924</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model</title>
-      <link>https://huggingface.co/papers/2610.32177</link>
-      <description>By Khai Loong Aw, Klemen Kotar, Baihan Zhang, Yifan Liu, Lilian Chen, et al.
-
-Humans reason about the physical world by flexibly combining different forms of inference as a problem unfolds. Achieving this flexibility is a major open challenge in AI: capabilities often remain separated across specialized models, limiting how they can be composed and jointly adapted to a task. ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.32177</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?</title>
@@ -107,15 +89,6 @@ Recent test-time training (TTT) frameworks have enabled open-weight large langua
 Can AI agents autonomously train useful language models and improve them using feedback from users? We introduce RSI Arena, a two-stage study of autonomous post-training as a step toward recursive self-improvement. Ten frontier models act as training agents, each starting from NVIDIA Nemotron 3.5 Li...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.33624</guid>
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?</title>
-      <link>https://huggingface.co/papers/2610.34386</link>
-      <description>By Haojin Wang, Yangzhen Wu, Zeyi Chen, Jian Xie, Jiaying Ye, et al.
-
-Recursive self-improvement (RSI) requires an agentic system to design, train, and evaluate its own successor. Data-driven post-training is a central part of that loop, yet existing evaluations measure it on a single benchmark, where an agent selects from a static pool or distills a stronger model to...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.34386</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence</title>
@@ -289,13 +262,32 @@ Financial institutions operating under data-residency constraints are restricted
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SO-101 Bench: Accessible Spatial Manipulation</title>
-      <link>https://huggingface.co/papers/2610.36420</link>
-      <description>By Truman Hickok
+      <title>What Outcome RL Buys: Finishing, Reliability, Rarely Reach</title>
+      <link>https://huggingface.co/papers/2610.34894</link>
+      <description>By Shan Yang
 
-Low-cost arms such as the SO-101 have become the most common entry point to robot learning, yet no released policy performs spatially constrained, language-conditioned tasks on them out of the box, and existing SO-101 benchmarks run only on physical hardware with simple tasks and few held-out object...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.36420</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget. Every recipe also trains under one. On physics and math problems at fixed token budgets, we compare the pass@1 of 20 released RL models (1.5B to 32B) with that of the thinking mode...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.34894</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond the Estimate: Wiener-Informed Decoding for Easier Training of Pixel-Space Flow Models</title>
+      <link>https://huggingface.co/papers/2610.36192</link>
+      <description>By Ziqiao Wang, Yang You
+
+Learning velocity fields directly in pixel space is difficult and slow. We show that coarse second-order image statistics can ease this task: frozen Wiener estimates improve velocity learning, with gains extending beyond the linear predictions they explicitly provide. Moreover, we observe similar bu...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.36192</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It</title>
+      <link>https://huggingface.co/papers/2610.36184</link>
+      <description>By Sanjid Hasan, A H M Fuad, Risalat Labib, Bayazid Hasan Simon
+
+Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open Bengali ASR corpora are confined to short, read or crowd-sourced speech and lack speaker diarization and long-form audio.
+  We present Lipi-Ghor, a large-scale weakly-supervised Be...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.36184</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>LociArt: A Unified Paradigm for Free-Style Local Video Stylization</title>
@@ -457,6 +449,15 @@ Multimodal perception forms the foundation of multimodal intelligence. In partic
 
 We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective pro...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.37364</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection</title>
+      <link>https://huggingface.co/papers/2509.05512</link>
+      <description>By Bryce Grant, Peng Wang
+
+This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in the quaternion domain, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2509.05512</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

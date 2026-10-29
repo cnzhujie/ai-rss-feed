@@ -8,7 +8,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 06:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 14:03:28 +0000</lastBuildDate>
+    <item>
+      <title>TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents</title>
+      <link>https://huggingface.co/papers/2610.30161</link>
+      <description>By Krishanu Adhikary, Prashant Devadiga
+
+Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of requi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.30161</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents</title>
       <link>https://huggingface.co/papers/2610.22684</link>
@@ -16,6 +25,15 @@
 
 Forecasting an unresolved event requires finding relevant evidence and deciding how strongly it supports each outcome. Yet outcome-based training of Large Language Model (LLM) forecasters often begins with preassembled evidence at a single prediction date, leaving evidence acquisition outside the le...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.22684</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents</title>
+      <link>https://huggingface.co/papers/2610.22507</link>
+      <description>By Yunqi Liu, Peiyu Wang, Bingli Wang, Leo Luo, Xuanwu Song, et al.
+
+Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchma...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.22507</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -61,6 +79,24 @@ Text-to-image (T2I) platforms typically return several images per prompt so user
 
 Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., the ability to recognize what information has been obtained and what remains missi...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.30435</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CausGround: Causal Interaction Grounding for Adaptive Embodied Planning</title>
+      <link>https://huggingface.co/papers/2610.29702</link>
+      <description>By Yijun Shen, Diqi He, Jinbang Guo, Wanyue Zhang, Jiaming Mi, et al.
+
+Multimodal large language models (MLLMs) show promising reasoning capabilities, but reliable physical interaction requires planning that accounts for when actions are executable and how they change the world. These preconditions and effects are environment-dependent and often not captured by MLLMs, ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.29702</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data</title>
+      <link>https://huggingface.co/papers/2610.30132</link>
+      <description>By Zhennan Wan, Jianfei Chen
+
+Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.30132</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -118,15 +154,6 @@ Standard sequence models encode position by token rank rather than physical coor
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents</title>
-      <link>https://huggingface.co/papers/2610.34491</link>
-      <description>By Kaiser Sun, Yongchan Kwon, Zain Hasan, Shang Zhu, Kaitlyn Zhou, et al.
-
-Generative models increasingly expose a reasoning effort setting that lets users scale inference-time compute, trading higher cost for potentially improved performance. Users must choose an effort level before knowing whether extra reasoning will help, and even a successful run does not reveal wheth...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.34491</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Memory Tax: Dissecting the Net Value of Agent Memory</title>
       <link>https://huggingface.co/papers/2610.34073</link>
       <description>By Xuan He, Sining Zhoubian, Ruozhen Yang, Yuhao Wen, Zhineng Wang, et al.
@@ -145,22 +172,13 @@ While progress in informal mathematics has come largely from scaling the chain-o
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Harness-Model Collaboration for Long-Horizon Continual Learning</title>
-      <link>https://huggingface.co/papers/2610.34724</link>
-      <description>By Zhen Bi, Zhizhi Peng, Yan Wang, Xueshu Chen, Haofei Zhang, et al.
+      <title>HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience</title>
+      <link>https://huggingface.co/papers/2610.34186</link>
+      <description>By Yang Liu, Jiacheng Liu, Hengtao Li, Yuheng Huang, Zijian Yang, et al.
 
-Long-horizon agents continuously encounter reusable procedural knowledge, yet existing systems typically rely either on model adaptation or external memory, trading persistent learning for rapid reuse. This limitation is especially important for Web agents that repeatedly execute related multi-step ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.34724</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SearchHorizonBench: A Benchmark for Search Value in AI Agents</title>
-      <link>https://huggingface.co/papers/2610.34714</link>
-      <description>By Jingjie Ning, Xueqi Li, Yibo Kong
-
-AI agents must decide when another search is worth its cost. Answer-success probabilities capture question difficulty, while this decision requires estimating the additional benefit of search. We introduce SearchHorizonBench, a benchmark for learning and evaluating search value from execution experi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.34714</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual e...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.34186</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams</title>
@@ -297,24 +315,6 @@ Diffusion language models (DLMs) generate text through iterative denoising, enab
 Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.35684</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can LLMs Uncover Hidden Physical Laws through Free Exploration?</title>
-      <link>https://huggingface.co/papers/2610.37649</link>
-      <description>By Zhen Yang, Wen Wang, Xander Xu, Ying-Cong Chen
-
-Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without bei...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.37649</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hy-Nomas: Towards Free-form Interactive World Generation</title>
-      <link>https://huggingface.co/papers/2610.36729</link>
-      <description>By Qiaoling Chen, Jiaxiang Cheng, Xueqing Deng, Tiankai Hang, Ji Hou, et al.
-
-Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.36729</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning</title>

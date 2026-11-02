@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 15:27:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 23:23:08 +0000</lastBuildDate>
     <item>
       <title>ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics</title>
       <link>https://huggingface.co/papers/2610.23656</link>
@@ -100,6 +100,15 @@ Direct-policy World Action Models (WAM) have demonstrated the benefits of decoup
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding</title>
+      <link>https://huggingface.co/papers/2610.36384</link>
+      <description>By Matea Tashkovska, Naël Ouerghemi, Haozhe Qi, Alexander Mathis
+
+Perceiving human body motion is critical for multimodal systems that understand and assist people. Yet current evaluations of Multimodal Large Language Models (MLLMs) largely focus on objects, scenes, and coarse actions, leaving their ability to reason about the body itself poorly assessed. This is ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.36384</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation</title>
       <link>https://huggingface.co/papers/2610.36545</link>
       <description>By Yijing Lin, Zhendong Mao, Mengqi Huang, Yuxin Wang, Yongdong Zhang
@@ -136,6 +145,24 @@ Metis is a bet that better data, better training methods and new architectures c
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Follow the Gradient: Tracing Safety Degradation Back to Training Data</title>
+      <link>https://huggingface.co/papers/2610.37481</link>
+      <description>By Saket Reddy, Amro Abbas, Anshuman Suri, Ari Morcos, David Schwab, et al.
+
+Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it. We tackle this problem by developing SimpleLoRIF, a scalable gradi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.37481</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GEPA-Curator: Curated Learning for Self Improving Agents</title>
+      <link>https://huggingface.co/papers/2610.37651</link>
+      <description>By Zack Yu, Nicholas Lee, Minjae Lee, Lakshya Agarwal, Luca Manolache, et al.
+
+Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitatio...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.37651</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World</title>
       <link>https://huggingface.co/papers/2610.37919</link>
       <description>By Yusheng Zhao, Bowei He, Xue Liu, Mingxiao Li
@@ -143,15 +170,6 @@ Metis is a bet that better data, better training methods and new architectures c
 Large language model agents are increasingly used for scientific discovery. However, existing benchmarks mix law inference with programming, score data fitting instead of prediction on unseen inputs, and do not separate empirical evidence from pretrained priors. We introduce SciGame, a controlled be...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.37919</guid>
       <pubDate>Tue, 27 Oct 2026 20:02:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Multi-Token Prediction Done Right</title>
-      <link>https://huggingface.co/papers/2610.38331</link>
-      <description>By Jayden Teoh
-
-Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with both...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.38331</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Scaling Lean Theorem Proving for Real-World Code Verification</title>
@@ -179,42 +197,6 @@ Self-distillation offers a way to improve reasoning models when a suitable exter
 Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. We introduce EPSBench, a benchmark for studying this ability across 149 firm-quarters from 86 US companies. Agents read a fixed collection of ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.38293</guid>
       <pubDate>Wed, 28 Oct 2026 05:24:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory</title>
-      <link>https://huggingface.co/papers/2610.40614</link>
-      <description>By Jinhyeok Choi, JoungBin Lee, Jongmin Lee, Minkyeong Jeon, Jiyoung Kim, et al.
-
-Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.40614</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers</title>
-      <link>https://huggingface.co/papers/2610.40647</link>
-      <description>By Jiongfan Yang, Weichen Fan, Haiwen Diao, Zhongang Cai, Ziwei Liu
-
-Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from gl...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.40647</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers</title>
-      <link>https://huggingface.co/papers/2610.39663</link>
-      <description>By Bin Xu, Mo Zhang, Zhengfeiyang Zhang, Xinfeng Yang, Yixing Ma, et al.
-
-Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/value blocks selected from current activations. However, its fidelity degrades u...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.39663</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions</title>
-      <link>https://huggingface.co/papers/2610.40453</link>
-      <description>By Yue Gong, Le Zhang, Rui Chen, Song Chang, Xiaochao Qu, et al.
-
-We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs, or training pairs with limited viewpoint variation, leaving pose and illuminati...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.40453</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation</title>
@@ -370,6 +352,15 @@ A voice agent's speech recognizer transcribes everyone near the microphone, incl
       <pubDate>Thu, 29 Oct 2026 10:16:03 +0000</pubDate>
     </item>
     <item>
+      <title>rTaste: Do Research Agents Have Taste? Evaluating Early Stage Research Judgment</title>
+      <link>https://huggingface.co/papers/2610.40488</link>
+      <description>By Art Kanke
+
+Do research agents have taste, the judgment of which experiments are worth running before their outcomes are known? We give six frontier models seven recent NLP papers. Each model, working as a research agent alone or as a team, proposes minimum viable experiments (MVEs), forecasts whether each will...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.40488</guid>
+      <pubDate>Thu, 29 Oct 2026 17:15:53 +0000</pubDate>
+    </item>
+    <item>
       <title>Probing Spatial State Representations in Visual Foundation Models</title>
       <link>https://huggingface.co/papers/2610.40636</link>
       <description>By Baiqiao Yin, Zhongang Cai, Ruisi Wang, Qiwei Liang, Lei Yang, et al.
@@ -430,6 +421,15 @@ Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimoda
 
 This paper presents TurnTurk-GPT, a text-based turn-taking predictor for Turkish obtained by fine-tuning a Turkish GPT-2 model with the TurnGPT objective on synthetic and real dialogue, and evaluates it on real Turkish conversation against rule baselines, a zero-shot Turkish language model and a wid...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.42010</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AuditFL: A Contract-Backed Clearing Layer for Open Federated Learning</title>
+      <link>https://huggingface.co/papers/2610.41278</link>
+      <description>By Alexandros Balla, Spyros Lalis
+
+Federated learning (FL) keeps raw data local, but most deployments still rely on a trusted coordinator for client admission, checkpoint distribution, update collection, aggregation, and rewards. This paper presents AuditFL, a contract-backed clearing layer for auditable FL in open settings. AuditFL ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.41278</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

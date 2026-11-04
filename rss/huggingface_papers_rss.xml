@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 16:59:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 22:33:08 +0000</lastBuildDate>
     <item>
       <title>Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena</title>
       <link>https://huggingface.co/papers/2610.00854</link>
@@ -28,6 +28,15 @@ Visual agents need to coordinate reasoning and action while their environment ev
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>When Fine-Grained Credit Assignment Helps and Hurts: Multimodal Agentic Reinforcement Learning through Video Editing</title>
+      <link>https://huggingface.co/papers/2610.35497</link>
+      <description>By Lei Zhao, Zongheng Cao, Xinyu Hu
+
+Reinforcement learning (RL) has shown promise for training multimodal agents to reason and use tools. However, it remains unclear when fine-grained credit assignment improves learning and when it fails to improve task performance. Video editing provides a useful testbed for this question, combining ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.35497</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG</title>
       <link>https://huggingface.co/papers/2610.36915</link>
       <description>By Parv Khatri, Harshul Jain, Mehak Kapoor, Tanya Sah
@@ -44,15 +53,6 @@ When the sources retrieved for a query disagree, the right response depends on w
 Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW. Most balance the load with a bias on each expert's routing score, adjusted after every step. Their recipes disagree on whether Muon should also train the router. In models with 55M and 108M active parameters, we mea...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.37914</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Tutorial on Generative Models for Music Audio</title>
-      <link>https://huggingface.co/papers/2610.38252</link>
-      <description>By Mateusz Modrzejewski, Joanna Kurkowska, Dorien Herremans
-
-Music audio generation spans instrumental clips, full songs with vocals, edits of existing recordings, and systems that play alongside a musician in real time. This monograph explains the methods behind these systems for readers familiar with neural-network training who are new to music generation. ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.38252</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses</title>
@@ -118,6 +118,15 @@ LLM-based multi-agent systems (MAS) rely on collaboration among specialized agen
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Cross-Prompt Reuse of Entity-Replacement Responses</title>
+      <link>https://huggingface.co/papers/2611.00352</link>
+      <description>By Jinkun Chen, Xuemin Yu, Sijia Han, Vlado Keselj
+
+With model weights fixed, we measure how much of an entity-replacement response transfers between English factual questions, beyond whether answers change. We add the hidden-state change from two source questions to a target question about the same entity, comparing the predicted log-probability shi...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.00352</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy</title>
       <link>https://huggingface.co/papers/2611.00617</link>
       <description>By Mengxi Xiao, Jingjing Chen, Ziyan Kuang, Jiarong Song, Wenhao Zhao, et al.
@@ -125,15 +134,6 @@ LLM-based multi-agent systems (MAS) rely on collaboration among specialized agen
 Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining th...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.00617</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Order-Only On-Policy Distillation</title>
-      <link>https://huggingface.co/papers/2611.02112</link>
-      <description>By Guangzeng Han, Yu Wu, Xiaolei Huang
-
-On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. These probabilities entangle two kinds of information: which tokens the teacher prefers, and how confident it is. The latter reflects the teacher's own capacity and calibration, which ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.02112</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost</title>
@@ -172,22 +172,13 @@ Software development sessions often involve several unfinished tasks rather than
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?</title>
-      <link>https://huggingface.co/papers/2611.03424</link>
-      <description>By Shanshan Zhong, Chen Xu, Jingjie Ning, Zhengzhong Liu, Aviral Kumar, et al.
+      <title>QFabric: Guarded Cross-Domain Task Recovery and Its Limits on a Linux-RTOS Board</title>
+      <link>https://huggingface.co/papers/2611.01598</link>
+      <description>By Ayushman Bhattacharya, Anwesha Chakraborty
 
-Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the resear...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03424</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild</title>
-      <link>https://huggingface.co/papers/2611.02497</link>
-      <description>By Tan Sang Nguyen, Yi Ru Wang, Shailesh Shailesh, Gang Yang, Jiamo Hu, et al.
-
-General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized proto...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.02497</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+Heterogeneous embedded boards pair a Linux application processor with a real-time microcontroller (MCU), which suggests moving a task between the two domains when its timing degrades. We present QFabric, a prototype that treats cross-domain placement as guarded recovery from a violated empirical sof...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.01598</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SeMo3D: Unifying 3D Generation, Editing, and Completion via Selective Modeling</title>
@@ -269,15 +260,6 @@ GUI web agents require realistic and interactive environments that remain stable
 We introduce Dory1.0-4B, a 4-billion-parameter looped (latent-recurrent) language model with elastic depth: a single checkpoint serves different inference compute budgets. Dory1.0-4B is built on a normalized Transformer (nGPT) backbone with interleaved sliding-window and full-attention layers, organ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.03998</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models</title>
-      <link>https://huggingface.co/papers/2611.02782</link>
-      <description>By Hangyi Kuang, Chengzhi Wang, Yefei He, Weijie Wang, Yuke Zhao, et al.
-
-Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight. Despite progress in fidelity and rollout robustness, existing distillation methods do not fu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.02782</guid>
-      <pubDate>Mon, 02 Nov 2026 09:00:31 +0000</pubDate>
     </item>
     <item>
       <title>Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction</title>
@@ -457,6 +439,24 @@ Large language models are candidates for collecting and analyzing records in cri
 
 Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.05345</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval</title>
+      <link>https://huggingface.co/papers/2611.04169</link>
+      <description>By Yinuo Liu
+
+Why do language models fail on long inputs? The common answer is length. We show that, for retrieval, length is cheap and competition is not. On five open models (0.5B to 3B parameters, four families), neutral filler costs nothing: accuracy stays at 0.97 to 1.00, up to 32K tokens on Qwen2.5-1.5B. St...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.04169</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SphereFlow: Missing Modality Imputation via Geometric Transport on Hypersphere</title>
+      <link>https://huggingface.co/papers/2611.04414</link>
+      <description>By Huihan Wang, Juncheng Wang, Yuxiang Feng, Wenlong Hou, Guoqi Yu, et al.
+
+Missing modality imputation aims to synthesize unobserved modalities from observed ones. Existing methods treat each modality as living on its own latent manifold, forcing the generator to learn a long, unstructured jump between them. We present SphereFlow, which takes a fundamentally different view...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.04414</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

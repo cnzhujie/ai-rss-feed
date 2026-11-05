@@ -8,14 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 12:04:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 20:32:44 +0000</lastBuildDate>
     <item>
-      <title>Muon Makes the First Mixture-of-Experts Layer Harder to Balance</title>
-      <link>https://huggingface.co/papers/2610.37914</link>
-      <description>By Marcos Hernanz
+      <title>Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors</title>
+      <link>https://huggingface.co/papers/2610.36544</link>
+      <description>By Siddharth Jain, Venkat N. Vedam
 
-Many open mixture-of-experts (MoE) language models train with Muon instead of AdamW. Most balance the load with a bias on each expert's routing score, adjusted after every step. Their recipes disagree on whether Muon should also train the router. In models with 55M and 108M active parameters, we mea...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.37914</guid>
+Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action identity for an independent clean restart with zero monitoring overhead, we show analytically that a monitor with fixed 90% accura...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.36544</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -109,15 +109,6 @@ LLM-based agentic systems are increasingly combined with CoT reasoning to solve 
       <pubDate>Sun, 01 Nov 2026 14:05:15 +0000</pubDate>
     </item>
     <item>
-      <title>Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry</title>
-      <link>https://huggingface.co/papers/2611.03360</link>
-      <description>By Moein Heidari, Junbo Rao, Yudan Chen, Yasamin Medghalchi, River Jiang, et al.
-
-**Purpose:** Ultrasound biometry is widely used across various clinical applications, including prenatal and cardiac examinations, to obtain quantitative measurements by placing calipers at anatomical landmarks. However, these measurements remain subject to interoperator variability as they rely lar...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03360</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Dory1.0-4B: A Looped Normalized-GPT</title>
       <link>https://huggingface.co/papers/2611.03998</link>
       <description>By Maxim Fishman, Simeng Sun, Shantanu Acharya, Faisal Ladhak, Brian Chmiel, et al.
@@ -154,6 +145,51 @@ Video dubbing aims to synthesize lip movements that match target speech while pr
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost</title>
+      <link>https://huggingface.co/papers/2611.03852</link>
+      <description>By Anton Hristov
+
+Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make these gains expensive. Efficient reasoning should express useful analysis in fewer tokens by reducing repetition and text that adds little value to solving the problem. Progress in p...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.03852</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization</title>
+      <link>https://huggingface.co/papers/2611.03517</link>
+      <description>By Gabriele Oliaro, Jaeseong Lee, Zhaoyuan Su, Sreeram Vennam, Zhihao Jia, et al.
+
+LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the model does at each step, via a learned policy, an optimization menu, or fixed roles, and are sample-efficient where the recipe applies and stall where it does not. Open-ended agents l...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.03517</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The SIMPLE Law for Energy Cost of LLM Inference</title>
+      <link>https://huggingface.co/papers/2611.03330</link>
+      <description>By Hiari Pizzini Cavagna, Andrea Proia, Daniele Cesarini, Zeynep Kiziltan, Andrea Bartolini
+
+Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the cost of those that follow, so energy grows non-linearly along a sequence whose tokens look identical. No analytical model states what a token costs, and the most accurate SOTA model...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.03330</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TaoMate-HD: Progressive-Resolution Autoregressive Audio-Video Generation</title>
+      <link>https://huggingface.co/papers/2611.03394</link>
+      <description>By Qijun Gan, Chenwei Zhang, Xinyang Li, Meiguang Jin, Junfeng Ma, et al.
+
+Streaming digital humans produce detailed video while continuing speech as new text arrives. High-resolution denoising is costly, and text updates can cause repeated or interrupted speech. We present TaoMate-HD, an autoregressive model for high-resolution audio-video streaming. For each short segmen...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.03394</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention</title>
+      <link>https://huggingface.co/papers/2611.03768</link>
+      <description>By Serdarcan Dilbaz, Arjun Krishna, Kiran Kamble, Daniel M. Bikel
+
+Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only a subset of the sequence, chosen by a fixed pattern or, in recent production LLMs, learned per query. In DeepSeek Sparse Attention (DSA), the attention of DeepSeek-V3.2 and the GLM...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.03768</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Solv3R: 3D Looped Transformer as a Multi-view Solver</title>
       <link>https://huggingface.co/papers/2611.02857</link>
       <description>By Jeong-gi Kwak, Andrea Tagliasacchi, Sho Kagami, Yuki Ono, Kwang Moo Yi
@@ -163,15 +199,6 @@ Classical structure-from-motion reconstruction proceeds iteratively, refining ca
       <pubDate>Mon, 02 Nov 2026 09:59:45 +0000</pubDate>
     </item>
     <item>
-      <title>Auto-Research Agent on MSA Organization to Improve Protein-Protein Complex Structure Prediction</title>
-      <link>https://huggingface.co/papers/2611.03183</link>
-      <description>By Zilu Zhang, Jing Bao, Lifeng Qiao, Sheng Xu, Qiantai Feng, et al.
-
-Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing. Current pipelines apply uniform recipes, typically maximizing depth and pairing by species, yet even whether cross-chain pairing helps AF3 remains contested. We show that the value of both d...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03183</guid>
-      <pubDate>Mon, 02 Nov 2026 14:17:43 +0000</pubDate>
-    </item>
-    <item>
       <title>BEND 2.0: Benchmarking the Capabilities Needed to Design DNA</title>
       <link>https://huggingface.co/papers/2611.03806</link>
       <description>By Andreas Bjerregaard, Rachael DeVries, Dionysia Danai Brilli, Panagiotis Antoniadis, Yan Li, et al.
@@ -179,69 +206,6 @@ Protein-complex structure prediction with AlphaFold 3 depends on MSA content, de
 Genomic foundation models are increasingly used to propose DNA sequences and edits. But successful design requires capabilities that current benchmarks do not measure. Here we introduce BEND 2.0 (BENchmark for DNA language models), which tests how well models predict the effects of DNA changes and w...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.03806</guid>
       <pubDate>Mon, 02 Nov 2026 19:00:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On</title>
-      <link>https://huggingface.co/papers/2611.05163</link>
-      <description>By Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
-
-Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05163</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Going Deeper With Memories</title>
-      <link>https://huggingface.co/papers/2611.05255</link>
-      <description>By Afshin Khadangi
-
-Byte level language models avoid tokenizer dependence and provide universal coverage, but processing every byte at full resolution is expensive. We introduce DeepMem, a causal multiscale architecture that separates semantic compression from exact byte preservation. A learned invertible subband trans...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05255</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VidUEU-Agent: A Data-Curation Agent for Multimodal Understanding, Editing, and Unified Tasks</title>
-      <link>https://huggingface.co/papers/2611.04418</link>
-      <description>By Tengju Ru, Weitong Lian, Zecong Tang, Lingyi Meng, Haoran Li, et al.
-
-The advancement of multimodal learning is heavily constrained by the scarcity and high annotation cost of high-quality instruction data. While raw videos offer an abundant and dynamic source of visual knowledge, transforming them into precise instruction data remains highly challenging. To bridge th...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.04418</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DreamX: Video Diffusion Model is a Universal Latent Action Learner</title>
-      <link>https://huggingface.co/papers/2611.05377</link>
-      <description>By Jisoo Kim, Chaehyun Kim, Junsu Kim, Jiho Park, Seongchan Kim, et al.
-
-Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations of...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05377</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GigaSpeech 3: Scaling Multi-Dialect Arabic Speech Recognition with Weakly Labeled Data</title>
-      <link>https://huggingface.co/papers/2611.02476</link>
-      <description>By Junzhe Liu, Yujie Tu, Yifan Yang, Peng Wang, Haoran Wang, et al.
-
-Dialectal Arabic speech recognition remains constrained by the scarcity of dialect-resolved transcribed speech despite the abundance of web audio. We introduce GigaSpeech 3, a corpus of 39,000 hours and 10 million weakly transcribed speech segments covering Algerian, Egyptian, Iraqi, Saudi, and Syri...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.02476</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>You don't need long context</title>
-      <link>https://huggingface.co/papers/2611.05306</link>
-      <description>By Peter Belcak, Saurav Muralidharan, Jindong Jiang, Yonggan Fu, Wonmin Byeon, et al.
-
-Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accurac...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05306</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Think Less, Locally: Local Preference Learning for Reasoning Compression</title>
-      <link>https://huggingface.co/papers/2611.04814</link>
-      <description>By Muyao Yuan, Liyan Xu, Weizhan Zhang, Muyan Jiao, Jiangnan Li, et al.
-
-Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajector...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.04814</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Factorized MLLM Embeddings for Composed Image Retrieval</title>
@@ -334,6 +298,24 @@ Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD)
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias</title>
+      <link>https://huggingface.co/papers/2611.04949</link>
+      <description>By Dayeon Jeong, Kyeongpil Kang
+
+Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers. While manual translation is prohibitively expensive and time-consuming, simply applying existing machine translation models is inadequate due to unique linguistic nuanc...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.04949</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Halley: A Predictive Control Plane for Optical AI Data Center Networks</title>
+      <link>https://huggingface.co/papers/2611.04408</link>
+      <description>By Manav Mishra, Krishna M. Sivalingam
+
+A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed o...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.04408</guid>
+      <pubDate>Tue, 03 Nov 2026 06:45:50 +0000</pubDate>
+    </item>
+    <item>
       <title>Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting</title>
       <link>https://huggingface.co/papers/2611.04760</link>
       <description>By Raz Marshanski, Liran Nochumsohn, Mayank Jauhari, Boris N. Oreshkin, Omri Azencot
@@ -341,6 +323,15 @@ Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD)
 Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, expressive uncertainty, and efficient inference, yet existing approaches fall short of this goal: latent dynamical models impose structure but rely on restrictive generation mechanisms, wh...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.04760</guid>
       <pubDate>Tue, 03 Nov 2026 12:08:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI</title>
+      <link>https://huggingface.co/papers/2611.05029</link>
+      <description>By Oswaldo Ludwig
+
+Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can accumulate over a trajectory. Each deviation may move the agent outside the training distribution, increase subsequent prediction errors, and ultimately cause closed-loop task fail...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.05029</guid>
+      <pubDate>Tue, 03 Nov 2026 15:05:06 +0000</pubDate>
     </item>
     <item>
       <title>LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers</title>
@@ -422,6 +413,15 @@ Group Relative Policy Optimization (GRPO) has advanced generative model post-tra
 Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage ac...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.06728</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds</title>
+      <link>https://huggingface.co/papers/2611.05988</link>
+      <description>By Yusheng Dai, Vladimir Iashin, Kangdi Wang, Yuxuan Jiang, Ilpo Viertola, et al.
+
+Streaming video-to-audio (V2A) generation is essential for immersive interactive applications. However, real-time constraints leave existing streaming V2A methods far behind offline models: (1) visual frontends shrink their receptive fields to cut look-ahead latency, severely degrading audio-visual ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.05988</guid>
+      <pubDate>Wed, 04 Nov 2026 05:35:42 +0000</pubDate>
     </item>
     <item>
       <title>UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling</title>

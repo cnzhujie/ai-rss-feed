@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 22:56:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:40:14 +0000</lastBuildDate>
     <item>
       <title>Identically Trained Language Models Break on Different Jailbreaks</title>
       <link>https://huggingface.co/papers/2610.34074</link>
@@ -89,15 +89,6 @@ Agent decisions depend on empirical relationships that deployment observations r
 LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation. Yet, explicit CoT incurs substantial generation overhead, while implicit CoT, which replaces textual rationales with compact continu...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.01926</guid>
       <pubDate>Sun, 01 Nov 2026 14:05:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>VidDub: Replacement-Aware Distillation for Two-Step Video Dubbing</title>
-      <link>https://huggingface.co/papers/2611.03404</link>
-      <description>By Yexin Liu, Yunlong Lin, Zehan Wang, Guangxin He, Xinli Xu, et al.
-
-Video dubbing aims to synthesize lip movements that match target speech while preserving the speaker identity, head pose, and background of a source video. Existing editors are predominantly trained via self-reconstruction under original paired audio, even though the source mouth becomes a conflicti...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03404</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost</title>
@@ -295,6 +286,15 @@ Chunk-interleaved full-duplex speech language models listen and speak in fixed t
 
 Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, po...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.06741</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tools Need Not Speak in Text: Latent Context Compression for Agents</title>
+      <link>https://huggingface.co/papers/2611.06500</link>
+      <description>By Yuetong Liu, Zhehao Zhou, Yitong Zhang, Haorui Chen, Jia Li
+
+Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarization methods remain co...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.06500</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

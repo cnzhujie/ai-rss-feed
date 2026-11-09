@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 23:33:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 05:50:34 +0000</lastBuildDate>
     <item>
       <title>Identically Trained Language Models Break on Different Jailbreaks</title>
       <link>https://huggingface.co/papers/2610.34074</link>
@@ -19,13 +19,13 @@ Jailbreak benchmarks test one checkpoint and treat which jailbreaks break it as 
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors</title>
-      <link>https://huggingface.co/papers/2610.36544</link>
-      <description>By Siddharth Jain, Venkat N. Vedam
+      <title>AgentBaton: Efficient Model Collaboration in Agentic Tasks</title>
+      <link>https://huggingface.co/papers/2610.35959</link>
+      <description>By Junlong Li, Jindong Jiang, Yonggan Fu, Jiarui Yao, Hanrong Ye, et al.
 
-Classification accuracy and true-positive and false-positive rates alone do not determine whether restarting an AI agent improves success. Using an exact alarm-to-action identity for an independent clean restart with zero monitoring overhead, we show analytically that a monitor with fixed 90% accura...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.36544</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+Solving long-horizon agentic tasks requires language agents to interact with their environments over multiple steps, and reliable performance often comes from the expensive capable models available through cloud providers. Meanwhile, alternative efficient models with inferior performance but a much ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.35959</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery</title>
@@ -37,6 +37,15 @@ Large language models (LLMs) have shown increasing promise in research-level pro
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>PREEN: Exemplar-Based Color Style Transfer with Smartphone Editor Presets</title>
+      <link>https://huggingface.co/papers/2610.36896</link>
+      <description>By Beomjin Ahn
+
+We present PREEN (Preset Regression via an Exemplar-based Editor Network), which casts color style transfer as regression onto the 29 parameters of a deterministic image editor. Given a content image and a style reference, PREEN predicts a preset, a vector of editor slider values that is interpretab...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2610.36896</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>SynthFaces: Balanced Large Scale Human Dataset</title>
       <link>https://huggingface.co/papers/2610.40119</link>
       <description>By Sergey Karpukhin, Denis Bobkov, Kirill Morozov, Aibek Alanov
@@ -44,15 +53,6 @@ Large language models (LLMs) have shown increasing promise in research-level pro
 The pursuit of fair and equitable AI in human-centric tasks is critically hindered by the inherent biases and privacy risks of real-world datasets, which offer imbalanced representations of identity and often contain sensitive personal information. Consequently, state-of-the-art generative models tr...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.40119</guid>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents</title>
-      <link>https://huggingface.co/papers/2610.41432</link>
-      <description>By Haoqing Wang, Xiaoyi Zhang, Sicheng Fan, Zhexin Zhang, Xinjie Zhang, et al.
-
-Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows. Yet interfaces centered on screenshots and mouse-and-keyboard actions can impose a human-interaction prior, requiring repeated screen interpretation while leaving the comput...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2610.41432</guid>
-      <pubDate>Fri, 30 Oct 2026 08:38:29 +0000</pubDate>
     </item>
     <item>
       <title>Hard Sample-Conditioned Decorrelated Attention for Robust Face Recognition</title>
@@ -82,31 +82,13 @@ Agent decisions depend on empirical relationships that deployment observations r
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens</title>
-      <link>https://huggingface.co/papers/2611.01926</link>
-      <description>By Juseon Do, Sangmin Bae, Jeesu Jung, Hwanjun Song
+      <title>"PRISM" Is Not All You Need: Cross-Topic Name Collisions and Scientific Paper Retrieval</title>
+      <link>https://huggingface.co/papers/2611.01362</link>
+      <description>By Jingjie Ning, Xueqi Li, Yibo Kong
 
-LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation. Yet, explicit CoT incurs substantial generation overhead, while implicit CoT, which replaces textual rationales with compact continu...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.01926</guid>
-      <pubDate>Sun, 01 Nov 2026 14:05:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost</title>
-      <link>https://huggingface.co/papers/2611.03852</link>
-      <description>By Anton Hristov
-
-Reasoning substantially improves language models' ability to solve difficult problems, but long reasoning traces make these gains expensive. Efficient reasoning should express useful analysis in fewer tokens by reducing repetition and text that adds little value to solving the problem. Progress in p...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03852</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization</title>
-      <link>https://huggingface.co/papers/2611.03517</link>
-      <description>By Gabriele Oliaro, Jaeseong Lee, Zhaoyuan Su, Sreeram Vennam, Zhihao Jia, et al.
-
-LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the model does at each step, via a learned policy, an optimization menu, or fixed roles, and are sample-efficient where the recipe applies and stall where it does not. Open-ended agents l...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03517</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+Scientific names increasingly connect papers from different research topics, leaving readers to recover a paper's identity from context. We study this convergence in 564,861 AI-related arXiv records. Cross-topic name collision grows 4.33-fold from a pooled 2020-2022 reference to 2026, compared with ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.01362</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:08 +0000</pubDate>
     </item>
     <item>
       <title>The SIMPLE Law for Energy Cost of LLM Inference</title>
@@ -154,15 +136,6 @@ Recent advances in Vision-Language-Action (VLA) models have enabled fine manipul
       <pubDate>Mon, 02 Nov 2026 07:20:12 +0000</pubDate>
     </item>
     <item>
-      <title>HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias</title>
-      <link>https://huggingface.co/papers/2611.04949</link>
-      <description>By Dayeon Jeong, Kyeongpil Kang
-
-Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers. While manual translation is prohibitively expensive and time-consuming, simply applying existing machine translation models is inadequate due to unique linguistic nuanc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.04949</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents</title>
       <link>https://huggingface.co/papers/2611.04894</link>
       <description>By ZhengXian Wu, Qianhao Nie, Zhuohong Chen, Junjie Gao, Yuyao Zhang, et al.
@@ -199,22 +172,13 @@ A frontier AI model is trained in an AI data center, on tens of thousands of acc
       <pubDate>Tue, 03 Nov 2026 06:45:50 +0000</pubDate>
     </item>
     <item>
-      <title>Koopman Generative Operators for Efficient Probabilistic Time-Series Forecasting</title>
-      <link>https://huggingface.co/papers/2611.04760</link>
-      <description>By Raz Marshanski, Liran Nochumsohn, Mayank Jauhari, Boris N. Oreshkin, Omri Azencot
+      <title>Sketchpad: certified exact arithmetic with a small vision-language model</title>
+      <link>https://huggingface.co/papers/2611.04434</link>
+      <description>By Mostafa 'Neo' Mohsenvand
 
-Probabilistic time-series forecasting requires models that simultaneously capture structured temporal dynamics, expressive uncertainty, and efficient inference, yet existing approaches fall short of this goal: latent dynamical models impose structure but rely on restrictive generation mechanisms, wh...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.04760</guid>
-      <pubDate>Tue, 03 Nov 2026 12:08:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>DRAP: Dynamics-Risk Adaptive Plasticity for Continual Learning in Physical AI</title>
-      <link>https://huggingface.co/papers/2611.05029</link>
-      <description>By Oswaldo Ludwig
-
-Continual learning in physical AI differs from conventional continual learning because small per-step policy errors can accumulate over a trajectory. Each deviation may move the agent outside the training distribution, increase subsequent prediction errors, and ultimately cause closed-loop task fail...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05029</guid>
-      <pubDate>Tue, 03 Nov 2026 15:05:06 +0000</pubDate>
+Language models are accurate on most long-arithmetic problems, but their accuracy is estimated on samples and carries no guarantee for an unseen input; tool use is exact but moves the computation outside the network. We show that exactness at all input lengths becomes a finite, checkable property of...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.04434</guid>
+      <pubDate>Tue, 03 Nov 2026 07:25:42 +0000</pubDate>
     </item>
     <item>
       <title>From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence</title>
@@ -224,24 +188,6 @@ Continual learning in physical AI differs from conventional continual learning b
 For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, f...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.05376</guid>
       <pubDate>Tue, 03 Nov 2026 18:59:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats</title>
-      <link>https://huggingface.co/papers/2611.05593</link>
-      <description>By Shahaf Valencia Levy, Sagie Benaim
-
-Can a neural network learn to render 3D Gaussian splats on its own, with no rasterizer in the renderer? We present GaussianRenderFormer, a transformer that takes a set of Gaussians and a camera and outputs the image directly. Each Gaussian becomes one token in a view-independent encoder, and a view-...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05593</guid>
-      <pubDate>Tue, 03 Nov 2026 20:26:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>NitroFusion2: Bringing Adversarial Loss to the Text Stream of Multimodal Diffusion Transformers</title>
-      <link>https://huggingface.co/papers/2611.05648</link>
-      <description>By Dar-Yen Chen, Yi-Zhe Song
-
-Adversarial diffusion distillation has conventionally relied on image features for discrimination. We revisit this choice for multimodal diffusion transformers (MMDiTs), whose text stream becomes image-dependent through joint attention. We introduce Text-Stream Adversarial Distillation (TSAD), which...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05648</guid>
-      <pubDate>Tue, 03 Nov 2026 21:33:28 +0000</pubDate>
     </item>
     <item>
       <title>D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding</title>
@@ -298,22 +244,22 @@ Large language model (LLM) agents typically append raw tool outputs to their con
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LiveFoley: Dynamic Real-Time Video-to-Audio Generation for Immersive Interactive Worlds</title>
-      <link>https://huggingface.co/papers/2611.05988</link>
-      <description>By Yusheng Dai, Vladimir Iashin, Kangdi Wang, Yuxuan Jiang, Ilpo Viertola, et al.
+      <title>LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting</title>
+      <link>https://huggingface.co/papers/2611.06808</link>
+      <description>By Lingfei Qian, Yan Wang, Xueqing Peng, Yupeng Cao, Yuechen Jiang, et al.
 
-Streaming video-to-audio (V2A) generation is essential for immersive interactive applications. However, real-time constraints leave existing streaming V2A methods far behind offline models: (1) visual frontends shrink their receptive fields to cut look-ahead latency, severely degrading audio-visual ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05988</guid>
-      <pubDate>Wed, 04 Nov 2026 05:35:42 +0000</pubDate>
+Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners guard against this by trusting a vendor's stated knowledge cutoff, by asking the model what it knows, or by instructing it to answer as of a pa...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.06808</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UniRestorer++: Scalable Universal Image Restoration with Multi-Granularity Degradation Modeling</title>
-      <link>https://huggingface.co/papers/2611.06042</link>
-      <description>By Jingbo Lin, Zhilu Zhang, Fan Li, Renjing Pei, Wenbo Li, et al.
+      <title>Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription</title>
+      <link>https://huggingface.co/papers/2611.06043</link>
+      <description>By Daniel Huang, Qi He, Shaoxiong Duan, Yingjie Li, Qiao Cheng, et al.
 
-Universal image restoration aims to handle diverse degradations within a single model, but a reliable scaling strategy remains underexplored. Increasing backbone depth and width can lead to performance saturation, while degradation-aware specialization depends on accurate degradation estimation and ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.06042</guid>
-      <pubDate>Wed, 04 Nov 2026 06:46:47 +0000</pubDate>
+Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stabl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.06043</guid>
+      <pubDate>Wed, 04 Nov 2026 06:46:50 +0000</pubDate>
     </item>
     <item>
       <title>Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation</title>
@@ -334,13 +280,13 @@ Prefill-to-Autoregressive Cross-model Transfer (PACT), a form of latent communic
       <pubDate>Wed, 04 Nov 2026 13:33:47 +0000</pubDate>
     </item>
     <item>
-      <title>PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World</title>
-      <link>https://huggingface.co/papers/2611.06768</link>
-      <description>By Qiang Wang, Jianxin Bi, Shulong Jiang, Ruiyang Si, Wenbo Huang, et al.
+      <title>EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models</title>
+      <link>https://huggingface.co/papers/2611.06748</link>
+      <description>By Yequan Bie, Dengyang Jiang, Zhixuan Chen, Xiaozhuan Liang, Haoxuan Che, et al.
 
-Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-improvement (RSI) thr...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.06768</guid>
-      <pubDate>Wed, 04 Nov 2026 16:46:03 +0000</pubDate>
+Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its con...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.06748</guid>
+      <pubDate>Wed, 04 Nov 2026 16:26:45 +0000</pubDate>
     </item>
     <item>
       <title>Towards Foundation Decision Models: Drex</title>
@@ -415,6 +361,24 @@ LLM-guided evolutionary search uses AI agents to improve programs for mathematic
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Beneath the Surface: What We Overlook When We Talk About Agent Evolution</title>
+      <link>https://huggingface.co/papers/2611.07624</link>
+      <description>By Xiaobo Wang, Zimu Wang, Siyu Ye, Jiaqi Li, Min Tang, et al.
+
+Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.07624</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks</title>
+      <link>https://huggingface.co/papers/2611.07461</link>
+      <description>By Haibo Jin, Peng Kuang, Xiaopeng Yuan, Lucheng Fu, Jerry Wang, et al.
+
+How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a r...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.07461</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens</title>
       <link>https://huggingface.co/papers/2611.07298</link>
       <description>By Seongtae Hong, Youngjoon Jang, Jungseob Lee, Chanjun Park, Heuiseok Lim
@@ -458,6 +422,42 @@ Mathematical modeling turns an open-ended real-world problem into assumptions, a
 Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes this with channel-wise ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.08376</guid>
       <pubDate>Thu, 05 Nov 2026 17:53:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations</title>
+      <link>https://huggingface.co/papers/2611.09382</link>
+      <description>By Junru Hu, Cheng Tang, Wei Li, Hongze Zhu, Chun-Mei Feng, et al.
+
+Weight-Space Programming (WSP) enables reasoning agents to directly inspect and modify neural network parameters, offering an alternative to gradient-based model adaptation. However, its capabilities, cross-task generalization, and practical limitations remain insufficiently understood. We systemati...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.09382</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video-Coder: Reinforcing Agentic Coding for Video Generation</title>
+      <link>https://huggingface.co/papers/2611.09894</link>
+      <description>By Chaoyang Wang, Sicheng Gao, Junan Hu, Kunyang Li, Dongyang Chen, et al.
+
+Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Code...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.09894</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OmniLatent: Unified Latent for 3D Part Modeling</title>
+      <link>https://huggingface.co/papers/2611.09055</link>
+      <description>By Yunhan Yang, Yunfei Zhao, Zeqiang Lai, Jiachen Xu, Minxiu Wang, et al.
+
+3D part decomposition is a central capability for editable asset creation, yet existing workflows typically segment a completed mesh as a post-processing step, making the result sensitive to geometric artifacts, texture ambiguity, and limited part-level annotations. We present OmniLatent, a unified ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.09055</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds</title>
+      <link>https://huggingface.co/papers/2611.09017</link>
+      <description>By Xinjie Lin, Qingle Liu, Wenyi Li, John Lam, Xiaoqiu Wang, et al.
+
+Coding agents combine visual understanding with program execution, offering a new route to automated 3D creation. By translating images and instructions into editable programs, they bring reconstruction, generation, and editing into a shared workflow. Yet existing benchmarks fragment evaluation acro...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.09017</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

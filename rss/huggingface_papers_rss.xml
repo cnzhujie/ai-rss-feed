@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 15:53:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:04:07 +0000</lastBuildDate>
     <item>
       <title>AgentBaton: Efficient Model Collaboration in Agentic Tasks</title>
       <link>https://huggingface.co/papers/2610.35959</link>
@@ -172,24 +172,6 @@ For a decade, progress in artificial intelligence has been measured by how much 
       <pubDate>Tue, 03 Nov 2026 18:59:52 +0000</pubDate>
     </item>
     <item>
-      <title>Future Representation Distillation for Imagination-free World Action Models</title>
-      <link>https://huggingface.co/papers/2611.04527</link>
-      <description>By Jaehyeong Jo, Sangwon Jang, Sihyun Yu, Seonghyeon Ye, Yekyung Nah, et al.
-
-World Action Models (WAMs) use the predictive knowledge of pretrained video diffusion models for robot control through future video prediction. However, iterative video denoising is costly, and inaccurate visual predictions can compromise action prediction. Our key idea is to make this predictive kn...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.04527</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Decode Before You Hear: Speculative Listening for Chunk-Interleaved Full-Duplex Speech Language Models</title>
-      <link>https://huggingface.co/papers/2611.06982</link>
-      <description>By Yutong Bian, Yanglin Zhang, Yuxiang Wang, Luoyuan Zhang, Rongshen He, et al.
-
-Chunk-interleaved full-duplex speech language models listen and speak in fixed time chunks, and each chunk must be processed before the next one arrives. Their workload is asymmetric across chunks: listen chunks leave compute idle while awaiting audio, and speak and tool-call chunks require serial g...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.06982</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing</title>
       <link>https://huggingface.co/papers/2611.06741</link>
       <description>By Ruikang Li, Zixuan Chen, Jiarui Wu, Mingde Yao, Yiyuan Zhang, et al.
@@ -280,15 +262,6 @@ Autoregressive decoding relies on the KV cache, whose memory footprint grows lin
       <pubDate>Wed, 04 Nov 2026 19:00:06 +0000</pubDate>
     </item>
     <item>
-      <title>SLA: Scaling Spatial-Language-Action Model via Continual Pre-training</title>
-      <link>https://huggingface.co/papers/2611.08373</link>
-      <description>By Fuhao Li, Wenxuan Song, Qizhou Huang, Ziyang Zhou, Jingbo Wang, et al.
-
-Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.08373</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space</title>
       <link>https://huggingface.co/papers/2609.37820</link>
       <description>By Marcus Gawronsky, Chun-Sung Huang
@@ -322,6 +295,15 @@ Agent harness evolution enables recursive self-improvement (RSI) without updatin
 
 How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a r...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.07461</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection</title>
+      <link>https://huggingface.co/papers/2611.08647</link>
+      <description>By Chris von Csefalvay, Pranav Doma, Achyuthan Unni Krishnan, Tamás Földi
+
+Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been n...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.08647</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -359,6 +341,15 @@ Protein motif scaffolding benchmarks assess whether generative models can build 
 Mixture-of-Experts (MoE) models route each token to a few of many experts, yet what an individual expert is responsible for remains unsettled. Existing analyses count how often an expert is selected on domain-labeled corpora, an instrument that fixes the taxonomy in advance, stays coarse, and record...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.08089</guid>
       <pubDate>Thu, 05 Nov 2026 14:35:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?</title>
+      <link>https://huggingface.co/papers/2611.08175</link>
+      <description>By Yue Zhang, Jilei Sun, Liqiang Jing, Yijie Wei, Ruohan Yang
+
+Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.08175</guid>
+      <pubDate>Thu, 05 Nov 2026 15:31:15 +0000</pubDate>
     </item>
     <item>
       <title>Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation</title>
@@ -448,6 +439,15 @@ Coding agents combine visual understanding with program execution, offering a ne
 
 Language model deployment often requires different trade-offs between competing objectives as user preferences change, yet standard post-training methods typically produce a single policy for a fixed objective weighting. We introduce LambdaMix, a new parameter efficient method for learning a prefere...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.09634</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse</title>
+      <link>https://huggingface.co/papers/2611.09891</link>
+      <description>By Peter Belcak, Greg Heinrich, Saurav Muralidharan, Shizhe Diao, Pavlo Molchanov
+
+Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.09891</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

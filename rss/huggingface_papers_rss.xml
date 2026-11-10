@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 16:55:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 22:15:16 +0000</lastBuildDate>
     <item>
       <title>AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations</title>
       <link>https://huggingface.co/papers/2610.36980</link>
@@ -109,24 +109,6 @@ Financial document recognition is often assessed using character and word error 
       <pubDate>Mon, 02 Nov 2026 08:51:01 +0000</pubDate>
     </item>
     <item>
-      <title>P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors</title>
-      <link>https://huggingface.co/papers/2611.03953</link>
-      <description>By Sinuo Wang, Jiacheng Lu, Zeyu Zhang, Maojia Song, Rui Sun, et al.
-
-Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single different...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03953</guid>
-      <pubDate>Mon, 02 Nov 2026 20:53:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Where to Connect? Boosting MLLMs via Dynamic Gated Pathways across ALL ViT and LLM Layers</title>
-      <link>https://huggingface.co/papers/2611.06844</link>
-      <description>By Yingying Yan, Jiaqi Tang, Wei Wei, Qianzhou Wang, Lei Zhang, et al.
-
-A central yet under-explored question in Multimodal Large Language Models (MLLMs) is where to connect---how visual information from a hierarchical vision encoder should be wired into the layer-wise semantics of a large language model. Mainstream MLLMs inject a fixed single-layer visual representatio...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.06844</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>FlyHash for LLM Agent Memory: An Empirical Validation and a New Application</title>
       <link>https://huggingface.co/papers/2611.05791</link>
       <description>By Mohan Bheemadolu, Chrisogonas O. Odhiambo
@@ -134,15 +116,6 @@ A central yet under-explored question in Multimodal Large Language Models (MLLMs
 Large language model (LLM) agents increasingly rely on external memory stores to retain information across conversations, typically via dense vector embeddings searched with approximate nearest-neighbor methods. The fruit fly's olfactory circuit computes a locality-sensitive hash of sensory input us...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.05791</guid>
       <pubDate>Wed, 04 Nov 2026 00:57:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis</title>
-      <link>https://huggingface.co/papers/2611.06856</link>
-      <description>By Haoxiang Cao, Yuxuan Zhang, Penghui Du, Bo Li, Jiajiong Cao, et al.
-
-We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relation...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.06856</guid>
-      <pubDate>Wed, 04 Nov 2026 18:11:56 +0000</pubDate>
     </item>
     <item>
       <title>LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time</title>
@@ -161,15 +134,6 @@ Autoregressive decoding relies on the KV cache, whose memory footprint grows lin
 Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been n...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.08647</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding</title>
-      <link>https://huggingface.co/papers/2611.07723</link>
-      <description>By Emile de Bruyn, Moritz Schäffler, Jannik Schneider, Sebastian R. Schmidt, Chanwoong Hwang, et al.
-
-Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues. Their conclusions depend on which motifs are tested and which criteria define success. Existing benchmarks typically use small hand-curated motif sets and static refoldin...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.07723</guid>
-      <pubDate>Thu, 05 Nov 2026 09:38:23 +0000</pubDate>
     </item>
     <item>
       <title>PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?</title>
@@ -197,24 +161,6 @@ On-Policy Self-Distillation (OPSD) improves reasoning by training a student on i
 Reinforcement learning (RL) has become a standard post-training method for diffusion models, but most RL objectives roll out the current policy at every iteration, and with a many-step sampler these rollouts typically dominate the cost of training. Few-step models cut this cost, yet they model an av...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.08240</guid>
       <pubDate>Thu, 05 Nov 2026 16:19:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes</title>
-      <link>https://huggingface.co/papers/2611.08264</link>
-      <description>By Hao Yu, Zhenwei Wang, Yongzhen Hu, Yuning Gong, Junta Wu, et al.
-
-We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary subs...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.08264</guid>
-      <pubDate>Thu, 05 Nov 2026 16:37:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>AutoCompress: Automated Hardware-Guided Model Compression</title>
-      <link>https://huggingface.co/papers/2611.08290</link>
-      <description>By Sheldon Liang, Ali Taghibakhshi, Saurav Muralidharan, Sharath Turuvekere Sreenivas, Ashwath Aithal, et al.
-
-LLM pruning must preserve quality while meeting hardware- and workload-specific constraints on latency, throughput, and memory. Existing pruning workflows often target parameter counts, requiring practitioners to manually select model sizes that meet latency, throughput, and GPU memory limits. Howev...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.08290</guid>
-      <pubDate>Thu, 05 Nov 2026 16:53:48 +0000</pubDate>
     </item>
     <item>
       <title>ReproBridge: Building Reproducibility into ML Research Artifacts</title>
@@ -289,6 +235,24 @@ Traditional similarity-based schema matching methods fail to resolve semantic am
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill</title>
+      <link>https://huggingface.co/papers/2611.09709</link>
+      <description>By Dylan Johnston, Robert P. Smith
+
+RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YOCO a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.09709</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>e-means: outperforming k-means (in one-tenth the epochs)</title>
+      <link>https://huggingface.co/papers/2611.09501</link>
+      <description>By Swann Bessa, Pierre-Emmanuel Mazaré, Gergely Szilvasy, Hugo Touvron, David Picard, et al.
+
+Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by modern deep learning ma...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.09501</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals</title>
       <link>https://huggingface.co/papers/2611.08969</link>
       <description>By Yanlong Chen, Simone Benatti, Luca Benini, Cuntai Guan, Yawei Li
@@ -340,6 +304,24 @@ Learning accurate off-policy state-action value functions (Q-functions) from off
 
 Denoising and score estimation are classically linked through Tweedie's formula, which relates the posterior mean under Gaussian noise to the Stein score of the noisy marginal. In this work, we extend this perspective beyond Gaussian noise to a broad class of Gibbs (energy-based) noise distributions...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2512.23818</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>onóna: Twin Embeddings with Tied Unembeddings</title>
+      <link>https://huggingface.co/papers/2611.10556</link>
+      <description>By Cheng Luo, Xinnan Dai, Zhongzhu Zhou, Zefan Cai, Ruijie Zhu, et al.
+
+Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softmax. We introduce onóna, a two-table parameterization that increases output expressiveness while preserving input-output weight sharing. The Transformer takes the average of two embe...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.10556</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification</title>
+      <link>https://huggingface.co/papers/2611.10592</link>
+      <description>By Jiaju Ma, Ashvini Kumar Jindal, Chuhua Wang, Sumithra Bhakthavatsalam
+
+Large language models can generate motion graphics from static images and natural language requests, but it remains difficult to evaluate how well models can follow requests that combine spatial, appearance, and temporal requirements. We introduce MotionGraphicsBench, an expert-curated benchmark of ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.10592</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ World action models jointly predict video and actions conditioned on language. E
 
 Despite impressive progress, existing feed-forward large 3D reconstruction models produce a single, irrevocable prediction. When these models fail, there is no mechanism to correct their mistakes. To address this limitation, we introduce Click3R, a framework for interactive geometric correction of f...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.12875</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creative Priming: Decoupling Process from Product to Escape the Creative Paradox</title>
+      <link>https://huggingface.co/papers/2611.11740</link>
+      <description>By Alon Albalak, Sebastian Gabriel, David B. D&amp;#39;Ambrosio, Joel Lehman, Kenneth O. Stanley
+
+Many of the most consequential advances promised by AI, from curing diseases and inventing new technologies to formulating new scientific theories, are fundamentally creative acts. Yet creativity is uniquely difficult to learn because it faces a creative paradox: learning to repeat past examples of ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.11740</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FraudBench: A Legal Evaluation of AI Deception</title>
+      <link>https://huggingface.co/papers/2611.12167</link>
+      <description>By Kevin Wei, Sumaya Nur Adan, Stephan Llerena, Mark Gitau, Jakob Merane, et al.
+
+We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.12167</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

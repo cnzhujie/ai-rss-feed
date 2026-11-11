@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 22:15:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 02:39:30 +0000</lastBuildDate>
     <item>
       <title>AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations</title>
       <link>https://huggingface.co/papers/2610.36980</link>
@@ -44,24 +44,6 @@ Residual connections underpin Transformers, but they implicitly tie the residual
 Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.42148</guid>
       <pubDate>Fri, 30 Oct 2026 17:59:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learning to evolve by matching velocities</title>
-      <link>https://huggingface.co/papers/2611.00448</link>
-      <description>By Nicola Farenga, Andrea Manzoni
-
-Learning the continuous-time evolution of nonlinear dynamical systems relies on trajectory-based objectives, which require simulating the learned dynamics during training and backpropagating through the numerical scheme, at a cost that grows with the rollout horizon. We show that trajectory-based ob...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.00448</guid>
-      <pubDate>Fri, 30 Oct 2026 23:03:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fast and Exact Relative-Position Attention via Structure-Aware Kernels</title>
-      <link>https://huggingface.co/papers/2611.01182</link>
-      <description>By Delyan Boychev, Ivo Petrov, Dimitar I. Dimitrov
-
-Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in domains such as audio. These mechanisms typically modify attention scores by adding content-position or bias-position terms. Unlike RoPE, which en...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.01182</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation</title>
@@ -107,6 +89,15 @@ Vision Transformers (ViTs) perform strongly in face recognition (FR), yet their 
 Financial document recognition is often assessed using character and word error rates, although these metrics do not express whether a system preserves the financial facts on which people and organisations act. This paper develops a human-centred, risk-constrained framework for evaluating financial ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.02775</guid>
       <pubDate>Mon, 02 Nov 2026 08:51:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modality-Aware Expert Pruning for MoE-Based Multimodal Large Language Models</title>
+      <link>https://huggingface.co/papers/2611.05927</link>
+      <description>By Donggeun Kim
+
+Mixture-of-Experts (MoE) enables multimodal large language models (MLLMs) to scale capacity efficiently, but expert parameters dominate memory even though only a few experts are activated per token: they account for over 90% of model size in modern MoE-MLLMs (e.g., 54 GB out of about 58 GB in BF16 f...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.05927</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>FlyHash for LLM Agent Memory: An Empirical Validation and a New Application</title>
@@ -260,15 +251,6 @@ Lloyd's k-means algorithm is a long-running standard for clustering, with applic
 We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale folding recombines J+1 wavelet subbands prior to tokenization, compressing sequence length from (J+1)CS to CS tokens for J levels, C channels, and S temporal patches. Route-specific front...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.08969</guid>
       <pubDate>Fri, 06 Nov 2026 04:30:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use</title>
-      <link>https://huggingface.co/papers/2611.09113</link>
-      <description>By Chuxue Cao, Jingru Zeng, Boqin Yin, Yujin Zhou, Yidan Huang, et al.
-
-LLM agents can exceed their authorization boundaries while pursuing user goals without an adversary. We formalize this phenomenon as authorization drift across data, tool, scope, and time, and introduce the Authorization Drift Benchmark (ADB): 648 samples across seven domains, each pairing a suffici...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.09113</guid>
-      <pubDate>Fri, 06 Nov 2026 07:47:25 +0000</pubDate>
     </item>
     <item>
       <title>InstantHMR : Real-Time Human Mesh Recovery on Your Phone</title>
@@ -457,6 +439,24 @@ Many of the most consequential advances promised by AI, from curing diseases and
 
 We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.12167</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization</title>
+      <link>https://huggingface.co/papers/2611.11995</link>
+      <description>By Zhengyu Hu, Zheyuan Xiao, Yike Wang, Hamish Ivison, Haoyu Wang, et al.
+
+In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budget...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.11995</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving</title>
+      <link>https://huggingface.co/papers/2611.11994</link>
+      <description>By Fenghai Li, Bingxuan Li, Jiawen Zhang, Yifan Shen, Jiateng Liu, et al.
+
+Small multimodal models can misjudge emotion when words, voice, and visual cues conflict. We present EmoHarness, which runs such a model, the frozen student, inside a harness: the prompts, settings, and verification code around its calls. A human-written starting harness, the scaffold, numbers the s...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.11994</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

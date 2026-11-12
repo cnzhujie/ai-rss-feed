@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 09:36:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 18:03:39 +0000</lastBuildDate>
     <item>
       <title>DyCraft: An Agentic System for Long-Horizon 4D Scene Generation</title>
       <link>https://huggingface.co/papers/2610.40754</link>
@@ -64,21 +64,21 @@ A scientific agent can give the same verdict while reading and citing different 
       <pubDate>Sun, 01 Nov 2026 03:58:26 +0000</pubDate>
     </item>
     <item>
-      <title>DepthGraft: Structural Regularization through Hierarchical Cross-Layer KV Reconstruction</title>
-      <link>https://huggingface.co/papers/2611.03142</link>
-      <description>By Xiaohan Qin, Xiangdong Zhang, Yu Wang, Huaijin Wu, Zhuo Xia, et al.
-
-Scaling depth is a key route to stronger large language models, but Pre-LN architectures often suffer from depth-wise information dilution, limiting the effective use of deep layers. While cross-layer connectivity has proven effective at mitigating this problem, existing designs usually introduce ad...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.03142</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Micius-Flash: Lightweight Agentic Intelligence for Engineering</title>
       <link>https://huggingface.co/papers/2611.10015</link>
       <description>By Hongcheng Gao, Weiheng Li, Yipeng Wei, Yu Lei, Shuo Sun, et al.
 
 We introduce Micius-Flash, a 27-billion-parameter model for engineering with native multimodal input, deep reasoning and a 256K-token context window. We design the Micius data pipeline as a knowledge-tree-driven data flywheel comprising three stages: knowledge tree construction and expansion, data s...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.10015</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines</title>
+      <link>https://huggingface.co/papers/2611.05862</link>
+      <description>By Yuqin Dai, Zhanwei Zhang, Honghui Yang, Zhouheng Yao, Yueqi Zhang, et al.
+
+Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable evaluation faces Data scarcity and Difficulty Standardizing Criteria. To address these obstacles, we introduce CARTBench for CART (Complex and Ambiguous Requests with Timelines). For ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.05862</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -172,15 +172,6 @@ Generation, imputation, and prediction query different aspects of the same tabul
       <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>dNaViT: Discrete Codes are General-Purpose Visual Representations</title>
-      <link>https://huggingface.co/papers/2611.12426</link>
-      <description>By Xiaotong Li, Zhengrong Yue, Xu Huang, Jialv Zou, Minhao Jing, et al.
-
-Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work inve...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.12426</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>ProTEUS: A mutation-resolved world model for closed-loop protein evolution</title>
       <link>https://huggingface.co/papers/2611.13348</link>
       <description>By Yikun Zhang, Minghao Guo, Guangxue Xu, Peter Yichen Chen, Wojciech Matusik, et al.
@@ -235,6 +226,15 @@ AAA games offer a rich testbed for evaluating agent perception, reasoning, and c
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Evolving Infra: Agent-Adaptive LLM Serving at Scale</title>
+      <link>https://huggingface.co/papers/2611.12304</link>
+      <description>By Hao Kang, Weili Xu, Ziyang Li, Zheng Du, Hanchen Li, et al.
+
+Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.12304</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Learning to Act with World Models by Valuing What Comes Next</title>
       <link>https://huggingface.co/papers/2611.12200</link>
       <description>By Chenghao Gao, Zhi Zhang, Dian Jin, Yihe Pan, Doudou Zhou
@@ -260,24 +260,6 @@ This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform 
 The Platonic Representation Hypothesis (PRH) suggests that neural networks are converging toward similar representation spaces. As language models become more capable, their representations are aligning with those of vision models. However, recent work has questioned whether this trend continues to ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.12869</guid>
       <pubDate>Mon, 09 Nov 2026 18:53:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>ExRL: Sample-Efficient Online Adaptation of Long-Chunk Policies via Execution Length Control</title>
-      <link>https://huggingface.co/papers/2611.13482</link>
-      <description>By Xu Luo, Jiaying Yang, Hao Wu, Junlin Xie, Zijin Hong, et al.
-
-Predicting long action chunks, often spanning dozens of timesteps, has become a key ingredient in increasingly capable robot policies. In this paper, we find that adapting these long-chunk policies with existing reinforcement learning (RL) methods can require many online samples due to the high dime...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.13482</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies</title>
-      <link>https://huggingface.co/papers/2611.14488</link>
-      <description>By Chubin Zhang, Bo An
-
-Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.14488</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight</title>
@@ -457,6 +439,24 @@ Local language models can save memory by storing weights in fewer bits, and they
 
 Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two marg...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.14418</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control</title>
+      <link>https://huggingface.co/papers/2611.13766</link>
+      <description>By Santosh Mohan Rajkumar, Debdipta Goswami, Stephanie Stockar
+
+We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution config...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.13766</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping</title>
+      <link>https://huggingface.co/papers/2611.11306</link>
+      <description>By Joseph Marvin Imperial, Daniel Slate, Noam Kolt
+
+AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws. In this paper, we introduce ScrapeBench, the first agentic benchmark for empirically evaluating the legal compliance of AI agents with website...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.11306</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

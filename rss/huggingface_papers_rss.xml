@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 22:27:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 02:59:10 +0000</lastBuildDate>
     <item>
       <title>Scaling Mathematical Proof Supervision from Structured Textbooks</title>
       <link>https://huggingface.co/papers/2610.40394</link>
@@ -17,24 +17,6 @@
 Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,11...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2610.40394</guid>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WMIP: A Working-Memory-Inspired Programmable Probe of Cumulative State Tracking in Large Language Models</title>
-      <link>https://huggingface.co/papers/2603.27343</link>
-      <description>By Dengzhe Hou, Lingyu Jiang, Deng Li, Zirui Li, Fangzhou Lin, et al.
-
-Human working memory lets people maintain and update information. Large language models (LLMs) face a related demand when tracking updates within a single prompt without writing out intermediate states, yet existing tests differ in their constraints on written steps. We introduce a working-memory-in...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2603.27343</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models</title>
-      <link>https://huggingface.co/papers/2607.24999</link>
-      <description>By Dengzhe Hou, Lingyu Jiang, Fangzhou Lin, Kazunori D Yamada
-
-Human cognitive tasks let us compare language models with humans under controlled conditions. Yet a model can reproduce the direction of a human effect while making different errors. CogBattery evaluates 54 open-weight language models on text adaptations of 13 cognitive paradigms, comparing each wit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2607.24999</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers</title>
@@ -127,15 +109,6 @@ Self-improving embodied agents are increasingly being developed and compared on 
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference</title>
-      <link>https://huggingface.co/papers/2611.10193</link>
-      <description>By Saul Urso, Emanuele Carlini, Patrizio Dazzi, Matteo Mordacchini
-
-Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per prompt, while fixed ensembles cannot adapt their composition and cost to individual requests. We introd...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.10193</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates</title>
       <link>https://huggingface.co/papers/2611.09567</link>
       <description>By Jarno Platenburg, Armand Kassaï Koupaï, Paola Cinnella, Patrick Gallinari
@@ -151,6 +124,15 @@ Machine-learning surrogates are increasingly used to accelerate computational fl
 
 Web-facing AI agents repeatedly access webpages, documents, repositories, and tool responses, yet reading interfaces often expose entire objects when only sparse evidence is needed. This over-reading increases token and latency costs and can dilute relevant evidence. We present SparseRead, a reusabl...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2608.22237</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction</title>
+      <link>https://huggingface.co/papers/2611.10439</link>
+      <description>By Yunzhe Wang, Mesut Erhan Unal, Sheng Zhang, Shabnam Ghadar, Peng Tang
+
+Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding wh...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.10439</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +439,24 @@ Existing adaptive-reasoning methods shorten the explicit reasoning a model write
 
 Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.17190</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Back to Pixels: Lifting Latent Video Diffusion into Pixel Space</title>
+      <link>https://huggingface.co/papers/2611.17336</link>
+      <description>By Yanke Song, Shuo Chen, Chris Rockwell, Guande He, Nan Liu, et al.
+
+Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of fr...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.17336</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming</title>
+      <link>https://huggingface.co/papers/2611.16728</link>
+      <description>By Yaru Niu, Binghong Chen, Changwei Yao, Shangtao Li, Zhenlong Fang, et al.
+
+Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces make it difficult to learn effectively from their combined demonstrations. We introduce EgoX, an egocentric...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.16728</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

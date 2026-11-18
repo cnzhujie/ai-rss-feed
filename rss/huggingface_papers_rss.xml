@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 21:42:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 03:32:55 +0000</lastBuildDate>
     <item>
       <title>UMM-JEPA: Generative Pretraining via Masked Next-Scale Representation Prediction for Unified Multimodal Models</title>
       <link>https://huggingface.co/papers/2611.18668</link>
@@ -17,6 +17,15 @@
 Unified multimodal models can support both visual understanding and generation, yet generative training does not necessarily improve understanding. We argue that this limitation may arise from a mismatch between the representation targeted by generation and the perceptual representation used for und...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.18668</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior</title>
+      <link>https://huggingface.co/papers/2611.04395</link>
+      <description>By Renee Jia, Jinzhou Wu
+
+Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label. We ask whether a model learns to rely on this metadata even when every training label is correct. We fine-tune 7-9B open-weight models from three families on multiple-choice quest...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.04395</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection</title>
@@ -55,13 +64,13 @@ Looping is a powerful inductive bias for reasoning. By repeatedly iterating a re
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game</title>
-      <link>https://huggingface.co/papers/2611.14487</link>
-      <description>By Muhan Gao, Hangxiao Zhu, Xinqi Su, Yu Zhang, Daniel Khashabi, et al.
+      <title>Inside the Trading Loop: Markets, Models, and Moves with LLM Agents</title>
+      <link>https://huggingface.co/papers/2611.11657</link>
+      <description>By Renee Jia, Di Mu, Yao Yu, Tianrui Liu
 
-Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.14487</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+We built a hybrid multi-agent trading system that combines large language model (LLM) analysts with momentum-based portfolio construction and rule-based execution. Company-news and macroeconomic agents return structured reports to a coordinator that sets stock weights and cash reserves. We evaluate ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.11657</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos</title>
@@ -71,15 +80,6 @@ Research ideation is iterative: researchers refine their ideas step by step base
 In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision. Building on a pretrained VLM, we propose Shared Prediction on Action and Representation (SPAR), an MoT architecture in which future visual state prediction can provide independent ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.13685</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation</title>
-      <link>https://huggingface.co/papers/2611.15640</link>
-      <description>By Zhenqi He, Dunyuan Xu, Yang Bo, Kien T. Pham, Yanghao Wang, et al.
-
-Streaming video understanding aims to continuously process incoming visual observations, making the retention and retrieval of relevant information increasingly important as the video history grows. Although existing benchmarks include memory-related questions, question-answering accuracy alone does...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.15640</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Iris-Z: Scaling One Generative Model Past Specialist Geometry Models</title>
@@ -100,49 +100,13 @@ Coding agents can solve a task well before they stop working on it. We character
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing</title>
-      <link>https://huggingface.co/papers/2611.17169</link>
-      <description>By Umar Ahmed, Maxim Dunaev, Mohammad Nour Al Awad, Sergey Ivanov, Ivan Khodnenko
+      <title>Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose</title>
+      <link>https://huggingface.co/papers/2611.15348</link>
+      <description>By Ivan Poddiakov, Ivan Kruzhilov, Galina Zubkova, Svetlana Erofeeva, Andrey Savchenko, et al.
 
-A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) w...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17169</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alloy: A Multi-Material Physics Engine for Robot Learning</title>
-      <link>https://huggingface.co/papers/2611.16312</link>
-      <description>By Pranay Gupta, Deepanshu Rohilla
-
-Robots handle much more than rigid objects: towels, cables, water, sand. The simulators used to train robots at scale are strongest on rigid bodies, and adding another material usually means a second engine and hand-written glue between the two. We present Alloy, an open-source physics engine for ro...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.16312</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EvenVLM: A Text and Multimodal Dataset for the Even Language with Vision-Language Fine-Tuning</title>
-      <link>https://huggingface.co/papers/2611.16500</link>
-      <description>By Daniil Makovetskii, Ivan Bondarenko
-
-We present EvenVLM, the first text and multimodal (VQA) dataset for Even (Lamut), an endangered Northern Tungusic language spoken by approximately 6,800 people in Siberia. Our dataset comprises 50,521 structured Even-Russian entries extracted from dictionary and phrasebook sources via GPT-4o Mini-ba...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.16500</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dual Flow: Joint Image-Measurement Interpolation for Inverse Problems</title>
-      <link>https://huggingface.co/papers/2611.05843</link>
-      <description>By Sevket Ege Yesilyurt, Figen S. Oktem
-
-Generative model-based approaches to linear inverse problems typically use the acquired noisy measurement to condition or guide sampling in the image domain. In this work, we introduce Dual Flow, a novel joint-flow model for solving linear inverse problems by jointly estimating the clean image and c...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.05843</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BrickFlow: Connectivity-Guided Brick Reconstruction</title>
-      <link>https://huggingface.co/papers/2611.17321</link>
-      <description>By Peter Kulits, Cordelia Schmid
-
-Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the problem combinatorial a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17321</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analysis. However, progress in the field is hindered by the lack of systematic benchmarks that compare machine learning methods under realistic conditions, particularly sensor drift, a k...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.15348</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination</title>
@@ -170,24 +134,6 @@ The task of dataset distillation concerns the learning of a small set of synthet
 When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass audit that holds the question, the evidence, and the model's initial answer fixed ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.16694</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent</title>
-      <link>https://huggingface.co/papers/2611.17780</link>
-      <description>By Ibrahim Memon, Armin Karamzade, M. Hanif Jhaveri, Roy Fox
-
-Frontier LLM agents that query databases with tools are among the most accurate text-to-SQL systems, but per-query calls to a hosted model are slow, costly, and expose sensitive organizational queries to external APIs. For example, a Claude Opus 5.5 agent serving 10,000 queries a day costs over $70,...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17780</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Restoring Diversity in Distilled Image and Video Generators by Probing Activations</title>
-      <link>https://huggingface.co/papers/2611.18550</link>
-      <description>By Furkan Horoz, Ozgur Kara, Kaan Oktay, Adil Kaan Akan, Atakan Kara, et al.
-
-Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing the internal representa...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.18550</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>PaperCritic: Training AI Reviewers to Assess the Soundness of Papers</title>
@@ -262,6 +208,15 @@ Coding agents can synthesize and optimize code-based policies from simulator fee
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>ResWAM: Learning What Changes, Not What Stays, for World-Action Models</title>
+      <link>https://huggingface.co/papers/2611.19559</link>
+      <description>By Chongyu Fan, Gaowen Liu, Ramana Rao Kompella, Jason Corso, Sijia Liu
+
+World-action models (WAMs) augment vision-language-action policies (VLAs) with future prediction so that the policy can anticipate how its actions will affect the physical world. Existing WAMs supervise complete future observations. However, observations typically change little over an action chunk,...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.19559</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>VoxMel TTS Technical Report</title>
       <link>https://huggingface.co/papers/2611.20254</link>
       <description>By Wenhao Guan, Jiaxin Ye, Haitao Li, Yifan Duan, Junxi Liu, et al.
@@ -331,6 +286,15 @@ Embodied foundation models hinge on diverse robot interaction data, which are co
 
 Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space. Two challenges remain: 2D images leave the metric geometry that manipulation acts on implicit and entangled with appearance, and what these models imagine stays hidden, a...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.19771</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-Branch Transformer</title>
+      <link>https://huggingface.co/papers/2611.19800</link>
+      <description>By Gaotang Li, Lingjie Chen, Chunyuan Deng, Zhiwei Xu, Hongzheng Chen, et al.
+
+Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shar...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.19800</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -458,6 +422,42 @@ LLM agents answer questions by calling APIs and trusting the results. An API can
 High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on fast, anisotropic 2D acquisitions, particularly in resource-constrained settings. These acquisitions may differ in orientation, alignment and anatomical coverage, resulting in partia...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.21412</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment</title>
+      <link>https://huggingface.co/papers/2611.20441</link>
+      <description>By Koki Itai, Jun Hirako, Hiroaki Yamagiwa
+
+Abstention, the withholding of a response by a large language model (LLM) under uncertainty or safety risks, is essential for trustworthy models. The causes of abstention fall into three perspectives: ambiguity in the Query (Q), limits of Model Knowledge (MK), and misalignment with Human Values (HV)...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20441</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models</title>
+      <link>https://huggingface.co/papers/2611.21099</link>
+      <description>By Ke Sun, Kevin Yuchen Ma, Yike Zhang, Yanzhe Chen, Mike Zheng Shou
+
+Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21099</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding</title>
+      <link>https://huggingface.co/papers/2611.20992</link>
+      <description>By Fan Zhang, Hao Wu, Jinyang Wu, Hongyu Qu, Zheng Lian, et al.
+
+Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasoning and answer tokens. These unnecessary tokens make the inference cost scale with the response length and force the answer to be parsed from free-form text, incurring avoidable laten...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20992</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weight-Space Programming Doesn't Need Transformers</title>
+      <link>https://huggingface.co/papers/2611.22055</link>
+      <description>By Hyunjong Ok, Jaeho Lee
+
+Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we k...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.22055</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

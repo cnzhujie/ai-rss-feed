@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:53:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 21:16:37 +0000</lastBuildDate>
     <item>
       <title>Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior</title>
       <link>https://huggingface.co/papers/2611.04395</link>
@@ -17,15 +17,6 @@
 Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label. We ask whether a model learns to rely on this metadata even when every training label is correct. We fine-tune 7-9B open-weight models from three families on multiple-choice quest...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.04395</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zuse: A Decision Model for European Languages</title>
-      <link>https://huggingface.co/papers/2611.06238</link>
-      <description>By Umair Mehmood Imam
-
-Decision models read a document and return a probability for each of a fixed set of options instead of generating text. Several appeared in 2026, but none has published results outside English. We describe Zuse, three decision models (4B, 9B and 27B) that train a low-rank adapter and a pointer head ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.06238</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design</title>
@@ -100,15 +91,6 @@ A quantized model is usually judged by comparing it with its BF16 original, but 
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Dataset Distillation via Drifting</title>
-      <link>https://huggingface.co/papers/2611.16642</link>
-      <description>By George Cazenavette, Angelina Quan, Giannis Daras, Antonio Torralba, Vincent Sitzmann
-
-The task of dataset distillation concerns the learning of a small set of synthetic samples that can serve as an effective replacement for a large real dataset when used for downstream tasks. While many solutions have been proposed since the problem's inception, most of them primarily seek to optimiz...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.16642</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision</title>
       <link>https://huggingface.co/papers/2611.16694</link>
       <description>By Yupeng Tang, Mingfeng Lin
@@ -116,24 +98,6 @@ The task of dataset distillation concerns the learning of a small set of synthet
 When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass audit that holds the question, the evidence, and the model's initial answer fixed ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.16694</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination</title>
-      <link>https://huggingface.co/papers/2611.17933</link>
-      <description>By Jie Huang, Yuecheng Hong, Yao Chen, Shengding Jiao, Xudong Liu, et al.
-
-In many long-horizon settings, an agent's own choices create future constraints: committing finite capacity establishes future obligations and forecloses later opportunities. Sustaining performance therefore requires both keeping evolving plans feasible and comparing the value of resource allocation...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17933</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Correcting Persistent Failures in Point-Cloud Grasping Policies using Human Demonstrations in Virtual Reality</title>
-      <link>https://huggingface.co/papers/2611.18919</link>
-      <description>By Achyuthan Unni Krishnan, Karthik Rengarajan, Bharath Narasimhan, Chris von Csefalvay
-
-Robots in homes, warehouses and farms must pick up objects they have never seen, usually without a 3D model or a category label. A grasping policy that works directly on the point cloud from a depth sensor needs only the geometry the robot observes, so it applies to any new object. Offline grasp gen...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.18919</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>GPBam: A Retrieval-Aware German Public Law Exam Benchmark</title>
@@ -181,6 +145,15 @@ Kernel optimization is essential for efficient large language model (LLM) traini
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>WeightBench: Evaluating Language Models as Weight-Space Programmers</title>
+      <link>https://huggingface.co/papers/2611.18553</link>
+      <description>By Aayush Marasini, Barsat Khadka, Nick Rahimi
+
+Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.18553</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>ResWAM: Learning What Changes, Not What Stays, for World-Action Models</title>
       <link>https://huggingface.co/papers/2611.19559</link>
       <description>By Chongyu Fan, Gaowen Liu, Ramana Rao Kompella, Jason Corso, Sijia Liu
@@ -197,15 +170,6 @@ World-action models (WAMs) augment vision-language-action policies (VLAs) with f
 On-policy distillation (OPD) transfers specialized capabilities to language-model agents, but its cross-domain effects on interaction remain unclear. We investigate how OPD reshapes ReAct interaction patterns across mathematics, ALFWorld, and τ^2-bench, focusing on reasoning, actions, and observatio...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.19244</guid>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models</title>
-      <link>https://huggingface.co/papers/2611.17110</link>
-      <description>By Jiachun Jin, Zetong Zhou, Haonan Wang, Zhijie Deng
-
-Embodied foundation models hinge on diverse robot interaction data, which are costly to collect. Egocentric human videos offer a complementary source of experience, and latent action models (LAMs) provide a popular means of leveraging these videos for policy supervision. Compared with world-action m...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.17110</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>JEPA4R: Embodied JEPA World Models with 4D Point Planning</title>
@@ -244,31 +208,22 @@ Driving world models usually generate videos from six pinhole cameras with separ
       <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Sage S2.1 Flash Technical Report</title>
-      <link>https://huggingface.co/papers/2611.21072</link>
-      <description>By Kun Cai, Haodong Chen, Guangran Cheng, Qingxiu Cheng, Xu Dai, et al.
+      <title>Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark</title>
+      <link>https://huggingface.co/papers/2611.20321</link>
+      <description>By Nikolay Dolgov
 
-We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.21072</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+Vision-based navigation systems for orbit must be trained almost entirely on synthetic imagery, because real labelled images of a given spacecraft in flight rarely exist. Benchmarks like SPEED+ are built for that situation: the training set comes from a simulator, and the test sets are real images o...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20321</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A Reinforcement Learning Method to Navigate SMEFT Operator Space</title>
-      <link>https://huggingface.co/papers/2611.21439</link>
-      <description>By Jacky Kumar
+      <title>The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)</title>
+      <link>https://huggingface.co/papers/2611.20003</link>
+      <description>By Bahaeddin Türkoğlu
 
-In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly interpreted within new theoretical models. In this context, the Standard Model Effective Field Theory (SMEFT) provides a general framework encompassing a broad class of models. Howev...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.21439</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LynnReal-Hand: Unlocking World Interaction with Hand Control</title>
-      <link>https://huggingface.co/papers/2611.21479</link>
-      <description>By Shaohao Rui, Chaoyang Zhang, Xiaofeng Mao, Weijie Ma
-
-Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dyn...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.21479</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and many of them arrive with a technical report that presents the model as new. What is actually new in these models, and is it tested? We put this question to LLM technical reports. W...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.20003</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization</title>
@@ -358,6 +313,24 @@ Formal specifications define intended program behavior and underpin verification
 
 Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs. Evaluation across artifact families helps distinguish broadly applicable authoring capabilities from strengths confined to a particular medium. We introduce Visual...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.21382</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning</title>
+      <link>https://huggingface.co/papers/2611.21938</link>
+      <description>By Javad Amirian, Armin Kiani, Loïc Schaeffer, Tim Sprecher, Mohamed Taha, et al.
+
+Robot policies trained by imitation generalize poorly outside the environments and objects seen in training. Published data-scaling studies find that generalization grows with the diversity of training environments and objects rather than with more demonstrations per environment. Robot data is costl...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21938</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DNeo: Your Parallel Draft Model Needs Better Target Feature Encoding</title>
+      <link>https://huggingface.co/papers/2611.21925</link>
+      <description>By Jameson Sandler, Shane Bergsma, Mostafa Elhoushi, Bin Claire Zhang, Gavia Gray, et al.
+
+Speculative-diffusion decoding uses a small parallel drafter model to generate b draft tokens in one forward pass, which then undergo parallel verification via a larger target model. Faster inference can be achieved when multiple draft tokens pass verification simultaneously. Recent parallel draft a...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.21925</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +430,33 @@ Hyper-Connections (HC) expand the residual stream of a Transformer into N parall
 
 Multi-Teacher On-Policy Distillation (MOPD) enables a single student to absorb the skills of several domain teachers by learning from its own generated responses. We present Multimodal Model Multi-Teacher On-Policy Distillation Reasoner (M3OPD-Reasoner), a fully open recipe for post-training vision-...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.23034</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MillBill: A Machining Agent with Geometric Feedback</title>
+      <link>https://huggingface.co/papers/2611.22565</link>
+      <description>By Gennadii Savrasov, Artem Slavin, Soslan Kabisov, Andrey Kuznetsov, Anton Konushin, et al.
+
+Turning a CAD model into a machining program requires both process knowledge and geometric precision. Language models can generate such workflows by writing geometry and toolpath code for each part, but this makes numerical execution part of the model's task. We introduce MillBill, an agent that sep...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.22565</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CADMAGEDDON: High-Fidelity CAD Reconstruction with Local Inference</title>
+      <link>https://huggingface.co/papers/2611.22563</link>
+      <description>By Oleg Pavlov, Nikita Gavrilov, Soslan Kabisov, Gennadii Savrasov, Andrey Kuznetsov, et al.
+
+CAD practitioners often work with proprietary parts that they are unwilling to share with external services. For individuals and small companies, bringing this work in-house also requires computational resources they can afford. We introduce CADMAGEDDON, an open-source agent that reconstructs editab...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.22563</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GameRealm: Grounding Visual Learning in Interactive Games</title>
+      <link>https://huggingface.co/papers/2611.23140</link>
+      <description>By Weiguang Zhao, Yifan Wang, Ni Yang, Yating Wang, Xingyu Miao, et al.
+
+Visual foundation models are central to physical intelligence, yet their development remains constrained by fragmented training datasets, inconsistent annotation quality, and limited multimodal supervision. To address these challenges, we introduce GameRealm, a large-scale, richly annotated dataset ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.23140</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

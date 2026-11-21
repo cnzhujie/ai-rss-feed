@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 19:54:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 01:17:20 +0000</lastBuildDate>
     <item>
       <title>How Far Can Untrained Neural Networks Go in Anomaly Detection? From Tables to Pixels</title>
       <link>https://huggingface.co/papers/2611.08136</link>
@@ -17,6 +17,15 @@
 Anomaly detection (AD) is often framed as a representation-learning problem, where strong performance is expected to require learned features or AD-specific optimization. However, this view can overlook the intrinsic separability of anomalies from normal references, even in the absence of learned re...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.08136</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lang-SVG: Hierarchical Image Vectorization with Language Priors</title>
+      <link>https://huggingface.co/papers/2611.15941</link>
+      <description>By Xi Liu, Chaoyi Zhou, Run Wang, Jiaang Li, Feng Luo, et al.
+
+Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lack alignment with hum...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.15941</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Unfinished-Bench: Measuring Rule Violations by Persistent Agents in Realistic Work Environments</title>
@@ -107,24 +116,6 @@ Language models are trained once, frozen and deployed: improving one again takes
 Our aim is to accelerate autoregressive vision-language-action models (VLAs), which generate robot actions one token at a time. Speculative decoding makes this possible: a lightweight draft model proposes several tokens at once, and the VLA verifies them in a single pass, accepting only those that m...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.22666</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts</title>
-      <link>https://huggingface.co/papers/2611.24059</link>
-      <description>By Zhenrui Yue, Gongxiaohui Chen, Huimin Zeng, Honglei Zhuang, Jiashuo Sun, et al.
-
-Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment again, an expert scores...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.24059</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>General progress substitutes for specific training data in language models</title>
-      <link>https://huggingface.co/papers/2611.24844</link>
-      <description>By Mark Marosi, Peter Antal
-
-Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general p...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.24844</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>NarrowSpec: Draft Hidden Width Need Not Match the Target in Speculative Decoding</title>
@@ -457,6 +448,15 @@ An assistant monitoring a person performing a procedure is most useful when it c
 
 Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.26627</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PAD: Policy-Aware Data Valuation for Autonomous Driving</title>
+      <link>https://huggingface.co/papers/2611.25604</link>
+      <description>By Chengkai Xu, Yicheng Guo, Jiaqi Liu, Yiming Cui, Shiyu Fang, et al.
+
+End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another. Existing curation...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.25604</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

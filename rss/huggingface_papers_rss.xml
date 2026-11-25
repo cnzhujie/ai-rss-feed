@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 12:29:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 22:19:00 +0000</lastBuildDate>
     <item>
       <title>RECAP: Training Long-horizon LLM Agents with Context Compaction</title>
       <link>https://huggingface.co/papers/2611.31258</link>
@@ -17,15 +17,6 @@
 Context compaction enables large language model agents to tackle long-horizon tasks within limited context budgets by replacing interaction histories with compressed summaries. However, learning effective compaction jointly with the agent policy remains challenging, as summaries affect task success ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.31258</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LoopedWAM: Looped World Action Models for Elastic Inference</title>
-      <link>https://huggingface.co/papers/2611.25595</link>
-      <description>By Anh Dao, Xinxin Liu, Hang Yu, Jeffrey A Chan Santiago, Yuzhang Shang
-
-World action models (WAMs) couple generative video modeling with robotic action prediction but typically require large video and action transformers, limiting deployment efficiency. We present LoopedWAM, a compact WAM that recurrently applies a shared six-block core in each expert, executing 30 tran...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.25595</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Antom 3-in-1 Transformer: A Payment Foundation Model</title>
@@ -55,22 +46,31 @@ As medical AI is increasingly used for patient consultation and clinical decisio
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>EvoViM: Recursively Self-Evolving Visual Agents for Exploration with Deferred Queries</title>
-      <link>https://huggingface.co/papers/2611.28574</link>
-      <description>By Xinyu Cao, Tianjie Ju, Zhuosheng Zhang
+      <title>Point Dynamics as Proxy for Robotic World Models</title>
+      <link>https://huggingface.co/papers/2611.25946</link>
+      <description>By Dong An, Tianyu Liu, Haoran Ding, Wen Yang, Anqing Duan, et al.
 
-Multimodal large language model (MLLM) agents have shown promising capabilities in task-oriented environments. However, they still struggle when queries are deferred until after exploration, requiring them to retain visual evidence before knowing which details will matter. We introduce EvoViM, a rec...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.28574</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+Robotic world models predict future video frames from the current observation and a sequence of robot actions. While recent models follow the given actions closely, manipulated objects often collapse or move inconsistently with the action. We attribute this to the conditioning: an action, or a rende...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.25946</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence</title>
-      <link>https://huggingface.co/papers/2611.28649</link>
-      <description>By Muxin Fu, Peike Yu, Guibin Zhang, Wenrui Zhou, Runze Liu, et al.
+      <title>Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines</title>
+      <link>https://huggingface.co/papers/2510.22622</link>
+      <description>By Kangran Zhao, Xiaoyu Zhang, Yupeng Chen, Yize Chen, Weinan Guan, et al.
 
-Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D sc...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.28649</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+Audio-visual deepfakes can spread misinformation and enable impersonation, undermining trust in digital media. However, existing datasets provide limited coverage of forgery operations and their combinations, constraining detector development and systematic evaluation. We introduce Mega-MMDF, contai...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2510.22622</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Degradation of Language Models under Controlled Load: Synchronization, Rule Execution and Misfires on the Background</title>
+      <link>https://huggingface.co/papers/2611.27404</link>
+      <description>By Hennadii Kutomanov
+
+As the load grows, a language model makes more and more errors, but different processes stand behind this decline in quality. The model may lose the correspondence with the source text, it may keep its place in the text but execute a rule wrongly, or it may change a word that no rule concerns. In th...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.27404</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents</title>
@@ -89,15 +89,6 @@ Computer-use agents (CUAs) built on vision-language models are increasingly entr
 We present KMed-31B, a medical large language model post-trained from an open-weight model for on-premises deployment with limited hardware. Post-training a model for diverse medical tasks remains difficult, because improving one kind of task can lower performance on another. We attribute this to di...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.28719</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PhyCoVE: Benchmarking Physical Counterfactual Video Editing across Diverse Material Dynamics</title>
-      <link>https://huggingface.co/papers/2611.29184</link>
-      <description>By Conghan Yue, Yuanjie Chen, Yunyan Xiao, Zeyu Peng, Xingsong Ye, et al.
-
-Physical counterfactual video editing turns a source video and a language-specified physical edit at a given execution frame into a counterfactual video that shows how the scene would evolve after the edit. Existing evaluations with counterfactual target videos mainly cover object removal or specifi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.29184</guid>
-      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Can an Agent Trust Its Own Zoom? Cross-Magnification Provenance Verification for Whole-Slide Images</title>
@@ -125,60 +116,6 @@ Representation alignment markedly accelerates diffusion training, but one-step g
 Understanding a scene requires both geometry and semantics: geometry recovers its spatial structure, and semantics separates it into objects. Current models obtain the two from separate networks or separate passes. We present PINE, a one-step Omni Diffusion Transformer that predicts the point map, t...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.29389</guid>
       <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PixelOne: From Options to Pixels in a Single Forward for GUI Grounding</title>
-      <link>https://huggingface.co/papers/2611.30235</link>
-      <description>By Kanghui Tian, Shuai Dong, Yuhan Zhu, Congcong Wang, Ji Zhao, et al.
-
-GUI grounding requires precise clicks at low latency. Recent models such as GUI-Decisions and GUI-Swift predict coordinates in one forward pass using fixed global bins with local refinement. However, screenshot downsampling removes detail needed to locate small controls, while fixed bins cover large...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.30235</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Let Vision-Language Models Generate Images through Their Representations</title>
-      <link>https://huggingface.co/papers/2611.31237</link>
-      <description>By JB Kim, Byungwoo Jeon, Kyungmin Lee, Hyeonmo Kang, Cheonbok Park, et al.
-
-Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.31237</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Context-Grounded Skill Internalization for Vision-Language Agents</title>
-      <link>https://huggingface.co/papers/2611.30075</link>
-      <description>By Jinlin Liu, Yumeng He, Qihan Huang, Kevin Qinghong Lin, Han Peng
-
-Skill internalization offers a way for agents to learn useful behaviors from skills and use them without explicit guidance in context at inference time. A common approach is to generate demonstration trajectories with the skill in context and then fine-tune the same model on its own trajectories wit...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.30075</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LUCID: Statistically Grounded Self-Correction for LLM Reasoning Evaluation</title>
-      <link>https://huggingface.co/papers/2611.31595</link>
-      <description>By Satiyabooshan Murugaboopathy, Adel Daoud, Connor T. Jerzak
-
-Cheap language-model raters grade chain-of-thought reasoning at scale, yet systematic step-rating errors can skew reasoning audits and solution rankings. We introduce LUCID (Loop for Unbiased Calibration via Inference-time Diagnosis), which pairs prompt self-correction with Design-based Supervised L...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.31595</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LeadVLA: Learning Follower-Aware Route Execution for Robot Leading</title>
-      <link>https://huggingface.co/papers/2611.30149</link>
-      <description>By Tianle Zeng, Hanjing Ye, Bingyi Xia, Yuchen Zhou, Zibo Zhang, et al.
-
-Robot leading requires executing a route while continuously adapting to a designated follower. Existing robot-leading systems often mediate follower understanding and physical route execution through explicit states, planners, or modular interfaces; directly learning this coupling through end-to-end...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.30149</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis</title>
-      <link>https://huggingface.co/papers/2611.30219</link>
-      <description>By Xiaohao Sun, Angel X. Chang
-
-Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry. Methods that model scenes as sequences of object vectors learn spatial constraints implicitly, leaving collisions and boundary vi...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.30219</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays</title>
@@ -268,6 +205,24 @@ Robotic manipulation policies can improve action prediction by anticipating how 
 
 Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity. In this paper, we present FATCAT, the first physical fault-injection attacks cap...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.31129</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation</title>
+      <link>https://huggingface.co/papers/2611.31358</link>
+      <description>By Guo Chen, Fuxiao Liu, Haoqin Tu, Yiyang Zhou, Andrew Tao, et al.
+
+Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while st...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.31358</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OWE-Bench: A long-horizon benchmark for measuring real-world engineering</title>
+      <link>https://huggingface.co/papers/2611.30017</link>
+      <description>By Jacob Cole, Martin Dimakis, Victor Barres, Bertie Vidgen, Edward Hu, et al.
+
+We present OWE-Bench (OpenWorldEngineer-Bench), a benchmark of 26 long-horizon engineering tasks written by domain experts in software engineering, physical engineering, machine learning, and scientific computing. Tasks range from optimizing kernels and designing an aircraft, to identifying the faul...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.30017</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -457,6 +412,51 @@ Fine-tuning an instruction-tuned language model on new facts often erodes its ge
 
 In-context learning (ICL) lets agents acquire new rules from context and adapt to user-specific requirements at inference time. The same frontier agents now operate both computers and robots, yet their ICL remains insufficiently assessed: existing benchmarks are largely offline, rely on text or stat...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.32649</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring Layer-wise Intrinsic Dimensionality of FFNs in LLMs via PCA</title>
+      <link>https://huggingface.co/papers/2611.32782</link>
+      <description>By Daehee Kim
+
+Modern large language models (LLMs) keep the feed-forward network (FFN) intermediate width identical across every layer, a convention inherited from the original Transformer. Yet mechanistic work suggests layers at different depths do qualitatively different work, raising a natural question: are the...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.32782</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Separating Measurement Failures from Defence Failures in Split Language-Model Privacy</title>
+      <link>https://huggingface.co/papers/2611.31752</link>
+      <description>By Georgios Politis, Evangelos Pappas
+
+Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channel, align reconstructions against shifted labels, or deploy uncalibrated probes before testing a candidate defence, while calibrated attacks can also refute real defences. Separating...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.31752</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Distill to Loop: Turning Pretrained Diffusion Transformers into Looped Models with Adjustable Depth</title>
+      <link>https://huggingface.co/papers/2611.31977</link>
+      <description>By Chenru Wang, Shengwei An
+
+Looped transformers reuse one block of shared weights along the depth of the network. Recent looped diffusion transformers are trained from scratch, which repeats the full pretraining cost although strong pretrained non-looped diffusion transformers exist. We propose Distill to Loop (Dooop), which d...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.31977</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SpatialArena: Where Do Geometric Foundation Models Stand?</title>
+      <link>https://huggingface.co/papers/2611.32816</link>
+      <description>By Yu Chen, Haosen Yang, Su Ee Tan, Zhensong Zhang, Jifei Song, et al.
+
+3D perception is shifting from task-specific pipelines to geometric foundation models: monocular depth networks, feed-forward 3D/4D reconstruction models, and vision--language models that predict geometry. However, their progress cannot be measured reliably. Published numbers are not comparable, bec...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.32816</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fractal Neural Synthesis: Constant-Storage Procedural Weight Derivation via Complex Quadratic Boundary Dynamics</title>
+      <link>https://huggingface.co/papers/2611.32393</link>
+      <description>By Volkan Dagli, Zerrin Dagli, Daghan Dagli
+
+Conventional neural networks store synaptic parameters as explicit tensors whose persistent Flash footprint scales linearly (O(W)) with parameter count, constraining resource-limited edge microcontrollers. We formulate and systematically evaluate Fractal Neural Synthesis (FNS), a procedural weight d...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.32393</guid>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

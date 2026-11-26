@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 14:54:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 23:39:17 +0000</lastBuildDate>
     <item>
       <title>Negative-Only Policy Optimization for One-Sided Verifiable Rewards</title>
       <link>https://huggingface.co/papers/2611.17287</link>
@@ -46,13 +46,22 @@ Autoresearch agents, which autonomously design, run, and refine experiments, are
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Target-Part Preference Optimization for Part-Aware 3D Generation</title>
-      <link>https://huggingface.co/papers/2611.30472</link>
-      <description>By Zishan Qin, Rui Li, Zeyu Zhang, Sevvandi Kandanaarachchi, Lina Yao, et al.
+      <title>Evaluating Memanto on DolphinBench for AI Agents</title>
+      <link>https://huggingface.co/papers/2611.28231</link>
+      <description>By Suleman Khan, Rasa Rahnema, Tara Khani, Majid Fekri, Fattane Zarrinkalam
 
-Part-aware 3D generation requires not only globally plausible objects but also complete, well-separated semantic parts, yet high-quality part decompositions remain too scarce to support large-scale supervised fine-tuning. We study whether preference fine-tuning based on Direct Preference Optimizatio...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.30472</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earlier interactions and use it in a tool call. We evaluate Memanto, a memory agent ...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.28231</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Look Back: Reinforcement Learning with Counterfactual World Models</title>
+      <link>https://huggingface.co/papers/2611.29259</link>
+      <description>By Jinwoo Kim, Toghrul Abbasov, Lucius E. J. Bynum, Aahlad Puli, Stephanie Milani, et al.
+
+Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We hypothesize that, compared to imagining entirely new trajectories in such complex environments, it can be ea...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.29259</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Beyond Self-Consistency: Recursive Self-Improvement at Test Time</title>
@@ -89,33 +98,6 @@ Recent unified multimodal models aim to combine visual understanding and generat
 Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving stateof-the-art performance. Notabl...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.30334</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents</title>
-      <link>https://huggingface.co/papers/2611.33144</link>
-      <description>By Feixiang Ruan, Guodong Lv, Kewei Zhang, Wenbo Huang, Yintianrun Zhang, et al.
-
-Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.33144</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification</title>
-      <link>https://huggingface.co/papers/2611.33143</link>
-      <description>By Xingjian Ran, Xiaoye Mo, Sihao Liu, Li Luo, Taiqiang Wu, et al.
-
-Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities unde...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.33143</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Loupe: Reinforcing Knowledge-Intensive Video Generation Agents</title>
-      <link>https://huggingface.co/papers/2611.31895</link>
-      <description>By Kai Zeng, Ruichuan An, Zhen Fang, Xi Fang, Han Lyu, et al.
-
-Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation. While search-based workflows can retrieve missing evidence, manually designed strategies limit adaptive planning, and conventional ...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.31895</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>OmniPersist: Persistent Dynamic World Modeling via Coupled Panoramic Evolution</title>
@@ -181,22 +163,13 @@ Panoramic cameras capture nearly the entire spherical field of view in a single 
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation</title>
-      <link>https://huggingface.co/papers/2611.33915</link>
-      <description>By Zeyang Guan, Qihao Zhao, Rui Gong, Zhang Haitian, Yalun Dai, et al.
+      <title>AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design</title>
+      <link>https://huggingface.co/papers/2611.33093</link>
+      <description>By Guangyuan Wang, Chengran Li, Minchen Luo, Jichen Feng, Mengdi Wang, et al.
 
-General-purpose multimodal foundation models enable robots to adapt during deployment from observations and execution feedback, without task-specific demonstrations or training. However, the robot retains what it learns only in the model's working context. Once the task ends, it loses this execution...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.33915</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CONCOR: Benchmarking Contrastive Decoding for Visual Hallucination Mitigation Beyond Final-Output Performance</title>
-      <link>https://huggingface.co/papers/2611.30460</link>
-      <description>By Ting Chen, Geng Li, Guohao Chen, Hanjia Lyu
-
-Contrastive decoding (CD) mitigates object hallucination in multimodal large language models (MLLMs) by contrasting token distributions under different conditions to adjust token scores. However, existing generative and discriminative benchmarks primarily measure final task scores, which can be conf...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.30460</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardwa...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.33093</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations</title>
@@ -457,6 +430,33 @@ Group-based reinforcement learning with verifiable rewards often yields all-fail
 
 Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave model...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.34147</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WorldBridge: Bridging Scattered Views for Coherent 3D World Generation</title>
+      <link>https://huggingface.co/papers/2611.34079</link>
+      <description>By Weilong Yan, Jingyu Hu, Hongli Xu, Yifan Zhan, Beibei Lin, et al.
+
+Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions b...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.34079</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts</title>
+      <link>https://huggingface.co/papers/2611.28732</link>
+      <description>By Chendong Xiang, Chengwen Zhang, Ruowen Zhao, Zeyuan Wang, Shuhe Huang, et al.
+
+In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two chal...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.28732</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL</title>
+      <link>https://huggingface.co/papers/2611.34363</link>
+      <description>By Shreshth Rai, Rishii Kumar Singh, Aksh Aggarwal
+
+Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidd...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.34363</guid>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 07:54:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 18:01:20 +0000</lastBuildDate>
     <item>
       <title>Evaluation-Free Recursive Self-Improvement for Coding Agents</title>
       <link>https://huggingface.co/papers/2611.21056</link>
@@ -52,6 +52,15 @@ Autoresearch agents, which autonomously design, run, and refine experiments, are
 
 Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earlier interactions and use it in a tool call. We evaluate Memanto, a memory agent ...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.28231</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries</title>
+      <link>https://huggingface.co/papers/2611.27112</link>
+      <description>By Sandeep Dhuri
+
+Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules file do at a boundary, against a gate? I tested one 278-word rules file, with hyp...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.27112</guid>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -154,6 +163,33 @@ A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multipl
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion</title>
+      <link>https://huggingface.co/papers/2611.31516</link>
+      <description>By Simon Weber, Mateo de Mayo, Je Hyeong Hong, Carl Olsson, Daniel Cremers, et al.
+
+Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimation is assumed. While recent methods optimize surroga...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.31516</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Revisiting LLMs as Context Engineers</title>
+      <link>https://huggingface.co/papers/2611.30494</link>
+      <description>By Junrui Zhang, Zeyu Xu, Runchuan Zhu, Jie Peng, Long Zhang, et al.
+
+As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task b...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.30494</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models</title>
+      <link>https://huggingface.co/papers/2611.30723</link>
+      <description>By Y. Lu, L. Wang, S. Okada
+
+Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation th...</description>
+      <guid isPermaLink="true">https://huggingface.co/papers/2611.30723</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Playfulness as Feedback for Agentic Game Development</title>
       <link>https://huggingface.co/papers/2611.33457</link>
       <description>By Weijia Mao, Kevin Qinghong Lin, Zhen Fang, Danze Chen, Dongxing Mao, et al.
@@ -233,42 +269,6 @@ Structured clinical decisions from volumetric computed tomography (CT) require a
 Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a policy is reliable only from a limited set of start states, while the agent may inv...</description>
       <guid isPermaLink="true">https://huggingface.co/papers/2611.32238</guid>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts</title>
-      <link>https://huggingface.co/papers/2611.34466</link>
-      <description>By Yurun Chen, Biao Yi, Qihang Yu, Keting Yin, Shengyu Zhang
-
-AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, a...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.34466</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE</title>
-      <link>https://huggingface.co/papers/2611.34912</link>
-      <description>By Jiachen An, Sijie Zhao, Le Li, Hongyu Liu, Zhiyuan Li, et al.
-
-While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attention, and most focus o...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.34912</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation</title>
-      <link>https://huggingface.co/papers/2611.34064</link>
-      <description>By Zesong Yang, Weikai Chen, Liyuan Cui, Yuan Li, Jiaxin Huang, et al.
-
-We present SPARC, a geometry-guided attention pruning framework that turns the native self-attention of pretrained video diffusion transformers into a unified mechanism for camera control and persistent scene memory. Our key insight is that attention connectivity can simultaneously serve as geometri...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.34064</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures</title>
-      <link>https://huggingface.co/papers/2611.33925</link>
-      <description>By Zhiyue Zhao, Mingyu Liu, Bolin Zhang, Liyang Li, Guangyu Huang, et al.
-
-Robot world models are increasingly used to evaluate and plan policies, yet robot training data are dominated by successful demonstrations. Off the happy path, when a grasp is misaligned or mistimed and the object is pushed, tilted, or slips, their predictions break down. Across five pretrained acti...</description>
-      <guid isPermaLink="true">https://huggingface.co/papers/2611.33925</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mixture-of-Loops Transformer</title>
